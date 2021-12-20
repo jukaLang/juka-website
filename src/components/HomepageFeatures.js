@@ -1,46 +1,45 @@
 import React from 'react';
 import clsx from 'clsx';
 import styles from './HomepageFeatures.module.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCoffee } from '@fortawesome/free-solid-svg-icons'
+import {faFacebook} from "@fortawesome/free-brands-svg-icons";
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('../../static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Our Community',
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+          Join our ever growing Juka community (<a target="_blank" href="https://teams.microsoft.com/join/y6rcztsp6s9z">link</a>). We use "Microsoft Teams" for managing the community as it provides an easy way to stay connected. In order to join the community, you should click and register with Microsoft Teams: Microsoft Teams Invitation Form If you already have an account, just join the "Juka Programming Language" group. It's public and anyone can join!
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('../../static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Contribute to the Source',
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+          Juka is built by the community, for the community. Please consider contributing to the Juka GitHub repository at <a target="_blank" href="https://github.com/jukaLang">https://github.com/jukaLang</a> When you create new features, please follow the guidelines specified in the project documentation.
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('../../static/img/undraw_docusaurus_react.svg').default,
+    title: 'Social Media',
     description: (
-      <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
-      </>
+        <>
+            Teams: <a target="_blank" href="https://teams.microsoft.com/join/y6rcztsp6s9z">(link)</a><br/>
+            Twitter: <a target="_blank" href="https://twitter.com/jukaLang">@jukaLang</a><br/>
+            Facebook: <a target="_blank" href="https://www.facebook.com/jukalang/">@jukalang</a><br/>
+            Instagram: <a target="_blank" href="https://www.instagram.com/jukalanguage/">@jukalanguage/</a>
+        </>
     ),
   },
 ];
 
-function Feature({Svg, title, description}) {
+
+
+function Feature({fontawesome, title, description}) {
   return (
     <div className={clsx('col col--4')}>
-      <div className="text--center">
-        <Svg className={styles.featureSvg} alt={title} />
-      </div>
       <div className="text--center padding-horiz--md">
         <h3>{title}</h3>
         <p>{description}</p>

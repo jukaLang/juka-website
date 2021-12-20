@@ -1,41 +1,27 @@
-# Website
+# Juka Programming Language
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+Juka Programming Language website is built on top of [Docusaurus 2](https://docusaurus.io/).
+Feel free to contribute to our website!
+Any help is appreciated!
 
-### Installation
+### Local Deployment
+
+#### Requirements
+```
+Node.js version >= 14
+Yarn v1.5+
+```
+
+Run the following command to deploy the server locally:
+```
+npm run start
+```
+
+or
 
 ```
-$ yarn
-```
-
-### Local Development
-
-```
-$ yarn start
+npx docusaurus start
 ```
 
 This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
 
-### Build
-
-```
-$ yarn build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-### Deployment
-
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
