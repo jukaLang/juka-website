@@ -32,6 +32,10 @@ const config = {
           editUrl:
             'https://github.com/jukaLang/juka-website/blob/main',
         },
+        googleAnalytics: {
+          trackingID: 'G-YS9ZE4F6MH',
+          anonymizeIP: true,
+        },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
