@@ -16,8 +16,12 @@
   --ifm-code-font-size: 95%;
   --ifm-link-color: rgb(200,33,33);
   --ifm-footer-link-hover-color: yellowgreen;
-  --ifm-menu-color-active: yellowgreen;
+  --ifm-menu-color-active: rgb(200,33,33);
   --ifm-font-color-base: #333447;
+}
+
+.navbar__link:hover, .navbar__link--active, .navbar__brand:hover{
+  color:rgb(200,33,33);
 }
 
 .docusaurus-highlight-code-line {
@@ -39,6 +43,14 @@ a:hover{
   color: yellowgreen;
 }
 
-html[data-theme='dark'] .hero{
+html[data-theme='dark'] .container, html[data-theme='dark'] nav,  html[data-theme='dark'] nav a{
   color:white;
+}
+
+html[data-theme='dark'] a.menu__link--active{
+  color: rgb(200,33,33);
+}
+
+.hero__title{
+  font-size: 2.5em;
 }

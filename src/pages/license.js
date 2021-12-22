@@ -9,7 +9,7 @@ function HomepageHeader() {
     const {siteConfig} = useDocusaurusContext();
     return (
         <header>
-            <div className={styles.license}>
+            <div className={styles.license}>{`
                 Juka's AGPL GNU License
                 Version 1.1 2021 by Juka Team
 
@@ -661,7 +661,7 @@ function HomepageHeader() {
     GNU Affero General Public License for more details.
 
     You should have received a copy of the GNU Affero General Public License
-    along with this program.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 Also add information on how to contact you by electronic and paper mail.
 
@@ -676,8 +676,8 @@ specific requirements.
   You should also get your employer (if you work as a programmer) or school,
 if any, to sign a "copyright disclaimer" for the program, if necessary.
 For more information on this, and how to apply and follow the GNU AGPL, see
-                &lt;http://www.gnu.org/licenses/&gt;.
-            </div>
+                 <http://www.gnu.org/licenses/>.
+            `}</div>
         </header>
     );
 }

@@ -29,9 +29,9 @@ function HomepageHeader() {
             <br/>
           <h2>
               Follow us on:<br/>
-              <a style={{color:"#fff"}} target="_blank" href="https://www.facebook.com/jukalang/"><FontAwesomeIcon icon={faFacebook}  fixedWidth/> Facebook: @jukalang</a><br/>
-              <a style={{color:"#fff"}} target="_blank" href="https://twitter.com/jukaLang/"><FontAwesomeIcon icon={faTwitter} fixedWidth/> Twitter: @jukaLang</a><br/>
-              <a style={{color:"#fff"}} target="_blank" href="https://www.instagram.com/jukalanguage/"><FontAwesomeIcon icon={faInstagram} fixedWidth/> Instagram: @jukalanguage</a>
+              <a style={{color:"#fff"}} target="_blank" href="https://www.facebook.com/jukalang/"><FontAwesomeIcon icon={faFacebook}  fixedWidth/>Facebook: @jukalang</a><br/>
+              <a style={{color:"#fff"}} target="_blank" href="https://twitter.com/jukaLang/"><FontAwesomeIcon icon={faTwitter} fixedWidth/>Twitter: @jukaLang</a><br/>
+              <a style={{color:"#fff"}} target="_blank" href="https://www.instagram.com/jukalanguage/"><FontAwesomeIcon icon={faInstagram} fixedWidth/>Instagram: @jukalanguage</a>
           </h2>
 
       </div>
@@ -44,7 +44,7 @@ export default function Home() {
   return (
     <Layout
       title={`${siteConfig.title}`}
-      description="Juka Programming Language - language of the future">
+      description="Juka Programming Language - Language of the future">
       <HomepageHeader />
       <main>
 
