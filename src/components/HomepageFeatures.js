@@ -2,12 +2,12 @@ import React from 'react';
 import clsx from 'clsx';
 import styles from './HomepageFeatures.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCoffee } from '@fortawesome/free-solid-svg-icons'
-import {faFacebook} from "@fortawesome/free-brands-svg-icons";
+import { faCode, faUserFriends,faCoffee } from '@fortawesome/free-solid-svg-icons'
 
 const FeatureList = [
   {
     title: 'Our Community',
+      faIcon: {faUserFriends}.faUserFriends,
     description: (
       <>
           Join our ever growing Juka community (<a target="_blank" href="https://teams.microsoft.com/join/y6rcztsp6s9z">link</a>). We use "Microsoft Teams" for managing the community as it provides an easy way to stay connected. In order to join the community, you should click and register with Microsoft Teams: Microsoft Teams Invitation Form If you already have an account, just join the "Juka Programming Language" group. It's public and anyone can join!
@@ -16,6 +16,7 @@ const FeatureList = [
   },
   {
     title: 'Contribute to the Source',
+      faIcon: {faCode}.faCode,
     description: (
       <>
           Juka is built by the community, for the community. Please consider contributing to the Juka GitHub repository at <a target="_blank" href="https://github.com/jukaLang">https://github.com/jukaLang</a> When you create new features, please follow the guidelines specified in the project documentation.
@@ -24,6 +25,7 @@ const FeatureList = [
   },
   {
     title: 'Social Media',
+      faIcon: {faCoffee}.faCoffee,
     description: (
         <>
             Teams: <a target="_blank" href="https://teams.microsoft.com/join/y6rcztsp6s9z">(link)</a><br/>
@@ -37,10 +39,13 @@ const FeatureList = [
 
 
 
-function Feature({fontawesome, title, description}) {
+function Feature({title, faIcon, description}) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center padding-horiz--md">
+
+          <FontAwesomeIcon icon={faIcon} className={styles.fontawe}  />
+        <br/><br/>
         <h3>{title}</h3>
         <p>{description}</p>
       </div>

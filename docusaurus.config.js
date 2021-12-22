@@ -52,6 +52,16 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      image: 'img/juka.png',
+      metadata: [{name: 'twitter:card', content: 'A new programming language built on top of .NET Framework! Visit our official page at http://jukaLang.com Got a question? Connect with us via Teams or Twitter'}],
+      announcementBar: {
+        id: 'support_us',
+        content:
+            'We need help creating the docs. Please consider contributing to the documentation at <a target="_blank"  href="http://github.com/JukaLang/juka-documentation">http://github.com/JukaLang/juka-documentation</a>',
+        backgroundColor: '#ddd',
+        textColor: '#091E42',
+        isCloseable: false,
+      },
       navbar: {
         title: 'Juka Programming Language',
         logo: {
@@ -111,6 +121,10 @@ const config = {
               {
                 label: 'Privacy',
                 to: '/privacy',
+              },
+              {
+                label: 'License',
+                to: '/license',
               },
               {
                 label: 'GitHub Source',
