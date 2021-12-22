@@ -10,7 +10,7 @@ function HomepageHeader() {
     const {siteConfig} = useDocusaurusContext();
     return (
         <header>
-        <div  style={{marginLeft: 10 + 'em'}}><h1>Privacy Policy</h1><p>Effective date: December 19,
+        <div  style={{marginLeft: 1 + 'em'}}><h1>Privacy Policy</h1><p>Effective date: December 19,
             2021</p><p>Juka ("us", "we", or "our") operates the https://jukalang.com website (the "Service").</p><p>This
             page informs you of our policies regarding the collection, use, and disclosure of personal data when you use
             our Service and the choices you have associated with that data. Our Privacy Policy for Juka is created with
