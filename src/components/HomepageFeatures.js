@@ -28,7 +28,7 @@ const FeatureList = [
       faIcon: {faCoffee}.faCoffee,
     description: (
         <>
-            Teams: <a target="_blank" href="https://teams.microsoft.com/join/y6rcztsp6s9z">(link)</a><br/>
+            MS Teams: <a target="_blank" href="https://teams.microsoft.com/join/y6rcztsp6s9z">(link)</a><br/>
             Twitter: <a target="_blank" href="https://twitter.com/jukaLang">@jukaLang</a><br/>
             Facebook: <a target="_blank" href="https://www.facebook.com/jukalang/">@jukalang</a><br/>
             Instagram: <a target="_blank" href="https://www.instagram.com/jukalanguage/">@jukalanguage/</a>
