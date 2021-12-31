@@ -22,7 +22,6 @@
   justify-content: center;
 }
 
-CodeBlock{
-  text-align:left;
-
+.maincodeblock{
+  text-align: left;
 }

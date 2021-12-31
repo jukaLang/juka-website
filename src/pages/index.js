@@ -37,9 +37,10 @@ function HomepageHeader() {
           </h2>
 
     <br/><br/>
-          <CodeBlock className="language-jsx" title="./HelloWorld.juka">{`function main() = {
-            printLine("Hello World");`+
-`}`}</CodeBlock>
+          <CodeBlock className={`language-jsx ${styles.maincodeblock}`} title="./HelloWorld.juka">{`function main() = {
+    // Print Hello World
+    printLine("Hello World");
+}`}</CodeBlock>
       </div>
     </header>
   );
