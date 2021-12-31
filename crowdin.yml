@@ -3,5 +3,5 @@ files:
     translation: /i18n/%two_letters_code%/docusaurus-plugin-content-docs/current/**/%original_file_name%'
   - source: /blog/**/*
     translation: /i18n/%two_letters_code%/docusaurus-plugin-content-blog/**/%original_file_name%
-  - source: /src/**/*
+  - source: /i18n/en/**/*
     translation: /i18n/%two_letters_code%/**/%original_file_name%

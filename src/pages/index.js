@@ -23,7 +23,7 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="https://teams.microsoft.com/join/y6rcztsp6s9z">
-            Join our Microsoft Teams channel
+            <Translate>Join our Microsoft Teams channel</Translate>
           </Link>
 
         </div>
@@ -54,10 +54,9 @@ export default function Home() {
       description="Juka Programming Language - Language of the future">
       <HomepageHeader />
       <main>
-          <Translate>
+
         <HomepageFeatures />
           <SpecialThanks />
-          </Translate>
       </main>
     </Layout>
   );
