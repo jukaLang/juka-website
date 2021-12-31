@@ -7,7 +7,7 @@ import styles from './index.module.css';
 import HomepageFeatures from '../components/HomepageFeatures';
 import SpecialThanks from '../components/SpecialThanks';
 import CodeBlock from '@theme/CodeBlock';
-
+import Translate, {translate} from '@docusaurus/Translate';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebook,faTwitter,faInstagram } from '@fortawesome/free-brands-svg-icons'
@@ -54,10 +54,10 @@ export default function Home() {
       description="Juka Programming Language - Language of the future">
       <HomepageHeader />
       <main>
-
+          <Translate>
         <HomepageFeatures />
           <SpecialThanks />
-
+          </Translate>
       </main>
     </Layout>
   );

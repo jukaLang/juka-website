@@ -22,6 +22,10 @@ const config = {
       systemvars: true, // Set to true if you would rather load all system variables as well (useful for CI purposes)
     }]
   ],
+  i18n: {
+    defaultLocale: 'en',
+    locales: ['en', 'fr'],
+  },
   presets: [
     [
       'classic',
@@ -63,7 +67,7 @@ const config = {
         contextualSearch: true,
       },
       image: 'img/juka.png',
-      metadata: [{name: 'twitter:card', content: 'A new programming language built on top of .NET Framework! Visit our official page at http://jukaLang.com Got a question? Connect with us via Teams or Twitter'}],
+      metadata: [{name: 'keywords', content: 'juka,programming,language,future'},{name: 'twitter:card', content: 'A new programming language built on top of .NET Framework! Visit our official page at http://jukaLang.com Got a question? Connect with us via Teams or Twitter'}],
       announcementBar: {
         id: 'support_us',
         content:
@@ -84,6 +88,10 @@ const config = {
             docId: 'intro',
             position: 'left',
             label: 'Docs',
+          },
+          {
+            type: 'localeDropdown',
+            position: 'right',
           },
           {
             href: 'https://github.com/jukaLang/juka',
