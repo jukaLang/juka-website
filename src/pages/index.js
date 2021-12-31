@@ -5,6 +5,8 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from './index.module.css';
 import HomepageFeatures from '../components/HomepageFeatures';
+import SpecialThanks from '../components/SpecialThanks';
+import CodeBlock from '@theme/CodeBlock';
 
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -34,6 +36,10 @@ function HomepageHeader() {
               <a style={{color:"#fff"}} target="_blank" href="https://www.instagram.com/jukalanguage/"><FontAwesomeIcon icon={faInstagram} fixedWidth/>Instagram: @jukalanguage</a>
           </h2>
 
+    <br/><br/>
+          <CodeBlock className="language-jsx" title="./HelloWorld.juka">{`function main() = {
+            printLine("Hello World");`+
+`}`}</CodeBlock>
       </div>
     </header>
   );
@@ -49,6 +55,7 @@ export default function Home() {
       <main>
 
         <HomepageFeatures />
+          <SpecialThanks />
 
       </main>
     </Layout>

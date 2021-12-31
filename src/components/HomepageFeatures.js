@@ -2,7 +2,7 @@ import React from 'react';
 import clsx from 'clsx';
 import styles from './HomepageFeatures.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCode, faUserFriends,faCoffee } from '@fortawesome/free-solid-svg-icons'
+import { faCode, faUserFriends,faCoffee, faCloud, faNetworkWired,faProjectDiagram } from '@fortawesome/free-solid-svg-icons'
 
 const FeatureList = [
   {
@@ -35,6 +35,35 @@ const FeatureList = [
         </>
     ),
   },
+    {
+        title: 'Run on Any Device',
+        faIcon: {faProjectDiagram}.faProjectDiagram,
+        description: (
+            <>
+                Juka is built on top of .NET framework. This means that Juka can run on many platforms
+                including Windows, Linux, MacOS (coming soon), iOS/iPadOS (coming soon) and Android.
+            </>
+        ),
+    },
+    {
+        title: 'Run in the Cloud',
+        faIcon: {faCloud}.faCloud,
+        description: (
+            <>
+                You can run Juka on Microsoft's Azure Server by using Juka's built-in Azure Function .
+            </>
+        ),
+    },
+    {
+        title: 'Decentralized Package Manager ',
+        faIcon: {faNetworkWired}.faNetworkWired,
+        description: (
+            <>
+                All packages are hosted on a blockchain in a decentralized manner. <b>Coming Soon...</b>
+            </>
+        ),
+    },
+
 ];
 
 
