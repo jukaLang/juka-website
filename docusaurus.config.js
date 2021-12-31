@@ -52,6 +52,16 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      algolia: {
+        // If Algolia did not provide you any appId, use 'BH4D9OD16A'
+        appId: 'OHOBHCUZB6',
+
+        // Public API key: it is safe to commit it
+        apiKey: '370868239a1138491290c15e40d0bf1c',
+
+        indexName: 'juka',
+        contextualSearch: true,
+      },
       image: 'img/juka.png',
       metadata: [{name: 'twitter:card', content: 'A new programming language built on top of .NET Framework! Visit our official page at http://jukaLang.com Got a question? Connect with us via Teams or Twitter'}],
       announcementBar: {
