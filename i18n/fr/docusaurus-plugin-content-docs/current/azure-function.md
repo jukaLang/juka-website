@@ -2,12 +2,12 @@
 sidebar_position: 2
 ---
 
-# Azure Function
+# Fonction Azure
 
-- Open up Juka.sln
-- Run DreamUnitTests using Test->Run->All Tests to make sure all tests are passed.
-- Click "Start AzureJukaFunction" button which will run an Azure emulator locally.
-- Use Postman to send functions to the Azure server in "body" as raw request in the following format:
+- Ouvrir Juka.sln
+- Exécutez DreamUnitTests en utilisant Test->Run->Tous les tests pour vous assurer que tous les tests sont passés.
+- Cliquez sur le bouton "Start AzureJukaFunction" qui lancera un émulateur Azure localement.
+- Utilisez Postman pour envoyer des fonctions au serveur Azure dans "body" comme requête brute dans le format suivant :
 ```json
 {
     "code": "function main() = {}"
