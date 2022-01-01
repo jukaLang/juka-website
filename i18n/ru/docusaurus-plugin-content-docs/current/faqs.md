@@ -2,18 +2,18 @@
 sidebar_position: 999
 ---
 
-# FAQs
+# ЧАВО
 
 
 
-## Q: Does Juka work on Linux?
+## В: Работает ли Juka над Linux?
 
-Juka is built on top of .NET 6.0 library which is compatible with Windows, Linux, and Macintosh. We also plan to support mobile platforms such as Android and iOS/iPadOS. Juka will also run on Azure server as serverless function allowing any device connected to the internet to run Juka (granted that they support http protocol)
+Juka построена поверх библиотеки .NET 6.0, которая совместима с Windows, Linux и Macintosh. Мы также планируем поддерживать мобильные платформы, такие как Android и iOS/iPadOS. Juka также будет работать на сервере Azure как безсерверная функция, позволяющая любому устройству, подключенному к интернету для запуска Juka (при условии, что они поддерживают http протокол)
 
-## Q: What is Juka used for?
+## В: Для чего используется Juka?
 
-Juka Programming Language is still in early stages. However, we plan to make it an easy-to-use language that takes advantage of Microsoft Environment.
+Juka Programming Language все еще находится на ранних стадиях. Однако, мы планируем сделать его простым в использовании языком , который использует среду Microsoft.
 
-## Q: Could this language help me in _?
+## В: Могут ли эти языки помочь мне в _?
 
-It might. The language is still in early stages, but we are looking for active members.
+Это может показаться. Язык все еще находится на ранней стадии, но мы ищем активных членов.

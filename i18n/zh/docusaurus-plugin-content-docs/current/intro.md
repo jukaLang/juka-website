@@ -2,21 +2,21 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# 教程简介
 
-Juka's goal is to be a universal programming language that can run on any platform. Juka is being built on top of .NET network and runs on any platform that supports .NET.
+朱卡的目标是成为一种能够在任何平台上运行的通用编程语言。 Juka 正在建立在.NET网络顶部，并在任何支持.NET的平台上运行。
 
-Juka can be run as a function for Microsoft's Azure Cloud Server. Juka can also compile programs into executables.
+Juka 可以作为Microsoft Azure Cloud Server的函数运行。 Juka还可以将程序编入可执行文件。
 
-### Downloading Juka
-Latest Juka version can be found at https://github.com/jukaLang/juka/releases
+### 正在下载 Juka
+最新的 Juka 版本可在 https://github.com/jukaLang/juka/releases
 
-Juka's source can be downloaded at https://github.com/jukaLang/juka
+Juka源可在 https://github.com/jukaLang/juka 下载。
 
-## Running Juka
-Juka can be run on a Microsoft Azure's cloud, or it can be run as a standalone application
+## 正在运行Juka
+Juka 可以在Microsoft Azure的云上运行， 或者可以作为独立的应用程序运行
 
-## Contributing
-- Create a new branch, work on it, and create a pull request once you are done working on the feature.
+## 贡献中
+- 创建一个新分支，工作并在完成功能后创建一个拉取请求。
 
-Click next to get started
+点击旁边开始

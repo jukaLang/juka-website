@@ -2,16 +2,16 @@
 sidebar_position: 3
 ---
 
-# Writing your first application
+# Escribiendo tu primera aplicación
 
-## Hello World
+## Hola mundo
 ```
-function main() =  {
+function main() = {
    printLine("foo");
 }
 ```
 
-## If condition
+## Si condición
 ```
 function main()={
     if ( 2<3 ) 
@@ -25,7 +25,7 @@ function main()={
 }
 ```
 
-## While Loop
+## Mientras bucle
 ```
 function foo() = {
     int x = 3;
