@@ -2,30 +2,30 @@
 sidebar_position: 3
 ---
 
-# Writing your first application
+# Écriture de votre première application
 
-## Hello World
+## Bonjour le monde
 ```
-function main() =  {
+function main() = {
    printLine("foo");
 }
 ```
 
-## If condition
+## Si condition
 ```
 function main()={
     if ( 2<3 ) 
     {
         printLine("foo");
     }
-    else if (true)
+    sinon si (vrai)
     {
         print('c');
     }
 }
 ```
 
-## While Loop
+## Boucle Tant que
 ```
 function foo() = {
     int x = 3;
