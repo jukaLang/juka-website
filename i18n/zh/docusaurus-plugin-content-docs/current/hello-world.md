@@ -2,37 +2,37 @@
 sidebar_position: 3
 ---
 
-# Writing your first application
+# 正在写入您的第一个应用程序
 
 ## Hello World
 ```
-function main() =  {
+function main() =
    printLine("foo");
 }
 ```
 
-## If condition
+## 如果条件
 ```
-function main()={
+function main()=
     if ( 2<3 ) 
-    {
+    }
         printLine("foo");
     }
-    else if (true)
-    {
+    否则(true)
+    *
         print('c');
     }
 }
 ```
 
-## While Loop
+## 当循环
 ```
-function foo() = {
-    int x = 3;
+function foo() = 当中，
+    int x = 3；
     while (x<=4)
-    {
-        x++;
-        print(x);
+    哇，
+        x++；
+        print(x)；
     }
 }
 ```
