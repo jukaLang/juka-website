@@ -1,26 +1,26 @@
 {
   "link.title.Docs": {
-    "message": "Docs",
+    "message": "文档",
     "description": "The title of the footer links column with title=Docs in the footer"
   },
   "link.title.Community": {
-    "message": "Community",
+    "message": "社区",
     "description": "The title of the footer links column with title=Community in the footer"
   },
   "link.title.More": {
-    "message": "More",
+    "message": "更多",
     "description": "The title of the footer links column with title=More in the footer"
   },
   "link.item.label.Tutorial": {
-    "message": "Tutorial",
+    "message": "教程",
     "description": "The label of footer link with label=Tutorial linking to /docs/intro"
   },
   "link.item.label.Microsoft Teams": {
-    "message": "Microsoft Teams",
+    "message": "Microsoft 团队",
     "description": "The label of footer link with label=Microsoft Teams linking to https://teams.microsoft.com/join/y6rcztsp6s9z"
   },
   "link.item.label.Twitter": {
-    "message": "Twitter",
+    "message": "推特",
     "description": "The label of footer link with label=Twitter linking to https://twitter.com/jukaLang"
   },
   "link.item.label.Facebook": {
@@ -32,11 +32,11 @@
     "description": "The label of footer link with label=Instagram linking to https://www.instagram.com/jukalanguage/"
   },
   "link.item.label.Privacy": {
-    "message": "Privacy",
+    "message": "隐私",
     "description": "The label of footer link with label=Privacy linking to /privacy"
   },
   "link.item.label.License": {
-    "message": "License",
+    "message": "许可协议",
     "description": "The label of footer link with label=License linking to /license"
   },
   "link.item.label.GitHub Source": {
@@ -44,7 +44,7 @@
     "description": "The label of footer link with label=GitHub Source linking to https://github.com/jukaLang/juka"
   },
   "copyright": {
-    "message": "Copyright © 2021 Juka Programming Language",
+    "message": "版权 © 2021 Juka 编程语言",
     "description": "The footer copyright"
   }
 }
