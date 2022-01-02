@@ -235,27 +235,27 @@
     "description": "The title of the tag list page"
   },
   "Join our ever growing Juka community": {
-    "message": "Join our ever growing Juka community"
+    "message": "加入我们不断增长的胡卡社区"
   },
   "We use \"Microsoft Teams\" for managing the community as it provides an easy way to stay connected. In order to join the community, you should click and register with Microsoft Teams: Microsoft Teams Invitation Form If you already have an account, just join the \"Juka Programming Language\" group. It's public and anyone can join!": {
-    "message": "We use \"Microsoft Teams\" for managing the community as it provides an easy way to stay connected. In order to join the community, you should click and register with Microsoft Teams: Microsoft Teams Invitation Form If you already have an account, just join the \"Juka Programming Language\" group. It's public and anyone can join!"
+    "message": "我们使用 \"Microsoft Teams\" 来管理社区，因为它提供了保持连接的简单方法。 为了加入社区，您应该点击微软团队注册：Microsoft Teams邀请表单，如果您已经有一个帐户。 只需加入\"Juka编程语言\"小组。 它是公开的，任何人都可以加入！"
   },
   "Juka is built by the community, for the community. Please consider contributing to the Juka GitHub repository at": {
-    "message": "Juka is built by the community, for the community. Please consider contributing to the Juka GitHub repository at"
+    "message": "Juka 是由社区为社区建造的。请考虑为Juka GitHub 仓库做出贡献"
   },
   "When you create new features, please follow the guidelines specified in the project documentation.": {
-    "message": "When you create new features, please follow the guidelines specified in the project documentation."
+    "message": "当您创建新功能时，请遵循项目文档中指定的指南。"
   },
   "Juka is built on top of .NET framework. This means that Juka can run on many platforms including Windows, Linux, MacOS (coming soon), iOS/iPadOS (coming soon) and Android.": {
-    "message": "Juka is built on top of .NET framework. This means that Juka can run on many platforms including Windows, Linux, MacOS (coming soon), iOS/iPadOS (coming soon) and Android."
+    "message": "Juka是建立在.NET框架顶部的。 这意味着Juka可以在许多平台上运行，包括Windows、Linux、MacOS (即将来临)、iOS/iPadOS (即将来临)和Android。"
   },
   "You can run Juka on Microsoft's Azure Server by using Juka's built-in Azure Function.": {
-    "message": "You can run Juka on Microsoft's Azure Server by using Juka's built-in Azure Function."
+    "message": "您可以使用 Juka 内置的 Azure 功能在 Microsoft 的 Azure 服务器上运行 Juka 。"
   },
   "All packages are hosted on a blockchain in a decentralized manner. Coming Soon...": {
-    "message": "All packages are hosted on a blockchain in a decentralized manner. Coming Soon..."
+    "message": "所有软件包都以分散方式托管在区块链上。即将来临..."
   },
   "Special Thanks For The Software Provided By:": {
-    "message": "Special Thanks For The Software Provided By:"
+    "message": "特别感谢软件提供者："
   }
 }

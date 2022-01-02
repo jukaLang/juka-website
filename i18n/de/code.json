@@ -235,27 +235,27 @@
     "description": "The title of the tag list page"
   },
   "Join our ever growing Juka community": {
-    "message": "Join our ever growing Juka community"
+    "message": "Trete unserer ständig wachsenden Juka-Community bei"
   },
   "We use \"Microsoft Teams\" for managing the community as it provides an easy way to stay connected. In order to join the community, you should click and register with Microsoft Teams: Microsoft Teams Invitation Form If you already have an account, just join the \"Juka Programming Language\" group. It's public and anyone can join!": {
-    "message": "We use \"Microsoft Teams\" for managing the community as it provides an easy way to stay connected. In order to join the community, you should click and register with Microsoft Teams: Microsoft Teams Invitation Form If you already have an account, just join the \"Juka Programming Language\" group. It's public and anyone can join!"
+    "message": "Wir verwenden \"Microsoft-Teams\" für die Verwaltung der Gemeinschaft, da sie eine einfache Möglichkeit bietet, die Verbindung zu halten. Um der Community beizutreten, solltest du auf Microsoft Teams klicken und dich registrieren: Microsoft Teams Einladungsformular Wenn du bereits ein Konto hast Mitglied der \"Juka Programming Language\" Gruppe. Es ist öffentlich und jeder kann beitreten!"
   },
   "Juka is built by the community, for the community. Please consider contributing to the Juka GitHub repository at": {
-    "message": "Juka is built by the community, for the community. Please consider contributing to the Juka GitHub repository at"
+    "message": "Juka wurde von der Community für die Community gebaut. Bitte denke daran, zum Juka GitHub Repository beizutragen auf"
   },
   "When you create new features, please follow the guidelines specified in the project documentation.": {
-    "message": "When you create new features, please follow the guidelines specified in the project documentation."
+    "message": "Wenn Sie neue Funktionen erstellen, folgen Sie bitte den in der Projektdokumentation angegebenen Richtlinien."
   },
   "Juka is built on top of .NET framework. This means that Juka can run on many platforms including Windows, Linux, MacOS (coming soon), iOS/iPadOS (coming soon) and Android.": {
-    "message": "Juka is built on top of .NET framework. This means that Juka can run on many platforms including Windows, Linux, MacOS (coming soon), iOS/iPadOS (coming soon) and Android."
+    "message": "Juka ist auf .NET Framework aufgebaut. Das bedeutet, dass Juka auf vielen Plattformen laufen kann, darunter Windows, Linux, MacOS (demnächst erhältlich), iOS/iPadOS (demnächst erhältlich) und Android."
   },
   "You can run Juka on Microsoft's Azure Server by using Juka's built-in Azure Function.": {
-    "message": "You can run Juka on Microsoft's Azure Server by using Juka's built-in Azure Function."
+    "message": "Sie können Juka auf dem Azure Server von Microsoft ausführen, indem Sie Jukas eingebaute Azure Funktion verwenden."
   },
   "All packages are hosted on a blockchain in a decentralized manner. Coming Soon...": {
-    "message": "All packages are hosted on a blockchain in a decentralized manner. Coming Soon..."
+    "message": "Alle Pakete werden dezentral auf einer Blockchain gehostet..."
   },
   "Special Thanks For The Software Provided By:": {
-    "message": "Special Thanks For The Software Provided By:"
+    "message": "Besonderer Dank für die zur Verfügung gestellte Software:"
   }
 }
