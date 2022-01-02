@@ -3,6 +3,7 @@ import clsx from 'clsx';
 import styles from './HomepageFeatures.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCode, faUserFriends,faCoffee, faCloud, faNetworkWired,faProjectDiagram } from '@fortawesome/free-solid-svg-icons'
+import Translate, {translate} from '@docusaurus/Translate';
 
 const FeatureList = [
   {
@@ -10,7 +11,7 @@ const FeatureList = [
       faIcon: {faUserFriends}.faUserFriends,
     description: (
       <>
-          Join our ever growing Juka community (<a target="_blank" href="https://teams.microsoft.com/join/y6rcztsp6s9z">link</a>). We use "Microsoft Teams" for managing the community as it provides an easy way to stay connected. In order to join the community, you should click and register with Microsoft Teams: Microsoft Teams Invitation Form If you already have an account, just join the "Juka Programming Language" group. It's public and anyone can join!
+          <Translate>Join our ever growing Juka community</Translate> (<a target="_blank" href="https://teams.microsoft.com/join/y6rcztsp6s9z">link</a>). <Translate>We use "Microsoft Teams" for managing the community as it provides an easy way to stay connected. In order to join the community, you should click and register with Microsoft Teams: Microsoft Teams Invitation Form If you already have an account, just join the "Juka Programming Language" group. It's public and anyone can join!</Translate>
       </>
     ),
   },
@@ -19,7 +20,7 @@ const FeatureList = [
       faIcon: {faCode}.faCode,
     description: (
       <>
-          Juka is built by the community, for the community. Please consider contributing to the Juka GitHub repository at <a target="_blank" href="https://github.com/jukaLang">https://github.com/jukaLang</a> When you create new features, please follow the guidelines specified in the project documentation.
+      <Translate>Juka is built by the community, for the community. Please consider contributing to the Juka GitHub repository at </Translate><a target="_blank" href="https://github.com/jukaLang">https://github.com/jukaLang</a><Translate> When you create new features, please follow the guidelines specified in the project documentation.</Translate>
       </>
     ),
   },
@@ -40,8 +41,8 @@ const FeatureList = [
         faIcon: {faProjectDiagram}.faProjectDiagram,
         description: (
             <>
-                Juka is built on top of .NET framework. This means that Juka can run on many platforms
-                including Windows, Linux, MacOS (coming soon), iOS/iPadOS (coming soon) and Android.
+                <Translate>Juka is built on top of .NET framework. This means that Juka can run on many platforms
+                    including Windows, Linux, MacOS (coming soon), iOS/iPadOS (coming soon) and Android.</Translate>
             </>
         ),
     },
@@ -50,7 +51,7 @@ const FeatureList = [
         faIcon: {faCloud}.faCloud,
         description: (
             <>
-                You can run Juka on Microsoft's Azure Server by using Juka's built-in Azure Function .
+                <Translate>You can run Juka on Microsoft's Azure Server by using Juka's built-in Azure Function.</Translate>
             </>
         ),
     },
@@ -59,7 +60,7 @@ const FeatureList = [
         faIcon: {faNetworkWired}.faNetworkWired,
         description: (
             <>
-                All packages are hosted on a blockchain in a decentralized manner. <b>Coming Soon...</b>
+                <Translate>All packages are hosted on a blockchain in a decentralized manner. Coming Soon...</Translate>
             </>
         ),
     },

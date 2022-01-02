@@ -4,6 +4,7 @@ import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from './license.module.css';
+import Translate from '@docusaurus/Translate';
 
 function HomepageHeader() {
     const {siteConfig} = useDocusaurusContext();
@@ -679,7 +680,7 @@ For more information on this, and how to apply and follow the GNU AGPL, see
                  <http://www.gnu.org/licenses/>.
             `}</div>
         </header>
-    );
+    )
 }
 
 export default function Home() {

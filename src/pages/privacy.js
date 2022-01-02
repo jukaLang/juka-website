@@ -114,7 +114,7 @@ function HomepageHeader() {
             </ul>
         </div>
         </header>
-    );
+    )
 }
 
 export default function Home() {
