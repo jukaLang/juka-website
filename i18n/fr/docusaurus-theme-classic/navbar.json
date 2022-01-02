@@ -1,0 +1,14 @@
+{
+  "title": {
+    "message": "Langage de programmation Juka",
+    "description": "The title in the navbar"
+  },
+  "item.label.Docs": {
+    "message": "Documents",
+    "description": "Navbar item with label Docs"
+  },
+  "item.label.GitHub": {
+    "message": "GitHub",
+    "description": "Navbar item with label GitHub"
+  }
+}
