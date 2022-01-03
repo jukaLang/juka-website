@@ -1,10 +1,8 @@
 ---
-sidebar_position: 999
+sidebar_position: 998
 ---
 
 # 常见问题
-
-
 
 ## 问：Juka是否在Linux上工作？
 
@@ -17,3 +15,16 @@ Juka 编程语言仍处于早期阶段。 然而，我们计划使它成为一�
 ## 问：这种语言能否帮助我在 _？
 
 它可以这样做。 语言仍处于早期阶段，但我们正在寻找积极的成员。
+
+
+### Q: Is Juka Copyrighted?
+Juka is provided under modified AGPL GNU license. See https://github.com/jukaLang/DReAM/blob/master/LICENSE
+
+### Q: How do I start using Juka?
+See the intro and hello world section of the documentation
+
+### Do you have an IDE or a TextEditor where I can write the code?
+You can write the code using any text editor. We are currently working on an extension for Microsoft Visual Studio Code
+
+## I want to host Juka compiler online... How can I do it?
+See the Azure Function documentation.
