@@ -2,27 +2,27 @@
 sidebar_position: 3
 ---
 
-# Functions
+# Funktionen
 
-## Main Function
-Every entry point code/script must have an entry function. An entry function is defined using the following:
+## Hauptfunktion
+Jeder Eintragspunkt Code/Skript muss eine Eintragsfunktion haben. Eine Eintragsfunktion wird mit folgender Option definiert:
 
 ```jsx
-function main() = { }
+Funktion main() = { }
 ```
 
-NOTE: the scripts that do not have main function can be imported, but cannot be executed directly. The main function is automatically called on entry. However, if you need to, you can still call the main() functions explicitly.
+HINWEIS: Skripte, die keine Hauptfunktion haben, können importiert werden, können aber nicht direkt ausgeführt werden. Die Hauptfunktion wird automatisch beim Eintrag aufgerufen. Wenn Sie es jedoch benötigen, können Sie die Main()-Funktionen explizit aufrufen.
 
-## Functions
-All functions are defined with the word function. Functions can contain alphanumeric values (including _) and functions cannot start with numeric value. Functions are simply defined:
+## Funktionen
+Alle Funktionen sind mit der Wortfunktion definiert. Funktionen können alphanumerische Werte (einschließlich _) enthalten und Funktionen können nicht mit numerischen Werten beginnen. Funktionen sind einfach definiert:
 
 ```jsx
 function foo() = {
-   printLine("Hello Friend");
+   printLine("Hallo Freund");
 }
 ```
 
-Example:
+Beispiel:
 
 ```jsx
 function main() = {
@@ -35,9 +35,9 @@ function main() = {
 
     /*
     int x = foo();
-    printLine ( x );
+    printLine (x);
 
-    int z = availableMemory();
+    int z = verfügbarer Speicher();
     print( "memory size = ");
     printLine( z );
 
@@ -46,10 +46,10 @@ function main() = {
 
     int y = 4;
     print("y = ");
-    printLine ( y );
+    printLine (y );
 
     x = y;
-    print("assign  value of y to x = ");
+    Drucken ("weisen Sie Wert von y zu x = ");
     printLine( x );
     */
 }
