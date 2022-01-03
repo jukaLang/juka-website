@@ -2,19 +2,19 @@
 sidebar_position: 3
 ---
 
-# Functions
+# Функции
 
-## Main Function
-Every entry point code/script must have an entry function. An entry function is defined using the following:
+## Основная функция
+Каждый код/скрипт точки входа должен иметь функцию ввода. Функция записи определяется следующим образом:
 
 ```jsx
-function main() = { }
+функция main() = { }
 ```
 
-NOTE: the scripts that do not have main function can be imported, but cannot be executed directly. The main function is automatically called on entry. However, if you need to, you can still call the main() functions explicitly.
+ПРИМЕЧАНИЕ: скрипты, которые не имеют основной функции, могут быть импортированы, но не могут быть выполнены напрямую. Основная функция автоматически вызывается при вводе в запись. Однако, если вам нужно, вы можете явно вызвать функции main().
 
-## Functions
-All functions are defined with the word function. Functions can contain alphanumeric values (including _) and functions cannot start with numeric value. Functions are simply defined:
+## Функции
+Все функции определяются функцией слова. Функции могут содержать буквенно-цифровые значения (включая _), и функции не могут начинаться с числового значения. Функции просто определены:
 
 ```jsx
 function foo() = {
@@ -22,15 +22,15 @@ function foo() = {
 }
 ```
 
-Example:
+Например:
 
 ```jsx
 function main() = {
 
     int y = 5;
 
-    while ( (y == 3) && (y == 5) || (y > 6) ){
-        printLine("loop");
+    пока ( (y == 3) && (y == 5) || (y > 6) ){
+        printLine("цикл");
     }
 
     /*
@@ -38,7 +38,7 @@ function main() = {
     printLine ( x );
 
     int z = availableMemory();
-    print( "memory size = ");
+    print( "Размер памяти = ");
     printLine( z );
 
     print("x = ");
@@ -48,8 +48,8 @@ function main() = {
     print("y = ");
     printLine ( y );
 
-    x = y;
-    print("assign  value of y to x = ");
+    x = ;
+    print("assign value of y to x = ");
     printLine( x );
     */
 }
