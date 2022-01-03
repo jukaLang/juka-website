@@ -2,27 +2,27 @@
 sidebar_position: 4
 ---
 
-## Strings
-There are three ways to define strings in Juka. You can use **'**, **"**, and **`**.
+## Cadenas
+Hay tres maneras de definir las cadenas en Juka. Puedes usar **'**, **"**y **`**.
 
-## When to use **`** ?
-When you have raw string that contains *'* and *"* and you do not wish to go through the whole text to escape it.
+## ¿Cuándo usar **`**?
+Cuando tienes una cadena cruda que contiene *'* y *"* y no deseas pasar por todo el texto para escaparla.
 
-## Concatenating Strings with other strings
-Concatenating strings is very easy in Juka. There are two ways to concatenate string. You can do the traditional way:
+## Concatenar cadenas con otras cadenas
+La concatenación de cadenas es muy fácil en Juka. Hay dos maneras de concatenar la cadena. Puedes hacer lo tradicional:
 
 
 ```jsx
-print("Hello" + "World" + "How" + "is" + "it" + "going?");
+print("Hola" + "Mundo" + "cómo" + "es" + "it" + "va?");
 ```
 
-There is another way to do this in Juka. Due to its prefix nature, You can do this:
+Hay otra forma de hacerlo en Juka. Debido a su naturaleza de prefijo, puede hacer esto:
 ```jsx
-print(+ "Hello" "World" "How" "is" "it" "going?");
+print(+ "Hola" "Mundo" "cómo" "es" "it" "go?");
 ```
 
-This is a legitimate statement in Juka.
+Esta es una declaración legítima en Juka.
 
-## Concatenating Strings with a number
+## Concatenar cadenas con un número
 
-Whenever you concatenate string with a number, the end result will be string. The numbers are implicitly converted into strings. Then strings concatenate regularly as mentioned in previous section.
+Cada vez que concatena una cadena con un número, el resultado final será una cadena. Los números se convierten implícitamente en cadenas. A continuación, las cadenas se concatenan regularmente como se menciona en la sección anterior.
