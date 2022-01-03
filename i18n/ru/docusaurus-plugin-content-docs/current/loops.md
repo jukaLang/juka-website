@@ -2,13 +2,13 @@
 sidebar_position: 5
 ---
 
-# Loops
+# Циклы
 
-## While Loop
+## Цикл прокрутки
 
-In Juka, while loop is defined similarly to most of the other programming languages.
+В Джуке, в то время как цикл определяется аналогично большинству других языков программирования.
 
-A simple example of while loop:
+Простой пример цикла с параметром:
 
 ```jsx
 int x = 0;
@@ -17,12 +17,12 @@ while(x < 2) {
 }
 ```
 
-In this example x is set to 0. The **while** statement checks and sees that x must be less than 2 and returns true. The **while** loop runs. The value of x is increase by 1. This is a Juka way of increasing values. The **while** loop only runs twice.
+В этом примере x установлено значение 0. **во время** проверяет и видит, что x должен быть меньше 2 и возвращает истину. **пока цикл** выполняется. Значение х увеличивается на 1. Это Juka способ повышения ценностей. **пока цикл** работает только дважды.
 
-## Break
-You are allowed to run an infinite loop. However, you should have a break statement to exit the loop
+## Прерывание
+Вам разрешено запускать бесконечный цикл. Тем не менее, у вас должно быть заявление о перерыве, чтобы выйти из цикла
 
-A simple example of break:
+Простой пример перерыва:
 
 ```jsx
 int x = 0;
@@ -34,4 +34,4 @@ while( 1 ){
 }
 ```
 
-Although using **break** is not recommended, it does provide a convenient and easy way to **break** a **while** loop.
+Хотя использование **break** не рекомендуется, он предоставляет удобный и простой способ **break** a **в цикле**.
