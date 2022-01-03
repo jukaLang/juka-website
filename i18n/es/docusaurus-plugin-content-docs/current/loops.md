@@ -2,31 +2,31 @@
 sidebar_position: 5
 ---
 
-# Loops
+# Bucles
 
-## While Loop
+## Mientras bucle
 
-In Juka, while loop is defined similarly to most of the other programming languages.
+En Juka, mientras que el bucle se define de forma similar a la mayoría de los demás lenguajes de programación.
 
-A simple example of while loop:
+Un ejemplo simple del bucle while :
 
 ```jsx
 int x = 0;
-while(x < 2) {
+while e(x < 2) {
     x = + 1 x;
 }
 ```
 
-In this example x is set to 0. The **while** statement checks and sees that x must be less than 2 and returns true. The **while** loop runs. The value of x is increase by 1. This is a Juka way of increasing values. The **while** loop only runs twice.
+En este ejemplo x se establece en 0. El comando **mientras** comprueba y ve que x debe ser menor que 2 y devuelve verdadero. El bucle **mientras se ejecuta el bucle**. El valor de x se incrementa en 1. Esta es una forma de Juka de aumentar los valores. El bucle **mientras que** solo se ejecuta dos veces.
 
-## Break
-You are allowed to run an infinite loop. However, you should have a break statement to exit the loop
+## Romper
+Se le permite ejecutar un bucle infinito. Sin embargo, debería tener una sentencia break para salir del bucle
 
-A simple example of break:
+Un ejemplo simple de ruptura:
 
 ```jsx
 int x = 0;
-while( 1 ){
+mientras( 1 ){
     x = + 1 x;
     if ( x > 2) {
         break;
@@ -34,4 +34,4 @@ while( 1 ){
 }
 ```
 
-Although using **break** is not recommended, it does provide a convenient and easy way to **break** a **while** loop.
+Aunque no se recomienda el uso de **break** , proporciona una forma cómoda y fácil de **romper** un **mientras** bucle.
