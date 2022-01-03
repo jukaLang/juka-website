@@ -2,27 +2,27 @@
 sidebar_position: 4
 ---
 
-## Strings
-There are three ways to define strings in Juka. You can use **'**, **"**, and **`**.
+## 字符串
+在Juka，有三种方法来定义字符串。 您可以使用 **'**, **"**, 和 **`**。
 
-## When to use **`** ?
-When you have raw string that contains *'* and *"* and you do not wish to go through the whole text to escape it.
+## 什么时候使用 **"**?
+当您有包含 *的原始字符串* and *"* 并且您不想通过整个文本来逃避它。
 
-## Concatenating Strings with other strings
-Concatenating strings is very easy in Juka. There are two ways to concatenate string. You can do the traditional way:
+## 连接字符串和其他字符串
+在朱卡，连接字符串非常容易。 有两种方式来连接字符串。 您可以使用传统方式：
 
 
 ```jsx
-print("Hello" + "World" + "How" + "is" + "it" + "going?");
+打印("Hello" + "World" + "How" + "is" + "it" + "going?");
 ```
 
-There is another way to do this in Juka. Due to its prefix nature, You can do this:
+在朱卡有另一种方法可以这样做。 由于它的前缀性质，您可以这样做：
 ```jsx
-print(+ "Hello" "World" "How" "is" "it" "going?");
+print(+ "Hello" "World" "How" "is" "it" "onging ?");
 ```
 
-This is a legitimate statement in Juka.
+这是在朱卡的一项合法声明。
 
-## Concatenating Strings with a number
+## 连接字符串与数字
 
-Whenever you concatenate string with a number, the end result will be string. The numbers are implicitly converted into strings. Then strings concatenate regularly as mentioned in previous section.
+每当您将字符串与一个数字混合时，最终结果将是字符串。 数字被默示转换为字符串。 然后如前一节所述，字符串会定期出现。
