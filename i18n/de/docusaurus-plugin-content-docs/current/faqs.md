@@ -17,14 +17,14 @@ Die Juka Programmiersprache befindet sich noch in der Anfangsphase. Wir planen j
 Das könnte es sein. Die Sprache befindet sich noch in der Anfangsphase, aber wir suchen aktive Mitglieder.
 
 
-### Q: Is Juka Copyrighted?
-Juka is provided under modified AGPL GNU license. See https://github.com/jukaLang/DReAM/blob/master/LICENSE
+### F: Ist Juka Copyright?
+Juka wird unter der modifizierten AGPL GNU Lizenz zur Verfügung gestellt. Siehe https://github.com/jukaLang/DReAM/blob/master/LICENSE
 
-### Q: How do I start using Juka?
-See the intro and hello world section of the documentation
+### F: Wie kann ich mit Juka beginnen?
+Siehe den Intro und Hallo World Abschnitt der Dokumentation
 
-### Do you have an IDE or a TextEditor where I can write the code?
-You can write the code using any text editor. We are currently working on an extension for Microsoft Visual Studio Code
+### Haben Sie eine IDE oder einen TextEditor, in dem ich den Code schreiben kann?
+Sie können den Code mit jedem Texteditor schreiben. Wir arbeiten derzeit an einer Erweiterung für Microsoft Visual Studio Code
 
-## I want to host Juka compiler online... How can I do it?
-See the Azure Function documentation.
+## Ich möchte Juka Compiler online hosten... Wie kann ich das tun?
+Siehe auch die Azure Funktionsdokumentation.
