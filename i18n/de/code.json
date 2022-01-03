@@ -257,5 +257,26 @@
   },
   "Special Thanks For The Software Provided By:": {
     "message": "Besonderer Dank für die zur Verfügung gestellte Software:"
+  },
+  "Follow us on:": {
+    "message": "Folgen Sie uns auf:"
+  },
+  "Decentralized Package Manager ": {
+    "message": "Dezentrale Paketverwaltung "
+  },
+  "Our Community": {
+    "message": "Unsere Community"
+  },
+  "Contribute to the Source": {
+    "message": "Zur Quelle beitragen"
+  },
+  "Social Media": {
+    "message": "Soziale Medien"
+  },
+  "Run on Any Device": {
+    "message": "Auf jedem Gerät ausführen"
+  },
+  "Run in the Cloud": {
+    "message": "In der Cloud ausführen"
   }
 }

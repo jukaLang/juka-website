@@ -257,5 +257,26 @@
   },
   "Special Thanks For The Software Provided By:": {
     "message": "特别感谢软件提供者："
+  },
+  "Follow us on:": {
+    "message": "关注我们："
+  },
+  "Decentralized Package Manager ": {
+    "message": "分散软件包管理器 "
+  },
+  "Our Community": {
+    "message": "我们的社区"
+  },
+  "Contribute to the Source": {
+    "message": "为源作贡献"
+  },
+  "Social Media": {
+    "message": "社交媒体"
+  },
+  "Run on Any Device": {
+    "message": "在任何设备上运行"
+  },
+  "Run in the Cloud": {
+    "message": "在云端运行"
   }
 }
