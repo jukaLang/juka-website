@@ -2,13 +2,13 @@
 sidebar_position: 5
 ---
 
-# Loops
+# Schleifen
 
-## While Loop
+## Während Schleife
 
-In Juka, while loop is defined similarly to most of the other programming languages.
+In Juka ist Schleife ähnlich wie die meisten anderen Programmiersprachen definiert.
 
-A simple example of while loop:
+Ein einfaches Beispiel für die während Schleife:
 
 ```jsx
 int x = 0;
@@ -17,17 +17,17 @@ while(x < 2) {
 }
 ```
 
-In this example x is set to 0. The **while** statement checks and sees that x must be less than 2 and returns true. The **while** loop runs. The value of x is increase by 1. This is a Juka way of increasing values. The **while** loop only runs twice.
+In diesem Beispiel ist x auf 0 gesetzt. Das **während** Anweisung überprüft und sieht, dass x kleiner als 2 sein muss und wahr ist. Das **während die** Schleife läuft. Der Wert von x wird um 1 erhöht. Dies ist eine Juka-Methode, Werte zu steigern. Die **während** Schleife läuft nur zweimal.
 
-## Break
-You are allowed to run an infinite loop. However, you should have a break statement to exit the loop
+## Pause
+Du darfst eine Endlosschleife ausführen. Sie sollten jedoch eine Break-Anweisung haben, um die Schleife zu beenden
 
-A simple example of break:
+Ein einfaches Beispiel für Break:
 
 ```jsx
 int x = 0;
 while( 1 ){
-    x = + 1 x;
+    = + 1 x;
     if ( x > 2) {
         break;
     }
