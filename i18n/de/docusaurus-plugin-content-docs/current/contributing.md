@@ -2,31 +2,31 @@
 sidebar_position: 998
 ---
 
-# Contributing to Juka Project
+# Beitrag zum Juka-Projekt
 
 
 
-## Contributing to Juka
+## An Juka mitwirken
 
-Have an idea or a big feature. Please make sure to post it in issues tab on https://github.com/jukaLang. For huge updates, make sure you talk to an administrator responsible for Juka repository before implementing it. The feature you might be working in already exists or is planned. For smaller updates, feel free to fork the repo, do the changes, and submit pull requests.
+Haben Sie eine Idee oder ein großes Feature. Bitte vergewissern Sie sich, dass Sie es auf der Registerkarte "Issues" auf https://github.com/jukaLang. Für riesige Updates stellen Sie sicher, dass Sie mit einem Administrator sprechen, der für das Juka-Repository verantwortlich ist, bevor Sie es implementieren. Die Funktion, in der Sie möglicherweise arbeiten, existiert bereits oder ist geplant. Für kleinere Updates, zögern Sie nicht, das Repo zu forken, die Änderungen durchzuführen und Pull-Requests einzureichen.
 
-## Found a bug?
-Bug fixes are always welcomed and are encouraged. You can post them as issues tab on https://github.com/jukaLang
+## Fehler gefunden?
+Fehlerkorrekturen sind immer willkommen und werden ermutigt. Du kannst sie als Ticket-Tab auf https://github.com/jukaLang posten
 
 
 ## Styling
-Juka is built on top of .NET. Please follow the coding outlined at https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/inside-a-program/coding-conventions
+Juka ist auf .NET aufgebaut. Bitte folgen Sie dem Coding auf https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/inside-a-program/coding-convention
 
 
-## Documentation
-Anybody is free to fix the documentation. The Documentation is one of the harder part of the project. It's hard to write it, and it's even harder to maintain. If you can help with that, it will be greatly appreciated.
+## Dokumentation
+Jedem steht es frei, die Dokumentation zu reparieren. Die Dokumentation ist einer der schwierigeren Teile des Projektes. Es ist schwer, es zu schreiben, und es ist noch schwieriger zu warten. Wenn du dabei helfen kannst, wird es sehr geschätzt.
 
-## Testing
-Most of the testing will be automated. However, there is no substitute for a human being. The testing is probably harder than coding. Writing a test is always welcomed. Make sure to focus on edge cases when you write a test.
+## Testen
+Die meisten Tests werden automatisiert. Es gibt jedoch keinen Ersatz für einen Menschen. Die Tests sind wahrscheinlich schwieriger als die Programmierung. Das Schreiben eines Tests ist immer willkommen. Stellen Sie sicher, dass Sie sich beim Schreiben eines Tests auf Kantenfälle konzentrieren.
 
-## Submitting to Github
-Keep the code clean by following K.I.S.S. principle. If you want to make a major change, just fork the project, update it, and once you've fully implemented the fix, submit a pull request to the main project.
+## Auf Github senden
+Halten Sie den Code sauber indem Sie K.I.S.S. Prinzip. Wenn Sie eine große Änderung vornehmen wollen, fork das Projekt, aktualisiere es und sobald Sie die Korrektur vollständig implementiert haben, senden Sie eine Pull-Requests an das Hauptprojekt.
 
 
-## Thank You
-Thank you for contributing. Your contribution is very important!
+## Vielen Dank
+Vielen Dank für Ihren Beitrag. Ihr Beitrag ist sehr wichtig!
