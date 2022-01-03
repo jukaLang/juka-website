@@ -2,27 +2,27 @@
 sidebar_position: 4
 ---
 
-## Strings
-There are three ways to define strings in Juka. You can use **'**, **"**, and **`**.
+## Chaînes de caractères
+Il y a trois façons de définir des chaînes de caractères dans Juka. Vous pouvez utiliser **'**, **"**, et **`**.
 
-## When to use **`** ?
-When you have raw string that contains *'* and *"* and you do not wish to go through the whole text to escape it.
+## Quand utiliser **`**?
+Lorsque vous avez une chaîne de caractères brute qui contient *'* et *"* et que vous ne souhaitez pas passer par le texte entier pour l'échappe.
 
-## Concatenating Strings with other strings
-Concatenating strings is very easy in Juka. There are two ways to concatenate string. You can do the traditional way:
+## Concaténation des chaînes avec d'autres chaînes
+La concaténation des cordes est très facile à Juka. Il y a deux façons de concaténer une chaîne. Vous pouvez faire de la manière traditionnelle :
 
 
 ```jsx
-print("Hello" + "World" + "How" + "is" + "it" + "going?");
+print("Bonjour" + "Monde" + "Comment" + "est" + "il" + "en cours?");
 ```
 
-There is another way to do this in Juka. Due to its prefix nature, You can do this:
+Il y a une autre façon de le faire à Juka. En raison de sa nature préfixée, vous pouvez faire ceci :
 ```jsx
-print(+ "Hello" "World" "How" "is" "it" "going?");
+print(+ "Bonjour" "Monde" "Comment" "est" "il" "va ?");
 ```
 
-This is a legitimate statement in Juka.
+C'est une déclaration légitime à Juka.
 
-## Concatenating Strings with a number
+## Concaténation des chaînes avec un nombre
 
-Whenever you concatenate string with a number, the end result will be string. The numbers are implicitly converted into strings. Then strings concatenate regularly as mentioned in previous section.
+Chaque fois que vous concaténez une chaîne avec un nombre, le résultat final sera une chaîne de caractères. Les nombres sont implicitement convertis en chaînes. Ensuite, les chaînes de caractères se concaténent régulièrement comme mentionné dans la section précédente.
