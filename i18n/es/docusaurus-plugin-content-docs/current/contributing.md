@@ -2,31 +2,31 @@
 sidebar_position: 998
 ---
 
-# Contributing to Juka Project
+# Contribuir al proyecto Juka
 
 
 
-## Contributing to Juka
+## Contribuir a Juka
 
-Have an idea or a big feature. Please make sure to post it in issues tab on https://github.com/jukaLang. For huge updates, make sure you talk to an administrator responsible for Juka repository before implementing it. The feature you might be working in already exists or is planned. For smaller updates, feel free to fork the repo, do the changes, and submit pull requests.
+Tener una idea o una gran característica. Por favor, asegúrese de publicarlo en la pestaña de incidencias en https://github.com/jukaLang. Para actualizaciones enormes, asegúrese de hablar con un administrador responsable del repositorio de Juka antes de implementarlo. La característica en la que puede estar trabajando ya existe o está prevista. Para actualizaciones más pequeñas, siéntase libre de bifurcar el rebobinado, hacer los cambios y enviar solicitudes de extracción.
 
-## Found a bug?
-Bug fixes are always welcomed and are encouraged. You can post them as issues tab on https://github.com/jukaLang
-
-
-## Styling
-Juka is built on top of .NET. Please follow the coding outlined at https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/inside-a-program/coding-conventions
+## ¿Encontrado un error?
+Las correcciones de errores siempre son bienvenidas y son alentadas. Puedes publicarlos como pestaña de problemas en https://github.com/jukaLang
 
 
-## Documentation
-Anybody is free to fix the documentation. The Documentation is one of the harder part of the project. It's hard to write it, and it's even harder to maintain. If you can help with that, it will be greatly appreciated.
-
-## Testing
-Most of the testing will be automated. However, there is no substitute for a human being. The testing is probably harder than coding. Writing a test is always welcomed. Make sure to focus on edge cases when you write a test.
-
-## Submitting to Github
-Keep the code clean by following K.I.S.S. principle. If you want to make a major change, just fork the project, update it, and once you've fully implemented the fix, submit a pull request to the main project.
+## Estilo
+Juka está construido sobre .NET. Por favor, siga la codificación esbozada en https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/inside-a-program/coding-conventions
 
 
-## Thank You
-Thank you for contributing. Your contribution is very important!
+## Documentación
+Cualquiera es libre de arreglar la documentación. La documentación es una de las partes más difíciles del proyecto. Es difícil escribirlo, y es aún más difícil de mantener. Si puedes ayudar con eso, será muy apreciado.
+
+## Pruebas
+La mayoría de las pruebas serán automatizadas. Sin embargo, no hay sustituto de un ser humano. Las pruebas son probablemente más difíciles que la codificación. Escribir una prueba siempre es bienvenido. Asegúrate de concentrarte en los casos extremos cuando escribas una prueba.
+
+## Enviando a Github
+Mantenga el código limpio siguiendo K.I.S.S. principio. Si quieres hacer un cambio importante, simplemente bifurca el proyecto, actualizarlo, y una vez que haya implementado la corrección, envíe un pull request al proyecto principal.
+
+
+## Gracias.
+Gracias por su contribución. ¡Su contribución es muy importante!
