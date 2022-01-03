@@ -2,13 +2,13 @@
 sidebar_position: 5
 ---
 
-# Loops
+# 循环
 
-## While Loop
+## 当循环
 
-In Juka, while loop is defined similarly to most of the other programming languages.
+在朱卡，循环的定义与大多数其他编程语言相似。
 
-A simple example of while loop:
+循环的简单示例：
 
 ```jsx
 int x = 0;
@@ -17,21 +17,21 @@ while(x < 2) {
 }
 ```
 
-In this example x is set to 0. The **while** statement checks and sees that x must be less than 2 and returns true. The **while** loop runs. The value of x is increase by 1. This is a Juka way of increasing values. The **while** loop only runs twice.
+在此示例 x 被设置为 0。 The **while** statement checks and sees that x must be less than 2 and returns true. The **while** loop runs. x值增加1。 这是一种不断提高价值的朱卡方式。 The **while** loop only runs twice.
 
-## Break
-You are allowed to run an infinite loop. However, you should have a break statement to exit the loop
+## 断开
+您可以运行一个无限循环。 然而，你应该有一个休息声明来退出循环
 
-A simple example of break:
+一个简单的断点示例：
 
 ```jsx
 int x = 0;
-while( 1 ){
+while( 1 )□
     x = + 1 x;
-    if ( x > 2) {
-        break;
+    如果( x > 2) 然后
+        断;
     }
 }
 ```
 
-Although using **break** is not recommended, it does provide a convenient and easy way to **break** a **while** loop.
+虽然不推荐使用 **课间休息** ，但它为 **课间休息提供了方便和简单的方式** a **则为** 循环提供了方便。
