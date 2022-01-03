@@ -2,27 +2,27 @@
 sidebar_position: 4
 ---
 
-## Strings
-There are three ways to define strings in Juka. You can use **'**, **"**, and **`**.
+## Строки
+Есть три способа определения строк в Джуке. Вы можете использовать **'**, **"**, и **`**.
 
-## When to use **`** ?
-When you have raw string that contains *'* and *"* and you do not wish to go through the whole text to escape it.
+## Когда использовать **`**?
+Когда у вас есть необработанная строка, содержащая *'* и *"* и вы не хотите пропускать весь текст, чтобы скрыть его.
 
-## Concatenating Strings with other strings
-Concatenating strings is very easy in Juka. There are two ways to concatenate string. You can do the traditional way:
+## Объединение строк с другими строками
+Контрагенты строк очень легко в Джуке. Существует два способа объединения строки. Вы можете сделать традиционный способ:
 
 
 ```jsx
 print("Hello" + "World" + "How" + "is" + "it" + "going?");
 ```
 
-There is another way to do this in Juka. Due to its prefix nature, You can do this:
+Еще один способ сделать это в Джуке. Из-за его характера префикса, Вы можете сделать это:
 ```jsx
 print(+ "Hello" "World" "How" "is" "it" "going?");
 ```
 
-This is a legitimate statement in Juka.
+Это законное заявление в Джуке.
 
-## Concatenating Strings with a number
+## Объединение строк с числом
 
-Whenever you concatenate string with a number, the end result will be string. The numbers are implicitly converted into strings. Then strings concatenate regularly as mentioned in previous section.
+Когда вы объединяете строку с числом, конечный результат будет строкой. Номера имплицитно преобразуются в строки. Затем строки соединяются регулярно, как указано в предыдущем разделе.
