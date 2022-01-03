@@ -2,27 +2,27 @@
 sidebar_position: 3
 ---
 
-# Functions
+# Fonctions
 
-## Main Function
-Every entry point code/script must have an entry function. An entry function is defined using the following:
+## Fonction principale
+Chaque code / script de point d'entrée doit avoir une fonction d'entrée. Une fonction d'entrée est définie en utilisant les éléments suivants :
 
 ```jsx
 function main() = { }
 ```
 
-NOTE: the scripts that do not have main function can be imported, but cannot be executed directly. The main function is automatically called on entry. However, if you need to, you can still call the main() functions explicitly.
+REMARQUE : les scripts qui n'ont pas de fonction principale peuvent être importés, mais ne peuvent pas être exécutés directement. La fonction principale est automatiquement appelée à l'entrée. Cependant, si vous en avez besoin, vous pouvez toujours appeler explicitement la fonction main() .
 
-## Functions
-All functions are defined with the word function. Functions can contain alphanumeric values (including _) and functions cannot start with numeric value. Functions are simply defined:
+## Fonctions
+Toutes les fonctions sont définies avec la fonction mot. Les fonctions peuvent contenir des valeurs alphanumériques (y compris _) et les fonctions ne peuvent pas commencer par des valeurs numériques. Les fonctions sont simplement définies :
 
 ```jsx
 function foo() = {
-   printLine("Hello Friend");
+   printLine("Bonjour ami");
 }
 ```
 
-Example:
+Exemple:
 
 ```jsx
 function main() = {
@@ -34,10 +34,10 @@ function main() = {
     }
 
     /*
-    int x = foo();
+    int x = foo() ;
     printLine ( x );
 
-    int z = availableMemory();
+    int z = available Memory();
     print( "memory size = ");
     printLine( z );
 
@@ -48,8 +48,8 @@ function main() = {
     print("y = ");
     printLine ( y );
 
-    x = y;
-    print("assign  value of y to x = ");
+    x = ;
+    print("assigne la valeur de y à x = ");
     printLine( x );
     */
 }
@@ -64,12 +64,12 @@ function foo() = {
 
 
 function rock() = {
-    bark();
-    bark();
+    écork();
+    écork();
     printLine("rock");
 }
 
 function bark()={
-    printLine("bark");
+    printLine("écork");
 }
 ```
