@@ -2,27 +2,27 @@
 sidebar_position: 4
 ---
 
-## Strings
-There are three ways to define strings in Juka. You can use **'**, **"**, and **`**.
+## Zeichenketten
+Es gibt drei Wege, Strings in Juka zu definieren. Du kannst **'**, **"**und **`** verwenden.
 
-## When to use **`** ?
-When you have raw string that contains *'* and *"* and you do not wish to go through the whole text to escape it.
+## Wann wird **`** verwendet?
+Wenn Sie einen rohen String haben, der *'* und *"* enthält und Sie nicht den ganzen Text durchgehen wollen, um ihn zu entschlüsseln.
 
-## Concatenating Strings with other strings
-Concatenating strings is very easy in Juka. There are two ways to concatenate string. You can do the traditional way:
+## Zeichenketten mit anderen Zeichenketten verbinden
+Die Zusammenführung der Saiten ist in Juka sehr einfach. Es gibt zwei Möglichkeiten, String zu koppeln. Sie können den traditionellen Weg machen:
 
 
 ```jsx
-print("Hello" + "World" + "How" + "is" + "it" + "going?");
+print("Hallo" + "Welt" + "Wie" + "is" + "it" + "geht?");
 ```
 
-There is another way to do this in Juka. Due to its prefix nature, You can do this:
+In Juka gibt es eine andere Möglichkeit, dies zu tun. Aufgrund der Präfix-Natur kannst du dies tun:
 ```jsx
-print(+ "Hello" "World" "How" "is" "it" "going?");
+print(+ "Hallo" "Welt" "Wie" "is" "it" "geht?");
 ```
 
-This is a legitimate statement in Juka.
+Dies ist eine legitime Aussage in Juka.
 
-## Concatenating Strings with a number
+## Zeichenketten werden mit einer Zahl verbunden
 
-Whenever you concatenate string with a number, the end result will be string. The numbers are implicitly converted into strings. Then strings concatenate regularly as mentioned in previous section.
+Immer wenn Sie eine Zeichenkette mit einer Zahl verbinden, wird das Endergebnis String sein. Die Zahlen werden implizit in Strings konvertiert. Dann verketten sich Strings regelmäßig, wie im vorherigen Abschnitt erwähnt.
