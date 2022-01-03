@@ -2,31 +2,31 @@
 sidebar_position: 998
 ---
 
-# Contributing to Juka Project
+# Участие в проекте Juka
 
 
 
-## Contributing to Juka
+## Вклад в Juka
 
-Have an idea or a big feature. Please make sure to post it in issues tab on https://github.com/jukaLang. For huge updates, make sure you talk to an administrator responsible for Juka repository before implementing it. The feature you might be working in already exists or is planned. For smaller updates, feel free to fork the repo, do the changes, and submit pull requests.
+У вас есть идея или большая функция. Пожалуйста, не забудьте поместить его во вкладку Проблемы на https://github.com/jukaLang. Для больших обновлений перед их реализацией обращайтесь к администратору, ответственному за Juka репозиторий. Функция, которую вы можете работать, уже существует или планируется. Для небольших обновлений, не стесняйтесь форкнуть репозиторий, вносить изменения и отправлять pull-requests.
 
-## Found a bug?
-Bug fixes are always welcomed and are encouraged. You can post them as issues tab on https://github.com/jukaLang
-
-
-## Styling
-Juka is built on top of .NET. Please follow the coding outlined at https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/inside-a-program/coding-conventions
+## Нашли ошибку?
+Исправления ошибок всегда приветствуются и поощряются. Вы можете опубликовать их как вкладку задач на https://github.com/jukaLang
 
 
-## Documentation
-Anybody is free to fix the documentation. The Documentation is one of the harder part of the project. It's hard to write it, and it's even harder to maintain. If you can help with that, it will be greatly appreciated.
-
-## Testing
-Most of the testing will be automated. However, there is no substitute for a human being. The testing is probably harder than coding. Writing a test is always welcomed. Make sure to focus on edge cases when you write a test.
-
-## Submitting to Github
-Keep the code clean by following K.I.S.S. principle. If you want to make a major change, just fork the project, update it, and once you've fully implemented the fix, submit a pull request to the main project.
+## Оформление
+Джука построена на вершине .NET. Пожалуйста, следуйте инструкциям, приведенным на https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/inside-a-program/coding-conventions
 
 
-## Thank You
-Thank you for contributing. Your contribution is very important!
+## Документация
+Любой человек имеет право исправить документацию. Документация является одной из самых тяжелых частей проекта. Трудно написать его, и еще труднее поддерживать. Если вы можете помочь с этим, будет высоко оценен.
+
+## Тестирование
+Большая часть тестирования будет автоматизирована. Однако человек не может заменить его. Тестирование вероятно труднее, чем кодирование. Написание теста всегда приветствуется. Не забудьте сфокусироваться на грани при написании теста.
+
+## Отправка на Github
+Держите код чистым, следуя K.I.S.S. принцип. Если вы хотите внести существенные изменения, просто развите проект, обновите его, и после того, как вы полностью выполнили исправление, отправьте pull request в основной проект.
+
+
+## Спасибо
+Спасибо за содействие. Ваш вклад очень важен!
