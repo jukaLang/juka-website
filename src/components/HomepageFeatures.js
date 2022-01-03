@@ -7,7 +7,7 @@ import Translate, {translate} from '@docusaurus/Translate';
 
 const FeatureList = [
   {
-    title: 'Our Community',
+    title: translate({message:'Our Community'}),
       faIcon: {faUserFriends}.faUserFriends,
     description: (
       <>
@@ -16,16 +16,16 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Contribute to the Source',
+    title: translate({message:'Contribute to the Source'}),
       faIcon: {faCode}.faCode,
     description: (
       <>
-      <Translate>Juka is built by the community, for the community. Please consider contributing to the Juka GitHub repository at </Translate><a target="_blank" href="https://github.com/jukaLang">https://github.com/jukaLang</a><Translate> When you create new features, please follow the guidelines specified in the project documentation.</Translate>
+      <Translate>Juka is built by the community, for the community. Please consider contributing to the Juka GitHub repository at</Translate> <a target="_blank" href="https://github.com/jukaLang">https://github.com/jukaLang</a> <Translate>When you create new features, please follow the guidelines specified in the project documentation.</Translate>
       </>
     ),
   },
   {
-    title: 'Social Media',
+    title: translate({message:'Social Media'}),
       faIcon: {faCoffee}.faCoffee,
     description: (
         <>
@@ -37,7 +37,7 @@ const FeatureList = [
     ),
   },
     {
-        title: 'Run on Any Device',
+        title: translate({message:'Run on Any Device'}),
         faIcon: {faProjectDiagram}.faProjectDiagram,
         description: (
             <>
@@ -47,7 +47,7 @@ const FeatureList = [
         ),
     },
     {
-        title: 'Run in the Cloud',
+        title: translate({message:'Run in the Cloud'}),
         faIcon: {faCloud}.faCloud,
         description: (
             <>
@@ -56,7 +56,7 @@ const FeatureList = [
         ),
     },
     {
-        title: 'Decentralized Package Manager ',
+        title: translate({message:'Decentralized Package Manager '}),
         faIcon: {faNetworkWired}.faNetworkWired,
         description: (
             <>
