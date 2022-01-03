@@ -1,10 +1,8 @@
 ---
-sidebar_position: 999
+sidebar_position: 998
 ---
 
 # ЧАВО
-
-
 
 ## В: Работает ли Juka над Linux?
 
@@ -17,3 +15,16 @@ Juka Programming Language все еще находится на ранних с�
 ## В: Могут ли эти языки помочь мне в _?
 
 Это может показаться. Язык все еще находится на ранней стадии, но мы ищем активных членов.
+
+
+### Q: Is Juka Copyrighted?
+Juka is provided under modified AGPL GNU license. See https://github.com/jukaLang/DReAM/blob/master/LICENSE
+
+### Q: How do I start using Juka?
+See the intro and hello world section of the documentation
+
+### Do you have an IDE or a TextEditor where I can write the code?
+You can write the code using any text editor. We are currently working on an extension for Microsoft Visual Studio Code
+
+## I want to host Juka compiler online... How can I do it?
+See the Azure Function documentation.
