@@ -10,6 +10,6 @@ sidebar_position: 997
 - Utilisez Postman pour envoyer des fonctions au serveur Azure dans "body" comme requête brute dans le format suivant :
 ```json
 {
-    "code": "function main() = {}"
+    "code": "func main() = {}"
 }
 ```

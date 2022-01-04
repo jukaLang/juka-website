@@ -8,7 +8,7 @@ sidebar_position: 3
 Chaque code / script de point d'entrée doit avoir une fonction d'entrée. Une fonction d'entrée est définie en utilisant les éléments suivants :
 
 ```jsx
-function main() = { }
+func main() = { }
 ```
 
 REMARQUE : les scripts qui n'ont pas de fonction principale peuvent être importés, mais ne peuvent pas être exécutés directement. La fonction principale est automatiquement appelée à l'entrée. Cependant, si vous en avez besoin, vous pouvez toujours appeler explicitement la fonction main() .
@@ -17,15 +17,15 @@ REMARQUE : les scripts qui n'ont pas de fonction principale peuvent être import
 Toutes les fonctions sont définies avec la fonction mot. Les fonctions peuvent contenir des valeurs alphanumériques (y compris _) et les fonctions ne peuvent pas commencer par des valeurs numériques. Les fonctions sont simplement définies :
 
 ```jsx
-function foo() = {
-   printLine("Bonjour ami");
+func foo() = {
+   printLine("Hello Friend");
 }
 ```
 
 Exemple:
 
 ```jsx
-function main() = {
+func main() = {
 
     int y = 5;
 
@@ -34,10 +34,10 @@ function main() = {
     }
 
     /*
-    int x = foo() ;
+    int x = foo();
     printLine ( x );
 
-    int z = available Memory();
+    int z = availableMemory();
     print( "memory size = ");
     printLine( z );
 
@@ -48,14 +48,14 @@ function main() = {
     print("y = ");
     printLine ( y );
 
-    x = ;
-    print("assigne la valeur de y à x = ");
+    x = y;
+    print("assign  value of y to x = ");
     printLine( x );
     */
 }
 
 
-function foo() = {
+func foo() = {
     int x = 3;
     printLine(x);
     fart();
@@ -63,13 +63,13 @@ function foo() = {
 }
 
 
-function rock() = {
-    écork();
-    écork();
+func rock() = {
+    bark();
+    bark();
     printLine("rock");
 }
 
-function bark()={
-    printLine("écork");
+func bark()={
+    printLine("bark");
 }
 ```

@@ -10,6 +10,6 @@ sidebar_position: 997
 - 使用 Postman 以 "body" 将函数作为原始请求发送到 Azure 服务器，格式如下：
 ```json
 {
-    "code": "function main() = {}"
+    "code": "func main() = {}"
 }
 ```

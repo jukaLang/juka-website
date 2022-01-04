@@ -6,19 +6,19 @@ sidebar_position: 2
 
 ## Bonjour le monde
 ```jsx
-function main() = {
+func main() =  {
    printLine("foo");
 }
 ```
 
 ## Si condition
 ```jsx
-function main()={
+func main()={
     if ( 2<3 ) 
     {
         printLine("foo");
     }
-    sinon si (vrai)
+    else if (true)
     {
         print('c');
     }
@@ -27,7 +27,7 @@ function main()={
 
 ## Boucle Tant que
 ```jsx
-function foo() = {
+func foo() = {
     int x = 3;
     while (x<=4)
     {

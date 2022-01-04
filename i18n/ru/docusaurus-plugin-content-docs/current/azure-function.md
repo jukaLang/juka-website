@@ -10,6 +10,6 @@ sidebar_position: 997
 - Используйте Postman для отправки функций на сервер Azure в "body" как необработанный запрос в следующем формате:
 ```json
 {
-    "code": "function main() = {}"
+    "code": "func main() = {}"
 }
 ```

@@ -10,6 +10,6 @@ sidebar_position: 997
 - Verwenden Sie Postman, um Funktionen in "body" als Rohabfrage im folgenden Format an den Azure Server zu senden:
 ```json
 {
-    "code": "function main() = {}"
+    "code": "func main() = {}"
 }
 ```

@@ -10,6 +10,6 @@ sidebar_position: 997
 - Usa Postman para enviar funciones al servidor Azure en "cuerpo" como solicitud cruda en el siguiente formato:
 ```json
 {
-    "code": "function main() = {}"
+    "code": "func main() = {}"
 }
 ```
