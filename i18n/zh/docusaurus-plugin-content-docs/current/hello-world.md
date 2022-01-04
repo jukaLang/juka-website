@@ -6,20 +6,20 @@ sidebar_position: 2
 
 ## Hello World
 ```jsx
-function main() =
+func main() =  {
    printLine("foo");
 }
 ```
 
 ## 如果条件
 ```jsx
-function main()=
+func main()={
     if ( 2<3 ) 
-    }
+    {
         printLine("foo");
     }
-    否则(true)
-    *
+    else if (true)
+    {
         print('c');
     }
 }
@@ -27,12 +27,12 @@ function main()=
 
 ## 当循环
 ```jsx
-function foo() = 当中，
-    int x = 3；
+func foo() = {
+    int x = 3;
     while (x<=4)
-    哇，
-        x++；
-        print(x)；
+    {
+        x++;
+        print(x);
     }
 }
 ```
