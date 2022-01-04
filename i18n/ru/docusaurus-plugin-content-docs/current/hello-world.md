@@ -6,14 +6,14 @@ sidebar_position: 2
 
 ## Привет мир
 ```jsx
-function main() = {
+func main() =  {
    printLine("foo");
 }
 ```
 
 ## Если условие
 ```jsx
-function main()={
+func main()={
     if ( 2<3 ) 
     {
         printLine("foo");
@@ -27,11 +27,12 @@ function main()={
 
 ## Цикл прокрутки
 ```jsx
-function foo() = {
+func foo() = {
     int x = 3;
     while (x<=4)
     {
         x++;
         print(x);
     }
+}
 ```
