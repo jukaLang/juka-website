@@ -8,7 +8,7 @@ sidebar_position: 3
 Каждый код/скрипт точки входа должен иметь функцию ввода. Функция записи определяется следующим образом:
 
 ```jsx
-функция main() = { }
+func main() = { }
 ```
 
 ПРИМЕЧАНИЕ: скрипты, которые не имеют основной функции, могут быть импортированы, но не могут быть выполнены напрямую. Основная функция автоматически вызывается при вводе в запись. Однако, если вам нужно, вы можете явно вызвать функции main().
@@ -17,7 +17,7 @@ sidebar_position: 3
 Все функции определяются функцией слова. Функции могут содержать буквенно-цифровые значения (включая _), и функции не могут начинаться с числового значения. Функции просто определены:
 
 ```jsx
-function foo() = {
+func foo() = {
    printLine("Hello Friend");
 }
 ```
@@ -25,12 +25,12 @@ function foo() = {
 Например:
 
 ```jsx
-function main() = {
+func main() = {
 
     int y = 5;
 
-    пока ( (y == 3) && (y == 5) || (y > 6) ){
-        printLine("цикл");
+    while ( (y == 3) && (y == 5) || (y > 6) ){
+        printLine("loop");
     }
 
     /*
@@ -38,7 +38,7 @@ function main() = {
     printLine ( x );
 
     int z = availableMemory();
-    print( "Размер памяти = ");
+    print( "memory size = ");
     printLine( z );
 
     print("x = ");
@@ -48,14 +48,14 @@ function main() = {
     print("y = ");
     printLine ( y );
 
-    x = ;
-    print("assign value of y to x = ");
+    x = y;
+    print("assign  value of y to x = ");
     printLine( x );
     */
 }
 
 
-function foo() = {
+func foo() = {
     int x = 3;
     printLine(x);
     fart();
@@ -63,13 +63,13 @@ function foo() = {
 }
 
 
-function rock() = {
+func rock() = {
     bark();
     bark();
     printLine("rock");
 }
 
-function bark()={
+func bark()={
     printLine("bark");
 }
 ```
