@@ -8,7 +8,7 @@ sidebar_position: 3
 Jeder Eintragspunkt Code/Skript muss eine Eintragsfunktion haben. Eine Eintragsfunktion wird mit folgender Option definiert:
 
 ```jsx
-Funktion main() = { }
+func main() = { }
 ```
 
 HINWEIS: Skripte, die keine Hauptfunktion haben, können importiert werden, können aber nicht direkt ausgeführt werden. Die Hauptfunktion wird automatisch beim Eintrag aufgerufen. Wenn Sie es jedoch benötigen, können Sie die Main()-Funktionen explizit aufrufen.
@@ -17,15 +17,15 @@ HINWEIS: Skripte, die keine Hauptfunktion haben, können importiert werden, kön
 Alle Funktionen sind mit der Wortfunktion definiert. Funktionen können alphanumerische Werte (einschließlich _) enthalten und Funktionen können nicht mit numerischen Werten beginnen. Funktionen sind einfach definiert:
 
 ```jsx
-function foo() = {
-   printLine("Hallo Freund");
+func foo() = {
+   printLine("Hello Friend");
 }
 ```
 
 Beispiel:
 
 ```jsx
-function main() = {
+func main() = {
 
     int y = 5;
 
@@ -35,9 +35,9 @@ function main() = {
 
     /*
     int x = foo();
-    printLine (x);
+    printLine ( x );
 
-    int z = verfügbarer Speicher();
+    int z = availableMemory();
     print( "memory size = ");
     printLine( z );
 
@@ -46,16 +46,16 @@ function main() = {
 
     int y = 4;
     print("y = ");
-    printLine (y );
+    printLine ( y );
 
     x = y;
-    Drucken ("weisen Sie Wert von y zu x = ");
+    print("assign  value of y to x = ");
     printLine( x );
     */
 }
 
 
-function foo() = {
+func foo() = {
     int x = 3;
     printLine(x);
     fart();
@@ -63,13 +63,13 @@ function foo() = {
 }
 
 
-function rock() = {
+func rock() = {
     bark();
     bark();
     printLine("rock");
 }
 
-function bark()={
+func bark()={
     printLine("bark");
 }
 ```
