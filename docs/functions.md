@@ -8,7 +8,7 @@ sidebar_position: 3
 Every entry point code/script must have an entry function. An entry function is defined using the following:
 
 ```jsx
-function main() = { }
+func main() = { }
 ```
 
 NOTE: the scripts that do not have main function can be imported, but cannot be executed directly. The main function is automatically called on entry. However, if you need to, you can still call the main() functions explicitly.
@@ -17,7 +17,7 @@ NOTE: the scripts that do not have main function can be imported, but cannot be 
 All functions are defined with the word function. Functions can contain alphanumeric values (including _) and functions cannot start with numeric value. Functions are simply defined:
 
 ```jsx
-function foo() = {
+func foo() = {
    printLine("Hello Friend");
 }
 ```
@@ -25,7 +25,7 @@ function foo() = {
 Example:
 
 ```jsx
-function main() = {
+func main() = {
 
     int y = 5;
 
@@ -55,7 +55,7 @@ function main() = {
 }
 
 
-function foo() = {
+func foo() = {
     int x = 3;
     printLine(x);
     fart();
@@ -63,13 +63,13 @@ function foo() = {
 }
 
 
-function rock() = {
+func rock() = {
     bark();
     bark();
     printLine("rock");
 }
 
-function bark()={
+func bark()={
     printLine("bark");
 }
 ```

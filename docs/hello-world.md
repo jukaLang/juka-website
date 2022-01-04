@@ -6,14 +6,14 @@ sidebar_position: 2
 
 ## Hello World
 ```jsx
-function main() =  {
+func main() =  {
    printLine("foo");
 }
 ```
 
 ## If condition
 ```jsx
-function main()={
+func main()={
     if ( 2<3 ) 
     {
         printLine("foo");
@@ -27,7 +27,7 @@ function main()={
 
 ## While Loop
 ```jsx
-function foo() = {
+func foo() = {
     int x = 3;
     while (x<=4)
     {

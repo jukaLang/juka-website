@@ -10,6 +10,6 @@ sidebar_position: 997
 - Use Postman to send functions to the Azure server in "body" as raw request in the following format:
 ```json
 {
-    "code": "function main() = {}"
+    "code": "func main() = {}"
 }
 ```
