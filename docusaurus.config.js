@@ -13,8 +13,8 @@ const config = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.png',
-  organizationName: 'jukaLang', // Usually your GitHub org/user name.
-  projectName: 'juka-website', // Usually your repo name.
+  organizationName: 'jukaLang',
+  projectName: 'juka-website', 
 
   plugins: [
     ['docusaurus2-dotenv',
@@ -42,8 +42,8 @@ const config = {
           editUrl:
             'https://github.com/jukaLang/juka-website/blob/main',
         },
-        googleAnalytics: {
-          trackingID: process.env.ANALYTICS_ID,
+        gtag: {
+          trackingID: 'G-B35NSQ9XV5',
           anonymizeIP: true,
         },
         theme: {
@@ -67,7 +67,7 @@ const config = {
         contextualSearch: true,
       },
       image: 'img/juka.png',
-      metadata: [{name: 'keywords', content: 'juka,programming,language,future'},{name: 'twitter:card', content: 'A new programming language built on top of .NET Framework! Visit our official page at http://jukaLang.com Got a question? Connect with us via Teams or Twitter'}],
+      metadata: [{name: 'keywords', content: 'juka,programming,language,future'},{name: 'twitter:card', content: 'A new programming language built on top of .NET Framework! Visit our official page at https://jukaLang.com Got a question? Connect with us via Teams or Twitter'}],
       announcementBar: {
         id: 'support_us',
         content:
@@ -151,7 +151,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Juka Programming Language`,
+        copyright: `Copyright © ${new Date().getFullYear()} Juka Programming Language (https://jukalang.com)`,
       },
       prism: {
         theme: lightCodeTheme,
