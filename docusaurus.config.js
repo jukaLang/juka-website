@@ -57,13 +57,13 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       algolia: {
-        // If Algolia did not provide you any appId, use 'BH4D9OD16A'
-        appId: 'OHOBHCUZB6',
+        // appId
+        appId: 'IQBWLWIGTM',
 
         // Public API key: it is safe to commit it
-        apiKey: '370868239a1138491290c15e40d0bf1c',
+        apiKey: '6506f7fbc2f367f0f997aaddf3f404b9',
 
-        indexName: 'juka',
+        indexName: 'jukalang',
         contextualSearch: true,
       },
       image: 'img/juka.png',
