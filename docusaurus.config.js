@@ -14,7 +14,7 @@ const config = {
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.png',
   organizationName: 'jukaLang',
-  projectName: 'juka-website', 
+  projectName: 'juka-website',
 
   plugins: [
     ['docusaurus2-dotenv',
@@ -24,7 +24,7 @@ const config = {
   ],
   i18n: {
     defaultLocale: 'en',
-    locales: ['en','es','fr','de', 'ru', 'zh'],
+    locales: ['en','hi','ru','zh','es','fr','de'],
   },
   presets: [
     [

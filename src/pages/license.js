@@ -12,10 +12,10 @@ function HomepageHeader() {
         <header>
             <div className={styles.license}>{`
                 Juka's AGPL GNU License
-                Version 1.1 2021 by Juka Team
+                Version 1.10 2022 by Juka Team
 
                 Juka Amendment
-                Copyright (C) 2021 by Juka Programming Language.
+                Copyright (C) 2022 by Juka Programming Language.
                 Juka is an open source software and it is free. It cannot be sold. Authors of programs or scripts created using Juka
                 own the rights (including distribution) to those programs and scripts. This license does not apply to those programs.
                 Juka Team is not responsible for the content of those programs
@@ -649,7 +649,7 @@ function HomepageHeader() {
 
 
                 Juka (programming language)
-                Copyright (C) 2021 Juka Team
+                Copyright (C) 2022 Juka Team
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU Affero General Public License as published
