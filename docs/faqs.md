@@ -19,7 +19,7 @@ that takes advantage of Microsoft Environment.
 
 
 ## Q: Is Juka Copyrighted?
-*A:* Juka is provided under modified AGPL GNU license. See https://github.com/jukaLang/Juka/blob/master/LICENSE
+*A:* Juka is provided under modified AGPL GNU license. See https://github.com/jukaLang/DReAM/blob/master/LICENSE
 
 ## Q: How do I start using Juka?
 *A:* See the intro and hello world section of the documentation
