@@ -6,7 +6,7 @@ sidebar_position: 2
 
 ## Hola mundo
 ```jsx
-func main() =  {
+func main() = {
    printLine("foo");
 }
 ```
