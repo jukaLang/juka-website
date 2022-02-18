@@ -5,23 +5,23 @@ sidebar_position: 998
 # FAQs
 
 ## P: ¿Juka funciona en Linux?
-*A:* Juka is built on top of .NET 6.0 library which is compatible with Windows, Linux, and Macintosh. También tenemos previsto soportar plataformas móviles como Android e iOS/iPadOS. Juka también se ejecutará en el servidor Azure como función sin serverless que permite a cualquier dispositivo conectado a Internet ejecutar Juka (dado que son compatibles con el protocolo http)
+*A:* Juka está construido sobre la biblioteca .NET 6.0 que es compatible con Windows, Linux y Macintosh. También tenemos previsto soportar plataformas móviles como Android e iOS/iPadOS. Juka también se ejecutará en el servidor Azure como función sin serverless que permite a cualquier dispositivo conectado a Internet ejecutar Juka (dado que son compatibles con el protocolo http)
 
 ## P: ¿Para qué sirve Juka?
-*A:* Juka Programming Language is still in early stages. Sin embargo, planeamos hacer que sea un lenguaje fácil de usar que aprovecha el entorno de Microsoft.
+*A:* El Lenguaje de Programación de Juka todavía está en fase inicial. Sin embargo, planeamos hacer que sea un lenguaje fácil de usar que aprovecha el entorno de Microsoft.
 
 ## P: ¿Podría este idioma ayudarme en _?
-*A:* It might. El idioma está todavía en fase inicial, pero estamos buscando miembros activos.
+*A:* Podría hacerlo. El idioma está todavía en fase inicial, pero estamos buscando miembros activos.
 
 
-## Q: Is Juka Copyrighted?
-*A:* Juka is provided under modified AGPL GNU license. Ver https://github.com/jukaLang/DReAM/blob/master/LICENSE
+## P: ¿Juka Copyrighted?
+*A:* Juka se proporciona bajo licencia AGPL GNU modificada. See https://github.com/jukaLang/Juka/blob/master/LICENSE
 
-## Q: How do I start using Juka?
-*A:* See the intro and hello world section of the documentation
+## P: ¿Cómo empiezo a usar Juka?
+*A:* Vea la sección de introducción y hola mundo de la documentación
 
-## Q: Do you have an IDE or a TextEditor where I can write the code?
-*A:* You can write the code using any text editor. Actualmente estamos trabajando en una extensión para Microsoft Visual Studio Code
+## P: ¿Tiene un IDE o un TextEditor donde pueda escribir el código?
+*A:* Puedes escribir el código usando cualquier editor de texto. Actualmente estamos trabajando en una extensión para Microsoft Visual Studio Code
 
-## Q: I want to host Juka compiler online... How can I do it?
-*A:* See the Azure Function documentation.
+## P: Quiero alojar a Juka compilador online... ¿Cómo puedo hacerlo?
+*A:* Vea la documentación de Azure Funtion.
