@@ -18,7 +18,7 @@ Alle Funktionen sind mit der Wortfunktion definiert. Funktionen können alphanum
 
 ```jsx
 func foo() = {
-   printLine("Hello Friend");
+   printLine("Hallo Freund");
 }
 ```
 
@@ -35,9 +35,9 @@ func main() = {
 
     /*
     int x = foo();
-    printLine ( x );
+    printLine (x);
 
-    int z = availableMemory();
+    int z = verfügbarer Speicher();
     print( "memory size = ");
     printLine( z );
 
@@ -46,10 +46,10 @@ func main() = {
 
     int y = 4;
     print("y = ");
-    printLine ( y );
+    printLine (y );
 
     x = y;
-    print("assign  value of y to x = ");
+    Drucken ("weisen Sie Wert von y zu x = ");
     printLine( x );
     */
 }
