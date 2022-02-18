@@ -18,7 +18,7 @@ func main() = { }
 
 ```jsx
 func foo() = {
-   printLine("Hello Friend");
+   printLine("Привет Друзь");
 }
 ```
 
@@ -29,8 +29,8 @@ func main() = {
 
     int y = 5;
 
-    while ( (y == 3) && (y == 5) || (y > 6) ){
-        printLine("loop");
+    пока ( (y == 3) && (y == 5) || (y > 6) ){
+        printLine("цикл");
     }
 
     /*
@@ -38,7 +38,7 @@ func main() = {
     printLine ( x );
 
     int z = availableMemory();
-    print( "memory size = ");
+    print( "Размер памяти = ");
     printLine( z );
 
     print("x = ");
@@ -48,8 +48,8 @@ func main() = {
     print("y = ");
     printLine ( y );
 
-    x = y;
-    print("assign  value of y to x = ");
+    x = ;
+    print("assign value of y to x = ");
     printLine( x );
     */
 }
