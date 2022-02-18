@@ -18,7 +18,7 @@ Toutes les fonctions sont définies avec la fonction mot. Les fonctions peuvent 
 
 ```jsx
 func foo() = {
-   printLine("Hello Friend");
+   printLine("Bonjour ami");
 }
 ```
 
@@ -34,10 +34,10 @@ func main() = {
     }
 
     /*
-    int x = foo();
+    int x = foo() ;
     printLine ( x );
 
-    int z = availableMemory();
+    int z = available Memory();
     print( "memory size = ");
     printLine( z );
 
@@ -48,8 +48,8 @@ func main() = {
     print("y = ");
     printLine ( y );
 
-    x = y;
-    print("assign  value of y to x = ");
+    x = ;
+    print("assigne la valeur de y à x = ");
     printLine( x );
     */
 }
@@ -64,8 +64,8 @@ func foo() = {
 
 
 func rock() = {
-    bark();
-    bark();
+    écork();
+    écorce();
     printLine("rock");
 }
 

@@ -17,59 +17,59 @@ func main() = { }
 所有函数都用词函数定义。 函数可以包含字母数字值(包括_)，函数不能以数字开头。 职能的定义简单：
 
 ```jsx
-func foo() = {
+func foo() =
    printLine("Hello Friend");
-}
+
 ```
 
 示例：
 
 ```jsx
-func main() = {
+func main() = 。
 
-    int y = 5;
+    int y = 5；
 
-    while ( (y == 3) && (y == 5) || (y > 6) ){
+    当( y == 3) && (y == 5) || (y > 6) )
         printLine("loop");
     }
 
     /*
     int x = foo();
-    printLine ( x );
+    打印线 ( x );
 
-    int z = availableMemory();
-    print( "memory size = ");
+    int z = 可用内存();
+    打印( "memory size = ");
     printLine( z );
 
-    print("x = ");
+    打印("x = ");
     printLine( x );
 
     int y = 4;
     print("y = ");
-    printLine ( y );
+    打印线 (y);
 
     x = y;
-    print("assign  value of y to x = ");
-    printLine( x );
+    打印("将y 的值分配给x = ")；
+    打印机(x )；
     */
 }
 
 
-func foo() = {
+func foo() = /
     int x = 3;
-    printLine(x);
+    printLine(x)；
     fart();
     return x;
 }
 
 
-func rock() = {
+func rock() = 欧共体
     bark();
     bark();
     printLine("rock");
 }
 
-func bark()={
+func bark()=}
     printLine("bark");
 }
 ```

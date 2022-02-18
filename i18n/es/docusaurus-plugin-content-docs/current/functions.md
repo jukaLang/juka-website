@@ -18,7 +18,7 @@ Todas las funciones se definen con la función de la palabra. Las funciones pued
 
 ```jsx
 func foo() = {
-   printLine("Hello Friend");
+   printLine("Hola amigo");
 }
 ```
 
@@ -29,7 +29,7 @@ func main() = {
 
     int y = 5;
 
-    while ( (y == 3) && (y == 5) || (y > 6) ){
+    mientras ( (y == 3) && (y == 5) || (y > 6) ){
         printLine("loop");
     }
 
@@ -38,7 +38,7 @@ func main() = {
     printLine ( x );
 
     int z = availableMemory();
-    print( "memory size = ");
+    impresión( "tamaño de memoria = ");
     printLine( z );
 
     print("x = ");
@@ -49,7 +49,7 @@ func main() = {
     printLine ( y );
 
     x = y;
-    print("assign  value of y to x = ");
+    print("assign value of y to x = ");
     printLine( x );
     */
 }
@@ -64,12 +64,12 @@ func foo() = {
 
 
 func rock() = {
-    bark();
-    bark();
+    corte();
+    corte();
     printLine("rock");
 }
 
-func bark()={
-    printLine("bark");
+func cork()={
+    printLine("cork");
 }
 ```

@@ -6,7 +6,7 @@ sidebar_position: 2
 
 ## Bonjour le monde
 ```jsx
-func main() =  {
+func main() = {
    printLine("foo");
 }
 ```
@@ -18,7 +18,7 @@ func main()={
     {
         printLine("foo");
     }
-    else if (true)
+    sinon si (vrai)
     {
         print('c');
     }
