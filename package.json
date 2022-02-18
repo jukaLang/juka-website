@@ -25,6 +25,7 @@
     "@mdx-js/react": "^1.6.21",
     "clsx": "^1.1.1",
     "docusaurus2-dotenv": "^1.4.0",
+    "plugin-image-zoom": "github:flexanalytics/plugin-image-zoom",
     "prism-react-renderer": "^1.2.1",
     "raw-loader": "^4.0.2",
     "react": "^17.0.1",
