@@ -20,8 +20,7 @@ const config = {
     ['docusaurus2-dotenv',
     {
       systemvars: true, // Set to true if you would rather load all system variables as well (useful for CI purposes)
-    }],
-    'plugin-image-zoom'
+    }]
   ],
   i18n: {
     defaultLocale: 'en',
