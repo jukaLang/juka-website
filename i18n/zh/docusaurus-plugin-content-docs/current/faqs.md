@@ -15,7 +15,7 @@ sidebar_position: 998
 
 
 ## 问：Juka 版权吗？
-*A:* Juka 是根据经修改的AGPL GNU 许可证提供的。 See https://github.com/jukaLang/Juka/blob/master/LICENSE
+*A:* Juka 是根据经修改的AGPL GNU 许可证提供的。 See https://github.com/jukaLang/DReAM/blob/master/LICENSE
 
 ## 问：我如何开始使用 Juka？
 *答：* 查看文档的介绍部分和 hello world 部分
