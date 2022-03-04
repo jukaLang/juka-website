@@ -101,6 +101,7 @@ const config = {
         ],
       },
       footer: {
+        copyright: `Copyright © ${new Date().getFullYear()} Juka Programming Language (https://jukalang.com)`,
         style: 'dark',
         links: [
           {
@@ -151,7 +152,6 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Juka Programming Language (https://jukalang.com)`,
       },
       prism: {
         theme: lightCodeTheme,
