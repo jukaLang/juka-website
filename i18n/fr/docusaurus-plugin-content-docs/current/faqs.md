@@ -15,7 +15,7 @@ sidebar_position: 998
 
 
 ## Q : Est-ce que Juka est protégé par le droit d'auteur?
-*A :* Juka est fourni sous licence AGPL GNU modifiée. See https://github.com/jukaLang/DReAM/blob/master/LICENSE
+*A :* Juka est fourni sous licence AGPL GNU modifiée. Voir https://github.com/jukaLang/DReAM/blob/master/LICENSE
 
 ## Q: Comment puis-je commencer à utiliser Juka?
 *A :* Voir la section Intro et Bonjour monde de la documentation

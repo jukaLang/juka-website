@@ -15,7 +15,7 @@ sidebar_position: 998
 
 
 ## F: Ist Juka Copyright?
-*A:* Juka wird unter der modifizierten AGPL GNU Lizenz bereitgestellt. See https://github.com/jukaLang/DReAM/blob/master/LICENSE
+*A:* Juka wird unter der modifizierten AGPL GNU Lizenz bereitgestellt. Siehe https://github.com/jukaLang/DReAM/blob/master/LICENSE
 
 ## F: Wie kann ich mit Juka beginnen?
 *A:* Siehe Intro und Hallo Welt Abschnitt der Dokumentation
