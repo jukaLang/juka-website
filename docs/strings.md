@@ -2,7 +2,9 @@
 sidebar_position: 4
 ---
 
-## Strings
+# Strings
+
+## Defining Strings
 There are three ways to define strings in Juka.
 You can use **'**, **"**, and **`**.
 
