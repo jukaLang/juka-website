@@ -1,5 +1,5 @@
 ---
-sidebar_position: 997
+sidebar_position: 99
 ---
 
 # Azure Function
@@ -8,6 +8,7 @@ sidebar_position: 997
 - Run DreamUnitTests using Test->Run->All Tests to make sure all tests are passed.
 - Click "Start AzureJukaFunction" button which will run an Azure emulator locally.
 - Use Postman to send functions to the Azure server in "body" as raw request in the following format:
+
 ```json
 {
     "code": "func main() = {}"
