@@ -1,5 +1,5 @@
 ---
-sidebar_position: 997
+sidebar_position: 99
 ---
 
 # Функция Azure
@@ -8,6 +8,7 @@ sidebar_position: 997
 - Запустите DreamUnitTests с помощью Test->Выполнить->Все тесты, чтобы убедиться, что все тесты пройдены.
 - Нажмите кнопку "Начать AzureJukaFunction", которая запустит локальный эмулятор Azure.
 - Используйте Postman для отправки функций на сервер Azure в "body" как необработанный запрос в следующем формате:
+
 ```json
 {
     "code": "func main() = {}"
