@@ -17,10 +17,10 @@ Juka源可在 https://github.com/jukaLang/juka 下载。
 ## 正在运行Juka
 Juka 可以在Microsoft Azure的云上运行， 或者可以作为独立的应用程序运行
 
-### How does Juka Run Your File Internally
-![Layout](/img/Runtime.png)
+### Juka 如何在内部运行您的文件
+![布局](/img/Runtime.png)
 
 ## 贡献中
 - 创建一个新分支，工作并在完成功能后创建一个拉取请求。
 
-Click next to get started
+点击旁边开始
