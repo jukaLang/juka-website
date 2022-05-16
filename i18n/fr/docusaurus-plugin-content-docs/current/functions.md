@@ -45,8 +45,8 @@ func foo() = {
 
 
 func rock() = {
-    bark();
-    bark();
+    écork();
+    écorce();
     printLine("rock");
 }
 
