@@ -2,11 +2,11 @@
 sidebar_position: 10
 ---
 
-# Running C# Code
+# Código C# en ejecución
 
-You can run C# inside Juka using "#{ c#_code }" syntax
+Puedes ejecutar C# dentro de Juka usando la sintaxis "#{ c#_code }"
 
-Example:
+Ejemplo:
 ```jsx
 func testC_sharp() = {
     printLine(
