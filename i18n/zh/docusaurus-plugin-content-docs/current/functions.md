@@ -25,51 +25,32 @@ func foo() =
 示例：
 
 ```jsx
-func main() = 。
+func main() = {
 
-    int y = 5；
+    int y = 5;
 
-    当( y == 3) && (y == 5) || (y > 6) )
+    while ( (y == 3) && (y == 5) || (y > 6) ){
         printLine("loop");
     }
 
-    /*
-    int x = foo();
-    打印线 ( x );
-
-    int z = 可用内存();
-    打印( "memory size = ");
-    printLine( z );
-
-    打印("x = ");
-    printLine( x );
-
-    int y = 4;
-    print("y = ");
-    打印线 (y);
-
-    x = y;
-    打印("将y 的值分配给x = ")；
-    打印机(x )；
-    */
 }
 
 
-func foo() = /
+func foo() = {
     int x = 3;
-    printLine(x)；
+    printLine(x);
     fart();
     return x;
 }
 
 
-func rock() = 欧共体
+func rock() = {
     bark();
     bark();
     printLine("rock");
 }
 
-func bark()=}
+func bark()={
     printLine("bark");
 }
 ```
