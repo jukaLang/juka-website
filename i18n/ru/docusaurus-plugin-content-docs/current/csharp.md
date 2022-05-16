@@ -2,17 +2,17 @@
 sidebar_position: 10
 ---
 
-# Running C# Code
+# Запуск C# кода
 
-You can run C# inside Juka using "#{ c#_code }" syntax
+Вы можете запустить C# внутри Juka с помощью синтаксиса "#{ c#_code }"
 
-Example:
+Например:
 ```jsx
 func testC_sharp() = {
     printLine(
         #{
         string x = "Asd";
-        string y = "fA";
+        строка y = "fA";
         return x+y;
         }
     );
