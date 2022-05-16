@@ -33,25 +33,6 @@ func main() = {
         printLine("loop");
     }
 
-    /*
-    int x = foo();
-    printLine (x);
-
-    int z = verfügbarer Speicher();
-    print( "memory size = ");
-    printLine( z );
-
-    print("x = ");
-    printLine( x );
-
-    int y = 4;
-    print("y = ");
-    printLine (y );
-
-    x = y;
-    Drucken ("weisen Sie Wert von y zu x = ");
-    printLine( x );
-    */
 }
 
 

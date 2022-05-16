@@ -33,25 +33,6 @@ func main() = {
         printLine("loop");
     }
 
-    /*
-    int x = foo() ;
-    printLine ( x );
-
-    int z = available Memory();
-    print( "memory size = ");
-    printLine( z );
-
-    print("x = ");
-    printLine( x );
-
-    int y = 4;
-    print("y = ");
-    printLine ( y );
-
-    x = ;
-    print("assigne la valeur de y à x = ");
-    printLine( x );
-    */
 }
 
 
@@ -64,8 +45,8 @@ func foo() = {
 
 
 func rock() = {
-    écork();
-    écorce();
+    bark();
+    bark();
     printLine("rock");
 }
 

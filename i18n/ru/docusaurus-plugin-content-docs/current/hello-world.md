@@ -20,7 +20,7 @@ func main()={
     }
     else if (true)
     {
-        print('c');
+        print("c");
     }
 }
 ```
