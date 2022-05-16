@@ -10,7 +10,7 @@ import CodeBlock from '@theme/CodeBlock';
 import Translate from '@docusaurus/Translate';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFacebook,faTwitter,faInstagram } from '@fortawesome/free-brands-svg-icons'
+import { faFacebook,faTwitter,faInstagram,faDiscord } from '@fortawesome/free-brands-svg-icons'
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
@@ -22,8 +22,8 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="https://discord.gg/7BNpwKH8JC">
-            <Translate>Join our Discord channel</Translate>
+            to="/docs/intro">
+            <Translate>Get Started with Juka</Translate>
           </Link>
 
         </div>
@@ -31,6 +31,7 @@ function HomepageHeader() {
             <br/>
           <h2>
               <Translate>Follow us on:</Translate><br/>
+              <a style={{color:"#fff"}} target="_blank" href="https://discord.com/invite/7BNpwKH8JC/"><FontAwesomeIcon icon={faDiscord}  fixedWidth/>Discord: 7BNpwKH8JC</a><br/>
               <a style={{color:"#fff"}} target="_blank" href="https://www.facebook.com/jukalang/"><FontAwesomeIcon icon={faFacebook}  fixedWidth/>Facebook: @jukalang</a><br/>
               <a style={{color:"#fff"}} target="_blank" href="https://twitter.com/jukaLang/"><FontAwesomeIcon icon={faTwitter} fixedWidth/>Twitter: @jukaLang</a><br/>
               <a style={{color:"#fff"}} target="_blank" href="https://www.instagram.com/jukalanguage/"><FontAwesomeIcon icon={faInstagram} fixedWidth/>Instagram: @jukalanguage</a>
