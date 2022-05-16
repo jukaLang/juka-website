@@ -32,26 +32,7 @@ func main() = {
     while ( (y == 3) && (y == 5) || (y > 6) ){
         printLine("loop");
     }
-
-    /*
-    int x = foo();
-    printLine ( x );
-
-    int z = availableMemory();
-    print( "memory size = ");
-    printLine( z );
-
-    print("x = ");
-    printLine( x );
-
-    int y = 4;
-    print("y = ");
-    printLine ( y );
-
-    x = y;
-    print("assign  value of y to x = ");
-    printLine( x );
-    */
+    
 }
 
 

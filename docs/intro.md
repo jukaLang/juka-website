@@ -10,6 +10,7 @@ Juka is being built on top of .NET network and runs on any platform that support
 Juka can be run as a function for Microsoft's Azure Cloud Server.
 Juka can also compile programs into executables.
 
+
 ### Downloading Juka
 Latest Juka version can be found at https://github.com/jukaLang/juka/releases
 
@@ -18,6 +19,9 @@ Juka's source can be downloaded at https://github.com/jukaLang/juka
 ## Running Juka
 Juka can be run on a Microsoft Azure's cloud,
 or it can be run as a standalone application
+
+### How does Juka Run Your File Internally
+![Layout](/img/Runtime.png)
 
 ## Contributing
 - Create a new branch, work on it, and create a pull request once you are done working on the feature.
