@@ -29,29 +29,10 @@ func main() = {
 
     int y = 5;
 
-    mientras ( (y == 3) && (y == 5) || (y > 6) ){
+    while ( (y == 3) && (y == 5) || (y > 6) ){
         printLine("loop");
     }
 
-    /*
-    int x = foo();
-    printLine ( x );
-
-    int z = availableMemory();
-    impresión( "tamaño de memoria = ");
-    printLine( z );
-
-    print("x = ");
-    printLine( x );
-
-    int y = 4;
-    print("y = ");
-    printLine ( y );
-
-    x = y;
-    print("assign value of y to x = ");
-    printLine( x );
-    */
 }
 
 
@@ -64,12 +45,12 @@ func foo() = {
 
 
 func rock() = {
-    corte();
-    corte();
+    bark();
+    bark();
     printLine("rock");
 }
 
-func cork()={
-    printLine("cork");
+func bark()={
+    printLine("bark");
 }
 ```
