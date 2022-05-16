@@ -13,14 +13,14 @@ func main() =
 
 ## 如果条件
 ```jsx
-func main()=
-    如果( 2<3) 
-    让您
+func main()={
+    if ( 2<3 ) 
+    {
         printLine("foo");
     }
-    否则(true)
-    *
-        print('c');
+    else if (true)
+    {
+        print("c");
     }
 }
 ```
