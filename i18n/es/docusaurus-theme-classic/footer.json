@@ -15,9 +15,9 @@
     "message": "Tutorial",
     "description": "The label of footer link with label=Tutorial linking to /docs/intro"
   },
-  "link.item.label.Microsoft Teams": {
-    "message": "Equipos Microsoft",
-    "description": "The label of footer link with label=Microsoft Teams linking to https://teams.microsoft.com/join/y6rcztsp6s9z"
+  "link.item.label.Discord": {
+    "message": "Discord",
+    "description": "The label of footer link with label=Discord linking to https://discord.gg/7BNpwKH8JC"
   },
   "link.item.label.Twitter": {
     "message": "Twitter",
@@ -44,7 +44,7 @@
     "description": "The label of footer link with label=GitHub Source linking to https://github.com/jukaLang/juka"
   },
   "copyright": {
-    "message": "Copyright © 2021 Juka Programming Language",
+    "message": "Copyright © 2022 Juka Programming Language (https://jukalang.com)",
     "description": "The footer copyright"
   }
 }
