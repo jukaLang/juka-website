@@ -1,6 +1,51 @@
 {
-  "Join our Microsoft Teams channel": {
-    "message": "Join our Microsoft Teams channel"
+  "Our Community": {
+    "message": "Unsere Community"
+  },
+  "Join our ever growing Juka community": {
+    "message": "Trete unserer ständig wachsenden Juka-Community bei"
+  },
+  "We use \"Discord\" for managing the community as it provides an easy way to stay connected. In order to join the community, you should click and register a Discord account. If you already have an account, just join the \"JukaLang\" group. It's public and anyone can join!": {
+    "message": "We use \"Discord\" for managing the community as it provides an easy way to stay connected. In order to join the community, you should click and register a Discord account. If you already have an account, just join the \"JukaLang\" group. It's public and anyone can join!"
+  },
+  "Contribute to the Source": {
+    "message": "Zur Quelle beitragen"
+  },
+  "Juka is built by the community, for the community. Please consider contributing to the Juka GitHub repository at": {
+    "message": "Juka wurde von der Community für die Community gebaut. Bitte denke daran, zum Juka GitHub Repository beizutragen auf"
+  },
+  "When you create new features, please follow the guidelines specified in the project documentation.": {
+    "message": "Wenn Sie neue Funktionen erstellen, folgen Sie bitte den in der Projektdokumentation angegebenen Richtlinien."
+  },
+  "Social Media": {
+    "message": "Soziale Medien"
+  },
+  "Run on Any Device": {
+    "message": "Auf jedem Gerät ausführen"
+  },
+  "Juka is built on top of .NET framework. This means that Juka can run on many platforms including Windows, Linux, MacOS (coming soon), iOS/iPadOS (coming soon) and Android.": {
+    "message": "Juka ist auf .NET Framework aufgebaut. Das bedeutet, dass Juka auf vielen Plattformen laufen kann, darunter Windows, Linux, MacOS (demnächst erhältlich), iOS/iPadOS (demnächst erhältlich) und Android."
+  },
+  "Run in the Cloud": {
+    "message": "In der Cloud ausführen"
+  },
+  "You can run Juka on Microsoft's Azure Server by using Juka's built-in Azure Function.": {
+    "message": "Sie können Juka auf dem Azure Server von Microsoft ausführen, indem Sie Jukas eingebaute Azure Funktion verwenden."
+  },
+  "Decentralized Package Manager ": {
+    "message": "Dezentrale Paketverwaltung "
+  },
+  "All packages are hosted on a blockchain in a decentralized manner. Coming Soon...": {
+    "message": "Alle Pakete werden dezentral auf einer Blockchain gehostet..."
+  },
+  "Special Thanks For The Software Provided By:": {
+    "message": "Besonderer Dank für die zur Verfügung gestellte Software:"
+  },
+  "Get Started with Juka": {
+    "message": "Get Started with Juka"
+  },
+  "Follow us on:": {
+    "message": "Folgen Sie uns auf:"
   },
   "theme.ErrorPageContent.title": {
     "message": "Diese Seite ist abgestürzt.",
@@ -22,13 +67,13 @@
     "message": "Bitte wenden Sie sich an den Besitzer der Website, die Sie mit der ursprünglichen URL verlinkt und lassen Sie sie wissen, dass der Link defekt ist.",
     "description": "The 2nd paragraph of the 404 page"
   },
-  "theme.AnnouncementBar.closeButtonAriaLabel": {
-    "message": "Schließen",
-    "description": "The ARIA label for close button of announcement bar"
-  },
   "theme.BackToTopButton.buttonAriaLabel": {
     "message": "Zurück nach oben scrollen",
     "description": "The ARIA label for the back to top button"
+  },
+  "theme.AnnouncementBar.closeButtonAriaLabel": {
+    "message": "Schließen",
+    "description": "The ARIA label for close button of announcement bar"
   },
   "theme.blog.archive.title": {
     "message": "Archivieren",
@@ -54,6 +99,10 @@
     "message": "1 Min. gelesen|{readingTime} Min. gelesen",
     "description": "Pluralized label for \"{readingTime} min read\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
+  "theme.blog.post.readMoreLabel": {
+    "message": "Read more about {title}",
+    "description": "The ARIA label for the link to full blog posts from excerpts"
+  },
   "theme.blog.post.readMore": {
     "message": "Lesen Sie mehr",
     "description": "The label used in blog post item excerpts to link to full blog posts"
@@ -70,10 +119,6 @@
     "message": "Älterer Beitrag",
     "description": "The blog post button label to navigate to the older/next post"
   },
-  "theme.blog.sidebar.navAriaLabel": {
-    "message": "Aktuelle Blog-Beitragsnavigation",
-    "description": "The ARIA label for recent posts in the blog sidebar"
-  },
   "theme.blog.post.plurals": {
     "message": "Ein Beitrag|{count} Beiträge",
     "description": "Pluralized label for \"{count} posts\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
@@ -86,45 +131,41 @@
     "message": "Alle Tags anzeigen",
     "description": "The label of the link targeting the tag list page"
   },
-  "theme.CodeBlock.copyButtonAriaLabel": {
-    "message": "Code in Zwischenablage kopieren",
-    "description": "The ARIA label for copy code blocks button"
+  "theme.colorToggle.ariaLabel": {
+    "message": "Switch between dark and light mode (currently {mode})",
+    "description": "The ARIA label for the navbar color mode toggle"
   },
-  "theme.CodeBlock.copied": {
-    "message": "Kopiert",
-    "description": "The copied button label on code blocks"
+  "theme.colorToggle.ariaLabel.mode.dark": {
+    "message": "dark mode",
+    "description": "The name for the dark color mode"
   },
-  "theme.CodeBlock.copy": {
-    "message": "Kopieren",
-    "description": "The copy button label on code blocks"
+  "theme.colorToggle.ariaLabel.mode.light": {
+    "message": "light mode",
+    "description": "The name for the light color mode"
   },
-  "theme.docs.sidebar.expandButtonTitle": {
-    "message": "Expand sidebar",
-    "description": "The ARIA label and title attribute for expand button of doc sidebar"
+  "theme.docs.breadcrumbs.home": {
+    "message": "Home page",
+    "description": "The ARIA label for the home page in the breadcrumbs"
   },
-  "theme.docs.sidebar.expandButtonAriaLabel": {
-    "message": "Expand sidebar",
-    "description": "The ARIA label and title attribute for expand button of doc sidebar"
+  "theme.docs.breadcrumbs.navAriaLabel": {
+    "message": "Breadcrumbs",
+    "description": "The ARIA label for the breadcrumbs"
+  },
+  "theme.docs.DocCard.categoryDescription": {
+    "message": "{count} items",
+    "description": "The default description for a category card in the generated index about how many items this category includes"
   },
   "theme.docs.paginator.navAriaLabel": {
     "message": "Navigation der Docs-Seiten",
     "description": "The ARIA label for the docs pagination"
   },
-  "theme.docs.paginator.next": {
-    "message": "Nächste",
-    "description": "The label used to navigate to the next doc"
-  },
   "theme.docs.paginator.previous": {
     "message": "Vorherige",
     "description": "The label used to navigate to the previous doc"
   },
-  "theme.docs.sidebar.collapseButtonTitle": {
-    "message": "Seitenleiste einklappen",
-    "description": "The title attribute for collapse button of doc sidebar"
-  },
-  "theme.docs.sidebar.collapseButtonAriaLabel": {
-    "message": "Seitenleiste einklappen",
-    "description": "The title attribute for collapse button of doc sidebar"
+  "theme.docs.paginator.next": {
+    "message": "Nächste",
+    "description": "The label used to navigate to the next doc"
   },
   "theme.DocSidebarItem.toggleCollapsedCategoryAriaLabel": {
     "message": "Umschalten der einklappbaren Seitenleistenkategorie '{label}'",
@@ -137,6 +178,9 @@
   "theme.docs.tagDocListPageTitle": {
     "message": "{nDocsTagged} mit \"{tagName}\"",
     "description": "The title of the page for a docs tag"
+  },
+  "theme.docs.versionBadge.label": {
+    "message": "Version: {versionLabel}"
   },
   "theme.docs.versions.unreleasedVersionLabel": {
     "message": "Dies ist eine unveröffentlichte Dokumentation für die Version {siteTitle} {versionLabel}.",
@@ -174,10 +218,6 @@
     "message": "Zuletzt aktualisiert{atDate}{byUser}",
     "description": "The sentence used to display when a page has been last updated, and by who"
   },
-  "theme.navbar.mobileSidebarSecondaryMenu.backButtonLabel": {
-    "message": "← Zurück zum Hauptmenü",
-    "description": "The label of the back button to return to main menu, inside the mobile navbar sidebar secondary menu (notably used to display the docs sidebar)"
-  },
   "theme.navbar.mobileVersionsDropdown.label": {
     "message": "Versionen",
     "description": "The label for the navbar versions dropdown on mobile view"
@@ -193,6 +233,57 @@
   "theme.TOCCollapsible.toggleButtonLabel": {
     "message": "Auf dieser Seite",
     "description": "The label used by the button on the collapsible TOC component"
+  },
+  "theme.blog.sidebar.navAriaLabel": {
+    "message": "Aktuelle Blog-Beitragsnavigation",
+    "description": "The ARIA label for recent posts in the blog sidebar"
+  },
+  "theme.CodeBlock.copied": {
+    "message": "Kopiert",
+    "description": "The copied button label on code blocks"
+  },
+  "theme.CodeBlock.copyButtonAriaLabel": {
+    "message": "Code in Zwischenablage kopieren",
+    "description": "The ARIA label for copy code blocks button"
+  },
+  "theme.CodeBlock.copy": {
+    "message": "Kopieren",
+    "description": "The copy button label on code blocks"
+  },
+  "theme.CodeBlock.wordWrapToggle": {
+    "message": "Toggle word wrap",
+    "description": "The title attribute for toggle word wrapping button of code block lines"
+  },
+  "theme.navbar.mobileLanguageDropdown.label": {
+    "message": "Languages",
+    "description": "The label for the mobile language switcher dropdown"
+  },
+  "theme.docs.sidebar.collapseButtonTitle": {
+    "message": "Seitenleiste einklappen",
+    "description": "The title attribute for collapse button of doc sidebar"
+  },
+  "theme.docs.sidebar.collapseButtonAriaLabel": {
+    "message": "Seitenleiste einklappen",
+    "description": "The title attribute for collapse button of doc sidebar"
+  },
+  "theme.navbar.mobileSidebarSecondaryMenu.backButtonLabel": {
+    "message": "← Zurück zum Hauptmenü",
+    "description": "The label of the back button to return to main menu, inside the mobile navbar sidebar secondary menu (notably used to display the docs sidebar)"
+  },
+  "theme.docs.sidebar.expandButtonTitle": {
+    "message": "Expand sidebar",
+    "description": "The ARIA label and title attribute for expand button of doc sidebar"
+  },
+  "theme.docs.sidebar.expandButtonAriaLabel": {
+    "message": "Expand sidebar",
+    "description": "The ARIA label and title attribute for expand button of doc sidebar"
+  },
+  "theme.SearchBar.seeAll": {
+    "message": "See all {count} results"
+  },
+  "theme.SearchBar.label": {
+    "message": "Suchen",
+    "description": "The ARIA label and placeholder for search button"
   },
   "theme.SearchPage.documentsFound.plurals": {
     "message": "Ein Dokument gefunden|{count} Dokumente gefunden",
@@ -225,58 +316,5 @@
   "theme.SearchPage.fetchingNewResults": {
     "message": "Lade neue Ergebnisse...",
     "description": "The paragraph for fetching new search results"
-  },
-  "theme.SearchBar.label": {
-    "message": "Suchen",
-    "description": "The ARIA label and placeholder for search button"
-  },
-  "theme.tags.tagsPageTitle": {
-    "message": "Tags",
-    "description": "The title of the tag list page"
-  },
-  "Join our ever growing Juka community": {
-    "message": "Trete unserer ständig wachsenden Juka-Community bei"
-  },
-  "We use \"Microsoft Teams\" for managing the community as it provides an easy way to stay connected. In order to join the community, you should click and register with Microsoft Teams: Microsoft Teams Invitation Form If you already have an account, just join the \"Juka Programming Language\" group. It's public and anyone can join!": {
-    "message": "We use \"Microsoft Teams\" for managing the community as it provides an easy way to stay connected. In order to join the community, you should click and register with Microsoft Teams: Microsoft Teams Invitation Form If you already have an account, just join the \"Juka Programming Language\" group. It's public and anyone can join!"
-  },
-  "Juka is built by the community, for the community. Please consider contributing to the Juka GitHub repository at": {
-    "message": "Juka wurde von der Community für die Community gebaut. Bitte denke daran, zum Juka GitHub Repository beizutragen auf"
-  },
-  "When you create new features, please follow the guidelines specified in the project documentation.": {
-    "message": "Wenn Sie neue Funktionen erstellen, folgen Sie bitte den in der Projektdokumentation angegebenen Richtlinien."
-  },
-  "Juka is built on top of .NET framework. This means that Juka can run on many platforms including Windows, Linux, MacOS (coming soon), iOS/iPadOS (coming soon) and Android.": {
-    "message": "Juka ist auf .NET Framework aufgebaut. Das bedeutet, dass Juka auf vielen Plattformen laufen kann, darunter Windows, Linux, MacOS (demnächst erhältlich), iOS/iPadOS (demnächst erhältlich) und Android."
-  },
-  "You can run Juka on Microsoft's Azure Server by using Juka's built-in Azure Function.": {
-    "message": "Sie können Juka auf dem Azure Server von Microsoft ausführen, indem Sie Jukas eingebaute Azure Funktion verwenden."
-  },
-  "All packages are hosted on a blockchain in a decentralized manner. Coming Soon...": {
-    "message": "Alle Pakete werden dezentral auf einer Blockchain gehostet..."
-  },
-  "Special Thanks For The Software Provided By:": {
-    "message": "Besonderer Dank für die zur Verfügung gestellte Software:"
-  },
-  "Follow us on:": {
-    "message": "Folgen Sie uns auf:"
-  },
-  "Decentralized Package Manager ": {
-    "message": "Dezentrale Paketverwaltung "
-  },
-  "Our Community": {
-    "message": "Unsere Community"
-  },
-  "Contribute to the Source": {
-    "message": "Zur Quelle beitragen"
-  },
-  "Social Media": {
-    "message": "Soziale Medien"
-  },
-  "Run on Any Device": {
-    "message": "Auf jedem Gerät ausführen"
-  },
-  "Run in the Cloud": {
-    "message": "In der Cloud ausführen"
   }
 }
