@@ -25,32 +25,32 @@ func foo() =
 示例：
 
 ```jsx
-func main() = {
+func main() = 。
 
-    int y = 5;
+    int y = 5；
 
-    while ( (y == 3) && (y == 5) || (y > 6) ){
+    当( y == 3) && (y == 5) || (y > 6) )
         printLine("loop");
     }
 
 }
 
 
-func foo() = {
+func foo() =
     int x = 3;
-    printLine(x);
+    printLine(x)；
     fart();
     return x;
 }
 
 
-func rock() = {
+func rock() = 欧共体
     bark();
     bark();
     printLine("rock");
 }
 
-func bark()={
+func bark()=}
     printLine("bark");
 }
 ```
