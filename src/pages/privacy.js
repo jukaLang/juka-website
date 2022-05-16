@@ -110,7 +110,7 @@ function HomepageHeader() {
                 any changes. Changes to this Privacy Policy are effective when they are posted on this page.</p>
             <h2>Contact Us</h2><p>If you have any questions about this Privacy Policy, please contact us:</p>
             <ul>
-                <li>By contacting us via Microsoft Teams: <a href="https://teams.microsoft.com/join/y6rcztsp6s9z">https://teams.microsoft.com/join/y6rcztsp6s9z</a></li>
+                <li>By contacting us via Discord: <a href="https://discord.gg/7BNpwKH8JC">https://discord.gg/7BNpwKH8JC</a></li>
             </ul>
         </div>
         </header>

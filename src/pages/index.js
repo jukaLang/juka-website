@@ -22,8 +22,8 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="https://teams.microsoft.com/join/y6rcztsp6s9z">
-            <Translate>Join our Microsoft Teams channel</Translate>
+            to="https://discord.gg/7BNpwKH8JC">
+            <Translate>Join our Discord channel</Translate>
           </Link>
 
         </div>

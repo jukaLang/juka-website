@@ -2,30 +2,40 @@
 [![Crowdin](https://badges.crowdin.net/juka-website/localized.svg)](https://crowdin.com/project/juka-website)
 
 Official website: https://jukalang.com
+
 # Juka Programming Language
 
 Juka Programming Language website is built on top of [Docusaurus 2](https://docusaurus.io/).
 Feel free to contribute to our website!
+Please edit "docs/*.md" files.
 Any help is appreciated!
 
 ### Local Deployment
 
 #### Requirements
-```
+```jsx
 Node.js version >= 14
 Yarn v1.5+
 ```
 
 Run the following command to deploy the server locally:
-```
-npm run start
+```jsx
+npm run docusaurus clear
+npm run docusaurus start
 ```
 
 or
 
-```
+```jsx
 npx docusaurus start
 ```
 
 This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
 
+#### Generating Translations
+It's important to generate translation before you commit.
+Run the following command before submitting the site to GitHub
+
+```jsx
+npm run write-translations
+```

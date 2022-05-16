@@ -67,7 +67,7 @@ const config = {
         contextualSearch: true,
       },
       image: 'img/juka.png',
-      metadata: [{name: 'keywords', content: 'juka,programming,language,future'},{name: 'twitter:card', content: 'A new programming language built on top of .NET Framework! Visit our official page at https://jukaLang.com Got a question? Connect with us via Teams or Twitter'}],
+      metadata: [{name: 'keywords', content: 'juka,programming,language,future'},{name: 'twitter:card', content: 'A new programming language built on top of .NET Framework! Visit our official page at https://jukaLang.com Got a question? Connect with us via Discord or Twitter'}],
       announcementBar: {
         id: 'support_us',
         content:
@@ -117,8 +117,8 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Microsoft Teams',
-                href: 'https://teams.microsoft.com/join/y6rcztsp6s9z',
+                label: 'Discord',
+                href: 'https://discord.gg/7BNpwKH8JC',
               },
               {
                 label: 'Twitter',

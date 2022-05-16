@@ -11,7 +11,7 @@ const FeatureList = [
       faIcon: {faUserFriends}.faUserFriends,
     description: (
       <>
-          <Translate>Join our ever growing Juka community</Translate> (<a target="_blank" href="https://teams.microsoft.com/join/y6rcztsp6s9z">link</a>). <Translate>We use "Microsoft Teams" for managing the community as it provides an easy way to stay connected. In order to join the community, you should click and register with Microsoft Teams: Microsoft Teams Invitation Form If you already have an account, just join the "Juka Programming Language" group. It's public and anyone can join!</Translate>
+          <Translate>Join our ever growing Juka community</Translate> (<a target="_blank" href="https://discord.gg/7BNpwKH8JC">link</a>). <Translate>We use "Discord" for managing the community as it provides an easy way to stay connected. In order to join the community, you should click and register a Discord account. If you already have an account, just join the "JukaLang" group. It's public and anyone can join!</Translate>
       </>
     ),
   },
@@ -29,7 +29,7 @@ const FeatureList = [
       faIcon: {faCoffee}.faCoffee,
     description: (
         <>
-            MS Teams: <a target="_blank" href="https://teams.microsoft.com/join/y6rcztsp6s9z">(link)</a><br/>
+            Discord: <a target="_blank" href="https://discord.gg/7BNpwKH8JC">7BNpwKH8JC</a><br/>
             Twitter: <a target="_blank" href="https://twitter.com/jukaLang">@jukaLang</a><br/>
             Facebook: <a target="_blank" href="https://www.facebook.com/jukalang/">@jukalang</a><br/>
             Instagram: <a target="_blank" href="https://www.instagram.com/jukalanguage/">@jukalanguage/</a>
