@@ -17,10 +17,10 @@ Jukas Quelle kann unter https://github.com/jukaLang/juka heruntergeladen werden
 ## Joka läuft
 Juka kann auf einer Microsoft Azure's Cloud ausgeführt werden, oder es kann als eigenständige Anwendung ausgeführt werden
 
-### How does Juka Run Your File Internally
+### Wie läuft Juka Ihre Datei intern
 ![Layout](/img/Runtime.png)
 
 ## Mitwirken
 - Erstelle einen neuen Zweig, arbeite daran, und erstelle ein Pull-Request-Request; sobald du fertig bist an der Funktion.
 
-Click next to get started
+Weiter klicken, um loszulegen
