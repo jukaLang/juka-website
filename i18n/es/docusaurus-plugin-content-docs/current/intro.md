@@ -17,10 +17,10 @@ El código fuente de Juka se puede descargar en https://github.com/jukaLang/juka
 ## Juka en ejecución
 Juka puede ejecutarse en la nube de Microsoft Azure, o puede ejecutarse como una aplicación independiente
 
-### How does Juka Run Your File Internally
-![Layout](/img/Runtime.png)
+### Cómo Juka Ejecuta Internamente tu Archivo
+![Diseño](/img/Runtime.png)
 
 ## Contribuyendo
 - Cree una nueva sucursala, trabaje en ella y cree un pull request una vez que haya terminado de trabajar en la función.
 
-Click next to get started
+Haga clic al lado para empezar

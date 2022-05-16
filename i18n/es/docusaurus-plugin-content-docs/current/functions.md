@@ -29,7 +29,7 @@ func main() = {
 
     int y = 5;
 
-    while ( (y == 3) && (y == 5) || (y > 6) ){
+    mientras ( (y == 3) && (y == 5) || (y > 6) ){
         printLine("loop");
     }
 
@@ -45,12 +45,12 @@ func foo() = {
 
 
 func rock() = {
-    bark();
-    bark();
+    corte();
+    corte();
     printLine("rock");
 }
 
-func bark()={
-    printLine("bark");
+func cork()={
+    printLine("cork");
 }
 ```

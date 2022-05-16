@@ -18,7 +18,7 @@ func main()={
     {
         printLine("foo");
     }
-    else if (true)
+    sinon si (vrai)
     {
         print("c");
     }

@@ -29,8 +29,8 @@ func main() = {
 
     int y = 5;
 
-    while ( (y == 3) && (y == 5) || (y > 6) ){
-        printLine("loop");
+    пока ( (y == 3) && (y == 5) || (y > 6) ){
+        printLine("цикл");
     }
 
 }
@@ -40,7 +40,7 @@ func foo() = {
     int x = 3;
     printLine(x);
     fart();
-    return x;
+    возвращение x;
 }
 
 

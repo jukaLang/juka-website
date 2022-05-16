@@ -2,18 +2,18 @@
 sidebar_position: 10
 ---
 
-# Running C# Code
+# 运行 C# 代码
 
-You can run C# inside Juka using "#{ c#_code }" syntax
+您可以使用 "#{ c#_code }" 在 Juka 内运行 C#
 
-Example:
+示例：
 ```jsx
-func testC_sharp() = {
+func testC_sharp() = Power
     printLine(
-        #{
+        #format@@
         string x = "Asd";
-        string y = "fA";
-        return x+y;
+        字符串 y = "fA";
+        返回 x+y;
         }
     );
 }
