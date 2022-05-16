@@ -2,9 +2,9 @@
 sidebar_position: 4
 ---
 
-# Strings
+# Chaînes de caractères
 
-## Defining Strings
+## Définition des chaînes
 Il y a trois façons de définir des chaînes de caractères dans Juka. Vous pouvez utiliser **'**, **"**, et **`**.
 
 ## Quand utiliser **`**?
