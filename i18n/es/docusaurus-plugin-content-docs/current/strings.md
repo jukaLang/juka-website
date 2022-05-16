@@ -2,9 +2,9 @@
 sidebar_position: 4
 ---
 
-# Strings
+# Cadenas
 
-## Defining Strings
+## Definir cadenas
 Hay tres maneras de definir las cadenas en Juka. Puedes usar **'**, **"**y **`**.
 
 ## ¿Cuándo usar **`**?
