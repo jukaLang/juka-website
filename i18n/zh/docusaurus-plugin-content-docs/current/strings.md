@@ -2,9 +2,9 @@
 sidebar_position: 4
 ---
 
-# Strings
+# 字符串
 
-## Defining Strings
+## 定义字符串
 在Juka，有三种方法来定义字符串。 您可以使用 **'**, **"**, 和 **`**。
 
 ## 什么时候使用 **"**?
