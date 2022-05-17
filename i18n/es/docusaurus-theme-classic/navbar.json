@@ -7,6 +7,10 @@
     "message": "Documentos",
     "description": "Navbar item with label Docs"
   },
+  "item.label.Learn": {
+    "message": "Learn",
+    "description": "Navbar item with label Learn"
+  },
   "item.label.GitHub": {
     "message": "GitHub",
     "description": "Navbar item with label GitHub"
