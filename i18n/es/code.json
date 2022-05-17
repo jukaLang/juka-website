@@ -6,7 +6,7 @@
     "message": "Únete a nuestra creciente comunidad Juka"
   },
   "We use \"Discord\" for managing the community as it provides an easy way to stay connected. In order to join the community, you should click and register a Discord account. If you already have an account, just join the \"JukaLang\" group. It's public and anyone can join!": {
-    "message": "We use \"Discord\" for managing the community as it provides an easy way to stay connected. In order to join the community, you should click and register a Discord account. If you already have an account, just join the \"JukaLang\" group. It's public and anyone can join!"
+    "message": "Utilizamos \"Discord\" para administrar la comunidad ya que proporciona una manera fácil de estar conectado. Para unirte a la comunidad, debes hacer clic y registrar una cuenta de Discord. Si ya tienes una cuenta, únete al grupo \"JukaLang\". ¡Es público y cualquiera puede unirse!"
   },
   "Contribute to the Source": {
     "message": "Contribuir a la fuente"
@@ -42,7 +42,7 @@
     "message": "Gracias especiales por el software proporcionado por:"
   },
   "Get Started with Juka": {
-    "message": "Get Started with Juka"
+    "message": "Comienza con Juka"
   },
   "Follow us on:": {
     "message": "Síguenos en:"
@@ -100,7 +100,7 @@
     "description": "Pluralized label for \"{readingTime} min read\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "theme.blog.post.readMoreLabel": {
-    "message": "Read more about {title}",
+    "message": "Leer más sobre {title}",
     "description": "The ARIA label for the link to full blog posts from excerpts"
   },
   "theme.blog.post.readMore": {
@@ -132,27 +132,27 @@
     "description": "The label of the link targeting the tag list page"
   },
   "theme.colorToggle.ariaLabel": {
-    "message": "Switch between dark and light mode (currently {mode})",
+    "message": "Cambiar entre modo oscuro y claro (actualmente {mode})",
     "description": "The ARIA label for the navbar color mode toggle"
   },
   "theme.colorToggle.ariaLabel.mode.dark": {
-    "message": "dark mode",
+    "message": "modo oscuro",
     "description": "The name for the dark color mode"
   },
   "theme.colorToggle.ariaLabel.mode.light": {
-    "message": "light mode",
+    "message": "modo de luz",
     "description": "The name for the light color mode"
   },
   "theme.docs.breadcrumbs.home": {
-    "message": "Home page",
+    "message": "Página de inicio",
     "description": "The ARIA label for the home page in the breadcrumbs"
   },
   "theme.docs.breadcrumbs.navAriaLabel": {
-    "message": "Breadcrumbs",
+    "message": "migas de pan",
     "description": "The ARIA label for the breadcrumbs"
   },
   "theme.docs.DocCard.categoryDescription": {
-    "message": "{count} items",
+    "message": "{count} objetos",
     "description": "The default description for a category card in the generated index about how many items this category includes"
   },
   "theme.docs.paginator.navAriaLabel": {
@@ -180,7 +180,7 @@
     "description": "The title of the page for a docs tag"
   },
   "theme.docs.versionBadge.label": {
-    "message": "Version: {versionLabel}"
+    "message": "Versión: {versionLabel}"
   },
   "theme.docs.versions.unreleasedVersionLabel": {
     "message": "Esta es la documentación no publicada para la versión {siteTitle} de {versionLabel}.",
@@ -251,11 +251,11 @@
     "description": "The copy button label on code blocks"
   },
   "theme.CodeBlock.wordWrapToggle": {
-    "message": "Toggle word wrap",
+    "message": "Cambiar envoltura de palabra",
     "description": "The title attribute for toggle word wrapping button of code block lines"
   },
   "theme.navbar.mobileLanguageDropdown.label": {
-    "message": "Languages",
+    "message": "Idiomas",
     "description": "The label for the mobile language switcher dropdown"
   },
   "theme.docs.sidebar.collapseButtonTitle": {
@@ -279,7 +279,7 @@
     "description": "The ARIA label and title attribute for expand button of doc sidebar"
   },
   "theme.SearchBar.seeAll": {
-    "message": "See all {count} results"
+    "message": "Ver los {count} resultados"
   },
   "theme.SearchBar.label": {
     "message": "Buscar",
