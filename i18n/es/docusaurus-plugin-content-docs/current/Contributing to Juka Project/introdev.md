@@ -2,26 +2,26 @@
 sidebar_position: 1
 ---
 
-# Introduction
+# Introducción
 
-Thank you so much for taking your time to contribute to the Juka project. We are in need of the help and we appreciate any help we can get.
+Muchas gracias por tomarse su tiempo para contribuir al proyecto Juka. Necesitamos la ayuda y apreciamos cualquier ayuda que podamos obtener.
 
-## Found a bug?
+## ¿Encontrado un error?
 Las correcciones de errores siempre son bienvenidas y son alentadas. Puedes publicarlos como pestaña de problemas en https://github.com/jukaLang
 
 
-## Styling
+## Estilo
 Juka está construido sobre .NET. Por favor, siga la codificación esbozada en https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/inside-a-program/coding-conventions
 
 
-## Documentation
+## Documentación
 Cualquiera es libre de arreglar la documentación. La documentación es una de las partes más difíciles del proyecto. Es difícil escribirlo, y es aún más difícil de mantener. Si puedes ayudar con eso, será muy apreciado.
 
-## Testing
-La mayoría de las pruebas serán automatizadas. Sin embargo, no hay sustituto de un ser humano. The testing is harder than coding. Writing a test for Juka is always welcomed. Asegúrate de concentrarte en los casos extremos cuando escribas una prueba.
+## Pruebas
+La mayoría de las pruebas serán automatizadas. Sin embargo, no hay sustituto de un ser humano. Las pruebas son más difíciles que la codificación. Escribir una prueba para Juka siempre es bienvenido. Asegúrate de concentrarte en los casos extremos cuando escribas una prueba.
 
-## Submitting to Github
+## Enviando a Github
 Mantenga el código limpio siguiendo K.I.S.S. principio. Si quieres hacer un cambio importante, simplemente bifurca el proyecto, actualizarlo, y una vez que haya implementado la corrección, envíe un pull request al proyecto principal.
 
 
-Click next to begin your journey in helping us develop Juka
+Haz clic al lado para comenzar tu viaje ayudándonos a desarrollar Juka
