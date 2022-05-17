@@ -6,7 +6,7 @@
     "message": "Trete unserer ständig wachsenden Juka-Community bei"
   },
   "We use \"Discord\" for managing the community as it provides an easy way to stay connected. In order to join the community, you should click and register a Discord account. If you already have an account, just join the \"JukaLang\" group. It's public and anyone can join!": {
-    "message": "We use \"Discord\" for managing the community as it provides an easy way to stay connected. In order to join the community, you should click and register a Discord account. If you already have an account, just join the \"JukaLang\" group. It's public and anyone can join!"
+    "message": "Wir verwenden \"Discord\" um die Community zu verwalten, da sie eine einfache Möglichkeit bietet, die Verbindung zu behalten. Um der Community beizutreten, solltest du auf einen Discord Account klicken und dich registrieren. Wenn du bereits einen Account hast, trete einfach der Gruppe \"JukaLang\" bei. Es ist öffentlich und jeder kann beitreten!"
   },
   "Contribute to the Source": {
     "message": "Zur Quelle beitragen"
@@ -42,7 +42,7 @@
     "message": "Besonderer Dank für die zur Verfügung gestellte Software:"
   },
   "Get Started with Juka": {
-    "message": "Get Started with Juka"
+    "message": "Erste Schritte mit Juka"
   },
   "Follow us on:": {
     "message": "Folgen Sie uns auf:"
@@ -100,7 +100,7 @@
     "description": "Pluralized label for \"{readingTime} min read\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "theme.blog.post.readMoreLabel": {
-    "message": "Read more about {title}",
+    "message": "Lesen Sie mehr über {title}",
     "description": "The ARIA label for the link to full blog posts from excerpts"
   },
   "theme.blog.post.readMore": {
@@ -132,19 +132,19 @@
     "description": "The label of the link targeting the tag list page"
   },
   "theme.colorToggle.ariaLabel": {
-    "message": "Switch between dark and light mode (currently {mode})",
+    "message": "Zwischen Dunkel- und Lichtmodus wechseln (derzeit {mode})",
     "description": "The ARIA label for the navbar color mode toggle"
   },
   "theme.colorToggle.ariaLabel.mode.dark": {
-    "message": "dark mode",
+    "message": "dunkler Modus",
     "description": "The name for the dark color mode"
   },
   "theme.colorToggle.ariaLabel.mode.light": {
-    "message": "light mode",
+    "message": "lichtmodus",
     "description": "The name for the light color mode"
   },
   "theme.docs.breadcrumbs.home": {
-    "message": "Home page",
+    "message": "Startseite",
     "description": "The ARIA label for the home page in the breadcrumbs"
   },
   "theme.docs.breadcrumbs.navAriaLabel": {
@@ -152,7 +152,7 @@
     "description": "The ARIA label for the breadcrumbs"
   },
   "theme.docs.DocCard.categoryDescription": {
-    "message": "{count} items",
+    "message": "{count} Elemente",
     "description": "The default description for a category card in the generated index about how many items this category includes"
   },
   "theme.docs.paginator.navAriaLabel": {
@@ -251,11 +251,11 @@
     "description": "The copy button label on code blocks"
   },
   "theme.CodeBlock.wordWrapToggle": {
-    "message": "Toggle word wrap",
+    "message": "Wortumbruch umschalten",
     "description": "The title attribute for toggle word wrapping button of code block lines"
   },
   "theme.navbar.mobileLanguageDropdown.label": {
-    "message": "Languages",
+    "message": "Sprachen",
     "description": "The label for the mobile language switcher dropdown"
   },
   "theme.docs.sidebar.collapseButtonTitle": {
@@ -279,7 +279,7 @@
     "description": "The ARIA label and title attribute for expand button of doc sidebar"
   },
   "theme.SearchBar.seeAll": {
-    "message": "See all {count} results"
+    "message": "Alle {count} Ergebnisse ansehen"
   },
   "theme.SearchBar.label": {
     "message": "Suchen",
