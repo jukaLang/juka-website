@@ -1,14 +1,11 @@
 ---
-sidebar_position: 998
+sidebar_position: 1
 ---
 
-# Contributing to Juka Project
+# Introduction
 
-
-
-## Contributing to Juka
-
-Have an idea or a big feature. Please make sure to post it in issues tab on https://github.com/jukaLang. For huge updates, make sure you talk to an administrator responsible for Juka repository before implementing it. The feature you might be working in already exists or is planned. For smaller updates, feel free to fork the repo, do the changes, and submit pull requests.
+Thank you so much for taking your time to contribute to the Juka project.
+We are in need of the help and we appreciate any help we can get.
 
 ## Found a bug?
 Bug fixes are always welcomed and are encouraged. 
@@ -24,11 +21,11 @@ Anybody is free to fix the documentation. The Documentation is one of the harder
 it will be greatly appreciated. 
 
 ## Testing
-Most of the testing will be automated. However, there is no substitute for a human being. The testing is probably harder than coding. Writing a test is always welcomed. Make sure to focus on edge cases when you write a test.
+Most of the testing will be automated. However, there is no substitute for a human being. The testing is harder than coding. Writing a test for Juka is always welcomed. 
+Make sure to focus on edge cases when you write a test.
 
 ## Submitting to Github
 Keep the code clean by following K.I.S.S. principle. If you want to make a major change, just fork the project, update it, and once you've fully implemented the fix, submit a pull request to the main project.
 
 
-## Thank You
-Thank you for contributing. Your contribution is very important!
+Click next to begin your journey in helping us develop Juka
