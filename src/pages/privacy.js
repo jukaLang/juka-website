@@ -1,12 +1,9 @@
 import React from 'react';
-import clsx from 'clsx';
 import Layout from '@theme/Layout';
-import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from './privacy.module.css';
 
 function HomepageHeader() {
-    const {siteConfig} = useDocusaurusContext();
     return (
         <header>
         <div className={styles.privacy}><h1>Privacy Policy</h1><p>Effective date: December 19,

@@ -16,12 +16,6 @@ const config = {
   organizationName: 'jukaLang',
   projectName: 'juka-website',
 
-  plugins: [
-    ['docusaurus2-dotenv',
-    {
-      systemvars: true, // Set to true if you would rather load all system variables as well (useful for CI purposes)
-    }]
-  ],
   i18n: {
     defaultLocale: 'en',
     locales: ['en','ru','zh','es','fr','de'],
@@ -88,6 +82,11 @@ const config = {
             docId: 'intro',
             position: 'left',
             label: 'Docs',
+          },
+          {
+            to: 'learn',
+            label: 'Learn',
+            position: 'left'
           },
           {
             type: 'localeDropdown',
