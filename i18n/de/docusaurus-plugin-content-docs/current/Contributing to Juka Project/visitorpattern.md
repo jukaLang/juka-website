@@ -2,8 +2,8 @@
 sidebar_position: 2
 ---
 
-# Visitor Pattern
+# Besuchermuster
 
-Juka is built using a visitor pattern.
+Juka wird nach einem Besuchermuster gebaut.
 
-See Wikipedia for details: https://en.wikipedia.org/wiki/Visitor_pattern
+Siehe Wikipedia für Details: https://de.wikipedia.org/wiki/Besucher_pattern
