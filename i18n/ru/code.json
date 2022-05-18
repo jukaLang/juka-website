@@ -6,7 +6,7 @@
     "message": "Присоединяйтесь к нашему постоянно растущему сообществу Juka"
   },
   "We use \"Discord\" for managing the community as it provides an easy way to stay connected. In order to join the community, you should click and register a Discord account. If you already have an account, just join the \"JukaLang\" group. It's public and anyone can join!": {
-    "message": "We use \"Discord\" for managing the community as it provides an easy way to stay connected. In order to join the community, you should click and register a Discord account. If you already have an account, just join the \"JukaLang\" group. It's public and anyone can join!"
+    "message": "Мы используем «Discord» для управления сообществом, так как это предоставляет простой способ оставаться на связи. Чтобы присоединиться к сообществу, вы должны нажать и зарегистрировать учётную запись Discord. Если у вас уже есть аккаунт, просто присоединитесь к группе \"JukaLang\". Это общедоступный и любой может присоединиться!"
   },
   "Contribute to the Source": {
     "message": "Внести свой вклад в источник"
@@ -42,7 +42,7 @@
     "message": "Особая благодарность за предоставленное программное обеспечение:"
   },
   "Get Started with Juka": {
-    "message": "Get Started with Juka"
+    "message": "Начните с Juka"
   },
   "Follow us on:": {
     "message": "Подпишитесь на нас на:"
@@ -100,7 +100,7 @@
     "description": "Pluralized label for \"{readingTime} min read\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "theme.blog.post.readMoreLabel": {
-    "message": "Read more about {title}",
+    "message": "Подробнее о {title}",
     "description": "The ARIA label for the link to full blog posts from excerpts"
   },
   "theme.blog.post.readMore": {
@@ -132,27 +132,27 @@
     "description": "The label of the link targeting the tag list page"
   },
   "theme.colorToggle.ariaLabel": {
-    "message": "Switch between dark and light mode (currently {mode})",
+    "message": "Переключение между темным и светлым режимом (сейчас {mode})",
     "description": "The ARIA label for the navbar color mode toggle"
   },
   "theme.colorToggle.ariaLabel.mode.dark": {
-    "message": "dark mode",
+    "message": "темный режим",
     "description": "The name for the dark color mode"
   },
   "theme.colorToggle.ariaLabel.mode.light": {
-    "message": "light mode",
+    "message": "легкий режим",
     "description": "The name for the light color mode"
   },
   "theme.docs.breadcrumbs.home": {
-    "message": "Home page",
+    "message": "Главная страница",
     "description": "The ARIA label for the home page in the breadcrumbs"
   },
   "theme.docs.breadcrumbs.navAriaLabel": {
-    "message": "Breadcrumbs",
+    "message": "Навигационные крошки",
     "description": "The ARIA label for the breadcrumbs"
   },
   "theme.docs.DocCard.categoryDescription": {
-    "message": "{count} items",
+    "message": "{count} элементов",
     "description": "The default description for a category card in the generated index about how many items this category includes"
   },
   "theme.docs.paginator.navAriaLabel": {
@@ -180,7 +180,7 @@
     "description": "The title of the page for a docs tag"
   },
   "theme.docs.versionBadge.label": {
-    "message": "Version: {versionLabel}"
+    "message": "Версия: {versionLabel}"
   },
   "theme.docs.versions.unreleasedVersionLabel": {
     "message": "Это невыпущенная документация для версии {siteTitle} {versionLabel}.",
@@ -251,11 +251,11 @@
     "description": "The copy button label on code blocks"
   },
   "theme.CodeBlock.wordWrapToggle": {
-    "message": "Toggle word wrap",
+    "message": "Переключить перенос слов",
     "description": "The title attribute for toggle word wrapping button of code block lines"
   },
   "theme.navbar.mobileLanguageDropdown.label": {
-    "message": "Languages",
+    "message": "Языки",
     "description": "The label for the mobile language switcher dropdown"
   },
   "theme.docs.sidebar.collapseButtonTitle": {
@@ -279,7 +279,7 @@
     "description": "The ARIA label and title attribute for expand button of doc sidebar"
   },
   "theme.SearchBar.seeAll": {
-    "message": "See all {count} results"
+    "message": "Посмотреть все {count} результаты"
   },
   "theme.SearchBar.label": {
     "message": "Искать",

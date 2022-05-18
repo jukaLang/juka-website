@@ -2,8 +2,8 @@
 sidebar_position: 2
 ---
 
-# Visitor Pattern
+# 访客模式
 
-Juka is built using a visitor pattern.
+Juka 是使用访客模式构建的。
 
-See Wikipedia for details: https://en.wikipedia.org/wiki/Visitor_pattern
+查看维基百科详情： https://en.wikipedia.org/wiki/Visitor_pattern。
