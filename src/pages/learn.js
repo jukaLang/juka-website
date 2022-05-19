@@ -9,11 +9,8 @@ function LearnHeader() {
             <div className={styles.learn}>
                 <h1>Coming Soon</h1>
 
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/eNvUS-6PTbs"
-                        title="YouTube video player" frameBorder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowFullScreen></iframe>
-
+                <div>Videos</div>
+                <h3><a href="/quiz">Take a Quiz on Juka</a></h3>
             </div>
         </header>
     )
