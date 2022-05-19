@@ -71,8 +71,8 @@ function QuizHeader() {
     }
 
     const printCertificate = () => {
-        let certificateData = document.getElementById('certificate').innerHTML;
-        let printWindow = window.open("", "", "width=800, height=600");
+        const certificateData = document.getElementById('certificate').innerHTML;
+        const printWindow = window.open("about:blank", "", '_blank, alwaysRaised=yes');
         printWindow.document.write(certificateData);
         printWindow.print();
         printWindow.close();
@@ -88,7 +88,7 @@ function QuizHeader() {
                                 You scored {score} out of {questions.length}
                                 {(score > questions.length*.80) ? (
                                     <div>
-                                        <button onClick={() => printCertificate()}>Print Certificate</button>
+                                        <button className={styles.quizbutton} onClick={() => printCertificate()}>Print Certificate</button>
                                         <div id="certificate">
                                             <div style={cert_styles}>
                                                 <h1>Certificate of Completion</h1>
@@ -115,7 +115,7 @@ function QuizHeader() {
                                 </div>
                                 <div className='answer-section'>
                                     {questions[currentQuestion].answerOptions.map((answerOption) => (
-                                        <button
+                                        <button className={styles.quizbutton}
                                             onClick={() => handleAnswerOptionClick(answerOption.isCorrect)}>{answerOption.answerText}</button>
                                     ))}
                                 </div>
@@ -124,7 +124,7 @@ function QuizHeader() {
                 ) : (
                     <label>
                         Please enter your full name: <br/>
-                        <input type="text" placeholder="John Smith" value={name} onKeyPress={event => {
+                        <input  type="text" placeholder="John Smith" value={name} onKeyPress={event => {
                             if (event.key === 'Enter') {
                                 handleNameClick()
                             }

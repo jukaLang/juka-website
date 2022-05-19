@@ -1,16 +1,4 @@
 
-.heroBanner {
-    padding: 4rem 0;
-    text-align: center;
-    position: relative;
-    overflow: hidden;
-}
-
-@media screen and (max-width: 966px) {
-    .heroBanner {
-        padding: 2rem;
-    }
-}
 
 .score-section {
     display: flex;
@@ -36,32 +24,7 @@
     margin-bottom: 12px;
 }
 
-.certificate {
-
-}
-
-
-
-
-.timer-text {
-    background: rgb(230, 153, 12);
-    padding: 15px;
-    margin-top: 20px;
-    margin-right: 20px;
-    border: 5px solid rgb(255, 189, 67);
-    border-radius: 15px;
-    text-align: center;
-}
-
-/* ANSWERS/RIGHT SECTION */
-.answer-section {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-button {
+.quizbutton {
     width: 100%;
     font-size: 16px;
     color: #ffffff;
@@ -76,11 +39,11 @@ button {
     cursor: pointer;
 }
 
-button:hover {
+.quizbutton:hover {
     background-color: #555e7d;
 }
 
-button:focus {
+.quizbutton:focus {
     outline: none;
 }
 
