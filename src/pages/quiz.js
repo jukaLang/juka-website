@@ -74,8 +74,12 @@ function QuizHeader() {
         const certificateData = document.getElementById('certificate').innerHTML;
         const printWindow = window.open("about:blank", "", '_blank, alwaysRaised=yes');
         printWindow.document.write(certificateData);
-        printWindow.print();
-        printWindow.close();
+        try {
+            printWindow.print();
+        } catch{
+            printWindow.document.execCommand('print');
+        }
+        //printWindow.close();
     };
 
     return (
