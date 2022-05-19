@@ -100,7 +100,7 @@ const config = {
         ],
       },
       footer: {
-        copyright: `Copyright © ${new Date().getFullYear()} Juka (Generated on ${new Date().toLocaleString('en-US', { timeZone: 'America/New_York' })})`,
+        copyright: `Copyright © ${new Date().getFullYear()} Juka Programming Language <br/> (Generated on ${new Date().toLocaleString('en-US', { timeZone: 'America/New_York' })})`,
         style: 'dark',
         links: [
           {
