@@ -11,7 +11,7 @@ const FeatureList = [
       faIcon: {faUserFriends}.faUserFriends,
     description: (
       <>
-          <Translate>Join our ever growing Juka community</Translate> (<a target="_blank" href="https://discord.gg/7BNpwKH8JC">link</a>). <Translate>We use "Discord" for managing the community as it provides an easy way to stay connected. In order to join the community, you should click and register a Discord account. If you already have an account, just join the "JukaLang" group. It's public and anyone can join!</Translate>
+          <Translate>Join our ever growing Juka community</Translate> (<a target="_blank" href="https://discord.com/invite/7BNpwKH8JC/">link</a>). <Translate>We use "Discord" for managing the community as it provides an easy way to stay connected. In order to join the community, you should click and register a Discord account. If you already have an account, just join the "JukaLang" group. It's public and anyone can join!</Translate>
       </>
     ),
   },
@@ -29,10 +29,11 @@ const FeatureList = [
       faIcon: {faCoffee}.faCoffee,
     description: (
         <>
-            Discord: <a target="_blank" href="https://discord.gg/7BNpwKH8JC">7BNpwKH8JC</a><br/>
+            Discord: <a target="_blank" href="https://discord.com/invite/7BNpwKH8JC/">7BNpwKH8JC</a><br/>
             Twitter: <a target="_blank" href="https://twitter.com/jukaLang">@jukaLang</a><br/>
             Facebook: <a target="_blank" href="https://www.facebook.com/jukalang/">@jukalang</a><br/>
-            Instagram: <a target="_blank" href="https://www.instagram.com/jukalanguage/">@jukalanguage/</a>
+            Instagram: <a target="_blank" href="https://www.instagram.com/jukalanguage/">@jukalanguage</a><br/>
+            YouTube: <a target="_blank" href="https://www.youtube.com/channel/UCRkKqD0fnuVAJLJe9p4ZiKQ">Juka Programming Language</a>
         </>
     ),
   },
@@ -42,7 +43,7 @@ const FeatureList = [
         description: (
             <>
                 <Translate>Juka is built on top of .NET framework. This means that Juka can run on many platforms
-                    including Windows, Linux, MacOS (coming soon), iOS/iPadOS (coming soon) and Android.</Translate>
+                    including Windows, Linux, MacOS, MS Azure, iOS/iPadOS (coming soon) and Android (coming soon).</Translate>
             </>
         ),
     },
@@ -51,7 +52,7 @@ const FeatureList = [
         faIcon: {faCloud}.faCloud,
         description: (
             <>
-                <Translate>You can run Juka on Microsoft's Azure Server by using Juka's built-in Azure Function.</Translate>
+                <Translate>You can run Juka on Microsoft's Azure Server by using Juka's built-in Azure Function. Download latest Azure Function from </Translate> <a href="https://github.com/jukaLang/Juka/releases">https://github.com/jukaLang/Juka/releases</a>. <br/> <Translate>NOTE: you need an active Microsoft Azure account to host.</Translate>
             </>
         ),
     },
@@ -60,7 +61,8 @@ const FeatureList = [
         faIcon: {faNetworkWired}.faNetworkWired,
         description: (
             <>
-                <Translate>All packages are hosted on a blockchain in a decentralized manner. Coming Soon...</Translate>
+                <Translate>All packages are hosted on a blockchain in a decentralized manner. Want to help with running the network?
+                    Add your server configuration to </Translate> <a target="_blank" href="https://github.com/jukaLang/juka-network">https://github.com/jukaLang/juka-network</a> <Translate> and run the Juka-Network Server (which can be downloaded from </Translate> <a href="https://github.com/jukaLang/Juka/releases">https://github.com/jukaLang/Juka/releases</a>). <Translate>We appreciate any help!</Translate>
             </>
         ),
     },

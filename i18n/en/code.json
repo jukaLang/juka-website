@@ -1,10 +1,4 @@
 {
-  "Get Started with Juka": {
-    "message": "Get Started with Juka"
-  },
-  "Follow us on:": {
-    "message": "Follow us on:"
-  },
   "Our Community": {
     "message": "Our Community"
   },
@@ -29,23 +23,38 @@
   "Run on Any Device": {
     "message": "Run on Any Device"
   },
-  "Juka is built on top of .NET framework. This means that Juka can run on many platforms including Windows, Linux, MacOS (coming soon), iOS/iPadOS (coming soon) and Android.": {
-    "message": "Juka is built on top of .NET framework. This means that Juka can run on many platforms including Windows, Linux, MacOS (coming soon), iOS/iPadOS (coming soon) and Android."
+  "Juka is built on top of .NET framework. This means that Juka can run on many platforms including Windows, Linux, MacOS, MS Azure, iOS/iPadOS (coming soon) and Android (coming soon).": {
+    "message": "Juka is built on top of .NET framework. This means that Juka can run on many platforms including Windows, Linux, MacOS, MS Azure, iOS/iPadOS (coming soon) and Android (coming soon)."
   },
   "Run in the Cloud": {
     "message": "Run in the Cloud"
   },
-  "You can run Juka on Microsoft's Azure Server by using Juka's built-in Azure Function.": {
-    "message": "You can run Juka on Microsoft's Azure Server by using Juka's built-in Azure Function."
+  "You can run Juka on Microsoft's Azure Server by using Juka's built-in Azure Function. Download latest Azure Function from": {
+    "message": "You can run Juka on Microsoft's Azure Server by using Juka's built-in Azure Function. Download latest Azure Function from"
+  },
+  "NOTE: you need an active Microsoft Azure account to host.": {
+    "message": "NOTE: you need an active Microsoft Azure account to host."
   },
   "Decentralized Package Manager ": {
     "message": "Decentralized Package Manager "
   },
-  "All packages are hosted on a blockchain in a decentralized manner. Coming Soon...": {
-    "message": "All packages are hosted on a blockchain in a decentralized manner. Coming Soon..."
+  "All packages are hosted on a blockchain in a decentralized manner. Want to help with running the network? Add your server configuration to": {
+    "message": "All packages are hosted on a blockchain in a decentralized manner. Want to help with running the network? Add your server configuration to"
+  },
+  "and run the Juka-Network Server (which can be downloaded from": {
+    "message": "and run the Juka-Network Server (which can be downloaded from"
+  },
+  "We appreciate any help!": {
+    "message": "We appreciate any help!"
   },
   "Special Thanks For The Software Provided By:": {
     "message": "Special Thanks For The Software Provided By:"
+  },
+  "Get Started with Juka": {
+    "message": "Get Started with Juka"
+  },
+  "Follow us on:": {
+    "message": "Follow us on:"
   },
   "theme.ErrorPageContent.title": {
     "message": "This page crashed.",

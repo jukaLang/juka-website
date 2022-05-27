@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Juka Programming Language',
-  tagline: 'Language of the Future',
+  tagline: 'Code once, Run everywhere',
   url: 'https://jukalang.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -100,7 +100,7 @@ const config = {
         ],
       },
       footer: {
-        copyright: `Copyright © ${new Date().getFullYear()} Juka Programming Language <br/> (Generated on ${new Date().toLocaleString('en-US', { timeZone: 'America/New_York' })})`,
+        copyright: `Copyright © ${new Date().getFullYear()} Juka Programming Language <br/> (Last updated on ${new Date().toLocaleString('en-US', { timeZone: 'America/New_York' })} EST)`,
         style: 'dark',
         links: [
           {

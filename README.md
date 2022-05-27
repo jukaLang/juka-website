@@ -39,3 +39,7 @@ Run the following command before submitting the site to GitHub
 ```jsx
 npm run write-translations
 ```
+If you are on Windows, please run "run.bat" instead:
+```jsx
+./run.bat
+```
