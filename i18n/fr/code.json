@@ -23,20 +23,29 @@
   "Run on Any Device": {
     "message": "Exécuter sur n'importe quel appareil"
   },
-  "Juka is built on top of .NET framework. This means that Juka can run on many platforms including Windows, Linux, MacOS (coming soon), iOS/iPadOS (coming soon) and Android.": {
-    "message": "Juka est construit sur le framework .NET. Cela signifie que Juka peut fonctionner sur de nombreuses plates-formes, y compris Windows, Linux, MacOS (à venir), iOS/iPadOS (à venir) et Android."
+  "Juka is built on top of .NET framework. This means that Juka can run on many platforms including Windows, Linux, MacOS, MS Azure, iOS/iPadOS (coming soon) and Android (coming soon).": {
+    "message": "Juka is built on top of .NET framework. This means that Juka can run on many platforms including Windows, Linux, MacOS, MS Azure, iOS/iPadOS (coming soon) and Android (coming soon)."
   },
   "Run in the Cloud": {
     "message": "Exécuter dans le Cloud"
   },
-  "You can run Juka on Microsoft's Azure Server by using Juka's built-in Azure Function.": {
-    "message": "Vous pouvez exécuter Juka sur le serveur Azure de Microsoft en utilisant la fonction Azure intégrée de Juka."
+  "You can run Juka on Microsoft's Azure Server by using Juka's built-in Azure Function. Download latest Azure Function from": {
+    "message": "You can run Juka on Microsoft's Azure Server by using Juka's built-in Azure Function. Download latest Azure Function from"
+  },
+  "NOTE: you need an active Microsoft Azure account to host.": {
+    "message": "NOTE: you need an active Microsoft Azure account to host."
   },
   "Decentralized Package Manager ": {
     "message": "Gestionnaire de paquets décentralisé "
   },
-  "All packages are hosted on a blockchain in a decentralized manner. Coming Soon...": {
-    "message": "Tous les paquets sont hébergés sur une blockchain de manière décentralisée. Bientôt..."
+  "All packages are hosted on a blockchain in a decentralized manner. Want to help with running the network? Add your server configuration to": {
+    "message": "All packages are hosted on a blockchain in a decentralized manner. Want to help with running the network? Add your server configuration to"
+  },
+  "and run the Juka-Network Server (which can be downloaded from": {
+    "message": "and run the Juka-Network Server (which can be downloaded from"
+  },
+  "We appreciate any help!": {
+    "message": "We appreciate any help!"
   },
   "Special Thanks For The Software Provided By:": {
     "message": "Remerciements spéciaux pour le logiciel fourni par:"
@@ -167,6 +176,10 @@
     "message": "Suivant",
     "description": "The label used to navigate to the next doc"
   },
+  "theme.DocSidebarItem.toggleCollapsedCategoryAriaLabel": {
+    "message": "Activer/désactiver la catégorie de barre latérale pliable '{label}'",
+    "description": "The ARIA label to toggle the collapsible sidebar category"
+  },
   "theme.docs.tagDocListPageTitle.nDocsTagged": {
     "message": "Un doc taggé |{count} docs taggés",
     "description": "Pluralized label for \"{count} docs tagged\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
@@ -174,10 +187,6 @@
   "theme.docs.tagDocListPageTitle": {
     "message": "{nDocsTagged} avec \"{tagName}\"",
     "description": "The title of the page for a docs tag"
-  },
-  "theme.DocSidebarItem.toggleCollapsedCategoryAriaLabel": {
-    "message": "Activer/désactiver la catégorie de barre latérale pliable '{label}'",
-    "description": "The ARIA label to toggle the collapsible sidebar category"
   },
   "theme.docs.versionBadge.label": {
     "message": "Version : {versionLabel}"
