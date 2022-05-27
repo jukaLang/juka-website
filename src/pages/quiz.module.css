@@ -1,30 +1,27 @@
-
-
-.score-section {
+.quiz_score {
     display: flex;
     font-size: 24px;
     align-items: center;
 }
 
-/* QUESTION/TIMER/LEFT SECTION */
-.question-section {
+.quiz_question {
     width: 100%;
     position: relative;
 }
 
-.question-count {
+.quiz_count {
     margin-bottom: 20px;
 }
 
-.question-count span {
+.quiz_count span {
     font-size: 28px;
 }
 
-.question-text {
+.quiz_text {
     margin-bottom: 12px;
 }
 
-.quizbutton {
+.quiz_button {
     width: 100%;
     font-size: 16px;
     color: #ffffff;
@@ -39,14 +36,15 @@
     cursor: pointer;
 }
 
-.quizbutton:hover {
+.quiz_button:hover {
     background-color: #555e7d;
 }
 
-.quizbutton:focus {
+.quiz_button:focus {
     outline: none;
 }
 
-button svg {
+.quiz_button svg {
     margin-right: 5px;
 }
+

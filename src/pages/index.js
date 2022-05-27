@@ -10,7 +10,7 @@ import CodeBlock from '@theme/CodeBlock';
 import Translate from '@docusaurus/Translate';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFacebook,faTwitter,faInstagram,faDiscord } from '@fortawesome/free-brands-svg-icons'
+import { faFacebook,faTwitter,faInstagram,faDiscord,faYoutube} from '@fortawesome/free-brands-svg-icons'
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
@@ -27,21 +27,23 @@ function HomepageHeader() {
           </Link>
 
         </div>
-
+          <br/><br/>
+          <CodeBlock className={`language-jsx ${styles.maincodeblock}`} title="./HelloWorld.juk">{`func main() = {
+    // Print Hello World
+    printLine("Hello World");
+}`}</CodeBlock>
             <br/>
           <h2>
               <Translate>Follow us on:</Translate><br/>
               <a style={{color:"#fff"}} target="_blank" href="https://discord.com/invite/7BNpwKH8JC/"><FontAwesomeIcon icon={faDiscord}  fixedWidth/>Discord: 7BNpwKH8JC</a><br/>
               <a style={{color:"#fff"}} target="_blank" href="https://www.facebook.com/jukalang/"><FontAwesomeIcon icon={faFacebook}  fixedWidth/>Facebook: @jukalang</a><br/>
               <a style={{color:"#fff"}} target="_blank" href="https://twitter.com/jukaLang/"><FontAwesomeIcon icon={faTwitter} fixedWidth/>Twitter: @jukaLang</a><br/>
-              <a style={{color:"#fff"}} target="_blank" href="https://www.instagram.com/jukalanguage/"><FontAwesomeIcon icon={faInstagram} fixedWidth/>Instagram: @jukalanguage</a>
+              <a style={{color:"#fff"}} target="_blank" href="https://www.instagram.com/jukalanguage/"><FontAwesomeIcon icon={faInstagram} fixedWidth/>Instagram: @jukalanguage</a><br/>
+              <a style={{color:"#fff"}} target="_blank" href="https://www.youtube.com/channel/UCRkKqD0fnuVAJLJe9p4ZiKQ"><FontAwesomeIcon icon={faYoutube} fixedWidth/>YouTube: Juka Programming Language</a>
           </h2>
 
-    <br/><br/>
-          <CodeBlock className={`language-jsx ${styles.maincodeblock}`} title="./HelloWorld.juka">{`func main() = {
-    // Print Hello World
-    printLine("Hello World");
-}`}</CodeBlock>
+
+
       </div>
     </header>
   );

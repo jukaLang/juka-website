@@ -76,50 +76,54 @@ function QuizHeader() {
         printWindow.document.write(certificateData);
         try {
             printWindow.print();
+            setTimeout(printWindow.close(), 500);
         } catch{
             printWindow.document.execCommand('print');
         }
-        //printWindow.close();
     };
 
     return (
-        <header className={clsx('hero hero--primary', styles.quiz)}>
+        <header className={clsx('hero hero--primary')}>
             <div className="container">
                 <h1>Juka Quiz</h1>
                 { nset ? (
                         showScore ? (
-                            <div className='score-section'>
-                                You scored {score} out of {questions.length}
-                                {(score > questions.length*.80) ? (
-                                    <div>
-                                        <button className={styles.quizbutton} onClick={() => printCertificate()}>Print Certificate</button>
-                                        <div id="certificate">
-                                            <div style={cert_styles}>
-                                                <h1>Certificate of Completion</h1>
-                                                <h2>This certificate is presented to</h2>
-                                                <h2>{name}</h2>
-                                                <h2>for completing the course</h2>
-                                                <h2>Juka Fundamentals</h2>
-                                                <h2>Issued on: {date()}</h2>
-                                                <h2>Signed: <img Width={22} Height={22} src={logovg}/> Juka Team </h2>
+
+                            <>
+                                <div className={styles.quiz_score}>
+                                    You scored {score} out of {questions.length}
+                                </div>
+                                    {(score > questions.length*.80) ? (
+                                        <div>
+                                            <button className={styles.quiz_button} onClick={() => printCertificate()}>Print Certificate</button>
+                                            <div id="certificate">
+                                                <div style={cert_styles}>
+                                                    <h1>Certificate of Completion</h1>
+                                                    <h2>This certificate is presented to</h2>
+                                                    <h2>{name}</h2>
+                                                    <h2>for completing the course</h2>
+                                                    <h2>Juka Fundamentals</h2>
+                                                    <h2>Issued on: {date()}</h2>
+                                                    <h2>Signed: <img Width={22} Height={22} src={logovg}/> Juka Team </h2>
+                                                </div>
                                             </div>
+
+
                                         </div>
+                                    ) :(<div><a href="/quiz">Try again?</a></div>)}
+                            </>
 
-
-                                    </div>
-                                ) :(<div><a href="/quiz">Try again?</a></div>)}
-                            </div>
                         ) : (
                             <>
-                                <div className='question-section'>
-                                    <div className='question-count'>
+                                <div className={styles.quiz_question}>
+                                    <div className={styles.quiz_count}>
                                         <span>Question {currentQuestion + 1}</span>/{questions.length}
                                     </div>
-                                    <div className='question-text'>{questions[currentQuestion].questionText}</div>
+                                    <div className={styles.quiz_text}>{questions[currentQuestion].questionText}</div>
                                 </div>
-                                <div className='answer-section'>
+                                <div>
                                     {questions[currentQuestion].answerOptions.map((answerOption) => (
-                                        <button className={styles.quizbutton}
+                                        <button className={styles.quiz_button}
                                             onClick={() => handleAnswerOptionClick(answerOption.isCorrect)}>{answerOption.answerText}</button>
                                     ))}
                                 </div>
