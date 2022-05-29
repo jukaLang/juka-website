@@ -47,14 +47,14 @@
   "We appreciate any help!": {
     "message": "We appreciate any help!"
   },
-  "Special Thanks For The Software Provided By:": {
-    "message": "特别感谢软件提供者："
+  "Special Thanks To:": {
+    "message": "Special Thanks To:"
   },
   "Get Started with Juka": {
     "message": "开始使用 Juka"
   },
-  "Follow us on:": {
-    "message": "关注我们："
+  "Follow us for news and updates!": {
+    "message": "Follow us for news and updates!"
   },
   "theme.ErrorPageContent.title": {
     "message": "此页面已崩溃。",
@@ -176,10 +176,6 @@
     "message": "下一个",
     "description": "The label used to navigate to the next doc"
   },
-  "theme.DocSidebarItem.toggleCollapsedCategoryAriaLabel": {
-    "message": "切换可折叠侧边栏类别{label}'",
-    "description": "The ARIA label to toggle the collapsible sidebar category"
-  },
   "theme.docs.tagDocListPageTitle.nDocsTagged": {
     "message": "已标记一个doc |{count} 个文档已标记",
     "description": "Pluralized label for \"{count} docs tagged\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
@@ -239,10 +235,6 @@
     "message": "标签：",
     "description": "The label alongside a tag list"
   },
-  "theme.TOCCollapsible.toggleButtonLabel": {
-    "message": "在本页",
-    "description": "The label used by the button on the collapsible TOC component"
-  },
   "theme.blog.sidebar.navAriaLabel": {
     "message": "博客最近帖子导航",
     "description": "The ARIA label for recent posts in the blog sidebar"
@@ -263,9 +255,17 @@
     "message": "切换单词换行",
     "description": "The title attribute for toggle word wrapping button of code block lines"
   },
+  "theme.DocSidebarItem.toggleCollapsedCategoryAriaLabel": {
+    "message": "切换可折叠侧边栏类别{label}'",
+    "description": "The ARIA label to toggle the collapsible sidebar category"
+  },
   "theme.navbar.mobileLanguageDropdown.label": {
     "message": "语文",
     "description": "The label for the mobile language switcher dropdown"
+  },
+  "theme.TOCCollapsible.toggleButtonLabel": {
+    "message": "在本页",
+    "description": "The label used by the button on the collapsible TOC component"
   },
   "theme.docs.sidebar.collapseButtonTitle": {
     "message": "折叠侧边栏",
