@@ -5,8 +5,8 @@
   "Join our ever growing Juka community": {
     "message": "加入我们不断增长的胡卡社区"
   },
-  "We use \"Discord\" for managing the community as it provides an easy way to stay connected. In order to join the community, you should click and register a Discord account. If you already have an account, just join the \"JukaLang\" group. It's public and anyone can join!": {
-    "message": "我们使用“Discord”来管理社区，因为它提供了保持连接的简单方式。 为了加入社区，您应该点击并注册Discord帐户。 如果您已经有一个帐户，只需加入\"JukaLang\"群组。它是公开的，任何人都可以加入！"
+  "We use \"Discord\" for managing the community as it provides an easy way to stay connected. In order to join the community, you should click our invitation link and register a Discord account. If you already have an account, just join the \"JukaLang\" group. It's public and anyone can join!": {
+    "message": "We use \"Discord\" for managing the community as it provides an easy way to stay connected. In order to join the community, you should click our invitation link and register a Discord account. If you already have an account, just join the \"JukaLang\" group. It's public and anyone can join!"
   },
   "Contribute to the Source": {
     "message": "为源作贡献"
@@ -14,8 +14,8 @@
   "Juka is built by the community, for the community. Please consider contributing to the Juka GitHub repository at": {
     "message": "Juka 是由社区为社区建造的。请考虑为Juka GitHub 仓库做出贡献"
   },
-  "When you create new features, please follow the guidelines specified in the project documentation.": {
-    "message": "当您创建新功能时，请遵循项目文档中指定的指南。"
+  "When you create new features or modify the existing ones, please follow the guidelines specified in the project documentation.": {
+    "message": "When you create new features or modify the existing ones, please follow the guidelines specified in the project documentation."
   },
   "Social Media": {
     "message": "社交媒体"
@@ -23,23 +23,23 @@
   "Run on Any Device": {
     "message": "在任何设备上运行"
   },
-  "Juka is built on top of .NET framework. This means that Juka can run on many platforms including Windows, Linux, MacOS, MS Azure, iOS/iPadOS (coming soon) and Android (coming soon).": {
-    "message": "Juka is built on top of .NET framework. This means that Juka can run on many platforms including Windows, Linux, MacOS, MS Azure, iOS/iPadOS (coming soon) and Android (coming soon)."
+  "Juka's main goal is to be able to run on any platform including Windows, Linux, MacOS, MS Azure, iOS/iPadOS (coming soon) and Android (coming soon).": {
+    "message": "Juka's main goal is to be able to run on any platform including Windows, Linux, MacOS, MS Azure, iOS/iPadOS (coming soon) and Android (coming soon)."
   },
-  "Run in the Cloud": {
-    "message": "在云端运行"
+  "Cloud Friendly": {
+    "message": "Cloud Friendly"
   },
-  "You can run Juka on Microsoft's Azure Server by using Juka's built-in Azure Function. Download latest Azure Function from": {
-    "message": "You can run Juka on Microsoft's Azure Server by using Juka's built-in Azure Function. Download latest Azure Function from"
+  "You can run Juka on Microsoft's Azure Server by using Juka's Azure serverless function. Compile the code quickly, or let the others run the code. Download latest Azure Function from": {
+    "message": "You can run Juka on Microsoft's Azure Server by using Juka's Azure serverless function. Compile the code quickly, or let the others run the code. Download latest Azure Function from"
   },
   "NOTE: you need an active Microsoft Azure account to host.": {
     "message": "NOTE: you need an active Microsoft Azure account to host."
   },
-  "Decentralized Package Manager ": {
-    "message": "分散软件包管理器 "
+  "Get packages from a Blockchain ": {
+    "message": "Get packages from a Blockchain "
   },
-  "All packages are hosted on a blockchain in a decentralized manner. Want to help with running the network? Add your server configuration to": {
-    "message": "All packages are hosted on a blockchain in a decentralized manner. Want to help with running the network? Add your server configuration to"
+  "All Juka packages/libraries are hosted on a blockchain in a decentralized manner. Want to help with running the network? Add your server configuration to": {
+    "message": "All Juka packages/libraries are hosted on a blockchain in a decentralized manner. Want to help with running the network? Add your server configuration to"
   },
   "and run the Juka-Network Server (which can be downloaded from": {
     "message": "and run the Juka-Network Server (which can be downloaded from"
