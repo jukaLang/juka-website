@@ -2,9 +2,9 @@
 sidebar_position: 1
 ---
 
-# Introduction au tutoriel
+# Introduction
 
-Le but de Juka est d'être un langage de programmation universel qui peut fonctionner sur n'importe quelle plateforme. Juka est en cours de construction sur le réseau .NET et fonctionne sur n'importe quelle plate-forme qui supporte .NET.
+Juka's goal is to be a universal programming language that can run on any platform including mobile devices.
 
 Juka peut être exécuté en tant que fonction pour le serveur Azure Cloud de Microsoft. Juka peut aussi compiler des programmes en exécutables.
 
@@ -15,12 +15,14 @@ La dernière version de Juka peut être trouvée sur https://github.com/jukaLang
 La source de Juka peut être téléchargée sur https://github.com/jukaLang/juka
 
 ## Exécution de Juka
-Juka peut être exécuté sur le cloud de Microsoft Azure, ou il peut être exécuté en tant qu'application autonome
+Run ./juka.exe (on Windows) or ./juka on MacOS and Linux to start up Juka
+
+Juka can be run on a Microsoft Azure's cloud, or it can be run as a standalone application
 
 ### Comment Juka exécute-t-elle votre fichier en interne
-![Mise en page](/img/Runtime.png)
+![Layout](/img/Runtime.png)
 
 ## Contribuer
 - Créez une nouvelle branche, travaillez dessus et créez une pull request une fois que vous avez fini de travailler sur la fonctionnalité.
 
-Cliquez sur le suivant pour commencer
+Click next to get started
