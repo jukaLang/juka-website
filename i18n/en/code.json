@@ -47,14 +47,14 @@
   "We appreciate any help!": {
     "message": "We appreciate any help!"
   },
-  "Special Thanks For The Software Provided By:": {
-    "message": "Special Thanks For The Software Provided By:"
+  "Special Thanks To:": {
+    "message": "Special Thanks To:"
   },
   "Get Started with Juka": {
     "message": "Get Started with Juka"
   },
-  "Follow us on:": {
-    "message": "Follow us on:"
+  "Follow us for news and updates!": {
+    "message": "Follow us for news and updates!"
   },
   "theme.ErrorPageContent.title": {
     "message": "This page crashed.",
@@ -176,10 +176,6 @@
     "message": "Next",
     "description": "The label used to navigate to the next doc"
   },
-  "theme.DocSidebarItem.toggleCollapsedCategoryAriaLabel": {
-    "message": "Toggle the collapsible sidebar category '{label}'",
-    "description": "The ARIA label to toggle the collapsible sidebar category"
-  },
   "theme.docs.tagDocListPageTitle.nDocsTagged": {
     "message": "One doc tagged|{count} docs tagged",
     "description": "Pluralized label for \"{count} docs tagged\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
@@ -239,10 +235,6 @@
     "message": "Tags:",
     "description": "The label alongside a tag list"
   },
-  "theme.TOCCollapsible.toggleButtonLabel": {
-    "message": "On this page",
-    "description": "The label used by the button on the collapsible TOC component"
-  },
   "theme.blog.sidebar.navAriaLabel": {
     "message": "Blog recent posts navigation",
     "description": "The ARIA label for recent posts in the blog sidebar"
@@ -263,9 +255,17 @@
     "message": "Toggle word wrap",
     "description": "The title attribute for toggle word wrapping button of code block lines"
   },
+  "theme.DocSidebarItem.toggleCollapsedCategoryAriaLabel": {
+    "message": "Toggle the collapsible sidebar category '{label}'",
+    "description": "The ARIA label to toggle the collapsible sidebar category"
+  },
   "theme.navbar.mobileLanguageDropdown.label": {
     "message": "Languages",
     "description": "The label for the mobile language switcher dropdown"
+  },
+  "theme.TOCCollapsible.toggleButtonLabel": {
+    "message": "On this page",
+    "description": "The label used by the button on the collapsible TOC component"
   },
   "theme.docs.sidebar.collapseButtonTitle": {
     "message": "Collapse sidebar",
