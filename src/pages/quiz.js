@@ -30,6 +30,7 @@ function QuizHeader() {
     const [score, setScore] = useState(0);
     const [name, setName] = useState("");
     const [nset, setNset] = useState(false);
+    const [nameErr, setNameErr] = useState(false);
     const handleAnswerOptionClick = (isCorrect) => {
         if (isCorrect) {
             setScore(score + 1);
@@ -45,7 +46,11 @@ function QuizHeader() {
     };
 
     const handleNameClick = () => {
-        setNset(true);
+        if(name.length > 2) {
+            setNset(true);
+        } else{
+            setNameErr(true);
+        }
     };
 
     const {siteConfig} = useDocusaurusContext();
@@ -132,13 +137,16 @@ function QuizHeader() {
                 ) : (
                     <label>
                         Please enter your full name: <br/>
-                        <input  type="text" placeholder="John Smith" value={name} onKeyPress={event => {
+                        <input className={styles.quiz_sname} type="text" placeholder="John Smith" value={name} onKeyPress={event => {
                             if (event.key === 'Enter') {
                                 handleNameClick()
                             }
                         }} onChange={e => setName(e.target.value)}/>
-                        <input type="submit" value="Start" onClick={() => handleNameClick()}/>
+                        <input className={styles.quiz_sbutton} type="submit" value="Start" onClick={() => handleNameClick()}/>
+
+                        {(nameErr? (<div className={styles.quiz_snamerrr}>Invalid Name Entered. Enter Valid Name!</div>) : (<></>))}
                     </label>
+
                 )
                 }
             </div>

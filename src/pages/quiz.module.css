@@ -48,3 +48,38 @@
     margin-right: 5px;
 }
 
+input[type=text].quiz_sname {
+    display: inline-block;
+    color: white;
+    padding: 10px;
+    width: 250px;
+    box-sizing: border-box;
+    background-color: rgba(0,0,0,0.25);
+    border: none;
+    border-radius: 2px;
+    margin: 10px auto;
+    transition:background-color 0.5s ease;
+}
+
+input[type=submit].quiz_sbutton {
+    color: white;
+    font-weight: bold;
+    display: block;
+    margin-top:15px;
+    border: none;
+    padding: 5px;
+    font-size: 1.1em;
+    cursor: pointer;
+
+
+    background-color: #4CDF78;
+}
+
+
+input[type=submit].quiz_sbutton:hover {
+    text-shadow: 1px 1px 0px rgba(0,0,0,.3)
+}
+
+.quiz_snamerrr{
+    color: red;
+}

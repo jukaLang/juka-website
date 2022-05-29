@@ -10,7 +10,7 @@ export default function HomepageFeatures() {
                 <div className="row">
                     <div className={clsx('col col--12')}>
                         <div className="text--center padding-horiz--md">
-                    <h1><Translate>Special Thanks For The Software Provided By:</Translate></h1>
+                    <h1><Translate>Special Thanks To:</Translate></h1>
                     <ul>
                         <li>
                             JetBrains <a target="_blank" href={"https://www.jetbrains.com/"}>(link)</a>

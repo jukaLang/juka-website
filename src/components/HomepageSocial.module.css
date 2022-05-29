@@ -1,0 +1,13 @@
+.fontaweic{
+    color:white;
+    width: 80%;
+    height: auto;
+}
+
+.fontawef {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 100%;
+}

@@ -2,7 +2,7 @@ import React from 'react';
 import clsx from 'clsx';
 import styles from './HomepageFeatures.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCode, faUserFriends,faCoffee, faCloud, faNetworkWired,faProjectDiagram } from '@fortawesome/free-solid-svg-icons'
+import { faCode, faUserFriends,faCoffee, faCloud, faNetworkWired,faComputer} from '@fortawesome/free-solid-svg-icons'
 import Translate, {translate} from '@docusaurus/Translate';
 
 const FeatureList = [
@@ -29,17 +29,17 @@ const FeatureList = [
       faIcon: {faCoffee}.faCoffee,
     description: (
         <>
-            Discord: <a target="_blank" href="https://discord.com/invite/7BNpwKH8JC/">7BNpwKH8JC</a><br/>
-            Twitter: <a target="_blank" href="https://twitter.com/jukaLang">@jukaLang</a><br/>
             Facebook: <a target="_blank" href="https://www.facebook.com/jukalang/">@jukalang</a><br/>
             Instagram: <a target="_blank" href="https://www.instagram.com/jukalanguage/">@jukalanguage</a><br/>
-            YouTube: <a target="_blank" href="https://www.youtube.com/channel/UCRkKqD0fnuVAJLJe9p4ZiKQ">Juka Programming Language</a>
+            Twitter: <a target="_blank" href="https://twitter.com/jukaLang">@jukaLang</a><br/>
+            YouTube: <a target="_blank" href="https://www.youtube.com/channel/UCRkKqD0fnuVAJLJe9p4ZiKQ">Juka Programming Language</a><br/>
+            Discord: <a target="_blank" href="https://discord.com/invite/7BNpwKH8JC/">7BNpwKH8JC</a>
         </>
     ),
   },
     {
         title: translate({message:'Run on Any Device'}),
-        faIcon: {faProjectDiagram}.faProjectDiagram,
+        faIcon: {faComputer}.faComputer,
         description: (
             <>
                 <Translate>Juka is built on top of .NET framework. This means that Juka can run on many platforms
