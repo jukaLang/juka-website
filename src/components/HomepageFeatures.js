@@ -11,7 +11,7 @@ const FeatureList = [
       faIcon: {faUserFriends}.faUserFriends,
     description: (
       <>
-          <Translate>Join our ever growing Juka community</Translate> (<a target="_blank" href="https://discord.com/invite/7BNpwKH8JC/">link</a>). <Translate>We use "Discord" for managing the community as it provides an easy way to stay connected. In order to join the community, you should click and register a Discord account. If you already have an account, just join the "JukaLang" group. It's public and anyone can join!</Translate>
+          <Translate>Join our ever growing Juka community</Translate> (<a target="_blank" href="https://discord.com/invite/7BNpwKH8JC/">link</a>). <Translate>We use "Discord" for managing the community as it provides an easy way to stay connected. In order to join the community, you should click our invitation link and register a Discord account. If you already have an account, just join the "JukaLang" group. It's public and anyone can join!</Translate>
       </>
     ),
   },
@@ -20,7 +20,7 @@ const FeatureList = [
       faIcon: {faCode}.faCode,
     description: (
       <>
-      <Translate>Juka is built by the community, for the community. Please consider contributing to the Juka GitHub repository at</Translate> <a target="_blank" href="https://github.com/jukaLang">https://github.com/jukaLang</a> <Translate>When you create new features, please follow the guidelines specified in the project documentation.</Translate>
+      <Translate>Juka is built by the community, for the community. Please consider contributing to the Juka GitHub repository at</Translate> <a target="_blank" href="https://github.com/jukaLang">https://github.com/jukaLang</a> <Translate>When you create new features or modify the existing ones, please follow the guidelines specified in the project documentation.</Translate>
       </>
     ),
   },
@@ -29,6 +29,7 @@ const FeatureList = [
       faIcon: {faCoffee}.faCoffee,
     description: (
         <>
+            Follow us on:<br/>
             Facebook: <a target="_blank" href="https://www.facebook.com/jukalang/">@jukalang</a><br/>
             Instagram: <a target="_blank" href="https://www.instagram.com/jukalanguage/">@jukalanguage</a><br/>
             Twitter: <a target="_blank" href="https://twitter.com/jukaLang">@jukaLang</a><br/>
@@ -42,26 +43,25 @@ const FeatureList = [
         faIcon: {faComputer}.faComputer,
         description: (
             <>
-                <Translate>Juka is built on top of .NET framework. This means that Juka can run on many platforms
-                    including Windows, Linux, MacOS, MS Azure, iOS/iPadOS (coming soon) and Android (coming soon).</Translate>
+                <Translate>Juka's main goal is to be able to run on any platform including Windows, Linux, MacOS, MS Azure, iOS/iPadOS (coming soon) and Android (coming soon).</Translate>
             </>
         ),
     },
     {
-        title: translate({message:'Run in the Cloud'}),
+        title: translate({message:'Cloud Friendly'}),
         faIcon: {faCloud}.faCloud,
         description: (
             <>
-                <Translate>You can run Juka on Microsoft's Azure Server by using Juka's built-in Azure Function. Download latest Azure Function from </Translate> <a href="https://github.com/jukaLang/Juka/releases">https://github.com/jukaLang/Juka/releases</a>. <br/> <Translate>NOTE: you need an active Microsoft Azure account to host.</Translate>
+                <Translate>You can run Juka on Microsoft's Azure Server by using Juka's Azure serverless function. Compile the code quickly, or let the others run the code. Download latest Azure Function from </Translate> <a href="https://github.com/jukaLang/Juka/releases">https://github.com/jukaLang/Juka/releases</a>. <br/> <Translate>NOTE: you need an active Microsoft Azure account to host.</Translate>
             </>
         ),
     },
     {
-        title: translate({message:'Decentralized Package Manager '}),
+        title: translate({message:'Get packages from a Blockchain '}),
         faIcon: {faNetworkWired}.faNetworkWired,
         description: (
             <>
-                <Translate>All packages are hosted on a blockchain in a decentralized manner. Want to help with running the network?
+                <Translate>All Juka packages/libraries are hosted on a blockchain in a decentralized manner. Want to help with running the network?
                     Add your server configuration to </Translate> <a target="_blank" href="https://github.com/jukaLang/juka-network">https://github.com/jukaLang/juka-network</a> <Translate> and run the Juka-Network Server (which can be downloaded from </Translate> <a href="https://github.com/jukaLang/Juka/releases">https://github.com/jukaLang/Juka/releases</a>). <Translate>We appreciate any help!</Translate>
             </>
         ),

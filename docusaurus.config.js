@@ -65,7 +65,7 @@ const config = {
       announcementBar: {
         id: 'support_us',
         content:
-            'We need help creating the docs. Please consider contributing to the documentation at <a target="_blank"  href="https://github.com/JukaLang/juka-website">https://github.com/JukaLang/juka-website</a>',
+            'We need help updating the documentation. Please contribute to the docs at <a target="_blank"  href="https://github.com/JukaLang/juka-website">https://github.com/JukaLang/juka-website</a>',
         backgroundColor: '#ddd',
         textColor: '#091E42',
         isCloseable: false,

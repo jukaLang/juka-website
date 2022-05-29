@@ -79,13 +79,8 @@ function QuizHeader() {
         const certificateData = document.getElementById('certificate').innerHTML;
         const printWindow = window.open("about:blank", "", '_blank, alwaysRaised=yes');
         printWindow.document.write(certificateData);
-        try {
-            printWindow.print();
-            setTimeout(printWindow.close(), 500);
-        } catch{
-            printWindow.document.execCommand('print');
-        }
-    };
+        printWindow.print();
+    }
 
     return (
         <header className={clsx('hero hero--primary')}>
