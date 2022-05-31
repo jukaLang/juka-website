@@ -5,34 +5,43 @@ sidebar_position: 2
 # 正在写入您的第一个应用程序
 
 ## Hello World
+Let's start by creating a HelloWorld application. Create an empty file and save it as HelloWorld.juk
+
+In that file, copy and paste the following code:
+
 ```jsx
 func main() =
    printLine("foo");
 }
 ```
 
-## 如果条件
+Once done, save the file and run an appropriate command to compile the file
+
+
+### Windows
+If you added PATH variable:
+
 ```jsx
-func main()=
-    如果( 2<3) 
-    让您
-        printLine("foo");
-    }
-    否则(true)
-    *
-        print("c");
-    }
-}
+juka.exe HelloWorld.juk
 ```
 
-## 当循环
+If you didn't add a PATH variable:
 ```jsx
-func foo() = Power
-    int x = 3;
-    while (x<=4)
-    }
-        x++;
-        print(x);
-    }
-}
+./juka.exe path/to/HelloWorld.juk
 ```
+
+### Macintosh/Linux
+
+If you added PATH variable:
+
+```jsx
+juka HelloWorld.juk
+```
+
+If you didn't add a PATH variable:
+```jsx
+./juka path/to/HelloWorld.juk
+```
+
+### Microsoft Azure Function
+Please see Azure Function section for details
