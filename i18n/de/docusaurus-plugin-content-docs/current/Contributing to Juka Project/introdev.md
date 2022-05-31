@@ -4,24 +4,29 @@ sidebar_position: 1
 
 # Einführung
 
-Vielen Dank, dass Sie sich die Zeit genommen haben, um zum Juka-Projekt beizutragen. Wir brauchen die Hilfe und wir schätzen jede Hilfe, die wir bekommen können.
+Vielen Dank, dass Sie sich die Zeit genommen haben, um zum Juka-Projekt beizutragen. We are in need of the help, and we appreciate any help we can get.
 
-## Fehler gefunden?
-Fehlerkorrekturen sind immer willkommen und werden ermutigt. Du kannst sie als Ticket-Tab auf https://github.com/jukaLang posten
+
+## Contributing
+Create a new branch, work on it, and create a pull request once you are done working on the feature.
+
+
+## Found a bug?
+Bug fixes are always welcomed and are encouraged. You can post them as issues tab on https://github.com/jukaLang
 
 
 ## Styling
-Juka ist auf .NET aufgebaut. Bitte folgen Sie dem Coding auf https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/inside-a-program/coding-convention
+Juka is built on top of .NET. Please follow the coding outlined at https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/inside-a-program/coding-conventions
 
 
-## Dokumentation
-Jedem steht es frei, die Dokumentation zu reparieren. Die Dokumentation ist einer der schwierigeren Teile des Projektes. Es ist schwer, es zu schreiben, und es ist noch schwieriger zu warten. Wenn du dabei helfen kannst, wird es sehr geschätzt.
+## Documentation
+Anybody is free to fix the documentation. The Documentation is one of the harder part of the project. It's hard to write it, and it's even harder to maintain. If you can help with that, it will be greatly appreciated.
 
-## Testen
-Die meisten Tests werden automatisiert. Es gibt jedoch keinen Ersatz für einen Menschen. Das Testen ist schwieriger als das Kodieren. Das Schreiben eines Tests für Juka ist immer willkommen. Stellen Sie sicher, dass Sie sich beim Schreiben eines Tests auf Kantenfälle konzentrieren.
+## Testing
+Most of the testing will be automated. However, there is no substitute for a human being. The testing is harder than coding. Writing a test for Juka is always welcomed. Make sure to focus on edge cases when you write a test.
 
-## Auf Github senden
-Halten Sie den Code sauber indem Sie K.I.S.S. Prinzip. Wenn Sie eine große Änderung vornehmen wollen, fork das Projekt, aktualisiere es und sobald Sie die Korrektur vollständig implementiert haben, senden Sie eine Pull-Requests an das Hauptprojekt.
+## Submitting to GitHub
+Keep the code clean by following K.I.S.S. principle. If you want to make a major change, just fork the project, update it, and once you've fully implemented the fix, submit a pull request to the main project.
 
 
-Klicke als Nächstes um deine Reise zu beginnen und uns bei der Entwicklung von Juka zu helfen
+Click next to begin your journey in helping us develop Juka
