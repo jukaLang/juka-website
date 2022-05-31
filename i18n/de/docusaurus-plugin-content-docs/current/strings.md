@@ -4,27 +4,24 @@ sidebar_position: 4
 
 # Zeichenketten
 
+
 ## Zeichenketten definieren
-Es gibt drei Wege, Strings in Juka zu definieren. Du kannst **'**, **"**und **`** verwenden.
 
-## Wann wird **`** verwendet?
-Wenn Sie einen rohen String haben, der *'* und *"* enthält und Sie nicht den ganzen Text durchgehen wollen, um ihn zu entschlüsseln.
+You can define string by using quotation: **"**
 
-## Zeichenketten mit anderen Zeichenketten verbinden
-Die Zusammenführung der Saiten ist in Juka sehr einfach. Es gibt zwei Möglichkeiten, String zu koppeln. Sie können den traditionellen Weg machen:
-
+For example,
 
 ```jsx
-print("Hallo" + "Welt" + "Wie" + "is" + "it" + "geht?");
+"cat"
 ```
+will be a string, while
 
-In Juka gibt es eine andere Möglichkeit, dies zu tun. Aufgrund der Präfix-Natur kannst du dies tun:
 ```jsx
-print(+ "Hallo" "Welt" "Wie" "is" "it" "geht?");
+cat
 ```
+is an object
 
-Dies ist eine legitime Aussage in Juka.
 
-## Zeichenketten werden mit einer Zahl verbunden
+## Combining strings with a number
 
-Immer wenn Sie eine Zeichenkette mit einer Zahl verbinden, wird das Endergebnis String sein. Die Zahlen werden implizit in Strings konvertiert. Dann verketten sich Strings regelmäßig, wie im vorherigen Abschnitt erwähnt.
+Whenever you add string to a number (or vice versa), the end result will be string. The numbers are implicitly converted into strings. 
