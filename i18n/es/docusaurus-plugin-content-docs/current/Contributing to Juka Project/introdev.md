@@ -4,24 +4,29 @@ sidebar_position: 1
 
 # Introducción
 
-Muchas gracias por tomarse su tiempo para contribuir al proyecto Juka. Necesitamos la ayuda y apreciamos cualquier ayuda que podamos obtener.
-
-## ¿Encontrado un error?
-Las correcciones de errores siempre son bienvenidas y son alentadas. Puedes publicarlos como pestaña de problemas en https://github.com/jukaLang
+Muchas gracias por tomarse su tiempo para contribuir al proyecto Juka. We are in need of the help, and we appreciate any help we can get.
 
 
-## Estilo
-Juka está construido sobre .NET. Por favor, siga la codificación esbozada en https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/inside-a-program/coding-conventions
+## Contributing
+Create a new branch, work on it, and create a pull request once you are done working on the feature.
 
 
-## Documentación
-Cualquiera es libre de arreglar la documentación. La documentación es una de las partes más difíciles del proyecto. Es difícil escribirlo, y es aún más difícil de mantener. Si puedes ayudar con eso, será muy apreciado.
-
-## Pruebas
-La mayoría de las pruebas serán automatizadas. Sin embargo, no hay sustituto de un ser humano. Las pruebas son más difíciles que la codificación. Escribir una prueba para Juka siempre es bienvenido. Asegúrate de concentrarte en los casos extremos cuando escribas una prueba.
-
-## Enviando a Github
-Mantenga el código limpio siguiendo K.I.S.S. principio. Si quieres hacer un cambio importante, simplemente bifurca el proyecto, actualizarlo, y una vez que haya implementado la corrección, envíe un pull request al proyecto principal.
+## Found a bug?
+Bug fixes are always welcomed and are encouraged. You can post them as issues tab on https://github.com/jukaLang
 
 
-Haz clic al lado para comenzar tu viaje ayudándonos a desarrollar Juka
+## Styling
+Juka is built on top of .NET. Please follow the coding outlined at https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/inside-a-program/coding-conventions
+
+
+## Documentation
+Anybody is free to fix the documentation. The Documentation is one of the harder part of the project. It's hard to write it, and it's even harder to maintain. If you can help with that, it will be greatly appreciated.
+
+## Testing
+Most of the testing will be automated. However, there is no substitute for a human being. The testing is harder than coding. Writing a test for Juka is always welcomed. Make sure to focus on edge cases when you write a test.
+
+## Submitting to GitHub
+Keep the code clean by following K.I.S.S. principle. If you want to make a major change, just fork the project, update it, and once you've fully implemented the fix, submit a pull request to the main project.
+
+
+Click next to begin your journey in helping us develop Juka
