@@ -12,6 +12,8 @@ function LearnHeader() {
                 <div>Juka Videos</div>
                 <div><b>Coming Soon...</b></div>
 
+                <div><a href="/quiz">Take a Quiz on Juka (TEST)</a></div>
+
 
                 <div>Music Videos (TEST)</div>
                 <div className="container">
@@ -33,7 +35,7 @@ function LearnHeader() {
                     </div>
                 </div>
 
-                <div><a href="/quiz">Take a Quiz on Juka (TEST)</a></div>
+
             </div>
         </header>
     )

@@ -1,7 +1,6 @@
 import React from 'react';
 import clsx from 'clsx';
 import styles from './HomepageSocial.module.css';
-import Translate, {translate} from '@docusaurus/Translate';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebook,faTwitter,faInstagram,faDiscord,faYoutube} from '@fortawesome/free-brands-svg-icons'
 

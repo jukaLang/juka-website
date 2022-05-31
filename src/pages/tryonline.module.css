@@ -1,0 +1,30 @@
+.tryOnlineHeader {
+    padding: 1rem 0;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 966px) {
+    .tryOnlineHeader {
+        padding: 2rem;
+    }
+}
+
+.jide_container {
+    margin: 0 2rem;
+}
+
+input[type=submit].jide_execbutton {
+    color: white;
+    font-weight: bold;
+    display: block;
+    margin-top:15px;
+    border: none;
+    padding: 5px;
+    font-size: 1.1em;
+    cursor: pointer;
+
+
+    background-color: #4CDF78;
+}

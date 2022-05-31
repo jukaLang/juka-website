@@ -28,7 +28,8 @@ function QuizHeader() {
     const [currentQuestion, setCurrentQuestion] = useState(0);
     const [showScore, setShowScore] = useState(false);
     const [score, setScore] = useState(0);
-    const [name, setName] = useState("");
+    const [fname, setFname] = useState("");
+    const [lname, setLname] = useState("");
     const [nset, setNset] = useState(false);
     const [nameErr, setNameErr] = useState(false);
     const handleAnswerOptionClick = (isCorrect) => {
@@ -46,7 +47,7 @@ function QuizHeader() {
     };
 
     const handleNameClick = () => {
-        if(name.length > 2) {
+        if(fname.length > 2 && lname.length>2) {
             setNset(true);
         } else{
             setNameErr(true);
@@ -82,6 +83,10 @@ function QuizHeader() {
         printWindow.print();
     }
 
+    const Capitalize = (str) => {
+        return str.charAt(0).toUpperCase() + str.slice(1);
+    }
+
     return (
         <header className={clsx('hero hero--primary')}>
             <div className="container">
@@ -100,7 +105,7 @@ function QuizHeader() {
                                                 <div style={cert_styles}>
                                                     <h1>Certificate of Completion</h1>
                                                     <h2>This certificate is presented to</h2>
-                                                    <h2>{name}</h2>
+                                                    <h2>{Capitalize(fname)} {Capitalize(lname)}</h2>
                                                     <h2>for completing the course</h2>
                                                     <h2>Juka Fundamentals</h2>
                                                     <h2>Issued on: {date()}</h2>
@@ -131,12 +136,19 @@ function QuizHeader() {
                         )
                 ) : (
                     <label>
-                        Please enter your full name: <br/>
-                        <input className={styles.quiz_sname} type="text" placeholder="John Smith" value={name} onKeyPress={event => {
+                        Please enter your first name and your last name: <br/>
+                        <input className={styles.quiz_sname} type="text" placeholder="John" value={fname} onKeyPress={event => {
                             if (event.key === 'Enter') {
                                 handleNameClick()
                             }
-                        }} onChange={e => setName(e.target.value)}/>
+                        }} onChange={e => setFname(e.target.value)}/>
+
+                        <input className={styles.quiz_sname} type="text" placeholder="Smith" value={lname} onKeyPress={event => {
+                            if (event.key === 'Enter') {
+                                handleNameClick()
+                            }
+                        }} onChange={e => setLname(e.target.value)}/>
+
                         <input className={styles.quiz_sbutton} type="submit" value="Start" onClick={() => handleNameClick()}/>
 
                         {(nameErr? (<div className={styles.quiz_snamerrr}>Invalid Name Entered. Enter Valid Name!</div>) : (<></>))}

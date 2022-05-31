@@ -89,6 +89,11 @@ const config = {
             position: 'left'
           },
           {
+            to: 'tryonline',
+            label: 'Try Online',
+            position: 'left'
+          },
+          {
             type: 'localeDropdown',
             position: 'right',
           },
@@ -113,6 +118,10 @@ const config = {
               {
                 label: 'Learn',
                 to: '/learn',
+              },
+              {
+                label: 'Try Online',
+                to: '/tryonline',
               },
             ],
           },
