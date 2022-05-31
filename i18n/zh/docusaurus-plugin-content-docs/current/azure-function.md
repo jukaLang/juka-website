@@ -4,13 +4,24 @@ sidebar_position: 99
 
 # 方位函数
 
-- 打开Juka.sln
-- 使用 Test->Run->运行Tests 运行DreamUnitTests 以确保所有测试都已通过。
-- 点击"启动AzureJukaFunction"按钮，在本地运行 Azure 仿真器。
-- 使用 Postman 以 "body" 将函数作为原始请求发送到 Azure 服务器，格式如下：
+### Running Locally
+Juka can run locally without Azure Web server if you prefer to test Juka before uploading to your server. In order to do this, perform the following steps:
+- Open up Juka.sln in Windows Visual Studio 2022
+- Click "Start AzureJukaFunction" button which will run an Azure emulator locally.
+- Use Postman to send functions to the Azure server in "body" as raw request in the following format:
+
+
+### Microsoft Azure Function
+Upload the package to Azure Web Server Use web deploy to publish Juka (Azure Function) on the cloud
+
+## Calling Juka Azure Function
+
+Juka can run the code on Juka Azure Function server by sending a raw request message in the following format:
 
 ```json
 {
-    "code": "func main() = {}"
+    "code": "func x() = { printLine(\"Hello World\"} } x();"
 }
 ```
+
+NOTE: you must escape quotations, otherwise, Juka will return an error.
