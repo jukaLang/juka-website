@@ -15,7 +15,7 @@ sidebar_position: 998
 
 
 ## Вопрос: Является Juka авторским?
-*A:* Juka предоставляется в соответствии с измененной лицензией AGPL GNU. См. https://github.com/jukaLang/DReAM/blob/master/LICENSE
+*A:* Juka предоставляется в соответствии с измененной лицензией AGPL GNU. See https://jukalang.com/license
 
 ## В: Как начать использовать Juka?
 *О:* Смотрите раздел "Введение и приветствие в мире" документации
