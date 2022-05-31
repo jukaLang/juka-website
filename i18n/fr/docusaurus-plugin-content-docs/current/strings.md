@@ -4,27 +4,24 @@ sidebar_position: 4
 
 # Chaînes de caractères
 
+
 ## Définition des chaînes
-Il y a trois façons de définir des chaînes de caractères dans Juka. Vous pouvez utiliser **'**, **"**, et **`**.
 
-## Quand utiliser **`**?
-Lorsque vous avez une chaîne de caractères brute qui contient *'* et *"* et que vous ne souhaitez pas passer par le texte entier pour l'échappe.
+You can define string by using quotation: **"**
 
-## Concaténation des chaînes avec d'autres chaînes
-La concaténation des cordes est très facile à Juka. Il y a deux façons de concaténer une chaîne. Vous pouvez faire de la manière traditionnelle :
-
+For example,
 
 ```jsx
-print("Bonjour" + "Monde" + "Comment" + "est" + "il" + "en cours?");
+"cat"
 ```
+will be a string, while
 
-Il y a une autre façon de le faire à Juka. En raison de sa nature préfixée, vous pouvez faire ceci :
 ```jsx
-print(+ "Bonjour" "Monde" "Comment" "est" "il" "va ?");
+cat
 ```
+is an object
 
-C'est une déclaration légitime à Juka.
 
-## Concaténation des chaînes avec un nombre
+## Combining strings with a number
 
-Chaque fois que vous concaténez une chaîne avec un nombre, le résultat final sera une chaîne de caractères. Les nombres sont implicitement convertis en chaînes. Ensuite, les chaînes de caractères se concaténent régulièrement comme mentionné dans la section précédente.
+Whenever you add string to a number (or vice versa), the end result will be string. The numbers are implicitly converted into strings. 
