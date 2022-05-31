@@ -4,25 +4,69 @@ sidebar_position: 1
 
 # Introduction
 
-Juka's goal is to be a universal programming language that can run on any platform including mobile devices.
+Juka's main goal is to be a universal programming language that can run on any platform including mobile devices.
 
-Juka 可以作为Microsoft Azure Cloud Server的函数运行。 Juka还可以将程序编入可执行文件。
+Juka's philosophy is code once, run everywhere.
+
+__Current Supported Device:__
+- Windows
+- Linux/Unix
+- MacOS
+- Microsoft Azure Function
+
+__Coming Soon:__
+- Android
+- iOS (iPhone/iPad)
+- Universal Windows App (Windows 10+)
+- Docker Image
+
+__Potential Future Support:__
+- AWS (Amazon Web Service)
+- Xbox Series S/X
+- AndroidTV
+- Google Cloud
 
 
 ### 正在下载 Juka
-最新的 Juka 版本可在 https://github.com/jukaLang/juka/releases
+Latest Juka version can be found at https://github.com/jukaLang/juka/releases
 
-Juka源可在 https://github.com/jukaLang/juka 下载。
+Find the version that you want and download it to your device. The files should be self-contained (you are not required to download any other files)
 
 ## 正在运行Juka
-Run ./juka.exe (on Windows) or ./juka on MacOS and Linux to start up Juka
 
-Juka can be run on a Microsoft Azure's cloud, or it can be run as a standalone application
+### Windows
 
-### Juka 如何在内部运行您的文件
-![Layout](/img/Runtime.png)
+Run the following command to start the Juka editor:
 
-## 贡献中
-- 创建一个新分支，工作并在完成功能后创建一个拉取请求。
+```jsx
+./juka.exe
+```
 
-Click next to get started
+If you want to run Juka code from a file, run the following command (substitute HelloWorld.juk with your filename)
+
+```jsx
+./juka.exe HelloWorld.juk
+```
+
+### Linux/MacOS
+
+Run the following command to start the Juka editor:
+```jsx
+./juka
+```
+
+If you want to run Juka code from a file, run the following command (substitute HelloWorld.juk with your filename)
+
+```jsx
+./juka HelloWorld.juk
+```
+
+
+### Microsoft Azure Function
+
+Upload the package to Azure Web Server Use web deploy to publish Juka (Azure Function) on the cloud
+
+
+
+
+#### Click next to get started
