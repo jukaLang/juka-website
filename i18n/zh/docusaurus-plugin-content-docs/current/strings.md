@@ -4,27 +4,24 @@ sidebar_position: 4
 
 # 字符串
 
+
 ## 定义字符串
-在Juka，有三种方法来定义字符串。 您可以使用 **'**, **"**, 和 **`**。
 
-## 什么时候使用 **"**?
-当您有包含 *的原始字符串* and *"* 并且您不想通过整个文本来逃避它。
+You can define string by using quotation: **"**
 
-## 连接字符串和其他字符串
-在朱卡，连接字符串非常容易。 有两种方式来连接字符串。 您可以使用传统方式：
-
+For example,
 
 ```jsx
-打印("Hello" + "World" + "How" + "is" + "it" + "going?");
+"cat"
 ```
+will be a string, while
 
-在朱卡有另一种方法可以这样做。 由于它的前缀性质，您可以这样做：
 ```jsx
-print(+ "Hello" "World" "How" "is" "it" "onging ?");
+cat
 ```
+is an object
 
-这是在朱卡的一项合法声明。
 
-## 连接字符串与数字
+## Combining strings with a number
 
-每当您将字符串与一个数字混合时，最终结果将是字符串。 数字被默示转换为字符串。 然后如前一节所述，字符串会定期出现。
+Whenever you add string to a number (or vice versa), the end result will be string. The numbers are implicitly converted into strings. 
