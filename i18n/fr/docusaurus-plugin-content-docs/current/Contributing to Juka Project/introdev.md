@@ -4,24 +4,29 @@ sidebar_position: 1
 
 # Introduction
 
-Merci beaucoup d'avoir pris votre temps pour contribuer au projet Juka. Nous avons besoin de l'aide et nous apprécions toute aide que nous pouvons obtenir.
-
-## Vous avez trouvé un bug ?
-Les corrections de bugs sont toujours les bienvenues et sont encouragées. Vous pouvez les publier sous forme d'onglets de tickets sur https://github.com/jukaLang
+Merci beaucoup d'avoir pris votre temps pour contribuer au projet Juka. We are in need of the help, and we appreciate any help we can get.
 
 
-## Style en cours
-Juka est construit sur le .NET. Veuillez suivre le code décrit sur https://docs.microsoft.com/fr-us/dotnet/csharp/programming-guide/inside-a-program/coding-conventions
+## Contributing
+Create a new branch, work on it, and create a pull request once you are done working on the feature.
+
+
+## Found a bug?
+Bug fixes are always welcomed and are encouraged. You can post them as issues tab on https://github.com/jukaLang
+
+
+## Styling
+Juka is built on top of .NET. Please follow the coding outlined at https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/inside-a-program/coding-conventions
 
 
 ## Documentation
-Tout le monde est libre de réparer la documentation. La documentation est l'une des parties les plus difficiles du projet. C'est difficile à écrire, et c'est encore plus difficile à maintenir. Si vous pouvez aider avec cela, il sera grandement apprécié.
+Anybody is free to fix the documentation. The Documentation is one of the harder part of the project. It's hard to write it, and it's even harder to maintain. If you can help with that, it will be greatly appreciated.
 
-## Tests en cours
-La plupart des tests seront automatisés. Cependant, il n'y a pas de substitut à un être humain. Les tests sont plus difficiles que le codage. Écrire un test pour Juka est toujours le bienvenu. Assurez-vous de vous concentrer sur les cas de pointe lorsque vous écrivez un test.
+## Testing
+Most of the testing will be automated. However, there is no substitute for a human being. The testing is harder than coding. Writing a test for Juka is always welcomed. Make sure to focus on edge cases when you write a test.
 
-## Soumission sur Github
-Gardez le code propre en suivant K.I.S.S. principe. Si vous voulez faire un changement majeur, il suffit de créer un fork pour le projet, le mettre à jour, et une fois que vous avez complètement implémenté la correction, soumettez une pull request au projet principal.
+## Submitting to GitHub
+Keep the code clean by following K.I.S.S. principle. If you want to make a major change, just fork the project, update it, and once you've fully implemented the fix, submit a pull request to the main project.
 
 
-Cliquez sur le suivant pour commencer votre voyage en nous aidant à développer Juka
+Click next to begin your journey in helping us develop Juka
