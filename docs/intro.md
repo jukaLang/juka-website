@@ -8,6 +8,8 @@ Juka's main goal is to be a universal programming language that can run on any p
 
 Juka's philosophy is code once, run everywhere.
 
+![JukaRun](https://user-images.githubusercontent.com/11934545/171317993-66a4e3d9-8a1f-4f76-8076-48a87985e0e7.gif)
+
 __Current Supported Device:__
 - Windows
 - Linux/Unix
@@ -67,8 +69,3 @@ If you want to run Juka code from a file, run the following command (substitute 
 
 Upload the package to Azure Web Server
 Use web deploy to publish Juka (Azure Function) on the cloud
-
-
-
-
-#### Click next to get started
