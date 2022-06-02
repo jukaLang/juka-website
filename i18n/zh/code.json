@@ -5,8 +5,8 @@
   "Join our ever growing Juka community": {
     "message": "加入我们不断增长的胡卡社区"
   },
-  "We use \"Discord\" for managing the community as it provides an easy way to stay connected. In order to join the community, you should click and register a Discord account. If you already have an account, just join the \"JukaLang\" group. It's public and anyone can join!": {
-    "message": "我们使用“Discord”来管理社区，因为它提供了保持连接的简单方式。 为了加入社区，您应该点击并注册Discord帐户。 如果您已经有一个帐户，只需加入\"JukaLang\"群组。它是公开的，任何人都可以加入！"
+  "We use \"Discord\" for managing the community as it provides an easy way to stay connected. In order to join the community, you should click our invitation link and register a Discord account. If you already have an account, just join the \"JukaLang\" group. It's public and anyone can join!": {
+    "message": "我们使用“Discord”来管理社区，因为它提供了保持连接的简单方式。 为了加入社区，您应该点击我们的邀请链接并注册一个Discord帐户。 如果您已经有一个帐户，只需加入\"JukaLang\"群组。它是公开的，任何人都可以加入！"
   },
   "Contribute to the Source": {
     "message": "为源作贡献"
@@ -14,8 +14,8 @@
   "Juka is built by the community, for the community. Please consider contributing to the Juka GitHub repository at": {
     "message": "Juka 是由社区为社区建造的。请考虑为Juka GitHub 仓库做出贡献"
   },
-  "When you create new features, please follow the guidelines specified in the project documentation.": {
-    "message": "当您创建新功能时，请遵循项目文档中指定的指南。"
+  "When you create new features or modify the existing ones, please follow the guidelines specified in the project documentation.": {
+    "message": "当您创建新功能或修改现有功能时，请遵循项目文档中指定的指南。"
   },
   "Social Media": {
     "message": "社交媒体"
@@ -23,38 +23,38 @@
   "Run on Any Device": {
     "message": "在任何设备上运行"
   },
-  "Juka is built on top of .NET framework. This means that Juka can run on many platforms including Windows, Linux, MacOS, MS Azure, iOS/iPadOS (coming soon) and Android (coming soon).": {
-    "message": "Juka is built on top of .NET framework. This means that Juka can run on many platforms including Windows, Linux, MacOS, MS Azure, iOS/iPadOS (coming soon) and Android (coming soon)."
+  "Juka's main goal is to be able to run on any platform including Windows, Linux, MacOS, MS Azure, iOS/iPadOS (coming soon) and Android (coming soon).": {
+    "message": "Juka的主要目标是能够在任何平台上运行，包括Windows、Linux、MacOS、MS Azure、iOS/iPadOS (即将来临)和Android (即将来临)。"
   },
-  "Run in the Cloud": {
-    "message": "在云端运行"
+  "Cloud Friendly": {
+    "message": "云端友好模式"
   },
-  "You can run Juka on Microsoft's Azure Server by using Juka's built-in Azure Function. Download latest Azure Function from": {
-    "message": "You can run Juka on Microsoft's Azure Server by using Juka's built-in Azure Function. Download latest Azure Function from"
+  "You can run Juka on Microsoft's Azure Server by using Juka's Azure serverless function. Compile the code quickly, or let the others run the code. Download latest Azure Function from": {
+    "message": "您可以使用 Juka 的 Azure 服务器来运行 Juka 的 Azure 服务器。 快速编译代码，或让其他人运行代码。从 Azure 下载最新功能"
   },
   "NOTE: you need an active Microsoft Azure account to host.": {
-    "message": "NOTE: you need an active Microsoft Azure account to host."
+    "message": "注意：您需要一个活动的 Microsoft Azure 帐户才能进行主机操作。"
   },
-  "Decentralized Package Manager ": {
-    "message": "分散软件包管理器 "
+  "Get packages from a Blockchain ": {
+    "message": "从区块链获取软件包 "
   },
-  "All packages are hosted on a blockchain in a decentralized manner. Want to help with running the network? Add your server configuration to": {
-    "message": "All packages are hosted on a blockchain in a decentralized manner. Want to help with running the network? Add your server configuration to"
+  "All Juka packages/libraries are hosted on a blockchain in a decentralized manner. Want to help with running the network? Add your server configuration to": {
+    "message": "所有Juka软件包/库都以分散方式托管在区块链上。想要帮助运行网络？将您的服务器配置添加到"
   },
   "and run the Juka-Network Server (which can be downloaded from": {
-    "message": "and run the Juka-Network Server (which can be downloaded from"
+    "message": "运行Juka网络服务器 (可以从下载)"
   },
   "We appreciate any help!": {
-    "message": "We appreciate any help!"
+    "message": "我们感谢任何帮助！"
   },
-  "Special Thanks For The Software Provided By:": {
-    "message": "特别感谢软件提供者："
+  "Special Thanks To:": {
+    "message": "特别感谢："
   },
   "Get Started with Juka": {
     "message": "开始使用 Juka"
   },
-  "Follow us on:": {
-    "message": "关注我们："
+  "Follow us for news and updates!": {
+    "message": "关注我们以获取新闻和更新！"
   },
   "theme.ErrorPageContent.title": {
     "message": "此页面已崩溃。",
@@ -176,10 +176,6 @@
     "message": "下一个",
     "description": "The label used to navigate to the next doc"
   },
-  "theme.DocSidebarItem.toggleCollapsedCategoryAriaLabel": {
-    "message": "切换可折叠侧边栏类别{label}'",
-    "description": "The ARIA label to toggle the collapsible sidebar category"
-  },
   "theme.docs.tagDocListPageTitle.nDocsTagged": {
     "message": "已标记一个doc |{count} 个文档已标记",
     "description": "Pluralized label for \"{count} docs tagged\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
@@ -239,10 +235,6 @@
     "message": "标签：",
     "description": "The label alongside a tag list"
   },
-  "theme.TOCCollapsible.toggleButtonLabel": {
-    "message": "在本页",
-    "description": "The label used by the button on the collapsible TOC component"
-  },
   "theme.blog.sidebar.navAriaLabel": {
     "message": "博客最近帖子导航",
     "description": "The ARIA label for recent posts in the blog sidebar"
@@ -263,9 +255,17 @@
     "message": "切换单词换行",
     "description": "The title attribute for toggle word wrapping button of code block lines"
   },
+  "theme.DocSidebarItem.toggleCollapsedCategoryAriaLabel": {
+    "message": "切换可折叠侧边栏类别{label}'",
+    "description": "The ARIA label to toggle the collapsible sidebar category"
+  },
   "theme.navbar.mobileLanguageDropdown.label": {
     "message": "语文",
     "description": "The label for the mobile language switcher dropdown"
+  },
+  "theme.TOCCollapsible.toggleButtonLabel": {
+    "message": "在本页",
+    "description": "The label used by the button on the collapsible TOC component"
   },
   "theme.docs.sidebar.collapseButtonTitle": {
     "message": "折叠侧边栏",
