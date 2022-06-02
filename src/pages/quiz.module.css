@@ -48,7 +48,7 @@
     margin-right: 5px;
 }
 
-input[type=text].quiz_sname {
+.quiz_sname {
     display: inline-block;
     color: white;
     padding: 10px;
@@ -62,7 +62,7 @@ input[type=text].quiz_sname {
 }
 
 
-input[type=submit].quiz_sbutton {
+.quiz_sbutton {
     font-weight: bold;
     display: block;
     margin-top:15px;
@@ -85,7 +85,7 @@ input[type=submit].quiz_sbutton {
     animation: jukaRoll2 0.8s 1;
 }
 
-input[type=submit].quiz_sbutton:hover{
+.quiz_sbutton:hover{
     box-shadow: 10px 10px 0 -5px rgb(51,52,71),10px 10px 0 0 rgb(0,224,188);
     animation: jukaRoll 0.8s 1;
 }

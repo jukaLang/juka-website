@@ -3,6 +3,8 @@
 
 Official website: https://jukalang.com
 
+![website](https://user-images.githubusercontent.com/11934545/171547205-35aec235-09c6-4d08-9e52-b5cde5bc6bb9.png)
+
 # Juka Programming Language
 
 Juka Programming Language website is built on top of [Docusaurus 2](https://docusaurus.io/).
@@ -14,8 +16,7 @@ Any help is appreciated!
 
 #### Requirements
 ```jsx
-Node.js version >= 14
-Yarn v1.5+
+Node.js version 16.14+
 ```
 
 Run the following command to deploy the server locally:

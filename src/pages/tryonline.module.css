@@ -15,7 +15,7 @@
     margin: 0 2rem;
 }
 
-input[type=submit].jide_execbutton {
+.jide_execbutton {
     font-weight: bold;
     display: block;
     margin-top:15px;
@@ -37,7 +37,7 @@ input[type=submit].jide_execbutton {
     animation: jukaRoll2 0.8s 1;
 }
 
-input[type=submit].jide_execbutton:hover{
+.jide_execbutton:hover{
     box-shadow: 10px 10px 0 -5px white,10px 10px 0 0 rgb(0,224,188);
     animation: jukaRoll 0.8s 1;
 }
