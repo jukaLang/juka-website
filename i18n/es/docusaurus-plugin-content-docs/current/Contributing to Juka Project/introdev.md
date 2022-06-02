@@ -6,6 +6,11 @@ sidebar_position: 1
 
 Muchas gracias por tomarse su tiempo para contribuir al proyecto Juka. Necesitamos la ayuda y apreciamos cualquier ayuda que podamos obtener.
 
+
+## Contribuyendo
+Cree una nueva sucursala, trabaje en ella y cree un pull request una vez que haya terminado de trabajar en la función.
+
+
 ## ¿Encontrado un error?
 Las correcciones de errores siempre son bienvenidas y son alentadas. Puedes publicarlos como pestaña de problemas en https://github.com/jukaLang
 
@@ -20,7 +25,7 @@ Cualquiera es libre de arreglar la documentación. La documentación es una de l
 ## Pruebas
 La mayoría de las pruebas serán automatizadas. Sin embargo, no hay sustituto de un ser humano. Las pruebas son más difíciles que la codificación. Escribir una prueba para Juka siempre es bienvenido. Asegúrate de concentrarte en los casos extremos cuando escribas una prueba.
 
-## Enviando a Github
+## Enviando a GitHub
 Mantenga el código limpio siguiendo K.I.S.S. principio. Si quieres hacer un cambio importante, simplemente bifurca el proyecto, actualizarlo, y una vez que haya implementado la corrección, envíe un pull request al proyecto principal.
 
 

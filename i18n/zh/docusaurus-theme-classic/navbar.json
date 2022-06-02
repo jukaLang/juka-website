@@ -11,6 +11,10 @@
     "message": "学习",
     "description": "Navbar item with label Learn"
   },
+  "item.label.Try Online": {
+    "message": "尝试在线",
+    "description": "Navbar item with label Try Online"
+  },
   "item.label.GitHub": {
     "message": "GitHub",
     "description": "Navbar item with label GitHub"
