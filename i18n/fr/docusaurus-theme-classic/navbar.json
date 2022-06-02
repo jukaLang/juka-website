@@ -11,6 +11,10 @@
     "message": "Apprendre",
     "description": "Navbar item with label Learn"
   },
+  "item.label.Try Online": {
+    "message": "Essayer en ligne",
+    "description": "Navbar item with label Try Online"
+  },
   "item.label.GitHub": {
     "message": "GitHub",
     "description": "Navbar item with label GitHub"
