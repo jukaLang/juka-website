@@ -4,6 +4,10 @@
     height: auto;
 }
 
+.fontaweic:hover {
+    color: #00dfbb;
+}
+
 .fontawef {
     display: flex;
     align-items: center;

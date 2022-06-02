@@ -15,7 +15,7 @@
   --ifm-color-primary-lightest: #42445c;
   --ifm-code-font-size: 95%;
   --ifm-link-color: rgb(200,33,33);
-  --ifm-footer-link-hover-color: yellowgreen;
+  --ifm-footer-link-hover-color: #00dfbb;
   --ifm-menu-color-active: rgb(200,33,33);
   --ifm-font-color-base: #333447;
 }
@@ -40,7 +40,7 @@ main a{
 }
 
 a:hover{
-  color: yellowgreen;
+  color: #00dfbb;
 }
 
 html[data-theme='dark'] .container, html[data-theme='dark'] nav,  html[data-theme='dark'] nav a{

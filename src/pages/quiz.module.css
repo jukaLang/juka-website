@@ -61,24 +61,68 @@ input[type=text].quiz_sname {
     transition:background-color 0.5s ease;
 }
 
+
 input[type=submit].quiz_sbutton {
-    color: white;
     font-weight: bold;
     display: block;
     margin-top:15px;
+    margin-bottom: 15px;
     border: none;
-    padding: 5px;
+    padding: 10px 20px;
     font-size: 1.1em;
     cursor: pointer;
 
+    border-radius:5px;
 
-    background-color: #4CDF78;
+    text-align: center;
+    text-decoration: none;
+    color:white;
+    background-color: rgb(0,224,188);
+    box-shadow: -10px 10px 0 -5px rgb(51,52,71),-10px 10px 0 0 rgb(0,224,188);
+    outline:0;
+    border-bottom: 0;
+
+    animation: jukaRoll2 0.8s 1;
+}
+
+input[type=submit].quiz_sbutton:hover{
+    box-shadow: 10px 10px 0 -5px rgb(51,52,71),10px 10px 0 0 rgb(0,224,188);
+    animation: jukaRoll 0.8s 1;
 }
 
 
-input[type=submit].quiz_sbutton:hover {
-    text-shadow: 1px 1px 0px rgba(0,0,0,.3)
+@keyframes jukaRoll2 {
+    0% {
+        box-shadow: 10px 10px 0 -5px rgb(51,52,71), 10px 10px 0 0 rgb(0, 224, 188);
+
+    }
+    33.3333% {
+        box-shadow: 10px -10px 0 -5px rgb(51,52,71), 10px -10px 0 0 rgb(0, 224, 188);
+
+    }
+    66.6666% {
+        box-shadow: -10px -10px 0 -5px rgb(51,52,71), -10px -10px 0 0 rgb(0, 224, 188);
+    }
+    100% {
+        box-shadow: -10px 10px 0 -5px rgb(51,52,71), -10px 10px 0 0 rgb(0, 224, 188);
+    }
 }
+
+@keyframes jukaRoll {
+    0% {
+        box-shadow: -10px 10px 0 -5px rgb(51,52,71), -10px 10px 0 0 rgb(0, 224, 188);
+    }
+    33.3333% {
+        box-shadow: -10px -10px 0 -5px rgb(51,52,71), -10px -10px 0 0 rgb(0, 224, 188);
+    }
+    66.6666% {
+        box-shadow: 10px -10px 0 -5px rgb(51,52,71), 10px -10px 0 0 rgb(0, 224, 188);
+    }
+    100% {
+        box-shadow: 10px 10px 0 -5px rgb(51,52,71), 10px 10px 0 0 rgb(0, 224, 188);
+    }
+}
+
 
 .quiz_snamerrr{
     color: red;

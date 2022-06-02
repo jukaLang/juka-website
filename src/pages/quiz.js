@@ -47,7 +47,7 @@ function QuizHeader() {
     };
 
     const handleNameClick = () => {
-        if(fname.length > 2 && lname.length>2) {
+        if(fname.length > 1 && lname.length > 1) {
             setNset(true);
         } else{
             setNameErr(true);
@@ -109,7 +109,7 @@ function QuizHeader() {
                                                     <h2>for completing the course</h2>
                                                     <h2>Juka Fundamentals</h2>
                                                     <h2>Issued on: {date()}</h2>
-                                                    <h2>Signed: <img Width={22} Height={22} src={logovg}/> Juka Team </h2>
+                                                    <h2>Signed: <img alt={"JukaLogo"} width={22} height={22} src={logovg}/> Juka Team </h2>
                                                 </div>
                                             </div>
 
@@ -128,7 +128,7 @@ function QuizHeader() {
                                 </div>
                                 <div>
                                     {questions[currentQuestion].answerOptions.map((answerOption) => (
-                                        <button className={styles.quiz_button}
+                                        <button key={answerOption.answerText} className={styles.quiz_button}
                                             onClick={() => handleAnswerOptionClick(answerOption.isCorrect)}>{answerOption.answerText}</button>
                                     ))}
                                 </div>
