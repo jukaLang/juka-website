@@ -5,22 +5,22 @@ sidebar_position: 998
 # ЧАВО
 
 ## В: Работает ли Juka над Linux?
-*A:* Juka построена поверх библиотеки .NET 6.0, которая совместима с Windows, Linux и Macintosh. Мы также планируем поддерживать мобильные платформы, такие как Android и iOS/iPadOS. Juka также будет работать на сервере Azure как безсерверная функция, позволяющая любому устройству, подключенному к интернету для запуска Juka (при условии, что они поддерживают http протокол)
+*A:* Juka is compatible with Windows, Linux, and Macintosh. Juka can run on the cloud via Juka Azure function. We also plan to support mobile platforms such as Android and iOS/iPadOS.
+
 
 ## В: Для чего используется Juka?
-*О:* Juka Programming Language все еще находится на ранней стадии. Однако, мы планируем сделать его простым в использовании языком , который использует среду Microsoft.
+*A:* Juka Programming Language's philosophy is code once, run everywhere. Its purpose is to run on any platform.
 
 ## В: Могут ли эти языки помочь мне в _?
 *А:* Это может произойти. Язык все еще находится на ранней стадии, но мы ищем активных членов.
-
 
 ## Вопрос: Является Juka авторским?
 *A:* Juka предоставляется в соответствии с измененной лицензией AGPL GNU. See https://jukalang.com/license
 
 ## В: Как начать использовать Juka?
-*О:* Смотрите раздел "Введение и приветствие в мире" документации
+*A:* See the "Introduction" and "Writing your first application" section of the documentation
 
-## В: Есть ли у вас IDE или TextEditor где я могу написать код?
+## Q: Do you have an IDE or a text editor where I can write the code?
 *A:* Вы можете написать код с помощью любого текстового редактора. В настоящее время мы работаем над расширением Microsoft Visual Studio Code
 
 ## В: Я хочу разместить компилятор Juka онлайн... Как это сделать?
