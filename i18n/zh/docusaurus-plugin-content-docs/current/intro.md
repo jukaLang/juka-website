@@ -2,25 +2,68 @@
 sidebar_position: 1
 ---
 
-# 教程简介
+# 一. 导言
 
-朱卡的目标是成为一种能够在任何平台上运行的通用编程语言。 Juka 正在建立在.NET网络顶部，并在任何支持.NET的平台上运行。
+Juka的主要目标是成为一种通用的编程语言，可以在任何平台上运行，包括移动设备。
 
-Juka 可以作为Microsoft Azure Cloud Server的函数运行。 Juka还可以将程序编入可执行文件。
+Juka的哲学是一次代码，遍布任何地方。
+
+![jukaRun](https://user-images.githubusercontent.com/11934545/171545920-02493491-fa44-40d6-9a5b-46b2f90f8301.gif)
+
+__当前支持的设备：__
+- 窗口
+- Linux/Unix
+- MacOS
+- 微软Azure 函数
+
+__即将到来：__
+- Android
+- iOS (iPhone/iPad)
+- 通用Windows App (Windows 10+)
+- 停靠图像
+
+__潜在的未来支持：__
+- AWS (Amazon Web Service)
+- Xbox 系列 S/X
+- AndroidTV
+- 谷歌云
 
 
 ### 正在下载 Juka
 最新的 Juka 版本可在 https://github.com/jukaLang/juka/releases
 
-Juka源可在 https://github.com/jukaLang/juka 下载。
+查找您想要的版本，并将其下载到您的设备。 文件应该是自足的 (您无需下载任何其他文件)
 
 ## 正在运行Juka
-Juka 可以在Microsoft Azure的云上运行， 或者可以作为独立的应用程序运行
 
-### Juka 如何在内部运行您的文件
-![布局](/img/Runtime.png)
+### 窗口
 
-## 贡献中
-- 创建一个新分支，工作并在完成功能后创建一个拉取请求。
+运行以下命令启动Juka编辑器：
 
-点击旁边开始
+```jsx
+./juka.exe
+```
+
+如果您想从一个文件运行Juka代码，运行以下命令(用您的文件名替换HelloWorld.juk)
+
+```jsx
+./juka.exe HelloWorld.juk
+```
+
+### Linux/MacOS
+
+运行以下命令启动Juka编辑器：
+```jsx
+./juka
+```
+
+如果您想从一个文件运行Juka代码，运行以下命令(用您的文件名替换HelloWorld.juk)
+
+```jsx
+./juka HelloWorld.juk
+```
+
+
+### 微软Azure 函数
+
+将软件包上传到 Azure Web Server 使用 web 部署在云端发布Juka (Azure Function)
