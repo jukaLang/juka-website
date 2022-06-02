@@ -4,27 +4,24 @@ sidebar_position: 4
 
 # Cadenas
 
+
 ## Definir cadenas
-Hay tres maneras de definir las cadenas en Juka. Puedes usar **'**, **"**y **`**.
 
-## ¿Cuándo usar **`**?
-Cuando tienes una cadena cruda que contiene *'* y *"* y no deseas pasar por todo el texto para escaparla.
+Puede definir cadena usando comilla: **"**
 
-## Concatenar cadenas con otras cadenas
-La concatenación de cadenas es muy fácil en Juka. Hay dos maneras de concatenar la cadena. Puedes hacer lo tradicional:
-
+Por ejemplo,
 
 ```jsx
-print("Hola" + "Mundo" + "cómo" + "es" + "it" + "va?");
+"gato"
 ```
+será una cadena, mientras
 
-Hay otra forma de hacerlo en Juka. Debido a su naturaleza de prefijo, puede hacer esto:
 ```jsx
-print(+ "Hola" "Mundo" "cómo" "es" "it" "go?");
+gato
 ```
+es un objeto
 
-Esta es una declaración legítima en Juka.
 
-## Concatenar cadenas con un número
+## Combinar cadenas con un número
 
-Cada vez que concatena una cadena con un número, el resultado final será una cadena. Los números se convierten implícitamente en cadenas. A continuación, las cadenas se concatenan regularmente como se menciona en la sección anterior.
+Cada vez que añadas una cadena a un número (o viceversa), el resultado final será una cadena. Los números se convierten implícitamente en cadenas. 
