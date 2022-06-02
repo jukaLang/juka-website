@@ -8,7 +8,7 @@ Juka's main goal is to be a universal programming language that can run on any p
 
 Juka's philosophy is code once, run everywhere.
 
-![JukaRun](https://user-images.githubusercontent.com/11934545/171317993-66a4e3d9-8a1f-4f76-8076-48a87985e0e7.gif)
+![jukaRun](https://user-images.githubusercontent.com/11934545/171545920-02493491-fa44-40d6-9a5b-46b2f90f8301.gif)
 
 __Current Supported Device:__
 - Windows
