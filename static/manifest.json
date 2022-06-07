@@ -1,0 +1,57 @@
+{
+  "name": "Juka Programming Language",
+  "short_name": "Juka Lang",
+  "theme_color": "rgb(51, 52, 71)",
+  "background_color": "#FFF",
+  "display": "standalone",
+  "scope": "./",
+  "start_url": "./index.html",
+  "related_applications": [
+    {
+      "platform": "webapp",
+      "url": "https://jukalang.com/manifest.json"
+    }
+  ],
+  "icons": [
+    {
+      "src": "img/favicon.png",
+      "sizes": "72x72",
+      "type": "image/png"
+    },
+    {
+      "src": "img/juka.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "img/juka.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "img/juka.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "img/juka.png",
+      "sizes": "152x152",
+      "type": "image/png"
+    },
+    {
+      "src": "img/juka.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "img/juka.png",
+      "sizes": "384x384",
+      "type": "image/png"
+    },
+    {
+      "src": "img/juka.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

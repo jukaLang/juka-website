@@ -3,6 +3,10 @@
 
 Official website: https://jukalang.com
 
+TOR Link: 
+
+Mirror: https://juka-website.herokuapp.com
+
 ![website](https://user-images.githubusercontent.com/11934545/171547205-35aec235-09c6-4d08-9e52-b5cde5bc6bb9.png)
 
 # Juka Programming Language
