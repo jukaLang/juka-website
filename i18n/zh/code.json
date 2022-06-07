@@ -259,13 +259,13 @@
     "message": "切换可折叠侧边栏类别{label}'",
     "description": "The ARIA label to toggle the collapsible sidebar category"
   },
-  "theme.navbar.mobileLanguageDropdown.label": {
-    "message": "语文",
-    "description": "The label for the mobile language switcher dropdown"
-  },
   "theme.TOCCollapsible.toggleButtonLabel": {
     "message": "在本页",
     "description": "The label used by the button on the collapsible TOC component"
+  },
+  "theme.navbar.mobileLanguageDropdown.label": {
+    "message": "语文",
+    "description": "The label for the mobile language switcher dropdown"
   },
   "theme.docs.sidebar.collapseButtonTitle": {
     "message": "折叠侧边栏",
@@ -325,5 +325,17 @@
   "theme.SearchPage.fetchingNewResults": {
     "message": "正在获取新结果...",
     "description": "The paragraph for fetching new search results"
+  },
+  "theme.PwaReloadPopup.info": {
+    "message": "New version available",
+    "description": "The text for PWA reload popup"
+  },
+  "theme.PwaReloadPopup.refreshButtonText": {
+    "message": "Refresh",
+    "description": "The text for PWA reload button"
+  },
+  "theme.PwaReloadPopup.closeButtonAriaLabel": {
+    "message": "Close",
+    "description": "The ARIA label for close button of PWA reload popup"
   }
 }
