@@ -3,7 +3,7 @@
 
 Official website: https://jukalang.com
 
-TOR Link: (Coming Soon)
+TOR Link: jukalayayeaczamqzpm5o26au5cydqticgqj5wkmiudtfsjldja4lrid.onion
 
 Mirror: https://juka-website.herokuapp.com
 
