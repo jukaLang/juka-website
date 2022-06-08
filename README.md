@@ -1,11 +1,13 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/44911841-1d05-4a57-84f0-dfbd41b3d202/deploy-status)](https://app.netlify.com/sites/juka/deploys)
 [![Crowdin](https://badges.crowdin.net/juka-website/localized.svg)](https://crowdin.com/project/juka-website)
 
-Official website: https://jukalang.com
+**Official Website:** https://jukalang.com
 
-TOR Link: jukalayayeaczamqzpm5o26au5cydqticgqj5wkmiudtfsjldja4lrid.onion
+**TOR Link:** http://jukawebwjtic5aa4y7sb3mcxaeruw53ejswmrrv2qbsdua6owy6555qd.onion
 
-Mirror: https://juka-website.herokuapp.com
+**Mirror:** https://juka-website.herokuapp.com
+
+If you would like to add a mirror, add it to this (README.md) file
 
 ![website](https://user-images.githubusercontent.com/11934545/171547205-35aec235-09c6-4d08-9e52-b5cde5bc6bb9.png)
 
