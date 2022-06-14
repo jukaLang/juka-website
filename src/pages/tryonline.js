@@ -22,7 +22,7 @@ function TryEditor() {
         console.log(isCvalue);
 
         try {
-            const response = await fetch('https://localhost:7054/'+isCvalue.replaceAll("\n","%0A"), {
+            const response = await fetch('https://jukaapi-prod-juka-5ufe4u.mo1.mogenius.io/'+isCvalue.replaceAll("\n","%0A"), {
                 method: 'GET',
                 mode:'cors',
             });
