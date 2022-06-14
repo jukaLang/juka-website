@@ -10,23 +10,25 @@ function LearnHeader() {
             <div className={styles.learn}>
 
                 <div>Juka Videos</div>
-                <div><b>Coming Soon...</b></div>
+                <h3><b>Coming Soon...</b></h3>
 
-                <div><a href="/quiz">Take a Quiz on Juka (TEST)</a></div>
+                <div><a href="/quiz">Take a Quiz on Juka</a></div>
 
 
-                <div>Music Videos (TEST)</div>
+                <div>Other Useful Videos</div>
                 <div className="container">
                     <div className="row">
-                        <div className={clsx('col col--6 col--offset-3')}>
-                            <iframe width="100%" height="315" src="https://www.youtube.com/embed/Tci64rGWr50"
+                        <div className={clsx('col col--6')}>
+                            <h4>C# Tutorial for Beginners</h4>
+                            <iframe width="100%" height="315" src="https://www.youtube.com/embed/gfkTfcpWqAY"
                                     title="YouTube video player" frameBorder="0"
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                     allowFullScreen></iframe>
 
                         </div>
-                        <div className={clsx('col col--6 col--offset-3')}>
-                            <iframe width="100%" height="315" src="https://www.youtube.com/embed/EFE7ZkHbSKA"
+                        <div className={clsx('col col--6')}>
+                            <h4>MySQL for Beginners</h4>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/7S_tz1z_5bA"
                                     title="YouTube video player" frameBorder="0"
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                     allowFullScreen></iframe>

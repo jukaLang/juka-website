@@ -62,7 +62,7 @@ const FeatureList = [
         description: (
             <>
                 <Translate>All Juka packages/libraries are hosted on a blockchain in a decentralized manner. Want to help with running the network?
-                    Add your server configuration to </Translate> <a target="_blank" href="https://github.com/jukaLang/juka-network">https://github.com/jukaLang/juka-network</a> <Translate> and run the Juka-Network Server (which can be downloaded from </Translate> <a href="https://github.com/jukaLang/Juka/releases">https://github.com/jukaLang/Juka/releases</a>). <Translate>We appreciate any help!</Translate>
+                    Add your server configuration to </Translate> <a target="_blank" href="https://github.com/jukaLang/juka-network">https://github.com/jukaLang/juka-network</a> <Translate> and run the Juka-Network Server (which can be downloaded from </Translate> <a href="https://github.com/jukaLang/juka-network/releases">https://github.com/jukaLang/juka-network/releases</a>). <Translate>We appreciate any help!</Translate>
             </>
         ),
     },

@@ -1,13 +1,24 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/44911841-1d05-4a57-84f0-dfbd41b3d202/deploy-status)](https://app.netlify.com/sites/juka/deploys)
 [![Crowdin](https://badges.crowdin.net/juka-website/localized.svg)](https://crowdin.com/project/juka-website)
 
+[![Twitter](https://img.shields.io/twitter/follow/jukaLang.svg?style=social)](https://twitter.com/jukaLang)
+[![Discord](https://img.shields.io/discord/975787212954275910)](https://discord.com/invite/7BNpwKH8JC/)
+
+
 **Official Website:** https://jukalang.com
 
 **TOR Link:** http://jukawebwjtic5aa4y7sb3mcxaeruw53ejswmrrv2qbsdua6owy6555qd.onion
 
-**Mirror:** https://juka-website.herokuapp.com
+**Mirror 1:** https://juka-website.herokuapp.com
+
+**Mirror 2:** https://jukaweb-prod-juka-5ufe4u.mo1.mogenius.io
+
+**Mirror 3:** https://juka.netlify.app
 
 If you would like to add a mirror, add it to this (README.md) file
+
+[![Netlify Deploy](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/jukaLang/juka-website)
+[![Vercel Deploy](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/jukaLang/juka-website)
 
 ![website](https://user-images.githubusercontent.com/11934545/171547205-35aec235-09c6-4d08-9e52-b5cde5bc6bb9.png)
 

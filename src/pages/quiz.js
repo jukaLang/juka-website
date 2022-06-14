@@ -22,6 +22,33 @@ function QuizHeader() {
                 { answerText: 'printf("Hello")', isCorrect: false },
                 { answerText: 'log("Hello")', isCorrect: false },
             ],
+        },
+        {
+            questionText: 'How do you declare a function called "x" in Juka?',
+            answerOptions: [
+                { answerText: 'function() = x(){}', isCorrect: false },
+                { answerText: 'func x(){}', isCorrect: false },
+                { answerText: 'function x() = {}', isCorrect: false },
+                { answerText: 'func x() = {}', isCorrect: true },
+            ],
+        },
+        {
+            questionText: 'What is a result when you add 3 to "3"',
+            answerOptions: [
+                { answerText: '33', isCorrect: true },
+                { answerText: '6', isCorrect: false },
+                { answerText: '3', isCorrect: false },
+                { answerText: 'undefined', isCorrect: false },
+            ],
+        },
+        {
+            questionText: 'How to run C# code in Juka?"',
+            answerOptions: [
+                { answerText: '#{ C# Code}', isCorrect: true },
+                { answerText: 'C_sharp{}', isCorrect: false },
+                { answerText: 'csharp();', isCorrect: false },
+                { answerText: 'You can\'t run C# in Juka', isCorrect: false },
+            ],
         }
     ];
 
