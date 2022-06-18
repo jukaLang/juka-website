@@ -259,13 +259,13 @@
     "message": "Activer/désactiver la catégorie de barre latérale pliable '{label}'",
     "description": "The ARIA label to toggle the collapsible sidebar category"
   },
-  "theme.TOCCollapsible.toggleButtonLabel": {
-    "message": "Sur cette page",
-    "description": "The label used by the button on the collapsible TOC component"
-  },
   "theme.navbar.mobileLanguageDropdown.label": {
     "message": "Langues",
     "description": "The label for the mobile language switcher dropdown"
+  },
+  "theme.TOCCollapsible.toggleButtonLabel": {
+    "message": "Sur cette page",
+    "description": "The label used by the button on the collapsible TOC component"
   },
   "theme.docs.sidebar.collapseButtonTitle": {
     "message": "Réduire la barre latérale",
