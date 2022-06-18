@@ -72,6 +72,32 @@
 }
 
 
+
+.jide_savebutton{
+    text-align:right;
+    border: none;
+    cursor: pointer;
+    background-color: #2b2c3c;
+    color: white;
+    padding: 15px;
+    margin-right:15px;
+    margin-bottom:15px;
+    font-weight:bold;
+}
+
+.jide_loadbutton{
+    text-align:right;
+    border: none;
+    cursor: pointer;
+    background-color: #2b2c3c;
+    color:white;
+    padding: 15px;
+    margin-right:15px;
+    margin-bottom:15px;
+    font-weight:bold;
+}
+
+
 @keyframes jukaRoll4 {
     0% {
         box-shadow: 10px 10px 0 -5px white, 10px 10px 0 0 orangered;
@@ -136,7 +162,7 @@
     }
 }
 
-.jide_error{
+.jide_error *{
     color:red;
 }
 
@@ -172,6 +198,15 @@
 /* Create an active/current tablink class */
 .jide_tab_button.active {
     background-color: #ef7171;
+}
+
+.jide_plusbutton{
+    font-weight: bold;
+    border: none;
+    margin-top: 4px;
+    padding: 12px 10px;
+    cursor: pointer;
+    margin-left: 5px;
 }
 
 .jide_status_neutral{

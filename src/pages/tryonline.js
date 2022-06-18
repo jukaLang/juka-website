@@ -6,6 +6,7 @@ import CodeMirror from '@uiw/react-codemirror';
 import { javascript } from '@codemirror/lang-javascript';
 import { oneDark } from '@codemirror/theme-one-dark';
 import { useLocation, useHistory } from 'react-router-dom';
+import CodeBlock from '@theme/CodeBlock';
 
 function TryEditor() {
     const {siteConfig} = useDocusaurusContext();
@@ -19,8 +20,19 @@ function TryEditor() {
 }
 x();
 `;
+
+    const SaveCodeClick = () => {
+        console.log("saved");
+        localStorage.setItem('code_tab_1', isCvalue.replaceAll("\n","%0A"));
+    }
+    const LoadCodeClick = () => {
+        history.push({
+            search: '?code='+localStorage.getItem('code_tab_1')
+        });
+    }
     const GetCodeClick = () => {
         const myurl = siteConfig.url+""+location.pathname+"?code="+isCvalue.replaceAll("\n","%0A");
+        setIsError("");
         history.push({
             search: '?code='+isCvalue.replaceAll("\n","%0A")
         });
@@ -29,6 +41,7 @@ x();
     const ExecuteCodeClick = async () => {
         setIsLoaded(false);
         setIsError("");
+        setCoutput("");
 
         console.log(isCvalue);
 
@@ -66,8 +79,12 @@ x();
 
     return (
         <header className={styles.jide_container}>
+            <button type={"submit"} onClick={() => SaveCodeClick()} className={styles.jide_savebutton}>Save to Storage</button>
+            <button type={"submit"} onClick={() => LoadCodeClick()} className={styles.jide_loadbutton}>Load from Storage</button>
             <div className={styles.jide_tab}>
                 <button className={styles.jide_tab_button}><span className={styles.jide_status_neutral}>●</span> Untitled.juk</button>
+                <button className={styles.jide_plusbutton}>+</button>
+
             </div>
 
             <CodeMirror
@@ -82,8 +99,8 @@ x();
             <input type={"submit"} value={isLoaded? "Run Code": "Running..."} onClick={() => ExecuteCodeClick()} className={styles.jide_execbutton}/>
             <input type={"submit"} value={"Get Link To Code"} onClick={() => GetCodeClick()} className={styles.jide_linkbutton}/>
             <br/><br/>
-            {isCoutput? (<div><b>Output:</b><br/><pre>{isCoutput}</pre></div>) : (<></>)}
-            {isError? (<pre className={styles.jide_error}>Error: {isError}</pre>) :(<></>)}
+            {isCoutput? (<CodeBlock title="Result:">{isCoutput}</CodeBlock>) : (<></>)}
+            {isError? (<div className={styles.jide_error}><CodeBlock title={"Error:"}>{isError}</CodeBlock></div>) :(<></>)}
         </header>
     )
 }
