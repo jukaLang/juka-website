@@ -12,15 +12,17 @@ La filosofía de Juka es código una vez, corre por todas partes.
 
 __Dispositivo soportado:__
 - Ventanas
-- Linux/Unix
-- MacOS
-- Función Azure de Microsoft
+- Linux (Debian and Redhat)
+- MacOS (M1 and Intel Chipset)
+- Azure (Microsoft Azure Function)
+- HTTPS/API (JukaAPI server)
+- Docker (JukaAPI)
 
 __Próximamente:__
 - Android
 - iOS (iPhone/iPad)
 - Aplicación Universal de Windows (Windows 10+)
-- Imagen de Docker
+- FreeBSD
 
 __Soporte futuro potencial:__
 - AWS (Servicio Web de Amazon)
