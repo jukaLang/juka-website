@@ -12,7 +12,7 @@ In that file, copy and paste the following code:
 
 ```jsx
 func main() =  {
-   printLine("foo");
+   printLine("Hello World");
 }
 ```
 

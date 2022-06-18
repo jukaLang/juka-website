@@ -7,7 +7,9 @@ import { javascript } from '@codemirror/lang-javascript';
 import { oneDark } from '@codemirror/theme-one-dark';
 
 const code = `func x() = {
-    printLine("Hello World!");
+    string y = "Hello World";
+    printLine(y);
+    printLine("It works!");
 }
 x();
 `;
@@ -65,9 +67,9 @@ function TryEditor() {
                 }}
             />
             <input type={"submit"} type="submit" value={isLoaded? "Run Code": "Running..."} onClick={() => ExecuteCodeClick()} className={styles.jide_execbutton}/>
-            <br/><br/>
-            {isCoutput? (<h3>Output: {isCoutput}</h3>) : (<></>)}
-            {isError? (<div className={styles.jide_error}>Error: {isError}</div>) :(<></>)}
+            <br/>
+            {isCoutput? (<div><b>Output:</b><br/><pre>{isCoutput}</pre></div>) : (<></>)}
+            {isError? (<pre className={styles.jide_error}>Error: {isError}</pre>) :(<></>)}
         </header>
     )
 }
@@ -81,7 +83,7 @@ export default function Tryonline() {
             title={`Try Online | ${siteConfig.title}`}
             description="Juka Programming Language Learning Center">
             <main>
-                <h1 className={styles.tryOnlineHeader}>Juka Online Editor (Click run to run the code)</h1>
+                <h1 className={styles.tryOnlineHeader}>Juka Online Editor</h1>
                 <TryEditor />
 
             </main>
