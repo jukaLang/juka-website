@@ -22,31 +22,28 @@ x();
 `;
 
     const SaveCodeClick = () => {
-        console.log("saved");
-        localStorage.setItem('code_tab_1', isCvalue.replaceAll("\n","%0A"));
+        localStorage.setItem('code_tab_1', isCvalue);
     }
     const LoadCodeClick = () => {
-        history.push({
-            search: '?code='+localStorage.getItem('code_tab_1')
+        history.replace({
+            search: '?code='+encodeURIComponent(localStorage.getItem('code_tab_1'))
         });
     }
     const GetCodeClick = () => {
-        const myurl = siteConfig.url+""+location.pathname+"?code="+isCvalue.replaceAll("\n","%0A");
+        const myurl = siteConfig.url+""+location.pathname+"?code="+encodeURIComponent(isCvalue);
         setIsError("");
-        history.push({
-            search: '?code='+isCvalue.replaceAll("\n","%0A")
-        });
         setCoutput(myurl);
+        history.replace({
+            search: '?code='+encodeURIComponent(isCvalue)
+        });
     }
     const ExecuteCodeClick = async () => {
         setIsLoaded(false);
         setIsError("");
         setCoutput("");
 
-        console.log(isCvalue);
-
         try {
-            const response = await fetch('https://jukaapi-prod-juka-5ufe4u.mo1.mogenius.io/'+isCvalue.replaceAll("\n","%0A"), {
+            const response = await fetch('https://jukaapi-prod-juka-5ufe4u.mo1.mogenius.io/'+encodeURIComponent(isCvalue), {
                 method: 'GET',
                 mode:'cors',
             });
