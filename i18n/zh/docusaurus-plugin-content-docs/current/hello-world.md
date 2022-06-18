@@ -10,8 +10,8 @@ sidebar_position: 2
 在该文件中，复制并粘贴以下代码：
 
 ```jsx
-func main() =
-   printLine("foo");
+func main() =  {
+   printLine("Hello World");
 }
 ```
 

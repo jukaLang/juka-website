@@ -12,15 +12,17 @@ Juka的哲学是一次代码，遍布任何地方。
 
 __当前支持的设备：__
 - 窗口
-- Linux/Unix
-- MacOS
-- 微软Azure 函数
+- Linux (Debian and Redhat)
+- MacOS (M1 and Intel Chipset)
+- Azure (Microsoft Azure Function)
+- HTTPS/API (JukaAPI server)
+- Docker (JukaAPI)
 
 __即将到来：__
 - Android
 - iOS (iPhone/iPad)
 - 通用Windows App (Windows 10+)
-- 停靠图像
+- FreeBSD
 
 __潜在的未来支持：__
 - AWS (Amazon Web Service)

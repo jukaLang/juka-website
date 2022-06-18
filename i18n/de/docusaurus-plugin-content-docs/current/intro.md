@@ -12,15 +12,17 @@ Jukas Philosophie ist nur einmal Code, überall ausgeführt.
 
 __Aktuelles unterstütztes Gerät:__
 - Fenster
-- Linux/Unix
-- MacOS
-- Microsoft Azure Funktion
+- Linux (Debian and Redhat)
+- MacOS (M1 and Intel Chipset)
+- Azure (Microsoft Azure Function)
+- HTTPS/API (JukaAPI server)
+- Docker (JukaAPI)
 
 __Demnächst:__
 - Android
 - iOS (iPhone/iPad)
 - Universal Windows App (Windows 10+)
-- Docker Bild
+- FreeBSD
 
 __Mögliche zukünftige Unterstützung:__
 - AWS (Amazon Web Service)

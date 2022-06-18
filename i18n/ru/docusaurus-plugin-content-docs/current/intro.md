@@ -12,15 +12,17 @@ sidebar_position: 1
 
 __Поддерживаемое устройство:__
 - Окна
-- Linux/Unix
-- MacOS
-- Функция Microsoft Azure
+- Linux (Debian and Redhat)
+- MacOS (M1 and Intel Chipset)
+- Azure (Microsoft Azure Function)
+- HTTPS/API (JukaAPI server)
+- Docker (JukaAPI)
 
 __Скоро:__
 - Android
 - iOS (iPhone/iPad)
 - Универсальное приложение Windows (Windows 10+)
-- Изображение Docker
+- FreeBSD
 
 __Потенциальная дальнейшая поддержка:__
 - AWS (Amazon Web Service)

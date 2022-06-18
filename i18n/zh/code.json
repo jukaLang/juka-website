@@ -259,13 +259,13 @@
     "message": "切换可折叠侧边栏类别{label}'",
     "description": "The ARIA label to toggle the collapsible sidebar category"
   },
-  "theme.TOCCollapsible.toggleButtonLabel": {
-    "message": "在本页",
-    "description": "The label used by the button on the collapsible TOC component"
-  },
   "theme.navbar.mobileLanguageDropdown.label": {
     "message": "语文",
     "description": "The label for the mobile language switcher dropdown"
+  },
+  "theme.TOCCollapsible.toggleButtonLabel": {
+    "message": "在本页",
+    "description": "The label used by the button on the collapsible TOC component"
   },
   "theme.docs.sidebar.collapseButtonTitle": {
     "message": "折叠侧边栏",

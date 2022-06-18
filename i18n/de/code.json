@@ -259,13 +259,13 @@
     "message": "Umschalten der einklappbaren Seitenleistenkategorie '{label}'",
     "description": "The ARIA label to toggle the collapsible sidebar category"
   },
-  "theme.TOCCollapsible.toggleButtonLabel": {
-    "message": "Auf dieser Seite",
-    "description": "The label used by the button on the collapsible TOC component"
-  },
   "theme.navbar.mobileLanguageDropdown.label": {
     "message": "Sprachen",
     "description": "The label for the mobile language switcher dropdown"
+  },
+  "theme.TOCCollapsible.toggleButtonLabel": {
+    "message": "Auf dieser Seite",
+    "description": "The label used by the button on the collapsible TOC component"
   },
   "theme.docs.sidebar.collapseButtonTitle": {
     "message": "Seitenleiste einklappen",
