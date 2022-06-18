@@ -12,15 +12,17 @@ La philosophie de Juka est le code une fois, exécuté partout.
 
 __Périphérique actuel pris en charge :__
 - Fenêtres
-- Linux/Unix
-- MacOS
-- Fonction Microsoft Azure
+- Linux (Debian and Redhat)
+- MacOS (M1 and Intel Chipset)
+- Azure (Microsoft Azure Function)
+- HTTPS/API (JukaAPI server)
+- Docker (JukaAPI)
 
 __Bientôt disponible:__
 - Android
 - iOS (iPhone/iPad)
 - Application Windows universelle (Windows 10+)
-- Image Docker
+- FreeBSD
 
 __Soutien futur potentiel :__
 - AWS (Amazon Web Service)
