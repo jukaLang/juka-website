@@ -5,23 +5,25 @@ import styles from "./tryonline.module.css";
 import CodeMirror from '@uiw/react-codemirror';
 import { javascript } from '@codemirror/lang-javascript';
 import { oneDark } from '@codemirror/theme-one-dark';
+import { useLocation, useHistory } from 'react-router-dom';
 
-
-const queryParams = new URLSearchParams(window.location.search)
-var code = queryParams.get("code")
-code = code? code : `func x() = {
+function TryEditor() {
+    const {siteConfig} = useDocusaurusContext();
+    const location = useLocation();
+    const history = useHistory();
+    let code = new URLSearchParams(location.search).get("code");
+    code = code? code : `func x() = {
     string y = "Hello World";
     printLine(y);
     printLine("It works!");
 }
 x();
 `;
-
-
-
-function TryEditor() {
     const GetCodeClick = () => {
-        const myurl = location.protocol + '//' + location.host + location.pathname+"?code="+isCvalue.replaceAll("\n","%0A");
+        const myurl = siteConfig.url+""+location.pathname+"?code="+isCvalue.replaceAll("\n","%0A");
+        history.push({
+            search: '?code='+isCvalue.replaceAll("\n","%0A")
+        });
         setCoutput(myurl);
     }
     const ExecuteCodeClick = async () => {
@@ -57,9 +59,6 @@ function TryEditor() {
         return false;
     };
 
-
-
-
     const [isLoaded, setIsLoaded] = useState(true);
     const [isError, setIsError] = useState("");
     const [isCoutput, setCoutput] = useState("");
@@ -67,6 +66,10 @@ function TryEditor() {
 
     return (
         <header className={styles.jide_container}>
+            <div className={styles.jide_tab}>
+                <button className={styles.jide_tab_button}><span className={styles.jide_status_neutral}>●</span> Untitled.juk</button>
+            </div>
+
             <CodeMirror
                 value={code}
                 height="100%"
