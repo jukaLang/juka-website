@@ -6,7 +6,10 @@ import CodeMirror from '@uiw/react-codemirror';
 import { javascript } from '@codemirror/lang-javascript';
 import { oneDark } from '@codemirror/theme-one-dark';
 
-const code = `func x() = {
+
+const queryParams = new URLSearchParams(window.location.search)
+var code = queryParams.get("code")
+code = code? code : `func x() = {
     string y = "Hello World";
     printLine(y);
     printLine("It works!");
@@ -17,6 +20,10 @@ x();
 
 
 function TryEditor() {
+    const GetCodeClick = () => {
+        const myurl = location.protocol + '//' + location.host + location.pathname+"?code="+isCvalue.replaceAll("\n","%0A");
+        setCoutput(myurl);
+    }
     const ExecuteCodeClick = async () => {
         setIsLoaded(false);
         setIsError("");
@@ -50,6 +57,9 @@ function TryEditor() {
         return false;
     };
 
+
+
+
     const [isLoaded, setIsLoaded] = useState(true);
     const [isError, setIsError] = useState("");
     const [isCoutput, setCoutput] = useState("");
@@ -66,8 +76,9 @@ function TryEditor() {
                     setCvalue(value);
                 }}
             />
-            <input type={"submit"} type="submit" value={isLoaded? "Run Code": "Running..."} onClick={() => ExecuteCodeClick()} className={styles.jide_execbutton}/>
-            <br/>
+            <input type={"submit"} value={isLoaded? "Run Code": "Running..."} onClick={() => ExecuteCodeClick()} className={styles.jide_execbutton}/>
+            <input type={"submit"} value={"Get Link To Code"} onClick={() => GetCodeClick()} className={styles.jide_linkbutton}/>
+            <br/><br/>
             {isCoutput? (<div><b>Output:</b><br/><pre>{isCoutput}</pre></div>) : (<></>)}
             {isError? (<pre className={styles.jide_error}>Error: {isError}</pre>) :(<></>)}
         </header>

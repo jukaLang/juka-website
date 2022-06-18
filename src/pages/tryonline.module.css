@@ -17,8 +17,9 @@
 
 .jide_execbutton {
     font-weight: bold;
-    display: block;
+    display: inline-block;
     margin-top:15px;
+    margin-right:25px;
     border: none;
     padding: 10px 20px;
     font-size: 1.1em;
@@ -42,6 +43,66 @@
     animation: jukaRoll 0.4s 1;
 }
 
+.jide_linkbutton {
+    font-weight: bold;
+    display: inline-block;
+    margin-top:15px;
+    margin-right:25px;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.1em;
+    cursor: pointer;
+
+    border-radius:5px;
+
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: orangered;
+    box-shadow: -10px 10px 0 -5px white,-10px 10px 0 0 orangered;
+    outline:0;
+    border-bottom: 0;
+
+    animation: jukaRoll4 0.4s 1;
+}
+
+.jide_linkbutton:hover{
+    box-shadow: 10px 10px 0 -5px white,10px 10px 0 0 orangered;
+    animation: jukaRoll3 0.4s 1;
+}
+
+
+@keyframes jukaRoll4 {
+    0% {
+        box-shadow: 10px 10px 0 -5px white, 10px 10px 0 0 orangered;
+
+    }
+    33.3333% {
+        box-shadow: 10px -10px 0 -5px white, 10px -10px 0 0 orangered;
+
+    }
+    66.6666% {
+        box-shadow: -10px -10px 0 -5px white, -10px -10px 0 0 orangered;
+    }
+    100% {
+        box-shadow: -10px 10px 0 -5px white, -10px 10px 0 0 orangered;
+    }
+}
+
+@keyframes jukaRoll3 {
+    0% {
+        box-shadow: -10px 10px 0 -5px white, -10px 10px 0 0 orangered;
+    }
+    33.3333% {
+        box-shadow: -10px -10px 0 -5px white, -10px -10px 0 0 orangered;
+    }
+    66.6666% {
+        box-shadow: 10px -10px 0 -5px white, 10px -10px 0 0 orangered;
+    }
+    100% {
+        box-shadow: 10px 10px 0 -5px white, 10px 10px 0 0 orangered;
+    }
+}
 
 @keyframes jukaRoll2 {
     0% {
