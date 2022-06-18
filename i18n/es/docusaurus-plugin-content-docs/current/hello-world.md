@@ -10,8 +10,8 @@ Empecemos por crear una aplicación HelloWorld. Crear un archivo vacío y guarda
 En ese archivo, copiar y pegar el siguiente código:
 
 ```jsx
-func main() = {
-   printLine("foo");
+func main() =  {
+   printLine("Hello World");
 }
 ```
 
