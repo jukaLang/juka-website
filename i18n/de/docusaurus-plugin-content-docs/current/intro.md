@@ -12,10 +12,10 @@ Jukas Philosophie ist nur einmal Code, überall ausgeführt.
 
 __Aktuelles unterstütztes Gerät:__
 - Fenster
-- Linux (Debian and Redhat)
-- MacOS (M1 and Intel Chipset)
+- Linux (Debian und Redhat)
+- MacOS (M1 und Intel Chipsatz)
 - Azure (Microsoft Azure Function)
-- HTTPS/API (JukaAPI server)
+- HTTPS/API (JukaAPI Server)
 - Docker (JukaAPI)
 
 __Demnächst:__
