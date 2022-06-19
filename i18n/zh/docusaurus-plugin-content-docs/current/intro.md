@@ -13,9 +13,9 @@ Juka的哲学是一次代码，遍布任何地方。
 __当前支持的设备：__
 - 窗口
 - Linux (Debian and Redhat)
-- MacOS (M1 and Intel Chipset)
+- MacOS (M1 和 Intel Chipset)
 - Azure (Microsoft Azure Function)
-- HTTPS/API (JukaAPI server)
+- HTTPS/API (JukaAPI 服务器)
 - Docker (JukaAPI)
 
 __即将到来：__
