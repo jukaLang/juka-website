@@ -327,15 +327,15 @@
     "description": "The paragraph for fetching new search results"
   },
   "theme.PwaReloadPopup.info": {
-    "message": "New version available",
+    "message": "Nouvelle version disponible",
     "description": "The text for PWA reload popup"
   },
   "theme.PwaReloadPopup.refreshButtonText": {
-    "message": "Refresh",
+    "message": "Rafraîchir",
     "description": "The text for PWA reload button"
   },
   "theme.PwaReloadPopup.closeButtonAriaLabel": {
-    "message": "Close",
+    "message": "Fermer",
     "description": "The ARIA label for close button of PWA reload popup"
   }
 }
