@@ -12,10 +12,10 @@ La philosophie de Juka est le code une fois, exécuté partout.
 
 __Périphérique actuel pris en charge :__
 - Fenêtres
-- Linux (Debian and Redhat)
-- MacOS (M1 and Intel Chipset)
+- Linux (Debian et Redhat)
+- MacOS (M1 et Intel Chipset)
 - Azure (Microsoft Azure Function)
-- HTTPS/API (JukaAPI server)
+- HTTPS/API (serveur JukaAPI)
 - Docker (JukaAPI)
 
 __Bientôt disponible:__
