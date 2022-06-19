@@ -12,11 +12,11 @@ sidebar_position: 1
 
 __Поддерживаемое устройство:__
 - Окна
-- Linux (Debian and Redhat)
-- MacOS (M1 and Intel Chipset)
+- Linux (Debian и Redhat)
+- MacOS (M1 и Intel Chipset)
 - Azure (Microsoft Azure Function)
-- HTTPS/API (JukaAPI server)
-- Docker (JukaAPI)
+- HTTPS/API (JukaAPI сервер)
+- Докер (JukaAPI)
 
 __Скоро:__
 - Android
