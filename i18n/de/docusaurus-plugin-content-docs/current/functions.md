@@ -5,52 +5,41 @@ sidebar_position: 3
 # Funktionen
 
 ## Hauptfunktion
-Jeder Eintragspunkt Code/Skript muss eine Eintragsfunktion haben. Eine Eintragsfunktion wird mit folgender Option definiert:
+Juka automatically executes main() function.
 
 ```jsx
-func main() = { }
+func main() = { printLine("Hello");}
 ```
 
-HINWEIS: Skripte, die keine Hauptfunktion haben, können importiert werden, können aber nicht direkt ausgeführt werden. Die Hauptfunktion wird automatisch beim Eintrag aufgerufen. Wenn Sie es jedoch benötigen, können Sie die Main()-Funktionen explizit aufrufen.
+NOTE: the scripts that do not have main function, can be executed by calling the function itself. For example:
+```jsx
+func x() = { printLine("Hello"); } x();
+```
 
 ## Funktionen
 Alle Funktionen sind mit der Wortfunktion definiert. Funktionen können alphanumerische Werte (einschließlich _) enthalten und Funktionen können nicht mit numerischen Werten beginnen. Funktionen sind einfach definiert:
 
 ```jsx
 func foo() = {
-   printLine("Hallo Freund");
+   printLine("Hello Friend!");
 }
+foo();
 ```
 
 Beispiel:
 
 ```jsx
-func main() = {
-
-    int y = 5;
-
-    while ( (y == 3) && (y == 5) || (y > 6) ){
-        printLine("loop");
-    }
-
+func x() = {
+    string y = "Hello World";
+    printLine(y);
+    printLine("It works!");
 }
-
-
-func foo() = {
-    int x = 3;
-    printLine(x);
-    fart();
-    return x;
+func y() = {
+    printLine("==in the middle==");
+    print("======");
 }
+x();
+y();
+x();
 
-
-func rock() = {
-    bark();
-    bark();
-    printLine("rock");
-}
-
-func bark()={
-    printLine("bark");
-}
 ```
