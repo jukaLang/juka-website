@@ -5,13 +5,13 @@ sidebar_position: 3
 # Функции
 
 ## Основная функция
-Juka automatically executes main() function.
+Juka автоматически выполняет функцию main().
 
 ```jsx
 func main() = { printLine("Hello");}
 ```
 
-NOTE: the scripts that do not have main function, can be executed by calling the function itself. For example:
+ПРИМЕЧАНИЕ: скрипты, которые не имеют основной функции, могут быть выполнены путем вызова самой функции. Например:
 ```jsx
 func x() = { printLine("Hello"); } x();
 ```
@@ -32,7 +32,7 @@ foo();
 func x() = {
     string y = "Hello World";
     printLine(y);
-    printLine("It works!");
+    printLine("Это работает! );
 }
 func y() = {
     printLine("==in the middle==");
