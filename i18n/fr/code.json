@@ -293,13 +293,6 @@
     "message": "Expand sidebar",
     "description": "The ARIA label and title attribute for expand button of doc sidebar"
   },
-  "theme.SearchBar.seeAll": {
-    "message": "Voir tous les {count} résultats"
-  },
-  "theme.SearchBar.label": {
-    "message": "Chercher",
-    "description": "The ARIA label and placeholder for search button"
-  },
   "theme.SearchPage.documentsFound.plurals": {
     "message": "Un document trouvé |{count} documents trouvés",
     "description": "Pluralized label for \"{count} documents found\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
@@ -331,6 +324,13 @@
   "theme.SearchPage.fetchingNewResults": {
     "message": "Récupération des nouveaux résultats...",
     "description": "The paragraph for fetching new search results"
+  },
+  "theme.SearchBar.seeAll": {
+    "message": "Voir tous les {count} résultats"
+  },
+  "theme.SearchBar.label": {
+    "message": "Chercher",
+    "description": "The ARIA label and placeholder for search button"
   },
   "theme.PwaReloadPopup.info": {
     "message": "Nouvelle version disponible",
