@@ -13,11 +13,20 @@ import { faWindows, faApple, faLinux, faFreebsd, faRaspberryPi} from '@fortaweso
 function DownloadHeader() {
     const [version, setVersion] = useState("0.0.51");
 
-    fetch('https://api.github.com/repos/jukalang/juka/tags')
-        .then((response) => response.json())
-        .then((findresponse)=>{
-            setVersion(findresponse[0].name);
+    const https = require('https')
+    const url = "https://api.github.com/repos/jukalang/juka/tags";
+    https.get(url, res => {
+        let data = '';
+        res.on('data', chunk => {
+            data += chunk;
         });
+        res.on('end', () => {
+            data = JSON.parse(data);
+            setVersion(data[0].name);
+        })
+    }).on('error', err => {
+        console.log(err.message);
+    });
 
     function BigDownloadList() {
         return (
