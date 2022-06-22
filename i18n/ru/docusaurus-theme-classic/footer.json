@@ -20,7 +20,7 @@
     "description": "The label of footer link with label=Learn linking to /learn"
   },
   "link.item.label.Download Juka": {
-    "message": "Download Juka",
+    "message": "Скачать Juka",
     "description": "The label of footer link with label=Download Juka linking to /download"
   },
   "link.item.label.Try Online": {
@@ -52,7 +52,7 @@
     "description": "The label of footer link with label=License linking to /license"
   },
   "link.item.label.Special Thanks": {
-    "message": "Special Thanks",
+    "message": "Особая благодарность",
     "description": "The label of footer link with label=Special Thanks linking to /specialthanks"
   },
   "link.item.label.GitHub Source": {
@@ -60,7 +60,7 @@
     "description": "The label of footer link with label=GitHub Source linking to https://github.com/jukaLang/juka"
   },
   "copyright": {
-    "message": "Copyright © 2022 Juka Programming Language <br/> (Last updated on 6/22/2022, 12:14:15 AM EST)",
+    "message": "Copyright © 2022 Juka Programming Language <br/> (Последнее обновление 6/22/2022, 12:14:15 AM EST)",
     "description": "The footer copyright"
   }
 }
