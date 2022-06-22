@@ -18,20 +18,28 @@ function HomepageHeader() {
       <div className="container">
         <h1 className="hero__title">{siteConfig.title}</h1>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <div className={styles.buttons}>
-          <Link
-            className="button button--secondary button--lg"
-            to="/docs">
-            <Translate>Get Started with Juka</Translate>
-          </Link>
-           &nbsp;  &nbsp;
-            <Link
-                className="button button--secondary button--lg"
-                to="/download">
-                <Translate>Download</Translate>
-            </Link>
+          <div className={styles.buttons}>
+              <div className="container">
+                  <div className="row">
+                      <div className={clsx('col col--3 col--offset-3', styles.dlndbtn)}>
 
-        </div>
+                              <Link
+                                className="button button--secondary button--lg"
+                                to="/docs">
+                                <Translate>Get Started with Juka</Translate>
+                              </Link>
+                      </div>
+                      <div className={clsx('col col--3', styles.dlndbtn)}>
+                                <Link
+                                    className="button button--secondary button--lg"
+                                    to="/download">
+                                    <Translate>Download</Translate>
+                                </Link>
+
+                        </div>
+                          </div>
+                      </div>
+              </div>
           <br/>
           <CodeBlock className={`language-jsx ${styles.maincodeblock}`} title="./HelloWorld.juk">{`func main() = {
     // Print Hello World
