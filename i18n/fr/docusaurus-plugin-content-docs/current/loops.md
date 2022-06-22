@@ -12,7 +12,7 @@ Un exemple simple de la boucle «Tant »:
 
 ```jsx
 int x = 0;
-while(x < 2) {
+tant que(x < 2) {
     x = x+1;
 }
 ```
@@ -26,7 +26,7 @@ Un exemple simple de pause :
 
 ```jsx
 int x = 0;
-while( 1 ){
+tant que( 1 ){
     x = x + 1;
     if ( x > 2) {
         break;
