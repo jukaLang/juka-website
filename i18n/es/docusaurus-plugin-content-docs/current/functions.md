@@ -5,13 +5,13 @@ sidebar_position: 3
 # Funciones
 
 ## Función principal
-Juka automatically executes main() function.
+Juka ejecuta automáticamente la función main().
 
 ```jsx
-func main() = { printLine("Hello");}
+func main() = { printLine("Hola");}
 ```
 
-NOTE: the scripts that do not have main function, can be executed by calling the function itself. For example:
+NOTA: los scripts que no tienen función principal, pueden ser ejecutados llamando a la función misma. Por ejemplo:
 ```jsx
 func x() = { printLine("Hello"); } x();
 ```
@@ -21,7 +21,7 @@ Todas las funciones se definen con la función de la palabra. Las funciones pued
 
 ```jsx
 func foo() = {
-   printLine("Hello Friend!");
+   printLine("Hola amigo!");
 }
 foo();
 ```
@@ -30,9 +30,9 @@ Ejemplo:
 
 ```jsx
 func x() = {
-    string y = "Hello World";
+    string y = "Hola Mundo";
     printLine(y);
-    printLine("It works!");
+    printLine("¡Funciona! );
 }
 func y() = {
     printLine("==in the middle==");
