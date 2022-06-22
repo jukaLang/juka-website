@@ -13,14 +13,13 @@ La philosophie de Juka est le code une fois, exécuté partout.
 
 __Périphérique actuel pris en charge :__
 - Fenêtres (x64)
-- Windows (x86 32 bits)
-- ARM Windows (bras x64)
-- Linux (CentOS, Debian, Fedora, Ubuntu et dérivés)
-- Linux ARM (Linux Distributions qui exécutent ARM par exemple Raspberry Pi Model 2+)
+- Windows ARM (arm x64)
+- Linux (CentOS, Debian, Fedora, Ubuntu and derivatives)
+- Linux ARM (Linux Distributions that run ARM e.g. Raspberry Pi Model 2+)
 - MacOS (macOS 10.12+)
 - FreeBSD/UNIX (FreeBSD 11+)
 - Azure (Microsoft Azure Function)
-- HTTPS/API (serveur JukaAPI)
+- HTTPS/API (JukaAPI server)
 - Docker (JukaAPI)
 
 __Bientôt disponible:__
