@@ -13,14 +13,13 @@ Jukas Philosophie ist nur einmal Code, überall ausgeführt.
 
 __Aktuelles unterstütztes Gerät:__
 - Fenster (x64)
-- Windows (x86 32-Bit)
-- Windows ARM (Arm x64)
-- Linux (CentOS, Debian, Fedora, Ubuntu und Derivate)
-- Linux ARM (Linux-Distributionen mit ARM z.B. Raspberry Pi Model 2+)
+- Windows ARM (arm x64)
+- Linux (CentOS, Debian, Fedora, Ubuntu and derivatives)
+- Linux ARM (Linux Distributions that run ARM e.g. Raspberry Pi Model 2+)
 - MacOS (macOS 10.12+)
 - FreeBSD/UNIX (FreeBSD 11+)
 - Azure (Microsoft Azure Function)
-- HTTPS/API (JukaAPI Server)
+- HTTPS/API (JukaAPI server)
 - Docker (JukaAPI)
 
 __Demnächst:__
