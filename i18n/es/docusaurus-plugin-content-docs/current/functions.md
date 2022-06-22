@@ -5,52 +5,41 @@ sidebar_position: 3
 # Funciones
 
 ## Función principal
-Cada código o script de punto de entrada debe tener una función de entrada. Una función de entrada se define usando lo siguiente:
+Juka automatically executes main() function.
 
 ```jsx
-func main() = { }
+func main() = { printLine("Hello");}
 ```
 
-NOTA: los scripts que no tienen función principal pueden ser importados, pero no pueden ser ejecutados directamente. La función principal se llama automáticamente al entrar. Sin embargo, si es necesario, todavía puede llamar las funciones main() explícitamente.
+NOTE: the scripts that do not have main function, can be executed by calling the function itself. For example:
+```jsx
+func x() = { printLine("Hello"); } x();
+```
 
 ## Funciones
 Todas las funciones se definen con la función de la palabra. Las funciones pueden contener valores alfanuméricos (incluyendo _) y las funciones no pueden comenzar con un valor numérico. Las funciones son simplemente definidas:
 
 ```jsx
 func foo() = {
-   printLine("Hola amigo");
+   printLine("Hello Friend!");
 }
+foo();
 ```
 
 Ejemplo:
 
 ```jsx
-func main() = {
-
-    int y = 5;
-
-    mientras ( (y == 3) && (y == 5) || (y > 6) ){
-        printLine("loop");
-    }
-
+func x() = {
+    string y = "Hello World";
+    printLine(y);
+    printLine("It works!");
 }
-
-
-func foo() = {
-    int x = 3;
-    printLine(x);
-    fart();
-    return x;
+func y() = {
+    printLine("==in the middle==");
+    print("======");
 }
+x();
+y();
+x();
 
-
-func rock() = {
-    corte();
-    corte();
-    printLine("rock");
-}
-
-func cork()={
-    printLine("cork");
-}
 ```
