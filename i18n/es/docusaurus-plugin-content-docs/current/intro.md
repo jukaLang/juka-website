@@ -13,6 +13,7 @@ La filosofía de Juka es código una vez, corre por todas partes.
 
 __Dispositivo soportado:__
 - Windows (x64)
+- Windows (x86 32-bit)
 - Windows ARM (arm x64)
 - Linux (CentOS, Debian, Fedora, Ubuntu and derivatives)
 - Linux ARM (Linux Distributions that run ARM e.g. Raspberry Pi Model 2+)
