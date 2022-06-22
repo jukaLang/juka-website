@@ -13,6 +13,7 @@ La philosophie de Juka est le code une fois, exécuté partout.
 
 __Périphérique actuel pris en charge :__
 - Fenêtres (x64)
+- Windows (x86 32-bit)
 - Windows ARM (arm x64)
 - Linux (CentOS, Debian, Fedora, Ubuntu and derivatives)
 - Linux ARM (Linux Distributions that run ARM e.g. Raspberry Pi Model 2+)
