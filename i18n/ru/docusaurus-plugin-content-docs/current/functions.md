@@ -5,52 +5,41 @@ sidebar_position: 3
 # Функции
 
 ## Основная функция
-Каждый код/скрипт точки входа должен иметь функцию ввода. Функция записи определяется следующим образом:
+Juka automatically executes main() function.
 
 ```jsx
-func main() = { }
+func main() = { printLine("Hello");}
 ```
 
-ПРИМЕЧАНИЕ: скрипты, которые не имеют основной функции, могут быть импортированы, но не могут быть выполнены напрямую. Основная функция автоматически вызывается при вводе в запись. Однако, если вам нужно, вы можете явно вызвать функции main().
+NOTE: the scripts that do not have main function, can be executed by calling the function itself. For example:
+```jsx
+func x() = { printLine("Hello"); } x();
+```
 
 ## Функции
 Все функции определяются функцией слова. Функции могут содержать буквенно-цифровые значения (включая _), и функции не могут начинаться с числового значения. Функции просто определены:
 
 ```jsx
 func foo() = {
-   printLine("Привет Друзь");
+   printLine("Hello Friend!");
 }
+foo();
 ```
 
 Например:
 
 ```jsx
-func main() = {
-
-    int y = 5;
-
-    пока ( (y == 3) && (y == 5) || (y > 6) ){
-        printLine("цикл");
-    }
-
+func x() = {
+    string y = "Hello World";
+    printLine(y);
+    printLine("It works!");
 }
-
-
-func foo() = {
-    int x = 3;
-    printLine(x);
-    fart();
-    возвращение x;
+func y() = {
+    printLine("==in the middle==");
+    print("======");
 }
+x();
+y();
+x();
 
-
-func rock() = {
-    bark();
-    bark();
-    printLine("rock");
-}
-
-func bark()={
-    printLine("bark");
-}
 ```

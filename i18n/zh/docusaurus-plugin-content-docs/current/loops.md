@@ -13,7 +13,7 @@ sidebar_position: 5
 ```jsx
 int x = 0;
 while(x < 2) {
-    x = + 1 x;
+    x = x+1;
 }
 ```
 
@@ -26,10 +26,10 @@ while(x < 2) {
 
 ```jsx
 int x = 0;
-while( 1 )□
-    x = + 1 x;
-    如果( x > 2) 然后
-        断;
+while( 1 ){
+    x = x + 1;
+    if ( x > 2) {
+        break;
     }
 }
 ```

@@ -23,8 +23,11 @@
   "Run on Any Device": {
     "message": "在任何设备上运行"
   },
-  "Juka's main goal is to be able to run on any platform including Windows, Linux, MacOS, MS Azure, iOS/iPadOS (coming soon) and Android (coming soon).": {
-    "message": "Juka的主要目标是能够在任何平台上运行，包括Windows、Linux、MacOS、MS Azure、iOS/iPadOS (即将来临)和Android (即将来临)。"
+  "Juka's main goal is to be able to run on any platform including:": {
+    "message": "Juka's main goal is to be able to run on any platform including:"
+  },
+  "Coming Soon": {
+    "message": "Coming Soon"
   },
   "Cloud Friendly": {
     "message": "云端友好模式"
@@ -47,14 +50,17 @@
   "We appreciate any help!": {
     "message": "我们感谢任何帮助！"
   },
-  "Special Thanks To:": {
-    "message": "特别感谢："
-  },
   "Get Started with Juka": {
     "message": "开始使用 Juka"
   },
+  "Download": {
+    "message": "Download"
+  },
   "Follow us for news and updates!": {
     "message": "关注我们以获取新闻和更新！"
+  },
+  "Special Thanks To:": {
+    "message": "特别感谢："
   },
   "theme.ErrorPageContent.title": {
     "message": "此页面已崩溃。",

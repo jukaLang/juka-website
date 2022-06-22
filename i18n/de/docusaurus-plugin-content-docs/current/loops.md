@@ -13,7 +13,7 @@ Ein einfaches Beispiel für die während Schleife:
 ```jsx
 int x = 0;
 while(x < 2) {
-    x = + 1 x;
+    x = x+1;
 }
 ```
 
@@ -27,7 +27,7 @@ Ein einfaches Beispiel für Break:
 ```jsx
 int x = 0;
 while( 1 ){
-    = + 1 x;
+    x = x + 1;
     if ( x > 2) {
         break;
     }

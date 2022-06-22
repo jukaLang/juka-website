@@ -1,5 +1,6 @@
 ---
 sidebar_position: 1
+slug: /
 ---
 
 # 一. 导言
@@ -11,30 +12,38 @@ Juka的哲学是一次代码，遍布任何地方。
 ![jukaRun](https://user-images.githubusercontent.com/11934545/171545920-02493491-fa44-40d6-9a5b-46b2f90f8301.gif)
 
 __当前支持的设备：__
-- 窗口
-- Linux (Debian and Redhat)
-- MacOS (M1 和 Intel Chipset)
+- Windows (x64)
+- Windows ARM (arm x64)
+- Linux (CentOS, Debian, Fedora, Ubuntu and derivatives)
+- Linux ARM (Linux Distributions that run ARM e.g. Raspberry Pi Model 2+)
+- MacOS (macOS 10.12+)
+- FreeBSD/UNIX (FreeBSD 11+)
 - Azure (Microsoft Azure Function)
-- HTTPS/API (JukaAPI 服务器)
+- HTTPS/API (JukaAPI server)
 - Docker (JukaAPI)
 
 __即将到来：__
-- Android
-- iOS (iPhone/iPad)
-- 通用Windows App (Windows 10+)
-- FreeBSD
+- Android App
+- AndroidTV App
+- iOS App (iPhone/iPad)
+- MacOS App
+- Windows App (Windows 10+)
 
 __潜在的未来支持：__
 - AWS (Amazon Web Service)
-- Xbox 系列 S/X
-- AndroidTV
-- 谷歌云
+- Google Cloud
 
 
 ### 正在下载 Juka
-最新的 Juka 版本可在 https://github.com/jukaLang/juka/releases
+Juka can be downloaded from https://jukalang.com/download
 
-查找您想要的版本，并将其下载到您的设备。 文件应该是自足的 (您无需下载任何其他文件)
+If you need a "nightly built", then you can download the latest version at https://github.com/jukaLang/juka/releases
+
+Make sure to download an appropriate version to the device. There are typically 2 versions of Juka for each OS: Juka and JukaAPI.
+- Juka - Main application, download this if you are unsure.
+- JukaAPI - server to serve JUKA API via REST (do not download this if you are unsure how to use it)
+
+The files should be self-contained (you are not required to download any other files or install any other programs)
 
 ## 正在运行Juka
 
@@ -52,14 +61,14 @@ __潜在的未来支持：__
 ./juka.exe HelloWorld.juk
 ```
 
-### Linux/MacOS
+### Linux/MacOS/FreeBSD/UNIX/Raspberry PI
 
-运行以下命令启动Juka编辑器：
+Run the following command to start the Juka editor:
 ```jsx
 ./juka
 ```
 
-如果您想从一个文件运行Juka代码，运行以下命令(用您的文件名替换HelloWorld.juk)
+If you want to run Juka code from a file, run the following command (substitute HelloWorld.juk with your filename)
 
 ```jsx
 ./juka HelloWorld.juk
@@ -68,4 +77,8 @@ __潜在的未来支持：__
 
 ### 微软Azure 函数
 
-将软件包上传到 Azure Web Server 使用 web 部署在云端发布Juka (Azure Function)
+Upload the package to Azure Web Server Use web deploy to publish Juka (Azure Function) on the cloud
+
+### Reference in C# Project
+
+You can reference Juka compiler in C#, by downloading C# .dll and referencing it in the project.

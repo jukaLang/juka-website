@@ -23,8 +23,11 @@
   "Run on Any Device": {
     "message": "Запустить на любом устройстве"
   },
-  "Juka's main goal is to be able to run on any platform including Windows, Linux, MacOS, MS Azure, iOS/iPadOS (coming soon) and Android (coming soon).": {
-    "message": "Основная цель Juka - уметь работать на любой платформе, включая Windows, Linux, MacOS, MS Azure, iOS/iPadOS (будет скоро) и Android (будет скоро)."
+  "Juka's main goal is to be able to run on any platform including:": {
+    "message": "Juka's main goal is to be able to run on any platform including:"
+  },
+  "Coming Soon": {
+    "message": "Coming Soon"
   },
   "Cloud Friendly": {
     "message": "Дружелюбие облака"
@@ -47,14 +50,17 @@
   "We appreciate any help!": {
     "message": "Мы ценим любую помощь!"
   },
-  "Special Thanks To:": {
-    "message": "Особая благодарность для:"
-  },
   "Get Started with Juka": {
     "message": "Начните с Juka"
   },
+  "Download": {
+    "message": "Download"
+  },
   "Follow us for news and updates!": {
     "message": "Следите за новостями и обновлениями!"
+  },
+  "Special Thanks To:": {
+    "message": "Особая благодарность для:"
   },
   "theme.ErrorPageContent.title": {
     "message": "Эта страница прервана.",
