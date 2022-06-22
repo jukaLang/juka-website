@@ -12,23 +12,23 @@ La philosophie de Juka est le code une fois, exécuté partout.
 ![jukaRun](https://user-images.githubusercontent.com/11934545/171545920-02493491-fa44-40d6-9a5b-46b2f90f8301.gif)
 
 __Périphérique actuel pris en charge :__
-- Windows (x64)
-- Windows (x86 32-bit)
-- Windows ARM (arm x64)
-- Linux (CentOS, Debian, Fedora, Ubuntu and derivatives)
-- Linux ARM (Linux Distributions that run ARM e.g. Raspberry Pi Model 2+)
+- Fenêtres (x64)
+- Windows (x86 32 bits)
+- ARM Windows (bras x64)
+- Linux (CentOS, Debian, Fedora, Ubuntu et dérivés)
+- Linux ARM (Linux Distributions qui exécutent ARM par exemple Raspberry Pi Model 2+)
 - MacOS (macOS 10.12+)
 - FreeBSD/UNIX (FreeBSD 11+)
 - Azure (Microsoft Azure Function)
-- HTTPS/API (JukaAPI server)
+- HTTPS/API (serveur JukaAPI)
 - Docker (JukaAPI)
 
 __Bientôt disponible:__
 - Android App
 - AndroidTV App
-- iOS App (iPhone/iPad)
-- MacOS App
-- Windows App (Windows 10+)
+- Application iOS (iPhone/iPad)
+- Application MacOS
+- Application Windows (Windows 10+)
 
 __Soutien futur potentiel :__
 - AWS (Amazon Web Service)
@@ -36,15 +36,15 @@ __Soutien futur potentiel :__
 
 
 ### Téléchargement de Juka
-Juka can be downloaded from https://jukalang.com/download
+Juka peut être téléchargé depuis https://jukalang.com/download
 
-If you need a "nightly built", then you can download the latest version at https://github.com/jukaLang/juka/releases
+Si vous avez besoin d'une "nightly built", vous pouvez télécharger la dernière version sur https://github.com/jukaLang/juka/releases
 
-Make sure to download an appropriate version to the device. There are typically 2 versions of Juka for each OS: Juka and JukaAPI.
-- Juka - Main application, download this if you are unsure.
-- JukaAPI - server to serve JUKA API via REST (do not download this if you are unsure how to use it)
+Assurez-vous de télécharger une version appropriée sur l'appareil. Il existe généralement 2 versions de Juka pour chaque OS: Juka et JukaAPI.
+- Juka - Application principale, téléchargez ceci si vous n'êtes pas sûr.
+- JukaAPI - serveur pour servir l'API JUKA via REST (ne téléchargez pas ceci si vous n'êtes pas sûr de comment l'utiliser)
 
-The files should be self-contained (you are not required to download any other files or install any other programs)
+Les fichiers doivent être autonomes (vous n'êtes pas requis pour télécharger d'autres fichiers ou installer d'autres programmes)
 
 ## Exécution de Juka
 
@@ -64,12 +64,12 @@ Si vous voulez exécuter le code Juka à partir d'un fichier, exécutez la comma
 
 ### Linux/MacOS/FreeBSD/UNIX/Raspberry PI
 
-Run the following command to start the Juka editor:
+Exécutez la commande suivante pour démarrer l'éditeur Juka :
 ```jsx
 ./juka
 ```
 
-If you want to run Juka code from a file, run the following command (substitute HelloWorld.juk with your filename)
+Si vous voulez exécuter le code Juka à partir d'un fichier, exécutez la commande suivante (remplacez HelloWorld.juk par votre nom de fichier)
 
 ```jsx
 HelloWorld.juk
@@ -78,8 +78,8 @@ HelloWorld.juk
 
 ### Fonction Microsoft Azure
 
-Upload the package to Azure Web Server Use web deploy to publish Juka (Azure Function) on the cloud
+Télécharger le package sur Azure Web Server Utiliser le déploiement web pour publier Juka (Azure Function) sur le cloud
 
-### Reference in C# Project
+### Référence dans le projet C#
 
-You can reference Juka compiler in C#, by downloading C# .dll and referencing it in the project.
+Vous pouvez référencer le compilateur Juka en C#, en téléchargeant C# .dll et en le référencant dans le projet.
