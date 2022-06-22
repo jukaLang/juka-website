@@ -43,7 +43,7 @@ const FeatureList = [
         faIcon: {faComputer}.faComputer,
         description: (
             <>
-                <Translate>Juka's main goal is to be able to run on any platform including Windows, Linux, MacOS, MS Azure, iOS/iPadOS (coming soon) and Android (coming soon).</Translate>
+                <Translate>Juka's main goal is to be able to run on any platform including: </Translate><br/> Windows, MacOS, Linux, MS Azure, FreeBSD, Raspberry Pi, C# dll<br/><b><Translate>Coming Soon</Translate>:</b><br/>iOS/iPadOS, Android, Windows App, MacOS App.
             </>
         ),
     },
@@ -52,7 +52,7 @@ const FeatureList = [
         faIcon: {faCloud}.faCloud,
         description: (
             <>
-                <Translate>You can run Juka on Microsoft's Azure Server by using Juka's Azure serverless function. Compile the code quickly, or let the others run the code. Download latest Azure Function from </Translate> <a href="https://github.com/jukaLang/Juka/releases">https://github.com/jukaLang/Juka/releases</a>. <br/> <Translate>NOTE: you need an active Microsoft Azure account to host.</Translate>
+                <Translate>You can run Juka on Microsoft's Azure Server by using Juka's Azure serverless function. Compile the code quickly, or let the others run the code. Download latest Azure Function from </Translate> <a href="/download">https://jukalang.com/download</a>. <br/> <Translate>NOTE: you need an active Microsoft Azure account to host.</Translate>
             </>
         ),
     },

@@ -145,10 +145,16 @@ const config = {
             position: 'left'
           },
           {
-            to: 'tryonline',
-            label: 'Try Online',
+            to: 'download',
+            label: 'Download',
             position: 'left'
           },
+          {
+            to: 'tryonline',
+            label: 'Try Online',
+            position: 'right'
+          },
+
           {
             type: 'localeDropdown',
             position: 'right',
@@ -169,16 +175,21 @@ const config = {
             items: [
               {
                 label: 'Documentation',
-                to: '/docs/intro',
+                to: '/docs',
               },
               {
                 label: 'Learn',
                 to: '/learn',
               },
               {
+                label: 'Download Juka',
+                to: '/download',
+              },
+              {
                 label: 'Try Online',
                 to: '/tryonline',
               },
+
             ],
           },
           {
@@ -212,6 +223,10 @@ const config = {
               {
                 label: 'License',
                 to: '/license',
+              },
+              {
+                label: 'Special Thanks',
+                href: '/specialthanks',
               },
               {
                 label: 'GitHub Source',

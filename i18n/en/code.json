@@ -23,8 +23,11 @@
   "Run on Any Device": {
     "message": "Run on Any Device"
   },
-  "Juka's main goal is to be able to run on any platform including Windows, Linux, MacOS, MS Azure, iOS/iPadOS (coming soon) and Android (coming soon).": {
-    "message": "Juka's main goal is to be able to run on any platform including Windows, Linux, MacOS, MS Azure, iOS/iPadOS (coming soon) and Android (coming soon)."
+  "Juka's main goal is to be able to run on any platform including:": {
+    "message": "Juka's main goal is to be able to run on any platform including:"
+  },
+  "Coming Soon": {
+    "message": "Coming Soon"
   },
   "Cloud Friendly": {
     "message": "Cloud Friendly"
@@ -47,14 +50,17 @@
   "We appreciate any help!": {
     "message": "We appreciate any help!"
   },
-  "Special Thanks To:": {
-    "message": "Special Thanks To:"
-  },
   "Get Started with Juka": {
     "message": "Get Started with Juka"
   },
+  "Download": {
+    "message": "Download"
+  },
   "Follow us for news and updates!": {
     "message": "Follow us for news and updates!"
+  },
+  "Special Thanks To:": {
+    "message": "Special Thanks To:"
   },
   "theme.ErrorPageContent.title": {
     "message": "This page crashed.",

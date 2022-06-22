@@ -13,7 +13,7 @@ A simple example of while loop:
 ```jsx
 int x = 0;
 while(x < 2) {
-    x = + 1 x;
+    x = x+1;
 }
 ```
 
@@ -27,7 +27,7 @@ A simple example of break:
 ```jsx
 int x = 0;
 while( 1 ){
-    x = + 1 x;
+    x = x + 1;
     if ( x > 2) {
         break;
     }

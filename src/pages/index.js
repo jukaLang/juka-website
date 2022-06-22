@@ -6,7 +6,6 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from './index.module.css';
 import HomepageFeatures from '../components/HomepageFeatures';
 import HomepageSocial from '../components/HomepageSocial';
-import SpecialThanks from '../components/SpecialThanks';
 import CodeBlock from '@theme/CodeBlock';
 import Translate from '@docusaurus/Translate';
 
@@ -22,9 +21,15 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/intro">
+            to="/docs">
             <Translate>Get Started with Juka</Translate>
           </Link>
+           &nbsp;  &nbsp;
+            <Link
+                className="button button--secondary button--lg"
+                to="/download">
+                <Translate>Download</Translate>
+            </Link>
 
         </div>
           <br/>
@@ -54,11 +59,8 @@ export default function Home() {
       title={`${siteConfig.title}`}
       description="Juka Programming Language - Language of the future">
       <HomepageHeader />
-
       <main>
-
         <HomepageFeatures />
-          <SpecialThanks />
       </main>
     </Layout>
   );

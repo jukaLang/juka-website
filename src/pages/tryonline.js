@@ -109,7 +109,7 @@ export default function Tryonline() {
     return (
         <Layout
             title={`Try Online | ${siteConfig.title}`}
-            description="Juka Programming Language Learning Center">
+            description="Try Juka Online">
             <main>
                 <h1 className={styles.tryOnlineHeader}>Juka Online Editor</h1>
                 <TryEditor />

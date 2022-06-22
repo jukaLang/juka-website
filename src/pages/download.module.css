@@ -1,0 +1,43 @@
+.learn{
+    text-align:center;
+}
+
+.Header {
+    padding: 1rem 0;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 966px) {
+    .Header {
+        padding: 2rem;
+    }
+}
+
+.features {
+    display: flex;
+    align-items: center;
+    padding: 2rem 0;
+    width: 100%;
+}
+
+.featureSvg {
+    height: 200px;
+    width: 200px;
+}
+
+.fontawe{
+    width:60% !important;
+    height:200px;
+
+}
+
+.features p {
+    background-color: #f5f6f7;
+}
+
+.nightly{
+    font-size: 20px;
+    font-weight: bold;
+}

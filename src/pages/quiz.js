@@ -192,8 +192,8 @@ export default function Quiz() {
     const {siteConfig} = useDocusaurusContext();
     return (
         <Layout
-            title={`Learn | ${siteConfig.title}`}
-            description="Juka Programming Language Learning Center">
+            title={`Quiz | ${siteConfig.title}`}
+            description="Take a quiz on Juka Programming Language">
 
             <main>
                 <QuizHeader />
