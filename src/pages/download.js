@@ -8,25 +8,20 @@ import { faServer, faFileCode, faCode} from '@fortawesome/free-solid-svg-icons'
 import { faWindows, faApple, faLinux, faFreebsd, faRaspberryPi} from '@fortawesome/free-brands-svg-icons'
 
 
-
-
 function DownloadHeader() {
-    const [version, setVersion] = useState("0.0.51");
 
-    const https = require('https')
-    const url = "https://api.github.com/repos/jukalang/juka/tags";
-    https.get(url, res => {
-        let data = '';
-        res.on('data', chunk => {
-            data += chunk;
-        });
-        res.on('end', () => {
-            data = JSON.parse(data);
-            setVersion(data[0].name);
-        })
-    }).on('error', err => {
-        console.log(err.message);
-    });
+    const setV = async () => {
+        try {
+            const response = await fetch('https://api.github.com/repos/jukaLang/juka/tags');
+            const result = await response.json();
+            setVersion(result[0].name);
+        } catch (err) {
+            console.log("cannot access Github" + err);
+        }
+    }
+
+    const [version, setVersion] = useState("0.0.51");
+    setV();
 
     function BigDownloadList() {
         return (
