@@ -45,9 +45,6 @@ function DownloadHeader() {
                     Juka (x64): <a href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/Juka_Windows_"+version+".zip"} >Download version {version}</a><br/>
                     Juka API (x64): <a href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/JukaAPI_Windows_"+version+".zip"} >Download version {version}</a><br/><br/>
 
-                    Juka (x86 32-bit): <a href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/Juka_WindowsX86_"+version+".zip"} >Download version {version}</a><br/>
-                    Juka API (x86 32-bit): <a href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/JukaAPI_WindowsX86_"+version+".zip"} >Download version {version}</a><br/><br/>
-
                     Juka (ARM64): <a href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/Juka_WindowsARM64_"+version+".zip"} >Download version {version}</a><br/>
                     Juka API (ARM64): <a href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/JukaAPI_WindowsARM64_"+version+".zip"} >Download version {version}</a>
                 </>
