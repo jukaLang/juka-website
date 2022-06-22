@@ -23,8 +23,11 @@
   "Run on Any Device": {
     "message": "Auf jedem Gerät ausführen"
   },
-  "Juka's main goal is to be able to run on any platform including Windows, Linux, MacOS, MS Azure, iOS/iPadOS (coming soon) and Android (coming soon).": {
-    "message": "Jukas Hauptziel ist es, auf jeder Plattform laufen zu können, einschließlich Windows, Linux, MacOS, MS Azure, iOS/iPadOS (demnächst kommend) und Android (demnächst)."
+  "Juka's main goal is to be able to run on any platform including:": {
+    "message": "Juka's main goal is to be able to run on any platform including:"
+  },
+  "Coming Soon": {
+    "message": "Coming Soon"
   },
   "Cloud Friendly": {
     "message": "Cloud-freundlich"
@@ -47,14 +50,17 @@
   "We appreciate any help!": {
     "message": "Wir freuen uns über jede Hilfe!"
   },
-  "Special Thanks To:": {
-    "message": "Besonderer Dank an:"
-  },
   "Get Started with Juka": {
     "message": "Erste Schritte mit Juka"
   },
+  "Download": {
+    "message": "Download"
+  },
   "Follow us for news and updates!": {
     "message": "Folgen Sie uns für Neuigkeiten und Updates!"
+  },
+  "Special Thanks To:": {
+    "message": "Besonderer Dank an:"
   },
   "theme.ErrorPageContent.title": {
     "message": "Diese Seite ist abgestürzt.",
