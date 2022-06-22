@@ -13,14 +13,13 @@ Juka的哲学是一次代码，遍布任何地方。
 
 __当前支持的设备：__
 - Windows (x64)
-- Windows (x86 32位)
 - Windows ARM (arm x64)
 - Linux (CentOS, Debian, Fedora, Ubuntu and derivatives)
-- Linux ARM (Linux Distributions which 运行 ARM ，例如 Raspberry Pi Model 2+)
+- Linux ARM (Linux Distributions that run ARM e.g. Raspberry Pi Model 2+)
 - MacOS (macOS 10.12+)
 - FreeBSD/UNIX (FreeBSD 11+)
 - Azure (Microsoft Azure Function)
-- HTTPS/API (JukaAPI 服务器)
+- HTTPS/API (JukaAPI server)
 - Docker (JukaAPI)
 
 __即将到来：__

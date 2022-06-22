@@ -13,14 +13,13 @@ La filosofía de Juka es código una vez, corre por todas partes.
 
 __Dispositivo soportado:__
 - Ventanas (x64)
-- Windows (x86 32 bits)
-- ARM de Windows (arm x64)
-- Linux (CentOS, Debian, Icelora, Ubuntu y derivadas)
-- Linux ARM (Linux Distributions that run ARM e.g. Raspberry Pi Modelo 2+)
+- Windows ARM (arm x64)
+- Linux (CentOS, Debian, Fedora, Ubuntu and derivatives)
+- Linux ARM (Linux Distributions that run ARM e.g. Raspberry Pi Model 2+)
 - MacOS (macOS 10.12+)
 - FreeBSD/UNIX (FreeBSD 11+)
 - Azure (Microsoft Azure Function)
-- HTTPS/API (Servidor JukaAPI)
+- HTTPS/API (JukaAPI server)
 - Docker (JukaAPI)
 
 __Próximamente:__
