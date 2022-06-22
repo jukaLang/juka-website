@@ -24,10 +24,10 @@
     "message": "在任何设备上运行"
   },
   "Juka's main goal is to be able to run on any platform including:": {
-    "message": "Juka's main goal is to be able to run on any platform including:"
+    "message": "朱卡的主要目标是能够在以下任何平台上运行："
   },
   "Coming Soon": {
-    "message": "Coming Soon"
+    "message": "即将到来的"
   },
   "Cloud Friendly": {
     "message": "云端友好模式"
@@ -54,7 +54,7 @@
     "message": "开始使用 Juka"
   },
   "Download": {
-    "message": "Download"
+    "message": "下载"
   },
   "Follow us for news and updates!": {
     "message": "关注我们以获取新闻和更新！"
@@ -158,6 +158,10 @@
     "message": "亮色模式",
     "description": "The name for the light color mode"
   },
+  "theme.docs.DocCard.categoryDescription": {
+    "message": "{count} 项",
+    "description": "The default description for a category card in the generated index about how many items this category includes"
+  },
   "theme.docs.breadcrumbs.home": {
     "message": "主页",
     "description": "The ARIA label for the home page in the breadcrumbs"
@@ -165,10 +169,6 @@
   "theme.docs.breadcrumbs.navAriaLabel": {
     "message": "面包屑导航",
     "description": "The ARIA label for the breadcrumbs"
-  },
-  "theme.docs.DocCard.categoryDescription": {
-    "message": "{count} 项",
-    "description": "The default description for a category card in the generated index about how many items this category includes"
   },
   "theme.docs.paginator.navAriaLabel": {
     "message": "文档页面导航",

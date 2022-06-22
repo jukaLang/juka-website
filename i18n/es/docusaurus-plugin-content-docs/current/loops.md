@@ -12,7 +12,7 @@ Un ejemplo simple del bucle while :
 
 ```jsx
 int x = 0;
-while(x < 2) {
+while e(x < 2) {
     x = x+1;
 }
 ```
@@ -26,7 +26,7 @@ Un ejemplo simple de ruptura:
 
 ```jsx
 int x = 0;
-while( 1 ){
+while e( 1 ){
     x = x + 1;
     if ( x > 2) {
         break;

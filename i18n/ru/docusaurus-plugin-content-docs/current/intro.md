@@ -13,37 +13,38 @@ slug: /
 
 __Поддерживаемое устройство:__
 - Windows (x64)
-- Windows ARM (arm x64)
-- Linux (CentOS, Debian, Fedora, Ubuntu and derivatives)
-- Linux ARM (Linux Distributions that run ARM e.g. Raspberry Pi Model 2+)
+- Windows (x86 32-бит)
+- Windows ARM (рука x64)
+- Linux (CentOS, Debian, Fedora, Ubuntu и derivatives)
+- Linux ARM (Linux Distributions под управлением ARM, например Raspberry Pi Model 2+)
 - MacOS (macOS 10.12+)
 - FreeBSD/UNIX (FreeBSD 11+)
 - Azure (Microsoft Azure Function)
-- HTTPS/API (JukaAPI server)
-- Docker (JukaAPI)
+- HTTPS/API (JukaAPI сервер)
+- Докер (JukaAPI)
 
 __Скоро:__
 - Android App
 - AndroidTV App
-- iOS App (iPhone/iPad)
-- MacOS App
-- Windows App (Windows 10+)
+- iOS приложение (iPhone/iPad)
+- Приложение MacOS
+- Приложение Windows (Windows 10+)
 
 __Потенциальная дальнейшая поддержка:__
 - AWS (Amazon Web Service)
-- Google Cloud
+- Облако Google
 
 
 ### Загрузка Juka
-Juka can be downloaded from https://jukalang.com/download
+Juka может быть загружена с https://jukalang.com/download
 
-If you need a "nightly built", then you can download the latest version at https://github.com/jukaLang/juka/releases
+Если вам нужна "ночная сборка", вы можете скачать последнюю версию на https://github.com/jukaLang/juka/releases
 
-Make sure to download an appropriate version to the device. There are typically 2 versions of Juka for each OS: Juka and JukaAPI.
-- Juka - Main application, download this if you are unsure.
-- JukaAPI - server to serve JUKA API via REST (do not download this if you are unsure how to use it)
+Убедитесь, что загрузите на устройство соответствующую версию. Обычно для каждой ОС существует 2 версии: Juka и JukaAPI.
+- Juka - Главное приложение, скачать это если вы не уверены.
+- JukaAPI - сервер для обслуживания JUKA API через REST (не скачайте это, если не знаете, как его использовать)
 
-The files should be self-contained (you are not required to download any other files or install any other programs)
+Файлы должны быть автономными (вы не должны загружать другие файлы или устанавливать другие программы)
 
 ## Запущенные джуки
 
@@ -63,12 +64,12 @@ The files should be self-contained (you are not required to download any other f
 
 ### Linux/MacOS/FreeBSD/UNIX/Raspberry PI
 
-Run the following command to start the Juka editor:
+Выполните следующую команду, чтобы запустить редактор Juka:
 ```jsx
 ./juka
 ```
 
-If you want to run Juka code from a file, run the following command (substitute HelloWorld.juk with your filename)
+Если вы хотите запустить Juka код из файла, запустите следующую команду (подставьте HelloWorld.juk именем файла)
 
 ```jsx
 ./juka HelloWorld.juk
@@ -77,8 +78,8 @@ If you want to run Juka code from a file, run the following command (substitute 
 
 ### Функция Microsoft Azure
 
-Upload the package to Azure Web Server Use web deploy to publish Juka (Azure Function) on the cloud
+Загрузите пакет на Azure Web Server Использование веб-развёртывания для публикации Juka (Функция Azure) в облаке
 
-### Reference in C# Project
+### Ссылка в проекте C#
 
-You can reference Juka compiler in C#, by downloading C# .dll and referencing it in the project.
+Вы можете обратиться к компилятору Джуки в C#, загрузив C# .dll и ссылаясь на него в проекте.

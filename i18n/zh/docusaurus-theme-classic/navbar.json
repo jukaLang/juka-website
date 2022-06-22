@@ -12,7 +12,7 @@
     "description": "Navbar item with label Learn"
   },
   "item.label.Download": {
-    "message": "Download",
+    "message": "下载",
     "description": "Navbar item with label Download"
   },
   "item.label.Try Online": {
