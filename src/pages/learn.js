@@ -9,7 +9,7 @@ function LearnHeader() {
         <header>
             <div className={styles.learn}>
 
-                <div><a href="/quiz">Think you know Juka? Take a Quiz!</a></div>
+                <div><a href="/quiz">Think you know Juka? Take a Quiz!</a></div><br/>
                 <div><a href="/tryonline">Try Juka Online</a></div>
 
                 <br/><br/>
