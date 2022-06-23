@@ -13,6 +13,7 @@ Juka的哲学是一次代码，遍布任何地方。
 
 __当前支持的设备：__
 - Windows (x64)
+- Windows (x86 32-bit)
 - Windows ARM (arm x64)
 - Linux (CentOS, Debian, Fedora, Ubuntu and derivatives)
 - Linux ARM (Linux Distributions that run ARM e.g. Raspberry Pi Model 2+)
