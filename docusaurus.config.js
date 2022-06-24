@@ -18,6 +18,12 @@ const config = {
 
   plugins: [
     [
+      require.resolve('docusaurus-gtm-plugin'),
+      {
+        id: 'GTM-W6ZDC8V', // GTM Container ID
+      }
+    ],
+    [
       '@docusaurus/plugin-pwa',
       {
         pwaHead: [
@@ -91,10 +97,6 @@ const config = {
           // Please change this to your repo.
           editUrl:
             'https://github.com/jukaLang/juka-website/blob/main',
-        },
-        gtag: {
-          trackingID: 'GTM-W6ZDC8V',
-          anonymizeIP: true,
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
