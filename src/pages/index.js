@@ -33,7 +33,7 @@ function HomepageHeader() {
                                 <Link
                                     className="button button--secondary button--lg"
                                     to="/download">
-                                    <Translate>Download</Translate>
+                                    <Translate>Download Juka</Translate>
                                 </Link>
 
                         </div>

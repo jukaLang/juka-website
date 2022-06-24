@@ -93,7 +93,7 @@ const config = {
             'https://github.com/jukaLang/juka-website/blob/main',
         },
         gtag: {
-          trackingID: 'G-B35NSQ9XV5',
+          trackingID: 'GTM-W6ZDC8V',
           anonymizeIP: true,
         },
         theme: {
