@@ -6,7 +6,7 @@ import clsx from "clsx";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faServer, faFileCode, faCode} from '@fortawesome/free-solid-svg-icons'
 import { faWindows, faApple, faLinux, faFreebsd, faRaspberryPi} from '@fortawesome/free-brands-svg-icons'
-
+import BrowserOnly from '@docusaurus/BrowserOnly';
 
 function DownloadHeader() {
 
@@ -134,14 +134,37 @@ function DownloadHeader() {
         );
     }
 
-    const userOS = navigator.userAgent;
-    let userOSEntry = {};
-    if (userOS.indexOf('Win') !== -1) {  userOSEntry = OSList[0]; }
-    else if (userOS.indexOf('Mac') !== -1) {  userOSEntry = OSList[1]; }
-    else if (userOS.indexOf('Linux') !== -1) { userOSEntry = OSList[2]; }
-    else if (userOS.indexOf('X11') !== -1) {  userOSEntry = OSList[4]; }
-    console.log(navigator.userAgent);
-    console.log(userOSEntry);
+    const TryDetectDownload = () => {
+        return (
+            <BrowserOnly>
+                {() => {
+                    const userOS = navigator.userAgent;
+                    let userOSEntry = {};
+                    if (userOS.indexOf('Win') !== -1) {
+                        userOSEntry = OSList[0];
+                    } else if (userOS.indexOf('Mac') !== -1) {
+                        userOSEntry = OSList[1];
+                    } else if (userOS.indexOf('Linux') !== -1) {
+                        userOSEntry = OSList[2];
+                    } else if (userOS.indexOf('X11') !== -1) {
+                        userOSEntry = OSList[4];
+                    }
+                    return (Object.keys(userOSEntry).length !== 0) ? (<><br/><br/> <h3>It seems that you are using {userOSEntry.title}: </h3>
+                        <section className={styles.features}>
+                            <div className="container">
+                                <div className="row">
+                                    <div className={clsx('col col--4')} />
+                                    <OSTag {...userOSEntry} />
+                                </div>
+                            </div>
+                        </section></>) : (<></>)
+                }
+                }
+            </BrowserOnly>
+        );
+    };
+
+
 
     return (
         <header>
@@ -156,17 +179,7 @@ function DownloadHeader() {
                     <a href={"/tryonline"}>Click here to try Juka Online</a>
 
                 </div>
-                { (Object.keys(userOSEntry).length !== 0) ?
-                    (<> <br/><br/> <h3>It seems that you are using {userOSEntry.title}: </h3>
-                        <section className={styles.features}>
-                            <div className="container">
-                                <div className="row">
-                                    <div className={clsx('col col--4')} />
-                                    <OSTag {...userOSEntry} />
-                                </div>
-                            </div>
-                        </section>
-                    </> ) : (<></>) }
+                <TryDetectDownload/>
                 <br/><br/>
                 <h2> List of all available Downloads:</h2>
                 <BigDownloadList/>
