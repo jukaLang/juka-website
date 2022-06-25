@@ -14,17 +14,28 @@ const TryDetectDownload = () => {
     return (
         <BrowserOnly>
             {() => {
-                const userOS = navigator.userAgent;
-                if (userOS.indexOf('Win') !== -1) {
-                    return "Windows"
-                } else if (userOS.indexOf('Mac') !== -1) {
-                    return "MacOS"
-                } else if (userOS.indexOf('Linux') !== -1) {
-                    return "Linux"
-                } else if (userOS.indexOf('X11') !== -1) {
+                let userAgent = window.navigator.userAgent,
+                    platform = window.navigator?.userAgentData?.platform || window.navigator.platform,
+                    macosPlatforms = ['Macintosh', 'MacIntel', 'MacPPC', 'Mac68K'],
+                    windowsPlatforms = ['Win32', 'Win64', 'Windows', 'WinCE'],
+                    iosPlatforms = ['iPhone', 'iPad', 'iPod'],
+                    os = "Latest";
+
+                if (macosPlatforms.indexOf(platform) !== -1) {
+                    os = 'MacOS';
+                } else if (iosPlatforms.indexOf(platform) !== -1) {
+                    os = 'iOS';
+                } else if (windowsPlatforms.indexOf(platform) !== -1) {
+                    os = 'Windows';
+                } else if (/Android/.test(userAgent)) {
+                    os = 'Android';
+                } else if (/Linux/.test(platform)) {
+                    os = 'Linux';
+                } else if (userAgent.indexOf('X11') !== -1) {
                     return "Unix"
                 }
-                return "Latest"
+
+                return os;
             }
             }
         </BrowserOnly>

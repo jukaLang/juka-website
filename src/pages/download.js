@@ -138,17 +138,28 @@ function DownloadHeader() {
         return (
             <BrowserOnly>
                 {() => {
-                    const userOS = navigator.userAgent;
+                    let userAgent = window.navigator.userAgent,
+                        platform = window.navigator?.userAgentData?.platform || window.navigator.platform,
+                        macosPlatforms = ['Macintosh', 'MacIntel', 'MacPPC', 'Mac68K'],
+                        windowsPlatforms = ['Win32', 'Win64', 'Windows', 'WinCE'],
+                        iosPlatforms = ['iPhone', 'iPad', 'iPod'];
+
+
                     let userOSEntry = {};
-                    if (userOS.indexOf('Win') !== -1) {
-                        userOSEntry = OSList[0];
-                    } else if (userOS.indexOf('Mac') !== -1) {
+                    if (macosPlatforms.indexOf(platform) !== -1) {
                         userOSEntry = OSList[1];
-                    } else if (userOS.indexOf('Linux') !== -1) {
+                    } else if (iosPlatforms.indexOf(platform) !== -1) {
+
+                    } else if (windowsPlatforms.indexOf(platform) !== -1) {
+                        userOSEntry = OSList[0];
+                    } else if (/Android/.test(userAgent)) {
+
+                    } else if (/Linux/.test(platform)) {
                         userOSEntry = OSList[2];
-                    } else if (userOS.indexOf('X11') !== -1) {
+                    } else if (userAgent.indexOf('X11') !== -1) {
                         userOSEntry = OSList[4];
                     }
+
                     return (Object.keys(userOSEntry).length !== 0) ? (<><br/><br/> <h3>It seems that you are using {userOSEntry.title}: </h3>
                         <section className={styles.features}>
                             <div className="container">
@@ -157,7 +168,10 @@ function DownloadHeader() {
                                     <OSTag {...userOSEntry} />
                                 </div>
                             </div>
-                        </section></>) : (<></>)
+                        </section></>) : (<>
+
+                        Your current OS doesn't seem to be supported by Juka right now. Download other versions of Juka below
+                        </>)
                 }
                 }
             </BrowserOnly>
@@ -182,6 +196,7 @@ function DownloadHeader() {
                 <TryDetectDownload/>
                 <br/><br/>
                 <h2> List of all available Downloads:</h2>
+                <div>iOS, Windows, and Android Apps are coming soon!</div>
                 <BigDownloadList/>
             </div>
         </header>
