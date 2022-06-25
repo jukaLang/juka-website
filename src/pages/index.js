@@ -8,8 +8,28 @@ import HomepageFeatures from '../components/HomepageFeatures';
 import HomepageSocial from '../components/HomepageSocial';
 import CodeBlock from '@theme/CodeBlock';
 import Translate from '@docusaurus/Translate';
+import BrowserOnly from "@docusaurus/BrowserOnly";
 
-
+const TryDetectDownload = () => {
+    return (
+        <BrowserOnly>
+            {() => {
+                const userOS = navigator.userAgent;
+                if (userOS.indexOf('Win') !== -1) {
+                    return "Windows"
+                } else if (userOS.indexOf('Mac') !== -1) {
+                    return "MacOS"
+                } else if (userOS.indexOf('Linux') !== -1) {
+                    return "Linux"
+                } else if (userOS.indexOf('X11') !== -1) {
+                    return "Unix"
+                }
+                return "Latest"
+            }
+            }
+        </BrowserOnly>
+    );
+};
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
@@ -33,7 +53,7 @@ function HomepageHeader() {
                                 <Link
                                     className="button button--secondary button--lg"
                                     to="/download">
-                                    <Translate>Download Juka</Translate>
+                                    <Translate>Download</Translate> <TryDetectDownload/> Juka
                                 </Link>
 
                         </div>

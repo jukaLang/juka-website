@@ -6,7 +6,7 @@ import clsx from "clsx";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faServer, faFileCode, faCode} from '@fortawesome/free-solid-svg-icons'
 import { faWindows, faApple, faLinux, faFreebsd, faRaspberryPi} from '@fortawesome/free-brands-svg-icons'
-import BrowserOnly from '@docusaurus/BrowserOnly';
+import BrowserOnly from "@docusaurus/BrowserOnly";
 
 function DownloadHeader() {
 
