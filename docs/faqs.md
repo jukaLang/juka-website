@@ -5,10 +5,12 @@ sidebar_position: 998
 # FAQs
 
 ## Q: Does Juka work on Linux?
-*A:* Juka is compatible with Windows, Linux, and Macintosh.
+*A:* Juka is compatible with Windows, Linux, FreeBSD, RaspberryPi, and Macintosh.
 Juka can run on the cloud via Juka Azure function. 
 We also plan to support mobile platforms such as Android and iOS/iPadOS.
 
+## Q: Can I try Juka without downloading?
+*A:* Yes! Please try juka at https://jukalang.com/tryonline.
 
 ## Q: What is Juka used for?
 *A:* Juka Programming Language's philosophy is code once, run everywhere.
@@ -25,7 +27,9 @@ Its purpose is to run on any platform.
 
 ## Q: Do you have an IDE or a text editor where I can write the code?
 *A:* You can write the code using any text editor. 
-We are currently working on an extension for Microsoft Visual Studio Code
+If you like Jupyter, you can install Juka kernel, see run Juka in Jupyter
 
 ## Q: I want to host Juka compiler online... How can I do it?
-*A:* See the Azure Function documentation.
+*A:* There are many ways to host Juka Compiler online. One of the ways is using
+Microsoft Azure Server (See the Azure Function documentation.) If
+you do not want to use Azure, you can download JukaApi. 

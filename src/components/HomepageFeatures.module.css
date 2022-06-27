@@ -17,5 +17,9 @@
 }
 
 .features p {
-  background-color: #f5f6f7;
+  background-color: rgb(245,246,247,10);
+}
+
+html[data-theme='dark'] .features p {
+  color: #2b2c3c;
 }

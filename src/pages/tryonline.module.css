@@ -43,6 +43,16 @@
     animation: jukaRoll 0.4s 1;
 }
 
+html[data-theme='dark'] .jide_execbutton{
+    box-shadow: -10px 10px 0 -5px rgb(0,0,0),-10px 10px 0 0 rgb(0,224,188);
+    animation: jukaDarkRoll2 0.4s 1;
+}
+
+html[data-theme='dark'] .jide_execbutton:hover{
+    box-shadow: 10px 10px 0 -5px rgb(0,0,0),10px 10px 0 0 rgb(0,224,188);
+    animation: jukaDarkRoll 0.4s 1;
+}
+
 .jide_linkbutton {
     font-weight: bold;
     display: inline-block;
@@ -71,6 +81,16 @@
     animation: jukaRoll3 0.4s 1;
 }
 
+
+html[data-theme='dark'] .jide_linkbutton{
+    box-shadow: -10px 10px 0 -5px rgb(0,0,0),-10px 10px 0 0 orangered;
+    animation: jukaDarkRoll4 0.4s 1;
+}
+
+html[data-theme='dark'] .jide_linkbutton:hover{
+    box-shadow: 10px 10px 0 -5px rgb(0,0,0),10px 10px 0 0 orangered;
+    animation: jukaDarkRoll3 0.4s 1;
+}
 
 
 .jide_savebutton{
@@ -162,6 +182,74 @@
     }
 }
 
+
+
+@keyframes jukaDarkRoll4 {
+    0% {
+        box-shadow: 10px 10px 0 -5px rgb(0, 0, 0), 10px 10px 0 0 orangered;
+
+    }
+    33.3333% {
+        box-shadow: 10px -10px 0 -5px rgb(0, 0, 0), 10px -10px 0 0 orangered;
+
+    }
+    66.6666% {
+        box-shadow: -10px -10px 0 -5px rgb(0, 0, 0), -10px -10px 0 0 orangered;
+    }
+    100% {
+        box-shadow: -10px 10px 0 -5px rgb(0, 0, 0), -10px 10px 0 0 orangered;
+    }
+}
+
+@keyframes jukaDarkRoll3 {
+    0% {
+        box-shadow: -10px 10px 0 -5px rgb(0, 0, 0), -10px 10px 0 0 orangered;
+    }
+    33.3333% {
+        box-shadow: -10px -10px 0 -5px rgb(0, 0, 0), -10px -10px 0 0 orangered;
+    }
+    66.6666% {
+        box-shadow: 10px -10px 0 -5px rgb(0, 0, 0), 10px -10px 0 0 orangered;
+    }
+    100% {
+        box-shadow: 10px 10px 0 -5px rgb(0, 0, 0), 10px 10px 0 0 orangered;
+    }
+}
+
+
+
+@keyframes jukaDarkRoll2 {
+    0% {
+        box-shadow: 10px 10px 0 -5px rgb(0, 0, 0), 10px 10px 0 0 rgb(0, 224, 188);
+
+    }
+    33.3333% {
+        box-shadow: 10px -10px 0 -5px rgb(0, 0, 0), 10px -10px 0 0 rgb(0, 224, 188);
+
+    }
+    66.6666% {
+        box-shadow: -10px -10px 0 -5px rgb(0, 0, 0), -10px -10px 0 0 rgb(0, 224, 188);
+    }
+    100% {
+        box-shadow: -10px 10px 0 -5px rgb(0, 0, 0), -10px 10px 0 0 rgb(0, 224, 188);
+    }
+}
+
+@keyframes jukaDarkRoll {
+    0% {
+        box-shadow: -10px 10px 0 -5px rgb(0, 0, 0), -10px 10px 0 0 rgb(0, 224, 188);
+    }
+    33.3333% {
+        box-shadow: -10px -10px 0 -5px rgb(0, 0, 0), -10px -10px 0 0 rgb(0, 224, 188);
+    }
+    66.6666% {
+        box-shadow: 10px -10px 0 -5px rgb(0, 0, 0), 10px -10px 0 0 rgb(0, 224, 188);
+    }
+    100% {
+        box-shadow: 10px 10px 0 -5px rgb(0, 0, 0), 10px 10px 0 0 rgb(0, 224, 188);
+    }
+}
+
 .jide_error *{
     color:red;
 }
@@ -172,6 +260,10 @@
     overflow: hidden;
     border: none;
     background-color: #f1f1f1;
+}
+
+html[data-theme='dark'] .jide_tab{
+    background-color: #2e2f40;
 }
 
 /* Style the buttons inside the tab */
@@ -189,6 +281,8 @@
     transition: 0.3s;
     font-size: 17px;
 }
+
+
 
 /* Change background color of buttons on hover */
 .jide_tab_button:hover {

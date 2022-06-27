@@ -37,6 +37,11 @@
     background-color: #f5f6f7;
 }
 
+
+html[data-theme='dark'] .features p {
+    color: #2b2c3c;
+}
+
 .nightly{
     font-size: 20px;
     font-weight: bold;
