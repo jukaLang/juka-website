@@ -1,33 +1,27 @@
 {
-  "Our Community": {
-    "message": "我们的社区"
+  "Get Started with Juka": {
+    "message": "开始使用 Juka"
   },
-  "Join our ever growing Juka community": {
-    "message": "加入我们不断增长的胡卡社区"
+  "Follow us for news and updates!": {
+    "message": "关注我们以获取新闻和更新！"
   },
-  "We use \"Discord\" for managing the community as it provides an easy way to stay connected. In order to join the community, you should click our invitation link and register a Discord account. If you already have an account, just join the \"JukaLang\" group. It's public and anyone can join!": {
-    "message": "我们使用“Discord”来管理社区，因为它提供了保持连接的简单方式。 为了加入社区，您应该点击我们的邀请链接并注册一个Discord帐户。 如果您已经有一个帐户，只需加入\"JukaLang\"群组。它是公开的，任何人都可以加入！"
-  },
-  "Contribute to the Source": {
-    "message": "为源作贡献"
-  },
-  "Juka is built by the community, for the community. Please consider contributing to the Juka GitHub repository at": {
-    "message": "Juka 是由社区为社区建造的。请考虑为Juka GitHub 仓库做出贡献"
-  },
-  "When you create new features or modify the existing ones, please follow the guidelines specified in the project documentation.": {
-    "message": "当您创建新功能或修改现有功能时，请遵循项目文档中指定的指南。"
-  },
-  "Social Media": {
-    "message": "社交媒体"
+  "Special Thanks To:": {
+    "message": "特别感谢："
   },
   "Run on Any Device": {
     "message": "在任何设备上运行"
   },
-  "Juka's main goal is to be able to run on any platform including:": {
-    "message": "朱卡的主要目标是能够在以下任何平台上运行："
+  "At the current stage, Juka is interpreted. However, we are concurrently working on a Compiler (JIT). Juka's main goal is to be able to run on any platform including:": {
+    "message": "At the current stage, Juka is interpreted. However, we are concurrently working on a Compiler (JIT). Juka's main goal is to be able to run on any platform including:"
   },
   "Coming Soon": {
     "message": "即将到来的"
+  },
+  "Use for any project": {
+    "message": "Use for any project"
+  },
+  "Juka can be used for all types of projects including server side coding, client side coding, native coding, web development, API development, data science, network security, and quantum computing.": {
+    "message": "Juka can be used for all types of projects including server side coding, client side coding, native coding, web development, API development, data science, network security, and quantum computing."
   },
   "Cloud Friendly": {
     "message": "云端友好模式"
@@ -50,17 +44,26 @@
   "We appreciate any help!": {
     "message": "我们感谢任何帮助！"
   },
-  "Get Started with Juka": {
-    "message": "开始使用 Juka"
+  "Our Community": {
+    "message": "我们的社区"
   },
-  "Download": {
-    "message": "下载"
+  "Join our ever growing Juka community": {
+    "message": "加入我们不断增长的胡卡社区"
   },
-  "Follow us for news and updates!": {
-    "message": "关注我们以获取新闻和更新！"
+  "We use \"Discord\" for managing the community as it provides an easy way to stay connected. In order to join the community, you should click our invitation link and register a Discord account. If you already have an account, just join the \"JukaLang\" group. It's public and anyone can join!": {
+    "message": "我们使用“Discord”来管理社区，因为它提供了保持连接的简单方式。 为了加入社区，您应该点击我们的邀请链接并注册一个Discord帐户。 如果您已经有一个帐户，只需加入\"JukaLang\"群组。它是公开的，任何人都可以加入！"
   },
-  "Special Thanks To:": {
-    "message": "特别感谢："
+  "Contribute to the Source": {
+    "message": "为源作贡献"
+  },
+  "Juka is built by the community, for the community. Please consider contributing to the Juka GitHub repository at": {
+    "message": "Juka 是由社区为社区建造的。请考虑为Juka GitHub 仓库做出贡献"
+  },
+  "When you create new features or modify the existing ones, please follow the guidelines specified in the project documentation.": {
+    "message": "当您创建新功能或修改现有功能时，请遵循项目文档中指定的指南。"
+  },
+  "Social Media": {
+    "message": "社交媒体"
   },
   "theme.ErrorPageContent.title": {
     "message": "此页面已崩溃。",
