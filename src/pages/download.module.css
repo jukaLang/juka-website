@@ -34,7 +34,14 @@
 }
 
 .features p {
-    background-color: #f5f6f7;
+    background-color: rgb(245,246,247,10);
+    text-align:left;
+    padding: 1rem;
+
+}
+
+.fontagap{
+    margin: 1rem 0;
 }
 
 

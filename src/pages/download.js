@@ -5,7 +5,7 @@ import styles from "./download.module.css";
 import clsx from "clsx";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faServer, faFileCode, faCode} from '@fortawesome/free-solid-svg-icons'
-import { faWindows, faApple, faLinux, faFreebsd, faRaspberryPi,faPython} from '@fortawesome/free-brands-svg-icons'
+import { faWindows, faApple, faLinux, faFreebsd, faRaspberryPi,faPython,faAndroid,faAppStoreIos} from '@fortawesome/free-brands-svg-icons'
 import BrowserOnly from "@docusaurus/BrowserOnly";
 
 function DownloadHeader() {
@@ -42,14 +42,16 @@ function DownloadHeader() {
             faIcon: {faWindows}.faWindows,
             description: (
                 <>
-                    Juka (x64): <a href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/Juka_WindowsX64_"+version+".zip"} >Download version {version}</a><br/>
-                    Juka API (x64): <a href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/JukaAPI_WindowsX64_"+version+".zip"} >Download version {version}</a><br/><br/>
+                    <b>Windows Version: {version}:</b><br/>
+                    <br/>
+                    Juka (x64): <a href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/Juka_WindowsX64_"+version+".zip"} >Download</a><br/>
+                    Juka API (x64): <a href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/JukaAPI_WindowsX64_"+version+".zip"} >Download</a><br/><br/>
 
-                    Juka (x86-32bit):  <a href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/Juka_WindowsX86_"+version+".zip"} >Download version {version}</a><br/>
-                    Juka API (x86-32bit):  <a href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/JukaAPI_WindowsX86_"+version+".zip"} >Download version {version}</a><br/>
+                    Juka (x86-32bit):  <a href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/Juka_WindowsX86_"+version+".zip"} >Download</a><br/>
+                    Juka API (x86-32bit):  <a href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/JukaAPI_WindowsX86_"+version+".zip"} >Download</a><br/><br/>
 
-                    Juka (ARM64): <a href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/Juka_WindowsARM64_"+version+".zip"} >Download version {version}</a><br/>
-                    Juka API (ARM64): <a href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/JukaAPI_WindowsARM64_"+version+".zip"} >Download version {version}</a>
+                    Juka (ARM64): <a href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/Juka_WindowsARM64_"+version+".zip"} >Download</a><br/>
+                    Juka API (ARM64): <a href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/JukaAPI_WindowsARM64_"+version+".zip"} >Download</a>
                 </>
             ),
         },
@@ -58,8 +60,10 @@ function DownloadHeader() {
             faIcon: {faApple}.faApple,
             description: (
                 <>
-                    Juka: <a href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/Juka_MacOS_"+version+".zip"} >Download version {version}</a><br/>
-                    Juka API: <a href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/JukaAPI_MacOS_"+version+".zip"} >Download version {version}</a>
+                    <b>MacOS Version: {version}:</b><br/>
+                    <br/>
+                    Juka: <a href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/Juka_MacOS_"+version+".zip"} >Download</a><br/>
+                    Juka API: <a href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/JukaAPI_MacOS_"+version+".zip"} >Download</a>
                 </>
             ),
         },
@@ -68,17 +72,10 @@ function DownloadHeader() {
             faIcon: {faLinux}.faLinux,
             description: (
                 <>
-                    Juka: <a href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/Juka_Linux_"+version+".zip"} >Download version {version}</a><br/>
-                    Juka API: <a href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/JukaAPI_Linux_"+version+".zip"} >Download version {version}</a>
-                </>
-            ),
-        },
-        {
-            title: "Microsoft Azure Server",
-            faIcon: {faServer}.faServer,
-            description: (
-                <>
-                    Juka: <a href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/Juka_Azure_Function_"+version+".zip"}>Download version {version}</a><br/>
+                    <b>Linux Version: {version}:</b><br/>
+                    <br/>
+                    Juka: <a href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/Juka_Linux_"+version+".zip"} >Download</a><br/>
+                    Juka API: <a href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/JukaAPI_Linux_"+version+".zip"} >Download</a>
                 </>
             ),
         },
@@ -87,18 +84,57 @@ function DownloadHeader() {
             faIcon: {faFreebsd}.faFreebsd,
             description: (
                 <>
-                    Juka: <a href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/Juka_FreeBSD_"+version+".tar.gz"} >Download version {version}</a><br/>
-                    Juka API: <a href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/JukaAPI_FreeBSD_"+version+".tar.gz"} >Download version {version}</a>
+                    <b>FreeBSD Version: {version}:</b><br/>
+                    <br/>
+                    Juka: <a href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/Juka_FreeBSD_"+version+".tar.gz"} >Download</a><br/>
+                    Juka API: <a href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/JukaAPI_FreeBSD_"+version+".tar.gz"} >Download</a>
                 </>
             ),
         },
+        {
+            title: "iOS",
+            faIcon: {faAppStoreIos}.faAppStoreIos,
+            description: (
+                <>
+                    <b>iOS Version: {version}:</b><br/>
+                    <br/>
+                    <i>In active development, coming soon!</i>
+                </>
+            ),
+        },
+        {
+            title: "Android",
+            faIcon: {faAndroid}.faAndroid,
+            description: (
+                <>
+                    <b>Android Version: {version}:</b><br/>
+                    <br/>
+                    <i>In active development, coming soon!</i>
+                </>
+            ),
+        },
+
+        {
+            title: "Microsoft Azure Server",
+            faIcon: {faServer}.faServer,
+            description: (
+                <>
+                    <b>Azure Version: {version}:</b><br/>
+                    <br/>
+                    Juka: <a href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/Juka_Azure_Function_"+version+".zip"}>Download</a><br/>
+                </>
+            ),
+        },
+
         {
             title: "Raspberry Pi",
             faIcon: {faRaspberryPi}.faRaspberryPi,
             description: (
                 <>
-                    Juka: <a href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/Juka_LinuxARM_RaspberryPI_"+version+".zip"} >Download version {version}</a><br/>
-                    Juka API: <a href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/JukaAPI_LinuxARM_RaspberryPI_"+version+".zip"} >Download version {version}</a>
+                    <b>RespberryPi Version: {version}:</b><br/>
+                    <br/>
+                    Juka: <a href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/Juka_LinuxARM_RaspberryPI_"+version+".zip"} >Download</a><br/>
+                    Juka API: <a href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/JukaAPI_LinuxARM_RaspberryPI_"+version+".zip"} >Download</a>
                 </>
             ),
         },
@@ -107,6 +143,8 @@ function DownloadHeader() {
             faIcon: {faFileCode}.faFileCode,
             description: (
                 <>
+                    <b>C# .dll Version: {version}:</b><br/>
+                    <br/>
                     .dll: <a href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/Juka_Compiler_dll_"+version+".zip"} >Download version {version}</a><br/>
                     NuGet: Search for JukaCompiler or run <code>Install-Package JukaCompiler -version {version}</code>
                 </>
@@ -117,7 +155,9 @@ function DownloadHeader() {
             faIcon: {faPython}.faPython,
             description: (
                 <>
-                    Repo Download: <a href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/Juka_Compiler_dll_"+version+".zip"} >Download version {version}</a><br/>
+                    <b>Jupyter Kernel:</b><br/>
+                    <br/>
+                    Repo Download: <a href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/Juka_Compiler_dll_"+version+".zip"} >Download</a><br/>
                     Download from PyPi:  <code>pip install juka_kernel</code>
                 </>
             ),
@@ -127,8 +167,10 @@ function DownloadHeader() {
             faIcon: {faCode}.faCode,
             description: (
                 <>
-                    Current Version: <a href={"https://github.com/jukaLang/Juka/archive/refs/tags/"+version+".zip"}>Download version {version}</a><br/>
-                    Other Versions: <a href={"https://github.com/jukaLang/Juka"} target={"_blank"}>Build from other versions</a>
+                    <b>Current Version: {version}:</b><br/>
+                    <br/>
+                    Current: <a href={"https://github.com/jukaLang/Juka/archive/refs/tags/"+version+".zip"}>Download</a><br/>
+                    Other Versions: <a href={"https://github.com/jukaLang/Juka"} target={"_blank"}>Build</a>
                 </>
             ),
         },
@@ -136,7 +178,7 @@ function DownloadHeader() {
 
     function OSTag({title, faIcon, description}) {
         return (
-            <div className={clsx('col col--4')}>
+            <div className={clsx('col col--4', styles.fontagap)}>
                 <div className="text--center padding-horiz--md">
 
                     <FontAwesomeIcon icon={faIcon} className={styles.fontawe} />
@@ -163,18 +205,18 @@ function DownloadHeader() {
                     if (macosPlatforms.indexOf(platform) !== -1) {
                         userOSEntry = OSList[1];
                     } else if (iosPlatforms.indexOf(platform) !== -1) {
-
+                        userOSEntry = OSList[4];
                     } else if (windowsPlatforms.indexOf(platform) !== -1) {
                         userOSEntry = OSList[0];
                     } else if (/Android/.test(userAgent)) {
-
+                        userOSEntry = OSList[5];
                     } else if (/Linux/.test(platform)) {
                         userOSEntry = OSList[2];
                     } else if (userAgent.indexOf('X11') !== -1) {
-                        userOSEntry = OSList[4];
+                        userOSEntry = OSList[3];
                     }
 
-                    return (Object.keys(userOSEntry).length !== 0) ? (<><br/><br/> <h3>It seems that you are using {userOSEntry.title}: </h3>
+                    return (Object.keys(userOSEntry).length !== 0) ? (<><h3>It seems that you are using {userOSEntry.title}: </h3>
                         <section className={styles.features}>
                             <div className="container">
                                 <div className="row">
@@ -182,10 +224,10 @@ function DownloadHeader() {
                                     <OSTag {...userOSEntry} />
                                 </div>
                             </div>
-                        </section></>) : (<h1>
+                        </section></>) : (<h3>
 
                         Your current OS doesn't seem to be supported by Juka right now. Download other versions of Juka below
-                        </h1>)
+                        </h3>)
                 }
                 }
             </BrowserOnly>
@@ -196,8 +238,9 @@ function DownloadHeader() {
 
     return (
         <header>
+            <h1 className={styles.Header}>Download Latest Version of Juka Programming Language</h1>
             <div className={styles.learn}>
-
+                <TryDetectDownload/>
                 <div className={styles.nightly}>
 
                     Get the latest nightly builds at:
@@ -207,10 +250,9 @@ function DownloadHeader() {
                     <a href={"/tryonline"}>Click here to try Juka Online</a>
 
                 </div>
-                <TryDetectDownload/>
+
                 <br/><br/>
                 <h2> List of all available Downloads:</h2>
-                <div>iOS, Windows, and Android Apps are coming soon!</div>
                 <BigDownloadList/>
             </div>
         </header>
@@ -224,7 +266,7 @@ export default function Home() {
         <Layout
             title={`Download | ${siteConfig.title}`}
             description="Download Juka Programming Language">
-            <h1 className={styles.Header}>Download Latest Version of Juka Programming Language</h1>
+
             <main>
                 <DownloadHeader />
             </main>
