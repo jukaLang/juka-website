@@ -2,31 +2,31 @@
 sidebar_position: 30
 ---
 
-# Add Juka to C# Project
+# Ajouter Juka au projet C#
 
-Juka can be added to any C# project as a .dll. You can download the latest version of .dll  at https://jukalang.com/download
+Juka peut être ajouté à n'importe quel projet C# en tant que .dll. Vous pouvez télécharger la dernière version de .dll sur https://jukalang.com/download
 
-However, it is recommended that you use a NuGet package and download JukaCompiler by searching NuGet packages.
+Cependant, il est recommandé d'utiliser un package NuGet et de télécharger JukaCompiler en recherchant les paquets NuGet .
 
-You can also install the package by running the following command:
+Vous pouvez également installer le paquet en exécutant la commande suivante :
 ```jsx
-Install-Package JukaCompiler
+Install-Pack JukaCompiler
 ```
-For more information visit, https://www.nuget.org/packages/JukaCompiler
+Pour plus d'informations, visitez https://www.nuget.org/packages/JukaCompiler
 
 
-## Basic Usage
+## Utilisation de base
 
-To compile the code using a pre-defined string, add the following to the C# code:
+Pour compiler le code en utilisant une chaîne prédéfinie, ajoutez ce qui suit au code C# :
 
 ```jsx
 new JukaCompiler.Compiler().Go(sourceAsString,false);
 ```
 
-If you need to compile the code using a file, you can pass in a file and run the following code:
+Si vous avez besoin de compiler le code en utilisant un fichier, vous pouvez passer dans un fichier et exécuter le code suivant :
 
 ```jsx
 new JukaCompiler.Compiler().Go(sourceAsString,true);
 ```
 
-The output will be returned as a string.
+La sortie sera retournée sous la forme d'une chaîne de caractères.
