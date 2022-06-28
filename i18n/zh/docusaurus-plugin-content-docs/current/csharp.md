@@ -2,7 +2,7 @@
 sidebar_position: 10
 ---
 
-# 运行 C# 代码
+# Running C# Code in Juka
 
 您可以使用 "#{ c#_code }" 在 Juka 内运行 C#
 
