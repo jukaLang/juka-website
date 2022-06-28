@@ -1,23 +1,29 @@
 .features {
   display: flex;
   align-items: center;
-  padding: 2rem 0;
+  padding: 3rem 0;
   width: 100%;
 }
 
 .featureSvg {
-  height: 200px;
-  width: 200px;
+  height: 100px;
+  width: 100px;
 }
 
 .fontawe{
-  width:60% !important;
-  height:auto;
+  width:40% !important;
+  height: auto;
+}
 
+.containerspace{
+  margin-top: 2.2rem;
+  margin-bottom: 2.2rem;
 }
 
 .features p {
   background-color: rgb(245,246,247,10);
+  text-align:left;
+  padding: 1rem;
 }
 
 html[data-theme='dark'] .features p {

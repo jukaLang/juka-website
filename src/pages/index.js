@@ -42,6 +42,7 @@ const TryDetectDownload = () => {
     );
 };
 
+
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
@@ -52,20 +53,13 @@ function HomepageHeader() {
           <div className={styles.buttons}>
               <div className="container">
                   <div className="row">
-                      <div className={clsx('col col--3 col--offset-3', styles.dlndbtn)}>
 
-                              <Link
-                                className="button button--secondary button--lg"
-                                to="/docs">
-                                <Translate>Get Started with Juka</Translate>
-                              </Link>
-                      </div>
-                      <div className={clsx('col col--3', styles.dlndbtn)}>
-                                <Link
-                                    className="button button--secondary button--lg"
-                                    to="/download">
-                                    <Translate>Download</Translate> <TryDetectDownload/> Juka
-                                </Link>
+                      <div className={clsx('col col--4 col--offset-4')}>
+                          <Link
+                              className="button button--secondary button--lg"
+                              to="/docs">
+                              <Translate>Get Started with Juka</Translate>
+                          </Link>
 
                         </div>
                           </div>
@@ -77,6 +71,10 @@ function HomepageHeader() {
     printLine("Hello World");
 }`}</CodeBlock>
 
+          <div className={styles.idebtns}>
+              <a className={styles.index_runcode} href="/tryonline">Try Juka</a>
+              <a className={styles.index_download} href="/download">Download Juka for <TryDetectDownload/></a>
+          </div><br/>
           <h2>
               <Translate>Follow us for news and updates!</Translate>
           </h2>

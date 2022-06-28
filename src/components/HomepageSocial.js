@@ -41,7 +41,7 @@ export default function HomepageSocial() {
 
             <div className="container">
                 <div className="row">
-                    <div className={clsx('col col--6 col--offset-3')}>
+                    <div className={clsx('col col--4 col--offset-4')}>
 
                                 <section className={styles.fontawef}>
                                     {SocialList.map((props, idx) => (
