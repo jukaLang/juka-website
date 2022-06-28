@@ -1,33 +1,27 @@
 {
-  "Our Community": {
-    "message": "Our Community"
+  "Get Started with Juka": {
+    "message": "Get Started with Juka"
   },
-  "Join our ever growing Juka community": {
-    "message": "Join our ever growing Juka community"
+  "Follow us for news and updates!": {
+    "message": "Follow us for news and updates!"
   },
-  "We use \"Discord\" for managing the community as it provides an easy way to stay connected. In order to join the community, you should click our invitation link and register a Discord account. If you already have an account, just join the \"JukaLang\" group. It's public and anyone can join!": {
-    "message": "We use \"Discord\" for managing the community as it provides an easy way to stay connected. In order to join the community, you should click our invitation link and register a Discord account. If you already have an account, just join the \"JukaLang\" group. It's public and anyone can join!"
-  },
-  "Contribute to the Source": {
-    "message": "Contribute to the Source"
-  },
-  "Juka is built by the community, for the community. Please consider contributing to the Juka GitHub repository at": {
-    "message": "Juka is built by the community, for the community. Please consider contributing to the Juka GitHub repository at"
-  },
-  "When you create new features or modify the existing ones, please follow the guidelines specified in the project documentation.": {
-    "message": "When you create new features or modify the existing ones, please follow the guidelines specified in the project documentation."
-  },
-  "Social Media": {
-    "message": "Social Media"
+  "Special Thanks To:": {
+    "message": "Special Thanks To:"
   },
   "Run on Any Device": {
     "message": "Run on Any Device"
   },
-  "Juka's main goal is to be able to run on any platform including:": {
-    "message": "Juka's main goal is to be able to run on any platform including:"
+  "At the current stage, Juka is interpreted. However, we are concurrently working on a Compiler (JIT). Juka's main goal is to be able to run on any platform including:": {
+    "message": "At the current stage, Juka is interpreted. However, we are concurrently working on a Compiler (JIT). Juka's main goal is to be able to run on any platform including:"
   },
   "Coming Soon": {
     "message": "Coming Soon"
+  },
+  "Use for any project": {
+    "message": "Use for any project"
+  },
+  "Juka can be used for all types of projects including server side coding, client side coding, native coding, web development, API development, data science, network security, and quantum computing.": {
+    "message": "Juka can be used for all types of projects including server side coding, client side coding, native coding, web development, API development, data science, network security, and quantum computing."
   },
   "Cloud Friendly": {
     "message": "Cloud Friendly"
@@ -50,17 +44,26 @@
   "We appreciate any help!": {
     "message": "We appreciate any help!"
   },
-  "Get Started with Juka": {
-    "message": "Get Started with Juka"
+  "Our Community": {
+    "message": "Our Community"
   },
-  "Download": {
-    "message": "Download"
+  "Join our ever growing Juka community": {
+    "message": "Join our ever growing Juka community"
   },
-  "Follow us for news and updates!": {
-    "message": "Follow us for news and updates!"
+  "We use \"Discord\" for managing the community as it provides an easy way to stay connected. In order to join the community, you should click our invitation link and register a Discord account. If you already have an account, just join the \"JukaLang\" group. It's public and anyone can join!": {
+    "message": "We use \"Discord\" for managing the community as it provides an easy way to stay connected. In order to join the community, you should click our invitation link and register a Discord account. If you already have an account, just join the \"JukaLang\" group. It's public and anyone can join!"
   },
-  "Special Thanks To:": {
-    "message": "Special Thanks To:"
+  "Contribute to the Source": {
+    "message": "Contribute to the Source"
+  },
+  "Juka is built by the community, for the community. Please consider contributing to the Juka GitHub repository at": {
+    "message": "Juka is built by the community, for the community. Please consider contributing to the Juka GitHub repository at"
+  },
+  "When you create new features or modify the existing ones, please follow the guidelines specified in the project documentation.": {
+    "message": "When you create new features or modify the existing ones, please follow the guidelines specified in the project documentation."
+  },
+  "Social Media": {
+    "message": "Social Media"
   },
   "theme.ErrorPageContent.title": {
     "message": "This page crashed.",
