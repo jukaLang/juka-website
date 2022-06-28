@@ -1,33 +1,27 @@
 {
-  "Our Community": {
-    "message": "Наше сообщество"
+  "Get Started with Juka": {
+    "message": "Начните с Juka"
   },
-  "Join our ever growing Juka community": {
-    "message": "Присоединяйтесь к нашему постоянно растущему сообществу Juka"
+  "Follow us for news and updates!": {
+    "message": "Следите за новостями и обновлениями!"
   },
-  "We use \"Discord\" for managing the community as it provides an easy way to stay connected. In order to join the community, you should click our invitation link and register a Discord account. If you already have an account, just join the \"JukaLang\" group. It's public and anyone can join!": {
-    "message": "Мы используем «Discord» для управления сообществом, так как это предоставляет простой способ оставаться на связи. Чтобы присоединиться к сообществу, вы должны нажать на ссылку приглашения и зарегистрировать учётную запись Discord. Если у вас уже есть аккаунт, просто присоединитесь к группе \"JukaLang\". Это общедоступный и любой может присоединиться!"
-  },
-  "Contribute to the Source": {
-    "message": "Внести свой вклад в источник"
-  },
-  "Juka is built by the community, for the community. Please consider contributing to the Juka GitHub repository at": {
-    "message": "Juka построена сообществом для сообщества. Пожалуйста, подумайте о том, чтобы внести свой вклад в хранилище Juka GitHub на"
-  },
-  "When you create new features or modify the existing ones, please follow the guidelines specified in the project documentation.": {
-    "message": "При создании новых функций или изменении существующих элементов следуйте инструкциям, указанным в документации проекта."
-  },
-  "Social Media": {
-    "message": "Социальные сети"
+  "Special Thanks To:": {
+    "message": "Особая благодарность для:"
   },
   "Run on Any Device": {
     "message": "Запустить на любом устройстве"
   },
-  "Juka's main goal is to be able to run on any platform including:": {
-    "message": "Основная цель Juka - уметь работать на любой платформе, включая:"
+  "At the current stage, Juka is interpreted. However, we are concurrently working on a Compiler (JIT). Juka's main goal is to be able to run on any platform including:": {
+    "message": "At the current stage, Juka is interpreted. However, we are concurrently working on a Compiler (JIT). Juka's main goal is to be able to run on any platform including:"
   },
   "Coming Soon": {
     "message": "Скоро"
+  },
+  "Use for any project": {
+    "message": "Use for any project"
+  },
+  "Juka can be used for all types of projects including server side coding, client side coding, native coding, web development, API development, data science, network security, and quantum computing.": {
+    "message": "Juka can be used for all types of projects including server side coding, client side coding, native coding, web development, API development, data science, network security, and quantum computing."
   },
   "Cloud Friendly": {
     "message": "Дружелюбие облака"
@@ -50,17 +44,26 @@
   "We appreciate any help!": {
     "message": "Мы ценим любую помощь!"
   },
-  "Get Started with Juka": {
-    "message": "Начните с Juka"
+  "Our Community": {
+    "message": "Наше сообщество"
   },
-  "Download": {
-    "message": "Скачать"
+  "Join our ever growing Juka community": {
+    "message": "Присоединяйтесь к нашему постоянно растущему сообществу Juka"
   },
-  "Follow us for news and updates!": {
-    "message": "Следите за новостями и обновлениями!"
+  "We use \"Discord\" for managing the community as it provides an easy way to stay connected. In order to join the community, you should click our invitation link and register a Discord account. If you already have an account, just join the \"JukaLang\" group. It's public and anyone can join!": {
+    "message": "Мы используем «Discord» для управления сообществом, так как это предоставляет простой способ оставаться на связи. Чтобы присоединиться к сообществу, вы должны нажать на ссылку приглашения и зарегистрировать учётную запись Discord. Если у вас уже есть аккаунт, просто присоединитесь к группе \"JukaLang\". Это общедоступный и любой может присоединиться!"
   },
-  "Special Thanks To:": {
-    "message": "Особая благодарность для:"
+  "Contribute to the Source": {
+    "message": "Внести свой вклад в источник"
+  },
+  "Juka is built by the community, for the community. Please consider contributing to the Juka GitHub repository at": {
+    "message": "Juka построена сообществом для сообщества. Пожалуйста, подумайте о том, чтобы внести свой вклад в хранилище Juka GitHub на"
+  },
+  "When you create new features or modify the existing ones, please follow the guidelines specified in the project documentation.": {
+    "message": "При создании новых функций или изменении существующих элементов следуйте инструкциям, указанным в документации проекта."
+  },
+  "Social Media": {
+    "message": "Социальные сети"
   },
   "theme.ErrorPageContent.title": {
     "message": "Эта страница прервана.",
