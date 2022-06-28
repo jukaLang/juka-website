@@ -2,7 +2,7 @@
 sidebar_position: 10
 ---
 
-# Running C# Code in Juka
+# Запуск C# кода в Juka
 
 Вы можете запустить C# внутри Juka с помощью синтаксиса "#{ c#_code }"
 
