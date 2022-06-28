@@ -2,48 +2,48 @@
 sidebar_position: 29
 ---
 
-# Run Juka in Jupyter
+# 在 Jupyter 中运行 Juka
 
-If you are a data scientist or an analytic, you've probably heard of and used Jupyter.
+如果您是数据科学家或分析人员，您可能已经听说过 并使用了Jupyter。
 
-Typically, Jupyter is used to run Python code. However, it can be used for many other languages.
+通常，Jupyter用于运行 Python 代码。 然而， 可以用于其他许多语言。
 
-We have created a Juka_kernel which allows Juka to communicate directly with Jupyter.
+我们创建了一个 Juka_kernel ，允许Juka 直接与Jupyter联系 。
 
-First you need to download Juka (https://jukalang.com/download) Once, downloaded add Juka to path.
+首先你需要下载 Juka (https://jukalang.com/download) 只要下载就可以添加Juka 到路径。
 
-On Windows, it is recommended that you follow the steps, outlined at https://stackoverflow.com/questions/44272416/how-to-add-a-folder-to-path-environment-variable-in-windows-10-with-screensho
+关于Windows，建议您遵循 的步骤 https://stackoverflow.com/questions/44272416/how to 附加组件-folder-to-path-environment-variable-in-windows-10-with-screenssho
 
-On Linux/Unix/MacOS (bash): Assuming that we stored Juka in /usr/bin/share/Juka, we run the following command:
+在 Linux/Unix/MacOS (bash): 假设我们在 /usr/bin/shar/juka, 我们运行以下命令：
 ```jsx
 $ export path = "/usr/bin/share/Juka:$PATH"
 ```
-This will add Juka to PATH
+这将添加 Juka 到 PATH
 
-NOTE: You might need to restart the terminal. It's recommended to restart your computer as well.
+注意：您可能需要重新启动终端。 还推荐 重启您的计算机。
 
-Next, you will need to install jupyter. Please follow the steps outlined at https://jupyter.org/install if you haven't done so.
+接下来，你需要安装jupyter。 如果你还没有这样做，请遵循 在 https://jupyter.org/install。
 
-Next, you can either install Juka_kernel from PyPi, by running
+接下来，你可以从 PyPi 安装 Juka_kernel ， 来运行
 ```jsx
 pip install juka_kernel
 ```
-or install it directly from the source by downloading from: https://github.com/jukaLang/juka_kernel and running:
+或者直接从源代码安装它，从下载： https://github.com/jukaLang/juka_kernel 并运行：
 ```jsx
 python -m juka_kernel.install 
 ```
-in the kernel folder.
+在内核文件夹中。
 
-## Using the Juka kernel
+## 使用 Juka 内核
 
 **Notebook**: The *New* menu in the notebook should show an option for an Juka notebook.
 
-**Console frontends**: To use it with the console frontends, add `--kernel juka` to their command line arguments.
+**控制台前端**: 若要使用控制台前端，添加 `--kernel juka` 到 他们的命令行参数。
 
-### What if a new version of Juka Comes out?
-If a new version of Juka comes out, you do not need to update or upgrade the juka_kernel (unless we make big changes to the kernel). All you need to do is replace the files in Juka PATH. That's it! This makes it easy to upgrade Juka without having to uninstall and re-install kernel
+### 如果有新版本的 Juka 即将出去怎么办？
+如果有新版本的 Juka 已经关闭。 您不需要 更新或升级juka_kernel (除非我们对内核作重大更改 )。 您需要做的只是替换 Juka PATH 中的文件。 就是这样！ 这使得升级Juka 很容易，而无需卸载和重新安装内核。
 
-## Technical Details
-Juka Kernel is written in Python and serves as a bridge between Jupyter and Juka. It does not compile or run the Juka code. It just serves as a messaging protocol.
+## 技术细节
+Juka Kernel 用Python写成，充当 Jupyter和Juka之间的桥梁。 它不编译或运行Juka代码。 它 只是一个消息协议。
 
-If you would like to contribute to the Juka_kernel, please see https://github.com/juka/juka_kernel
+如果您想要为 Juka_kernel 作出贡献，请 查看 https://github.com/juka/juka_kernel
