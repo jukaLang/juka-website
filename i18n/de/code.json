@@ -1,33 +1,27 @@
 {
-  "Our Community": {
-    "message": "Unsere Community"
+  "Get Started with Juka": {
+    "message": "Erste Schritte mit Juka"
   },
-  "Join our ever growing Juka community": {
-    "message": "Trete unserer ständig wachsenden Juka-Community bei"
+  "Follow us for news and updates!": {
+    "message": "Folgen Sie uns für Neuigkeiten und Updates!"
   },
-  "We use \"Discord\" for managing the community as it provides an easy way to stay connected. In order to join the community, you should click our invitation link and register a Discord account. If you already have an account, just join the \"JukaLang\" group. It's public and anyone can join!": {
-    "message": "Wir verwenden \"Discord\" um die Community zu verwalten, da sie eine einfache Möglichkeit bietet, die Verbindung zu behalten. Um der Community beizutreten, solltest du auf unseren Einladungslink klicken und einen Discord-Account registrieren. Wenn du bereits einen Account hast, trete einfach der Gruppe \"JukaLang\" bei. Es ist öffentlich und jeder kann beitreten!"
-  },
-  "Contribute to the Source": {
-    "message": "Zur Quelle beitragen"
-  },
-  "Juka is built by the community, for the community. Please consider contributing to the Juka GitHub repository at": {
-    "message": "Juka wurde von der Community für die Community gebaut. Bitte denke daran, zum Juka GitHub Repository beizutragen auf"
-  },
-  "When you create new features or modify the existing ones, please follow the guidelines specified in the project documentation.": {
-    "message": "Wenn Sie neue Funktionen erstellen oder die vorhandenen verändern, folgen Sie bitte den in der Projektdokumentation angegebenen Richtlinien."
-  },
-  "Social Media": {
-    "message": "Soziale Medien"
+  "Special Thanks To:": {
+    "message": "Besonderer Dank an:"
   },
   "Run on Any Device": {
     "message": "Auf jedem Gerät ausführen"
   },
-  "Juka's main goal is to be able to run on any platform including:": {
-    "message": "Jukas Hauptziel ist es, auf jeder Plattform laufen zu können, einschließlich:"
+  "At the current stage, Juka is interpreted. However, we are concurrently working on a Compiler (JIT). Juka's main goal is to be able to run on any platform including:": {
+    "message": "At the current stage, Juka is interpreted. However, we are concurrently working on a Compiler (JIT). Juka's main goal is to be able to run on any platform including:"
   },
   "Coming Soon": {
     "message": "Demnächst"
+  },
+  "Use for any project": {
+    "message": "Use for any project"
+  },
+  "Juka can be used for all types of projects including server side coding, client side coding, native coding, web development, API development, data science, network security, and quantum computing.": {
+    "message": "Juka can be used for all types of projects including server side coding, client side coding, native coding, web development, API development, data science, network security, and quantum computing."
   },
   "Cloud Friendly": {
     "message": "Cloud-freundlich"
@@ -50,17 +44,26 @@
   "We appreciate any help!": {
     "message": "Wir freuen uns über jede Hilfe!"
   },
-  "Get Started with Juka": {
-    "message": "Erste Schritte mit Juka"
+  "Our Community": {
+    "message": "Unsere Community"
   },
-  "Download": {
-    "message": "Download"
+  "Join our ever growing Juka community": {
+    "message": "Trete unserer ständig wachsenden Juka-Community bei"
   },
-  "Follow us for news and updates!": {
-    "message": "Folgen Sie uns für Neuigkeiten und Updates!"
+  "We use \"Discord\" for managing the community as it provides an easy way to stay connected. In order to join the community, you should click our invitation link and register a Discord account. If you already have an account, just join the \"JukaLang\" group. It's public and anyone can join!": {
+    "message": "Wir verwenden \"Discord\" um die Community zu verwalten, da sie eine einfache Möglichkeit bietet, die Verbindung zu behalten. Um der Community beizutreten, solltest du auf unseren Einladungslink klicken und einen Discord-Account registrieren. Wenn du bereits einen Account hast, trete einfach der Gruppe \"JukaLang\" bei. Es ist öffentlich und jeder kann beitreten!"
   },
-  "Special Thanks To:": {
-    "message": "Besonderer Dank an:"
+  "Contribute to the Source": {
+    "message": "Zur Quelle beitragen"
+  },
+  "Juka is built by the community, for the community. Please consider contributing to the Juka GitHub repository at": {
+    "message": "Juka wurde von der Community für die Community gebaut. Bitte denke daran, zum Juka GitHub Repository beizutragen auf"
+  },
+  "When you create new features or modify the existing ones, please follow the guidelines specified in the project documentation.": {
+    "message": "Wenn Sie neue Funktionen erstellen oder die vorhandenen verändern, folgen Sie bitte den in der Projektdokumentation angegebenen Richtlinien."
+  },
+  "Social Media": {
+    "message": "Soziale Medien"
   },
   "theme.ErrorPageContent.title": {
     "message": "Diese Seite ist abgestürzt.",
