@@ -5,23 +5,25 @@ sidebar_position: 998
 # ЧАВО
 
 ## В: Работает ли Juka над Linux?
-*A:* Juka совместима с Windows, Linux и Macintosh. Juka может работать в облаке через функцию Juka Azure. Мы также планируем поддерживать мобильные платформы, такие как Android и iOS/iPadOS.
+*A:* Juka is compatible with Windows, Linux, FreeBSD, RaspberryPi, and Macintosh. Juka может работать в облаке через функцию Juka Azure. Мы также планируем поддерживать мобильные платформы, такие как Android и iOS/iPadOS.
 
+## Q: Can I try Juka without downloading?
+*A:* Yes! Please try juka at https://jukalang.com/tryonline.
 
-## В: Для чего используется Juka?
-*О:* Философия языка программирования Juka это код один раз, запускается везде. Его цель - запустить на любой платформе.
+## Q: What is Juka used for?
+*A:* Juka Programming Language's philosophy is code once, run everywhere. Its purpose is to run on any platform.
 
-## В: Могут ли эти языки помочь мне в _?
-*А:* Это может произойти. Язык все еще находится на ранней стадии, но мы ищем активных членов.
+## Q: Could this language help me in _?
+*A:* It might. The language is still in early stages, but we are looking for active members.
 
-## Вопрос: Является Juka авторским?
-*A:* Juka предоставляется в соответствии с измененной лицензией AGPL GNU. См. https://jukalang.com/license
+## Q: Is Juka Copyrighted?
+*A:* Juka is provided under modified AGPL GNU license. See https://jukalang.com/license
 
-## В: Как начать использовать Juka?
-*A:* См. раздел "Введение" и "Написание первого приложения" документации
+## Q: How do I start using Juka?
+*A:* See the "Introduction" and "Writing your first application" section of the documentation
 
-## В: У вас есть IDE или текстовый редактор, где я могу написать код?
-*A:* Вы можете написать код с помощью любого текстового редактора. В настоящее время мы работаем над расширением Microsoft Visual Studio Code
+## Q: Do you have an IDE or a text editor where I can write the code?
+*A:* You can write the code using any text editor. If you like Jupyter, you can install Juka kernel, see run Juka in Jupyter
 
-## В: Я хочу разместить компилятор Juka онлайн... Как это сделать?
-*A:* См. документацию по функции Azure.
+## Q: I want to host Juka compiler online... How can I do it?
+*A:* There are many ways to host Juka Compiler online. One of the ways is using Microsoft Azure Server (See the Azure Function documentation.) If you do not want to use Azure, you can download JukaApi. 
