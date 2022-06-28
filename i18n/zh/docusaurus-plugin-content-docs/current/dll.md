@@ -2,31 +2,31 @@
 sidebar_position: 30
 ---
 
-# Add Juka to C# Project
+# 添加 Juka 到 C# 项目
 
-Juka can be added to any C# project as a .dll. You can download the latest version of .dll  at https://jukalang.com/download
+Juka 可以添加到任何 C# 项目为 .dll。 您可以在 https://jukalang.com/download下载最新版本的 .dll
 
-However, it is recommended that you use a NuGet package and download JukaCompiler by searching NuGet packages.
+然而，建议您使用 NuGet 包 并通过搜索 NuGet 包下载JukaCompiler
 
-You can also install the package by running the following command:
+您也可以通过运行以下命令来安装软件包：
 ```jsx
-Install-Package JukaCompiler
+安装包JukaCompiler
 ```
-For more information visit, https://www.nuget.org/packages/JukaCompiler
+欲了解更多信息， https://www.nuget.org/packses/JukaCompiler
 
 
-## Basic Usage
+## 基本用法
 
-To compile the code using a pre-defined string, add the following to the C# code:
-
-```jsx
-new JukaCompiler.Compiler().Go(sourceAsString,false);
-```
-
-If you need to compile the code using a file, you can pass in a file and run the following code:
+要使用预定义字符串编译代码， 在 C# 代码中添加以下内容：
 
 ```jsx
-new JukaCompiler.Compiler().Go(sourceAsString,true);
+新 JukaCompiler.Compiler().Go(sourceAsString,false);
 ```
 
-The output will be returned as a string.
+如果您需要使用文件编译代码， 您可以传递文件并运行以下代码：
+
+```jsx
+新 JukaCompiler.Compiler().Go(sourceAsString,true);
+```
+
+输出将作为字符串返回.

@@ -13,15 +13,15 @@ slug: /
 
 __Поддерживаемое устройство:__
 - Windows (x64)
-- Windows (x86 32-bit)
-- Windows ARM (arm x64)
-- Linux (CentOS, Debian, Fedora, Ubuntu and derivatives)
-- Linux ARM (Linux Distributions that run ARM e.g. Raspberry Pi Model 2+)
+- Windows (x86 32-бит)
+- Windows ARM (рука x64)
+- Linux (CentOS, Debian, Fedora, Ubuntu и derivatives)
+- Linux ARM (Linux Distributions под управлением ARM, например Raspberry Pi Model 2+)
 - MacOS (macOS 10.12+)
 - FreeBSD/UNIX (FreeBSD 11+)
 - Azure (Microsoft Azure Function)
-- HTTPS/API (JukaAPI server)
-- Docker (JukaAPI)
+- HTTPS/API (JukaAPI сервер)
+- Докер (JukaAPI)
 
 __Скоро:__
 - Android App

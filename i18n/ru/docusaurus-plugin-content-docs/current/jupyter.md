@@ -2,48 +2,48 @@
 sidebar_position: 29
 ---
 
-# Run Juka in Jupyter
+# Забери Juka в Юпитере
 
-If you are a data scientist or an analytic, you've probably heard of and used Jupyter.
+Если вы ученый или аналитик, то вы, вероятно, слышали о Юпитере и использовали Юпитер.
 
-Typically, Jupyter is used to run Python code. However, it can be used for many other languages.
+Обычно Jupyter используется для запуска кода Python. Однако, он может быть использован для многих других языков.
 
-We have created a Juka_kernel which allows Juka to communicate directly with Jupyter.
+Мы создали Juka_kernel который позволяет Juka общаться с Юпитером .
 
-First you need to download Juka (https://jukalang.com/download) Once, downloaded add Juka to path.
+Сначала вам нужно скачать Juka (https://jukalang.com/download) Если, загрузил добавление Juka в путь.
 
-On Windows, it is recommended that you follow the steps, outlined at https://stackoverflow.com/questions/44272416/how-to-add-a-folder-to-path-environment-variable-in-windows-10-with-screensho
+В Windows вам рекомендуется следовать шагам, описанным на https://stackoverflow.com/questions/44272416/how-to-add-a-folder-to-path-environment-variable-in-windows-10-with-screensho
 
-On Linux/Unix/MacOS (bash): Assuming that we stored Juka in /usr/bin/share/Juka, we run the following command:
+В Linux/Unix/MacOS (bash): Предположим, что мы хранили Juka в /usr/bin/share/Juka, мы запускаем следующую команду:
 ```jsx
-$ export path = "/usr/bin/share/Juka:$PATH"
+$ path для экспорта = "/usr/bin/share/Juka:$PATH
 ```
-This will add Juka to PATH
+Это добавит Juka в PATH
 
-NOTE: You might need to restart the terminal. It's recommended to restart your computer as well.
+ПРИМЕЧАНИЕ: Возможно, потребуется перезапустить терминал. Рекомендуется также перезагрузить компьютер.
 
-Next, you will need to install jupyter. Please follow the steps outlined at https://jupyter.org/install if you haven't done so.
+Далее, вам нужно будет установить jupyter. Пожалуйста, выполните шаги описанные на https://jupyter.org/install если вы этого не сделали.
 
-Next, you can either install Juka_kernel from PyPi, by running
+Далее вы можете установить Juka_kernel из PyPi, запустив
 ```jsx
 pip install juka_kernel
 ```
-or install it directly from the source by downloading from: https://github.com/jukaLang/juka_kernel and running:
+или установите его непосредственно из исходного кода, загрузив от: https://github.com/jukaLang/juka_kernel и запустив:
 ```jsx
 python -m juka_kernel.install 
 ```
-in the kernel folder.
+в папке ядра.
 
-## Using the Juka kernel
+## Использование ядра Juka
 
-**Notebook**: The *New* menu in the notebook should show an option for an Juka notebook.
+**Примечание**: Меню *Новый* в блокноте должно показывать опцию для ноутбука Джука.
 
-**Console frontends**: To use it with the console frontends, add `--kernel juka` to their command line arguments.
+**Консольные фронтэнды**: Чтобы использовать их в консольных фронтах, добавьте `--kernel juka` в их аргументы командной строки.
 
-### What if a new version of Juka Comes out?
-If a new version of Juka comes out, you do not need to update or upgrade the juka_kernel (unless we make big changes to the kernel). All you need to do is replace the files in Juka PATH. That's it! This makes it easy to upgrade Juka without having to uninstall and re-install kernel
+### Что делать, если новая версия Juka пришла?
+Если выйдет новая версия Juka, вам не нужно обновлять или обновлять juka_kernel (если мы не делаем больших изменений в ядро). Все, что вам нужно сделать, это заменить файлы в Juka PATH. Вот и все! Это упрощает обновление Juka без необходимости удаления и переустановки ядра
 
-## Technical Details
-Juka Kernel is written in Python and serves as a bridge between Jupyter and Juka. It does not compile or run the Juka code. It just serves as a messaging protocol.
+## Технические детали
+Ядро Juka написано на Python и служит мостом между Юпитером и Джукой. Он не компилирует и не запускает код Juka. просто служит протоколом обмена сообщениями.
 
-If you would like to contribute to the Juka_kernel, please see https://github.com/juka/juka_kernel
+Если вы хотите внести свой вклад в Juka_kernel, смотрите https://github.com/juka/juka_kernel

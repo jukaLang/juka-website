@@ -2,48 +2,48 @@
 sidebar_position: 29
 ---
 
-# Run Juka in Jupyter
+# Ejecutar Juka en Jupyter
 
-If you are a data scientist or an analytic, you've probably heard of and used Jupyter.
+Si eres un científico de datos o un analítico, probablemente haber oído hablar de Jupyter y usarlo.
 
-Typically, Jupyter is used to run Python code. However, it can be used for many other languages.
+Por lo general, Jupyter se usa para ejecutar código Python. Sin embargo, se puede utilizar para muchos otros idiomas.
 
-We have created a Juka_kernel which allows Juka to communicate directly with Jupyter.
+Hemos creado un Juka_kernel que permite a Juka comunicarse directamente con Jupyter.
 
-First you need to download Juka (https://jukalang.com/download) Once, downloaded add Juka to path.
+Primero necesitas descargar Juka (https://jukalang.com/download) Una vez, descargado, añade Juka a la ruta.
 
-On Windows, it is recommended that you follow the steps, outlined at https://stackoverflow.com/questions/44272416/how-to-add-a-folder-to-path-environment-variable-in-windows-10-with-screensho
+En Windows, se recomienda que siga los pasos, esbozado en https://stackoverflow.com/questions/44272416/how-to-add-a-folder-to-path-environment-variable-in-windows-10-with-screensho
 
-On Linux/Unix/MacOS (bash): Assuming that we stored Juka in /usr/bin/share/Juka, we run the following command:
+En Linux/Unix/MacOS (bash): Suponiendo que almacenamos Juka en /usr/bin/share/Juka, ejecutamos el siguiente comando:
 ```jsx
-$ export path = "/usr/bin/share/Juka:$PATH"
+$ ruta de exportación = "/usr/bin/share/Juka:$PATH"
 ```
-This will add Juka to PATH
+Esto añadirá Juka a PATH
 
-NOTE: You might need to restart the terminal. It's recommended to restart your computer as well.
+NOTA: Es posible que tenga que reiniciar la terminal. Se recomienda reiniciar el equipo también.
 
-Next, you will need to install jupyter. Please follow the steps outlined at https://jupyter.org/install if you haven't done so.
+A continuación, necesitará instalar jupyter. Por favor, siga los pasos descritos en https://jupyter.org/install si no lo ha hecho.
 
-Next, you can either install Juka_kernel from PyPi, by running
+A continuación, puede instalar Juka_kernel desde PyPi, ejecutando
 ```jsx
 pip install juka_kernel
 ```
-or install it directly from the source by downloading from: https://github.com/jukaLang/juka_kernel and running:
+o instalarlo directamente desde el código fuente descargando desde: https://github.com/jukaLang/juka_kernel y ejecutando:
 ```jsx
 python -m juka_kernel.install 
 ```
-in the kernel folder.
+en la carpeta del núcleo.
 
-## Using the Juka kernel
+## Usando el kernel de Juka
 
-**Notebook**: The *New* menu in the notebook should show an option for an Juka notebook.
+**Cuaderno**: El menú *Nuevo* en el cuaderno debe mostrar una opción para un cuaderno Juka.
 
-**Console frontends**: To use it with the console frontends, add `--kernel juka` to their command line arguments.
+**frontends de la consola**: Para usarlo con la interfaz de la consola, agregue `--kernel juka` a sus argumentos de línea de comandos.
 
-### What if a new version of Juka Comes out?
-If a new version of Juka comes out, you do not need to update or upgrade the juka_kernel (unless we make big changes to the kernel). All you need to do is replace the files in Juka PATH. That's it! This makes it easy to upgrade Juka without having to uninstall and re-install kernel
+### ¿Qué pasa si sale una nueva versión de Juka?
+Si sale una nueva versión de Juka no necesita actualizar o actualizar el juka_kernel (a menos que hagamos grandes cambios al núcleo). Todo lo que necesitas hacer es reemplazar los archivos en Juka PATH. ¡Eso es todo! Esto hace que sea fácil actualizar Juka sin tener que desinstalar y reinstalar el núcleo
 
-## Technical Details
-Juka Kernel is written in Python and serves as a bridge between Jupyter and Juka. It does not compile or run the Juka code. It just serves as a messaging protocol.
+## Detalles técnicos
+Juka Kernel está escrito en Python y sirve como un puente entre Jupyter y Juka. No compila ni ejecuta el código Juka. solo sirve como protocolo de mensajería.
 
-If you would like to contribute to the Juka_kernel, please see https://github.com/juka/juka_kernel
+Si desea contribuir al Juka_kernel, por favor vea https://github.com/juka/juka_kernel

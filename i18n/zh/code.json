@@ -12,16 +12,16 @@
     "message": "在任何设备上运行"
   },
   "At the current stage, Juka is interpreted. However, we are concurrently working on a Compiler (JIT). Juka's main goal is to be able to run on any platform including:": {
-    "message": "At the current stage, Juka is interpreted. However, we are concurrently working on a Compiler (JIT). Juka's main goal is to be able to run on any platform including:"
+    "message": "在目前阶段，Juka被解释为。然而，我们同时正在编制一位编译员。 朱卡的主要目标是能够在以下任何平台上运行："
   },
   "Coming Soon": {
     "message": "即将到来的"
   },
   "Use for any project": {
-    "message": "Use for any project"
+    "message": "用于任何项目"
   },
   "Juka can be used for all types of projects including server side coding, client side coding, native coding, web development, API development, data science, network security, and quantum computing.": {
-    "message": "Juka can be used for all types of projects including server side coding, client side coding, native coding, web development, API development, data science, network security, and quantum computing."
+    "message": "Juka 可以用于所有类型的项目，包括服务器端编码、客户端编码， 本机编码、网页开发、API开发、数据科学、网络安全和量子计算。"
   },
   "Cloud Friendly": {
     "message": "云端友好模式"
