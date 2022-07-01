@@ -4,37 +4,37 @@ sidebar_position: 50
 
 # 疑难解答Macintosh
 
-Because we currently do not sign Juka programming language, you might get an error when you first run Juka on Macintosh.
+因为我们目前不使用Juka编程语言， 当您首次在 Macintosh运行Juka 时可能出现错误。
 
-当你首次在 Macintosh上运行Juka 时， 你可能会遇到以下错误： ![step1](/img/macintosh/cannotbeopened.png)
+当你首次在 Macintosh上运行Juka 时， 你可能会遇到以下错误： ![步骤1](/img/macintosh/cannotbeopened.png)
 
-We recommend that you follow instructions outlined: https://www.youtube.com/watch?v=6lD0wsg55WU
+我们建议您遵循下述指示： https://www.youtube.com/watch?v=6lD0wsg55WU
 
-You can also run the following commands:
+您也可以运行以下命令：
 
-Assuming that Juka is stored on Desktop
+假定Juka存储在桌面
 ```jsx
 cd ~/Desktop
 cd Juka_MacOS
-chmod +x ./Juka
+chmod +x ./juka
 sudo spctl --master-disable
-./Juka
+./juka
 ```
 
-This will disable the "gatekeeper" application allowing you to run Juka even though the application came from "unidentified" developer.
+这将禁用“守门”应用程序允许您运行 Juka ，即使应用程序来自“未识别的”开发者。
 
-Once you are done using Juka, run the following command:
+使用 Juka 完成后， 运行以下命令：
 
 ```jsx
-sudo spctl --master-enable
+sudo spctl --master-启用
 ```
-This will re-enable the "gatekeeper".
+这将重新启用“守门员”。
 
-## Alternative Workaround (Not recommended)
+## 替代处理(不推荐)
 
-Another way to work around this is click on "apple", and go to "security and preferences".
+围绕这个问题开展工作的另一种方式是点击“小程序”，然后转到“安全 和首选项”。
 
-You will get a message stating that Juka is from an unidentified developer.
+您将收到一条消息，声明Juka来自一个身份不明的开发者。
 
 点击"随时打开"
 
