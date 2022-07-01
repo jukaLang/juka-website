@@ -29,7 +29,7 @@
   },
   "link.item.label.Discord": {
     "message": "Discord",
-    "description": "The label of footer link with label=Discord linking to https://discord.com/invite/7BNpwKH8JC/"
+    "description": "The label of footer link with label=Discord linking to https://discord.gg/MsKWsErzfp"
   },
   "link.item.label.Twitter": {
     "message": "Твиттер",
@@ -60,7 +60,7 @@
     "description": "The label of footer link with label=GitHub Source linking to https://github.com/jukaLang/juka"
   },
   "copyright": {
-    "message": "Copyright © 2022 Juka Programming Language <br/> (Last updated on 6/28/2022, 7:57:50 PM EST)",
+    "message": "Copyright © 2022 Juka Programming Language <br/> (Last updated on 7/1/2022, 12:22:40 AM EST)",
     "description": "The footer copyright"
   }
 }
