@@ -9,7 +9,7 @@ Juka的主要目标是成为一种通用的编程语言，可以在任何平台�
 
 Juka的哲学是一次代码，遍布任何地方。
 
-![jukaRun](https://user-images.githubusercontent.com/11934545/171545920-02493491-fa44-40d6-9a5b-46b2f90f8301.gif)
+![jukaRun](https://user-images.githubusercontent.com/11934545/176820860-9ff1eff4-cbde-4e90-a56f-b0826f4760a5.gif)
 
 __当前支持的设备：__
 - Windows (x64)
@@ -22,6 +22,7 @@ __当前支持的设备：__
 - Azure (Microsoft Azure Function)
 - HTTPS/API (JukaAPI 服务器)
 - Docker (JukaAPI)
+- Web Assembly (CDN/Browser/HTML server)
 
 __即将到来：__
 - Android App
