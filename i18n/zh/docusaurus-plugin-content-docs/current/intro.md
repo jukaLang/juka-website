@@ -22,7 +22,7 @@ __当前支持的设备：__
 - Azure (Microsoft Azure Function)
 - HTTPS/API (JukaAPI 服务器)
 - Docker (JukaAPI)
-- Web Assembly (CDN/Browser/HTML server)
+- Web Assembly(CDN/Browser/HTML 服务器)
 
 __即将到来：__
 - Android App
