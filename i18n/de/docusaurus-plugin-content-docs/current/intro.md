@@ -9,7 +9,7 @@ Jukas Hauptziel ist es, eine universelle Programmiersprache zu sein, die auf jed
 
 Jukas Philosophie ist nur einmal Code, überall ausgeführt.
 
-![jukaRun](https://user-images.githubusercontent.com/11934545/171545920-02493491-fa44-40d6-9a5b-46b2f90f8301.gif)
+![jukaRun](https://user-images.githubusercontent.com/11934545/176820860-9ff1eff4-cbde-4e90-a56f-b0826f4760a5.gif)
 
 __Aktuelles unterstütztes Gerät:__
 - Fenster (x64)
@@ -22,6 +22,7 @@ __Aktuelles unterstütztes Gerät:__
 - Azure (Microsoft Azure Function)
 - HTTPS/API (JukaAPI Server)
 - Docker (JukaAPI)
+- Web Assembly (CDN/Browser/HTML server)
 
 __Demnächst:__
 - Android App

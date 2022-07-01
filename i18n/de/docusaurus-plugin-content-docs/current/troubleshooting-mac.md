@@ -2,27 +2,52 @@
 sidebar_position: 50
 ---
 
-# Troubleshooting Macintosh
+# Fehlerbehebung Macintosh
+
+Because we currently do not sign Juka programming language, you might get an error when you first run Juka on Macintosh.
 
 When you first run Juka on Macintosh, you might get the following error: ![step1](/img/macintosh/cannotbeopened.png)
 
-This occurs because Juka application is build but not signed.
+We recommend that you follow instructions outlined: https://www.youtube.com/watch?v=6lD0wsg55WU
 
-To work around this, click on "apple", and go to "security and preferences".
+You can also run the following commands:
 
+Assuming that Juka is stored on Desktop
+```jsx
+cd ~/Desktop
+cd Juka_MacOS
+chmod +x ./Juka
+sudo spctl --master-disable
+./Juka
+```
 
-Click on "Open Anyway"
+This will disable the "gatekeeper" application allowing you to run Juka even though the application came from "unidentified" developer.
 
-NOTE: you might need to click the "lock" to make changes
+Once you are done using Juka, run the following command:
 
-![step2](/img/macintosh/openanyway.png)
+```jsx
+sudo spctl --master-enable
+```
+This will re-enable the "gatekeeper".
 
-Keep the window open and keep re-running Juka until all the security errors go away
+## Alternative Workaround (Not recommended)
 
-![step3](/img/macintosh/openanywaylibhost.png)
+Another way to work around this is click on "apple", and go to "security and preferences".
 
-Eventually, you will be able to run Juka and see the following screen:
+You will get a message stating that Juka is from an unidentified developer.
 
-![step3](/img/macintosh/final.png)
+Klicken Sie auf "Trotzdem öffnen"
+
+HINWEIS: Sie müssen eventuell auf "Sperren" klicken, um Änderungen vorzunehmen
+
+![Schritt2](/img/macintosh/openanyway.png)
+
+Öffne das Fenster und führe Juka weiter aus, bis alle Sicherheitsfehler verschwinden
+
+![stufen3](/img/macintosh/openanywaylibhost.png)
+
+Letztendlich können Sie Juka starten und den folgenden Bildschirm sehen:
+
+![stufen3](/img/macintosh/final.png)
 
 

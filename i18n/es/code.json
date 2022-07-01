@@ -248,6 +248,10 @@
     "message": "Navegación de mensajes recientes del blog",
     "description": "The ARIA label for recent posts in the blog sidebar"
   },
+  "theme.CodeBlock.wordWrapToggle": {
+    "message": "Cambiar envoltura de palabra",
+    "description": "The title attribute for toggle word wrapping button of code block lines"
+  },
   "theme.CodeBlock.copied": {
     "message": "Copiado",
     "description": "The copied button label on code blocks"
@@ -259,10 +263,6 @@
   "theme.CodeBlock.copy": {
     "message": "Copiar",
     "description": "The copy button label on code blocks"
-  },
-  "theme.CodeBlock.wordWrapToggle": {
-    "message": "Cambiar envoltura de palabra",
-    "description": "The title attribute for toggle word wrapping button of code block lines"
   },
   "theme.DocSidebarItem.toggleCollapsedCategoryAriaLabel": {
     "message": "Cambiar la categoría de barra lateral colapsable '{label}'",
