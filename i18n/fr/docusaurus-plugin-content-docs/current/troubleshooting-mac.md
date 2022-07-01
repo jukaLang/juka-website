@@ -4,15 +4,15 @@ sidebar_position: 50
 
 # Dépannage de Macintosh
 
-Because we currently do not sign Juka programming language, you might get an error when you first run Juka on Macintosh.
+Parce que nous ne signons pas actuellement le langage de programmation Juka, vous pourriez avoir une erreur lorsque vous exécutez Juka sur Macintosh.
 
-Lorsque vous exécutez Juka pour la première fois sur Macintosh, vous pourriez avoir l'erreur suivante : ![step1](/img/macintosh/cannotbeopened.png)
+Lorsque vous exécutez Juka pour la première fois sur Macintosh, vous pourriez avoir l'erreur suivante : ![Etape 1](/img/macintosh/cannotbeopened.png)
 
-We recommend that you follow instructions outlined: https://www.youtube.com/watch?v=6lD0wsg55WU
+Nous vous recommandons de suivre les instructions suivantes : https://www.youtube.com/watch?v=6lD0wsg55WU
 
-You can also run the following commands:
+Vous pouvez également exécuter les commandes suivantes :
 
-Assuming that Juka is stored on Desktop
+En supposant que Juka soit stocké sur le bureau
 ```jsx
 cd ~/Desktop
 cd Juka_MacOS
@@ -21,20 +21,20 @@ sudo spctl --master-disable
 ./Juka
 ```
 
-This will disable the "gatekeeper" application allowing you to run Juka even though the application came from "unidentified" developer.
+Cela désactivera l'application "gatekeeper" qui vous permettra d'exécuter Juka même si l'application venait du développeur "non identifié".
 
-Once you are done using Juka, run the following command:
+Une fois que vous avez fini d'utiliser Juka, exécutez la commande suivante :
 
 ```jsx
 sudo spctl --master-enable
 ```
-This will re-enable the "gatekeeper".
+Cela réactivera le "gardien".
 
-## Alternative Workaround (Not recommended)
+## Solution de contournement alternative (non recommandée)
 
-Another way to work around this is click on "apple", and go to "security and preferences".
+Une autre façon de contourner cela est de cliquer sur "pomme", et aller à "sécurité et préférences".
 
-You will get a message stating that Juka is from an unidentified developer.
+Vous recevrez un message indiquant que Juka provient d'un développeur non identifié.
 
 Cliquez sur "Ouvrir"
 
