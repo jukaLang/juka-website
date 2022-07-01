@@ -2,27 +2,52 @@
 sidebar_position: 50
 ---
 
-# Troubleshooting Macintosh
+# Solución de problemas Macintosh
 
-When you first run Juka on Macintosh, you might get the following error: ![step1](/img/macintosh/cannotbeopened.png)
+Because we currently do not sign Juka programming language, you might get an error when you first run Juka on Macintosh.
 
-This occurs because Juka application is build but not signed.
+Cuando ejecutes Juka por primera vez en Macintosh, puedes obtener el siguiente error: ![step1](/img/macintosh/cannotbeopened.png)
 
-To work around this, click on "apple", and go to "security and preferences".
+We recommend that you follow instructions outlined: https://www.youtube.com/watch?v=6lD0wsg55WU
 
+You can also run the following commands:
 
-Click on "Open Anyway"
+Assuming that Juka is stored on Desktop
+```jsx
+cd ~/Desktop
+cd Juka_MacOS
+chmod +x ./Juka
+sudo spctl --master-disable
+./Juka
+```
 
-NOTE: you might need to click the "lock" to make changes
+This will disable the "gatekeeper" application allowing you to run Juka even though the application came from "unidentified" developer.
 
-![step2](/img/macintosh/openanyway.png)
+Once you are done using Juka, run the following command:
 
-Keep the window open and keep re-running Juka until all the security errors go away
+```jsx
+sudo spctl --master-enable
+```
+This will re-enable the "gatekeeper".
 
-![step3](/img/macintosh/openanywaylibhost.png)
+## Alternative Workaround (Not recommended)
 
-Eventually, you will be able to run Juka and see the following screen:
+Another way to work around this is click on "apple", and go to "security and preferences".
 
-![step3](/img/macintosh/final.png)
+You will get a message stating that Juka is from an unidentified developer.
+
+Haga clic en "Abrir de todos modos"
+
+NOTA: puede que necesites hacer clic en el "bloqueo" para hacer cambios
+
+![paso2](/img/macintosh/openanyway.png)
+
+Mantén la ventana abierta y mantén la re-ejecución de Juka hasta que todos los errores de seguridad desaparezcan
+
+![paso3](/img/macintosh/openanywaylibhost.png)
+
+Al final, podrás ejecutar Juka y ver la siguiente pantalla:
+
+![paso3](/img/macintosh/final.png)
 
 
