@@ -4,15 +4,15 @@ sidebar_position: 50
 
 # Solución de problemas Macintosh
 
-Because we currently do not sign Juka programming language, you might get an error when you first run Juka on Macintosh.
+Debido a que actualmente no firmamos el lenguaje de programación de Juka, puede que obtenga un error cuando ejecute Juka por primera vez en Macintosh.
 
-Cuando ejecutes Juka por primera vez en Macintosh, puedes obtener el siguiente error: ![step1](/img/macintosh/cannotbeopened.png)
+Cuando ejecutes Juka por primera vez en Macintosh, puedes obtener el siguiente error: ![paso1](/img/macintosh/cannotbeopened.png)
 
-We recommend that you follow instructions outlined: https://www.youtube.com/watch?v=6lD0wsg55WU
+Le recomendamos que siga las instrucciones descritas: https://www.youtube.com/watch?v=6lD0wsg55WU
 
-You can also run the following commands:
+También puedes ejecutar los siguientes comandos:
 
-Assuming that Juka is stored on Desktop
+Suponiendo que Juka está almacenado en el escritorio
 ```jsx
 cd ~/Desktop
 cd Juka_MacOS
@@ -21,20 +21,20 @@ sudo spctl --master-disable
 ./Juka
 ```
 
-This will disable the "gatekeeper" application allowing you to run Juka even though the application came from "unidentified" developer.
+Esto deshabilitará la aplicación "gatekeeper" que le permitirá ejecutar Juka a pesar de que la aplicación vino del desarrollador "sin identificación".
 
-Once you are done using Juka, run the following command:
+Una vez que hayas terminado de usar Juka, ejecuta el siguiente comando:
 
 ```jsx
 sudo spctl --master-enable
 ```
-This will re-enable the "gatekeeper".
+Esto volverá a habilitar el "gatekeeper".
 
-## Alternative Workaround (Not recommended)
+## Alternative Workaround (No recomendado)
 
-Another way to work around this is click on "apple", and go to "security and preferences".
+Otra forma de solucionar esto es hacer clic en "manzana", y ir a "seguridad y preferencias".
 
-You will get a message stating that Juka is from an unidentified developer.
+Recibirás un mensaje indicando que Juka es de un desarrollador no identificado.
 
 Haga clic en "Abrir de todos modos"
 
