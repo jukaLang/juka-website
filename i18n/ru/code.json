@@ -248,6 +248,10 @@
     "message": "Блог последних сообщений навигации",
     "description": "The ARIA label for recent posts in the blog sidebar"
   },
+  "theme.CodeBlock.wordWrapToggle": {
+    "message": "Переключить перенос слов",
+    "description": "The title attribute for toggle word wrapping button of code block lines"
+  },
   "theme.CodeBlock.copied": {
     "message": "Скопировано",
     "description": "The copied button label on code blocks"
@@ -259,10 +263,6 @@
   "theme.CodeBlock.copy": {
     "message": "Копировать",
     "description": "The copy button label on code blocks"
-  },
-  "theme.CodeBlock.wordWrapToggle": {
-    "message": "Переключить перенос слов",
-    "description": "The title attribute for toggle word wrapping button of code block lines"
   },
   "theme.DocSidebarItem.toggleCollapsedCategoryAriaLabel": {
     "message": "Переключить свертываемую категорию боковой панели '{label}'",
