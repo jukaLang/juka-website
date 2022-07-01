@@ -50,7 +50,7 @@ const FeatureList = [
         faIcon: {faUserFriends}.faUserFriends,
         description: (
             <>
-                <Translate>Join our ever growing Juka community</Translate> (<a target="_blank" href="https://discord.com/invite/7BNpwKH8JC/">link</a>). <Translate>We use "Discord" for managing the community as it provides an easy way to stay connected. In order to join the community, you should click our invitation link and register a Discord account. If you already have an account, just join the "JukaLang" group. It's public and anyone can join!</Translate>
+                <Translate>Join our ever growing Juka community</Translate> (<a target="_blank" href="https://discord.gg/MsKWsErzfp">link</a>). <Translate>We use "Discord" for managing the community as it provides an easy way to stay connected. In order to join the community, you should click our invitation link and register a Discord account. If you already have an account, just join the "JukaLang" group. It's public and anyone can join!</Translate>
             </>
         ),
     },
@@ -73,7 +73,7 @@ const FeatureList = [
                 Instagram: <a target="_blank" href="https://www.instagram.com/jukalanguage/">@jukalanguage</a><br/>
                 Twitter: <a target="_blank" href="https://twitter.com/jukaLang">@jukaLang</a><br/>
                 YouTube: <a target="_blank" href="https://www.youtube.com/channel/UCRkKqD0fnuVAJLJe9p4ZiKQ">Juka Programming Language</a><br/>
-                Discord: <a target="_blank" href="https://discord.com/invite/7BNpwKH8JC/">7BNpwKH8JC</a>
+                Discord: <a target="_blank" href="https://discord.gg/MsKWsErzfp">Discord</a>
             </>
         ),
     },

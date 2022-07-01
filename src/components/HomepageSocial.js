@@ -24,7 +24,7 @@ const SocialList = [
     },
     {
         faIcon: {faDiscord}.faDiscord,
-        url: "https://discord.com/invite/7BNpwKH8JC/"
+        url: "https://discord.gg/MsKWsErzfp"
     },
 ];
 

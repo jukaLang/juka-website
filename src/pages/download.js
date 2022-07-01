@@ -4,7 +4,7 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from "./download.module.css";
 import clsx from "clsx";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faServer, faFileCode, faCode} from '@fortawesome/free-solid-svg-icons'
+import { faServer, faFileCode, faCode,faPuzzlePiece} from '@fortawesome/free-solid-svg-icons'
 import { faWindows, faApple, faLinux, faFreebsd, faRaspberryPi,faPython,faAndroid,faAppStoreIos} from '@fortawesome/free-brands-svg-icons'
 import BrowserOnly from "@docusaurus/BrowserOnly";
 
@@ -159,6 +159,17 @@ function DownloadHeader() {
                     <br/>
                     Repo Download: <a href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/Juka_Compiler_dll_"+version+".zip"} >Download</a><br/>
                     Download from PyPi:  <code>pip install juka_kernel</code>
+                </>
+            ),
+        },
+        {
+            title: "Web Assembly",
+            faIcon: {faPuzzlePiece}.faPuzzlePiece,
+            description: (
+                <>
+                    <b>Web Assembly:</b><br/>
+                    <br/>
+                    Build Web Assembly version of Juka: <a href={"https://github.com/jukaLang/juka-webassembly"} >Repo</a><br/>
                 </>
             ),
         },

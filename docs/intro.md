@@ -9,7 +9,7 @@ Juka's main goal is to be a universal programming language that can run on any p
 
 Juka's philosophy is code once, run everywhere.
 
-![jukaRun](https://user-images.githubusercontent.com/11934545/171545920-02493491-fa44-40d6-9a5b-46b2f90f8301.gif)
+![jukaRun](https://user-images.githubusercontent.com/11934545/176820860-9ff1eff4-cbde-4e90-a56f-b0826f4760a5.gif)
 
 __Current Supported Device:__
 - Windows (x64)
@@ -22,6 +22,7 @@ __Current Supported Device:__
 - Azure (Microsoft Azure Function)
 - HTTPS/API (JukaAPI server)
 - Docker (JukaAPI)
+- Web Assembly (CDN/Browser/HTML server)
 
 __Coming Soon:__
 - Android App

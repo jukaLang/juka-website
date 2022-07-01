@@ -9,16 +9,19 @@ function LearnHeader() {
         <header>
             <div className={styles.learn}>
 
-                <div><a href="/quiz">Think you know Juka? Take a Quiz!</a></div><br/>
-                <div><a href="/tryonline">Try Juka Online</a></div>
+                <a href="/quiz">Think you know Juka? Take a Quiz!</a><br/><br/>
+                <a href="/tryonline">Try Juka Online</a><br/><br/>
 
-                <br/><br/>
+
                 <h2>Videos</h2>
                 <div className="container">
                     <div className="row">
                         <div className={clsx('col col--6')}>
-                            <h4>Coming Soon</h4>
-                            <iframe></iframe>
+                            <h4>Downloading and Running Juka on MacOS</h4>
+                            <iframe width="100%" height="315" src="https://www.youtube.com/embed/6lD0wsg55WU"
+                                    title="YouTube video player" frameBorder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowFullScreen></iframe>
 
                         </div>
                         <div className={clsx('col col--6')}>

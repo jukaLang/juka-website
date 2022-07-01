@@ -2,7 +2,7 @@
 [![Crowdin](https://badges.crowdin.net/juka-website/localized.svg)](https://crowdin.com/project/juka-website)
 
 [![Twitter](https://img.shields.io/twitter/follow/jukaLang.svg?style=social)](https://twitter.com/jukaLang)
-[![Discord](https://img.shields.io/discord/975787212954275910)](https://discord.com/invite/7BNpwKH8JC/)
+[![Discord](https://img.shields.io/discord/975787212954275910)](https://discord.gg/MsKWsErzfp)
 
 
 **Official Website:** https://jukalang.com
@@ -15,12 +15,14 @@
 
 **Mirror 3:** https://juka.netlify.app
 
-If you would like to add a mirror, add it to this (README.md) file
+If you would like to add a mirror, add your link to this file (README.md) and create a pull request
+
+Use the following services to test your changes for Juka website before creating a pull request:
 
 [![Netlify Deploy](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/jukaLang/juka-website)
 [![Vercel Deploy](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/jukaLang/juka-website)
 
-![website](https://user-images.githubusercontent.com/11934545/171547205-35aec235-09c6-4d08-9e52-b5cde5bc6bb9.png)
+![website](https://user-images.githubusercontent.com/11934545/176821804-219938b9-d8cb-4cbd-a429-13eb6648b75e.png)
 
 # Juka Programming Language
 
