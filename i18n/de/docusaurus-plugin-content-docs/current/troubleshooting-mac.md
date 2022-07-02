@@ -4,37 +4,37 @@ sidebar_position: 50
 
 # Fehlerbehebung Macintosh
 
-Because we currently do not sign Juka programming language, you might get an error when you first run Juka on Macintosh.
+Weil wir derzeit Juka Programmiersprache nicht unterschreiben, wirst du möglicherweise einen Fehler bekommen, wenn du Juka auf Macintosh ausführst.
 
-When you first run Juka on Macintosh, you might get the following error: ![step1](/img/macintosh/cannotbeopened.png)
+When you first run Juka on Macintosh, you might get the following error: ![Schritt1](/img/macintosh/cannotbeopened.png)
 
-We recommend that you follow instructions outlined: https://www.youtube.com/watch?v=6lD0wsg55WU
+Wir empfehlen, dass du den umrissenen Anweisungen folgst: https://www.youtube.com/watch?v=6lD0wsg55WU
 
-You can also run the following commands:
+Sie können auch folgende Befehle ausführen:
 
-Assuming that Juka is stored on Desktop
+Angenommen, Juka ist auf dem Desktop gespeichert
 ```jsx
 cd ~/Desktop
 cd Juka_MacOS
 chmod +x ./Juka
-sudo spctl --master-disable
+sudo spctl --master-deaktivieren
 ./Juka
 ```
 
-This will disable the "gatekeeper" application allowing you to run Juka even though the application came from "unidentified" developer.
+Dadurch wird die "Gatekeeper"-Anwendung deaktiviert, die es Ihnen erlaubt, Juka zu starten, obwohl die Anwendung von "nicht identifizierten" Entwicklern stammt.
 
-Once you are done using Juka, run the following command:
+Wenn du Juka benutzt hast, führe folgenden Befehl aus:
 
 ```jsx
 sudo spctl --master-enable
 ```
-This will re-enable the "gatekeeper".
+Dadurch wird der "Gatekeeper" wieder aktiviert.
 
-## Alternative Workaround (Not recommended)
+## Alternative Problemumgehung (Nicht empfohlen)
 
-Another way to work around this is click on "apple", and go to "security and preferences".
+Eine andere Möglichkeit, dies zu umgehen, ist auf "apple" zu klicken und gehen Sie zu "Sicherheit und Einstellungen".
 
-You will get a message stating that Juka is from an unidentified developer.
+Sie erhalten eine Nachricht, die besagt, dass Juka von einem unbekannten Entwickler stammt.
 
 Klicken Sie auf "Trotzdem öffnen"
 

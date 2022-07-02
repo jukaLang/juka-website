@@ -22,7 +22,7 @@ __Aktuelles unterstütztes Gerät:__
 - Azure (Microsoft Azure Function)
 - HTTPS/API (JukaAPI Server)
 - Docker (JukaAPI)
-- Web Assembly (CDN/Browser/HTML server)
+- Web Assembly (CDN/Browser/HTML-Server)
 
 __Demnächst:__
 - Android App

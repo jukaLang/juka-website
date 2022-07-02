@@ -22,7 +22,7 @@ __Périphérique actuel pris en charge :__
 - Azure (Microsoft Azure Function)
 - HTTPS/API (serveur JukaAPI)
 - Docker (JukaAPI)
-- Web Assembly (CDN/Browser/HTML server)
+- Assemblage Web (CDN/Navigateur/Serveur HTML)
 
 __Bientôt disponible:__
 - Android App

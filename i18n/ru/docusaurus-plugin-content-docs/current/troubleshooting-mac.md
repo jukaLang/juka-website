@@ -4,37 +4,37 @@ sidebar_position: 50
 
 # Устранение неисправностей Macintosh
 
-Because we currently do not sign Juka programming language, you might get an error when you first run Juka on Macintosh.
+Поскольку в настоящее время мы не подписываем язык программирования Juka, вы можете получить ошибку, когда сначала вы запустите Juka на Macintosh.
 
-При первом запуске Juka на Macintosh, вы можете получить следующую ошибку: ![step1](/img/macintosh/cannotbeopened.png)
+При первом запуске Juka на Macintosh, вы можете получить следующую ошибку: ![шаг 1](/img/macintosh/cannotbeopened.png)
 
-We recommend that you follow instructions outlined: https://www.youtube.com/watch?v=6lD0wsg55WU
+Мы рекомендуем вам следовать приведенным инструкциям: https://www.youtube.com/watch?v=6lD0wsg55WU
 
-You can also run the following commands:
+Вы также можете выполнить следующие команды:
 
-Assuming that Juka is stored on Desktop
+Предположим, что Juka хранится на рабочем столе
 ```jsx
 cd ~/Desktop
 cd Juka_MacOS
 chmod +x ./Juka
-sudo spctl --master-disable
+sudo spctl --master-отключить
 ./Juka
 ```
 
-This will disable the "gatekeeper" application allowing you to run Juka even though the application came from "unidentified" developer.
+Это отключит приложение "gatekeeper", позволяющее запускать Juka даже несмотря на то, что приложение от разработчика "не определено".
 
-Once you are done using Juka, run the following command:
+Как только вы закончите с помощью Juka, выполните следующую команду:
 
 ```jsx
-sudo spctl --master-enable
+sudo spctl --master-включить
 ```
-This will re-enable the "gatekeeper".
+Это позволит повторно включить "шлюз".
 
-## Alternative Workaround (Not recommended)
+## Альтернативный обход (не рекомендуется)
 
-Another way to work around this is click on "apple", and go to "security and preferences".
+Другим способом обойти это является нажатие на "apple" и переход к "security and preferences".
 
-You will get a message stating that Juka is from an unidentified developer.
+Вы получите сообщение о том, что Джука от неопознанного разработчика.
 
 Нажмите "Открыть в любом случае"
 
