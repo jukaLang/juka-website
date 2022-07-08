@@ -9,9 +9,9 @@ Debido a que actualmente no firmamos el lenguaje de programación de Juka, puede
 Cuando ejecutes Juka por primera vez en Macintosh, puedes obtener el siguiente error: ![paso1](/img/macintosh/cannotbeopened.png)
 
 
-## Workaround
+## Solución
 
-Click on "apple", and go to "security and preferences".
+Haga clic en "manzana", y vaya a "seguridad y preferencias".
 
 Recibirás un mensaje indicando que Juka es de un desarrollador no identificado.
 
@@ -22,11 +22,11 @@ NOTA: puede que necesites hacer clic en el "bloqueo" para hacer cambios
 ![paso2](/img/macintosh/openanyway.png)
 
 
-You should now be able to run Juka and see the following screen:
+Ahora deberías poder ejecutar Juka y ver la siguiente pantalla:
 
 ![paso3](/img/macintosh/final.png)
 
-## Alternative Workaround
+## Alteración alternativa
 
 Suponiendo que Juka está almacenado en el escritorio
 ```jsx
