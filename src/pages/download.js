@@ -20,7 +20,7 @@ function DownloadHeader() {
         }
     }
 
-    const [version, setVersion] = useState("0.0.73");
+    const [version, setVersion] = useState("0.0.90");
     setV();
 
     function BigDownloadList() {
@@ -145,8 +145,8 @@ function DownloadHeader() {
                 <>
                     <b>C# .dll Version: {version}:</b><br/>
                     <br/>
+                    NuGet: Search for JukaCompiler or run <code>Install-Package JukaCompiler -version {version}</code><br/>
                     .dll: <a href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/Juka_Compiler_dll_"+version+".zip"} >Download version {version}</a><br/>
-                    NuGet: Search for JukaCompiler or run <code>Install-Package JukaCompiler -version {version}</code>
                 </>
             ),
         },
@@ -157,8 +157,8 @@ function DownloadHeader() {
                 <>
                     <b>Jupyter Kernel:</b><br/>
                     <br/>
-                    Repo Download: <a href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/Juka_Compiler_dll_"+version+".zip"} >Download</a><br/>
-                    Download from PyPi:  <code>pip install juka_kernel</code>
+                    Download from PyPi:  <code>pip install juka_kernel</code><br/>
+                    Repo Download: <a href={"https://github.com/jukaLang/juka_kenel"} target={"_blank"}>Download</a><br/>
                 </>
             ),
         },
@@ -169,7 +169,8 @@ function DownloadHeader() {
                 <>
                     <b>Web Assembly:</b><br/>
                     <br/>
-                    Build Web Assembly version of Juka: <a href={"https://github.com/jukaLang/juka-webassembly"} >Repo</a><br/>
+                    Latest:  <a href={"https://github.com/jukaLang/juka-webassembly/releases/download/"+version+"/Juka_WebAssembly_"+version+".tar.gz"} >Download version {version}</a><br/>
+                    Repo Download: <a href={"https://github.com/jukaLang/juka-webassembly"} target={"_blank"} >Download</a><br/>
                 </>
             ),
         },
