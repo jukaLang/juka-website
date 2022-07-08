@@ -20,7 +20,7 @@ function DownloadHeader() {
         }
     }
 
-    const [version, setVersion] = useState("0.0.90");
+    const [version, setVersion] = useState("0.0.93");
     setV();
 
     function BigDownloadList() {
@@ -42,7 +42,7 @@ function DownloadHeader() {
             faIcon: {faWindows}.faWindows,
             description: (
                 <>
-                    <b>Windows Version: {version}:</b><br/>
+                    <b>Windows Version {version}:</b><br/>
                     <br/>
                     Juka (x64): <a href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/Juka_WindowsX64_"+version+".zip"} >Download</a><br/>
                     Juka API (x64): <a href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/JukaAPI_WindowsX64_"+version+".zip"} >Download</a><br/><br/>
@@ -51,7 +51,7 @@ function DownloadHeader() {
                     Juka API (x86-32bit):  <a href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/JukaAPI_WindowsX86_"+version+".zip"} >Download</a><br/><br/>
 
                     Juka (ARM64): <a href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/Juka_WindowsARM64_"+version+".zip"} >Download</a><br/>
-                    Juka API (ARM64): <a href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/JukaAPI_WindowsARM64_"+version+".zip"} >Download</a>
+                    Juka API (ARM64): <a href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/JukaAPI_WindowsARM64_"+version+".zip"} >Download</a><br/>
                 </>
             ),
         },
@@ -60,10 +60,10 @@ function DownloadHeader() {
             faIcon: {faApple}.faApple,
             description: (
                 <>
-                    <b>MacOS Version: {version}:</b><br/>
+                    <b>MacOS Version {version}:</b><br/>
                     <br/>
                     Juka: <a href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/Juka_MacOS_"+version+".zip"} >Download</a><br/>
-                    Juka API: <a href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/JukaAPI_MacOS_"+version+".zip"} >Download</a>
+                    Juka API: <a href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/JukaAPI_MacOS_"+version+".zip"} >Download</a><br/>
                 </>
             ),
         },
@@ -72,10 +72,16 @@ function DownloadHeader() {
             faIcon: {faLinux}.faLinux,
             description: (
                 <>
-                    <b>Linux Version: {version}:</b><br/>
+                    <b>Linux Version {version}:</b><br/>
                     <br/>
-                    Juka: <a href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/Juka_Linux_"+version+".zip"} >Download</a><br/>
-                    Juka API: <a href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/JukaAPI_Linux_"+version+".zip"} >Download</a>
+                    Juka (x64): <a href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/Juka_Linux_"+version+".zip"} >Download</a><br/>
+                    Juka API (x64): <a href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/JukaAPI_Linux_"+version+".zip"} >Download</a><br/><br/>
+
+                    Juka (ARM): <a href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/Juka_LinuxARM_RaspberryPI_"+version+".zip"} >Download</a><br/>
+                    Juka API (ARM): <a href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/JukaAPI_LinuxARM_RaspberryPI_"+version+".zip"} >Download</a><br/><br/>
+
+                    Juka (ARM64): <a href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/Juka_LinuxARM64_"+version+".zip"} >Download</a><br/>
+                    Juka API (ARM64): <a href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/Juka_LinuxARM64_"+version+".zip"} >Download</a><br/>
                 </>
             ),
         },
@@ -84,10 +90,10 @@ function DownloadHeader() {
             faIcon: {faFreebsd}.faFreebsd,
             description: (
                 <>
-                    <b>FreeBSD Version: {version}:</b><br/>
+                    <b>FreeBSD Version {version}:</b><br/>
                     <br/>
                     Juka: <a href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/Juka_FreeBSD_"+version+".tar.gz"} >Download</a><br/>
-                    Juka API: <a href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/JukaAPI_FreeBSD_"+version+".tar.gz"} >Download</a>
+                    Juka API: <a href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/JukaAPI_FreeBSD_"+version+".tar.gz"} >Download</a><br/>
                 </>
             ),
         },
@@ -96,7 +102,7 @@ function DownloadHeader() {
             faIcon: {faAppStoreIos}.faAppStoreIos,
             description: (
                 <>
-                    <b>iOS Version: {version}:</b><br/>
+                    <b>iOS Version {version}:</b><br/>
                     <br/>
                     <i>In active development, coming soon!</i>
                 </>
@@ -107,7 +113,7 @@ function DownloadHeader() {
             faIcon: {faAndroid}.faAndroid,
             description: (
                 <>
-                    <b>Android Version: {version}:</b><br/>
+                    <b>Android Version {version}:</b><br/>
                     <br/>
                     <i>In active development, coming soon!</i>
                 </>
@@ -119,7 +125,7 @@ function DownloadHeader() {
             faIcon: {faServer}.faServer,
             description: (
                 <>
-                    <b>Azure Version: {version}:</b><br/>
+                    <b>Azure Version {version}:</b><br/>
                     <br/>
                     Juka: <a href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/Juka_Azure_Function_"+version+".zip"}>Download</a><br/>
                 </>
@@ -131,7 +137,7 @@ function DownloadHeader() {
             faIcon: {faRaspberryPi}.faRaspberryPi,
             description: (
                 <>
-                    <b>RespberryPi Version: {version}:</b><br/>
+                    <b>RespberryPi Version {version}:</b><br/>
                     <br/>
                     Juka: <a href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/Juka_LinuxARM_RaspberryPI_"+version+".zip"} >Download</a><br/>
                     Juka API: <a href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/JukaAPI_LinuxARM_RaspberryPI_"+version+".zip"} >Download</a>
@@ -143,10 +149,10 @@ function DownloadHeader() {
             faIcon: {faFileCode}.faFileCode,
             description: (
                 <>
-                    <b>C# .dll Version: {version}:</b><br/>
+                    <b>C# .dll Version {version}:</b><br/>
                     <br/>
                     NuGet: Search for JukaCompiler or run <code>Install-Package JukaCompiler -version {version}</code><br/>
-                    .dll: <a href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/Juka_Compiler_dll_"+version+".zip"} >Download version {version}</a><br/>
+                    .dll lib: <a href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/Juka_Compiler_dll_"+version+".zip"} >Download</a><br/>
                 </>
             ),
         },
@@ -167,7 +173,7 @@ function DownloadHeader() {
             faIcon: {faPuzzlePiece}.faPuzzlePiece,
             description: (
                 <>
-                    <b>Web Assembly:</b><br/>
+                    <b>Web Assembly {version}:</b><br/>
                     <br/>
                     Latest:  <a href={"https://github.com/jukaLang/juka-webassembly/releases/download/"+version+"/Juka_WebAssembly_"+version+".tar.gz"} >Download version {version}</a><br/>
                     Repo Download: <a href={"https://github.com/jukaLang/juka-webassembly"} target={"_blank"} >Download</a><br/>
@@ -179,10 +185,10 @@ function DownloadHeader() {
             faIcon: {faCode}.faCode,
             description: (
                 <>
-                    <b>Current Version: {version}:</b><br/>
+                    <b>Source Version {version}:</b><br/>
                     <br/>
-                    Current: <a href={"https://github.com/jukaLang/Juka/archive/refs/tags/"+version+".zip"}>Download</a><br/>
-                    Other Versions: <a href={"https://github.com/jukaLang/Juka"} target={"_blank"}>Build</a>
+                    Latest: <a href={"https://github.com/jukaLang/Juka/archive/refs/tags/"+version+".zip"}>Download</a><br/>
+                    Other Versions: <a href={"https://github.com/jukaLang/Juka"} target={"_blank"}>Build</a><br/>
                 </>
             ),
         },
@@ -236,10 +242,19 @@ function DownloadHeader() {
                                     <OSTag {...userOSEntry} />
                                 </div>
                             </div>
-                        </section></>) : (<h3>
+                        </section></>) : (<>
 
-                        Your current OS doesn't seem to be supported by Juka right now. Download other versions of Juka below
-                        </h3>)
+                        <h3>Your current OS doesn't seem to be supported by Juka right now. Try using the webassembly version:</h3>
+
+                            <section className={styles.features}>
+                                <div className="container">
+                                    <div className="row">
+                                        <div className={clsx('col col--4')} />
+                                        <OSTag {...OSList[10]} />
+                                    </div>
+                                </div>
+                            </section>
+                        </>)
                 }
                 }
             </BrowserOnly>

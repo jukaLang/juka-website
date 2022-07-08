@@ -11,10 +11,27 @@ When you first run Juka on Macintosh,
 you might get the following error:
 ![step1](/img/macintosh/cannotbeopened.png)
 
-We recommend that you follow instructions outlined:
-https://www.youtube.com/watch?v=6lD0wsg55WU
 
-You can also run the following commands:
+## Workaround
+
+Click on "apple", and go to "security
+and preferences".
+
+You will get a message stating that Juka is from an unidentified developer.
+
+Click on "Open Anyway"
+
+NOTE: you might need to click the "lock" to make changes
+
+![step2](/img/macintosh/openanyway.png)
+
+
+You should now be able to run Juka and
+see the following screen:
+
+![step3](/img/macintosh/final.png)
+
+## Alternative Workaround
 
 Assuming that Juka is stored on Desktop
 ```jsx
@@ -35,28 +52,5 @@ run the following command:
 sudo spctl --master-enable
 ```
 This will re-enable the "gatekeeper".
-
-## Alternative Workaround (Not recommended)
-
-Another way to work around this is click on "apple", and go to "security
-and preferences".
-
-You will get a message stating that Juka is from an unidentified developer.
-
-Click on "Open Anyway"
-
-NOTE: you might need to click the "lock" to make changes
-
-![step2](/img/macintosh/openanyway.png)
-
-Keep the window open and keep re-running Juka 
-until all the security errors go away
-
-![step3](/img/macintosh/openanywaylibhost.png)
-
-Eventually, you will be able to run Juka and
-see the following screen:
-
-![step3](/img/macintosh/final.png)
 
 
