@@ -8,9 +8,25 @@ Parce que nous ne signons pas actuellement le langage de programmation Juka, vou
 
 Lorsque vous exécutez Juka pour la première fois sur Macintosh, vous pourriez avoir l'erreur suivante : ![Etape 1](/img/macintosh/cannotbeopened.png)
 
-Nous vous recommandons de suivre les instructions suivantes : https://www.youtube.com/watch?v=6lD0wsg55WU
 
-Vous pouvez également exécuter les commandes suivantes :
+## Workaround
+
+Click on "apple", and go to "security and preferences".
+
+Vous recevrez un message indiquant que Juka provient d'un développeur non identifié.
+
+Cliquez sur "Ouvrir"
+
+NOTE : vous pourriez avoir besoin de cliquer sur le "Verrouiller" pour effectuer des modifications
+
+![Etape 2](/img/macintosh/openanyway.png)
+
+
+You should now be able to run Juka and see the following screen:
+
+![Etape 3](/img/macintosh/final.png)
+
+## Alternative Workaround
 
 En supposant que Juka soit stocké sur le bureau
 ```jsx
@@ -29,25 +45,5 @@ Une fois que vous avez fini d'utiliser Juka, exécutez la commande suivante :
 sudo spctl --master-enable
 ```
 Cela réactivera le "gardien".
-
-## Solution de contournement alternative (non recommandée)
-
-Une autre façon de contourner cela est de cliquer sur "pomme", et aller à "sécurité et préférences".
-
-Vous recevrez un message indiquant que Juka provient d'un développeur non identifié.
-
-Cliquez sur "Ouvrir"
-
-NOTE : vous pourriez avoir besoin de cliquer sur le "Verrouiller" pour effectuer des modifications
-
-![Etape 2](/img/macintosh/openanyway.png)
-
-Gardez la fenêtre ouverte et continuez à relancer Juka jusqu'à ce que toutes les erreurs de sécurité disparaissent
-
-![Etape 3](/img/macintosh/openanywaylibhost.png)
-
-Finalement, vous pourrez exécuter Juka et voir l'écran suivant :
-
-![Etape 3](/img/macintosh/final.png)
 
 

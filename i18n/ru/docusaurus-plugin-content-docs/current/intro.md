@@ -9,7 +9,7 @@ slug: /
 
 Философия Джуки это код один раз, запускается везде.
 
-![jukaRun](https://user-images.githubusercontent.com/11934545/176820860-9ff1eff4-cbde-4e90-a56f-b0826f4760a5.gif)
+![jukaRun](/img/latestjuka.gif)
 
 __Поддерживаемое устройство:__
 - Windows (x64)
