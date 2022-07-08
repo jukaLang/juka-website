@@ -9,9 +9,9 @@ sidebar_position: 50
 При первом запуске Juka на Macintosh, вы можете получить следующую ошибку: ![шаг 1](/img/macintosh/cannotbeopened.png)
 
 
-## Workaround
+## Обработка
 
-Click on "apple", and go to "security and preferences".
+Нажмите на "apple" и перейдите в "security and preferences".
 
 Вы получите сообщение о том, что Джука от неопознанного разработчика.
 
@@ -22,11 +22,11 @@ Click on "apple", and go to "security and preferences".
 ![Шаг 2](/img/macintosh/openanyway.png)
 
 
-You should now be able to run Juka and see the following screen:
+Теперь вы можете запускать Juka и увидеть следующий экран:
 
 ![Шаг 3](/img/macintosh/final.png)
 
-## Alternative Workaround
+## Альтернативный обход
 
 Предположим, что Juka хранится на рабочем столе
 ```jsx
