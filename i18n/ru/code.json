@@ -1,4 +1,13 @@
 {
+  "Get Started with Juka": {
+    "message": "Начните с Juka"
+  },
+  "Follow us for news and updates!": {
+    "message": "Следите за новостями и обновлениями!"
+  },
+  "Special Thanks To:": {
+    "message": "Особая благодарность для:"
+  },
   "Run on Any Device": {
     "message": "Запустить на любом устройстве"
   },
@@ -55,15 +64,6 @@
   },
   "Social Media": {
     "message": "Социальные сети"
-  },
-  "Get Started with Juka": {
-    "message": "Начните с Juka"
-  },
-  "Follow us for news and updates!": {
-    "message": "Следите за новостями и обновлениями!"
-  },
-  "Special Thanks To:": {
-    "message": "Особая благодарность для:"
   },
   "theme.ErrorPageContent.title": {
     "message": "Эта страница прервана.",
