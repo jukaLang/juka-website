@@ -11,7 +11,7 @@ When you first run Juka on Macintosh, you might get the following error: ![Schri
 
 ## Workaround
 
-Click on "apple", and go to "security and preferences".
+Klicken Sie auf "apple" und gehen Sie zu "security und Einstellungen".
 
 Sie erhalten eine Nachricht, die besagt, dass Juka von einem unbekannten Entwickler stammt.
 
@@ -22,11 +22,11 @@ HINWEIS: Sie müssen eventuell auf "Sperren" klicken, um Änderungen vorzunehmen
 ![Schritt2](/img/macintosh/openanyway.png)
 
 
-You should now be able to run Juka and see the following screen:
+Du solltest jetzt in der Lage sein, Juka und den folgenden Bildschirm zu sehen:
 
 ![stufen3](/img/macintosh/final.png)
 
-## Alternative Workaround
+## Alternativer Workaround
 
 Angenommen, Juka ist auf dem Desktop gespeichert
 ```jsx
