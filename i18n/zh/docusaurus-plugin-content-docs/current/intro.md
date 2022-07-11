@@ -12,23 +12,24 @@ Juka的哲学是一次代码，遍布任何地方。
 ![jukaRun](/img/latestjuka.gif)
 
 __当前支持的设备：__
-- Windows (x64)
-- Windows (x86 32位)
-- Windows ARM (arm x64)
+- Windows (x86/x64)
+- Windows ARM (ARM64)
 - Linux (CentOS, Debian, Fedora, Ubuntu and derivatives)
-- Linux ARM (Linux Distributions which 运行 ARM ，例如 Raspberry Pi Model 2+)
+- Linux ARM (ARM64 and ARM32) (Linux Distributions that run ARM e.g. Raspberry Pi Model 2+)
 - MacOS (macOS 10.12+)
 - FreeBSD/UNIX (FreeBSD 11+)
 - Azure (Microsoft Azure Function)
-- HTTPS/API (JukaAPI 服务器)
+- HTTPS/API (JukaAPI server)
 - Docker (JukaAPI)
-- Web Assembly(CDN/Browser/HTML 服务器)
+- [Web Assembly (CDN/Browser/HTML server)](https://github.com/jukaLang/juka-webassembly)
+- [Jupyter via juka-kernel](https://github.com/jukaLang/juka_kernel)
 
 __即将到来：__
+- JukaOS
 - Android App
 - AndroidTV App
-- iOS 应用程序 (iPhone/iPad)
-- MacOS 应用程序
+- iOS App (iPhone/iPad)
+- MacOS App
 - Windows App (Windows 10+)
 
 __潜在的未来支持：__

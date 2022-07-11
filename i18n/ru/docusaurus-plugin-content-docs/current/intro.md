@@ -12,24 +12,25 @@ slug: /
 ![jukaRun](/img/latestjuka.gif)
 
 __Поддерживаемое устройство:__
-- Windows (x64)
-- Windows (x86 32-бит)
-- Windows ARM (рука x64)
-- Linux (CentOS, Debian, Fedora, Ubuntu и derivatives)
-- Linux ARM (Linux Distributions под управлением ARM, например Raspberry Pi Model 2+)
+- Windows (x86/x64)
+- Windows ARM (ARM64)
+- Linux (CentOS, Debian, Fedora, Ubuntu and derivatives)
+- Linux ARM (ARM64 and ARM32) (Linux Distributions that run ARM e.g. Raspberry Pi Model 2+)
 - MacOS (macOS 10.12+)
 - FreeBSD/UNIX (FreeBSD 11+)
 - Azure (Microsoft Azure Function)
-- HTTPS/API (JukaAPI сервер)
-- Докер (JukaAPI)
-- Сборка (CDN/браузер/HTML сервер)
+- HTTPS/API (JukaAPI server)
+- Docker (JukaAPI)
+- [Web Assembly (CDN/Browser/HTML server)](https://github.com/jukaLang/juka-webassembly)
+- [Jupyter via juka-kernel](https://github.com/jukaLang/juka_kernel)
 
 __Скоро:__
+- JukaOS
 - Android App
 - AndroidTV App
-- iOS приложение (iPhone/iPad)
-- Приложение MacOS
-- Приложение Windows (Windows 10+)
+- iOS App (iPhone/iPad)
+- MacOS App
+- Windows App (Windows 10+)
 
 __Потенциальная дальнейшая поддержка:__
 - AWS (Amazon Web Service)

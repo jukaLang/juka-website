@@ -12,24 +12,25 @@ La filosofía de Juka es código una vez, corre por todas partes.
 ![jukaRun](/img/latestjuka.gif)
 
 __Dispositivo soportado:__
-- Ventanas (x64)
-- Windows (x86 32 bits)
-- ARM de Windows (arm x64)
-- Linux (CentOS, Debian, Icelora, Ubuntu y derivadas)
-- Linux ARM (Linux Distributions that run ARM e.g. Raspberry Pi Modelo 2+)
+- Windows (x86/x64)
+- Windows ARM (ARM64)
+- Linux (CentOS, Debian, Fedora, Ubuntu and derivatives)
+- Linux ARM (ARM64 and ARM32) (Linux Distributions that run ARM e.g. Raspberry Pi Model 2+)
 - MacOS (macOS 10.12+)
 - FreeBSD/UNIX (FreeBSD 11+)
 - Azure (Microsoft Azure Function)
-- HTTPS/API (Servidor JukaAPI)
+- HTTPS/API (JukaAPI server)
 - Docker (JukaAPI)
-- Colmena web (CDN/Navegador/Servidor HTML)
+- [Web Assembly (CDN/Browser/HTML server)](https://github.com/jukaLang/juka-webassembly)
+- [Jupyter via juka-kernel](https://github.com/jukaLang/juka_kernel)
 
 __Próximamente:__
+- JukaOS
 - Android App
 - AndroidTV App
 - iOS App (iPhone/iPad)
-- App de MacOS
-- App de Windows (Windows 10+)
+- MacOS App
+- Windows App (Windows 10+)
 
 __Soporte futuro potencial:__
 - AWS (Servicio Web de Amazon)
