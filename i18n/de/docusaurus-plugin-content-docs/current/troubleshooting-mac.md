@@ -8,9 +8,25 @@ Weil wir derzeit Juka Programmiersprache nicht unterschreiben, wirst du möglich
 
 When you first run Juka on Macintosh, you might get the following error: ![Schritt1](/img/macintosh/cannotbeopened.png)
 
-Wir empfehlen, dass du den umrissenen Anweisungen folgst: https://www.youtube.com/watch?v=6lD0wsg55WU
 
-Sie können auch folgende Befehle ausführen:
+## Workaround
+
+Klicken Sie auf "apple" und gehen Sie zu "security und Einstellungen".
+
+Sie erhalten eine Nachricht, die besagt, dass Juka von einem unbekannten Entwickler stammt.
+
+Klicken Sie auf "Trotzdem öffnen"
+
+HINWEIS: Sie müssen eventuell auf "Sperren" klicken, um Änderungen vorzunehmen
+
+![Schritt2](/img/macintosh/openanyway.png)
+
+
+Du solltest jetzt in der Lage sein, Juka und den folgenden Bildschirm zu sehen:
+
+![stufen3](/img/macintosh/final.png)
+
+## Alternativer Workaround
 
 Angenommen, Juka ist auf dem Desktop gespeichert
 ```jsx
@@ -29,25 +45,5 @@ Wenn du Juka benutzt hast, führe folgenden Befehl aus:
 sudo spctl --master-enable
 ```
 Dadurch wird der "Gatekeeper" wieder aktiviert.
-
-## Alternative Problemumgehung (Nicht empfohlen)
-
-Eine andere Möglichkeit, dies zu umgehen, ist auf "apple" zu klicken und gehen Sie zu "Sicherheit und Einstellungen".
-
-Sie erhalten eine Nachricht, die besagt, dass Juka von einem unbekannten Entwickler stammt.
-
-Klicken Sie auf "Trotzdem öffnen"
-
-HINWEIS: Sie müssen eventuell auf "Sperren" klicken, um Änderungen vorzunehmen
-
-![Schritt2](/img/macintosh/openanyway.png)
-
-Öffne das Fenster und führe Juka weiter aus, bis alle Sicherheitsfehler verschwinden
-
-![stufen3](/img/macintosh/openanywaylibhost.png)
-
-Letztendlich können Sie Juka starten und den folgenden Bildschirm sehen:
-
-![stufen3](/img/macintosh/final.png)
 
 

@@ -8,9 +8,25 @@ sidebar_position: 50
 
 当你首次在 Macintosh上运行Juka 时， 你可能会遇到以下错误： ![步骤1](/img/macintosh/cannotbeopened.png)
 
-我们建议您遵循下述指示： https://www.youtube.com/watch?v=6lD0wsg55WU
 
-您也可以运行以下命令：
+## 工作
+
+点击"小程序"，然后转到“安全 和首选项”。
+
+您将收到一条消息，声明Juka来自一个身份不明的开发者。
+
+点击"随时打开"
+
+注意：您可能需要点击“锁定”进行更改
+
+![步骤2](/img/macintosh/openanyway.png)
+
+
+您现在应该能够运行 Juka 并 看下面的屏幕：
+
+![步骤3](/img/macintosh/final.png)
+
+## 替代工作
 
 假定Juka存储在桌面
 ```jsx
@@ -29,25 +45,5 @@ sudo spctl --master-disable
 sudo spctl --master-启用
 ```
 这将重新启用“守门员”。
-
-## 替代处理(不推荐)
-
-围绕这个问题开展工作的另一种方式是点击“小程序”，然后转到“安全 和首选项”。
-
-您将收到一条消息，声明Juka来自一个身份不明的开发者。
-
-点击"随时打开"
-
-注意：您可能需要点击“锁定”进行更改
-
-![步骤2](/img/macintosh/openanyway.png)
-
-保持窗口打开并继续运行 Juka 直到所有安全错误消失。
-
-![步骤3](/img/macintosh/openanywaylibhost.png)
-
-最终，您将能运行Juka， 看下面的屏幕：
-
-![步骤3](/img/macintosh/final.png)
 
 
