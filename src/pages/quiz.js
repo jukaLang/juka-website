@@ -15,6 +15,13 @@ function QuizHeader() {
             ],
         },
         {
+            questionText: 'Does Juka work on FreeBSD?',
+            answerOptions: [
+                { answerText: 'Yes', isCorrect: true },
+                { answerText: 'No', isCorrect: false },
+            ],
+        },
+        {
             questionText: 'How do you output "Hello" in Juka?',
             answerOptions: [
                 { answerText: 'WriteLine("Hello")', isCorrect: false },
@@ -41,15 +48,6 @@ function QuizHeader() {
                 { answerText: 'undefined', isCorrect: false },
             ],
         },
-        {
-            questionText: 'How to run C# code in Juka?"',
-            answerOptions: [
-                { answerText: '#{ C# Code}', isCorrect: true },
-                { answerText: 'C_sharp{}', isCorrect: false },
-                { answerText: 'csharp();', isCorrect: false },
-                { answerText: 'You can\'t run C# in Juka', isCorrect: false },
-            ],
-        }
     ];
 
     const [currentQuestion, setCurrentQuestion] = useState(0);

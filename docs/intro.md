@@ -12,19 +12,20 @@ Juka's philosophy is code once, run everywhere.
 ![jukaRun](/img/latestjuka.gif)
 
 __Current Supported Device:__
-- Windows (x64)
-- Windows (x86 32-bit)
-- Windows ARM (arm x64)
+- Windows (x86/x64)
+- Windows ARM (ARM64)
 - Linux (CentOS, Debian, Fedora, Ubuntu and derivatives)
-- Linux ARM (Linux Distributions that run ARM e.g. Raspberry Pi Model 2+)
+- Linux ARM (ARM64 and ARM32) (Linux Distributions that run ARM e.g. Raspberry Pi Model 2+)
 - MacOS (macOS 10.12+)
 - FreeBSD/UNIX (FreeBSD 11+)
 - Azure (Microsoft Azure Function)
 - HTTPS/API (JukaAPI server)
 - Docker (JukaAPI)
-- Web Assembly (CDN/Browser/HTML server)
+- [Web Assembly (CDN/Browser/HTML server)](https://github.com/jukaLang/juka-webassembly)
+- [Jupyter via juka-kernel](https://github.com/jukaLang/juka_kernel)
 
 __Coming Soon:__
+- JukaOS
 - Android App
 - AndroidTV App
 - iOS App (iPhone/iPad)

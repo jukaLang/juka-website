@@ -17,11 +17,8 @@ function LearnHeader() {
                 <div className="container">
                     <div className="row">
                         <div className={clsx('col col--6')}>
-                            <h4>Downloading and Running Juka on MacOS</h4>
-                            <iframe width="100%" height="315" src="https://www.youtube.com/embed/6lD0wsg55WU"
-                                    title="YouTube video player" frameBorder="0"
-                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                    allowFullScreen></iframe>
+                            <h4>Coming Soon</h4>
+
 
                         </div>
                         <div className={clsx('col col--6')}>
