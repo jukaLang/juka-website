@@ -55,7 +55,7 @@ const config = {
           {
             tagName: 'link',
             rel: 'apple-touch-icon',
-            href: '/img/juka.png',
+            href: '/img/juka_app.png',
           },
           {
             tagName: 'link',
@@ -66,7 +66,7 @@ const config = {
           {
             tagName: 'meta',
             name: 'msapplication-TileImage',
-            content: '/img/juka.png',
+            content: '/img/juka_app.png',
           },
           {
             tagName: 'meta',
