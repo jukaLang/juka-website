@@ -4,7 +4,7 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from "./download.module.css";
 import clsx from "clsx";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faServer, faFileCode, faCode,faPuzzlePiece} from '@fortawesome/free-solid-svg-icons'
+import { faServer, faFileCode, faCode,faPuzzlePiece,faDesktopAlt} from '@fortawesome/free-solid-svg-icons'
 import { faWindows, faApple, faLinux, faFreebsd, faRaspberryPi,faPython,faAndroid,faAppStoreIos} from '@fortawesome/free-brands-svg-icons'
 import BrowserOnly from "@docusaurus/BrowserOnly";
 
@@ -76,6 +76,9 @@ function DownloadHeader() {
                     <br/>
                     Juka (x64): <a href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/Juka_Linux_"+version+".zip"} >Download</a><br/>
                     Juka API (x64): <a href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/JukaAPI_Linux_"+version+".zip"} >Download</a><br/><br/>
+
+                    Juka (x86-32bit):  <a href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/Juka_LinuxX86_"+version+".tar.gz"} >Download</a><br/>
+                    Juka API (x86-32bit):  <a href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/Juka_LinuxX86_"+version+".tar.gz"} >Download</a><br/><br/>
 
                     Juka (ARM): <a href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/Juka_LinuxARM_RaspberryPI_"+version+".zip"} >Download</a><br/>
                     Juka API (ARM): <a href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/JukaAPI_LinuxARM_RaspberryPI_"+version+".zip"} >Download</a><br/><br/>
@@ -183,6 +186,18 @@ function DownloadHeader() {
                     <br/>
                     Latest:  <a href={"https://github.com/jukaLang/juka-webassembly/releases/download/"+version+"/Juka_WebAssembly_"+version+".tar.gz"} >Download version {version}</a><br/>
                     Repo Download: <a href={"https://github.com/jukaLang/juka-webassembly"} target={"_blank"} >Download</a><br/>
+                </>
+            ),
+        },
+        {
+            title: "Virtual Machine Image",
+            faIcon: {faDesktopAlt}.faDesktopAlt,
+            description: (
+                <>
+                    <b>VM Image {version}:</b><br/>
+                    <br/>
+                    VirtualBox Image Download: <a href={"https://github.com/jukaLang/jukaVM/releases/download/0.0.1/JukaVM.ova"} >Download</a><br/>
+                    Download other versions: <a href={"https://github.com/jukaLang/jukaVM/releases"} target={"_blank"} >Download</a><br/>
                 </>
             ),
         },

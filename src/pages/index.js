@@ -66,10 +66,12 @@ function HomepageHeader() {
                       </div>
               </div>
           <br/>
-          <CodeBlock className={`language-jsx ${styles.maincodeblock}`} title="./HelloWorld.juk">{`func main() = {
+          <CodeBlock className={`language-jsx ${styles.maincodeblock}`} title="./HelloWorld.juk">{`func x() = {
     // Print Hello World
-    printLine("Hello World");
-}`}</CodeBlock>
+    string y = "Hello World";
+    printLine(y);
+}
+x();`}</CodeBlock>
 
           <div className={styles.idebtns}>
               <a className={styles.index_runcode} href="/tryonline">Try Juka</a>

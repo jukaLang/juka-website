@@ -16,7 +16,6 @@ function TryEditor() {
     code = code? code : `func x() = {
     string y = "Hello World";
     printLine(y);
-    printLine("It works!");
 }
 x();
 `;
@@ -43,7 +42,7 @@ x();
         setCoutput("");
 
         try {
-            const response = await fetch('https://jukaapi-prod-juka-5ufe4u.mo1.mogenius.io/'+encodeURIComponent(isCvalue), {
+            const response = await fetch('https://api.jukalang.com/'+encodeURIComponent(isCvalue), {
                 method: 'GET',
                 mode:'cors',
             });
