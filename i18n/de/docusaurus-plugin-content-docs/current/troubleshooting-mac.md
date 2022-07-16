@@ -4,14 +4,20 @@ sidebar_position: 50
 
 # Fehlerbehebung Macintosh
 
-Weil wir derzeit Juka Programmiersprache nicht unterschreiben, wirst du möglicherweise einen Fehler bekommen, wenn du Juka auf Macintosh ausführst.
+Because we currently do not sign Juka programming language package, you might get an error when you first run Juka on Macintosh.
 
-When you first run Juka on Macintosh, you might get the following error: ![Schritt1](/img/macintosh/cannotbeopened.png)
+When you first run Juka on Macintosh, you might get the following error:
+
+![step1](/img/macintosh/cannotbeopened.png)
 
 
 ## Workaround
 
-Klicken Sie auf "apple" und gehen Sie zu "security und Einstellungen".
+Double click on Juka
+
+If it tries to open the application in the text editor, then open up a terminal in the same folder and run ./Juka
+
+Click on "Apple" icon in the top left corner and go to "security and preferences".
 
 Sie erhalten eine Nachricht, die besagt, dass Juka von einem unbekannten Entwickler stammt.
 

@@ -1,13 +1,4 @@
 {
-  "Get Started with Juka": {
-    "message": "Comienza con Juka"
-  },
-  "Follow us for news and updates!": {
-    "message": "¡Síguenos para noticias y actualizaciones!"
-  },
-  "Special Thanks To:": {
-    "message": "Agradecimientos especiales:"
-  },
   "Run on Any Device": {
     "message": "Ejecutar en cualquier dispositivo"
   },
@@ -64,6 +55,15 @@
   },
   "Social Media": {
     "message": "Redes Sociales"
+  },
+  "Get Started with Juka": {
+    "message": "Comienza con Juka"
+  },
+  "Follow us for news and updates!": {
+    "message": "¡Síguenos para noticias y actualizaciones!"
+  },
+  "Special Thanks To:": {
+    "message": "Agradecimientos especiales:"
   },
   "theme.ErrorPageContent.title": {
     "message": "Esta página ha fallado.",

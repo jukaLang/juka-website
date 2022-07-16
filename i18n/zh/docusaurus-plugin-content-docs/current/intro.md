@@ -14,7 +14,7 @@ Juka的哲学是一次代码，遍布任何地方。
 __当前支持的设备：__
 - Windows (x86/x64)
 - Windows ARM (ARM64)
-- Linux (CentOS, Debian, Fedora, Ubuntu and derivatives)
+- Linux (x86/x64) (CentOS, Debian, Fedora, Ubuntu, TinyCore, and almost any other type of Linux)
 - Linux ARM (ARM64 and ARM32) (Linux Distributions that run ARM e.g. Raspberry Pi Model 2+)
 - MacOS (macOS 10.12+)
 - FreeBSD/UNIX (FreeBSD 11+)
@@ -23,18 +23,19 @@ __当前支持的设备：__
 - Docker (JukaAPI)
 - [Web Assembly (CDN/Browser/HTML server)](https://github.com/jukaLang/juka-webassembly)
 - [Jupyter via juka-kernel](https://github.com/jukaLang/juka_kernel)
+- [Virtual Box Image (JukaVM)](https://github.com/jukaLang/jukaVM)
 
 __即将到来：__
-- JukaOS
 - Android App
-- AndroidTV App
 - iOS App (iPhone/iPad)
 - MacOS App
 - Windows App (Windows 10+)
+- Tizen (Samsung)
 
 __潜在的未来支持：__
-- AWS (Amazon Web Service)
-- 谷歌云
+- AndroidTV App
+- Amazon Web Service (Native Support)
+- Google Cloud (Native Support)
 
 
 ### 正在下载 Juka
