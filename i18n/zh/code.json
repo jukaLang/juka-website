@@ -1,13 +1,4 @@
 {
-  "Get Started with Juka": {
-    "message": "开始使用 Juka"
-  },
-  "Follow us for news and updates!": {
-    "message": "关注我们以获取新闻和更新！"
-  },
-  "Special Thanks To:": {
-    "message": "特别感谢："
-  },
   "Run on Any Device": {
     "message": "在任何设备上运行"
   },
@@ -64,6 +55,15 @@
   },
   "Social Media": {
     "message": "社交媒体"
+  },
+  "Get Started with Juka": {
+    "message": "开始使用 Juka"
+  },
+  "Follow us for news and updates!": {
+    "message": "关注我们以获取新闻和更新！"
+  },
+  "Special Thanks To:": {
+    "message": "特别感谢："
   },
   "theme.ErrorPageContent.title": {
     "message": "此页面已崩溃。",
