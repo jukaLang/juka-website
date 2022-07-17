@@ -4,20 +4,14 @@ sidebar_position: 3
 
 # Функции
 
-## Основная функция
-Juka автоматически выполняет функцию main().
+## Executing Functions
 
-```jsx
-func main() = { printLine("Hello");}
-```
-
-ПРИМЕЧАНИЕ: скрипты, которые не имеют основной функции, могут быть выполнены путем вызова самой функции. Например:
+Scripts can be executed by calling the function itself. For example:
 ```jsx
 func x() = { printLine("Hello"); } x();
 ```
 
-## Функции
-Все функции определяются функцией слова. Функции могут содержать буквенно-цифровые значения (включая _), и функции не могут начинаться с числового значения. Функции просто определены:
+All functions are defined with the word function. Functions can contain alphanumeric values (including _) and functions cannot start with numeric value. Functions are simply defined:
 
 ```jsx
 func foo() = {
@@ -26,13 +20,13 @@ func foo() = {
 foo();
 ```
 
-Например:
+Example:
 
 ```jsx
 func x() = {
     string y = "Hello World";
     printLine(y);
-    printLine("Это работает! );
+    printLine("It works!");
 }
 func y() = {
     printLine("==in the middle==");
