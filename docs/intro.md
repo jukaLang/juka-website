@@ -11,6 +11,8 @@ Juka's philosophy is code once, run everywhere.
 
 ![jukaRun](/img/latestjuka.gif)
 
+Join our Discord Community: https://discord.com/invite/MsKWsErzfp
+
 __Current Supported Device:__
 - Windows (x86/x64)
 - Windows ARM (ARM64)
@@ -21,6 +23,7 @@ __Current Supported Device:__
 - Azure (Microsoft Azure Function)
 - HTTPS/API (JukaAPI server)
 - Docker (JukaAPI)
+- Unity Game Engine (via NuGet.org)
 - [Web Assembly (CDN/Browser/HTML server)](https://github.com/jukaLang/juka-webassembly)
 - [Jupyter via juka-kernel](https://github.com/jukaLang/juka_kernel)
 - [Virtual Box Image (JukaVM)](https://github.com/jukaLang/jukaVM)

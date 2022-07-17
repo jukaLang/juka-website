@@ -4,8 +4,8 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from "./download.module.css";
 import clsx from "clsx";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faServer, faFileCode, faCode,faPuzzlePiece,faDesktopAlt} from '@fortawesome/free-solid-svg-icons'
-import { faWindows, faApple, faLinux, faFreebsd, faRaspberryPi,faPython,faAndroid,faAppStoreIos} from '@fortawesome/free-brands-svg-icons'
+import { faServer, faFileCode, faCode,faPuzzlePiece,faDesktopAlt,faT} from '@fortawesome/free-solid-svg-icons'
+import { faWindows, faApple, faLinux, faFreebsd, faRaspberryPi,faPython,faAndroid,faAppStoreIos,faUnity} from '@fortawesome/free-brands-svg-icons'
 import BrowserOnly from "@docusaurus/BrowserOnly";
 
 function DownloadHeader() {
@@ -16,11 +16,11 @@ function DownloadHeader() {
             const result = await response.json();
             setVersion(result[0].name);
         } catch (err) {
-            console.log("cannot access Github" + err);
+            console.log("Cannot access Github" + err);
         }
     }
 
-    const [version, setVersion] = useState("0.0.93");
+    const [version, setVersion] = useState("0.0.123");
     setV();
 
     function BigDownloadList() {
@@ -124,6 +124,18 @@ function DownloadHeader() {
         },
 
         {
+            title: "Tizen",
+            faIcon: {faT}.faT,
+            description: (
+                <>
+                    <b>Tizen Version {version}:</b><br/>
+                    <br/>
+                    <i>In active development, coming soon!</i>
+                </>
+            ),
+        },
+
+        {
             title: "Microsoft Azure Server",
             faIcon: {faServer}.faServer,
             description: (
@@ -166,6 +178,18 @@ function DownloadHeader() {
             ),
         },
         {
+            title: "Unity",
+            faIcon: {faUnity}.faUnity,
+            description: (
+                <>
+                    <b>Unity {version}:</b><br/>
+                    <br/>
+                    Download from NuGet.org:  <a href={"https://www.nuget.org/api/v2/package/JukaCompiler"}>Download</a><br/>
+                    Other Versions: <a href={"https://www.nuget.org/packages/JukaCompiler"} target={"_blank"}>Download</a><br/>
+                </>
+            ),
+        },
+        {
             title: "Jupyter Kernel",
             faIcon: {faPython}.faPython,
             description: (
@@ -177,6 +201,7 @@ function DownloadHeader() {
                 </>
             ),
         },
+
         {
             title: "Web Assembly",
             faIcon: {faPuzzlePiece}.faPuzzlePiece,
@@ -194,7 +219,7 @@ function DownloadHeader() {
             faIcon: {faDesktopAlt}.faDesktopAlt,
             description: (
                 <>
-                    <b>VM Image {version}:</b><br/>
+                    <b>VM Image:</b><br/>
                     <br/>
                     VirtualBox Image Download: <a href={"https://github.com/jukaLang/jukaVM/releases/download/0.0.1/JukaVM.ova"} >Download</a><br/>
                     Download other versions: <a href={"https://github.com/jukaLang/jukaVM/releases"} target={"_blank"} >Download</a><br/>
