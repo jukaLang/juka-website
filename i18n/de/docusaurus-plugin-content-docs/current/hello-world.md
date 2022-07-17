@@ -10,9 +10,10 @@ Beginnen wir mit der Erstellung einer HelloWorld-Anwendung. Leere Datei erstelle
 Kopiere und füge folgenden Code in diese Datei ein:
 
 ```jsx
-func main() = {
-   printLine("Hallo World");
+func main() =  {
+   printLine("Hello World");
 }
+main();
 ```
 
 Sobald die Datei fertig ist, speichern Sie die Datei und führen Sie einen entsprechenden Befehl aus, um die Datei zu kompilieren

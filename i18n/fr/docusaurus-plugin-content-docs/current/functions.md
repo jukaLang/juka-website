@@ -4,35 +4,29 @@ sidebar_position: 3
 
 # Fonctions
 
-## Fonction principale
-Juka exécute automatiquement la fonction main() .
+## Executing Functions
 
-```jsx
-func main() = { printLine("Bonjour");}
-```
-
-REMARQUE : les scripts qui n'ont pas de fonction principale, peuvent être exécutés en appelant la fonction elle-même. Par exemple :
+Scripts can be executed by calling the function itself. For example:
 ```jsx
 func x() = { printLine("Hello"); } x();
 ```
 
-## Fonctions
-Toutes les fonctions sont définies avec la fonction mot. Les fonctions peuvent contenir des valeurs alphanumériques (y compris _) et les fonctions ne peuvent pas commencer par des valeurs numériques. Les fonctions sont simplement définies :
+All functions are defined with the word function. Functions can contain alphanumeric values (including _) and functions cannot start with numeric value. Functions are simply defined:
 
 ```jsx
 func foo() = {
-   printLine("Bonjour ami !");
+   printLine("Hello Friend!");
 }
 foo();
 ```
 
-Exemple:
+Example:
 
 ```jsx
 func x() = {
-    string y = "Bonjour le monde";
+    string y = "Hello World";
     printLine(y);
-    printLine("Ça marche ! );
+    printLine("It works!");
 }
 func y() = {
     printLine("==in the middle==");
