@@ -11,33 +11,33 @@ slug: /
 
 ![jukaRun](/img/latestjuka.gif)
 
-Join our Discord Community: https://discord.com/invite/MsKWsErzfp
+Присоединяйтесь к нашему сообществу Discord: https://discord.com/invite/MsKWsErzfp
 
-__Current Supported Device:__
+__Поддерживаемое устройство:__
 - Windows (x86/x64)
-- Windows ARM (ARM64)
-- Linux (x86/x64) (CentOS, Debian, Fedora, Ubuntu, TinyCore, and almost any other type of Linux)
-- Linux ARM (ARM64 and ARM32) (Linux Distributions that run ARM e.g. Raspberry Pi Model 2+)
+- ARM Windows (ARM64)
+- Linux (x86/x64) (CentOS, Debian, Fedora, Ubuntu, TinyCore, и почти любой другой тип Linux)
+- Linux ARM (ARM64 и ARM32) (Linux дистрибутивы, запускающие ARM, например Raspberry Pi Model 2+)
 - MacOS (macOS 10.12+)
 - FreeBSD/UNIX (FreeBSD 11+)
 - Azure (Microsoft Azure Function)
-- HTTPS/API (JukaAPI server)
-- Docker (JukaAPI)
-- Unity Game Engine (via NuGet.org)
-- [Web Assembly (CDN/Browser/HTML server)](https://github.com/jukaLang/juka-webassembly)
+- HTTPS/API (JukaAPI сервер)
+- Докер (JukaAPI)
+- Игровой движок Unity (через NuGet.org)
+- [Сборка (CDN/браузер/HTML сервер)](https://github.com/jukaLang/juka-webassembly)
 - [Jupyter via juka-kernel](https://github.com/jukaLang/juka_kernel)
-- [Virtual Box Image (JukaVM)](https://github.com/jukaLang/jukaVM)
+- [Виртуальное изображение Box (JukaVM)](https://github.com/jukaLang/jukaVM)
 
-__Coming Soon:__
+__Скоро:__
 - Android App
-- iOS App (iPhone/iPad)
-- MacOS App
-- Windows App (Windows 10+)
+- iOS приложение (iPhone/iPad)
+- Приложение MacOS
+- Приложение Windows (Windows 10+)
 - Tizen (Samsung)
 
-__Potential Future Support:__
+__Потенциальная дальнейшая поддержка:__
 - AndroidTV App
-- Amazon Web Service (Native Support)
-- Google Cloud (Native Support)
+- Поддержка Amazon
+- Google Cloud (Нативная поддержка)
 
 
