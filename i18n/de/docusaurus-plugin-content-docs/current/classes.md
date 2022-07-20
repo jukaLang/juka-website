@@ -2,7 +2,7 @@
 sidebar_position: 9
 ---
 
-# Classes
+# Klassen
 
 
-## Coming soon!
+## Kommt bald!
