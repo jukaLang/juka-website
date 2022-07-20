@@ -1,8 +1,8 @@
 ---
-sidebar_position: 99
+sidebar_position: 8
 ---
 
-# Azure Function
+# Running Azure Function
 
 ### Running Locally
 Juka can run locally without Azure Web server if you prefer to 
