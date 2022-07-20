@@ -11,7 +11,7 @@ In Juka ist Schleife ähnlich wie die meisten anderen Programmiersprachen defini
 Ein einfaches Beispiel für die während Schleife:
 
 ```jsx
-int x = 0;
+var x = 0;
 while(x < 2) {
     x = x+1;
 }
@@ -25,9 +25,9 @@ Du darfst eine Endlosschleife ausführen. Sie sollten jedoch eine Break-Anweisun
 Ein einfaches Beispiel für Break:
 
 ```jsx
-int x = 0;
+var x = 0;
 while( 1 ){
-    = x + 1;
+    x = x + 1;
     if ( x > 2) {
         break;
     }
