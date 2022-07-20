@@ -4,29 +4,29 @@ sidebar_position: 5
 
 # Funciones
 
-## Executing Functions
+## Ejecutando funciones
 
-Scripts can be executed by calling the function itself. For example:
+Los scripts se pueden ejecutar llamando a la función misma. Por ejemplo:
 ```jsx
 func x() = { printLine("Hello"); } x();
 ```
 
-All functions are defined with the word function. Functions can contain alphanumeric values (including _) and functions cannot start with numeric value. Functions are simply defined:
+Todas las funciones se definen con la función de la palabra. Las funciones pueden contener valores alfanuméricos (incluyendo _) y las funciones no pueden comenzar con un valor numérico. Las funciones son simplemente definidas:
 
 ```jsx
 func foo() = {
-   printLine("Hello Friend!");
+   printLine("Hola amigo!");
 }
 foo();
 ```
 
-Example:
+Ejemplo:
 
 ```jsx
 func x() = {
-    string y = "Hello World";
+    string y = "Hola Mundo";
     printLine(y);
-    printLine("It works!");
+    printLine("¡Funciona! );
 }
 func y() = {
     printLine("==in the middle==");
