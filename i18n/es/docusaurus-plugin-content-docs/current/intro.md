@@ -11,33 +11,33 @@ La filosofía de Juka es código una vez, corre por todas partes.
 
 ![jukaRun](/img/latestjuka.gif)
 
-Join our Discord Community: https://discord.com/invite/MsKWsErzfp
+Únete a nuestra comunidad de Discord: https://discord.com/invite/MsKWsErzfp
 
-__Current Supported Device:__
+__Dispositivo soportado:__
 - Windows (x86/x64)
-- Windows ARM (ARM64)
-- Linux (x86/x64) (CentOS, Debian, Fedora, Ubuntu, TinyCore, and almost any other type of Linux)
-- Linux ARM (ARM64 and ARM32) (Linux Distributions that run ARM e.g. Raspberry Pi Model 2+)
+- ARM de Windows (ARM64)
+- Linux (x86/x64) (CentOS, Debian, Fedora, Ubuntu, TinyCore, y casi cualquier otro tipo de Linux)
+- Linux ARM (ARM64 y ARM32) (Linux Distributions that run ARM e.g. Raspberry Pi Modelo 2+)
 - MacOS (macOS 10.12+)
 - FreeBSD/UNIX (FreeBSD 11+)
 - Azure (Microsoft Azure Function)
-- HTTPS/API (JukaAPI server)
+- HTTPS/API (Servidor JukaAPI)
 - Docker (JukaAPI)
-- Unity Game Engine (via NuGet.org)
-- [Web Assembly (CDN/Browser/HTML server)](https://github.com/jukaLang/juka-webassembly)
+- Motor de juegos de unidad (a través de NuGet.org)
+- [Colmena web (CDN/Navegador/Servidor HTML)](https://github.com/jukaLang/juka-webassembly)
 - [Jupyter via juka-kernel](https://github.com/jukaLang/juka_kernel)
-- [Virtual Box Image (JukaVM)](https://github.com/jukaLang/jukaVM)
+- [Imagen de caja virtual (JukaVM)](https://github.com/jukaLang/jukaVM)
 
-__Coming Soon:__
+__Próximamente:__
 - Android App
 - iOS App (iPhone/iPad)
-- MacOS App
-- Windows App (Windows 10+)
+- App de MacOS
+- App de Windows (Windows 10+)
 - Tizen (Samsung)
 
-__Potential Future Support:__
+__Soporte futuro potencial:__
 - AndroidTV App
-- Amazon Web Service (Native Support)
-- Google Cloud (Native Support)
+- Servicio Web de Amazon (Soporte Nativo)
+- Google Cloud (Soporte Nativo)
 
 
