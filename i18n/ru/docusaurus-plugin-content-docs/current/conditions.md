@@ -21,7 +21,7 @@ func main()={
 ## Цикл прокрутки
 ```jsx
 func foo() = {
-    int x = 3;
+    var x = 3;
     while (x<=4)
     {
         x++;
