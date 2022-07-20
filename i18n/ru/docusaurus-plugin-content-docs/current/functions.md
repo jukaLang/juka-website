@@ -4,14 +4,14 @@ sidebar_position: 5
 
 # Функции
 
-## Executing Functions
+## Выполнение процедур
 
-Scripts can be executed by calling the function itself. For example:
+Скрипты могут выполняться, вызвав саму функцию. Например:
 ```jsx
 func x() = { printLine("Hello"); } x();
 ```
 
-All functions are defined with the word function. Functions can contain alphanumeric values (including _) and functions cannot start with numeric value. Functions are simply defined:
+Все функции определяются функцией слова. Функции могут содержать буквенно-цифровые значения (включая _), и функции не могут начинаться с числового значения. Функции просто определены:
 
 ```jsx
 func foo() = {
@@ -20,13 +20,13 @@ func foo() = {
 foo();
 ```
 
-Example:
+Например:
 
 ```jsx
 func x() = {
     string y = "Hello World";
     printLine(y);
-    printLine("It works!");
+    printLine("Это работает! );
 }
 func y() = {
     printLine("==in the middle==");
