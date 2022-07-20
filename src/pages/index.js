@@ -68,7 +68,7 @@ function HomepageHeader() {
           <br/>
           <CodeBlock className={`language-jsx ${styles.maincodeblock}`} title="./HelloWorld.juk">{`func x() = {
     // Print Hello World
-    string y = "Hello World";
+    var y = "Hello World";
     printLine(y);
 }
 x();`}</CodeBlock>

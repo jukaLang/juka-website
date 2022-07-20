@@ -14,7 +14,7 @@ function TryEditor() {
     const history = useHistory();
     let code = new URLSearchParams(location.search).get("code");
     code = code? code : `func x() = {
-    string y = "Hello World";
+    var y = "Hello World";
     printLine(y);
 }
 x();

@@ -25,7 +25,7 @@ Example:
 
 ```jsx
 func x() = {
-    string y = "Hello World";
+    var = "Hello World";
     printLine(y);
     printLine("It works!");
 }
