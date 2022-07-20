@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 4
 ---
 
 # Escribiendo tu primera aplicación
@@ -10,8 +10,8 @@ Empecemos por crear una aplicación HelloWorld. Crear un archivo vacío y guarda
 En ese archivo, copiar y pegar el siguiente código:
 
 ```jsx
-func main() =  {
-   printLine("Hello World");
+func main() = {
+   printLine("Hola Mundo");
 }
 main();
 ```

@@ -11,81 +11,33 @@ slug: /
 
 ![jukaRun](/img/latestjuka.gif)
 
-Join our Discord Community: https://discord.com/invite/MsKWsErzfp
+Присоединяйтесь к нашему сообществу Discord: https://discord.com/invite/MsKWsErzfp
 
-__Current Supported Device:__
+__Поддерживаемое устройство:__
 - Windows (x86/x64)
-- Windows ARM (ARM64)
-- Linux (x86/x64) (CentOS, Debian, Fedora, Ubuntu, TinyCore, and almost any other type of Linux)
-- Linux ARM (ARM64 and ARM32) (Linux Distributions that run ARM e.g. Raspberry Pi Model 2+)
+- ARM Windows (ARM64)
+- Linux (x86/x64) (CentOS, Debian, Fedora, Ubuntu, TinyCore, и почти любой другой тип Linux)
+- Linux ARM (ARM64 и ARM32) (Linux дистрибутивы, запускающие ARM, например Raspberry Pi Model 2+)
 - MacOS (macOS 10.12+)
 - FreeBSD/UNIX (FreeBSD 11+)
 - Azure (Microsoft Azure Function)
-- HTTPS/API (JukaAPI server)
-- Docker (JukaAPI)
-- Unity Game Engine (via NuGet.org)
-- [Web Assembly (CDN/Browser/HTML server)](https://github.com/jukaLang/juka-webassembly)
+- HTTPS/API (JukaAPI сервер)
+- Докер (JukaAPI)
+- Игровой движок Unity (через NuGet.org)
+- [Сборка (CDN/браузер/HTML сервер)](https://github.com/jukaLang/juka-webassembly)
 - [Jupyter via juka-kernel](https://github.com/jukaLang/juka_kernel)
-- [Virtual Box Image (JukaVM)](https://github.com/jukaLang/jukaVM)
+- [Виртуальное изображение Box (JukaVM)](https://github.com/jukaLang/jukaVM)
 
-__Coming Soon:__
+__Скоро:__
 - Android App
-- iOS App (iPhone/iPad)
-- MacOS App
-- Windows App (Windows 10+)
+- iOS приложение (iPhone/iPad)
+- Приложение MacOS
+- Приложение Windows (Windows 10+)
 - Tizen (Samsung)
 
-__Potential Future Support:__
+__Потенциальная дальнейшая поддержка:__
 - AndroidTV App
-- Amazon Web Service (Native Support)
-- Google Cloud (Native Support)
+- Поддержка Amazon
+- Google Cloud (Нативная поддержка)
 
 
-### Загрузка Juka
-Juka can be downloaded from https://jukalang.com/download
-
-If you need a "nightly built", then you can download the latest version at https://github.com/jukaLang/juka/releases
-
-Make sure to download an appropriate version to the device. There are typically 2 versions of Juka for each OS: Juka and JukaAPI.
-- Juka - Главное приложение, скачать это если вы не уверены.
-- JukaAPI - сервер для обслуживания JUKA API через REST (не скачайте это, если не знаете, как его использовать)
-
-The files should be self-contained (you are not required to download any other files or install any other programs)
-
-## Запущенные джуки
-
-### Окна
-
-Run the following command to start the Juka editor:
-
-```jsx
-./juka.exe
-```
-
-If you want to run Juka code from a file, run the following command (substitute HelloWorld.juk with your filename)
-
-```jsx
-./juka.exe HelloWorld.juk
-```
-
-### Linux/MacOS/FreeBSD/UNIX/Raspberry PI
-
-Run the following command to start the Juka editor:
-```jsx
-./juka
-```
-
-If you want to run Juka code from a file, run the following command (substitute HelloWorld.juk with your filename)
-
-```jsx
-./juka HelloWorld.juk
-```
-
-
-### Функция Microsoft Azure
-
-Upload the package to Azure Web Server Use web deploy to publish Juka (Azure Function) on the cloud
-
-### Ссылка в проекте C#
-
-You can reference Juka compiler in C#, by downloading C# .dll and referencing it in the project.

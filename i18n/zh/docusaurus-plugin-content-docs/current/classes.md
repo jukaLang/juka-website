@@ -1,8 +1,8 @@
 ---
-sidebar_position: 6
+sidebar_position: 9
 ---
 
-# Classes
+# 班级
 
 
-## Coming soon!
+## 即将到来！

@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 4
 ---
 
 # Написание вашего первого приложения
@@ -10,7 +10,7 @@ sidebar_position: 2
 В этом файле скопируйте и вставьте следующий код:
 
 ```jsx
-func main() =  {
+func main() = {
    printLine("Hello World");
 }
 main();

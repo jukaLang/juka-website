@@ -1,8 +1,8 @@
 ---
-sidebar_position: 6
+sidebar_position: 9
 ---
 
-# Classes
+# Clases
 
 
-## Coming soon!
+## ¡Próximamente!
