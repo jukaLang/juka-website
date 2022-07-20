@@ -10,7 +10,7 @@ sidebar_position: 4
 В этом файле скопируйте и вставьте следующий код:
 
 ```jsx
-func main() =  {
+func main() = {
    printLine("Hello World");
 }
 main();
