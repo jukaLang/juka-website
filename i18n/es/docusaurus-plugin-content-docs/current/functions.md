@@ -24,9 +24,9 @@ Ejemplo:
 
 ```jsx
 func x() = {
-    string y = "Hola Mundo";
+    var = "Hello World";
     printLine(y);
-    printLine("¡Funciona! );
+    printLine("It works!");
 }
 func y() = {
     printLine("==in the middle==");
