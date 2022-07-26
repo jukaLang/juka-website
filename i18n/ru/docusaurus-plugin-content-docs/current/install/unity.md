@@ -2,7 +2,7 @@
 sidebar_position: 6
 ---
 
-# Запуск Juka в Unity 3D
+# Unity 3D
 
 Вы можете запустить JukaCompiler в Unity.
 
