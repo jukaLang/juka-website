@@ -2,7 +2,7 @@
 sidebar_position: 5
 ---
 
-# Exécution de Juka à Jupyter
+# Juka in Jupyter
 
 Si vous êtes un data scientist ou un analytique, vous avez probablement entendu parler et utilisé Jupyter.
 
