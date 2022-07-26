@@ -3,7 +3,7 @@ sidebar_position: 4
 ---
 
 
-# Запуск Juka в FreeBSD
+# FreeBSD
 
 Выполните следующую команду, чтобы запустить редактор Juka:
 ```jsx
