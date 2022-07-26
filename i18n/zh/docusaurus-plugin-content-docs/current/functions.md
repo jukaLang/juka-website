@@ -23,14 +23,14 @@ foo();
 示例：
 
 ```jsx
-func x() =
-    string y = "Hello World";
-    printLine(y)；
-    printLine("它工作了！ );
+func x() = {
+    var = "Hello World";
+    printLine(y);
+    printLine("It works!");
 }
-func y() = 欧共体
-    printLine("==in midle==";
-    打印("======");
+func y() = {
+    printLine("==in the middle==");
+    print("======");
 }
 x();
 y();

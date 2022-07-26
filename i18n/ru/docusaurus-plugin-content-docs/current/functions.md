@@ -24,9 +24,9 @@ foo();
 
 ```jsx
 func x() = {
-    string y = "Hello World";
+    var = "Hello World";
     printLine(y);
-    printLine("Это работает! );
+    printLine("It works!");
 }
 func y() = {
     printLine("==in the middle==");

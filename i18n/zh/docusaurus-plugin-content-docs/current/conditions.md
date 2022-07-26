@@ -20,10 +20,10 @@ func main()=
 
 ## 当循环
 ```jsx
-func foo() = Power
-    int x = 3;
+func foo() = {
+    var x = 3;
     while (x<=4)
-    }
+    {
         x++;
         print(x);
     }

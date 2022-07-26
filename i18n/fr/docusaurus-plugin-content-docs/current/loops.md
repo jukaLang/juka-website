@@ -11,8 +11,8 @@ Dans Juka, alors que la boucle est définie de la même manière que la plupart 
 Un exemple simple de la boucle «Tant »:
 
 ```jsx
-int x = 0;
-tant que(x < 2) {
+var x = 0;
+while(x < 2) {
     x = x+1;
 }
 ```
@@ -25,8 +25,8 @@ Vous êtes autorisé à exécuter une boucle infinie. Cependant, vous devriez av
 Un exemple simple de pause :
 
 ```jsx
-int x = 0;
-tant que( 1 ){
+var x = 0;
+while( 1 ){
     x = x + 1;
     if ( x > 2) {
         break;
