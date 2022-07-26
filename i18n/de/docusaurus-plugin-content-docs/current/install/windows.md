@@ -2,8 +2,7 @@
 sidebar_position: 1
 ---
 
-
-# Juka wird unter Windows ausgeführt
+# Windows
 
 Führen Sie den folgenden Befehl aus, um den Juka-Editor zu starten:
 
