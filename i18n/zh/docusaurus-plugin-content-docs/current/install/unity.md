@@ -2,7 +2,7 @@
 sidebar_position: 6
 ---
 
-# 在Unity 3D 中运行Juka
+# Unity 3D
 
 您可以统一运行 JukaCompiler
 
