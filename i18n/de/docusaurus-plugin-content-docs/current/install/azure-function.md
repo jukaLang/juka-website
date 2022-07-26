@@ -2,7 +2,7 @@
 sidebar_position: 8
 ---
 
-# Laufende Azure Funktion
+# Azure Function
 
 ### Lokal laufen
 Juka can run locally without Azure Web server if you prefer to test Juka before uploading to your server. Führen Sie dazu folgende Schritte durch:
