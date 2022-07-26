@@ -2,7 +2,7 @@
 sidebar_position: 5
 ---
 
-# Running Juka in Jupyter
+# Juka in Jupyter
 
 If you are a data scientist or an analytic, you've probably
 heard of and used Jupyter.

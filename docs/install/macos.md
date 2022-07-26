@@ -2,8 +2,7 @@
 sidebar_position: 2
 ---
 
-
-# Running Juka on MacOS
+# MacOS
 
 Run the following command to start the Juka editor:
 ```jsx

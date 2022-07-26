@@ -209,7 +209,7 @@ function DownloadHeader() {
                 <>
                     <b>Web Assembly {version}:</b><br/>
                     <br/>
-                    Latest:  <a href={"https://github.com/jukaLang/juka-webassembly/releases/download/"+version+"/Juka_WebAssembly_"+version+".tar.gz"} >Download version {version}</a><br/>
+                    Latest:  <a href={"https://github.com/jukaLang/juka-webassembly/releases/download/"+version+"/Juka_WebAssembly_"+version+".zip"} >Download version {version}</a><br/>
                     Repo Download: <a href={"https://github.com/jukaLang/juka-webassembly"} target={"_blank"} >Download</a><br/>
                 </>
             ),

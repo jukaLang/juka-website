@@ -2,8 +2,7 @@
 sidebar_position: 1
 ---
 
-
-# Running Juka on Windows
+# Windows
 
 Run the following command to start the Juka editor:
 

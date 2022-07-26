@@ -2,7 +2,7 @@
 sidebar_position: 6
 ---
 
-# Running Juka in Unity 3D
+# Unity 3D
 
 You can run JukaCompiler in Unity.
 
