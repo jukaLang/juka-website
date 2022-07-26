@@ -2,8 +2,7 @@
 sidebar_position: 3
 ---
 
-
-# 在 Linux 上运行 Juka
+# Linux
 
 运行以下命令启动Juka编辑器：
 ```jsx

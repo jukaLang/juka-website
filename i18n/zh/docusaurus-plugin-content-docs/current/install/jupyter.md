@@ -2,7 +2,7 @@
 sidebar_position: 5
 ---
 
-# 在 Jupyter 中运行 Juka
+# Juka in Jupyter
 
 如果您是数据科学家或分析人员，您可能已经听说过 并使用了Jupyter。
 

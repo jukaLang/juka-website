@@ -2,8 +2,7 @@
 sidebar_position: 1
 ---
 
-
-# Запуск Juka в Windows
+# Windows
 
 Выполните следующую команду, чтобы запустить редактор Juka:
 

@@ -2,7 +2,7 @@
 sidebar_position: 8
 ---
 
-# 正在运行 Azure 函数
+# Azure Function
 
 ### 本地运行
 如果您喜欢 在上传到您的服务器之前，Juka可以在没有Azure Web 服务器的情况下在本地运行。 为了做到这一点，执行以下步骤：

@@ -2,8 +2,7 @@
 sidebar_position: 3
 ---
 
-
-# Запуск Juka в Linux
+# Linux
 
 Выполните следующую команду, чтобы запустить редактор Juka:
 ```jsx

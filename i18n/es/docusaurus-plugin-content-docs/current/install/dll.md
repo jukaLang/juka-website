@@ -2,7 +2,7 @@
 sidebar_position: 30
 ---
 
-# Añadir Juka al proyecto C#
+# Juka in a C# Project
 
 Juka puede ser añadido a cualquier proyecto C# como un .dll. Puedes descargar la última versión de .dll en https://jukalang.com/download
 

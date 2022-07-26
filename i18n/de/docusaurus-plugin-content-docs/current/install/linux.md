@@ -2,8 +2,7 @@
 sidebar_position: 3
 ---
 
-
-# Juka unter Linux laufen
+# Linux
 
 Führen Sie den folgenden Befehl aus, um den Juka-Editor zu starten:
 ```jsx

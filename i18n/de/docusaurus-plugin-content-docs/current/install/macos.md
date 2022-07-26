@@ -2,8 +2,7 @@
 sidebar_position: 2
 ---
 
-
-# Juka läuft auf MacOS
+# MacOS
 
 Führen Sie den folgenden Befehl aus, um den Juka-Editor zu starten:
 ```jsx
