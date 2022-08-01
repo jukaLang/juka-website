@@ -85,10 +85,6 @@
     "message": "Veuillez contacter le propriétaire du site qui vous a lié à l'URL d'origine et leur faire savoir que leur lien est cassé.",
     "description": "The 2nd paragraph of the 404 page"
   },
-  "theme.AnnouncementBar.closeButtonAriaLabel": {
-    "message": "Fermer",
-    "description": "The ARIA label for close button of announcement bar"
-  },
   "theme.admonition.note": {
     "message": "note",
     "description": "The default label used for the Note admonition (:::note)"
@@ -108,6 +104,10 @@
   "theme.admonition.caution": {
     "message": "précaution",
     "description": "The default label used for the Caution admonition (:::caution)"
+  },
+  "theme.AnnouncementBar.closeButtonAriaLabel": {
+    "message": "Fermer",
+    "description": "The ARIA label for close button of announcement bar"
   },
   "theme.BackToTopButton.buttonAriaLabel": {
     "message": "Retourner vers le haut",
