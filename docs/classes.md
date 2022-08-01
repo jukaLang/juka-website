@@ -5,4 +5,15 @@ sidebar_position: 9
 # Classes
 
 
-## Coming soon!
+Classes can be declared:
+
+```jsx
+class testClass = {
+	func one() = {
+	}
+
+	func two() = {
+	}
+} 
+
+```
