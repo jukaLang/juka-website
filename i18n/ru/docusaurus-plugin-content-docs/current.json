@@ -3,8 +3,16 @@
     "message": "Следующий",
     "description": "The label for version current"
   },
+  "sidebar.tutorialSidebar.category.Installing and Running Juka": {
+    "message": "Installing and Running Juka",
+    "description": "The label for category Installing and Running Juka in sidebar tutorialSidebar"
+  },
   "sidebar.tutorialSidebar.category.Contributing to Juka Project": {
     "message": "Участие в проекте Juka",
     "description": "The label for category Contributing to Juka Project in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Other Content": {
+    "message": "Other Content",
+    "description": "The label for category Other Content in sidebar tutorialSidebar"
   }
 }
