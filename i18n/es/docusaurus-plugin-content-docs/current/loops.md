@@ -11,9 +11,11 @@ En Juka, mientras que el bucle se define de forma similar a la mayoría de los d
 Un ejemplo simple del bucle while :
 
 ```jsx
-var x = 0;
-while(x < 2) {
-    x = x+1;
+func main() = {
+    var x = 0;
+    while(x < 2) {
+        x = x + 1;
+    }
 }
 ```
 
@@ -25,11 +27,13 @@ Se le permite ejecutar un bucle infinito. Sin embargo, debería tener una senten
 Un ejemplo simple de ruptura:
 
 ```jsx
-var x = 0;
-while( 1 ){
+func main() = {
+    var x = 0;
+    while( 1){
     x = x + 1;
-    if ( x > 2) {
-        break;
+        if (x > 2) {
+            break;
+        }
     }
 }
 ```
