@@ -19,9 +19,9 @@ sidebar_position: 8
 Juka 可以在 Juka Azure 函数服务器上通过以下格式发送原始请求信息来运行代码：
 
 ```json
-主席:
-    "code": "func x() = PricintLine(\"Hello World\"} x();"
-
+{
+    "code": "func main() = { printLine(\"Hello World\"} }"
+}
 ```
 
 注意：您必须逃避报价，否则Juka会返回一个错误。
