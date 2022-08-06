@@ -10,10 +10,9 @@ sidebar_position: 4
 在该文件中，复制并粘贴以下代码：
 
 ```jsx
-func main() =
+func main() =  {
    printLine("Hello World");
 }
-main();
 ```
 
 完成后，保存文件并运行一个适当的命令来编译文件
