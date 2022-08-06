@@ -20,7 +20,7 @@ Juka kann den Code auf Juka Azure Function Server ausführen, indem er eine Roha
 
 ```json
 {
-    "code": "func x() = { printLine(\"Hallo World\"} } } x();"
+    "code": "func main() = { printLine(\"Hello World\"} }"
 }
 ```
 
