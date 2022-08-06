@@ -22,12 +22,11 @@ Les résultats seront stockés en sortie :
 
 ```jsx
 string juka = `
-func x() = {
+func main() = {
 printLine("Hello World");
 }
-x();
 `
-var affiche new JukaCompiler.Compiler().Go(juka,false);
+var output new JukaCompiler.Compiler().Go(juka,false);
 ```
 
 Si vous avez des questions, veuillez nous envoyer un message sur le discord.
