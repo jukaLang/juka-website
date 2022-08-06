@@ -13,11 +13,10 @@ function TryEditor() {
     const location = useLocation();
     const history = useHistory();
     let code = new URLSearchParams(location.search).get("code");
-    code = code? code : `func x() = {
+    code = code? code : `func main() = {
     var y = "Hello World";
     printLine(y);
 }
-x();
 `;
 
     const SaveCodeClick = () => {

@@ -14,7 +14,6 @@ In that file, copy and paste the following code:
 func main() =  {
    printLine("Hello World");
 }
-main();
 ```
 
 Once done, save the file and run an appropriate command to compile the file

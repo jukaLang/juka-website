@@ -44,14 +44,16 @@ function DownloadHeader() {
                 <>
                     <b>Windows Version {version}:</b><br/>
                     <br/>
-                    Juka (x64): <a href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/Juka_WindowsX64_"+version+".zip"} >Download</a><br/>
-                    Juka API (x64): <a href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/JukaAPI_WindowsX64_"+version+".zip"} >Download</a><br/><br/>
+                    Juka App (early): <a href={"https://github.com/jukaLang/JukaApp/releases/download/"+version+"/JukaApp.msix"} >Download</a><br/><br/>
 
-                    Juka (x86-32bit):  <a href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/Juka_WindowsX86_"+version+".zip"} >Download</a><br/>
-                    Juka API (x86-32bit):  <a href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/JukaAPI_WindowsX86_"+version+".zip"} >Download</a><br/><br/>
+                    Juka (x64): <a href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/Juka_Windows_Amd64_"+version+".zip"} >Download</a><br/>
+                    Juka API (x64): <a href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/JukaAPI_Windows_Amd64_"+version+".zip"} >Download</a><br/><br/>
 
-                    Juka (ARM64): <a href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/Juka_WindowsARM64_"+version+".zip"} >Download</a><br/>
-                    Juka API (ARM64): <a href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/JukaAPI_WindowsARM64_"+version+".zip"} >Download</a><br/>
+                    Juka (x86-32bit):  <a href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/Juka_Windows_X86_"+version+".zip"} >Download</a><br/>
+                    Juka API (x86-32bit):  <a href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/JukaAPI_Windows_X86_"+version+".zip"} >Download</a><br/><br/>
+
+                    Juka (ARM64): <a href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/Juka_Windows_Arm64_"+version+".zip"} >Download</a><br/>
+                    Juka API (ARM64): <a href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/JukaAPI_Windows_Arm64_"+version+".zip"} >Download</a><br/>
                 </>
             ),
         },
@@ -62,8 +64,8 @@ function DownloadHeader() {
                 <>
                     <b>MacOS Version {version}:</b><br/>
                     <br/>
-                    Juka: <a href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/Juka_MacOS_"+version+".zip"} >Download</a><br/>
-                    Juka API: <a href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/JukaAPI_MacOS_"+version+".zip"} >Download</a><br/>
+                    Juka: <a href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/Juka_MacOS_Amd64_"+version+".zip"} >Download</a><br/>
+                    Juka API: <a href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/JukaAPI_MacOS_Amd64_"+version+".zip"} >Download</a><br/>
                 </>
             ),
         },
@@ -74,17 +76,17 @@ function DownloadHeader() {
                 <>
                     <b>Linux Version {version}:</b><br/>
                     <br/>
-                    Juka (x64): <a href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/Juka_Linux_"+version+".zip"} >Download</a><br/>
-                    Juka API (x64): <a href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/JukaAPI_Linux_"+version+".zip"} >Download</a><br/><br/>
+                    Juka (x64): <a href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/Juka_Linux_Amd64_"+version+".zip"} >Download</a><br/>
+                    Juka API (x64): <a href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/JukaAPI_Linux_Amd64_"+version+".zip"} >Download</a><br/><br/>
 
-                    Juka (x86-32bit):  <a href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/Juka_LinuxX86_"+version+".tar.gz"} >Download</a><br/>
-                    Juka API (x86-32bit):  <a href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/Juka_LinuxX86_"+version+".tar.gz"} >Download</a><br/><br/>
+                    Juka (x86-32bit):  <a href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/Juka_Linux_X86_"+version+".tar.gz"} >Download</a><br/>
+                    Juka API (x86-32bit):  <a href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/Juka_Linux_X86_"+version+".tar.gz"} >Download</a><br/><br/>
 
-                    Juka (ARM): <a href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/Juka_LinuxARM_RaspberryPI_"+version+".zip"} >Download</a><br/>
-                    Juka API (ARM): <a href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/JukaAPI_LinuxARM_RaspberryPI_"+version+".zip"} >Download</a><br/><br/>
+                    Juka (ARM): <a href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/Juka_Linux_Arm_"+version+".zip"} >Download</a><br/>
+                    Juka API (ARM): <a href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/JukaAPI_Linux_Arm_"+version+".zip"} >Download</a><br/><br/>
 
-                    Juka (ARM64): <a href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/Juka_LinuxARM64_"+version+".zip"} >Download</a><br/>
-                    Juka API (ARM64): <a href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/Juka_LinuxARM64_"+version+".zip"} >Download</a><br/>
+                    Juka (ARM64): <a href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/Juka_Linux_Arm64_"+version+".zip"} >Download</a><br/>
+                    Juka API (ARM64): <a href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/Juka_Linux_Arm64_"+version+".zip"} >Download</a><br/>
                 </>
             ),
         },
@@ -95,8 +97,8 @@ function DownloadHeader() {
                 <>
                     <b>FreeBSD Version {version}:</b><br/>
                     <br/>
-                    Juka: <a href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/Juka_FreeBSD_"+version+".tar.gz"} >Download</a><br/>
-                    Juka API: <a href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/JukaAPI_FreeBSD_"+version+".tar.gz"} >Download</a><br/>
+                    Juka: <a href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/Juka_Unix_Amd64_"+version+".tar.gz"} >Download</a><br/>
+                    Juka API: <a href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/JukaAPI_Unix_Amd64_"+version+".tar.gz"} >Download</a><br/>
                 </>
             ),
         },
@@ -154,14 +156,14 @@ function DownloadHeader() {
                 <>
                     <b>RespberryPi Version {version}:</b><br/>
                     <br/>
-                    Juka: <a href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/Juka_LinuxARM_RaspberryPI_"+version+".zip"} >Download</a><br/>
-                    Juka API: <a href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/JukaAPI_LinuxARM_RaspberryPI_"+version+".zip"} >Download</a><br/><br/>
+                    Juka: <a href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/Juka_Linux_Arm_"+version+".zip"} >Download</a><br/>
+                    Juka API: <a href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/JukaAPI_Linux_Arm_"+version+".zip"} >Download</a><br/><br/>
 
-                    Juka (Pi 3+): <a href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/Juka_LinuxARM64_"+version+".zip"} >Download</a><br/>
-                    Juka API (Pi 3+): <a href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/Juka_LinuxARM64_"+version+".zip"} >Download</a><br/><br/>
+                    Juka (Pi 3+): <a href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/Juka_Linux_Arm64_"+version+".zip"} >Download</a><br/>
+                    Juka API (Pi 3+): <a href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/Juka_Linux_Arm64_"+version+".zip"} >Download</a><br/><br/>
 
-                    Juka (Win ARM64): <a href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/Juka_WindowsARM64_"+version+".zip"} >Download</a><br/>
-                    Juka API (Win ARM64): <a href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/JukaAPI_WindowsARM64_"+version+".zip"} >Download</a><br/>
+                    Juka (Win ARM64): <a href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/Juka_Windows_Arm64_"+version+".zip"} >Download</a><br/>
+                    Juka API (Win ARM64): <a href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/JukaAPI_Windows_Arm64_"+version+".zip"} >Download</a><br/>
                 </>
             ),
         },

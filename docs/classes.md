@@ -14,6 +14,10 @@ class testClass = {
 
 	func two() = {
 	}
-} 
+};
+
+func main(){
+    new testClass();
+}
 
 ```

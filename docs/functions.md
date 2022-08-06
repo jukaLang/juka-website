@@ -5,11 +5,16 @@ sidebar_position: 5
 # Functions
 
 ## Executing Functions
-
-Scripts can be executed by calling the function itself.
+Every script should have a main function.
+Scripts can be executed by calling the function within main function
 For example:
 ```jsx
-func x() = { printLine("Hello"); } x();
+func x() = { 
+    printLine("Hello"); 
+}
+func main() ={
+    x();
+}
 ```
 
 All functions are defined with the word function. Functions can contain alphanumeric values (including _) and functions cannot start with numeric value. Functions are simply defined:
@@ -18,7 +23,9 @@ All functions are defined with the word function. Functions can contain alphanum
 func foo() = {
    printLine("Hello Friend!");
 }
-foo();
+func main() = {
+    foo();
+}
 ```
 
 Example:
@@ -33,8 +40,10 @@ func y() = {
     printLine("==in the middle==");
     print("======");
 }
-x();
-y();
-x();
 
+func main() = {
+    x();
+    y();
+    x();
+}
 ```

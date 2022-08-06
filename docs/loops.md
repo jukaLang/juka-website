@@ -11,9 +11,11 @@ In Juka, while loop is defined similarly to most of the other programming langua
 A simple example of while loop:
 
 ```jsx
-var x = 0;
-while(x < 2) {
-    x = x+1;
+func main() = {
+    var x = 0;
+    while(x < 2) {
+        x = x + 1;
+    }
 }
 ```
 
@@ -25,11 +27,13 @@ You are allowed to run an infinite loop. However, you should have a break statem
 A simple example of break:
 
 ```jsx
-var x = 0;
-while( 1 ){
+func main() = {
+    var x = 0;
+    while( 1){
     x = x + 1;
-    if ( x > 2) {
-        break;
+        if (x > 2) {
+            break;
+        }
     }
 }
 ```

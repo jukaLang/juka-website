@@ -23,7 +23,7 @@ Juka can run the code on Juka Azure Function server by sending a raw request mes
 
 ```json
 {
-    "code": "func x() = { printLine(\"Hello World\"} } x();"
+    "code": "func main() = { printLine(\"Hello World\"} }"
 }
 ```
 
