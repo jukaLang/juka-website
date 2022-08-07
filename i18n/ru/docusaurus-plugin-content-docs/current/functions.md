@@ -5,7 +5,10 @@ sidebar_position: 5
 # Функции
 
 ## Выполнение процедур
-Every script should have a main function. Scripts can be executed by calling the function within main function For example:
+Every script should have a main function. Scripts can be executed by calling the function within main function
+
+# Usage Examples
+
 ```jsx
 func x() = { 
     printLine("Hello"); 
@@ -26,7 +29,7 @@ func main() = {
 }
 ```
 
-Например:
+# Usage Example
 
 ```jsx
 func x() = {
