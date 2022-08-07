@@ -4,24 +4,27 @@ sidebar_position: 6
 
 # Zeichenketten
 
+## What is a string?
+A string is a series of ascii characters joined to create a "sentence".
 
-## Zeichenketten definieren
 
-Sie können String mit Zitat definieren: **"**
+## Defining Strings
 
-Zum Beispiel
+You can define string by using quotation: **"** Your String Here **"**
+
+For example,
 
 ```jsx
-Katze
+var animal = "cat"
 ```
-wird ein String sein, während
+will be a string, while
 
 ```jsx
 katze
 ```
-ist ein Objekt
+is an object
 
 
-## Zeichenketten mit einer Zahl kombinieren
+## Combining strings with a number
 
-Immer wenn Sie eine Zeichenkette zu einer Zahl (oder umgekehrt) hinzufügen, wird das Endergebnis String sein. Die Zahlen werden implizit in Strings konvertiert. 
+Whenever you add string to a number (or vice versa), the end result will be string. The numbers are implicitly converted into strings. 
