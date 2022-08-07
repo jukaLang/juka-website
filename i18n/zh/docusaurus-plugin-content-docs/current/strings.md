@@ -4,24 +4,27 @@ sidebar_position: 6
 
 # 字符串
 
+## What is a string?
+A string is a series of ascii characters joined to create a "sentence".
 
-## 定义字符串
 
-您可以通过引用定义字符串： ****
+## Defining Strings
 
-例如，
+You can define string by using quotation: **"** Your String Here **"**
+
+For example,
 
 ```jsx
-“捕捉”
+var animal = "cat"
 ```
-将是一个字符串, 时间
+will be a string, while
 
 ```jsx
 笼子
 ```
-是对象
+is an object
 
 
-## 组合字符串和数字
+## Combining strings with a number
 
-每当您将字符串添加到数字 (反之亦然) 时，最终结果将是字符串。 数字被默示转换为字符串。 
+Whenever you add string to a number (or vice versa), the end result will be string. The numbers are implicitly converted into strings. 
