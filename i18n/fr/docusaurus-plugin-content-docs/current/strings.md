@@ -4,24 +4,27 @@ sidebar_position: 6
 
 # Chaînes de caractères
 
+## What is a string?
+A string is a series of ascii characters joined to create a "sentence".
 
-## Définition des chaînes
 
-Vous pouvez définir une chaîne en utilisant une guillemet : **"**
+## Defining Strings
 
-Par exemple,
+You can define string by using quotation: **"** Your String Here **"**
+
+For example,
 
 ```jsx
-"chat"
+var animal = "cat"
 ```
-sera une chaîne, tant que
+will be a string, while
 
 ```jsx
 chat
 ```
-est un objet
+is an object
 
 
-## Combinaison de chaînes avec un nombre
+## Combining strings with a number
 
-Chaque fois que vous ajoutez une chaîne de caractères à un nombre (ou vice versa), le résultat final sera une chaîne de caractères. Les nombres sont implicitement convertis en chaînes. 
+Whenever you add string to a number (or vice versa), the end result will be string. The numbers are implicitly converted into strings. 
