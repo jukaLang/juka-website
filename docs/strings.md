@@ -4,15 +4,18 @@ sidebar_position: 6
 
 # Strings
 
+## What is a string?
+A string is a series of ascii characters joined to create a "sentence".
+
 
 ## Defining Strings
 
-You can define string by using quotation: **"**
+You can define string by using quotation: **"** Your String Here **"**
 
 For example,
 
 ```jsx
-"cat"
+var animal = "cat"
 ```
 will be a string, while
 

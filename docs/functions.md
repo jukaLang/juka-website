@@ -7,7 +7,9 @@ sidebar_position: 5
 ## Executing Functions
 Every script should have a main function.
 Scripts can be executed by calling the function within main function
-For example:
+
+# Usage Examples
+
 ```jsx
 func x() = { 
     printLine("Hello"); 
@@ -28,7 +30,7 @@ func main() = {
 }
 ```
 
-Example:
+# Usage Example
 
 ```jsx
 func x() = {
