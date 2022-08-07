@@ -22,10 +22,9 @@ Ergebnisse werden in der Ausgabe gespeichert:
 
 ```jsx
 string juka = `
-func x() = {
-printLine("Hallo World");
+func main() = {
+printLine("Hello World");
 }
-x();
 `
 var output new JukaCompiler.Compiler().Go(juka,false);
 ```

@@ -20,7 +20,7 @@ Juka puede ejecutar el código en el servidor de Función Juka Azure enviando un
 
 ```json
 {
-    "code": "func x() = { printLine(\"Hola Mundo\"} x();"
+    "code": "func main() = { printLine(\"Hello World\"} }"
 }
 ```
 

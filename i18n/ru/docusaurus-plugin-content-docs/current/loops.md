@@ -11,9 +11,11 @@ sidebar_position: 8
 Простой пример цикла с параметром:
 
 ```jsx
-var x = 0;
-while(x < 2) {
-    x = x+1;
+func main() = {
+    var x = 0;
+    while(x < 2) {
+        x = x + 1;
+    }
 }
 ```
 
@@ -25,11 +27,13 @@ while(x < 2) {
 Простой пример перерыва:
 
 ```jsx
-var x = 0;
-while( 1 ){
+func main() = {
+    var x = 0;
+    while( 1){
     x = x + 1;
-    if ( x > 2) {
-        break;
+        if (x > 2) {
+            break;
+        }
     }
 }
 ```

@@ -5,10 +5,14 @@ sidebar_position: 5
 # Функции
 
 ## Выполнение процедур
-
-Скрипты могут выполняться, вызвав саму функцию. Например:
+Every script should have a main function. Scripts can be executed by calling the function within main function For example:
 ```jsx
-func x() = { printLine("Hello"); } x();
+func x() = { 
+    printLine("Hello"); 
+}
+func main() ={
+    x();
+}
 ```
 
 Все функции определяются функцией слова. Функции могут содержать буквенно-цифровые значения (включая _), и функции не могут начинаться с числового значения. Функции просто определены:
@@ -17,7 +21,9 @@ func x() = { printLine("Hello"); } x();
 func foo() = {
    printLine("Hello Friend!");
 }
-foo();
+func main() = {
+    foo();
+}
 ```
 
 Например:
@@ -32,8 +38,10 @@ func y() = {
     printLine("==in the middle==");
     print("======");
 }
-x();
-y();
-x();
 
+func main() = {
+    x();
+    y();
+    x();
+}
 ```
