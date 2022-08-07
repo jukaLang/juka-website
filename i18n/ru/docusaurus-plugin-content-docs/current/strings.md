@@ -4,24 +4,27 @@ sidebar_position: 6
 
 # Строки
 
+## What is a string?
+A string is a series of ascii characters joined to create a "sentence".
 
-## Определение строк
 
-Вы можете определить строку с помощью цитат: **"**
+## Defining Strings
 
-Например,
+You can define string by using quotation: **"** Your String Here **"**
+
+For example,
 
 ```jsx
-"кошка"
+var animal = "cat"
 ```
-будет строкой, пока
+will be a string, while
 
 ```jsx
 кошка
 ```
-является объектом
+is an object
 
 
-## Сочетание строк с числом
+## Combining strings with a number
 
-При добавлении строки к числу (или наоборот), конечный результат будет строкой. Номера имплицитно преобразуются в строки. 
+Whenever you add string to a number (or vice versa), the end result will be string. The numbers are implicitly converted into strings. 

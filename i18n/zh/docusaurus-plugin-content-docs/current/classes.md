@@ -4,20 +4,36 @@ sidebar_position: 9
 
 # 班级
 
+## What is a class?
+A class is a way of organizing methods and variables within a certain object
 
-Classes can be declared:
+## How to define a class
 
 ```jsx
-class testClass = {
-    func one() = {
+class yourClassName = 
+{
+    ...
+}
+```
+
+## Usage Examples
+
+```jsx
+class mathClass = {
+    func add(val_one, val_two) = {
+        return val_one + val_two
     }
 
-    func two() = {
-    }
 };
 
 func main(){
-    new testClass();
+   math = new mathClass();
+   print(math.add(2,6))
 }
+```
 
+**OUTPUT:**
+
+```
+8
 ```
