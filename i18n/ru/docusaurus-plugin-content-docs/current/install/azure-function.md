@@ -20,7 +20,7 @@ Juka может запустить код на сервере функции Juk
 
 ```json
 {
-    "code": "func x() = { printLine(\"Hello World\"} x();"
+    "code": "func main() = { printLine(\"Hello World\"} }"
 }
 ```
 

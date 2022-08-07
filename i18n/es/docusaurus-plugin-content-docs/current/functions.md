@@ -5,19 +5,25 @@ sidebar_position: 5
 # Funciones
 
 ## Ejecutando funciones
-
-Los scripts se pueden ejecutar llamando a la función misma. Por ejemplo:
+Every script should have a main function. Scripts can be executed by calling the function within main function For example:
 ```jsx
-func x() = { printLine("Hello"); } x();
+func x() = { 
+    printLine("Hello"); 
+}
+func main() ={
+    x();
+}
 ```
 
 Todas las funciones se definen con la función de la palabra. Las funciones pueden contener valores alfanuméricos (incluyendo _) y las funciones no pueden comenzar con un valor numérico. Las funciones son simplemente definidas:
 
 ```jsx
 func foo() = {
-   printLine("Hola amigo!");
+   printLine("Hello Friend!");
 }
-foo();
+func main() = {
+    foo();
+}
 ```
 
 Ejemplo:
@@ -32,8 +38,10 @@ func y() = {
     printLine("==in the middle==");
     print("======");
 }
-x();
-y();
-x();
 
+func main() = {
+    x();
+    y();
+    x();
+}
 ```
