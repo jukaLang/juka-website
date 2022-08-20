@@ -4,7 +4,7 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from "./download.module.css";
 import clsx from "clsx";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faServer, faFileCode, faCode,faPuzzlePiece,faDesktopAlt,faT} from '@fortawesome/free-solid-svg-icons'
+import { faServer, faFileCode, faCode,faPuzzlePiece,faDesktopAlt,faSun,faCross} from '@fortawesome/free-solid-svg-icons'
 import { faWindows, faApple, faLinux, faFreebsd, faRaspberryPi,faPython,faAndroid,faAppStoreIos,faUnity} from '@fortawesome/free-brands-svg-icons'
 import BrowserOnly from "@docusaurus/BrowserOnly";
 
@@ -44,7 +44,8 @@ function DownloadHeader() {
                 <>
                     <b>Windows Version {version}:</b><br/>
                     <br/>
-                    Juka App (early): <a href={"https://github.com/jukaLang/JukaApp/releases/download/"+version+"/JukaApp.msix"} >Download</a><br/><br/>
+                    Juka App: <a href={"https://github.com/jukaLang/JukaApp/releases/download/"+version+"/Juka_Windows_App_"+version+".msix"} >Download</a><br/>
+                    Windows Store: <i>In active development, coming soon!</i><br/><br/>
 
                     Juka (x64): <a href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/Juka_Windows_Amd64_"+version+".zip"} >Download</a><br/>
                     Juka API (x64): <a href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/JukaAPI_Windows_Amd64_"+version+".zip"} >Download</a><br/><br/>
@@ -53,7 +54,9 @@ function DownloadHeader() {
                     Juka API (x86-32bit):  <a href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/JukaAPI_Windows_X86_"+version+".zip"} >Download</a><br/><br/>
 
                     Juka (ARM64): <a href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/Juka_Windows_Arm64_"+version+".zip"} >Download</a><br/>
-                    Juka API (ARM64): <a href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/JukaAPI_Windows_Arm64_"+version+".zip"} >Download</a><br/>
+                    Juka API (ARM64): <a href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/JukaAPI_Windows_Arm64_"+version+".zip"} >Download</a><br/><br/>
+
+                    JLDN (Package Manager): <a href={"https://github.com/jukaLang/JLDN/releases"} target={"_blank"}>Get Package Manager</a><br/>
                 </>
             ),
         },
@@ -120,17 +123,18 @@ function DownloadHeader() {
                 <>
                     <b>Android Version {version}:</b><br/>
                     <br/>
-                    <i>In active development, coming soon!</i>
+                    Juka App: <a href={"https://github.com/jukaLang/JukaApp/releases/download/"+version+"/Juka_Android_App_"+version+".apk"} >Download</a><br/>
+                    Google PlayStore: <i>In active development, coming soon!</i>
                 </>
             ),
         },
 
         {
-            title: "Tizen",
-            faIcon: {faT}.faT,
+            title: "Tizen (Samsung)",
+            faIcon: {faSun}.faSun,
             description: (
                 <>
-                    <b>Tizen Version {version}:</b><br/>
+                    <b>Tizen (Samsung) Version {version}:</b><br/>
                     <br/>
                     <i>In active development, coming soon!</i>
                 </>
@@ -213,6 +217,18 @@ function DownloadHeader() {
                     <br/>
                     Latest:  <a href={"https://github.com/jukaLang/juka-webassembly/releases/download/"+version+"/Juka_WebAssembly_"+version+".zip"} >Download version {version}</a><br/>
                     Repo Download: <a href={"https://github.com/jukaLang/juka-webassembly"} target={"_blank"} >Download</a><br/>
+                </>
+            ),
+        },
+
+        {
+            title: "Temple OS",
+            faIcon: {faCross}.faCross,
+            description: (
+                <>
+                    <b>TempleOS {version}:</b><br/>
+                    <br/>
+                    <i>In active development, coming soon!</i>
                 </>
             ),
         },

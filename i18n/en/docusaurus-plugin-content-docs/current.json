@@ -3,9 +3,13 @@
     "message": "Next",
     "description": "The label for version current"
   },
-  "sidebar.tutorialSidebar.category.Installing and Running Juka": {
-    "message": "Installing and Running Juka",
-    "description": "The label for category Installing and Running Juka in sidebar tutorialSidebar"
+  "sidebar.tutorialSidebar.category.Installing and Running Juka (Console)": {
+    "message": "Installing and Running Juka (Console)",
+    "description": "The label for category Installing and Running Juka (Console) in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Installing Juka App": {
+    "message": "Installing Juka App",
+    "description": "The label for category Installing Juka App in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Contributing to Juka Project": {
     "message": "Contributing to Juka Project",
