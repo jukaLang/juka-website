@@ -26,7 +26,7 @@ class mathClass = {
 
 };
 
-func main(){
+func main() = {
    math = new mathClass();
    print(math.add(2,6))
 }
