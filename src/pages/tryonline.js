@@ -13,6 +13,8 @@ function TryEditor() {
     const location = useLocation();
     const history = useHistory();
     let code = new URLSearchParams(location.search).get("code");
+    let tabname = new URLSearchParams(location.search).get("name");
+    tabname = tabname? tabname : 'Untitled.juk';
     code = code? code : `func main() = {
     var y = "Hello World";
     printLine(y);
@@ -27,14 +29,43 @@ function TryEditor() {
             search: '?code='+encodeURIComponent(localStorage.getItem('code_tab_1'))
         });
     }
+    const ChangeTabName = (e) => {
+        setTabName(e.target.innerText);
+        history.replace({
+            search: '?code='+encodeURIComponent(isCvalue)+"&name="+e.target.innerText
+        });
+    }
     const GetCodeClick = () => {
-        const myurl = siteConfig.url+""+location.pathname+"?code="+encodeURIComponent(isCvalue);
+        const myurl = siteConfig.url+""+location.pathname+"?code="+encodeURIComponent(isCvalue)+"&name="+isTabName;
         setIsError("");
         setCoutput(myurl);
         history.replace({
-            search: '?code='+encodeURIComponent(isCvalue)
+            search: '?code='+encodeURIComponent(isCvalue)+"&name="+isTabName
         });
     }
+
+    const AddTab = () => {
+        
+    }
+
+    function download(filename, text) {
+        var element = document.createElement('a');
+        element.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(text));
+        element.setAttribute('download', filename);
+
+        element.style.display = 'none';
+        document.body.appendChild(element);
+
+        element.click();
+
+        document.body.removeChild(element);
+    }
+
+
+    const DownloadCode = () => {
+        download(isTabName,isCvalue);
+    }
+
     const ExecuteCodeClick = async () => {
         setIsLoaded(false);
         setIsError("");
@@ -67,6 +98,8 @@ function TryEditor() {
         return false;
     };
 
+
+    const [isTabName, setTabName] = useState(tabname);
     const [isLoaded, setIsLoaded] = useState(true);
     const [isError, setIsError] = useState("");
     const [isCoutput, setCoutput] = useState("");
@@ -77,8 +110,8 @@ function TryEditor() {
             <button type={"submit"} onClick={() => SaveCodeClick()} className={styles.jide_savebutton}>Save to Storage</button>
             <button type={"submit"} onClick={() => LoadCodeClick()} className={styles.jide_loadbutton}>Load from Storage</button>
             <div className={styles.jide_tab}>
-                <button className={styles.jide_tab_button}><span className={styles.jide_status_neutral}>●</span> Untitled.juk</button>
-                <button className={styles.jide_plusbutton}>+</button>
+                <button className={styles.jide_tab_button}><span className={styles.jide_status_neutral}>●</span> <span onBlur={(e) => ChangeTabName(e)} contentEditable={true} suppressContentEditableWarning={true}>{tabname}</span></button>
+                <button className={styles.jide_plusbutton} onClick={() => AddTab()}>+</button>
 
             </div>
 
@@ -93,6 +126,7 @@ function TryEditor() {
             />
             <input type={"submit"} value={isLoaded? "Run Code": "Running..."} onClick={() => ExecuteCodeClick()} className={styles.jide_execbutton}/>
             <input type={"submit"} value={"Get Link To Code"} onClick={() => GetCodeClick()} className={styles.jide_linkbutton}/>
+            <input type={"submit"} value={"Download Code"} onClick={() => DownloadCode()} className={styles.jide_dlbutton}/>
             <br/><br/>
             {isCoutput? (<CodeBlock title="Result:">{isCoutput}</CodeBlock>) : (<></>)}
             {isError? (<div className={styles.jide_error}><CodeBlock title={"Error:"}>{isError}</CodeBlock></div>) :(<></>)}

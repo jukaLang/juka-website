@@ -53,6 +53,44 @@ html[data-theme='dark'] .jide_execbutton:hover{
     animation: jukaDarkRoll 0.4s 1;
 }
 
+.jide_dlbutton {
+    font-weight: bold;
+    display: inline-block;
+    margin-top:15px;
+    margin-right:25px;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.1em;
+    cursor: pointer;
+
+    border-radius:5px;
+
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: orange;
+    box-shadow: -10px 10px 0 -5px white,-10px 10px 0 0 orange;
+    outline:0;
+    border-bottom: 0;
+
+    animation: jukaRoll6 0.4s 1;
+}
+
+.jide_dlbutton:hover{
+    box-shadow: 10px 10px 0 -5px white,10px 10px 0 0 orange;
+    animation: jukaRoll5 0.4s 1;
+}
+
+html[data-theme='dark'] .jide_dlbutton{
+    box-shadow: -10px 10px 0 -5px rgb(0,0,0),-10px 10px 0 0 orange;
+    animation: jukaDarkRoll6 0.4s 1;
+}
+
+html[data-theme='dark'] .jide_dlbutton:hover{
+    box-shadow: 10px 10px 0 -5px rgb(0,0,0),10px 10px 0 0 orange;
+    animation: jukaDarkRoll5 0.4s 1;
+}
+
 .jide_linkbutton {
     font-weight: bold;
     display: inline-block;
@@ -118,6 +156,38 @@ html[data-theme='dark'] .jide_linkbutton:hover{
 }
 
 
+@keyframes jukaRoll6 {
+    0% {
+        box-shadow: 10px 10px 0 -5px white, 10px 10px 0 0 orange;
+
+    }
+    33.3333% {
+        box-shadow: 10px -10px 0 -5px white, 10px -10px 0 0 orange;
+
+    }
+    66.6666% {
+        box-shadow: -10px -10px 0 -5px white, -10px -10px 0 0 orange;
+    }
+    100% {
+        box-shadow: -10px 10px 0 -5px white, -10px 10px 0 0 orange;
+    }
+}
+
+@keyframes jukaRoll5 {
+    0% {
+        box-shadow: -10px 10px 0 -5px white, -10px 10px 0 0 orange;
+    }
+    33.3333% {
+        box-shadow: -10px -10px 0 -5px white, -10px -10px 0 0 orange;
+    }
+    66.6666% {
+        box-shadow: 10px -10px 0 -5px white, 10px -10px 0 0 orange;
+    }
+    100% {
+        box-shadow: 10px 10px 0 -5px white, 10px 10px 0 0 orange;
+    }
+}
+
 @keyframes jukaRoll4 {
     0% {
         box-shadow: 10px 10px 0 -5px white, 10px 10px 0 0 orangered;
@@ -182,6 +252,38 @@ html[data-theme='dark'] .jide_linkbutton:hover{
     }
 }
 
+
+@keyframes jukaDarkRoll6 {
+    0% {
+        box-shadow: 10px 10px 0 -5px rgb(0, 0, 0), 10px 10px 0 0 orange;
+
+    }
+    33.3333% {
+        box-shadow: 10px -10px 0 -5px rgb(0, 0, 0), 10px -10px 0 0 orange;
+
+    }
+    66.6666% {
+        box-shadow: -10px -10px 0 -5px rgb(0, 0, 0), -10px -10px 0 0 orange;
+    }
+    100% {
+        box-shadow: -10px 10px 0 -5px rgb(0, 0, 0), -10px 10px 0 0 orange;
+    }
+}
+
+@keyframes jukaDarkRoll5 {
+    0% {
+        box-shadow: -10px 10px 0 -5px rgb(0, 0, 0), -10px 10px 0 0 orange;
+    }
+    33.3333% {
+        box-shadow: -10px -10px 0 -5px rgb(0, 0, 0), -10px -10px 0 0 orange;
+    }
+    66.6666% {
+        box-shadow: 10px -10px 0 -5px rgb(0, 0, 0), 10px -10px 0 0 orange;
+    }
+    100% {
+        box-shadow: 10px 10px 0 -5px rgb(0, 0, 0), 10px 10px 0 0 orange;
+    }
+}
 
 
 @keyframes jukaDarkRoll4 {
