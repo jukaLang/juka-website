@@ -54,3 +54,14 @@ jobs:
         # The output filename can be specified with --output option
         path: jukadocs.pdf
         if-no-files-found: error
+        
+        
+    - name: Upload pdf to release
+      uses: svenstaro/upload-release-action@v2
+      with:
+        repo_token: ${{ secrets.GITHUB_TOKEN }}
+        file: jukadocs.pdf
+        asset_name: jukadocs.pdf
+        tag: ${{ github.ref }}
+        overwrite: true
+        body: "Latest version of Juka Docs"
