@@ -7,6 +7,8 @@ import { javascript } from '@codemirror/lang-javascript';
 import { oneDark } from '@codemirror/theme-one-dark';
 import { useLocation, useHistory } from 'react-router-dom';
 import CodeBlock from '@theme/CodeBlock';
+import clsx from "clsx";
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 
 function TryEditor() {
     const {siteConfig} = useDocusaurusContext();
@@ -14,42 +16,76 @@ function TryEditor() {
     const history = useHistory();
     let tabnames = [];
     let tabcodes = [];
-    let tabcurrent = 1;
+    let tempcode = null;
+    let temptab = null;
 
-    let code = new URLSearchParams(location.search).get("code1");
-    let tabname = new URLSearchParams(location.search).get("name1");
-    tabname = tabname? tabname : 'Untitled.juk';
-    code = code? code : `func main() = {
+    let mytabs = 1;
+    while(true){
+        tempcode = new URLSearchParams(location.search).get("code"+mytabs);
+        if(tempcode == null){
+            break;
+        }
+        temptab = new URLSearchParams(location.search).get("name"+mytabs);
+        if(temptab == null){
+           temptab = "Untitled.juk";
+        }
+        tabnames.push(temptab);
+        tabcodes.push(tempcode);
+        mytabs += 1;
+    }
+
+    if(tabcodes.length === 0){
+        temptab = 'Untitled.juk';
+        tempcode = `func main() = {
     var y = "Hello World";
     printLine(y);
 }
 `;
+        tabnames.push(temptab);
+        tabcodes.push(tempcode);
+    }
+
+    let tabcurrent = new URLSearchParams(location.search).get("cur") ?? 1;
+
+    if(tabcodes.length < tabcurrent){
+        tabcurrent = 1;
+    }
+
 
     const SaveCodeClick = () => {
         localStorage.setItem('code_tab_1', isCvalue);
     }
     const LoadCodeClick = () => {
         history.replace({
-            search: '?code1='+encodeURIComponent(localStorage.getItem('code_tab_1'))
+            search: '?code'+tabcurrent+'='+encodeURIComponent(localStorage.getItem('code_tab_1'))
         });
     }
     const ChangeTabName = (e) => {
         setTabName(e.target.innerText);
         history.replace({
-            search: '?code1='+encodeURIComponent(isCvalue)+"&name1="+e.target.innerText
+            search: '?code'+tabcurrent+'='+encodeURIComponent(isCvalue)+'&name'+tabcurrent+'='+e.target.innerText
         });
     }
     const GetCodeClick = () => {
-        const myurl = siteConfig.url+""+location.pathname+"?code1="+encodeURIComponent(isCvalue)+"&name1="+isTabName;
+        const myurl = siteConfig.url+''+location.pathname+'?code'+tabcurrent+'='+encodeURIComponent(isCvalue)+'&name'+tabcurrent+'='+isTabName;
         setIsError("");
         setCoutput(myurl);
         history.replace({
-            search: '?code1='+encodeURIComponent(isCvalue)+"&name1="+isTabName
+            search: '?code'+tabcurrent+'='+encodeURIComponent(isCvalue)+'&name'+tabcurrent+'='+isTabName
         });
     }
 
     const AddTab = () => {
         alert("Not Implemented Yet!");
+
+        let temptab = 'Untitled.juk';
+        let tempcode = `func main() = {
+    var y = "Hello World";
+    printLine(y);
+}
+`;
+        tabnames.push(temptab);
+        tabcodes.push(tempcode);
     }
 
     function download(filename, text) {
@@ -112,20 +148,39 @@ function TryEditor() {
     };
 
 
-    const [isTabName, setTabName] = useState(tabname);
+    const [isTabName, setTabName] = useState(tabnames[tabcurrent-1]);
     const [isLoaded, setIsLoaded] = useState(true);
     const [isError, setIsError] = useState("");
     const [isCoutput, setCoutput] = useState("");
-    const [isCvalue, setCvalue] = useState(code);
+    const [isCvalue, setCvalue] = useState(tabcodes[tabcurrent-1]);
+
+    const [tabState, setTabState] = useState(tabnames);
+    const [tabCurrent, setTabCurrent] = useState(tabcurrent);
+    const [tabCodes, setTabCodes] = useState(tabcodes);
+
+
+
+    function GenerateTabs() {
+        return (
+            <div>
+            {tabState.map((gentabname) => (
+                <button className={styles.jide_tab_button}><span className={styles.jide_status_neutral}>●</span> <span onBlur={(e) => ChangeTabName(e)} contentEditable={true} suppressContentEditableWarning={true}>{gentabname}</span></button>
+            ))}
+            </div>
+        );
+    }
 
     return (
         <header className={styles.jide_container}>
             <button type={"submit"} onClick={() => SaveCodeClick()} className={styles.jide_savebutton}>Save to Storage</button>
             <button type={"submit"} onClick={() => LoadCodeClick()} className={styles.jide_loadbutton}>Load from Storage</button>
             <div className={styles.jide_tab}>
-                <button className={styles.jide_tab_button}><span className={styles.jide_status_neutral}>●</span> <span onBlur={(e) => ChangeTabName(e)} contentEditable={true} suppressContentEditableWarning={true}>{tabname}</span></button>
-                <button className={styles.jide_plusbutton} onClick={() => AddTab()}>+</button>
 
+
+                <GenerateTabs/>
+
+
+                <button className={styles.jide_plusbutton} onClick={() => AddTab()}>+</button>
             </div>
 
             <CodeMirror
@@ -148,6 +203,8 @@ function TryEditor() {
         </header>
     )
 }
+
+
 
 
 export default function Tryonline() {
