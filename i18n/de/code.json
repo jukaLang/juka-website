@@ -8,32 +8,29 @@
   "Coming Soon": {
     "message": "Demnächst"
   },
-  "Use for any project": {
-    "message": "Für jedes Projekt verwenden"
+  "Use for Any Project": {
+    "message": "Use for Any Project"
   },
-  "Juka can be used for all types of projects including server side coding, client side coding, native coding, web development, API development, data science, network security, and quantum computing.": {
-    "message": "Juka kann für alle Arten von Projekten verwendet werden, einschließlich Server-seitige Kodierung, Client-seitige Kodierung, native coding, web development, API development, data science, network security and quantum computing."
+  "Juka can be used for all types of projects including server side coding, client side coding, native coding, web development, API development, data science, network security, and quantum computing. Our goal is to create a programming language that can run on any platform and we mean any!": {
+    "message": "Juka can be used for all types of projects including server side coding, client side coding, native coding, web development, API development, data science, network security, and quantum computing. Our goal is to create a programming language that can run on any platform and we mean any!"
   },
   "Cloud Friendly": {
     "message": "Cloud-freundlich"
   },
-  "You can run Juka on Microsoft's Azure Server by using Juka's Azure serverless function. Compile the code quickly, or let the others run the code. Download latest Azure Function from": {
-    "message": "Du kannst Juka auf dem Azure Server von Microsoft ausführen, indem du die serverlose Funktion von Juka verwendest. Kompilieren Sie den Code schnell oder lassen Sie die anderen den Code ausführen. Laden Sie die neueste Azure Funktion herunter von"
+  "We created JukaAPI so that you can run it on any cloud server. This will allow one to use REST API to run code. Feel free to test it at": {
+    "message": "We created JukaAPI so that you can run it on any cloud server. This will allow one to use REST API to run code. Feel free to test it at"
+  },
+  "You can also run Juka on Microsoft's Azure Server by using Juka's Azure serverless function. Compile the code quickly, or let the others run the code. Download latest Azure Function from": {
+    "message": "You can also run Juka on Microsoft's Azure Server by using Juka's Azure serverless function. Compile the code quickly, or let the others run the code. Download latest Azure Function from"
   },
   "NOTE: you need an active Microsoft Azure account to host.": {
     "message": "HINWEIS: Sie benötigen zum Hosten ein aktives Microsoft Azure-Konto."
   },
-  "Get packages from a Blockchain ": {
-    "message": "Pakete von einer Blockchain abrufen "
+  "Easy to Use Package Manager": {
+    "message": "Easy to Use Package Manager"
   },
-  "All Juka packages/libraries are hosted on a blockchain in a decentralized manner. Want to help with running the network? Add your server configuration to": {
-    "message": "Alle Juka Pakete/Bibliotheken werden dezentral auf einer Blockchain gehostet. Möchten Sie beim Betrieb des Netzwerks helfen? Fügen Sie Ihre Server-Konfiguration zu"
-  },
-  "and run the Juka-Network Server (which can be downloaded from": {
-    "message": "und führen Sie den Juka-Network Server aus (der heruntergeladen werden kann von"
-  },
-  "We appreciate any help!": {
-    "message": "Wir freuen uns über jede Hilfe!"
+  "All of the packages are hosted on GitHub. That's right! We made it simple to install and contribute to the package development. Our hope is that by hosting all packages on Github, security issues in the packages can be fixed quickly by the community. The packages contain a simple config file, making it simple for anyone to develop Juka packages.": {
+    "message": "All of the packages are hosted on GitHub. That's right! We made it simple to install and contribute to the package development. Our hope is that by hosting all packages on Github, security issues in the packages can be fixed quickly by the community. The packages contain a simple config file, making it simple for anyone to develop Juka packages."
   },
   "Our Community": {
     "message": "Unsere Community"
@@ -109,10 +106,6 @@
     "message": "Schließen",
     "description": "The ARIA label for close button of announcement bar"
   },
-  "theme.BackToTopButton.buttonAriaLabel": {
-    "message": "Zurück nach oben scrollen",
-    "description": "The ARIA label for the back to top button"
-  },
   "theme.blog.archive.title": {
     "message": "Archivieren",
     "description": "The page & hero title of the blog archive page"
@@ -120,6 +113,10 @@
   "theme.blog.archive.description": {
     "message": "Archivieren",
     "description": "The page & hero description of the blog archive page"
+  },
+  "theme.BackToTopButton.buttonAriaLabel": {
+    "message": "Zurück nach oben scrollen",
+    "description": "The ARIA label for the back to top button"
   },
   "theme.blog.paginator.navAriaLabel": {
     "message": "Navigation der Blog-Liste",
