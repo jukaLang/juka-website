@@ -72,11 +72,11 @@ const FeatureList = [
         description: (
             <>
                 Follow us on:<br/>
-                Facebook: <a target="_blank" href="https://www.facebook.com/jukalang/">@jukalang</a><br/>
-                Instagram: <a target="_blank" href="https://www.instagram.com/jukalanguage/">@jukalanguage</a><br/>
-                Twitter: <a target="_blank" href="https://twitter.com/jukaLang">@jukaLang</a><br/>
-                YouTube: <a target="_blank" href="https://www.youtube.com/channel/UCRkKqD0fnuVAJLJe9p4ZiKQ">Juka Programming Language</a><br/>
-                Discord: <a target="_blank" href="https://discord.gg/MsKWsErzfp">Discord</a>
+                Facebook: <a rel="noopener noreferrer" target="_blank" href="https://www.facebook.com/jukalang/">@jukalang</a><br/>
+                Instagram: <a rel="noopener noreferrer" target="_blank" href="https://www.instagram.com/jukalanguage/">@jukalanguage</a><br/>
+                Twitter: <a rel="noopener noreferrer" target="_blank" href="https://twitter.com/jukaLang">@jukaLang</a><br/>
+                YouTube: <a rel="noopener noreferrer" target="_blank" href="https://www.youtube.com/channel/UCRkKqD0fnuVAJLJe9p4ZiKQ">Juka Programming Language</a><br/>
+                Discord: <a rel="noopener noreferrer" target="_blank" href="https://discord.gg/MsKWsErzfp">Discord</a>
             </>
         ),
     },

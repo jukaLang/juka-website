@@ -32,7 +32,7 @@ const SocialList = [
 
 function SocialF({faIcon, url}) {
     return (
-        <a href={url} target="_blank"><FontAwesomeIcon icon={faIcon} className={styles.fontaweic}  /></a>
+        <a rel="noopener noreferrer" href={url} target="_blank"><FontAwesomeIcon icon={faIcon} className={styles.fontaweic}  /></a>
     );
 }
 
