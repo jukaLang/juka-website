@@ -102,14 +102,6 @@
     "message": "precaución",
     "description": "The default label used for the Caution admonition (:::caution)"
   },
-  "theme.AnnouncementBar.closeButtonAriaLabel": {
-    "message": "Cerrar",
-    "description": "The ARIA label for close button of announcement bar"
-  },
-  "theme.BackToTopButton.buttonAriaLabel": {
-    "message": "Desplazar hacia arriba",
-    "description": "The ARIA label for the back to top button"
-  },
   "theme.blog.archive.title": {
     "message": "Archivar",
     "description": "The page & hero title of the blog archive page"
@@ -117,6 +109,14 @@
   "theme.blog.archive.description": {
     "message": "Archivar",
     "description": "The page & hero description of the blog archive page"
+  },
+  "theme.AnnouncementBar.closeButtonAriaLabel": {
+    "message": "Cerrar",
+    "description": "The ARIA label for close button of announcement bar"
+  },
+  "theme.BackToTopButton.buttonAriaLabel": {
+    "message": "Desplazar hacia arriba",
+    "description": "The ARIA label for the back to top button"
   },
   "theme.blog.paginator.navAriaLabel": {
     "message": "Navegación de la lista de blogs",
@@ -316,38 +316,6 @@
   "theme.SearchBar.seeAll": {
     "message": "Ver los {count} resultados"
   },
-  "theme.SearchPage.documentsFound.plurals": {
-    "message": "Un documento encontrado|{count} documentos encontrados",
-    "description": "Pluralized label for \"{count} documents found\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
-  },
-  "theme.SearchPage.existingResultsTitle": {
-    "message": "Resultados de búsqueda para \"{query}\"",
-    "description": "The search page title for non-empty query"
-  },
-  "theme.SearchPage.emptyResultsTitle": {
-    "message": "Buscar en la documentación",
-    "description": "The search page title for empty query"
-  },
-  "theme.SearchPage.inputPlaceholder": {
-    "message": "Escribe tu búsqueda aquí",
-    "description": "The placeholder for search page input"
-  },
-  "theme.SearchPage.inputLabel": {
-    "message": "Buscar",
-    "description": "The ARIA label for search page input"
-  },
-  "theme.SearchPage.algoliaLabel": {
-    "message": "Búsqueda por Algolia",
-    "description": "The ARIA label for Algolia mention"
-  },
-  "theme.SearchPage.noResultsText": {
-    "message": "No se encontraron resultados",
-    "description": "The paragraph for empty search result"
-  },
-  "theme.SearchPage.fetchingNewResults": {
-    "message": "Obteniendo nuevos resultados...",
-    "description": "The paragraph for fetching new search results"
-  },
   "theme.SearchBar.label": {
     "message": "Buscar",
     "description": "The ARIA label and placeholder for search button"
@@ -443,6 +411,38 @@
   "theme.SearchModal.placeholder": {
     "message": "Buscar documentos",
     "description": "The placeholder of the input of the DocSearch pop-up modal"
+  },
+  "theme.SearchPage.documentsFound.plurals": {
+    "message": "Un documento encontrado|{count} documentos encontrados",
+    "description": "Pluralized label for \"{count} documents found\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.SearchPage.existingResultsTitle": {
+    "message": "Resultados de búsqueda para \"{query}\"",
+    "description": "The search page title for non-empty query"
+  },
+  "theme.SearchPage.emptyResultsTitle": {
+    "message": "Buscar en la documentación",
+    "description": "The search page title for empty query"
+  },
+  "theme.SearchPage.inputPlaceholder": {
+    "message": "Escribe tu búsqueda aquí",
+    "description": "The placeholder for search page input"
+  },
+  "theme.SearchPage.inputLabel": {
+    "message": "Buscar",
+    "description": "The ARIA label for search page input"
+  },
+  "theme.SearchPage.algoliaLabel": {
+    "message": "Búsqueda por Algolia",
+    "description": "The ARIA label for Algolia mention"
+  },
+  "theme.SearchPage.noResultsText": {
+    "message": "No se encontraron resultados",
+    "description": "The paragraph for empty search result"
+  },
+  "theme.SearchPage.fetchingNewResults": {
+    "message": "Obteniendo nuevos resultados...",
+    "description": "The paragraph for fetching new search results"
   },
   "theme.PwaReloadPopup.info": {
     "message": "Nueva versión disponible",
