@@ -23,6 +23,16 @@ const config = {
         id: 'GTM-W6ZDC8V', // GTM Container ID
       }
     ],
+      () => ({
+        name: "inject-tag",
+        injectHtmlTags() {
+          return {
+            postBodyTags: [`<input type="checkbox" id="btnControl"/>
+                    <label id="btnControl2" for="btnControl">Discord<iframe id="discord" src="https://e.widgetbot.io/channels/975787212954275910/975787212954275916" height="600" width="800" /></label>
+                    `],
+          };
+        },
+      }),
     [
       '@docusaurus/plugin-pwa',
       {
@@ -169,10 +179,7 @@ const config = {
         ],
       },
       footer: {
-        copyright: `
-            <input type="checkbox" id="btnControl"/>
-            <label id="btnControl2" for="btnControl">Discord<iframe id="discord" src="https://e.widgetbot.io/channels/975787212954275910/975787212954275916" height="600" width="800" /></label>
-            Copyright © ${new Date().getFullYear()} Juka Programming Language <br/> (Last updated on ${new Date().toLocaleString('en-US', { timeZone: 'America/New_York' })} EST)`,
+        copyright: `Copyright © ${new Date().getFullYear()} Juka Programming Language <br/> (Last updated on ${new Date().toLocaleString('en-US', { timeZone: 'America/New_York' })} EST)`,
         style: 'dark',
         links: [
           {
