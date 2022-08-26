@@ -20,6 +20,5 @@ Juka documentation can be downloaded by going to "Downloads" page and scrolling 
 
 You can also download directly from:
 
-https://github.com/jukaLang/juka-website/releases/download/JukaLang/jukadocs.pdf
-
+https://github.com/jukaLang/juka-website/releases/download/main/jukadocs.pdf
 
