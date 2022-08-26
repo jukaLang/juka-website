@@ -138,3 +138,9 @@ html[data-theme='dark'] a.menu__link--active{
 #btnControl:checked + label > #discord {
   display:block;
 }
+
+@media print {
+  iframe { display: none; }
+  #btnControl {display:none;}
+  #btnControl2 {display:none;}
+}
