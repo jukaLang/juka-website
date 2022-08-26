@@ -12,8 +12,12 @@ function TryEditor() {
     const {siteConfig} = useDocusaurusContext();
     const location = useLocation();
     const history = useHistory();
-    let code = new URLSearchParams(location.search).get("code");
-    let tabname = new URLSearchParams(location.search).get("name");
+    let tabnames = [];
+    let tabcodes = [];
+    let tabcurrent = 1;
+
+    let code = new URLSearchParams(location.search).get("code1");
+    let tabname = new URLSearchParams(location.search).get("name1");
     tabname = tabname? tabname : 'Untitled.juk';
     code = code? code : `func main() = {
     var y = "Hello World";
@@ -26,26 +30,26 @@ function TryEditor() {
     }
     const LoadCodeClick = () => {
         history.replace({
-            search: '?code='+encodeURIComponent(localStorage.getItem('code_tab_1'))
+            search: '?code1='+encodeURIComponent(localStorage.getItem('code_tab_1'))
         });
     }
     const ChangeTabName = (e) => {
         setTabName(e.target.innerText);
         history.replace({
-            search: '?code='+encodeURIComponent(isCvalue)+"&name="+e.target.innerText
+            search: '?code1='+encodeURIComponent(isCvalue)+"&name1="+e.target.innerText
         });
     }
     const GetCodeClick = () => {
-        const myurl = siteConfig.url+""+location.pathname+"?code="+encodeURIComponent(isCvalue)+"&name="+isTabName;
+        const myurl = siteConfig.url+""+location.pathname+"?code1="+encodeURIComponent(isCvalue)+"&name1="+isTabName;
         setIsError("");
         setCoutput(myurl);
         history.replace({
-            search: '?code='+encodeURIComponent(isCvalue)+"&name="+isTabName
+            search: '?code1='+encodeURIComponent(isCvalue)+"&name1="+isTabName
         });
     }
 
     const AddTab = () => {
-        
+        alert("Not Implemented Yet!");
     }
 
     function download(filename, text) {
@@ -64,6 +68,15 @@ function TryEditor() {
 
     const DownloadCode = () => {
         download(isTabName,isCvalue);
+    }
+
+    const UploadCode = () => {
+        const selectedFile = document.getElementById('fileElem').files[0];
+        const reader = new FileReader();
+        reader.onload = (e) => {
+            setCvalue(e.target.result);
+        };
+        reader.readAsText(selectedFile);
     }
 
     const ExecuteCodeClick = async () => {
@@ -116,7 +129,7 @@ function TryEditor() {
             </div>
 
             <CodeMirror
-                value={code}
+                value={isCvalue}
                 height="100%"
                 theme={oneDark}
                 extensions={[javascript({ jsx: true })]}
@@ -127,6 +140,8 @@ function TryEditor() {
             <input type={"submit"} value={isLoaded? "Run Code": "Running..."} onClick={() => ExecuteCodeClick()} className={styles.jide_execbutton}/>
             <input type={"submit"} value={"Get Link To Code"} onClick={() => GetCodeClick()} className={styles.jide_linkbutton}/>
             <input type={"submit"} value={"Download Code"} onClick={() => DownloadCode()} className={styles.jide_dlbutton}/>
+            <input type={"submit"} value={"Upload Code"} onClick={() => document.getElementById("fileElem").click()} className={styles.jide_upbutton}/>
+            <input type="file" id="fileElem" multiple accept="*" className={styles.jide_hiddenupload} onChange={()=>UploadCode()} />
             <br/><br/>
             {isCoutput? (<CodeBlock title="Result:">{isCoutput}</CodeBlock>) : (<></>)}
             {isError? (<div className={styles.jide_error}><CodeBlock title={"Error:"}>{isError}</CodeBlock></div>) :(<></>)}

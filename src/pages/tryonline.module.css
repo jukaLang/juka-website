@@ -53,6 +53,10 @@ html[data-theme='dark'] .jide_execbutton:hover{
     animation: jukaDarkRoll 0.4s 1;
 }
 
+.jide_hiddenupload {
+    display:none;
+}
+
 .jide_dlbutton {
     font-weight: bold;
     display: inline-block;
@@ -81,14 +85,52 @@ html[data-theme='dark'] .jide_execbutton:hover{
     animation: jukaRoll5 0.4s 1;
 }
 
-html[data-theme='dark'] .jide_dlbutton{
+html[data-theme='dark'] .jide_upubutton{
     box-shadow: -10px 10px 0 -5px rgb(0,0,0),-10px 10px 0 0 orange;
     animation: jukaDarkRoll6 0.4s 1;
 }
 
-html[data-theme='dark'] .jide_dlbutton:hover{
+html[data-theme='dark'] .jide_upbutton:hover{
     box-shadow: 10px 10px 0 -5px rgb(0,0,0),10px 10px 0 0 orange;
     animation: jukaDarkRoll5 0.4s 1;
+}
+
+.jide_upbutton {
+    font-weight: bold;
+    display: inline-block;
+    margin-top:15px;
+    margin-right:25px;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.1em;
+    cursor: pointer;
+
+    border-radius:5px;
+
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: green;
+    box-shadow: -10px 10px 0 -5px white,-10px 10px 0 0 green;
+    outline:0;
+    border-bottom: 0;
+
+    animation: jukaRoll8 0.4s 1;
+}
+
+.jide_upbutton:hover{
+    box-shadow: 10px 10px 0 -5px white,10px 10px 0 0 green;
+    animation: jukaRoll7 0.4s 1;
+}
+
+html[data-theme='dark'] .jide_upbutton{
+    box-shadow: -10px 10px 0 -5px rgb(0,0,0),-10px 10px 0 0 green;
+    animation: jukaDarkRoll8 0.4s 1;
+}
+
+html[data-theme='dark'] .jide_upbutton:hover{
+    box-shadow: 10px 10px 0 -5px rgb(0,0,0),10px 10px 0 0 green;
+    animation: jukaDarkRoll7 0.4s 1;
 }
 
 .jide_linkbutton {
@@ -153,6 +195,38 @@ html[data-theme='dark'] .jide_linkbutton:hover{
     margin-right:15px;
     margin-bottom:15px;
     font-weight:bold;
+}
+
+@keyframes jukaRoll8 {
+    0% {
+        box-shadow: 10px 10px 0 -5px white, 10px 10px 0 0 green;
+
+    }
+    33.3333% {
+        box-shadow: 10px -10px 0 -5px white, 10px -10px 0 0 green;
+
+    }
+    66.6666% {
+        box-shadow: -10px -10px 0 -5px white, -10px -10px 0 0 green;
+    }
+    100% {
+        box-shadow: -10px 10px 0 -5px white, -10px 10px 0 0 green;
+    }
+}
+
+@keyframes jukaRoll7 {
+    0% {
+        box-shadow: -10px 10px 0 -5px white, -10px 10px 0 0 green;
+    }
+    33.3333% {
+        box-shadow: -10px -10px 0 -5px white, -10px -10px 0 0 green;
+    }
+    66.6666% {
+        box-shadow: 10px -10px 0 -5px white, 10px -10px 0 0 green;
+    }
+    100% {
+        box-shadow: 10px 10px 0 -5px white, 10px 10px 0 0 green;
+    }
 }
 
 
