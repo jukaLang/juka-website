@@ -3,10 +3,10 @@ name: Docker Image CI
 on:
   push:
     branches:
-      - '*'
+      - 'main'
   pull_request:
     branches:
-      - '*'
+      - 'main'
 
 jobs:
 
@@ -62,6 +62,6 @@ jobs:
         repo_token: ${{ secrets.GITHUB_TOKEN }}
         file: jukadocs.pdf
         asset_name: jukadocs.pdf
-        tag: ${{ github.ref }}
+        tag: JukaLang
         overwrite: true
         body: "Latest version of Juka Docs"
