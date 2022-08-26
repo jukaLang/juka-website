@@ -8,32 +8,29 @@
   "Coming Soon": {
     "message": "即将到来的"
   },
-  "Use for any project": {
-    "message": "用于任何项目"
+  "Use for Any Project": {
+    "message": "Use for Any Project"
   },
-  "Juka can be used for all types of projects including server side coding, client side coding, native coding, web development, API development, data science, network security, and quantum computing.": {
-    "message": "Juka 可以用于所有类型的项目，包括服务器端编码、客户端编码， 本机编码、网页开发、API开发、数据科学、网络安全和量子计算。"
+  "Juka can be used for all types of projects including server side coding, client side coding, native coding, web development, API development, data science, network security, and quantum computing. Our goal is to create a programming language that can run on any platform and we mean any!": {
+    "message": "Juka can be used for all types of projects including server side coding, client side coding, native coding, web development, API development, data science, network security, and quantum computing. Our goal is to create a programming language that can run on any platform and we mean any!"
   },
   "Cloud Friendly": {
     "message": "云端友好模式"
   },
-  "You can run Juka on Microsoft's Azure Server by using Juka's Azure serverless function. Compile the code quickly, or let the others run the code. Download latest Azure Function from": {
-    "message": "您可以使用 Juka 的 Azure 服务器来运行 Juka 的 Azure 服务器。 快速编译代码，或让其他人运行代码。从 Azure 下载最新功能"
+  "We created JukaAPI so that you can run it on any cloud server. This will allow one to use REST API to run code. Feel free to test it at": {
+    "message": "We created JukaAPI so that you can run it on any cloud server. This will allow one to use REST API to run code. Feel free to test it at"
+  },
+  "You can also run Juka on Microsoft's Azure Server by using Juka's Azure serverless function. Compile the code quickly, or let the others run the code. Download latest Azure Function from": {
+    "message": "You can also run Juka on Microsoft's Azure Server by using Juka's Azure serverless function. Compile the code quickly, or let the others run the code. Download latest Azure Function from"
   },
   "NOTE: you need an active Microsoft Azure account to host.": {
     "message": "注意：您需要一个活动的 Microsoft Azure 帐户才能进行主机操作。"
   },
-  "Get packages from a Blockchain ": {
-    "message": "从区块链获取软件包 "
+  "Easy to Use Package Manager": {
+    "message": "Easy to Use Package Manager"
   },
-  "All Juka packages/libraries are hosted on a blockchain in a decentralized manner. Want to help with running the network? Add your server configuration to": {
-    "message": "所有Juka软件包/库都以分散方式托管在区块链上。想要帮助运行网络？将您的服务器配置添加到"
-  },
-  "and run the Juka-Network Server (which can be downloaded from": {
-    "message": "运行Juka网络服务器 (可以从下载)"
-  },
-  "We appreciate any help!": {
-    "message": "我们感谢任何帮助！"
+  "All of the packages are hosted on GitHub. That's right! We made it simple to install and contribute to the package development. Our hope is that by hosting all packages on Github, security issues in the packages can be fixed quickly by the community. The packages contain a simple config file, making it simple for anyone to develop Juka packages.": {
+    "message": "All of the packages are hosted on GitHub. That's right! We made it simple to install and contribute to the package development. Our hope is that by hosting all packages on Github, security issues in the packages can be fixed quickly by the community. The packages contain a simple config file, making it simple for anyone to develop Juka packages."
   },
   "Our Community": {
     "message": "我们的社区"
@@ -109,10 +106,6 @@
     "message": "关闭",
     "description": "The ARIA label for close button of announcement bar"
   },
-  "theme.BackToTopButton.buttonAriaLabel": {
-    "message": "回滚到顶部",
-    "description": "The ARIA label for the back to top button"
-  },
   "theme.blog.archive.title": {
     "message": "存档",
     "description": "The page & hero title of the blog archive page"
@@ -120,6 +113,10 @@
   "theme.blog.archive.description": {
     "message": "存档",
     "description": "The page & hero description of the blog archive page"
+  },
+  "theme.BackToTopButton.buttonAriaLabel": {
+    "message": "回滚到顶部",
+    "description": "The ARIA label for the back to top button"
   },
   "theme.blog.paginator.navAriaLabel": {
     "message": "博客列表页面导航",
