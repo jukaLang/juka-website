@@ -1,6 +1,6 @@
 {
   "version.label": {
-    "message": "下一个",
+    "message": "Next",
     "description": "The label for version current"
   },
   "sidebar.tutorialSidebar.category.Installing and Running Juka (Console)": {
@@ -12,7 +12,7 @@
     "description": "The label for category Installing Juka App in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Contributing to Juka Project": {
-    "message": "为Juka项目捐款",
+    "message": "Contributing to Juka Project",
     "description": "The label for category Contributing to Juka Project in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Other Content": {
