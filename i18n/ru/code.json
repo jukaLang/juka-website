@@ -102,14 +102,6 @@
     "message": "осторожность",
     "description": "The default label used for the Caution admonition (:::caution)"
   },
-  "theme.blog.archive.title": {
-    "message": "Архивировать",
-    "description": "The page & hero title of the blog archive page"
-  },
-  "theme.blog.archive.description": {
-    "message": "Архивировать",
-    "description": "The page & hero description of the blog archive page"
-  },
   "theme.AnnouncementBar.closeButtonAriaLabel": {
     "message": "Закрыть",
     "description": "The ARIA label for close button of announcement bar"
@@ -117,6 +109,14 @@
   "theme.BackToTopButton.buttonAriaLabel": {
     "message": "Вернуться к началу",
     "description": "The ARIA label for the back to top button"
+  },
+  "theme.blog.archive.title": {
+    "message": "Архивировать",
+    "description": "The page & hero title of the blog archive page"
+  },
+  "theme.blog.archive.description": {
+    "message": "Архивировать",
+    "description": "The page & hero description of the blog archive page"
   },
   "theme.blog.paginator.navAriaLabel": {
     "message": "Навигация по списку блогов",
@@ -316,6 +316,38 @@
   "theme.SearchBar.seeAll": {
     "message": "Посмотреть все {count} результаты"
   },
+  "theme.SearchPage.documentsFound.plurals": {
+    "message": "Найдено один документ | Найдено{count} документов",
+    "description": "Pluralized label for \"{count} documents found\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.SearchPage.existingResultsTitle": {
+    "message": "Результаты поиска для \"{query}\"",
+    "description": "The search page title for non-empty query"
+  },
+  "theme.SearchPage.emptyResultsTitle": {
+    "message": "Поиск документации",
+    "description": "The search page title for empty query"
+  },
+  "theme.SearchPage.inputPlaceholder": {
+    "message": "Введите ваш поиск здесь",
+    "description": "The placeholder for search page input"
+  },
+  "theme.SearchPage.inputLabel": {
+    "message": "Искать",
+    "description": "The ARIA label for search page input"
+  },
+  "theme.SearchPage.algoliaLabel": {
+    "message": "Поиск по Algolia",
+    "description": "The ARIA label for Algolia mention"
+  },
+  "theme.SearchPage.noResultsText": {
+    "message": "Ничего не найдено",
+    "description": "The paragraph for empty search result"
+  },
+  "theme.SearchPage.fetchingNewResults": {
+    "message": "Получение новых результатов...",
+    "description": "The paragraph for fetching new search results"
+  },
   "theme.SearchBar.label": {
     "message": "Искать",
     "description": "The ARIA label and placeholder for search button"
@@ -411,38 +443,6 @@
   "theme.SearchModal.placeholder": {
     "message": "Поиск документации",
     "description": "The placeholder of the input of the DocSearch pop-up modal"
-  },
-  "theme.SearchPage.documentsFound.plurals": {
-    "message": "Найдено один документ | Найдено{count} документов",
-    "description": "Pluralized label for \"{count} documents found\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
-  },
-  "theme.SearchPage.existingResultsTitle": {
-    "message": "Результаты поиска для \"{query}\"",
-    "description": "The search page title for non-empty query"
-  },
-  "theme.SearchPage.emptyResultsTitle": {
-    "message": "Поиск документации",
-    "description": "The search page title for empty query"
-  },
-  "theme.SearchPage.inputPlaceholder": {
-    "message": "Введите ваш поиск здесь",
-    "description": "The placeholder for search page input"
-  },
-  "theme.SearchPage.inputLabel": {
-    "message": "Искать",
-    "description": "The ARIA label for search page input"
-  },
-  "theme.SearchPage.algoliaLabel": {
-    "message": "Поиск по Algolia",
-    "description": "The ARIA label for Algolia mention"
-  },
-  "theme.SearchPage.noResultsText": {
-    "message": "Ничего не найдено",
-    "description": "The paragraph for empty search result"
-  },
-  "theme.SearchPage.fetchingNewResults": {
-    "message": "Получение новых результатов...",
-    "description": "The paragraph for fetching new search results"
   },
   "theme.PwaReloadPopup.info": {
     "message": "Доступна новая версия",
