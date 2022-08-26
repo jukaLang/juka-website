@@ -106,3 +106,35 @@ html[data-theme='dark'] a.menu__link--active{
     box-shadow: 10px 10px 0 -5px white, 10px 10px 0 0 rgb(0, 224, 188);
   }
 }
+
+#btnControl{
+  display:none;
+}
+#btnControl2{
+  font-weight:bold;
+  position:fixed;
+  bottom:0;
+  right:0;
+  width:250px;
+  height:35px;
+  max-width:100%;
+  max-height:100%;
+  background-color:#333447;
+  color:white;
+  text-align:center;
+  line-height: 35px;
+  display:inline-block;
+}
+
+#discord{
+  display: none;
+  position:fixed;
+  bottom:35px;
+  right:0;
+  max-width:100%;
+  max-height:90%;
+}
+
+#btnControl:checked + label > #discord {
+  display:block;
+}

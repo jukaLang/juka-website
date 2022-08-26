@@ -60,7 +60,7 @@
     "description": "The label of footer link with label=GitHub Source linking to https://github.com/jukaLang/juka"
   },
   "copyright": {
-    "message": "Copyright © 2022 Juka Programming Language <br/> (Last updated on 8/26/2022, 3:19:42 PM EST)",
+    "message": "\n            <input type=\"checkbox\" id=\"btnControl\"/>\n            <label id=\"btnControl2\" for=\"btnControl\">Discord<iframe id=\"discord\" src=\"https://e.widgetbot.io/channels/975787212954275910/975787212954275916\" height=\"600\" width=\"800\" /></label>\n            Copyright © 2022 Juka Programming Language <br/> (Last updated on 8/26/2022, 4:05:45 PM EST)",
     "description": "The footer copyright"
   }
 }
