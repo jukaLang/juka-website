@@ -4,7 +4,7 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from "./download.module.css";
 import clsx from "clsx";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faServer, faFileCode, faCode,faPuzzlePiece,faDesktopAlt,faSun,faCross} from '@fortawesome/free-solid-svg-icons'
+import { faServer, faFileCode, faCode,faPuzzlePiece,faDesktopAlt,faSun,faCross,faBook} from '@fortawesome/free-solid-svg-icons'
 import { faWindows, faApple, faLinux, faFreebsd, faRaspberryPi,faPython,faAndroid,faAppStoreIos,faUnity} from '@fortawesome/free-brands-svg-icons'
 import BrowserOnly from "@docusaurus/BrowserOnly";
 
@@ -20,7 +20,7 @@ function DownloadHeader() {
         }
     }
 
-    const [version, setVersion] = useState("0.0.123");
+    const [version, setVersion] = useState("0.0.199");
     setV();
 
     function BigDownloadList() {
@@ -44,9 +44,6 @@ function DownloadHeader() {
                 <>
                     <b>Windows Version {version}:</b><br/>
                     <br/>
-                    Juka App: <a href={"https://github.com/jukaLang/JukaApp/releases/download/"+version+"/Juka_Windows_App_"+version+".msix"} >Download</a><br/>
-                    Windows Store: <i>In active development, coming soon!</i><br/><br/>
-
                     Juka (x64): <a href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/Juka_Windows_Amd64_"+version+".zip"} >Download</a><br/>
                     Juka API (x64): <a href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/JukaAPI_Windows_Amd64_"+version+".zip"} >Download</a><br/><br/>
 
@@ -56,6 +53,9 @@ function DownloadHeader() {
                     Juka (ARM64): <a href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/Juka_Windows_Arm64_"+version+".zip"} >Download</a><br/>
                     Juka API (ARM64): <a href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/JukaAPI_Windows_Arm64_"+version+".zip"} >Download</a><br/><br/>
 
+                    Juka App: <a href={"https://github.com/jukaLang/JukaApp/releases/download/"+version+"/Juka_Windows_App_"+version+".msix"} >Download</a><br/>
+                    Windows Store: <i>In active development, coming soon!</i><br/><br/>
+                    
                     JLDN (Package Manager): <a href={"https://github.com/jukaLang/JLDN/releases"} target={"_blank"}>Get Package Manager</a><br/>
                 </>
             ),
@@ -241,6 +241,18 @@ function DownloadHeader() {
                     <br/>
                     VirtualBox Image Download: <a href={"https://github.com/jukaLang/jukaVM/releases/download/0.0.1/JukaVM.ova"} >Download</a><br/>
                     Download other versions: <a href={"https://github.com/jukaLang/jukaVM/releases"} target={"_blank"} >Download</a><br/>
+                </>
+            ),
+        },
+        {
+            title: "Documentation",
+            faIcon: {faBook}.faBook,
+            description: (
+                <>
+                    <b>Documentation:</b><br/>
+                    <br/>
+                    PDF: <a href={"https://github.com/jukaLang/juka-website/releases/download/main/jukadocs.pdf"} >Download</a><br/>
+                    You can also install the Juka Website App by bookmarking the page on mobile device, or on desktop by clicking the install app button near the URL bar.
                 </>
             ),
         },

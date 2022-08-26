@@ -38,6 +38,11 @@ Any help is appreciated!
 Node.js version 16.14+
 ```
 
+You might need to install dependencies by running npm install in the home directory
+```jsx
+npm install
+```
+
 Run the following command to deploy the server locally:
 ```jsx
 npm run docusaurus clear
