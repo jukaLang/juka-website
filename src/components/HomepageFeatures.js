@@ -12,17 +12,17 @@ const FeatureList = [
         description: (
             <>
                 <Translate>At the current stage, Juka is interpreted. However, we are concurrently working on a Compiler (JIT).
-                     Juka's main goal is to be able to run on any platform including: </Translate><br/> Windows, MacOS, Linux, MS Azure, FreeBSD, Raspberry Pi, C# dll<br/><b><Translate>Coming Soon</Translate>:</b><br/>iOS/iPadOS, Android, Windows App, MacOS App.
+                     Juka's main goal is to be able to run on any platform including: </Translate><br/> Windows, MacOS, Linux, MS Azure, FreeBSD, Raspberry Pi, C# dll, Unity3D, Android, etc...<br/><b><Translate>Coming Soon</Translate>:</b><br/>iOS/iPadOS, MacOS App, TempleOS.
             </>
         ),
     },
     {
-        title: translate({message:'Use for any project'}),
+        title: translate({message:'Use for Any Project'}),
         faIcon: {faLaptopCode}.faLaptopCode,
         description: (
             <>
                 <Translate>Juka can be used for all types of projects including server side coding, client side coding,
-                    native coding, web development, API development, data science, network security, and quantum computing.</Translate>
+                    native coding, web development, API development, data science, network security, and quantum computing. Our goal is to create a programming language that can run on any platform and we mean any!</Translate>
             </>
         ),
     },
@@ -31,17 +31,20 @@ const FeatureList = [
         faIcon: {faCloud}.faCloud,
         description: (
             <>
-                <Translate>You can run Juka on Microsoft's Azure Server by using Juka's Azure serverless function. Compile the code quickly, or let the others run the code. Download latest Azure Function from </Translate> <a href="/download">https://jukalang.com/download</a>. <br/> <Translate>NOTE: you need an active Microsoft Azure account to host.</Translate>
+                <Translate>We created JukaAPI so that you can run it on any cloud server. This will allow one to use REST API to run code.
+                    Feel free to test it at </Translate><a target="_blank" href="https://api.jukalang.com">https://api.jukalang.com</a>.<br/><br/>
+                    <Translate>You can also run Juka on Microsoft's Azure Server by using Juka's Azure serverless function. Compile the code quickly, or let the others run the code. Download latest Azure Function from </Translate> <a href="/download">https://jukalang.com/download</a>. <br/> <Translate>NOTE: you need an active Microsoft Azure account to host.</Translate>
             </>
         ),
     },
     {
-        title: translate({message:'Get packages from a Blockchain '}),
+        title: translate({message:'Easy to Use Package Manager'}),
         faIcon: {faNetworkWired}.faNetworkWired,
         description: (
             <>
-                <Translate>All Juka packages/libraries are hosted on a blockchain in a decentralized manner. Want to help with running the network?
-                    Add your server configuration to </Translate> <a target="_blank" href="https://github.com/jukaLang/juka-network">https://github.com/jukaLang/juka-network</a> <Translate> and run the Juka-Network Server (which can be downloaded from </Translate> <a href="https://github.com/jukaLang/juka-network/releases">https://github.com/jukaLang/juka-network/releases</a>). <Translate>We appreciate any help!</Translate>
+                <Translate>All of the packages are hosted on GitHub. That's right! We made it simple to install and contribute to the package development.
+                Our hope is that by hosting all packages on Github, security issues in the packages can be fixed quickly by the community. The packages
+                contain a simple config file, making it simple for anyone to develop Juka packages. </Translate>
             </>
         ),
     },

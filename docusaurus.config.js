@@ -170,7 +170,7 @@ const config = {
       },
       footer: {
         copyright: `
-            <button style="position:fixed;bottom:0;right:0;width:250px;height:35px;max-width:100%;max-height:100%;background-color:lightskyblue;color:white;" onClick="(function(){
+            <button style="font-weight:bold;position:fixed;bottom:0;right:0;width:250px;height:35px;max-width:100%;max-height:100%;background-color:#333447;color:white;" onClick="(function(){
                     var disp = document.getElementById('discord');
                     if (disp.style.display === 'none') {
                       disp.style.display = 'block';
