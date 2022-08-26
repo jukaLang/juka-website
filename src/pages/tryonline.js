@@ -12,9 +12,9 @@ function TryEditor() {
     const {siteConfig} = useDocusaurusContext();
     const location = useLocation();
     const history = useHistory();
-    let tabnames = [];
+    /*let tabnames = [];
     let tabcodes = [];
-    let tabcurrent = 1;
+    let tabcurrent = 1;*/
 
     let code = new URLSearchParams(location.search).get("code1");
     let tabname = new URLSearchParams(location.search).get("name1");
@@ -71,12 +71,12 @@ function TryEditor() {
     }
 
     const UploadCode = () => {
-        const selectedFile = document.getElementById('fileElem').files[0];
+        /*const selectedFile = document.getElementById('fileElem').files[0];
         const reader = new FileReader();
         reader.onload = (e) => {
             setCvalue(e.target.result);
         };
-        reader.readAsText(selectedFile);
+        reader.readAsText(selectedFile);*/
     }
 
     const ExecuteCodeClick = async () => {
@@ -118,6 +118,9 @@ function TryEditor() {
     const [isCoutput, setCoutput] = useState("");
     const [isCvalue, setCvalue] = useState(code);
 
+    /*<input type={"submit"} value={"Upload Code"} onClick={() => document.getElementById("fileElem").click()} className={styles.jide_upbutton}/>
+            <input type="file" id="fileElem" multiple accept="*" className={styles.jide_hiddenupload} onChange={()=>UploadCode()} />*/
+
     return (
         <header className={styles.jide_container}>
             <button type={"submit"} onClick={() => SaveCodeClick()} className={styles.jide_savebutton}>Save to Storage</button>
@@ -129,7 +132,7 @@ function TryEditor() {
             </div>
 
             <CodeMirror
-                value={isCvalue}
+                value={code}
                 height="100%"
                 theme={oneDark}
                 extensions={[javascript({ jsx: true })]}
@@ -140,8 +143,7 @@ function TryEditor() {
             <input type={"submit"} value={isLoaded? "Run Code": "Running..."} onClick={() => ExecuteCodeClick()} className={styles.jide_execbutton}/>
             <input type={"submit"} value={"Get Link To Code"} onClick={() => GetCodeClick()} className={styles.jide_linkbutton}/>
             <input type={"submit"} value={"Download Code"} onClick={() => DownloadCode()} className={styles.jide_dlbutton}/>
-            <input type={"submit"} value={"Upload Code"} onClick={() => document.getElementById("fileElem").click()} className={styles.jide_upbutton}/>
-            <input type="file" id="fileElem" multiple accept="*" className={styles.jide_hiddenupload} onChange={()=>UploadCode()} />
+
             <br/><br/>
             {isCoutput? (<CodeBlock title="Result:">{isCoutput}</CodeBlock>) : (<></>)}
             {isError? (<div className={styles.jide_error}><CodeBlock title={"Error:"}>{isError}</CodeBlock></div>) :(<></>)}
