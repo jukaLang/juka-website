@@ -106,6 +106,10 @@
     "message": "Закрыть",
     "description": "The ARIA label for close button of announcement bar"
   },
+  "theme.BackToTopButton.buttonAriaLabel": {
+    "message": "Вернуться к началу",
+    "description": "The ARIA label for the back to top button"
+  },
   "theme.blog.archive.title": {
     "message": "Архивировать",
     "description": "The page & hero title of the blog archive page"
@@ -113,10 +117,6 @@
   "theme.blog.archive.description": {
     "message": "Архивировать",
     "description": "The page & hero description of the blog archive page"
-  },
-  "theme.BackToTopButton.buttonAriaLabel": {
-    "message": "Вернуться к началу",
-    "description": "The ARIA label for the back to top button"
   },
   "theme.blog.paginator.navAriaLabel": {
     "message": "Навигация по списку блогов",

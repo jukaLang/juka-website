@@ -106,6 +106,10 @@
     "message": "关闭",
     "description": "The ARIA label for close button of announcement bar"
   },
+  "theme.BackToTopButton.buttonAriaLabel": {
+    "message": "回滚到顶部",
+    "description": "The ARIA label for the back to top button"
+  },
   "theme.blog.archive.title": {
     "message": "存档",
     "description": "The page & hero title of the blog archive page"
@@ -113,10 +117,6 @@
   "theme.blog.archive.description": {
     "message": "存档",
     "description": "The page & hero description of the blog archive page"
-  },
-  "theme.BackToTopButton.buttonAriaLabel": {
-    "message": "回滚到顶部",
-    "description": "The ARIA label for the back to top button"
   },
   "theme.blog.paginator.navAriaLabel": {
     "message": "博客列表页面导航",
