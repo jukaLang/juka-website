@@ -456,6 +456,7 @@ html[data-theme='dark'] .jide_tab{
     padding: 14px 16px;
     transition: 0.3s;
     font-size: 17px;
+    margin-right:3px;
 }
 
 

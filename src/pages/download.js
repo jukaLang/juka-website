@@ -251,7 +251,7 @@ function DownloadHeader() {
                 <>
                     <b>Documentation:</b><br/>
                     <br/>
-                    PDF: <a rel="noopener noreferrer" href={"https://github.com/jukaLang/juka-website/releases/download/main/jukadocs.pdf"} >Download</a><br/>
+                    PDF: <a rel="noopener noreferrer" href={"https://github.com/jukaLang/juka-website/releases/download/JukaLang/jukadocs.pdf"} >Download</a><br/>
                     You can also install the Juka Website App by bookmarking the page on mobile device, or on desktop by clicking the install app button near the URL bar.
                 </>
             ),
