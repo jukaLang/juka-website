@@ -169,16 +169,7 @@ const config = {
         ],
       },
       footer: {
-        copyright: `
-            <button style="font-weight:bold;position:fixed;bottom:0;right:0;width:250px;height:35px;max-width:100%;max-height:100%;background-color:#333447;color:white;" onClick="(function(){
-                    var disp = document.getElementById('discord');
-                    if (disp.style.display === 'none') {
-                      disp.style.display = 'block';
-                    } else {
-                      disp.style.display = 'none';
-                    }
-                })();">Discord Chat</button>
-<iframe id="discord" style="position:fixed;bottom:35px;right:0;display:none;max-width:100%;max-height:90%;" src="https://e.widgetbot.io/channels/975787212954275910/975787212954275916" height="600" width="800" />Copyright © ${new Date().getFullYear()} Juka Programming Language <br/> (Last updated on ${new Date().toLocaleString('en-US', { timeZone: 'America/New_York' })} EST)`,
+        copyright: `Copyright © ${new Date().getFullYear()} Juka Programming Language <br/> (Last updated on ${new Date().toLocaleString('en-US', { timeZone: 'America/New_York' })} EST)`,
         style: 'dark',
         links: [
           {
