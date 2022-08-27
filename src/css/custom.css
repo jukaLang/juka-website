@@ -140,7 +140,9 @@ html[data-theme='dark'] a.menu__link--active{
 }
 
 @media print {
-  iframe { display: none; }
-  #btnControl {display:none;}
-  #btnControl2 {display:none;}
+  iframe { display: none !important; visibility: hidden; }
+  #btnControl {display:none !important; visibility: hidden;}
+  #btnControl2 {display: none !important; visibility: hidden;}
+  #discord {display: none !important; visibility: hidden;}
+  noscript{display: none !important; visibility: hidden;}
 }
