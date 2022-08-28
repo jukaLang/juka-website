@@ -7,8 +7,6 @@ import { javascript } from '@codemirror/lang-javascript';
 import { oneDark } from '@codemirror/theme-one-dark';
 import { useLocation, useHistory } from 'react-router-dom';
 import CodeBlock from '@theme/CodeBlock';
-import clsx from "clsx";
-import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 
 function TryEditor() {
     const {siteConfig} = useDocusaurusContext();
@@ -172,6 +170,8 @@ function TryEditor() {
 
     return (
         <header className={styles.jide_container}>
+            Want to compile and run offline? Visit <a rel="noopener noreferrer" href={"https://wasm.jukalang.com"} target={"_blank"}>https://wasm.jukalang.com</a><br/>
+
             <button type={"submit"} onClick={() => SaveCodeClick()} className={styles.jide_savebutton}>Save to Storage</button>
             <button type={"submit"} onClick={() => LoadCodeClick()} className={styles.jide_loadbutton}>Load from Storage</button>
             <div className={styles.jide_tab}>

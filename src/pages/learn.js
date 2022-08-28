@@ -10,7 +10,9 @@ function LearnHeader() {
             <div className={styles.learn}>
 
                 <a href="/quiz">Think you know Juka? Take a Quiz!</a><br/><br/>
-                <a href="/tryonline">Try Juka Online</a><br/><br/>
+                
+                <a href="/tryonline">Try Juka Online</a><br/>
+                <a href="https://wasm.jukalang.com">Want to use an offline browser editor?</a><br/><br/>
 
 
                 <h2>Videos</h2>

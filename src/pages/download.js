@@ -216,7 +216,9 @@ function DownloadHeader() {
                     <b>Web Assembly {version}:</b><br/>
                     <br/>
                     Latest:  <a rel="noopener noreferrer" href={"https://github.com/jukaLang/juka-webassembly/releases/download/"+version+"/Juka_WebAssembly_"+version+".zip"} >Download version {version}</a><br/>
-                    Repo Download: <a rel="noopener noreferrer" href={"https://github.com/jukaLang/juka-webassembly"} target={"_blank"} >Download</a><br/>
+                    Repo Download: <a rel="noopener noreferrer" href={"https://github.com/jukaLang/juka-webassembly"} target={"_blank"} >Download</a><br/><br/>
+
+                    Online: <a rel="noopener noreferrer" href={"https://wasm.jukalang.com"} target={"_blank"} >https://wasm.jukalang.com</a><br/>
                 </>
             ),
         },
@@ -241,6 +243,19 @@ function DownloadHeader() {
                     <br/>
                     VirtualBox Image Download: <a rel="noopener noreferrer" href={"https://github.com/jukaLang/jukaVM/releases/download/0.0.1/JukaVM.ova"} >Download</a><br/>
                     Download other versions: <a rel="noopener noreferrer" href={"https://github.com/jukaLang/jukaVM/releases"} target={"_blank"} >Download</a><br/>
+                </>
+            ),
+        },
+        {
+            title: "Online Versions",
+            faIcon: {faBook}.faBook,
+            description: (
+                <>
+                    <b>Online Versions:</b><br/>
+                    <br/>
+                    Try Online: <a href="/tryonline" >Online Editor</a><br/>
+                    API: <a rel="noopener noreferrer" href={"https://api.jukalang.com"} target={"_blank"}>https://api.jukalang.com</a><br/>
+                    Offline (Browser): <a rel="noopener noreferrer" href={"https://wasm.jukalang.com"} target={"_blank"}>https://wasm.jukalang.com</a><br/>
                 </>
             ),
         },
