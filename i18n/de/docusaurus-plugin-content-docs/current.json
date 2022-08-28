@@ -11,6 +11,10 @@
     "message": "Installing Juka App",
     "description": "The label for category Installing Juka App in sidebar tutorialSidebar"
   },
+  "sidebar.tutorialSidebar.category.Running Online": {
+    "message": "Running Online",
+    "description": "The label for category Running Online in sidebar tutorialSidebar"
+  },
   "sidebar.tutorialSidebar.category.Contributing to Juka Project": {
     "message": "Contributing to Juka Project",
     "description": "The label for category Contributing to Juka Project in sidebar tutorialSidebar"
