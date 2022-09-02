@@ -102,13 +102,13 @@
     "message": "précaution",
     "description": "The default label used for the Caution admonition (:::caution)"
   },
-  "theme.BackToTopButton.buttonAriaLabel": {
-    "message": "Retourner vers le haut",
-    "description": "The ARIA label for the back to top button"
-  },
   "theme.AnnouncementBar.closeButtonAriaLabel": {
     "message": "Fermer",
     "description": "The ARIA label for close button of announcement bar"
+  },
+  "theme.BackToTopButton.buttonAriaLabel": {
+    "message": "Retourner vers le haut",
+    "description": "The ARIA label for the back to top button"
   },
   "theme.blog.archive.title": {
     "message": "Archive",
