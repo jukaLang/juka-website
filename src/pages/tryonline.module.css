@@ -85,12 +85,12 @@ html[data-theme='dark'] .jide_execbutton:hover{
     animation: jukaRoll5 0.4s 1;
 }
 
-html[data-theme='dark'] .jide_upubutton{
+html[data-theme='dark'] .jide_dlbutton{
     box-shadow: -10px 10px 0 -5px rgb(0,0,0),-10px 10px 0 0 orange;
     animation: jukaDarkRoll6 0.4s 1;
 }
 
-html[data-theme='dark'] .jide_upbutton:hover{
+html[data-theme='dark'] .jide_dlbutton:hover{
     box-shadow: 10px 10px 0 -5px rgb(0,0,0),10px 10px 0 0 orange;
     animation: jukaDarkRoll5 0.4s 1;
 }
@@ -326,6 +326,38 @@ html[data-theme='dark'] .jide_linkbutton:hover{
     }
 }
 
+
+@keyframes jukaDarkRoll8 {
+    0% {
+        box-shadow: 10px 10px 0 -5px rgb(0, 0, 0), 10px 10px 0 0 green;
+
+    }
+    33.3333% {
+        box-shadow: 10px -10px 0 -5px rgb(0, 0, 0), 10px -10px 0 0 green;
+
+    }
+    66.6666% {
+        box-shadow: -10px -10px 0 -5px rgb(0, 0, 0), -10px -10px 0 0 green;
+    }
+    100% {
+        box-shadow: -10px 10px 0 -5px rgb(0, 0, 0), -10px 10px 0 0 green;
+    }
+}
+
+@keyframes jukaDarkRoll7 {
+    0% {
+        box-shadow: -10px 10px 0 -5px rgb(0, 0, 0), -10px 10px 0 0 green;
+    }
+    33.3333% {
+        box-shadow: -10px -10px 0 -5px rgb(0, 0, 0), -10px -10px 0 0 green;
+    }
+    66.6666% {
+        box-shadow: 10px -10px 0 -5px rgb(0, 0, 0), 10px -10px 0 0 green;
+    }
+    100% {
+        box-shadow: 10px 10px 0 -5px rgb(0, 0, 0), 10px 10px 0 0 green;
+    }
+}
 
 @keyframes jukaDarkRoll6 {
     0% {
