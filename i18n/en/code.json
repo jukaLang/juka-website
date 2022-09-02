@@ -102,13 +102,13 @@
     "message": "caution",
     "description": "The default label used for the Caution admonition (:::caution)"
   },
-  "theme.BackToTopButton.buttonAriaLabel": {
-    "message": "Scroll back to top",
-    "description": "The ARIA label for the back to top button"
-  },
   "theme.AnnouncementBar.closeButtonAriaLabel": {
     "message": "Close",
     "description": "The ARIA label for close button of announcement bar"
+  },
+  "theme.BackToTopButton.buttonAriaLabel": {
+    "message": "Scroll back to top",
+    "description": "The ARIA label for the back to top button"
   },
   "theme.blog.archive.title": {
     "message": "Archive",
