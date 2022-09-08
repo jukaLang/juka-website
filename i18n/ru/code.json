@@ -102,10 +102,6 @@
     "message": "осторожность",
     "description": "The default label used for the Caution admonition (:::caution)"
   },
-  "theme.AnnouncementBar.closeButtonAriaLabel": {
-    "message": "Закрыть",
-    "description": "The ARIA label for close button of announcement bar"
-  },
   "theme.BackToTopButton.buttonAriaLabel": {
     "message": "Вернуться к началу",
     "description": "The ARIA label for the back to top button"
@@ -248,6 +244,10 @@
   "theme.tags.tagsListLabel": {
     "message": "Теги:",
     "description": "The label alongside a tag list"
+  },
+  "theme.AnnouncementBar.closeButtonAriaLabel": {
+    "message": "Закрыть",
+    "description": "The ARIA label for close button of announcement bar"
   },
   "theme.blog.sidebar.navAriaLabel": {
     "message": "Блог последних сообщений навигации",
@@ -455,5 +455,9 @@
   "theme.PwaReloadPopup.closeButtonAriaLabel": {
     "message": "Закрыть",
     "description": "The ARIA label for close button of PWA reload popup"
+  },
+  "theme.tags.tagsPageTitle": {
+    "message": "Tags",
+    "description": "The title of the tag list page"
   }
 }
