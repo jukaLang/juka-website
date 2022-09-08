@@ -25,19 +25,23 @@ __Dispositivo soportado:__
 - Docker (JukaAPI)
 - Motor de juegos de unidad (a través de NuGet.org)
 - [Colmena web (CDN/Navegador/Servidor HTML)](https://github.com/jukaLang/juka-webassembly)
-- [Jupyter via juka-kernel](https://github.com/jukaLang/juka_kernel)
-- [Imagen de caja virtual (JukaVM)](https://github.com/jukaLang/jukaVM)
+- ChromeOS* (see Web Assembly)
+- [Jupyter via juka-kernel](https://github.com/jukaLang/juka-kernel)
+- [Virtual Box Image (JukaVM)](https://github.com/jukaLang/jukaVM)
+- [Windows App (Windows 10+)](https://github.com/jukaLang/JukaApp)
 
-__Próximamente:__
+**__Coming Soon:__**
 - Android App
 - iOS App (iPhone/iPad)
 - App de MacOS
-- App de Windows (Windows 10+)
 - Tizen (Samsung)
+- TempleOS
 
 __Soporte futuro potencial:__
 - AndroidTV App
 - Servicio Web de Amazon (Soporte Nativo)
 - Google Cloud (Soporte Nativo)
+- Arduino
+
 
 

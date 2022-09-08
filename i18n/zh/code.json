@@ -102,10 +102,6 @@
     "message": "警告",
     "description": "The default label used for the Caution admonition (:::caution)"
   },
-  "theme.AnnouncementBar.closeButtonAriaLabel": {
-    "message": "关闭",
-    "description": "The ARIA label for close button of announcement bar"
-  },
   "theme.BackToTopButton.buttonAriaLabel": {
     "message": "回滚到顶部",
     "description": "The ARIA label for the back to top button"
@@ -248,6 +244,10 @@
   "theme.tags.tagsListLabel": {
     "message": "标签：",
     "description": "The label alongside a tag list"
+  },
+  "theme.AnnouncementBar.closeButtonAriaLabel": {
+    "message": "关闭",
+    "description": "The ARIA label for close button of announcement bar"
   },
   "theme.blog.sidebar.navAriaLabel": {
     "message": "博客最近帖子导航",
@@ -455,5 +455,9 @@
   "theme.PwaReloadPopup.closeButtonAriaLabel": {
     "message": "关闭",
     "description": "The ARIA label for close button of PWA reload popup"
+  },
+  "theme.tags.tagsPageTitle": {
+    "message": "Tags",
+    "description": "The title of the tag list page"
   }
 }

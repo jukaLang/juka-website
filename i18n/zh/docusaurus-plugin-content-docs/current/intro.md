@@ -25,19 +25,23 @@ __当前支持的设备：__
 - Docker (JukaAPI)
 - Unity Game 引擎 (through Nuget.org)
 - [Web Assembly(CDN/Browser/HTML 服务器)](https://github.com/jukaLang/juka-webassembly)
-- [Jupyter via juka-kernel](https://github.com/jukaLang/juka_kernel)
-- [虚拟框图像 (JukaVM)](https://github.com/jukaLang/jukaVM)
+- ChromeOS* (see Web Assembly)
+- [Jupyter via juka-kernel](https://github.com/jukaLang/juka-kernel)
+- [Virtual Box Image (JukaVM)](https://github.com/jukaLang/jukaVM)
+- [Windows App (Windows 10+)](https://github.com/jukaLang/JukaApp)
 
-__即将到来：__
+**__Coming Soon:__**
 - Android App
 - iOS 应用程序 (iPhone/iPad)
 - MacOS 应用程序
-- Windows App (Windows 10+)
 - Tizen (Samsung)
+- TempleOS
 
 __潜在的未来支持：__
 - AndroidTV App
 - Amazon Web Service (Native Support)
 - 谷歌云(原生支持)
+- Arduino
+
 
 

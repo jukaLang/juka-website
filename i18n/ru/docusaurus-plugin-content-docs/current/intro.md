@@ -25,19 +25,23 @@ __Поддерживаемое устройство:__
 - Докер (JukaAPI)
 - Игровой движок Unity (через NuGet.org)
 - [Сборка (CDN/браузер/HTML сервер)](https://github.com/jukaLang/juka-webassembly)
-- [Jupyter via juka-kernel](https://github.com/jukaLang/juka_kernel)
-- [Виртуальное изображение Box (JukaVM)](https://github.com/jukaLang/jukaVM)
+- ChromeOS* (see Web Assembly)
+- [Jupyter via juka-kernel](https://github.com/jukaLang/juka-kernel)
+- [Virtual Box Image (JukaVM)](https://github.com/jukaLang/jukaVM)
+- [Windows App (Windows 10+)](https://github.com/jukaLang/JukaApp)
 
-__Скоро:__
+**__Coming Soon:__**
 - Android App
 - iOS приложение (iPhone/iPad)
 - Приложение MacOS
-- Приложение Windows (Windows 10+)
 - Tizen (Samsung)
+- TempleOS
 
 __Потенциальная дальнейшая поддержка:__
 - AndroidTV App
 - Поддержка Amazon
 - Google Cloud (Нативная поддержка)
+- Arduino
+
 
 
