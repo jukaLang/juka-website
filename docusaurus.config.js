@@ -28,7 +28,7 @@ const config = {
         injectHtmlTags() {
           return {
             postBodyTags: [`<input type="checkbox" id="btnControl"/>
-                    <label id="btnControl2" for="btnControl">Discord<iframe title="discord" id="discord" src="https://e.widgetbot.io/channels/975787212954275910/975787212954275916" height="600" width="800" /></label>
+                    <label id="btnControl2" for="btnControl">Chat<iframe title="discord" id="discord" src="https://e.widgetbot.io/channels/975787212954275910/975787212954275916" height="600" width="800" /></label>
                     `],
           };
         },

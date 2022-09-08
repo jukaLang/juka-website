@@ -161,11 +161,12 @@ html[data-theme='dark'] .navbar__items.navbar__items--right a.navbar__item.navba
   height:35px;
   max-width:100%;
   max-height:100%;
-  background-color:#333447;
+  background-color: #36393f;
   color:white;
   text-align:center;
   line-height: 35px;
   display:inline-block;
+  outline: #333447 ridge;
 }
 
 #discord{
@@ -175,6 +176,10 @@ html[data-theme='dark'] .navbar__items.navbar__items--right a.navbar__item.navba
   right:0;
   max-width:100%;
   max-height:90%;
+}
+
+#btnControl:checked + label::before {
+  content: "Close ";
 }
 
 #btnControl:checked + label > #discord {

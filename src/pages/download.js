@@ -4,7 +4,7 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from "./download.module.css";
 import clsx from "clsx";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faServer, faFileCode, faCode,faPuzzlePiece,faDesktopAlt,faSun,faCross,faBook} from '@fortawesome/free-solid-svg-icons'
+import { faServer, faFileCode, faCode,faPuzzlePiece,faDesktopAlt,faSun,faCross,faBook,faGlobe} from '@fortawesome/free-solid-svg-icons'
 import { faWindows, faApple, faLinux, faFreebsd, faRaspberryPi,faPython,faAndroid,faAppStoreIos,faUnity} from '@fortawesome/free-brands-svg-icons'
 import BrowserOnly from "@docusaurus/BrowserOnly";
 
@@ -248,7 +248,7 @@ function DownloadHeader() {
         },
         {
             title: "Online Versions",
-            faIcon: {faBook}.faBook,
+            faIcon: {faGlobe}.faGlobe,
             description: (
                 <>
                     <b>Online Versions:</b><br/>
