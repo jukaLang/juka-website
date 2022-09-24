@@ -169,6 +169,10 @@ html[data-theme='dark'] .navbar__items.navbar__items--right a.navbar__item.navba
   outline: #333447 ridge;
 }
 
+.navbar-sidebar{
+  z-index: 99999 !important;
+}
+
 #discord{
   display: none;
   position:fixed;
@@ -178,8 +182,13 @@ html[data-theme='dark'] .navbar__items.navbar__items--right a.navbar__item.navba
   max-height:90%;
 }
 
+#btnControl + label::before {
+  content: "● ";
+}
+
+
 #btnControl:checked + label::before {
-  content: "Close ";
+  content: "● Close ";
 }
 
 #btnControl:checked + label > #discord {
