@@ -136,7 +136,7 @@ const config = {
             'Please contribute to the documentation at <a target="_blank"  href="https://github.com/JukaLang/juka-website">https://github.com/JukaLang/juka-website</a>',
         backgroundColor: '#ddd',
         textColor: '#091E42',
-        isCloseable: false,
+        isCloseable: true,
       },
       navbar: {
         title: 'Juka Programming Language',
