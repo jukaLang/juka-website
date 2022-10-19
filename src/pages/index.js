@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import clsx from 'clsx';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
@@ -9,6 +9,8 @@ import HomepageSocial from '../components/HomepageSocial';
 import CodeBlock from '@theme/CodeBlock';
 import Translate from '@docusaurus/Translate';
 import BrowserOnly from "@docusaurus/BrowserOnly";
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 
 const TryDetectDownload = () => {
     return (
@@ -45,6 +47,9 @@ const TryDetectDownload = () => {
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
+
+  const [isTabName, setTabName] = useState("");
+
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
@@ -66,16 +71,74 @@ function HomepageHeader() {
                       </div>
               </div>
           <br/>
-          <CodeBlock className={`language-jsx ${styles.maincodeblock}`} title="./HelloWorld.juk">{`func main() = {
+
+
+          <Tabs>
+              <TabItem value="hw" label="Hello World">
+
+                  <CodeBlock className={`language-jsx ${styles.maincodeblock}`}  showLineNumbers>{`func main() = {
     // Print Hello World
     var y = "Hello World";
     printLine(y);
 }
 `}</CodeBlock>
 
+              </TabItem>
+              <TabItem value="ie" label="If/Else">
+
+                  <CodeBlock className={`language-jsx ${styles.maincodeblock}`}  showLineNumbers>{`func main() = {
+    var x = false;
+    if ( x == true)
+    {
+        print("x");
+    }
+    else
+    {
+        print("y");
+    }
+}
+`}</CodeBlock>
+
+              </TabItem>
+              <TabItem value="arr" label="Arrays">
+
+                  <CodeBlock className={`language-jsx ${styles.maincodeblock}`}  showLineNumbers>{`func main() = {
+    var x = array[3];
+    //x[1] = ""test"";
+    print(x[0]); 
+}
+`}</CodeBlock>
+
+              </TabItem>
+              <TabItem value="fd" label="Function Declaration">
+
+                  <CodeBlock className={`language-jsx ${styles.maincodeblock}`}  showLineNumbers>{`func x() = {
+    printLine("function x is called");
+}
+func main() = {
+    x();
+    x();
+}
+`}</CodeBlock>
+
+              </TabItem>
+              <TabItem value="fl" label="For Loop">
+
+                  <CodeBlock className={`language-jsx ${styles.maincodeblock}`}  showLineNumbers>{`func main() = {
+    for(var i = 0; i<3; i++;)
+    {
+        print(i);
+    }
+}
+`}</CodeBlock>
+
+              </TabItem>
+
+          </Tabs>
+
           <div className={styles.idebtns}>
-              <a className={styles.index_runcode} href="/tryonline">Try Juka</a>
-              <a className={styles.index_download} href="/download">Download Juka for <TryDetectDownload/></a>
+              <a className={styles.index_runcode} href={"/tryonline"+isTabName}>Run Code</a>
+              <a className={styles.index_download} href="/download">Download Juka for <TryDetectDownload defaultValue="your OS"/></a>
           </div><br/>
           <h2>
               <Translate>Follow us for news and updates!</Translate>
