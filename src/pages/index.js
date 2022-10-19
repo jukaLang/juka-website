@@ -115,8 +115,10 @@ function HomepageHeader() {
                   <CodeBlock className={`language-jsx ${styles.maincodeblock}`}  showLineNumbers>{`func x() = {
     printLine("function x is called");
 }
-x();
-x();
+func main() = {
+    x();
+    x();
+}
 `}</CodeBlock>
 
               </TabItem>

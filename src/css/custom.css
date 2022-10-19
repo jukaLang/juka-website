@@ -182,6 +182,9 @@ html[data-theme='dark'] .navbar__items.navbar__items--right a.navbar__item.navba
   content: "● ";
 }
 
+#btnControl:checked + #btnControl2{
+  color: rgb(0,224,188);
+}
 
 #btnControl:checked + label::before {
   content: "● Close ";
@@ -197,10 +200,6 @@ html[data-theme='dark'] .navbar__items.navbar__items--right a.navbar__item.navba
   #btnControl2 {display: none !important; visibility: hidden;}
   #discord {display: none !important; visibility: hidden;}
   noscript{display: none !important; visibility: hidden;}
-}
-
-.navbar--fixed-top {
-  z-index: calc(var(--ifm-z-index-fixed) + 1);
 }
 
 li[role='tab'] {
