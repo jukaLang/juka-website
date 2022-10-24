@@ -2,27 +2,45 @@ import React from 'react';
 import clsx from 'clsx';
 import styles from './HomepageFeatures.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCode, faUserFriends,faCoffee, faCloud, faNetworkWired,faComputer,faLaptopCode} from '@fortawesome/free-solid-svg-icons'
+import { faFloppydisk, faCode, faUserFriends,faCoffee, faCloud, faNetworkWired,faComputer,faLaptopCode} from '@fortawesome/free-solid-svg-icons'
 import Translate, {translate} from '@docusaurus/Translate';
 
 const FeatureList = [
     {
-        title: translate({message:'Run on Any Device'}),
+        title: translate({message:'Portable'}),
         faIcon: {faComputer}.faComputer,
         description: (
             <>
-                <Translate>At the current stage, Juka is interpreted. However, we are concurrently working on a Compiler (JIT).
-                     Juka's main goal is to be able to run on any platform including: </Translate><br/> Windows, MacOS, Linux, MS Azure, FreeBSD, Raspberry Pi, C# dll, Unity3D, Android, etc...<br/><b><Translate>Coming Soon</Translate>:</b><br/>iOS/iPadOS, MacOS App, TempleOS.
+                <Translate>Juka doesn't need to be installed! That means you can run Juka in environments where you don't have admin priviledges or in environments where you don't have access to a hard drive. Run it on your Flash/Thumb Drive!</Translate>
             </>
         ),
     },
     {
-        title: translate({message:'Use for Any Project'}),
+        title: translate({message:'Small in Size'}),
+        faIcon: {faFloppydisk}.faFloppydisk,
+        description: (
+            <>
+                <Translate>Juka is fairly small in size ~ 30 mb (depending on the OS). This means that you can put Juka on your Thumb/Flash Drive. In fact, why not put all versions of Juka on your Thumb/Flash Drive? It won't take much space anyways.</Translate>
+            </>
+        ),
+    },
+    {
+        title: translate({message:'Works on "All" Operating Systems'}),
+        faIcon: {faLaptopCode}.faLaptopCode,
+        description: (
+            <>
+                <Translate>We are trying to support all systems including lesser known ones such as FreeBSD and TempleOS. We also support ARM processors and 32-bit systems such as Linux (x86). Why not install Juka on your Raspberry Pi or run it in ChromeOS Flex? </Translate>
+            </>
+        ),
+    },
+    {
+        title: translate({message:'Universal'}),
         faIcon: {faLaptopCode}.faLaptopCode,
         description: (
             <>
                 <Translate>Juka can be used for all types of projects including server side coding, client side coding,
-                    native coding, web development, API development, data science, network security, and quantum computing. Our goal is to create a programming language that can run on any platform and we mean any!</Translate>
+                    native coding, web development, API development, data science, network security, and quantum computing. Our goal is to create a programming language that can run on any platform and we mean any! 
+                </Translate>
             </>
         ),
     },
@@ -34,6 +52,24 @@ const FeatureList = [
                 <Translate>We created JukaAPI so that you can run it on any cloud server. This will allow one to use REST API to run code.
                     Feel free to test it at </Translate><a target="_blank" href="https://api.jukalang.com">https://api.jukalang.com</a>.<br/><br/>
                     <Translate>You can also run Juka on Microsoft's Azure Server by using Juka's Azure serverless function. Compile the code quickly, or let the others run the code. Download latest Azure Function from </Translate> <a href="/download">https://jukalang.com/download</a>. <br/> <Translate>NOTE: you need an active Microsoft Azure account to host.</Translate>
+            </>
+        ),
+    },
+    {
+        title: translate({message:'Jupyter Support'}),
+        faIcon: {faCloud}.faCloud,
+        description: (
+            <>
+                <Translate>We know a lot of people love to use Jupyter Notebook/Lab. We've added an easy way to run Juka (kernel) in Jupyter. Do your data analysis in the software that you are used to! </Translate>
+            </>
+        ),
+    },
+    {
+        title: translate({message:'Runs Juka inside a Web Browser!'}),
+        faIcon: {faCloud}.faCloud,
+        description: (
+            <>
+                <Translate>We know a lot of people love to use Jupyter Notebook/Lab. We've added an easy way to run Juka (kernel) in Jupyter. Do your data analysis in the software that you are used to! </Translate>
             </>
         ),
     },

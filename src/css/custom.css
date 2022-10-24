@@ -167,6 +167,7 @@ html[data-theme='dark'] .navbar__items.navbar__items--right a.navbar__item.navba
   line-height: 35px;
   display:inline-block;
   outline: #333447 ridge;
+  cursor: pointer;
 }
 
 #discord{
