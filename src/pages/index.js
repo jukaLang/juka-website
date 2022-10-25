@@ -24,17 +24,19 @@ const TryDetectDownload = () => {
                     os = "Latest";
 
                 if (macosPlatforms.indexOf(platform) !== -1) {
-                    os = 'MacOS';
+                    return 'MacOS';
                 } else if (iosPlatforms.indexOf(platform) !== -1) {
-                    os = 'iOS';
+                    return 'iOS';
                 } else if (windowsPlatforms.indexOf(platform) !== -1) {
-                    os = 'Windows';
+                    return 'Windows';
                 } else if (/Android/.test(userAgent)) {
-                    os = 'Android';
+                    return 'Android';
                 } else if (/Linux/.test(platform)) {
-                    os = 'Linux';
+                    return 'Linux';
                 } else if (userAgent.indexOf('X11') !== -1) {
-                    return "Unix"
+                    return "Unix";
+                } else if(userAgent.indexOf('CrOS') !== -1) {
+                    return "ChromeOS";
                 }
 
                 return os;

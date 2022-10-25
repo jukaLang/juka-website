@@ -7,25 +7,13 @@ import Translate from '@docusaurus/Translate';
 
 function Specialthanks() {
     return (
-        <section  className={styles.specialthanks}>
-            <div className="container">
-                <div className="row">
-                    <div className={clsx('col col--12')}>
-                        <div className="text--center padding-horiz--md">
-                            <h1><Translate>Special Thanks To:</Translate></h1>
-                            <ul>
-                                <li>
-                                    JetBrains <a target="_blank" href={"https://www.jetbrains.com/"}>(link)</a>
-                                </li>
-                                <li>
-                                    Bugsnag <a target="_blank" href={"https://www.bugsnag.com/"}>(link)</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+        <header  className={styles.specialthanks}>
+            <h1 className={styles.Header}>Special Thanks to the Following Companies:</h1>
+            <div className={styles.specialthanks}>
+                JetBrains <a target="_blank" href={"https://www.jetbrains.com/"}>(link)</a> for supplying us awesome editor software! <br/>
+                Bugsnag <a target="_blank" href={"https://www.bugsnag.com/"}>(link)</a> for helping us track bugs.
             </div>
-        </section>
+        </header>
     );
 }
 

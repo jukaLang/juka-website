@@ -5,7 +5,7 @@ import styles from "./download.module.css";
 import clsx from "clsx";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faServer, faFileCode, faCode,faPuzzlePiece,faDesktopAlt,faSun,faCross,faBook,faGlobe} from '@fortawesome/free-solid-svg-icons'
-import { faWindows, faApple, faLinux, faFreebsd, faRaspberryPi,faPython,faAndroid,faAppStoreIos,faUnity} from '@fortawesome/free-brands-svg-icons'
+import { faChrome,faWindows, faApple, faLinux, faFreebsd, faRaspberryPi,faPython,faAndroid,faAppStoreIos,faUnity} from '@fortawesome/free-brands-svg-icons'
 import BrowserOnly from "@docusaurus/BrowserOnly";
 
 function DownloadHeader() {
@@ -20,7 +20,7 @@ function DownloadHeader() {
         }
     }
 
-    const [version, setVersion] = useState("0.0.231");
+    const [version, setVersion] = useState("0.0.244");
     setV();
 
     function BigDownloadList() {
@@ -61,7 +61,7 @@ function DownloadHeader() {
             ),
         },
         {
-            title: "MacOS",
+            title: "MacOS (Macintosh)",
             faIcon: {faApple}.faApple,
             description: (
                 <>
@@ -73,7 +73,7 @@ function DownloadHeader() {
             ),
         },
         {
-            title: "Linux",
+            title: "Linux (32 and 64 bit)",
             faIcon: {faLinux}.faLinux,
             description: (
                 <>
@@ -94,7 +94,7 @@ function DownloadHeader() {
             ),
         },
         {
-            title: "FreeBSD",
+            title: "FreeBSD and Unix",
             faIcon: {faFreebsd}.faFreebsd,
             description: (
                 <>
@@ -106,7 +106,7 @@ function DownloadHeader() {
             ),
         },
         {
-            title: "iOS",
+            title: "iOS and iPadOS",
             faIcon: {faAppStoreIos}.faAppStoreIos,
             description: (
                 <>
@@ -117,7 +117,7 @@ function DownloadHeader() {
             ),
         },
         {
-            title: "Android",
+            title: "Android and AndroidTV",
             faIcon: {faAndroid}.faAndroid,
             description: (
                 <>
@@ -125,6 +125,18 @@ function DownloadHeader() {
                     <br/>
                     Juka App: <a rel="noopener noreferrer" href={"https://github.com/jukaLang/JukaApp/releases/download/"+version+"/Juka_Android_App_"+version+".apk"} >Download</a><br/>
                     Google PlayStore: <i>In active development, coming soon!</i>
+                </>
+            ),
+        },
+
+        {
+            title: "ChromeOS and ChromeOS Flex",
+            faIcon: {faChrome}.faChrome,
+            description: (
+                <>
+                    <b>ChromeOS (Flex) Version {version}:</b><br/>
+                    <br/>
+                    Go to and click install:  <a href={"https://wasm.jukalang.com"} target={"_blank"}>https://wasm.jukalang.com</a><br/>
                 </>
             ),
         },
@@ -172,6 +184,18 @@ function DownloadHeader() {
             ),
         },
         {
+            title: "Jupyter Kernel",
+            faIcon: {faPython}.faPython,
+            description: (
+                <>
+                    <b>Jupyter Kernel:</b><br/>
+                    <br/>
+                    Download from PyPi:  <code>pip install juka_kernel</code><br/>
+                    Repo Download: <a rel="noopener noreferrer" href={"https://github.com/jukaLang/juka_kenel"} target={"_blank"}>Download</a><br/>
+                </>
+            ),
+        },
+        {
             title: "C# DLL",
             faIcon: {faFileCode}.faFileCode,
             description: (
@@ -196,19 +220,6 @@ function DownloadHeader() {
             ),
         },
         {
-            title: "Jupyter Kernel",
-            faIcon: {faPython}.faPython,
-            description: (
-                <>
-                    <b>Jupyter Kernel:</b><br/>
-                    <br/>
-                    Download from PyPi:  <code>pip install juka_kernel</code><br/>
-                    Repo Download: <a rel="noopener noreferrer" href={"https://github.com/jukaLang/juka_kenel"} target={"_blank"}>Download</a><br/>
-                </>
-            ),
-        },
-
-        {
             title: "Web Assembly",
             faIcon: {faPuzzlePiece}.faPuzzlePiece,
             description: (
@@ -222,7 +233,6 @@ function DownloadHeader() {
                 </>
             ),
         },
-
         {
             title: "Temple OS",
             faIcon: {faCross}.faCross,
@@ -230,7 +240,7 @@ function DownloadHeader() {
                 <>
                     <b>TempleOS {version}:</b><br/>
                     <br/>
-                    <i>In active development, coming soon!</i>
+                    Follow Instructions:  <a rel="noopener noreferrer" href={"https://github.com/jukaLang/JukaForTempleOS"} target={"_blank"} >https://github.com/jukaLang/JukaForTempleOS</a><br/>
                 </>
             ),
         },
@@ -255,7 +265,7 @@ function DownloadHeader() {
                     <br/>
                     Try Online: <a href="/tryonline" >Online Editor</a><br/>
                     API: <a rel="noopener noreferrer" href={"https://api.jukalang.com"} target={"_blank"}>https://api.jukalang.com</a><br/>
-                    Offline (Browser): <a rel="noopener noreferrer" href={"https://wasm.jukalang.com"} target={"_blank"}>https://wasm.jukalang.com</a><br/>
+                    WASM (Executes on your hardware): <a rel="noopener noreferrer" href={"https://wasm.jukalang.com"} target={"_blank"}>https://wasm.jukalang.com</a><br/>
                 </>
             ),
         },
@@ -323,6 +333,8 @@ function DownloadHeader() {
                         userOSEntry = OSList[2];
                     } else if (userAgent.indexOf('X11') !== -1) {
                         userOSEntry = OSList[3];
+                    } else if (userAgent.indexOf('CrOS') !== -1) {
+                        userOSEntry = OSList[6];
                     }
 
                     return (Object.keys(userOSEntry).length !== 0) ? (<><h3>It seems that you are using {userOSEntry.title}: </h3>

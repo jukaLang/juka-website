@@ -2,13 +2,14 @@ import React from 'react';
 import clsx from 'clsx';
 import styles from './HomepageFeatures.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFloppydisk, faCode, faUserFriends,faCoffee, faCloud, faNetworkWired,faComputer,faLaptopCode} from '@fortawesome/free-solid-svg-icons'
+import { faFloppyDisk, faCode, faUserFriends,faCoffee, faCloud, faNetworkWired,faComputer,faLaptopCode,faBoxOpen} from '@fortawesome/free-solid-svg-icons'
+import {faPython,faChrome} from '@fortawesome/free-brands-svg-icons'
 import Translate, {translate} from '@docusaurus/Translate';
 
 const FeatureList = [
     {
         title: translate({message:'Portable'}),
-        faIcon: {faComputer}.faComputer,
+        faIcon: {faLaptopCode}.faLaptopCode,
         description: (
             <>
                 <Translate>Juka doesn't need to be installed! That means you can run Juka in environments where you don't have admin priviledges or in environments where you don't have access to a hard drive. Run it on your Flash/Thumb Drive!</Translate>
@@ -17,7 +18,7 @@ const FeatureList = [
     },
     {
         title: translate({message:'Small in Size'}),
-        faIcon: {faFloppydisk}.faFloppydisk,
+        faIcon: {faFloppyDisk}.faFloppyDisk,
         description: (
             <>
                 <Translate>Juka is fairly small in size ~ 30 mb (depending on the OS). This means that you can put Juka on your Thumb/Flash Drive. In fact, why not put all versions of Juka on your Thumb/Flash Drive? It won't take much space anyways.</Translate>
@@ -26,7 +27,7 @@ const FeatureList = [
     },
     {
         title: translate({message:'Works on "All" Operating Systems'}),
-        faIcon: {faLaptopCode}.faLaptopCode,
+        faIcon: {faNetworkWired}.faNetworkWired,
         description: (
             <>
                 <Translate>We are trying to support all systems including lesser known ones such as FreeBSD and TempleOS. We also support ARM processors and 32-bit systems such as Linux (x86). Why not install Juka on your Raspberry Pi or run it in ChromeOS Flex? </Translate>
@@ -35,7 +36,7 @@ const FeatureList = [
     },
     {
         title: translate({message:'Universal'}),
-        faIcon: {faLaptopCode}.faLaptopCode,
+        faIcon: {faComputer}.faComputer,
         description: (
             <>
                 <Translate>Juka can be used for all types of projects including server side coding, client side coding,
@@ -57,7 +58,7 @@ const FeatureList = [
     },
     {
         title: translate({message:'Jupyter Support'}),
-        faIcon: {faCloud}.faCloud,
+        faIcon: {faPython}.faPython,
         description: (
             <>
                 <Translate>We know a lot of people love to use Jupyter Notebook/Lab. We've added an easy way to run Juka (kernel) in Jupyter. Do your data analysis in the software that you are used to! </Translate>
@@ -66,16 +67,16 @@ const FeatureList = [
     },
     {
         title: translate({message:'Runs Juka inside a Web Browser!'}),
-        faIcon: {faCloud}.faCloud,
+        faIcon: {faChrome}.faChrome,
         description: (
             <>
-                <Translate>We know a lot of people love to use Jupyter Notebook/Lab. We've added an easy way to run Juka (kernel) in Jupyter. Do your data analysis in the software that you are used to! </Translate>
+                <Translate>Run Juka inside a Web Browser! Visit https://wasm.jukalang.com and install the App. On Mobile, it's simply adding the website to your home screen!</Translate>
             </>
         ),
     },
     {
         title: translate({message:'Easy to Use Package Manager'}),
-        faIcon: {faNetworkWired}.faNetworkWired,
+        faIcon: {faBoxOpen}.faBoxOpen,
         description: (
             <>
                 <Translate>All of the packages are hosted on GitHub. That's right! We made it simple to install and contribute to the package development.
