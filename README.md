@@ -22,7 +22,7 @@ Use the following services to test your changes for Juka website before creating
 [![Netlify Deploy](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/jukaLang/juka-website)
 [![Vercel Deploy](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/jukaLang/juka-website)
 
-![website](https://user-images.githubusercontent.com/11934545/176821804-219938b9-d8cb-4cbd-a429-13eb6648b75e.png)
+![website](https://user-images.githubusercontent.com/11934545/197924868-f419e855-0aee-412a-8f29-ffbbf883cd95.png)
 
 # Juka Programming Language
 
