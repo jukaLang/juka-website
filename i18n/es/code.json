@@ -1,15 +1,24 @@
 {
-  "Run on Any Device": {
-    "message": "Ejecutar en cualquier dispositivo"
+  "Portable": {
+    "message": "Portable"
   },
-  "At the current stage, Juka is interpreted. However, we are concurrently working on a Compiler (JIT). Juka's main goal is to be able to run on any platform including:": {
-    "message": "En la fase actual, Juka se interpreta, pero estamos trabajando simultáneamente en un Compilador (JIT). El objetivo principal de Juka es poder correr en cualquier plataforma incluyendo:"
+  "Juka doesn't need to be installed! That means you can run Juka in environments where you don't have admin priviledges or in environments where you don't have access to a hard drive. Run it on your Flash/Thumb Drive!": {
+    "message": "Juka doesn't need to be installed! That means you can run Juka in environments where you don't have admin priviledges or in environments where you don't have access to a hard drive. Run it on your Flash/Thumb Drive!"
   },
-  "Coming Soon": {
-    "message": "Próximamente"
+  "Small in Size": {
+    "message": "Small in Size"
   },
-  "Use for Any Project": {
-    "message": "Use for Any Project"
+  "Juka is fairly small in size ~ 30 mb (depending on the OS). This means that you can put Juka on your Thumb/Flash Drive. In fact, why not put all versions of Juka on your Thumb/Flash Drive? It won't take much space anyways.": {
+    "message": "Juka is fairly small in size ~ 30 mb (depending on the OS). This means that you can put Juka on your Thumb/Flash Drive. In fact, why not put all versions of Juka on your Thumb/Flash Drive? It won't take much space anyways."
+  },
+  "Works on \"All\" Operating Systems": {
+    "message": "Works on \"All\" Operating Systems"
+  },
+  "We are trying to support all systems including lesser known ones such as FreeBSD and TempleOS. We also support ARM processors and 32-bit systems such as Linux (x86). Why not install Juka on your Raspberry Pi or run it in ChromeOS Flex?": {
+    "message": "We are trying to support all systems including lesser known ones such as FreeBSD and TempleOS. We also support ARM processors and 32-bit systems such as Linux (x86). Why not install Juka on your Raspberry Pi or run it in ChromeOS Flex?"
+  },
+  "Universal": {
+    "message": "Universal"
   },
   "Juka can be used for all types of projects including server side coding, client side coding, native coding, web development, API development, data science, network security, and quantum computing. Our goal is to create a programming language that can run on any platform and we mean any!": {
     "message": "Juka can be used for all types of projects including server side coding, client side coding, native coding, web development, API development, data science, network security, and quantum computing. Our goal is to create a programming language that can run on any platform and we mean any!"
@@ -25,6 +34,18 @@
   },
   "NOTE: you need an active Microsoft Azure account to host.": {
     "message": "NOTA: necesita una cuenta activa de Microsoft Azure para alojar."
+  },
+  "Jupyter Support": {
+    "message": "Jupyter Support"
+  },
+  "We know a lot of people love to use Jupyter Notebook/Lab. We've added an easy way to run Juka (kernel) in Jupyter. Do your data analysis in the software that you are used to!": {
+    "message": "We know a lot of people love to use Jupyter Notebook/Lab. We've added an easy way to run Juka (kernel) in Jupyter. Do your data analysis in the software that you are used to!"
+  },
+  "Runs Juka inside a Web Browser!": {
+    "message": "Runs Juka inside a Web Browser!"
+  },
+  "Run Juka inside a Web Browser! Visit https://wasm.jukalang.com and install the App. On Mobile, it's simply adding the website to your home screen!": {
+    "message": "Run Juka inside a Web Browser! Visit https://wasm.jukalang.com and install the App. On Mobile, it's simply adding the website to your home screen!"
   },
   "Easy to Use Package Manager": {
     "message": "Easy to Use Package Manager"
@@ -58,9 +79,6 @@
   },
   "Follow us for news and updates!": {
     "message": "¡Síguenos para noticias y actualizaciones!"
-  },
-  "Special Thanks To:": {
-    "message": "Agradecimientos especiales:"
   },
   "theme.ErrorPageContent.title": {
     "message": "Esta página ha fallado.",
@@ -102,10 +120,6 @@
     "message": "precaución",
     "description": "The default label used for the Caution admonition (:::caution)"
   },
-  "theme.BackToTopButton.buttonAriaLabel": {
-    "message": "Desplazar hacia arriba",
-    "description": "The ARIA label for the back to top button"
-  },
   "theme.blog.archive.title": {
     "message": "Archivar",
     "description": "The page & hero title of the blog archive page"
@@ -113,6 +127,10 @@
   "theme.blog.archive.description": {
     "message": "Archivar",
     "description": "The page & hero description of the blog archive page"
+  },
+  "theme.BackToTopButton.buttonAriaLabel": {
+    "message": "Desplazar hacia arriba",
+    "description": "The ARIA label for the back to top button"
   },
   "theme.blog.paginator.navAriaLabel": {
     "message": "Navegación de la lista de blogs",
