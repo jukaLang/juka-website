@@ -12,7 +12,7 @@ const FeatureList = [
         faIcon: {faLaptopCode}.faLaptopCode,
         description: (
             <>
-                <Translate>Juka doesn't need to be installed! That means you can run Juka in environments where you don't have admin priviledges or in environments where you don't have access to a hard drive. Run it on your Flash/Thumb Drive!</Translate>
+                <Translate>Juka doesn't need to be installed! That means you can run Juka in environments where you don't have admin priviledges or in environments where you don't have access to a hard drive. Juka is standalone and doesn't require any other application to be installed. Run it on your Flash/Thumb Drive!</Translate>
             </>
         ),
     },
@@ -66,7 +66,7 @@ const FeatureList = [
         ),
     },
     {
-        title: translate({message:'Runs Juka inside a Web Browser!'}),
+        title: translate({message:'Run Juka inside a Web Browser!'}),
         faIcon: {faChrome}.faChrome,
         description: (
             <>
