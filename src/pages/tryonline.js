@@ -2,9 +2,7 @@ import React, {useState} from 'react';
 import Layout from '@theme/Layout';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from "./tryonline.module.css";
-import CodeMirror from '@uiw/react-codemirror';
-import { javascript } from '@codemirror/lang-javascript';
-import { oneDark } from '@codemirror/theme-one-dark';
+import Editor from "@monaco-editor/react";
 import { useLocation, useHistory } from 'react-router-dom';
 import CodeBlock from '@theme/CodeBlock';
 
@@ -168,6 +166,119 @@ function TryEditor() {
         );
     }
 
+    function setEditorTheme(monaco) {
+        monaco.languages.register({id:"juka"});
+        monaco.languages.setMonarchTokensProvider("juka", {
+            func: ['func'],
+            keyword: [
+                'abstract', 'continue', 'for', 'new', 'switch', 'assert', 'goto', 'do',
+                'if', 'private', 'this', 'break', 'protected', 'throw', 'else', 'public',
+                'enum', 'return', 'catch', 'try', 'interface', 'static', 'class',
+                'finally', 'const', 'super', 'while', 'true', 'false', 'var'
+            ],
+            operators: [
+                '=', '>', '<', '!', '~', '?', ':', '==', '<=', '>=', '!=',
+                '&&', '||', '++', '--', '+', '-', '*', '/', '&', '|', '^', '%',
+                '<<', '>>', '>>>', '+=', '-=', '*=', '/=', '&=', '|=', '^=',
+                '%=', '<<=', '>>=', '>>>='
+            ],
+            symbols: /[=><!~?:&|+\-*\/^%]+/,
+            escapes: /\\(?:[abfnrtv\\"']|x[0-9A-Fa-f]{1,4}|u[0-9A-Fa-f]{4}|U[0-9A-Fa-f]{8})/,
+            tokenizer: {
+                root: [
+                    [/[a-z_$][\w$]*/, {
+                        cases: {
+                            '@func': 'func',
+                            '@keyword': 'keyword',
+                            '@default': 'identifier'
+                        }
+                    }],
+                    [/[A-Z][\w$]*/, 'type.identifier'],
+
+                    // whitespace
+                    { include: '@whitespace' },
+
+                    // delimiters and operators
+                    [/[{}()\[\]]/, '@brackets'],
+                    [/[<>](?!@symbols)/, '@brackets'],
+                    [/@symbols/, {
+                        cases: {
+                            '@operators': 'operator',
+                            '@default': ''
+                        }
+                    }],
+
+                    // @ annotations.
+                    // As an example, we emit a debugging log message on these tokens.
+                    // Note: message are supressed during the first load -- change some lines to see them.
+                    [/@\s*[a-zA-Z_\$][\w\$]*/, { token: 'annotation', log: 'annotation token: $0' }],
+
+                    // numbers
+                    [/\d*\.\d+([eE][\-+]?\d+)?/, 'number.float'],
+                    [/0[xX][0-9a-fA-F]+/, 'number.hex'],
+                    [/\d+/, 'number'],
+
+                    // delimiter: after number because of .\d floats
+                    [/[;,.]/, 'delimiter'],
+
+                    // strings
+                    [/"([^"\\]|\\.)*$/, 'string.invalid'],  // non-teminated string
+                    [/"/, { token: 'string.quote', bracket: '@open', next: '@string' }],
+
+                    // characters
+                    [/'[^\\']'/, 'string'],
+                    [/(')(@escapes)(')/, ['string', 'string.escape', 'string']],
+                    [/'/, 'string.invalid']
+                ],
+
+                comment: [
+                    [/[^\/*]+/, 'comment'],
+                    [/\/\*/, 'comment', '@push'],    // nested comment
+                    ["\\*/", 'comment', '@pop'],
+                    [/[\/*]/, 'comment']
+                ],
+
+                string: [
+                    [/[^\\"]+/, 'string'],
+                    [/@escapes/, 'string.escape'],
+                    [/\\./, 'string.escape.invalid'],
+                    [/"/, { token: 'string.quote', bracket: '@close', next: '@pop' }]
+                ],
+
+                whitespace: [
+                    [/[ \t\r\n]+/, 'white'],
+                    [/\/\*/, 'comment', '@comment'],
+                    [/\/\/.*$/, 'comment'],
+                ],
+            }
+        });
+        monaco.editor.defineTheme("juka", {
+            base: "vs-dark",
+            inherit: true,
+            rules: [
+                {
+                    token: "func",
+                    foreground: '#00e0bc',
+                },
+                {
+                    token: "keyword",
+                    foreground: '#FF4500',
+                },
+                {
+                    token: "number",
+                    foreground: '#54a154',
+                },
+                {
+                    token: "comment",
+                    foreground: '#888ed1',
+                },
+            ],
+            colors: {
+                "editor.background": '#21252b',
+            },
+        });
+    }
+
     return (
         <header className={styles.jide_container}>
             Want to compile and run offline? Visit <a rel="noopener noreferrer" href={"https://wasm.jukalang.com"} target={"_blank"}>https://wasm.jukalang.com</a><br/><br/>
@@ -183,11 +294,14 @@ function TryEditor() {
                 <button className={styles.jide_plusbutton} onClick={() => AddTab()}>+</button>
             </div>
 
-            <CodeMirror
-                value={isCvalue}
-                height="100%"
-                theme={oneDark}
-                extensions={[javascript({ jsx: true })]}
+
+
+            <Editor
+                defaultValue={isCvalue}
+                height="40vh"
+                defaultLanguage="juka"
+                beforeMount={setEditorTheme}
+                theme="juka"
                 onChange={(value, viewUpdate) => {
                     setCvalue(value);
                 }}

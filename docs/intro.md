@@ -9,7 +9,7 @@ Juka's main goal is to be a universal programming language that can run on any p
 
 Juka's philosophy is code once, run everywhere.
 
-![jukaRun](/img/latestjuka.gif)
+![jukaRun](/img/latestjuka.png)
 
 Join our Discord Community: https://discord.com/invite/MsKWsErzfp
 
