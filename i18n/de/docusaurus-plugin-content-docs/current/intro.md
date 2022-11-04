@@ -9,7 +9,7 @@ Jukas Hauptziel ist es, eine universelle Programmiersprache zu sein, die auf jed
 
 Jukas Philosophie ist nur einmal Code, überall ausgeführt.
 
-![jukaRun](/img/latestjuka.gif)
+![jukaRun](/img/latestjuka.png)
 
 Trete unserer Discord Community bei: https://discord.com/invite/MsKWsErzfp
 
