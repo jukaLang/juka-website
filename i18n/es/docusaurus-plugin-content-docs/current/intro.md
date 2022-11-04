@@ -9,7 +9,7 @@ El principal objetivo de Juka es ser un lenguaje de programación universal que 
 
 La filosofía de Juka es código una vez, corre por todas partes.
 
-![jukaRun](/img/latestjuka.gif)
+![jukaRun](/img/latestjuka.png)
 
 Únete a nuestra comunidad de Discord: https://discord.com/invite/MsKWsErzfp
 
