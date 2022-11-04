@@ -9,7 +9,7 @@ Juka的主要目标是成为一种通用的编程语言，可以在任何平台�
 
 Juka的哲学是一次代码，遍布任何地方。
 
-![jukaRun](/img/latestjuka.gif)
+![jukaRun](/img/latestjuka.png)
 
 加入我们的 Discord 社区：https://discord.com/invite/MsKWsErzfp
 

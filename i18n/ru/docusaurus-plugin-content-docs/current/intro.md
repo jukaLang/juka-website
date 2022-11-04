@@ -9,7 +9,7 @@ slug: /
 
 Философия Джуки это код один раз, запускается везде.
 
-![jukaRun](/img/latestjuka.gif)
+![jukaRun](/img/latestjuka.png)
 
 Присоединяйтесь к нашему сообществу Discord: https://discord.com/invite/MsKWsErzfp
 
