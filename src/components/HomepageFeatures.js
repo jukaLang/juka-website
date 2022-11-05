@@ -12,7 +12,7 @@ const FeatureList = [
         faIcon: {faLaptopCode}.faLaptopCode,
         description: (
             <>
-                <Translate>Juka doesn't need to be installed! That means you can run Juka in environments where you don't have admin priviledges or in environments where you don't have access to a hard drive. Juka is standalone and doesn't require any other application to be installed. Run it on your Flash/Thumb Drive!</Translate>
+                <Translate>Juka doesn't need to be installed! That means you can run Juka in environments where you don't have admin privileges or in environments where you don't have access to a hard drive. Juka is completely standalone and doesn't require any other application or any other dependency to be installed. Run it on your Flash/Thumb Drive!</Translate>
             </>
         ),
     },
@@ -112,7 +112,7 @@ const FeatureList = [
                 Facebook: <a rel="noopener noreferrer" target="_blank" href="https://www.facebook.com/jukalang/">@jukalang</a><br/>
                 Instagram: <a rel="noopener noreferrer" target="_blank" href="https://www.instagram.com/jukalanguage/">@jukalanguage</a><br/>
                 Twitter: <a rel="noopener noreferrer" target="_blank" href="https://twitter.com/jukaLang">@jukaLang</a><br/>
-                YouTube: <a rel="noopener noreferrer" target="_blank" href="https://www.youtube.com/channel/UCRkKqD0fnuVAJLJe9p4ZiKQ">Juka Programming Language</a><br/>
+                YouTube: <a rel="noopener noreferrer" target="_blank" href="https://www.youtube.com/@jukalang">http://youtube.com/@jukalang</a><br/>
                 Discord: <a rel="noopener noreferrer" target="_blank" href="https://discord.gg/MsKWsErzfp">Discord</a>
             </>
         ),

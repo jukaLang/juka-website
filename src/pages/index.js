@@ -6,6 +6,7 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from './index.module.css';
 import HomepageFeatures from '../components/HomepageFeatures';
 import HomepageSocial from '../components/HomepageSocial';
+import QandA from '../components/QuestionsAnswers';
 import CodeBlock from '@theme/CodeBlock';
 import Translate from '@docusaurus/Translate';
 import BrowserOnly from "@docusaurus/BrowserOnly";
@@ -31,6 +32,8 @@ const TryDetectDownload = () => {
                     return 'Windows';
                 } else if (/Android/.test(userAgent)) {
                     return 'Android';
+                } else if (/TV/.test(userAgent)) {
+                    return 'AndroidTV';
                 } else if (/Linux/.test(platform)) {
                     return 'Linux';
                 } else if (userAgent.indexOf('X11') !== -1) {
@@ -165,6 +168,7 @@ export default function Home() {
       <HomepageHeader />
       <main>
         <HomepageFeatures />
+          <QandA/>
       </main>
     </Layout>
   );

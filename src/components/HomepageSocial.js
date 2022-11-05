@@ -20,7 +20,7 @@ const SocialList = [
     },
     {
         faIcon: {faYoutube}.faYoutube,
-        url: "https://www.youtube.com/channel/UCRkKqD0fnuVAJLJe9p4ZiKQ"
+        url: "https://www.youtube.com/@jukalang"
     },
     {
         faIcon: {faDiscord}.faDiscord,

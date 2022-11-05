@@ -20,7 +20,7 @@ function DownloadHeader() {
         }
     }
 
-    const [version, setVersion] = useState("0.0.244");
+    const [version, setVersion] = useState("0.0.251");
     setV();
 
     function BigDownloadList() {
@@ -112,7 +112,8 @@ function DownloadHeader() {
                 <>
                     <b>iOS Version {version}:</b><br/>
                     <br/>
-                    <i>In active development, coming soon!</i>
+                    WASM (Browser Based App): <a rel="noopener noreferrer" href={"https://wasm.jukalang.com"} target={"_blank"}>https://wasm.jukalang.com</a><br/>
+                    Native App: <i>In active development, coming soon!</i>
                 </>
             ),
         },
@@ -123,7 +124,8 @@ function DownloadHeader() {
                 <>
                     <b>Android Version {version}:</b><br/>
                     <br/>
-                    Juka App: <a rel="noopener noreferrer" href={"https://github.com/jukaLang/JukaApp/releases/download/"+version+"/Juka_Android_App_"+version+".apk"} >Download</a><br/>
+                    WASM (Browser Based App): <a rel="noopener noreferrer" href={"https://wasm.jukalang.com"} target={"_blank"}>https://wasm.jukalang.com</a><br/>
+                    Sideload Juka App: <a rel="noopener noreferrer" href={"https://github.com/jukaLang/JukaApp/releases/download/"+version+"/Juka_Android_App_"+version+".apk"} >Download</a><br/>
                     Google PlayStore: <i>In active development, coming soon!</i>
                 </>
             ),
@@ -148,7 +150,8 @@ function DownloadHeader() {
                 <>
                     <b>Tizen (Samsung) Version {version}:</b><br/>
                     <br/>
-                    <i>In active development, coming soon!</i>
+                    WASM (Browser Based App): <a rel="noopener noreferrer" href={"https://wasm.jukalang.com"} target={"_blank"}>https://wasm.jukalang.com</a><br/>
+                    Native App: <i>In active development, coming soon!</i>
                 </>
             ),
         },
@@ -328,6 +331,8 @@ function DownloadHeader() {
                     } else if (windowsPlatforms.indexOf(platform) !== -1) {
                         userOSEntry = OSList[0];
                     } else if (/Android/.test(userAgent)) {
+                        userOSEntry = OSList[5];
+                    } else if (/TV/.test(userAgent)) {
                         userOSEntry = OSList[5];
                     } else if (/Linux/.test(platform)) {
                         userOSEntry = OSList[2];
