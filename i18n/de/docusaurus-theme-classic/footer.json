@@ -1,6 +1,6 @@
 {
   "link.title.Tutorials": {
-    "message": "Anleitungen",
+    "message": "Tutorials",
     "description": "The title of the footer links column with title=Tutorials in the footer"
   },
   "link.title.Community": {
@@ -8,23 +8,23 @@
     "description": "The title of the footer links column with title=Community in the footer"
   },
   "link.title.More": {
-    "message": "Mehr",
+    "message": "More",
     "description": "The title of the footer links column with title=More in the footer"
   },
   "link.item.label.Documentation": {
-    "message": "Dokumentation",
+    "message": "Documentation",
     "description": "The label of footer link with label=Documentation linking to /docs"
   },
   "link.item.label.Learn": {
-    "message": "Lernen",
+    "message": "Learn",
     "description": "The label of footer link with label=Learn linking to /learn"
   },
   "link.item.label.Download Juka": {
-    "message": "Juka herunterladen",
+    "message": "Download Juka",
     "description": "The label of footer link with label=Download Juka linking to /download"
   },
   "link.item.label.Try Online": {
-    "message": "Online versuchen",
+    "message": "Try Online",
     "description": "The label of footer link with label=Try Online linking to /tryonline"
   },
   "link.item.label.Discord": {
@@ -44,15 +44,15 @@
     "description": "The label of footer link with label=Instagram linking to https://www.instagram.com/jukalanguage/"
   },
   "link.item.label.Privacy": {
-    "message": "Privatsphäre",
+    "message": "Privacy",
     "description": "The label of footer link with label=Privacy linking to /privacy"
   },
   "link.item.label.License": {
-    "message": "Lizenz",
+    "message": "License",
     "description": "The label of footer link with label=License linking to /license"
   },
   "link.item.label.Special Thanks": {
-    "message": "Besonderer Dank",
+    "message": "Special Thanks",
     "description": "The label of footer link with label=Special Thanks linking to /specialthanks"
   },
   "link.item.label.GitHub Source": {
@@ -60,7 +60,7 @@
     "description": "The label of footer link with label=GitHub Source linking to https://github.com/jukaLang/juka"
   },
   "copyright": {
-    "message": "Copyright © 2022 Juka Programming Language <br/> (Last updated on 11/3/2022, 8:15:24 PM EST)",
+    "message": "Copyright © 2022 Juka Programming Language <br/> (Last updated on 11/4/2022, 10:44:54 PM EST)",
     "description": "The footer copyright"
   }
 }
