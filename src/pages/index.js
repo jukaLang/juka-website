@@ -25,21 +25,21 @@ const TryDetectDownload = () => {
                     os = "Latest";
 
                 if (macosPlatforms.indexOf(platform) !== -1) {
-                    return 'MacOS';
+                    return 'for MacOS';
                 } else if (iosPlatforms.indexOf(platform) !== -1) {
-                    return 'iOS';
+                    return 'for iOS';
                 } else if (windowsPlatforms.indexOf(platform) !== -1) {
-                    return 'Windows';
+                    return 'for Windows';
                 } else if (/Android/.test(userAgent)) {
-                    return 'Android';
+                    return 'for Android';
                 } else if (/TV/.test(userAgent)) {
-                    return 'AndroidTV';
+                    return 'for AndroidTV';
                 } else if (/Linux/.test(platform)) {
-                    return 'Linux';
+                    return 'for Linux';
                 } else if (userAgent.indexOf('X11') !== -1) {
-                    return "Unix";
+                    return "for Unix";
                 } else if(userAgent.indexOf('CrOS') !== -1) {
-                    return "ChromeOS";
+                    return "for ChromeOS";
                 }
 
                 return os;
@@ -143,7 +143,7 @@ func main() = {
 
           <div className={styles.idebtns}>
               <a className={styles.index_runcode} href={"/tryonline"+isTabName}>Run Code</a>
-              <a className={styles.index_download} href="/download">Download Juka for <TryDetectDownload defaultValue="your OS"/></a>
+              <a className={styles.index_download} href="/download">Download Juka <TryDetectDownload/></a>
           </div><br/>
           <h2>
               <Translate>Follow us for news and updates!</Translate>

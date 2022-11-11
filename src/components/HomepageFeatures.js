@@ -40,7 +40,7 @@ const FeatureList = [
         description: (
             <>
                 <Translate>Juka can be used for all types of projects including server side coding, client side coding,
-                    native coding, web development, API development, data science, network security, and quantum computing. Our goal is to create a programming language that can run on any platform and we mean any! 
+                    native coding, web development, API development, data science, network security, and quantum computing. Our goal is to create a programming language that can run on any platform and we mean any! Including Linux x32, FreeBSD, Chromium, Discord, and Telegram.
                 </Translate>
             </>
         ),

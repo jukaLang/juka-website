@@ -4,7 +4,7 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from "./download.module.css";
 import clsx from "clsx";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faServer, faFileCode, faCode,faPuzzlePiece,faDesktopAlt,faSun,faCross,faBook,faGlobe} from '@fortawesome/free-solid-svg-icons'
+import { faServer, faFileCode, faCode,faPuzzlePiece,faDesktopAlt,faSun,faCross,faBook,faGlobe,faRobot} from '@fortawesome/free-solid-svg-icons'
 import { faChrome,faWindows, faApple, faLinux, faFreebsd, faRaspberryPi,faPython,faAndroid,faAppStoreIos,faUnity} from '@fortawesome/free-brands-svg-icons'
 import BrowserOnly from "@docusaurus/BrowserOnly";
 
@@ -191,10 +191,10 @@ function DownloadHeader() {
             faIcon: {faPython}.faPython,
             description: (
                 <>
-                    <b>Jupyter Kernel:</b><br/>
+                    <b>Jupyter Kernel Version 0.2:</b><br/>
                     <br/>
-                    Download from PyPi:  <code>pip install juka_kernel</code><br/>
-                    Repo Download: <a rel="noopener noreferrer" href={"https://github.com/jukaLang/juka_kenel"} target={"_blank"}>Download</a><br/>
+                    Download from PyPi:  <code>pip install juka-kernel</code><br/>
+                    Repo Download: <a rel="noopener noreferrer" href={"https://github.com/jukaLang/juka-kernel"} target={"_blank"}>Download</a><br/>
                 </>
             ),
         },
@@ -215,7 +215,7 @@ function DownloadHeader() {
             faIcon: {faUnity}.faUnity,
             description: (
                 <>
-                    <b>Unity {version}:</b><br/>
+                    <b>Unity Version {version}:</b><br/>
                     <br/>
                     Download from NuGet.org:  <a rel="noopener noreferrer" href={"https://www.nuget.org/api/v2/package/JukaCompiler"}>Download</a><br/>
                     Other Versions: <a rel="noopener noreferrer" href={"https://www.nuget.org/packages/JukaCompiler"} target={"_blank"}>Download</a><br/>
@@ -227,7 +227,7 @@ function DownloadHeader() {
             faIcon: {faPuzzlePiece}.faPuzzlePiece,
             description: (
                 <>
-                    <b>Web Assembly {version}:</b><br/>
+                    <b>Web Assembly Version {version}:</b><br/>
                     <br/>
                     Latest:  <a rel="noopener noreferrer" href={"https://github.com/jukaLang/juka-webassembly/releases/download/"+version+"/Juka_WebAssembly_"+version+".zip"} >Download version {version}</a><br/>
                     Repo Download: <a rel="noopener noreferrer" href={"https://github.com/jukaLang/juka-webassembly"} target={"_blank"} >Download</a><br/><br/>
@@ -237,11 +237,25 @@ function DownloadHeader() {
             ),
         },
         {
+            title: "Bots",
+            faIcon: {faRobot}.faRobot,
+            description: (
+                <>
+                    <b>Bot Version {version}:</b><br/>
+                    <br/>
+                    Telegram: Message @jukaLangBot<br/>
+                    Discord (for your channel): <a rel="noopener noreferrer" href={"https://t.co/OaOE0TtvVK"} target={"_blank"} >Install App</a><br/><br/>
+
+                    Discord (our channel): <a rel="noopener noreferrer" href={"https://discord.gg/MsKWsErzfp"} target={"_blank"} >https://discord.gg/MsKWsErzfp</a><br/>
+                </>
+            ),
+        },
+        {
             title: "Temple OS",
             faIcon: {faCross}.faCross,
             description: (
                 <>
-                    <b>TempleOS {version}:</b><br/>
+                    <b>TempleOS:</b><br/>
                     <br/>
                     Follow Instructions:  <a rel="noopener noreferrer" href={"https://github.com/jukaLang/JukaForTempleOS"} target={"_blank"} >https://github.com/jukaLang/JukaForTempleOS</a><br/>
                 </>
