@@ -4,4 +4,4 @@ id: Installing Juka App
 slug: /appinstall
 ---
 
-Juka can be ran on many platforms including Windows, MacOS, Linux, FreeBSD, Web Browsers, etc.
+Juka может быть запущена на многих платформах, включая Windows, MacOS, Linux, FreeBSD, Web Browser'ы и т.д.

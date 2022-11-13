@@ -2,8 +2,8 @@
 sidebar_position: 1
 ---
 
-# Windows App
+# Приложение Windows
 
-Download latest version of Windows App from Downloads
+Скачайте последнюю версию приложения Windows из загрузок
 
-### More Information Coming Soon
+### Скоро будет больше информации

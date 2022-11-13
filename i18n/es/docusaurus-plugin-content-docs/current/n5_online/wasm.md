@@ -2,8 +2,8 @@
 sidebar_position: 3
 ---
 
-# Web Assembly
+# Colmena web
 
-Visit https://wasm.jukalang.com
+Visita https://wasm.jukalang.com
 
-## More info coming soon
+## Más información próximamente

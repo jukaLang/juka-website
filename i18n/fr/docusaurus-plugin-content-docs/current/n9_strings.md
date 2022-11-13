@@ -1,31 +1,31 @@
 ---
 sidebar_position: 9
-slug: /strings
+slug: /chaines de caractères
 ---
 
 # Chaînes de caractères
 
-## What is a string?
-A string is a series of ascii characters joined to create a "sentence".
+## Qu'est-ce qu'une chaîne?
+Une chaîne de caractères est une série de caractères ascii unis pour créer une "phrase".
 
 
-## Defining Strings
+## Définition des chaînes
 
-You can define string by using quotation: **"** Your String Here **"**
+Vous pouvez définir une chaîne de caractères en utilisant une citation : **"** Votre chaîne de caractères ici **"**
 
-For example,
+Par exemple,
 
 ```jsx
-var animal = "cat"
+var animal = "chat"
 ```
-will be a string, while
+sera une chaîne, tant que
 
 ```jsx
 chat
 ```
-is an object
+est un objet
 
 
-## Combining strings with a number
+## Combinaison de chaînes avec un nombre
 
-Whenever you add string to a number (or vice versa), the end result will be string. The numbers are implicitly converted into strings. 
+Chaque fois que vous ajoutez une chaîne de caractères à un nombre (ou vice versa), le résultat final sera une chaîne de caractères. Les nombres sont implicitement convertis en chaînes. 

@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
 slug: /
-id: intro
+id: интро
 ---
 
 # Введение
@@ -26,12 +26,12 @@ __Поддерживаемое устройство:__
 - Докер (JukaAPI)
 - Игровой движок Unity (через NuGet.org)
 - [Сборка (CDN/браузер/HTML сервер)](https://github.com/jukaLang/juka-webassembly)
-- ChromeOS* (see Web Assembly)
+- ChromeOS* (см. веб-сборку)
 - [Jupyter via juka-kernel](https://github.com/jukaLang/juka-kernel)
-- [Virtual Box Image (JukaVM)](https://github.com/jukaLang/jukaVM)
-- [Windows App (Windows 10+)](https://github.com/jukaLang/JukaApp)
+- [Виртуальное изображение Box (JukaVM)](https://github.com/jukaLang/jukaVM)
+- [Приложение Windows (Windows 10+)](https://github.com/jukaLang/JukaApp)
 
-**__Coming Soon:__**
+**__Скоро:__**
 - Android App
 - iOS приложение (iPhone/iPad)
 - Приложение MacOS

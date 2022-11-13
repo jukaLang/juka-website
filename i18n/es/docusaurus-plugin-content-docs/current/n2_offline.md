@@ -3,23 +3,23 @@ sidebar_position: 2
 slug: /offline
 ---
 
-# Offline Documentation
+# Documentación sin conexión
 
-There are two ways Juka can be accessed offline: through PDF and through cached Juka website (Juka PWA).
+Hay dos maneras de acceder a Juka fuera de línea: a través de PDF y a través del sitio web de Juka en caché (Juka PWA).
 
-## Cached Website/Juka PWA
+## Sitio web cacheado/Juka PWA
 
-### If you are on a mobile device:
-Click on "add this to homepage". This will automatically create a PWA app which can be accessed even without the internet.
+### Si estás en un dispositivo móvil:
+Haga clic en "añadir esto a la página de inicio". Esto creará automáticamente una aplicación PWA a la que se puede acceder incluso sin Internet.
 
-### If you are on a Desktop (Windows, Macintosh, Linux,ChromeOS):
-Find the browser URL field and look at the right section. Click on "Install Juka Programming Language Website". This will install a browser app that can be ran offline (without internet).
+### Si está en un escritorio (Windows, Macintosh, Linux,ChromeOS):
+Encuentre el campo URL del navegador y mire la sección de la derecha. Haga clic en "Instalar Juka Programming Language Website". Esto instalará una aplicación de navegador que puede ejecutarse sin conexión (sin internet).
 
-## PDF
+## DF
 
-Juka documentation can be downloaded by going to "Downloads" page and scrolling down to documentation page.
+La documentación de Juka se puede descargar yendo a la página de "Descargas" y bajando a la página de documentación.
 
-You can also download directly from:
+También puedes descargar directamente de:
 
-https://github.com/jukaLang/juka-website/releases/download/JukaLang/jukadocs.pdf
+https://github.com/jukaLang/ju website/releases/download/JukaLang/jukadocs.pdf
 

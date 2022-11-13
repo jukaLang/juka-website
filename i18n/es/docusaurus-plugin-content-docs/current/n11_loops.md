@@ -1,6 +1,6 @@
 ---
 sidebar_position: 11
-slug: /loops
+slug: /bucles
 ---
 
 # Bucles
@@ -30,7 +30,7 @@ Un ejemplo simple de ruptura:
 ```jsx
 func main() = {
     var x = 0;
-    while( 1){
+    while (1){
     x = x + 1;
         if (x > 2) {
             break;

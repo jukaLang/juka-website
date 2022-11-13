@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Windows
+# 窗口
 
 运行以下命令启动Juka编辑器：
 

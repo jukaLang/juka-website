@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Windows
+# Fenster
 
 Führen Sie den folgenden Befehl aus, um den Juka-Editor zu starten:
 

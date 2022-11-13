@@ -1,31 +1,31 @@
 ---
 sidebar_position: 9
-slug: /strings
+slug: /строк
 ---
 
 # Строки
 
-## What is a string?
-A string is a series of ascii characters joined to create a "sentence".
+## Что такое строка?
+Строка - это ряд иероглифов, объединенных для создания "предложения".
 
 
-## Defining Strings
+## Определение строк
 
-You can define string by using quotation: **"** Your String Here **"**
+Вы можете определить строку с помощью цитат: **"** Ваша строка здесь **"**
 
-For example,
+Например,
 
 ```jsx
-var animal = "cat"
+var animal = "кошка"
 ```
-will be a string, while
+будет строкой, пока
 
 ```jsx
 кошка
 ```
-is an object
+является объектом
 
 
-## Combining strings with a number
+## Сочетание строк с числом
 
-Whenever you add string to a number (or vice versa), the end result will be string. The numbers are implicitly converted into strings. 
+При добавлении строки к числу (или наоборот), конечный результат будет строкой. Номера имплицитно преобразуются в строки. 

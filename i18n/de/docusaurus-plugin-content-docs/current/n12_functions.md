@@ -1,14 +1,14 @@
 ---
 sidebar_position: 12
-slug: /functions
+slug: /funktionen
 ---
 
 # Funktionen
 
 ## Funktionen ausführen
-Every script should have a main function. Scripts can be executed by calling the function within main function
+Jedes Skript sollte eine Hauptfunktion haben. Skripte können durch Aufruf der Funktion innerhalb der Hauptfunktion ausgeführt werden
 
-# Usage Examples
+# Nutzungsbeispiele
 
 ```jsx
 func x() = { 
@@ -23,20 +23,20 @@ Alle Funktionen sind mit der Wortfunktion definiert. Funktionen können alphanum
 
 ```jsx
 func foo() = {
-   printLine("Hello Friend!");
+   printLine("Hallo Freund!");
 }
 func main() = {
     foo();
 }
 ```
 
-# Usage Example
+# Verwendungsbeispiel
 
 ```jsx
 func x() = {
-    var = "Hello World";
+    var = "Hallo Welt";
     printLine(y);
-    printLine("It works!");
+    printLine("Es funktioniert! );
 }
 func y() = {
     printLine("==in the middle==");

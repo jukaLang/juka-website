@@ -2,8 +2,8 @@
 sidebar_position: 3
 ---
 
-# Web Assembly
+# Веб-сборка
 
-Visit https://wasm.jukalang.com
+Посетите https://wasm.jukalang.com
 
-## More info coming soon
+## Скоро появится больше информации

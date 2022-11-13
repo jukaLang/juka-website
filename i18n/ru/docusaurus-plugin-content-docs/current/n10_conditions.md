@@ -1,14 +1,14 @@
 ---
 sidebar_position: 10
-slug: /conditions
+slug: /условия
 ---
 
 # Условия
 
-## What is a condition
-A condition is a block of code that only runs if a certain requirment is met
+## Что такое условие
+Условие это блок кода, который запускается только если определенное требование соблюдено
 
-## Usage Example
+## Пример использования
 ```jsx
 func main()={
 
@@ -16,21 +16,21 @@ func main()={
 
     if (sum == 5)
     {
-        printLine("Correct! 4+1 = 5")
+        printLine("Правильно! 4+1 = 5")
     }
     else
     {
-        printLine("Incorrect!")
+        printLine("Некорректно!")
     }
 }
 ```
-**OUTPUT:**
+**ВЫЙТ:**
 
-`Correct! 4+1 = 5`
+`Правильно! 4+1 = 5`
 
 
 ## Цикл прокрутки
-While loops create a loop that run as many times as instructed.
+Циклы создают цикл, который запускается столько раз, сколько инструкций.
 
 ```jsx
 func foo() = {
@@ -42,7 +42,7 @@ func foo() = {
     }
 }
 ```
-**OUTPUT:**
+**ВЫЙТ:**
 
 ```
 2

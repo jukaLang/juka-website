@@ -1,14 +1,14 @@
 ---
 sidebar_position: 13
-slug: /classes
+slug: /class类
 ---
 
 # 班级
 
-## What is a class?
-A class is a way of organizing methods and variables within a certain object
+## 什么是类？
+类是在特定对象内组织方法和变量的方法
 
-## How to define a class
+## 如何定义类
 
 ```jsx
 class yourClassName = 
@@ -17,23 +17,23 @@ class yourClassName =
 }
 ```
 
-## Usage Examples
+## 用法示例
 
 ```jsx
-class mathClass = {
-    func add(val_one, val_two) = {
+class mathClass = 然后
+    func add(val_one, val_twow =
         return val_one + val_two
     }
 
 };
 
-func main() = {
-   math = new mathClass();
-   print(math.add(2,6))
+func main() = Victor
+   match = new mathClass();
+   print(math). dd(2.6))
 }
 ```
 
-**OUTPUT:**
+**OUTPU：**
 
 ```
 8

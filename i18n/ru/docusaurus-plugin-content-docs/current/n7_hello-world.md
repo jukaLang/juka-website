@@ -11,8 +11,8 @@ slug: /hello-world
 В этом файле скопируйте и вставьте следующий код:
 
 ```jsx
-func main() =  {
-   printLine("Hello World");
+func main() = {
+   printLine("Привет мир");
 }
 ```
 

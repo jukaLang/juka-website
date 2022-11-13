@@ -1,11 +1,11 @@
 ---
 sidebar_position: 5
-id: Running Online
-slug: /online
+id: 在线运行
+slug: /在线
 ---
 
-There are three ways to run Juka without installing anything (and using a 3rd party system):
+运行Juka有三种方式，不需要安装任何东西(和使用第三方系统)：
 
-- Try Online - Going to https://jukalang.com/tryonline
-- API - Going to https://api.jukalang.com
-- Web Assembly - Going to https://wasm.jukalang.com
+- 在线试试 - 去https://jukalang.com/tryonline
+- API - 去https://api.jukalang.com
+- Web Assembly - 去https://wasm.jukalang.com

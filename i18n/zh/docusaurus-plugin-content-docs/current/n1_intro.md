@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
 slug: /
-id: intro
+id: 介绍者
 ---
 
 # 一. 导言
@@ -26,12 +26,12 @@ __当前支持的设备：__
 - Docker (JukaAPI)
 - Unity Game 引擎 (through Nuget.org)
 - [Web Assembly(CDN/Browser/HTML 服务器)](https://github.com/jukaLang/juka-webassembly)
-- ChromeOS* (see Web Assembly)
+- ChromeOS* (见网页组装)
 - [Jupyter via juka-kernel](https://github.com/jukaLang/juka-kernel)
-- [Virtual Box Image (JukaVM)](https://github.com/jukaLang/jukaVM)
+- [虚拟框图像 (JukaVM)](https://github.com/jukaLang/jukaVM)
 - [Windows App (Windows 10+)](https://github.com/jukaLang/JukaApp)
 
-**__Coming Soon:__**
+**__即将到来：__**
 - Android App
 - iOS 应用程序 (iPhone/iPad)
 - MacOS 应用程序

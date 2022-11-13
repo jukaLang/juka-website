@@ -5,27 +5,27 @@ slug: /strings
 
 # Zeichenketten
 
-## What is a string?
-A string is a series of ascii characters joined to create a "sentence".
+## Was ist eine Zeichenkette?
+Eine Zeichenkette ist eine Serie ascii Zeichen, die sich zusammengeschlossen haben, um einen "Satz" zu erstellen.
 
 
-## Defining Strings
+## Zeichenketten definieren
 
-You can define string by using quotation: **"** Your String Here **"**
+Sie können String definieren, indem Sie das Zitat verwenden: **"** Ihre Zeichenkette hier **"**
 
-For example,
+Zum Beispiel
 
 ```jsx
-var animal = "cat"
+var animal = "Katze"
 ```
-will be a string, while
+wird ein String sein, während
 
 ```jsx
 katze
 ```
-is an object
+ist ein Objekt
 
 
-## Combining strings with a number
+## Zeichenketten mit einer Zahl kombinieren
 
-Whenever you add string to a number (or vice versa), the end result will be string. The numbers are implicitly converted into strings. 
+Immer wenn Sie eine Zeichenkette zu einer Zahl (oder umgekehrt) hinzufügen, wird das Endergebnis String sein. Die Zahlen werden implizit in Strings konvertiert. 

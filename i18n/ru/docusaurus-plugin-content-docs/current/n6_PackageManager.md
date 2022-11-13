@@ -3,77 +3,77 @@ sidebar_position: 6
 slug: /packagemanager
 ---
 
-# Package Manager
+# Менеджер пакетов
 
-<h1>📖 Table Of Contents</h1>
+<h1>📖 Содержание</h1>
 
-- [**What is JLDN?**](#about)
-- - [**What is the purpose?**](#used-for)
-- - [**How does our decentralized  network work?**](#how-our-decentralized-network-works)
-- [**What is a `manifest.yaml` file?**](#manifest-file)
-- - [**Manifest file format**](#manifest-format)
-- [**Why are installed libraries encrypted?**](#encryption)
-- [**What are the commands?**](#usage)
-- - [**Install Package**](#install-usage)
-- - [**Bump Version**](#bump-usage)
-# About
+- [**Что такое JLDN?**](#about)
+- - [**Что такое цель?**](#used-for)
+- - [**Как работает децентрализованная сеть?**](#how-our-decentralized-network-works)
+- [**Что такое файл `manifest.yaml`?**](#manifest-file)
+- - [**формат файла манифеста**](#manifest-format)
+- [**Почему установленные библиотеки зашифрованы?**](#encryption)
+- [**Что такое команды?**](#usage)
+- - [**Установить пакет**](#install-usage)
+- - [**Bump версии**](#bump-usage)
+# О программе
 
-## Used For
-**JLDN** is a package manager created and maintained by the Juka Language organization. It allows users to create, publish, and use libraries. *For example* if you were creating a web server, instead of recreating the whole https protocal you can install a juka library that gives you a solid framework.
+## Используется для
+**JLDN** это менеджер пакетов, созданный и поддерживаемый организацией языка Джука. Он позволяет пользователям создавать, публиковать и использовать библиотеки. *Например* если вы создавали веб-сервер, вместо того, чтобы пересоздать весь протокол https вы можете установить библиотеку juka, которая дает вам прочную основу.
 
-## How our decentralized  network works
-Our decentralized network is how JLDN is able to recieve package data. This includes the libraries contents. We pull data straight from github making it easier, and faster to recieve packages.
+## Как работает децентрализованная сеть
+Наша децентрализованная сеть – это то, как JLDN может получать данные о пакетах. Сюда входят содержимое библиотек. Мы доставляем данные прямо из GitHub и делаем их проще и быстрее для получения пакетов.
 
-# Manifest File
-The `manifest.yaml` file is used to give specifications about a package. This includes the current version, description, and content.
+# Файл манифеста
+Файл `manifest.yaml` используется для спецификации пакета. Сюда входит текущая версия, описание и содержание.
 
-## Manifest Format
-The manifest is formated as the following:
+## Формат манифеста
+Манифест формируется следующим образом:
 ```yaml
-version: 0.0.1
+версия: 0.0.1
 package_name: name
 package_description: descr
 library_directory: lib
-main_repo_branch: main
+main_repo_branch: основная
 repo_name: JLDN
 repo_author_name: jukaLang
 ```
 
-# Encryption
-We use a encrypted solution when you install packages from **JLDN**. Since Juka's primary target is runtime speed encryption is the fastest way of the Juka runtime to execute.
+# Шифрование
+Мы используем зашифрованное решение при установке пакетов из **JLDN**. Поскольку основной целью Juka является шифрование скорости выполнения является самый быстрый способ выполнения Juka.
 
-# Usage
-## Install Usage
-*Installs a package using the decentralized network*
+# Использование
+## Установить использование
+*Устанавливает пакет с помощью децентрализованной сети*
 ```bash
-jldn install {git_repo_author} {git_repo} {branch} { FLAGS }
+jldn установить {git_repo_author} {git_repo} {branch} { FLAGS }
 ```
 
-Flags:
+Флаги:
 
-'-nm' - Specifies that the repo does not contain a manifest file and you want to install anyways
+'-nm' - указывает, что репозиторий не содержит файла манифеста и все равно вы хотите установить
 
-'--force' - Forces to overwrite if package name already exists
+'--force' - перезаписать имя пакета, если оно уже существует
 
-## Bump Usage
-*Reverts to goes to specified **JLDN** version*
+## Использование кусков
+*Возвращает к указанной версии **JLDN***
 ```bash
-jldn bump {service} {version}
+гребень {service} {version}
 ```
 
-Services:
+Услуги:
 
 **JLDN**
 
 **Juka**
 
-Flags:
+Флаги:
 
-**NO FLAGS WERE FOUND FOR THIS COMMAND**
+**НЕТ ПРОДАЖИ ДЛЯ ЭТОЙ КОМАНДЫ**
 
-# How to install
-## Windows
-To install on windows, all you have to do is simply install the 'win_installer.exe' and run it and everything else will be automated! You can find that file in the release assests.
+# Как установить
+## Окна
+Чтобы установить в Windows, просто установите 'win_installer.exe' и все остальное будет автоматизировано! Этот файл можно найти в списке релизов.
 
 ## Linux
-*Coming Soon*
+*Скоро*

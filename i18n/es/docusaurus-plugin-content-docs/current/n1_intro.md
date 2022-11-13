@@ -26,12 +26,12 @@ __Dispositivo soportado:__
 - Docker (JukaAPI)
 - Motor de juegos de unidad (a través de NuGet.org)
 - [Colmena web (CDN/Navegador/Servidor HTML)](https://github.com/jukaLang/juka-webassembly)
-- ChromeOS* (see Web Assembly)
+- ChromeOS* (ver Colmena Web)
 - [Jupyter via juka-kernel](https://github.com/jukaLang/juka-kernel)
-- [Virtual Box Image (JukaVM)](https://github.com/jukaLang/jukaVM)
-- [Windows App (Windows 10+)](https://github.com/jukaLang/JukaApp)
+- [Imagen de caja virtual (JukaVM)](https://github.com/jukaLang/jukaVM)
+- [App de Windows (Windows 10+)](https://github.com/jukaLang/JukaApp)
 
-**__Coming Soon:__**
+**__Próximamente:__**
 - Android App
 - iOS App (iPhone/iPad)
 - App de MacOS

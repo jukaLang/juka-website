@@ -4,6 +4,6 @@ sidebar_position: 3
 
 # Web Assembly
 
-Visit https://wasm.jukalang.com
+访问 https://wasm.jukalang.com
 
-## More info coming soon
+## 即将提供更多信息

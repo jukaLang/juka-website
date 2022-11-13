@@ -1,23 +1,23 @@
 ---
 sidebar_position: 8
-slug: /variables
+slug: /变量
 ---
 
-# Variables
-## What is a variable?
-A variable is a value stored with in the code that can be called back for later usage.
-## Defining Variables
+# 变量
+## 什么是变量？
+一个变量是一个存储在代码中的值，这个变量可以被调用以稍后使用。
+## 定义变量
 
-You can define variables by using var keyword
+您可以使用 var 关键字来定义变量
 
-For example,
+例如，
 
 ```jsx
 var x = 3;
 ```
-will define a variable that is a integer, while
+定义一个为整数的变量，同时：
 
 ```jsx
-var x = "3";
+var x = “3”；
 ```
-will define a string
+将定义字符串

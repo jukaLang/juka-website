@@ -1,6 +1,6 @@
 ---
 sidebar_position: 3
-slug: /download
+slug: /下载
 ---
 
 # 正在下载 Juka

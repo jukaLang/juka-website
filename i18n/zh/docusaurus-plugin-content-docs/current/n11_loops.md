@@ -1,6 +1,6 @@
 ---
 sidebar_position: 11
-slug: /loops
+slug: /循环
 ---
 
 # 循环
@@ -12,9 +12,9 @@ slug: /loops
 循环的简单示例：
 
 ```jsx
-func main() = {
+func main() =
     var x = 0;
-    while(x < 2) {
+    while(x < 2) 研究，
         x = x + 1;
     }
 }
@@ -28,11 +28,11 @@ func main() = {
 一个简单的断点示例：
 
 ```jsx
-func main() = {
-    var x = 0;
-    while( 1){
+func main() = 。
+    var x = 0；
+    while( 1)□
     x = x + 1;
-        if (x > 2) {
+        if (fx > 2) 电子邮件：
             break;
         }
     }

@@ -1,6 +1,6 @@
 ---
 sidebar_position: 11
-slug: /loops
+slug: /boucles
 ---
 
 # Boucles
@@ -30,10 +30,10 @@ Un exemple simple de pause :
 ```jsx
 func main() = {
     var x = 0;
-    while( 1){
+    tant que( 1){
     x = x + 1;
-        if (x > 2) {
-            break;
+        si (x > 2) {
+            casse ;
         }
     }
 }

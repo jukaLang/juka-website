@@ -4,20 +4,20 @@ slug: /variables
 ---
 
 # Variables
-## What is a variable?
-A variable is a value stored with in the code that can be called back for later usage.
-## Defining Variables
+## Qu'est-ce qu'une variable?
+Une variable est une valeur stockée dans le code qui peut être appelée à nouveau pour une utilisation ultérieure.
+## Définition des variables
 
-You can define variables by using var keyword
+Vous pouvez définir des variables en utilisant le mot-clé var
 
-For example,
+Par exemple,
 
 ```jsx
 var x = 3;
 ```
-will define a variable that is a integer, while
+définira une variable qui est un entier, tandis que
 
 ```jsx
 var x = "3";
 ```
-will define a string
+définira une chaîne

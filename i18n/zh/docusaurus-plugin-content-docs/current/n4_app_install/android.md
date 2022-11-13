@@ -4,6 +4,6 @@ sidebar_position: 1
 
 # Android App
 
-Download latest version of Android App from Downloads
+从下载下载下载最新版本的 Android App
 
-### More Information Coming Soon
+### 即将获得更多信息

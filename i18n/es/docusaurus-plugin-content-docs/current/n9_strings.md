@@ -5,27 +5,27 @@ slug: /strings
 
 # Cadenas
 
-## What is a string?
-A string is a series of ascii characters joined to create a "sentence".
+## ¿Qué es una cadena?
+Una cadena es una serie de caracteres ascii unidos para crear una "oración".
 
 
-## Defining Strings
+## Definir cadenas
 
-You can define string by using quotation: **"** Your String Here **"**
+Puede definir cadena usando comilla: **"** Su cadena aquí **"**
 
-For example,
+Por ejemplo,
 
 ```jsx
-var animal = "cat"
+var animal = "gato"
 ```
-will be a string, while
+será una cadena, mientras
 
 ```jsx
 gato
 ```
-is an object
+es un objeto
 
 
-## Combining strings with a number
+## Combinar cadenas con un número
 
-Whenever you add string to a number (or vice versa), the end result will be string. The numbers are implicitly converted into strings. 
+Cada vez que añadas una cadena a un número (o viceversa), el resultado final será una cadena. Los números se convierten implícitamente en cadenas. 

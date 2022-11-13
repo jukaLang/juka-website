@@ -22,10 +22,10 @@ https://docs.microsoft.com/en-us/visualstudio/gamedev/unity/unity-scripting-upgr
 
 ```jsx
 string juka = `
-func main() = {
+func main() = own
 printLine("Hello World");
 }
-`
+
 var output new JukaCompiler.Compiler().Go(juka,false);
 ```
 

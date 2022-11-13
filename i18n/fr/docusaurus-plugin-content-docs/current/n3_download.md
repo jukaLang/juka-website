@@ -1,6 +1,6 @@
 ---
 sidebar_position: 3
-slug: /download
+slug: /télécharger
 ---
 
 # Téléchargement de Juka
