@@ -5,19 +5,19 @@ slug: /classes
 
 # Classes
 
-## What is a class?
-A class is a way of organizing methods and variables within a certain object
+## Qu'est-ce qu'une classe?
+Une classe est un moyen d'organiser des méthodes et des variables dans un objet donné
 
-## How to define a class
+## Comment définir une classe
 
 ```jsx
 class yourClassName = 
 {
-    ...
+...
 }
 ```
 
-## Usage Examples
+## Exemples d'utilisation
 
 ```jsx
 class mathClass = {
@@ -29,11 +29,11 @@ class mathClass = {
 
 func main() = {
    math = new mathClass();
-   print(math.add(2,6))
+   print(math. dd(2,6))
 }
 ```
 
-**OUTPUT:**
+**SORTIE :**
 
 ```
 8
