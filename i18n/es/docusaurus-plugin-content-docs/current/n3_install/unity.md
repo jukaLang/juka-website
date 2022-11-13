@@ -2,7 +2,7 @@
 sidebar_position: 6
 ---
 
-# Unity 3D
+# Unidad 3D
 
 Puede ejecutar JukaCompiler en Unity.
 
@@ -23,9 +23,9 @@ Los resultados se almacenarán en la salida:
 ```jsx
 string juka = `
 func main() = {
-printLine("Hello World");
+printLine("Hola Mundo");
 }
-`
+
 var output new JukaCompiler.Compiler().Go(juka,false);
 ```
 
