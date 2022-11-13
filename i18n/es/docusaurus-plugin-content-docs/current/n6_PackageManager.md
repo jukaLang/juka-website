@@ -3,32 +3,32 @@ sidebar_position: 6
 slug: /packagemanager
 ---
 
-# Package Manager
+# Gestor de paquetes
 
-<h1>📖 Table Of Contents</h1>
+<h1>📖 Tabla de contenidos</h1>
 
-- [**What is JLDN?**](#about)
-- - [**What is the purpose?**](#used-for)
-- - [**How does our decentralized  network work?**](#how-our-decentralized-network-works)
-- [**What is a `manifest.yaml` file?**](#manifest-file)
-- - [**Manifest file format**](#manifest-format)
-- [**Why are installed libraries encrypted?**](#encryption)
-- [**What are the commands?**](#usage)
-- - [**Install Package**](#install-usage)
-- - [**Bump Version**](#bump-usage)
-# About
+- [**¿Qué es JLDN?**](#about)
+- - [**¿Cuál es el propósito?**](#used-for)
+- - [**¿Cómo funciona nuestra red descentralizada?**](#how-our-decentralized-network-works)
+- [**¿Qué es un archivo `manifest.yaml`?**](#manifest-file)
+- - [**Formato de archivo manifiesto**](#manifest-format)
+- [**¿Por qué se cifran las librerías instaladas?**](#encryption)
+- [**¿Cuáles son los comandos?**](#usage)
+- - [**Instalar Paquete**](#install-usage)
+- - [**Versión de volcado**](#bump-usage)
+# Acerca de
 
-## Used For
-**JLDN** is a package manager created and maintained by the Juka Language organization. It allows users to create, publish, and use libraries. *For example* if you were creating a web server, instead of recreating the whole https protocal you can install a juka library that gives you a solid framework.
+## Usado para
+**JLDN** es un gestor de paquetes creado y mantenido por la organización Juka Language . Permite a los usuarios crear, publicar y usar bibliotecas. *Por ejemplo* si estabas creando un servidor web, en lugar de recrear todo el prototipo de https se puede instalar una librería de juka que le da un marco sólido.
 
-## How our decentralized  network works
-Our decentralized network is how JLDN is able to recieve package data. This includes the libraries contents. We pull data straight from github making it easier, and faster to recieve packages.
+## Cómo funciona nuestra red descentralizada
+Nuestra red descentralizada es la manera en que JLDN es capaz de recibir los datos del paquete. Esto incluye el contenido de las bibliotecas. Realizamos extracción de datos directamente desde github haciendo que sea más fácil y rápido recibir paquetes.
 
-# Manifest File
-The `manifest.yaml` file is used to give specifications about a package. This includes the current version, description, and content.
+# Archivo de manifiesto
+El archivo `manifest.yaml` se utiliza para dar especificaciones sobre un paquete. Esto incluye la versión actual, descripción y contenido.
 
-## Manifest Format
-The manifest is formated as the following:
+## Formato de manifiesto
+El manifiesto está formateado como sigue:
 ```yaml
 version: 0.0.1
 package_name: name
@@ -39,41 +39,41 @@ repo_name: JLDN
 repo_author_name: jukaLang
 ```
 
-# Encryption
-We use a encrypted solution when you install packages from **JLDN**. Since Juka's primary target is runtime speed encryption is the fastest way of the Juka runtime to execute.
+# Encriptación
+Utilizamos una solución cifrada cuando instala paquetes de **JLDN**. Dado que el objetivo principal de Juka es el cifrado de velocidad de ejecución es la forma más rápida de ejecutar el Juka.
 
-# Usage
-## Install Usage
-*Installs a package using the decentralized network*
+# Uso
+## Instalar Uso
+*Instala un paquete usando la red descentralizada*
 ```bash
-jldn install {git_repo_author} {git_repo} {branch} { FLAGS }
+jldn instalar {git_repo_author} {git_repo} {branch} { FLAGS }
 ```
 
-Flags:
+Banderas:
 
-'-nm' - Specifies that the repo does not contain a manifest file and you want to install anyways
+'-nm' - Especifica que el repositorio no contiene un archivo manifest y que desea instalar de todos modos
 
-'--force' - Forces to overwrite if package name already exists
+'--force' - Fuerza a sobrescribir si el nombre del paquete ya existe
 
-## Bump Usage
-*Reverts to goes to specified **JLDN** version*
+## Uso de volcado
+*Revertir a ir a la versión **JLDN** especificada*
 ```bash
-jldn bump {service} {version}
+bump de jldn {service} {version}
 ```
 
-Services:
+Servicios:
 
 **JLDN**
 
 **Juka**
 
-Flags:
+Banderas:
 
-**NO FLAGS WERE FOUND FOR THIS COMMAND**
+**SIN FLAGES FUNCIONADAS PARA ESTE COMAND**
 
-# How to install
-## Windows
-To install on windows, all you have to do is simply install the 'win_installer.exe' and run it and everything else will be automated! You can find that file in the release assests.
+# Cómo instalar
+## Ventanas
+Para instalar en Windows, todo lo que tienes que hacer es instalar el 'win_installer.exe' y ejecutarlo y todo lo demás será automatizado! Puede encontrar ese archivo en los proyectos de lanzamiento.
 
 ## Linux
-*Coming Soon*
+*Próximamente*
