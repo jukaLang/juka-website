@@ -1,11 +1,11 @@
 ---
 sidebar_position: 5
-id: Running Online
-slug: /online
+id: Работает онлайн
+slug: /онлайн
 ---
 
-There are three ways to run Juka without installing anything (and using a 3rd party system):
+Есть три способа запустить Juka без установки (и с помощью сторонней системы):
 
-- Try Online - Going to https://jukalang.com/tryonline
-- API - Going to https://api.jukalang.com
-- Web Assembly - Going to https://wasm.jukalang.com
+- Попробуйте онлайн - перейти на https://jukalang.com/tryonline
+- API - Переход на https://api.jukalang.com
+- Веб-сборка - Переход на https://wasm.jukalang.com
