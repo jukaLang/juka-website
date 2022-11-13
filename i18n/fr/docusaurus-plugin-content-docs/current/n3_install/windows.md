@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Windows
+# Fenêtres
 
 Exécutez la commande suivante pour démarrer l'éditeur Juka :
 
