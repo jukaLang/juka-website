@@ -1,10 +1,10 @@
 {
   "version.label": {
-    "message": "Next",
+    "message": "Siguiente",
     "description": "The label for version current"
   },
   "sidebar.tutorialSidebar.category.Installing and Running Juka (Console)": {
-    "message": "Installing and Running Juka (Console)",
+    "message": "Instalar y ejecutar Juka (consola)",
     "description": "The label for category Installing and Running Juka (Console) in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Installing Juka App": {
@@ -12,15 +12,15 @@
     "description": "The label for category Installing Juka App in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Running Online": {
-    "message": "Running Online",
+    "message": "Ejecutar en línea",
     "description": "The label for category Running Online in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Contributing to Juka Project": {
-    "message": "Contributing to Juka Project",
+    "message": "Contribuir al proyecto Juka",
     "description": "The label for category Contributing to Juka Project in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Other Content": {
-    "message": "Other Content",
+    "message": "Otro contenido",
     "description": "The label for category Other Content in sidebar tutorialSidebar"
   }
 }
