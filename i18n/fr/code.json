@@ -20,8 +20,8 @@
   "Universal": {
     "message": "Universal"
   },
-  "Juka can be used for all types of projects including server side coding, client side coding, native coding, web development, API development, data science, network security, and quantum computing. Our goal is to create a programming language that can run on any platform and we mean any!": {
-    "message": "Juka can be used for all types of projects including server side coding, client side coding, native coding, web development, API development, data science, network security, and quantum computing. Our goal is to create a programming language that can run on any platform and we mean any!"
+  "Juka can be used for all types of projects including server side coding, client side coding, native coding, web development, API development, data science, network security, and quantum computing. Our goal is to create a programming language that can run on any platform and we mean any! Including Linux x32, FreeBSD, Chromium, Discord, and Telegram.": {
+    "message": "Juka can be used for all types of projects including server side coding, client side coding, native coding, web development, API development, data science, network security, and quantum computing. Our goal is to create a programming language that can run on any platform and we mean any! Including Linux x32, FreeBSD, Chromium, Discord, and Telegram."
   },
   "Cloud Friendly": {
     "message": "Cloud Friendly"
@@ -180,6 +180,10 @@
     "message": "light mode",
     "description": "The name for the light color mode"
   },
+  "theme.docs.DocCard.categoryDescription": {
+    "message": "{count} items",
+    "description": "The default description for a category card in the generated index about how many items this category includes"
+  },
   "theme.docs.breadcrumbs.home": {
     "message": "Home page",
     "description": "The ARIA label for the home page in the breadcrumbs"
@@ -187,10 +191,6 @@
   "theme.docs.breadcrumbs.navAriaLabel": {
     "message": "Breadcrumbs",
     "description": "The ARIA label for the breadcrumbs"
-  },
-  "theme.docs.DocCard.categoryDescription": {
-    "message": "{count} items",
-    "description": "The default description for a category card in the generated index about how many items this category includes"
   },
   "theme.docs.paginator.navAriaLabel": {
     "message": "Docs pages navigation",
