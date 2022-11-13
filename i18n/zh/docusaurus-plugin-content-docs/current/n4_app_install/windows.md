@@ -2,8 +2,8 @@
 sidebar_position: 1
 ---
 
-# Windows App
+# Windows 应用程序
 
-Download latest version of Windows App from Downloads
+从下载下载下载最新版本的 Windows 应用程序
 
-### More Information Coming Soon
+### 即将获得更多信息
