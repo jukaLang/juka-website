@@ -1,6 +1,6 @@
 ---
 sidebar_position: 11
-slug: /loops
+slug: /циклы
 ---
 
 # Циклы
