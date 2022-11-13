@@ -2,7 +2,7 @@
 sidebar_position: 8
 ---
 
-# Azure Function
+# Azure Funktion
 
 ### Lokal laufen
 Juka can run locally without Azure Web server if you prefer to test Juka before uploading to your server. Führen Sie dazu folgende Schritte durch:
@@ -20,7 +20,7 @@ Juka kann den Code auf Juka Azure Function Server ausführen, indem er eine Roha
 
 ```json
 {
-    "code": "func main() = { printLine(\"Hello World\"} }"
+    "code": "func main() = { printLine(\"Hallo World\"} }"
 }
 ```
 
