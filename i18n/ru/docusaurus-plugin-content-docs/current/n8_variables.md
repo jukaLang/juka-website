@@ -1,23 +1,23 @@
 ---
 sidebar_position: 8
-slug: /variables
+slug: /переменные
 ---
 
-# Variables
-## What is a variable?
-A variable is a value stored with in the code that can be called back for later usage.
-## Defining Variables
+# Переменные
+## Что такое переменная?
+Переменная — это значение, сохраненное в коде, которое можно вызвать для последующего использования.
+## Определение переменных
 
-You can define variables by using var keyword
+Вы можете определить переменные, используя ключевое слово var
 
-For example,
+Например,
 
 ```jsx
 var x = 3;
 ```
-will define a variable that is a integer, while
+определяет переменную, которая является целым числом, в то время как
 
 ```jsx
 var x = "3";
 ```
-will define a string
+определит строку
