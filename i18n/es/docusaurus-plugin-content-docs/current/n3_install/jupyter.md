@@ -2,7 +2,7 @@
 sidebar_position: 5
 ---
 
-# Juka in Jupyter
+# Juka en Jupyter
 
 Si eres un científico de datos o un analítico, probablemente haber oído hablar de Jupyter y usarlo.
 
