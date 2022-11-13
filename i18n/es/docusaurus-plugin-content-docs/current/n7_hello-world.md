@@ -1,6 +1,6 @@
 ---
 sidebar_position: 7
-slug: /hello-world
+slug: /hola-mundo
 ---
 
 # Escribiendo tu primera aplicación
@@ -11,8 +11,8 @@ Empecemos por crear una aplicación HelloWorld. Crear un archivo vacío y guarda
 En ese archivo, copiar y pegar el siguiente código:
 
 ```jsx
-func main() =  {
-   printLine("Hello World");
+func main() = {
+   printLine("Hola Mundo");
 }
 ```
 
