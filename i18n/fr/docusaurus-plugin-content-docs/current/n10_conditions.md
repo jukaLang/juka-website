@@ -1,36 +1,36 @@
 ---
 sidebar_position: 10
-slug: /conditions
+slug: /conditions/
 ---
 
 # Condition
 
-## What is a condition
-A condition is a block of code that only runs if a certain requirment is met
+## Qu'est-ce qu'une condition
+Une condition est un bloc de code qui ne s'exécute que si une certaine requête est remplie
 
-## Usage Example
+## Exemple d'utilisation
 ```jsx
 func main()={
 
     sum = 4+1
 
-    if (sum == 5)
+    if (somme == 5)
     {
         printLine("Correct! 4+1 = 5")
     }
     else
     {
-        printLine("Incorrect!")
+        printLine("Incorrect !")
     }
 }
 ```
-**OUTPUT:**
+**SORTIE :**
 
-`Correct! 4+1 = 5`
+`Corrige ! 4+1 = 5`
 
 
 ## Boucle Tant que
-While loops create a loop that run as many times as instructed.
+Les boucles « while » créent une boucle qui s'exécute autant de fois que souhaité.
 
 ```jsx
 func foo() = {
@@ -42,7 +42,7 @@ func foo() = {
     }
 }
 ```
-**OUTPUT:**
+**SORTIE :**
 
 ```
 2
