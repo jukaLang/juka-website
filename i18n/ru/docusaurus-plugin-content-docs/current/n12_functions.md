@@ -1,14 +1,14 @@
 ---
 sidebar_position: 12
-slug: /functions
+slug: /функции
 ---
 
 # Функции
 
 ## Выполнение процедур
-Every script should have a main function. Scripts can be executed by calling the function within main function
+Каждый скрипт должен иметь основную функцию. Скрипты могут быть выполнены, вызвав функцию в рамках основной функции
 
-# Usage Examples
+# Примеры использования
 
 ```jsx
 func x() = { 
@@ -30,16 +30,16 @@ func main() = {
 }
 ```
 
-# Usage Example
+# Пример использования
 
 ```jsx
 func x() = {
     var = "Hello World";
     printLine(y);
-    printLine("It works!");
+    printLine("Это работает! );
 }
 func y() = {
-    printLine("==in the middle==");
+    printLine("==in middle==");
     print("======");
 }
 
