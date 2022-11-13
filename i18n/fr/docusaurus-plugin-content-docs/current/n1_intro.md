@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
 slug: /
-id: intro
+id: introduction
 ---
 
 # Introduction
@@ -26,12 +26,12 @@ __Périphérique actuel pris en charge :__
 - Docker (JukaAPI)
 - Unity Game Engine (via NuGet.org)
 - [Assemblage Web (CDN/Navigateur/Serveur HTML)](https://github.com/jukaLang/juka-webassembly)
-- ChromeOS* (see Web Assembly)
+- ChromeOS* (voir Ruche Web)
 - [Jupyter via juka-kernel](https://github.com/jukaLang/juka-kernel)
-- [Virtual Box Image (JukaVM)](https://github.com/jukaLang/jukaVM)
-- [Windows App (Windows 10+)](https://github.com/jukaLang/JukaApp)
+- [Image de la boîte virtuelle (JukaVM)](https://github.com/jukaLang/jukaVM)
+- [Application Windows (Windows 10+)](https://github.com/jukaLang/JukaApp)
 
-**__Coming Soon:__**
+**__Bientôt disponible:__**
 - Android App
 - Application iOS (iPhone/iPad)
 - Application MacOS
