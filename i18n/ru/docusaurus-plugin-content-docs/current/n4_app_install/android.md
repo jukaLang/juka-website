@@ -4,6 +4,6 @@ sidebar_position: 1
 
 # Android App
 
-Download latest version of Android App from Downloads
+Скачать последнюю версию Android App из загрузок
 
-### More Information Coming Soon
+### Скоро будет больше информации
