@@ -2,7 +2,7 @@
 sidebar_position: 30
 ---
 
-# Juka in a C# Project
+# Juka in a C# 项目
 
 Juka 可以添加到任何 C# 项目为 .dll。 您可以在 https://jukalang.com/download下载最新版本的 .dll
 
