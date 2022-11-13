@@ -2,8 +2,8 @@
 sidebar_position: 1
 ---
 
-# Try Online Editor
+# Попробуйте онлайн редактор
 
-Visit https://jukalang.com/tryonline
+Посетите https://jukalang.com/tryonline
 
-## More info coming soon
+## Скоро появится больше информации
