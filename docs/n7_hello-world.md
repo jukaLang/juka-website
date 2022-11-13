@@ -1,5 +1,6 @@
 ---
 sidebar_position: 7
+slug: /hello-world
 ---
 
 # Writing your first application

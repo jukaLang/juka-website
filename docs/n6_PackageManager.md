@@ -1,5 +1,6 @@
 ---
 sidebar_position: 6
+slug: /packagemanager
 ---
 
 <h1>📖 Table Of Contents</h1>

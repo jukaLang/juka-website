@@ -1,5 +1,6 @@
 ---
 sidebar_position: 8
+slug: /variables
 ---
 # Variables
 ## What is a variable?
