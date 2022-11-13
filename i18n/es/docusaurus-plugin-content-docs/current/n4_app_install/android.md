@@ -4,6 +4,6 @@ sidebar_position: 1
 
 # Android App
 
-Download latest version of Android App from Downloads
+Descargar la última versión de la aplicación Android desde descargas
 
-### More Information Coming Soon
+### Más información próximamente
