@@ -2,7 +2,7 @@
 sidebar_position: 8
 ---
 
-# Azure Function
+# Fonction Azure
 
 ### Exécution locale
 Juka peut fonctionner localement sans serveur Azure Web si vous préférez tester Juka avant de télécharger sur votre serveur. Pour cela, effectuez les étapes suivantes :
