@@ -3,6 +3,8 @@ sidebar_position: 6
 slug: /packagemanager
 ---
 
+# Package Manager
+
 <h1>📖 Table Of Contents</h1>
 
 - [**What is JLDN?**](#about)

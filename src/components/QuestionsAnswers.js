@@ -42,7 +42,9 @@ export default function QandA() {
                         <QuestionStructure key={idx} {...props} />
                     ))}
                 </div>
+                <br/>
             </div>
         </section>
+
     );
 }

@@ -201,6 +201,10 @@ const config = {
                 label: 'Try Online',
                 to: '/tryonline',
               },
+              {
+                label: 'Get Certificate',
+                to: '/quiz',
+              }
 
             ],
           },
@@ -220,6 +224,10 @@ const config = {
                 href: 'https://www.facebook.com/jukalang/',
               },
               {
+                label: 'YouTube',
+                href: 'https://www.youtube.com/@jukalang'
+              },
+              {
                 label: 'Instagram',
                 href: 'https://www.instagram.com/jukalanguage/',
               },
@@ -229,6 +237,10 @@ const config = {
             title: 'More',
             items: [
               {
+                label: 'Donate',
+                href: '/donate',
+              },
+              {
                 label: 'Privacy',
                 to: '/privacy',
               },
@@ -237,8 +249,8 @@ const config = {
                 to: '/license',
               },
               {
-                label: 'Special Thanks',
-                href: '/specialthanks',
+                label: 'Contact Us',
+                to: '/contact'
               },
               {
                 label: 'GitHub Source',

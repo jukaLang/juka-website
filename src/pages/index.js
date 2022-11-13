@@ -7,11 +7,10 @@ import styles from './index.module.css';
 import HomepageFeatures from '../components/HomepageFeatures';
 import HomepageSocial from '../components/HomepageSocial';
 import QandA from '../components/QuestionsAnswers';
-import CodeBlock from '@theme/CodeBlock';
+import CodeExamples from '../components/CodeExamples';
 import Translate from '@docusaurus/Translate';
 import BrowserOnly from "@docusaurus/BrowserOnly";
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
+
 
 const TryDetectDownload = () => {
     return (
@@ -77,69 +76,7 @@ function HomepageHeader() {
               </div>
           <br/>
 
-
-          <Tabs>
-              <TabItem value="hw" label="Hello World">
-
-                  <CodeBlock className={`language-jsx ${styles.maincodeblock}`}  showLineNumbers>{`func main() = {
-    // Print Hello World
-    var y = "Hello World";
-    printLine(y);
-}
-`}</CodeBlock>
-
-              </TabItem>
-              <TabItem value="ie" label="If/Else">
-
-                  <CodeBlock className={`language-jsx ${styles.maincodeblock}`}  showLineNumbers>{`func main() = {
-    var x = false;
-    if ( x == true)
-    {
-        print("x");
-    }
-    else
-    {
-        print("y");
-    }
-}
-`}</CodeBlock>
-
-              </TabItem>
-              <TabItem value="arr" label="Arrays">
-
-                  <CodeBlock className={`language-jsx ${styles.maincodeblock}`}  showLineNumbers>{`func main() = {
-    var x = array[3];
-    //x[1] = ""test"";
-    print(x[0]); 
-}
-`}</CodeBlock>
-
-              </TabItem>
-              <TabItem value="fd" label="Function Declaration">
-
-                  <CodeBlock className={`language-jsx ${styles.maincodeblock}`}  showLineNumbers>{`func x() = {
-    printLine("function x is called");
-}
-func main() = {
-    x();
-    x();
-}
-`}</CodeBlock>
-
-              </TabItem>
-              <TabItem value="fl" label="For Loop">
-
-                  <CodeBlock className={`language-jsx ${styles.maincodeblock}`}  showLineNumbers>{`func main() = {
-    for(var i = 0; i<3; i++;)
-    {
-        print(i);
-    }
-}
-`}</CodeBlock>
-
-              </TabItem>
-
-          </Tabs>
+        <CodeExamples/>
 
           <div className={styles.idebtns}>
               <a className={styles.index_runcode} href={"/tryonline"+isTabName}>Run Code</a>
@@ -150,7 +87,8 @@ func main() = {
           </h2>
           <HomepageSocial/>
 
-
+          <br/>
+          <h2 className={styles.fademe}><a href={"/donate"}>Love Juka? Click here to Donate!</a></h2>
 
       </div>
     </header>
@@ -168,7 +106,14 @@ export default function Home() {
       <HomepageHeader />
       <main>
         <HomepageFeatures />
+
+          <div className="container">
+              <h2 className={styles.jukaquiz}><a href={"/quiz"}>Think you know Juka? Get a Completion Certificate!</a></h2>
+          </div>
+            <br/>
           <QandA/>
+
+
       </main>
     </Layout>
   );

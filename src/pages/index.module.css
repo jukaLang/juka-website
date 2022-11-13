@@ -28,8 +28,29 @@
   margin-right: 25px;
 }
 
-.maincodeblock{
-  text-align: left;
+.fademe {
+  animation: 5s linear infinite condemned_fade_effect;
+  color:white;
+}
+
+.fademe a{
+  color:white;
+}
+
+@keyframes condemned_fade_effect {
+  0% {
+    opacity: 100%;
+  }
+  50% {
+    opacity: 30%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+
+.jukaquiz {
+  text-align:center;
 }
 
 .idebtns{
