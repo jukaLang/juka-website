@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
 slug: /
-id: intro
+id: einleitung
 ---
 
 # Einführung
@@ -26,12 +26,12 @@ __Aktuelles unterstütztes Gerät:__
 - Docker (JukaAPI)
 - Unity Game Engine (via NuGet.org)
 - [Web Assembly (CDN/Browser/HTML-Server)](https://github.com/jukaLang/juka-webassembly)
-- ChromeOS* (see Web Assembly)
+- ChromeOS* (siehe Web-Assembly)
 - [Jupyter via juka-kernel](https://github.com/jukaLang/juka-kernel)
-- [Virtual Box Image (JukaVM)](https://github.com/jukaLang/jukaVM)
-- [Windows App (Windows 10+)](https://github.com/jukaLang/JukaApp)
+- [Virtuelles Box Bild (JukaVM)](https://github.com/jukaLang/jukaVM)
+- [Windows-App (Windows 10+)](https://github.com/jukaLang/JukaApp)
 
-**__Coming Soon:__**
+**__Demnächst:__**
 - Android App
 - iOS App (iPhone/iPad)
 - MacOS-App
