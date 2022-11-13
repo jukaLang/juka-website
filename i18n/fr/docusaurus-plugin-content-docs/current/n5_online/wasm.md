@@ -2,8 +2,8 @@
 sidebar_position: 3
 ---
 
-# Web Assembly
+# Assemblée Web
 
-Visit https://wasm.jukalang.com
+Visitez https://wasm.jukalang.com
 
-## More info coming soon
+## Plus d'infos bientôt disponibles
