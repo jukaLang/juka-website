@@ -1,26 +1,26 @@
 ---
 sidebar_position: 13
-slug: /classes
+slug: /классы
 ---
 
 # Уроки
 
-## What is a class?
-A class is a way of organizing methods and variables within a certain object
+## Что такое класс?
+Класс - это способ организации методов и переменных в пределах определенного объекта
 
-## How to define a class
+## Как определить класс
 
 ```jsx
-class yourClassName = 
+класс yourClassName = 
 {
-    ...
+...
 }
 ```
 
-## Usage Examples
+## Примеры использования
 
 ```jsx
-class mathClass = {
+класс mathClass = {
     func add(val_one, val_two) = {
         return val_one + val_two
     }
@@ -29,11 +29,11 @@ class mathClass = {
 
 func main() = {
    math = new mathClass();
-   print(math.add(2,6))
+   print(math. dd(2,6))
 }
 ```
 
-**OUTPUT:**
+**ВЫЙТ:**
 
 ```
 8
