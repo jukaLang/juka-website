@@ -2,7 +2,7 @@
 sidebar_position: 8
 ---
 
-# Azure Function
+# 方位函数
 
 ### 本地运行
 如果您喜欢 在上传到您的服务器之前，Juka可以在没有Azure Web 服务器的情况下在本地运行。 为了做到这一点，执行以下步骤：
@@ -19,8 +19,8 @@ sidebar_position: 8
 Juka 可以在 Juka Azure 函数服务器上通过以下格式发送原始请求信息来运行代码：
 
 ```json
-{
-    "code": "func main() = { printLine(\"Hello World\"} }"
+主席:
+    "code": "func main() = PristLine(\"Hello World\"}"
 }
 ```
 
