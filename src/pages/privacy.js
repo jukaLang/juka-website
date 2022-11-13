@@ -6,6 +6,8 @@ import styles from './privacy.module.css';
 function HomepageHeader() {
     return (
         <header>
+            <section>
+                <div className="container">
         <div className={styles.privacy}><h1>Privacy Policy</h1><p>Effective date: December 19,
             2021</p><p>Juka ("us", "we", or "our") operates the https://jukalang.com website (the "Service").</p><p>This
             page informs you of our policies regarding the collection, use, and disclosure of personal data when you use
@@ -110,6 +112,8 @@ function HomepageHeader() {
                 <li>By contacting us via Discord: <a href="https://discord.gg/MsKWsErzfp">https://discord.gg/MsKWsErzfp</a></li>
             </ul>
         </div>
+                </div>
+            </section>
         </header>
     )
 }

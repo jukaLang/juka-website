@@ -16,8 +16,8 @@ function DonateHeader() {
             <h2>Where Would My Money Go To?</h2>
             <p>It would go towards upkeep of essential servers, domain registration, and domain hosting. As we do not generate any revenue, we have to pay for services out of our own pocket.</p>
             <h2>Donate Cryptocurrency</h2>
-            <p><strong>Bitcoin Address: </strong>3MqJ2pwcuqh2W5mUPZUcKMVzxgTKcjD8ET</p>
-            <p><strong>Ethereum (Ethereum Network) Address: </strong>0xB56F6aff7a84935E5AF9D93b6d7db0e4F4F26B39</p>
+            <h3><strong>Bitcoin Address: </strong>3MqJ2pwcuqh2W5mUPZUcKMVzxgTKcjD8ET</h3><img height="256" src={"/img/bitcoin.png"} /><br/><br/>
+            <h3><strong>Ethereum (Ethereum Network) Address: </strong>0xB56F6aff7a84935E5AF9D93b6d7db0e4F4F26B39</h3><img height="256" src={"/img/ethereum.png"} />
 
 
             <br/>

@@ -20,7 +20,7 @@ function DownloadHeader() {
         }
     }
 
-    const [version, setVersion] = useState("0.0.264");
+    const [version, setVersion] = useState("0.0.265");
     setV();
 
     function BigDownloadList() {

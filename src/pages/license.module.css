@@ -1,4 +1,15 @@
 .license{
     white-space: pre-line;
-    text-align:center;
+}
+
+.Header {
+    padding: 1rem 0;
+    position: relative;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 966px) {
+    .Header {
+        padding: 2rem;
+    }
 }

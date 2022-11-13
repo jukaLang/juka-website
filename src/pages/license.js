@@ -5,7 +5,9 @@ import styles from './license.module.css';
 
 function HomepageHeader() {
     return (
-        <header>
+        <header className={styles.Header}>
+            <section>
+                <div className="container">
             <div className={styles.license}>{`
                 Juka's AGPL GNU License
                 Version 1.10 2022 by Juka Team
@@ -675,6 +677,8 @@ if any, to sign a "copyright disclaimer" for the program, if necessary.
 For more information on this, and how to apply and follow the GNU AGPL, see
                  <https://www.gnu.org/licenses/>.
             `}</div>
+                </div>
+            </section>
         </header>
     )
 }
