@@ -4,6 +4,6 @@ sidebar_position: 2
 
 # API
 
-Visit https://api.jukalang.com
+访问 https://api.jukalang.com
 
-# Coming Soon
+# 即将到来的
