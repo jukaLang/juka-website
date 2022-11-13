@@ -2,7 +2,7 @@
 sidebar_position: 5
 ---
 
-# Juka in Jupyter
+# Juka im Jupyter
 
 Wenn du ein Datenwissenschaftler oder Analytiker bist, hast du wahrscheinlich von Jupyter gehört und benutzt.
 
