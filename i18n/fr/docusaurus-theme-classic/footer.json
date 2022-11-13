@@ -27,6 +27,10 @@
     "message": "Try Online",
     "description": "The label of footer link with label=Try Online linking to /tryonline"
   },
+  "link.item.label.Get Certificate": {
+    "message": "Get Certificate",
+    "description": "The label of footer link with label=Get Certificate linking to /quiz"
+  },
   "link.item.label.Discord": {
     "message": "Discord",
     "description": "The label of footer link with label=Discord linking to https://discord.gg/MsKWsErzfp"
@@ -39,9 +43,17 @@
     "message": "Facebook",
     "description": "The label of footer link with label=Facebook linking to https://www.facebook.com/jukalang/"
   },
+  "link.item.label.YouTube": {
+    "message": "YouTube",
+    "description": "The label of footer link with label=YouTube linking to https://www.youtube.com/@jukalang"
+  },
   "link.item.label.Instagram": {
     "message": "Instagram",
     "description": "The label of footer link with label=Instagram linking to https://www.instagram.com/jukalanguage/"
+  },
+  "link.item.label.Donate": {
+    "message": "Donate",
+    "description": "The label of footer link with label=Donate linking to /donate"
   },
   "link.item.label.Privacy": {
     "message": "Privacy",
@@ -51,16 +63,16 @@
     "message": "License",
     "description": "The label of footer link with label=License linking to /license"
   },
-  "link.item.label.Special Thanks": {
-    "message": "Special Thanks",
-    "description": "The label of footer link with label=Special Thanks linking to /specialthanks"
+  "link.item.label.Contact Us": {
+    "message": "Contact Us",
+    "description": "The label of footer link with label=Contact Us linking to /contact"
   },
   "link.item.label.GitHub Source": {
     "message": "GitHub Source",
     "description": "The label of footer link with label=GitHub Source linking to https://github.com/jukaLang/juka"
   },
   "copyright": {
-    "message": "Copyright © 2022 Juka Programming Language <br/> (Last updated on 11/12/2022, 10:58:21 PM EST)",
+    "message": "Copyright © 2022 Juka Programming Language <br/> (Last updated on 11/13/2022, 2:15:19 PM EST)",
     "description": "The footer copyright"
   }
 }
