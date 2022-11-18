@@ -1,0 +1,26 @@
+{
+  "title": {
+    "message": "Juka Programmiersprache",
+    "description": "The title in the navbar"
+  },
+  "item.label.Docs": {
+    "message": "Texte",
+    "description": "Navbar item with label Docs"
+  },
+  "item.label.Learn": {
+    "message": "Lernen",
+    "description": "Navbar item with label Learn"
+  },
+  "item.label.Download": {
+    "message": "Download",
+    "description": "Navbar item with label Download"
+  },
+  "item.label.Try Online": {
+    "message": "Online versuchen",
+    "description": "Navbar item with label Try Online"
+  },
+  "item.label.GitHub": {
+    "message": "GitHub",
+    "description": "Navbar item with label GitHub"
+  }
+}
