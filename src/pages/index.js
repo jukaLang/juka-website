@@ -24,6 +24,9 @@ const TryDetectDownload = () => {
                     os = "Latest";
 
                 if (macosPlatforms.indexOf(platform) !== -1) {
+                    if(navigator.maxTouchPoints > 0){
+                        return 'for iPadOS'
+                    }
                     return 'for MacOS';
                 } else if (iosPlatforms.indexOf(platform) !== -1) {
                     return 'for iOS';
@@ -34,6 +37,9 @@ const TryDetectDownload = () => {
                 } else if (/TV/.test(userAgent)) {
                     return 'for AndroidTV';
                 } else if (/Linux/.test(platform)) {
+                    if (userAgent.indexOf('Win64')){
+                        return 'for AndroidTV';
+                    }
                     return 'for Linux';
                 } else if (userAgent.indexOf('X11') !== -1) {
                     return "for Unix";

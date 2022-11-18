@@ -12,15 +12,17 @@ function DownloadHeader() {
 
     const setV = async () => {
         try {
-            const response = await fetch('https://api.github.com/repos/jukaLang/juka/tags');
+            const response = await fetch('https://api.github.com/repos/jukaLang/juka/releases/latest');
             const result = await response.json();
-            setVersion(result[0].name);
+            setVersion(result.tag_name);
+            setChangelog(result.body.slice(15))
         } catch (err) {
             console.log("Cannot access Github" + err);
         }
     }
 
-    const [version, setVersion] = useState("0.0.265");
+    const [version, setVersion] = useState("0.0.268");
+    const [changelog, setChangelog] = useState("");
     setV();
 
     function BigDownloadList() {
@@ -339,7 +341,11 @@ function DownloadHeader() {
 
                     let userOSEntry = {};
                     if (macosPlatforms.indexOf(platform) !== -1) {
-                        userOSEntry = OSList[1];
+                        if(navigator.maxTouchPoints > 0){
+                            userOSEntry = OSList[4]; //iPadOS
+                        } else {
+                            userOSEntry = OSList[1]; //Mac
+                        }
                     } else if (iosPlatforms.indexOf(platform) !== -1) {
                         userOSEntry = OSList[4];
                     } else if (windowsPlatforms.indexOf(platform) !== -1) {
@@ -349,7 +355,10 @@ function DownloadHeader() {
                     } else if (/TV/.test(userAgent)) {
                         userOSEntry = OSList[5];
                     } else if (/Linux/.test(platform)) {
-                        userOSEntry = OSList[2];
+                        if (userAgent.indexOf('Win64')){
+                            userOSEntry = OSList[5];  //(some) Android TV Browsers
+                        }
+                        userOSEntry = OSList[2]; //Actual Linux
                     } else if (userAgent.indexOf('X11') !== -1) {
                         userOSEntry = OSList[3];
                     } else if (userAgent.indexOf('CrOS') !== -1) {
@@ -390,15 +399,27 @@ function DownloadHeader() {
             <h1 className={styles.Header}>Download Latest Version of Juka Programming Language</h1>
             <div className={styles.learn}>
                 <TryDetectDownload/>
-                <div className={styles.nightly}>
 
-                    Get the latest nightly builds at:
-                    <div><a rel="noopener noreferrer" href="https://github.com/jukaLang/Juka/releases" target={"_blank"}>https://github.com/jukaLang/Juka/releases</a></div>
-
-                    <div>Want to try Juka without downloading anything?</div>
-                    <a href={"/tryonline"}>Click here to try Juka Online</a>
-
-                </div>
+                <br/>
+                <h2>Changelog</h2>
+                <section className={styles.changelog}>
+                    <div className="container">
+                        <div className="row">
+                            <div className={clsx('col col--4')} />
+                            <div className={clsx('col col--4', styles.fontagap)}>
+                                <div className={clsx("text--center padding-horiz--md",styles.changelog2)}>
+                                    <strong>Juka Changelog:</strong> {changelog}
+                                    <br/><br/>
+                                    <strong>Get the latest nightly builds at:</strong><br/>
+                                    <a rel="noopener noreferrer" href="https://github.com/jukaLang/Juka/releases" target={"_blank"}>https://github.com/jukaLang/Juka/releases</a>
+                                    <br/><br/>
+                                    <strong>Want to try Juka without downloading anything?</strong><br/>
+                                    <a href={"/tryonline"}>Click here to try Juka Online</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
 
                 <br/><br/>
                 <h2> List of all available Downloads:</h2>

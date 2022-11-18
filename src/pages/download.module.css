@@ -53,3 +53,14 @@ html[data-theme='dark'] .features p {
     font-size: 20px;
     font-weight: bold;
 }
+
+.changelog2 {
+    background-color: rgb(245,246,247,10);
+    text-align:left;
+    padding: 1rem;
+    white-space: pre-wrap;
+}
+
+html[data-theme='dark'] .changelog2 {
+    color: #2b2c3c;
+}
