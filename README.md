@@ -7,13 +7,9 @@
 
 **Official Website:** https://jukalang.com
 
-**TOR Link:** http://jukawebwjtic5aa4y7sb3mcxaeruw53ejswmrrv2qbsdua6owy6555qd.onion (Until November 28, 2022)
-
 **Mirror 1:** https://jukalang.onrender.com/
 
 **Mirror 2:** https://juka.netlify.app
-
-**Mirror 3:** https://juka-website.herokuapp.com (Until November 28, 2022)
 
 If you would like to add a mirror, add your link to this file (README.md) and create a pull request
 
