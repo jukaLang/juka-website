@@ -46,8 +46,8 @@ function DownloadHeader() {
                 <>
                     <b>Windows Version {version}:</b><br/>
                     <br/>
-                    Juka (x64): <a rel="noopener noreferrer" href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/Juka_Windows_Amd64_"+version+".zip"} >Download</a><br/>
-                    Juka API (x64): <a rel="noopener noreferrer" href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/JukaAPI_Windows_Amd64_"+version+".zip"} >Download</a><br/><br/>
+                    Juka (x64): <a rel="noopener noreferrer" href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/Juka_Windows_X64_"+version+".zip"} >Download</a><br/>
+                    Juka API (x64): <a rel="noopener noreferrer" href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/JukaAPI_Windows_X64_"+version+".zip"} >Download</a><br/><br/>
 
                     Juka (x86-32bit):  <a rel="noopener noreferrer" href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/Juka_Windows_X86_"+version+".zip"} >Download</a><br/>
                     Juka API (x86-32bit):  <a rel="noopener noreferrer" href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/JukaAPI_Windows_X86_"+version+".zip"} >Download</a><br/><br/>
@@ -69,8 +69,8 @@ function DownloadHeader() {
                 <>
                     <b>MacOS Version {version}:</b><br/>
                     <br/>
-                    Juka: <a rel="noopener noreferrer" href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/Juka_MacOS_Amd64_"+version+".zip"} >Download</a><br/>
-                    Juka API: <a rel="noopener noreferrer" href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/JukaAPI_MacOS_Amd64_"+version+".zip"} >Download</a><br/>
+                    Juka: <a rel="noopener noreferrer" href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/Juka_MacOS_X64_"+version+".zip"} >Download</a><br/>
+                    Juka API: <a rel="noopener noreferrer" href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/JukaAPI_MacOS_X64_"+version+".zip"} >Download</a><br/>
                 </>
             ),
         },
@@ -81,8 +81,8 @@ function DownloadHeader() {
                 <>
                     <b>Linux Version {version}:</b><br/>
                     <br/>
-                    Juka (x64): <a rel="noopener noreferrer" href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/Juka_Linux_Amd64_"+version+".zip"} >Download</a><br/>
-                    Juka API (x64): <a rel="noopener noreferrer" href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/JukaAPI_Linux_Amd64_"+version+".zip"} >Download</a><br/><br/>
+                    Juka (x64): <a rel="noopener noreferrer" href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/Juka_Linux_X64_"+version+".zip"} >Download</a><br/>
+                    Juka API (x64): <a rel="noopener noreferrer" href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/JukaAPI_Linux_X64_"+version+".zip"} >Download</a><br/><br/>
 
                     Juka (x86-32bit):  <a rel="noopener noreferrer" href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/Juka_Linux_X86_"+version+".tar.gz"} >Download</a><br/>
                     Juka API (x86-32bit):  <a rel="noopener noreferrer" href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/Juka_Linux_X86_"+version+".tar.gz"} >Download</a><br/><br/>
@@ -102,8 +102,8 @@ function DownloadHeader() {
                 <>
                     <b>FreeBSD Version {version}:</b><br/>
                     <br/>
-                    Juka: <a rel="noopener noreferrer" href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/Juka_Unix_Amd64_"+version+".tar.gz"} >Download</a><br/>
-                    Juka API: <a rel="noopener noreferrer" href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/JukaAPI_Unix_Amd64_"+version+".tar.gz"} >Download</a><br/>
+                    Juka: <a rel="noopener noreferrer" href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/Juka_Unix_X64_"+version+".tar.gz"} >Download</a><br/>
+                    Juka API: <a rel="noopener noreferrer" href={"https://github.com/jukaLang/Juka/releases/download/"+version+"/JukaAPI_Unix_X64_"+version+".tar.gz"} >Download</a><br/>
                 </>
             ),
         },
