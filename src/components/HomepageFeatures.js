@@ -108,7 +108,7 @@ const FeatureList = [
         faIcon: {faCoffee}.faCoffee,
         description: (
             <>
-                Follow us on:<br/>
+                <strong>Follow us on:</strong><br/>
                 Facebook: <a rel="noopener noreferrer" target="_blank" href="https://www.facebook.com/jukalang/">@jukalang</a><br/>
                 Instagram: <a rel="noopener noreferrer" target="_blank" href="https://www.instagram.com/jukalanguage/">@jukalanguage</a><br/>
                 Twitter: <a rel="noopener noreferrer" target="_blank" href="https://twitter.com/jukaLang">@jukaLang</a><br/>

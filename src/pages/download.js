@@ -58,7 +58,6 @@ function DownloadHeader() {
                     Juka App: <a rel="noopener noreferrer" href={"https://github.com/jukaLang/JukaApp/releases/download/"+version+"/Juka_Windows_App_"+version+".msix"} >Download</a><br/>
                     Windows Store: <i>In active development, coming soon!</i><br/><br/>
                     
-                    JLDN (Package Manager): <a rel="noopener noreferrer" href={"https://github.com/jukaLang/JLDN/releases"} target={"_blank"}>Get Package Manager</a><br/>
                 </>
             ),
         },
@@ -408,7 +407,7 @@ function DownloadHeader() {
                             <div className={clsx('col col--4')} />
                             <div className={clsx('col col--4', styles.fontagap)}>
                                 <div className={clsx("text--center padding-horiz--md",styles.changelog2)}>
-                                    <strong>Juka Changelog:</strong> {changelog}
+                                    <strong>New in version {version}:</strong> {changelog}
                                     <br/><br/>
                                     <strong>Get the latest nightly builds at:</strong><br/>
                                     <a rel="noopener noreferrer" href="https://github.com/jukaLang/Juka/releases" target={"_blank"}>https://github.com/jukaLang/Juka/releases</a>

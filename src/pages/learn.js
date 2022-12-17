@@ -15,24 +15,24 @@ function LearnHeader() {
                 <a href="https://wasm.jukalang.com">Want to use Juka's offline browser editor?</a><br/><br/>
 
 
-                <h2>Videos</h2>
+                {/*<h2>Videos</h2>*/}
                 <div className="container">
                     <div className="row">
                         <div className={clsx('col col--6')}>
-                            <h4>Updating JLDN</h4>
+                            {/*<h4>Updating JLDN</h4>
                             <iframe width="100%" height="315" src="https://www.youtube.com/embed/ZkUnytJUwy4"
                                     title="YouTube video player"
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                    allowFullScreen></iframe>
+                                    allowFullScreen></iframe>*/}
 
 
                         </div>
                         <div className={clsx('col col--6')}>
-                            <h4>Installing Juka using JLDN (Juka Language Decentralized Network)</h4>
+                            {/*<h4>Installing Juka using JLDN (Juka Language Decentralized Network)</h4>
                             <iframe width="100%" height="315" src="https://www.youtube.com/embed/qRNXLm6JIuY"
                                     title="YouTube video player"
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                    allowFullScreen></iframe>
+                                    allowFullScreen></iframe>*/}
 
                         </div>
                     </div>
