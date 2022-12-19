@@ -13,7 +13,6 @@ slug: /hello-world
 ```jsx
 func main() =
    printLine("Hello World");
-
 ```
 
 完成后，保存文件并运行一个适当的命令来编译文件
