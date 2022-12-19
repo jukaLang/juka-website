@@ -120,6 +120,10 @@
     "message": "precaución",
     "description": "The default label used for the Caution admonition (:::caution)"
   },
+  "theme.BackToTopButton.buttonAriaLabel": {
+    "message": "Desplazar hacia arriba",
+    "description": "The ARIA label for the back to top button"
+  },
   "theme.blog.archive.title": {
     "message": "Archivar",
     "description": "The page & hero title of the blog archive page"
@@ -127,10 +131,6 @@
   "theme.blog.archive.description": {
     "message": "Archivar",
     "description": "The page & hero description of the blog archive page"
-  },
-  "theme.BackToTopButton.buttonAriaLabel": {
-    "message": "Desplazar hacia arriba",
-    "description": "The ARIA label for the back to top button"
   },
   "theme.blog.paginator.navAriaLabel": {
     "message": "Navegación de la lista de blogs",
@@ -188,6 +188,10 @@
     "message": "migas de pan",
     "description": "The ARIA label for the breadcrumbs"
   },
+  "theme.docs.DocCard.categoryDescription": {
+    "message": "{count} objetos",
+    "description": "The default description for a category card in the generated index about how many items this category includes"
+  },
   "theme.docs.paginator.navAriaLabel": {
     "message": "Navegación de páginas de documentos",
     "description": "The ARIA label for the docs pagination"
@@ -200,10 +204,6 @@
     "message": "Siguiente",
     "description": "The label used to navigate to the next doc"
   },
-  "theme.docs.DocCard.categoryDescription": {
-    "message": "{count} objetos",
-    "description": "The default description for a category card in the generated index about how many items this category includes"
-  },
   "theme.docs.tagDocListPageTitle.nDocsTagged": {
     "message": "Un documento etiquetado |{count} documentos etiquetados",
     "description": "Pluralized label for \"{count} docs tagged\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
@@ -214,6 +214,10 @@
   },
   "theme.docs.versionBadge.label": {
     "message": "Versión: {versionLabel}"
+  },
+  "theme.common.editThisPage": {
+    "message": "Editar esta página",
+    "description": "The link label to edit the current page"
   },
   "theme.docs.versions.unreleasedVersionLabel": {
     "message": "Esta es la documentación no publicada para la versión {siteTitle} de {versionLabel}.",
@@ -231,9 +235,9 @@
     "message": "última versión",
     "description": "The label used for the latest version suggestion link label"
   },
-  "theme.common.editThisPage": {
-    "message": "Editar esta página",
-    "description": "The link label to edit the current page"
+  "theme.common.headingLinkTitle": {
+    "message": "Enlace directo al encabezado",
+    "description": "Title for link to heading"
   },
   "theme.lastUpdated.atDate": {
     "message": " el {date}",
@@ -246,10 +250,6 @@
   "theme.lastUpdated.lastUpdatedAtBy": {
     "message": "Última actualización{atDate}{byUser}",
     "description": "The sentence used to display when a page has been last updated, and by who"
-  },
-  "theme.common.headingLinkTitle": {
-    "message": "Enlace directo al encabezado",
-    "description": "Title for link to heading"
   },
   "theme.navbar.mobileVersionsDropdown.label": {
     "message": "Versiones",
@@ -295,10 +295,6 @@
     "message": "En esta página",
     "description": "The label used by the button on the collapsible TOC component"
   },
-  "theme.blog.post.readingTime.plurals": {
-    "message": "Lectura de un minuto|{readingTime} lectura mínima",
-    "description": "Pluralized label for \"{readingTime} min read\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
-  },
   "theme.blog.post.readMore": {
     "message": "Leer más",
     "description": "The label used in blog post item excerpts to link to full blog posts"
@@ -306,6 +302,10 @@
   "theme.blog.post.readMoreLabel": {
     "message": "Leer más sobre {title}",
     "description": "The ARIA label for the link to full blog posts from excerpts"
+  },
+  "theme.blog.post.readingTime.plurals": {
+    "message": "Lectura de un minuto|{readingTime} lectura mínima",
+    "description": "Pluralized label for \"{readingTime} min read\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "theme.docs.sidebar.collapseButtonTitle": {
     "message": "Colapsar barra lateral",
@@ -334,9 +334,6 @@
   "theme.docs.sidebar.expandButtonAriaLabel": {
     "message": "Expand sidebar",
     "description": "The ARIA label and title attribute for expand button of doc sidebar"
-  },
-  "theme.SearchBar.seeAll": {
-    "message": "Ver los {count} resultados"
   },
   "theme.SearchPage.documentsFound.plurals": {
     "message": "Un documento encontrado|{count} documentos encontrados",
@@ -369,6 +366,9 @@
   "theme.SearchPage.fetchingNewResults": {
     "message": "Obteniendo nuevos resultados...",
     "description": "The paragraph for fetching new search results"
+  },
+  "theme.SearchBar.seeAll": {
+    "message": "Ver los {count} resultados"
   },
   "theme.SearchBar.label": {
     "message": "Buscar",
