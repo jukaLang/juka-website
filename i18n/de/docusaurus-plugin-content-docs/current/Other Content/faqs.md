@@ -26,4 +26,4 @@ sidebar_position: 998
 *A:* Sie können den Code mit jedem Texteditor schreiben. Wenn Ihnen Jupyter gefällt, können Sie Juka Kernel installieren, siehe Juka in Jupyter ausführen
 
 ## Q: Ich möchte Juka Compiler online hosten... Wie kann ich das tun?
-*A:* Es gibt viele Möglichkeiten, Juka Compiler online zu beherbergen. Eine der Möglichkeiten ist die Verwendung von Microsoft Azure Server (Siehe die Dokumentation zu Azure Funktion.) Wenn Sie Azure nicht verwenden möchten, können Sie JukaApi herunterladen. 
+*A:* Es gibt viele Möglichkeiten, Juka Compiler online zu beherbergen. Eine der Möglichkeiten ist die Verwendung von Microsoft Azure Server (Siehe die Dokumentation zu Azure Funktion.) Eine der Möglichkeiten ist die Verwendung von Microsoft Azure Server (Siehe die Dokumentation zu Azure Funktion.) Wenn Sie Azure nicht verwenden möchten, können Sie JukaApi herunterladen. 
