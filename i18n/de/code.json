@@ -120,10 +120,6 @@
     "message": "Vorsicht",
     "description": "The default label used for the Caution admonition (:::caution)"
   },
-  "theme.BackToTopButton.buttonAriaLabel": {
-    "message": "Zurück nach oben scrollen",
-    "description": "The ARIA label for the back to top button"
-  },
   "theme.blog.archive.title": {
     "message": "Archivieren",
     "description": "The page & hero title of the blog archive page"
@@ -143,6 +139,10 @@
   "theme.blog.paginator.olderEntries": {
     "message": "Ältere Einträge",
     "description": "The label used to navigate to the older blog posts page (next page)"
+  },
+  "theme.BackToTopButton.buttonAriaLabel": {
+    "message": "Zurück nach oben scrollen",
+    "description": "The ARIA label for the back to top button"
   },
   "theme.blog.post.paginator.navAriaLabel": {
     "message": "Blog-Beitragsseiten-Navigation",
@@ -215,10 +215,6 @@
   "theme.docs.versionBadge.label": {
     "message": "Version: {versionLabel}"
   },
-  "theme.common.editThisPage": {
-    "message": "Diese Seite bearbeiten",
-    "description": "The link label to edit the current page"
-  },
   "theme.docs.versions.unreleasedVersionLabel": {
     "message": "Dies ist eine unveröffentlichte Dokumentation für die Version {siteTitle} {versionLabel}.",
     "description": "The label used to tell the user that he's browsing an unreleased doc version"
@@ -234,6 +230,10 @@
   "theme.docs.versions.latestVersionLinkLabel": {
     "message": "neueste Version",
     "description": "The label used for the latest version suggestion link label"
+  },
+  "theme.common.editThisPage": {
+    "message": "Diese Seite bearbeiten",
+    "description": "The link label to edit the current page"
   },
   "theme.common.headingLinkTitle": {
     "message": "Direkter Link zur Überschrift",
@@ -335,6 +335,9 @@
     "message": "Expand sidebar",
     "description": "The ARIA label and title attribute for expand button of doc sidebar"
   },
+  "theme.SearchBar.seeAll": {
+    "message": "Alle {count} Ergebnisse ansehen"
+  },
   "theme.SearchPage.documentsFound.plurals": {
     "message": "Ein Dokument gefunden|{count} Dokumente gefunden",
     "description": "Pluralized label for \"{count} documents found\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
@@ -366,9 +369,6 @@
   "theme.SearchPage.fetchingNewResults": {
     "message": "Lade neue Ergebnisse...",
     "description": "The paragraph for fetching new search results"
-  },
-  "theme.SearchBar.seeAll": {
-    "message": "Alle {count} Ergebnisse ansehen"
   },
   "theme.SearchBar.label": {
     "message": "Suchen",
