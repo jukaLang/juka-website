@@ -1,7 +1,7 @@
 ---
 sidebar_position: 5
-id: Installing Juka App
 slug: /appinstall
 ---
 
+# Installing Juka App
 Juka se puede ejecutar en muchas plataformas incluyendo Windows, MacOS, Linux, FreeBSD, Web Browsers, etc.
