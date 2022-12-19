@@ -1,8 +1,9 @@
 ---
 sidebar_position: 5
-id: Läuft online
 slug: /online
 ---
+
+# Läuft online
 
 Es gibt drei Möglichkeiten, Juka ohne Installation zu starten (und ein Drittanbieter-System zu verwenden):
 
