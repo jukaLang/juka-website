@@ -1,8 +1,9 @@
 ---
 sidebar_position: 5
-id: Running Online
 slug: /online
 ---
+
+# Running Online
 
 There are three ways to run Juka without installing anything (and using a 3rd party system):
 
