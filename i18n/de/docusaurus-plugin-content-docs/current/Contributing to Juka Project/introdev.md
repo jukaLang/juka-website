@@ -26,7 +26,7 @@ Jedem steht es frei, die Dokumentation zu reparieren. Die Dokumentation ist eine
 Die meisten Tests werden automatisiert. Es gibt jedoch keinen Ersatz für einen Menschen. Das Testen ist schwieriger als das Kodieren. Das Schreiben eines Tests für Juka ist immer willkommen. Stellen Sie sicher, dass Sie sich beim Schreiben eines Tests auf Kantenfälle konzentrieren.
 
 ## Auf GitHub senden
-Halten Sie den Code sauber indem Sie K.I.S.S. Prinzip. Wenn Sie eine große Änderung vornehmen wollen, fork das Projekt, aktualisiere es und sobald Sie die Korrektur vollständig implementiert haben, senden Sie eine Pull-Requests an das Hauptprojekt.
+Halten Sie den Code sauber indem Sie K.I.S.S. Prinzip. Prinzip. Wenn Sie eine große Änderung vornehmen wollen, fork das Projekt, aktualisiere es und sobald Sie die Korrektur vollständig implementiert haben, senden Sie eine Pull-Requests an das Hauptprojekt.
 
 
 Klicke als Nächstes um deine Reise zu beginnen und uns bei der Entwicklung von Juka zu helfen
