@@ -15,6 +15,7 @@ class yourClassName =
 {
 ...
 }
+}
 ```
 
 ## Nutzungsbeispiele
@@ -29,8 +30,7 @@ class mathClass = {
 
 func main() = {
    mathClass();
-   print(math. dd(2,6))
-}
+   print(math.
 ```
 
 **AUTPUT:**
