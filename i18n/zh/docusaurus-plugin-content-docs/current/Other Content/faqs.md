@@ -25,5 +25,5 @@ sidebar_position: 998
 ## 问：你有一个IDE或一个文本编辑器，我可以在那里写代码吗？
 *答：* 您可以使用任何文本编辑器写入代码。 如果你喜欢Jupyter，你可以安装Juka kernel ，请在Jupyter运行Juka
 
-## 问：我想在线主机Juka编译器... 我怎样才能做？
-*甲：* 有多种方式在线托管Juka编译器。 其中一个方式是使用 Microsoft Azure Server (见Azure Function 文档) 如果 您不想使用 Azure，您可以下载 JukaApi。 
+## 问：我想在线主机Juka编译器... 我怎样才能做？ 我怎样才能做？
+*甲：* 有多种方式在线托管Juka编译器。 其中一个方式是使用 Microsoft Azure Server (见Azure Function 文档) 其中一个方式是使用 Microsoft Azure Server (见Azure Function 文档) 如果 您不想使用 Azure，您可以下载 JukaApi。 
