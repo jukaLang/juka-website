@@ -22,11 +22,17 @@ func main()={
     {
         printLine("¡Incorrecto!")
     }
+} 4+1 = 5")
+    }
+    else
+    {
+        printLine("¡Incorrecto!")
+    }
 }
 ```
 **OUTPUT:**
 
-`¡Correcto! 4+1 = 5`
+`¡Correcto! ¡Correcto! 4+1 = 5`
 
 
 ## Mientras bucle
