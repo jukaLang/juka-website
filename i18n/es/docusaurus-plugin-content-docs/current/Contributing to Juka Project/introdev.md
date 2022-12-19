@@ -26,7 +26,7 @@ Cualquiera es libre de arreglar la documentación. La documentación es una de l
 La mayoría de las pruebas serán automatizadas. Sin embargo, no hay sustituto de un ser humano. Las pruebas son más difíciles que la codificación. Escribir una prueba para Juka siempre es bienvenido. Asegúrate de concentrarte en los casos extremos cuando escribas una prueba.
 
 ## Enviando a GitHub
-Mantenga el código limpio siguiendo K.I.S.S. principio. Si quieres hacer un cambio importante, simplemente bifurca el proyecto, actualizarlo, y una vez que haya implementado la corrección, envíe un pull request al proyecto principal.
+Mantenga el código limpio siguiendo K. I.S.S. principio. Si quieres hacer un cambio importante, simplemente bifurca el proyecto, actualizarlo, y una vez que haya implementado la corrección, envíe un pull request al proyecto principal.
 
 
 Haz clic al lado para comenzar tu viaje ayudándonos a desarrollar Juka
