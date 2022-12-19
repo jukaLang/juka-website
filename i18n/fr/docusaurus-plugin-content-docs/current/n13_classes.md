@@ -29,8 +29,7 @@ class mathClass = {
 
 func main() = {
    math = new mathClass();
-   print(math. dd(2,6))
-}
+   print(math.
 ```
 
 **SORTIE :**
