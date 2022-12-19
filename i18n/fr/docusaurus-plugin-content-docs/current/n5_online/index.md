@@ -1,8 +1,9 @@
 ---
 sidebar_position: 5
-id: En cours d'exécution en ligne
 slug: /en-ligne
 ---
+
+# En cours d'exécution en ligne
 
 Il y a trois façons d'exécuter Juka sans rien installer (et d'utiliser un système de tiers) :
 
