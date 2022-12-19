@@ -29,8 +29,7 @@ class mathClass = {
 
 func main() = {
    math = new mathClass();
-   print(matemáticas. dd(2,6))
-}
+   print(matemáticas.
 ```
 
 **OUTPUT:**
