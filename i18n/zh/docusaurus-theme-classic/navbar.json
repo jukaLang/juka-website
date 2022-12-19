@@ -1,0 +1,26 @@
+{
+  "title": {
+    "message": "Juka 编程语言",
+    "description": "The title in the navbar"
+  },
+  "item.label.Docs": {
+    "message": "文档",
+    "description": "Navbar item with label Docs"
+  },
+  "item.label.Learn": {
+    "message": "学习",
+    "description": "Navbar item with label Learn"
+  },
+  "item.label.Download": {
+    "message": "下载",
+    "description": "Navbar item with label Download"
+  },
+  "item.label.Try Online": {
+    "message": "尝试在线",
+    "description": "Navbar item with label Try Online"
+  },
+  "item.label.GitHub": {
+    "message": "GitHub",
+    "description": "Navbar item with label GitHub"
+  }
+}
