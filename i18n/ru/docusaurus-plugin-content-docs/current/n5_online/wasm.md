@@ -2,8 +2,8 @@
 sidebar_position: 3
 ---
 
-# Веб-сборка
+# IDE (Web App)
 
-Посетите https://wasm.jukalang.com
+Visit https://ide.jukalang.com
 
 ## Скоро появится больше информации
