@@ -9,4 +9,4 @@ Il y a trois façons d'exécuter Juka sans rien installer (et d'utiliser un syst
 
 - Essayez en ligne - rendez-vous sur https://jukalang.com/tryonline
 - API - Aller sur https://api.jukalang.com
-- Assemblage Web - Aller à https://wasm.jukalang.com
+- Web Assembly - Going to https://ide.jukalang.com
