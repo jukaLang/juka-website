@@ -2,8 +2,8 @@
 sidebar_position: 3
 ---
 
-# Assemblée Web
+# IDE (Web App)
 
-Visitez https://wasm.jukalang.com
+Visit https://ide.jukalang.com
 
 ## Plus d'infos bientôt disponibles
