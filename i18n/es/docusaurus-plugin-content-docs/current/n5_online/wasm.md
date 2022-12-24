@@ -2,8 +2,8 @@
 sidebar_position: 3
 ---
 
-# Colmena web
+# IDE (Web App)
 
-Visita https://wasm.jukalang.com
+Visit https://ide.jukalang.com
 
 ## Más información próximamente
