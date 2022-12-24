@@ -231,7 +231,7 @@ function DownloadHeader() {
                     <b>Web Assembly Version {version}:</b><br/>
                     <br/>
                     Latest:  <a rel="noopener noreferrer" href={"https://github.com/jukaLang/JukaIDE/releases/download/"+version+"/Juka_IDE_"+version+".zip"} >Download version {version}</a><br/>
-                    Repo Download: <a rel="noopener noreferrer" href={"https://github.com/jukaLang/juka-webassembly"} target={"_blank"} >Download</a><br/><br/>
+                    Repo Download: <a rel="noopener noreferrer" href={"https://github.com/jukaLang/JukaIDE"} target={"_blank"} >Download</a><br/><br/>
 
                     Online: <a rel="noopener noreferrer" href={"https://ide.jukalang.com"} target={"_blank"} >https://ide.jukalang.com</a><br/>
                 </>
