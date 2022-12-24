@@ -9,4 +9,4 @@ slug: /在线
 
 - 在线试试 - 去https://jukalang.com/tryonline
 - API - 去https://api.jukalang.com
-- Web Assembly - 去https://wasm.jukalang.com
+- Web Assembly - Going to https://ide.jukalang.com
