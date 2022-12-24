@@ -24,7 +24,7 @@ __Поддерживаемое устройство:__
 - HTTPS/API (JukaAPI сервер)
 - Докер (JukaAPI)
 - Игровой движок Unity (через NuGet.org)
-- [Сборка (CDN/браузер/HTML сервер)](https://github.com/jukaLang/juka-webassembly)
+- [Сборка (CDN/браузер/HTML сервер)](https://github.com/jukaLang/jukaIDE)
 - ChromeOS* (см. веб-сборку)
 - [Jupyter via juka-kernel](https://github.com/jukaLang/juka-kernel)
 - [Виртуальное изображение Box (JukaVM)](https://github.com/jukaLang/jukaVM)

@@ -9,4 +9,4 @@ Es gibt drei Möglichkeiten, Juka ohne Installation zu starten (und ein Drittanb
 
 - Online versuchen - Gehe zu https://jukalang.com/tryonline
 - API - Gehe zu https://api.jukalang.com
-- Web Assembly - Gehe zu https://wasm.jukalang.com
+- Web Assembly - Going to https://ide.jukalang.com

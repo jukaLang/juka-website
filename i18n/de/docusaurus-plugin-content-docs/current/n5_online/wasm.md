@@ -2,8 +2,8 @@
 sidebar_position: 3
 ---
 
-# Web Assembly
+# IDE (Web App)
 
-Besuche https://wasm.jukalang.com
+Visit https://ide.jukalang.com
 
 ## Weitere Informationen kommen bald

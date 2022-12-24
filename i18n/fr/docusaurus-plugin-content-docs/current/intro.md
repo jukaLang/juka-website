@@ -24,7 +24,7 @@ __Périphérique actuel pris en charge :__
 - HTTPS/API (serveur JukaAPI)
 - Docker (JukaAPI)
 - Unity Game Engine (via NuGet.org)
-- [Assemblage Web (CDN/Navigateur/Serveur HTML)](https://github.com/jukaLang/juka-webassembly)
+- [Assemblage Web (CDN/Navigateur/Serveur HTML)](https://github.com/jukaLang/jukaIDE)
 - ChromeOS* (voir Ruche Web)
 - [Jupyter via juka-kernel](https://github.com/jukaLang/juka-kernel)
 - [Image de la boîte virtuelle (JukaVM)](https://github.com/jukaLang/jukaVM)
