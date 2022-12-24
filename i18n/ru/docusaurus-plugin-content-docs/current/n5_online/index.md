@@ -9,4 +9,4 @@ slug: /онлайн
 
 - Попробуйте онлайн - перейти на https://jukalang.com/tryonline
 - API - Переход на https://api.jukalang.com
-- Веб-сборка - Переход на https://wasm.jukalang.com
+- Web Assembly - Going to https://ide.jukalang.com
