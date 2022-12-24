@@ -120,6 +120,10 @@
     "message": "警告",
     "description": "The default label used for the Caution admonition (:::caution)"
   },
+  "theme.BackToTopButton.buttonAriaLabel": {
+    "message": "回滚到顶部",
+    "description": "The ARIA label for the back to top button"
+  },
   "theme.blog.archive.title": {
     "message": "存档",
     "description": "The page & hero title of the blog archive page"
@@ -139,10 +143,6 @@
   "theme.blog.paginator.olderEntries": {
     "message": "较早的条目",
     "description": "The label used to navigate to the older blog posts page (next page)"
-  },
-  "theme.BackToTopButton.buttonAriaLabel": {
-    "message": "回滚到顶部",
-    "description": "The ARIA label for the back to top button"
   },
   "theme.blog.post.paginator.navAriaLabel": {
     "message": "博客文章页面导航",
