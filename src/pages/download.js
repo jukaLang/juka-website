@@ -21,7 +21,7 @@ function DownloadHeader() {
         }
     }
 
-    const [version, setVersion] = useState("0.0.268");
+    const [version, setVersion] = useState("0.0.278");
     const [changelog, setChangelog] = useState("");
     setV();
 
@@ -113,7 +113,7 @@ function DownloadHeader() {
                 <>
                     <b>iOS Version {version}:</b><br/>
                     <br/>
-                    WASM (Browser Based App): <a rel="noopener noreferrer" href={"https://wasm.jukalang.com"} target={"_blank"}>https://wasm.jukalang.com</a><br/>
+                    IDE (Browser Based App): <a rel="noopener noreferrer" href={"https://ide.jukalang.com"} target={"_blank"}>https://ide.jukalang.com</a><br/>
                     Native App: <i>In active development, coming soon!</i>
                 </>
             ),
@@ -125,7 +125,7 @@ function DownloadHeader() {
                 <>
                     <b>Android Version {version}:</b><br/>
                     <br/>
-                    WASM (Browser Based App): <a rel="noopener noreferrer" href={"https://wasm.jukalang.com"} target={"_blank"}>https://wasm.jukalang.com</a><br/>
+                    IDE (Browser Based App): <a rel="noopener noreferrer" href={"https://ide.jukalang.com"} target={"_blank"}>https://ide.jukalang.com</a><br/>
                     Sideload Juka App: <a rel="noopener noreferrer" href={"https://github.com/jukaLang/JukaApp/releases/download/"+version+"/Juka_Android_App_"+version+".apk"} >Download</a><br/>
                     Google PlayStore: <i>In active development, coming soon!</i>
                 </>
@@ -139,7 +139,7 @@ function DownloadHeader() {
                 <>
                     <b>ChromeOS (Flex) Version {version}:</b><br/>
                     <br/>
-                    Go to and click install:  <a href={"https://wasm.jukalang.com"} target={"_blank"}>https://wasm.jukalang.com</a><br/>
+                    Go to and click install:  <a href={"https://ide.jukalang.com"} target={"_blank"}>https://ide.jukalang.com</a><br/>
                 </>
             ),
         },
@@ -151,7 +151,7 @@ function DownloadHeader() {
                 <>
                     <b>Tizen (Samsung) Version {version}:</b><br/>
                     <br/>
-                    WASM (Browser Based App): <a rel="noopener noreferrer" href={"https://wasm.jukalang.com"} target={"_blank"}>https://wasm.jukalang.com</a><br/>
+                    IDE (Browser Based App): <a rel="noopener noreferrer" href={"https://ide.jukalang.com"} target={"_blank"}>https://ide.jukalang.com</a><br/>
                     Native App: <i>In active development, coming soon!</i>
                 </>
             ),
@@ -230,10 +230,10 @@ function DownloadHeader() {
                 <>
                     <b>Web Assembly Version {version}:</b><br/>
                     <br/>
-                    Latest:  <a rel="noopener noreferrer" href={"https://github.com/jukaLang/juka-webassembly/releases/download/"+version+"/Juka_WebAssembly_"+version+".zip"} >Download version {version}</a><br/>
+                    Latest:  <a rel="noopener noreferrer" href={"https://github.com/jukaLang/JukaIDE/releases/download/"+version+"/Juka_IDE_"+version+".zip"} >Download version {version}</a><br/>
                     Repo Download: <a rel="noopener noreferrer" href={"https://github.com/jukaLang/juka-webassembly"} target={"_blank"} >Download</a><br/><br/>
 
-                    Online: <a rel="noopener noreferrer" href={"https://wasm.jukalang.com"} target={"_blank"} >https://wasm.jukalang.com</a><br/>
+                    Online: <a rel="noopener noreferrer" href={"https://ide.jukalang.com"} target={"_blank"} >https://ide.jukalang.com</a><br/>
                 </>
             ),
         },
@@ -283,7 +283,7 @@ function DownloadHeader() {
                     <br/>
                     Try Online: <a href="/tryonline" >Online Editor</a><br/>
                     API: <a rel="noopener noreferrer" href={"https://api.jukalang.com"} target={"_blank"}>https://api.jukalang.com</a><br/>
-                    WASM (Executes on your hardware): <a rel="noopener noreferrer" href={"https://wasm.jukalang.com"} target={"_blank"}>https://wasm.jukalang.com</a><br/>
+                    ide (Executes on your hardware): <a rel="noopener noreferrer" href={"https://ide.jukalang.com"} target={"_blank"}>https://ide.jukalang.com</a><br/>
                 </>
             ),
         },
@@ -374,7 +374,7 @@ function DownloadHeader() {
                             </div>
                         </section></>) : (<>
 
-                        <h3>Your current OS doesn't seem to be supported by Juka right now. Try using the webassembly version:</h3>
+                        <h3>Your current OS doesn't seem to be supported by Juka right now. Try using the IDE (Web App) version:</h3>
 
                             <section className={styles.features}>
                                 <div className="container">

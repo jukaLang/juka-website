@@ -281,7 +281,7 @@ function TryEditor() {
 
     return (
         <header className={styles.jide_container}>
-            Want to compile and run offline in a browser? Visit <a rel="noopener noreferrer" href={"https://wasm.jukalang.com"} target={"_blank"}>https://wasm.jukalang.com</a><br/><br/>
+            Want to compile and run offline in a browser? Visit <a rel="noopener noreferrer" href={"https://ide.jukalang.com"} target={"_blank"}>https://ide.jukalang.com</a><br/><br/>
 
             <button type={"submit"} onClick={() => SaveCodeClick()} className={styles.jide_savebutton}>Save to Storage</button>
             <button type={"submit"} onClick={() => LoadCodeClick()} className={styles.jide_loadbutton}>Load from Storage</button>

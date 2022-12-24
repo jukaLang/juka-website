@@ -12,7 +12,7 @@ function LearnHeader() {
                 <a href="/quiz">Think you know Juka? Take a Quiz!</a><br/><br/>
 
                 <a href="/tryonline">Try Juka Online</a><br/>
-                <a href="https://wasm.jukalang.com">Want to use Juka's offline browser editor?</a><br/><br/>
+                <a href="https://ide.jukalang.com">Want to use Juka's IDE (works offline)?</a><br/><br/>
 
 
                 {/*<h2>Videos</h2>*/}

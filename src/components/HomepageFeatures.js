@@ -70,7 +70,7 @@ const FeatureList = [
         faIcon: {faChrome}.faChrome,
         description: (
             <>
-                <Translate>Run Juka inside a Web Browser! Visit https://wasm.jukalang.com and install the App. On Mobile, it's simply adding the website to your home screen!</Translate>
+                <Translate>Run Juka inside a Web Browser! Visit https://ide.jukalang.com and install the App. On Mobile, it's simply adding the website to your home screen!</Translate>
             </>
         ),
     },

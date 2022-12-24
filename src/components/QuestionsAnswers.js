@@ -14,7 +14,7 @@ const QuestionList = [
     },
     {
         question: "Can I try Juka without installing anything?",
-        answer: "Visit <a target=_blank href=\"https://wasm.jukalang.com\">https://wasm.jukalang.com</a> to run a web-based app or use our full api at <a target=_blank href=\"https://jukalang.com/tryonline\">https://jukalang.com/tryonline</a>"
+        answer: "Visit <a target=_blank href=\"https://ide.jukalang.com\">https://ide.jukalang.com</a> to run a web-based app or use our full api at <a target=_blank href=\"https://jukalang.com/tryonline\">https://jukalang.com/tryonline</a>"
     },
 ];
 
