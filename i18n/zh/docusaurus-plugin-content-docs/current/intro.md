@@ -24,7 +24,7 @@ __当前支持的设备：__
 - HTTPS/API (JukaAPI 服务器)
 - Docker (JukaAPI)
 - Unity Game 引擎 (through Nuget.org)
-- [Web Assembly(CDN/Browser/HTML 服务器)](https://github.com/jukaLang/juka-webassembly)
+- [Web Assembly(CDN/Browser/HTML 服务器)](https://github.com/jukaLang/jukaIDE)
 - ChromeOS* (见网页组装)
 - [Jupyter via juka-kernel](https://github.com/jukaLang/juka-kernel)
 - [虚拟框图像 (JukaVM)](https://github.com/jukaLang/jukaVM)
