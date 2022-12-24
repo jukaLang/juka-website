@@ -24,7 +24,7 @@ __Aktuelles unterstütztes Gerät:__
 - HTTPS/API (JukaAPI Server)
 - Docker (JukaAPI)
 - Unity Game Engine (via NuGet.org)
-- [Web Assembly (CDN/Browser/HTML-Server)](https://github.com/jukaLang/juka-webassembly)
+- [Web Assembly (CDN/Browser/HTML-Server)](https://github.com/jukaLang/jukaIDE)
 - ChromeOS* (siehe Web-Assembly)
 - [Jupyter via juka-kernel](https://github.com/jukaLang/juka-kernel)
 - [Virtuelles Box Bild (JukaVM)](https://github.com/jukaLang/jukaVM)
