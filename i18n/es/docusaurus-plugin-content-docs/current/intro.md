@@ -24,7 +24,7 @@ __Dispositivo soportado:__
 - HTTPS/API (Servidor JukaAPI)
 - Docker (JukaAPI)
 - Motor de juegos de unidad (a través de NuGet.org)
-- [Colmena web (CDN/Navegador/Servidor HTML)](https://github.com/jukaLang/juka-webassembly)
+- [Colmena web (CDN/Navegador/Servidor HTML)](https://github.com/jukaLang/jukaIDE)
 - ChromeOS* (ver Colmena Web)
 - [Jupyter via juka-kernel](https://github.com/jukaLang/juka-kernel)
 - [Imagen de caja virtual (JukaVM)](https://github.com/jukaLang/jukaVM)
