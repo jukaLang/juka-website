@@ -5,6 +5,7 @@ sidebar_position: 2
 # MacOS
 
 Ejecuta el siguiente comando para iniciar el editor de Juka:
+
 ```jsx
 ./juka
 ```
