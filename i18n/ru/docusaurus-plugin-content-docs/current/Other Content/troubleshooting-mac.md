@@ -10,7 +10,6 @@ sidebar_position: 50
 
 ![шаг 1](/img/macintosh/cannotbeopened.png)
 
-
 ## Обработка
 
 Дважды щелкните на Juka
@@ -27,7 +26,6 @@ sidebar_position: 50
 
 ![Шаг 2](/img/macintosh/openanyway.png)
 
-
 Теперь вы можете запускать Juka и увидеть следующий экран:
 
 ![Шаг 3](/img/macintosh/final.png)
@@ -35,6 +33,7 @@ sidebar_position: 50
 ## Альтернативный обход
 
 Предположим, что Juka хранится на рабочем столе
+
 ```jsx
 cd ~/Desktop
 cd Juka_MacOS
@@ -50,6 +49,5 @@ sudo spctl --master-отключить
 ```jsx
 sudo spctl --master-включить
 ```
+
 Это позволит повторно включить "шлюз".
-
-
