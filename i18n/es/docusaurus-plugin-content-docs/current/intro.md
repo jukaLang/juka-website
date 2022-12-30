@@ -13,7 +13,8 @@ La filosofía de Juka es código una vez, corre por todas partes.
 
 Únete a nuestra comunidad de Discord: https://discord.com/invite/MsKWsErzfp
 
-__Dispositivo soportado:__
+**Dispositivo soportado:**
+
 - Windows (x86/x64)
 - ARM de Windows (ARM64)
 - Linux (x86/x64) (CentOS, Debian, Fedora, Ubuntu, TinyCore, y casi cualquier otro tipo de Linux)
@@ -23,25 +24,29 @@ __Dispositivo soportado:__
 - Azure (Microsoft Azure Function)
 - HTTPS/API (Servidor JukaAPI)
 - Docker (JukaAPI)
-- Motor de juegos de unidad (a través de NuGet.org)
-- [Colmena web (CDN/Navegador/Servidor HTML)](https://github.com/jukaLang/jukaIDE)
-- ChromeOS* (ver Colmena Web)
+- Unity Game Engine ([via NuGet.org](https://www.nuget.org/packages/JukaCompiler))
+- [Colmena web (CDN/Navegador/Servidor HTML)](https://github.com/jukaLang/juka-webassembly)
+- ChromeOS\* (see Web Assembly)
 - [Jupyter via juka-kernel](https://github.com/jukaLang/juka-kernel)
 - [Imagen de caja virtual (JukaVM)](https://github.com/jukaLang/jukaVM)
 - [App de Windows (Windows 10+)](https://github.com/jukaLang/JukaApp)
+- Android App (Can be sideloaded <https://jukalang.com/download>, but not in PlayStore yet)
+- Discord Bot
+- Telegram Bot
+- Amazon Fire (Can be sideloaded <https://jukalang.com/download>, but not in PlayStore yet)
 
-**__Próximamente:__**
-- Android App
-- iOS App (iPhone/iPad)
-- App de MacOS
+\***\*Coming Soon:\*\***
+
+- Ethereum Network
+- Android App (PlayStore version)
+- iOS App (iPhone/iPad AppStore version)
 - Tizen (Samsung)
-- TempleOS
+- MacOS App (AppStore version)
+- TempleOS Send us a message or tweet at us to let us know what other systems you want to see!
 
-__Soporte futuro potencial:__
-- AndroidTV App
+**Soporte futuro potencial:**
+
+- AndroidTV App (PlayStore version)
 - Servicio Web de Amazon (Soporte Nativo)
 - Google Cloud (Soporte Nativo)
 - Arduino
-
-
-
