@@ -5,7 +5,7 @@ import styles from "./download.module.css";
 import clsx from "clsx";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faServer, faFileCode, faCode,faPuzzlePiece,faDesktopAlt,faSun,faCross,faBook,faGlobe,faRobot} from '@fortawesome/free-solid-svg-icons'
-import { faChrome,faWindows, faApple, faLinux, faFreebsd, faRaspberryPi,faPython,faAndroid,faAppStoreIos,faUnity} from '@fortawesome/free-brands-svg-icons'
+import { faChrome,faWindows, faApple, faLinux, faFreebsd, faRaspberryPi,faPython,faAndroid,faAppStoreIos,faUnity,faAmazon} from '@fortawesome/free-brands-svg-icons'
 import BrowserOnly from "@docusaurus/BrowserOnly";
 
 function DownloadHeader() {
@@ -21,7 +21,7 @@ function DownloadHeader() {
         }
     }
 
-    const [version, setVersion] = useState("0.0.278");
+    const [version, setVersion] = useState("0.0.294");
     const [changelog, setChangelog] = useState("");
     setV();
 
@@ -140,6 +140,20 @@ function DownloadHeader() {
                     <b>ChromeOS (Flex) Version {version}:</b><br/>
                     <br/>
                     Go to and click install:  <a href={"https://ide.jukalang.com"} target={"_blank"}>https://ide.jukalang.com</a><br/>
+                </>
+            ),
+        },
+
+        {
+            title: "Amazon Fire and Amazon Fire HD",
+            faIcon: {faAmazon}.faAmazon,
+            description: (
+                <>
+                    <b>Amazon Fire (HD) Version {version}:</b><br/>
+                    <br/>
+                    IDE (Browser Based App): <a rel="noopener noreferrer" href={"https://ide.jukalang.com"} target={"_blank"}>https://ide.jukalang.com</a><br/>
+                    Sideload Juka App: <a rel="noopener noreferrer" href={"https://github.com/jukaLang/JukaApp/releases/download/"+version+"/Juka_Android_App_"+version+".apk"} >Download</a><br/>
+                    Amazon Appstore: <i>In active development, coming soon!</i>
                 </>
             ),
         },
@@ -349,6 +363,8 @@ function DownloadHeader() {
                         userOSEntry = OSList[4];
                     } else if (windowsPlatforms.indexOf(platform) !== -1) {
                         userOSEntry = OSList[0];
+                    } else if(/(?:; ([^;)]+) Build\/.*)?\bSilk\/([0-9._-]+)\b(.*\bMobile Safari\b)?/.test(userAgent)) {
+                        userOSEntry = OSList[7];
                     } else if (/Android/.test(userAgent)) {
                         userOSEntry = OSList[5];
                     } else if (/TV/.test(userAgent)) {

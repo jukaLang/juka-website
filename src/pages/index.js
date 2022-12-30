@@ -32,6 +32,8 @@ const TryDetectDownload = () => {
                     return 'for iOS';
                 } else if (windowsPlatforms.indexOf(platform) !== -1) {
                     return 'for Windows';
+                } else if(/(?:; ([^;)]+) Build\/.*)?\bSilk\/([0-9._-]+)\b(.*\bMobile Safari\b)?/.test(userAgent)) {
+                    return 'for Amazon Fire'
                 } else if (/Android/.test(userAgent)) {
                     return 'for Android';
                 } else if (/TV/.test(userAgent)) {

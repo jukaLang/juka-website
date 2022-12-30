@@ -5,6 +5,7 @@ sidebar_position: 3
 # Linux
 
 Run the following command to start the Juka editor:
+
 ```jsx
 ./juka
 ```

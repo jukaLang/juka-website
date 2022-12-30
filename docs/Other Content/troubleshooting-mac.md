@@ -12,7 +12,6 @@ you might get the following error:
 
 ![step1](/img/macintosh/cannotbeopened.png)
 
-
 ## Workaround
 
 Double click on Juka
@@ -31,7 +30,6 @@ NOTE: you might need to click the "lock" to make changes
 
 ![step2](/img/macintosh/openanyway.png)
 
-
 You should now be able to run Juka and
 see the following screen:
 
@@ -40,6 +38,7 @@ see the following screen:
 ## Alternative Workaround
 
 Assuming that Juka is stored on Desktop
+
 ```jsx
 cd ~/Desktop
 cd Juka_MacOS
@@ -57,6 +56,5 @@ run the following command:
 ```jsx
 sudo spctl --master-enable
 ```
+
 This will re-enable the "gatekeeper".
-
-
