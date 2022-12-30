@@ -10,7 +10,6 @@ sidebar_position: 50
 
 ![步骤1](/img/macintosh/cannotbeopened.png)
 
-
 ## 工作
 
 双击Juka
@@ -27,7 +26,6 @@ sidebar_position: 50
 
 ![步骤2](/img/macintosh/openanyway.png)
 
-
 您现在应该能够运行 Juka 并 看下面的屏幕：
 
 ![步骤3](/img/macintosh/final.png)
@@ -35,6 +33,7 @@ sidebar_position: 50
 ## 替代工作
 
 假定Juka存储在桌面
+
 ```jsx
 cd ~/Desktop
 cd Juka_MacOS
@@ -50,6 +49,5 @@ sudo spctl --master-disable
 ```jsx
 sudo spctl --master-启用
 ```
+
 这将重新启用“守门员”。
-
-
