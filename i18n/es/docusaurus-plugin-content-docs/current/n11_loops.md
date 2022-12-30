@@ -23,6 +23,7 @@ func main() = {
 En este ejemplo x se establece en 0. El comando **mientras** comprueba y ve que x debe ser menor que 2 y devuelve verdadero. El bucle **mientras se ejecuta el bucle**. El valor de x se incrementa en 1. Esta es una forma de Juka de aumentar los valores. El bucle **mientras que** solo se ejecuta dos veces.
 
 ## Romper
+
 Se le permite ejecutar un bucle infinito. Sin embargo, debería tener una sentencia break para salir del bucle
 
 Un ejemplo simple de ruptura:
