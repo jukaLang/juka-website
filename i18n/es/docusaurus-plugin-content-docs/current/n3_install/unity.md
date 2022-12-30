@@ -13,7 +13,7 @@ https://docs.microsoft.com/es-es/visualstudio/gamedev/unity/unity-scripting-upgr
 Para usar Juka, crea una cadena de múltiples líneas en el motor (usando `) y luego ejecuta lo siguiente
 
 ```jsx
-nuevo JukaCompiler. Compiler().Go(sourceAsString,false);
+new JukaCompiler.Compiler().Go(sourceAsString, false);
 ```
 
 ## Ejemplo
