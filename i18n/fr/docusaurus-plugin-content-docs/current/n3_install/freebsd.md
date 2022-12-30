@@ -2,10 +2,10 @@
 sidebar_position: 4
 ---
 
-
 # FreeBSD
 
 Exécutez la commande suivante pour démarrer l'éditeur Juka :
+
 ```jsx
 ./juka
 ```
