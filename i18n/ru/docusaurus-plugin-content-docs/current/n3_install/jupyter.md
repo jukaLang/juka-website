@@ -15,9 +15,11 @@ sidebar_position: 5
 В Windows вам рекомендуется следовать шагам, описанным на https://stackoverflow.com/questions/44272416/how-to-add-a-folder-to-path-environment-variable-in-windows-10-with-screensho
 
 В Linux/Unix/MacOS (bash): Предположим, что мы хранили Juka в /usr/bin/share/Juka, мы запускаем следующую команду:
+
 ```jsx
 $ path для экспорта = "/usr/bin/share/Juka:$PATH
 ```
+
 Это добавит Juka в PATH
 
 ПРИМЕЧАНИЕ: Возможно, потребуется перезапустить терминал. Рекомендуется также перезагрузить компьютер.
@@ -25,25 +27,31 @@ $ path для экспорта = "/usr/bin/share/Juka:$PATH
 Далее, вам нужно будет установить jupyter. Пожалуйста, выполните шаги описанные на https://jupyter.org/install если вы этого не сделали.
 
 Далее вы можете установить Juka_kernel из PyPi, запустив
+
 ```jsx
 pip install juka_kernel
 ```
+
 или установите его непосредственно из исходного кода, загрузив от: https://github.com/jukaLang/juka_kernel и запустив:
+
 ```jsx
-python -m juka_kernel.install 
+python -m juka_kernel.install
 ```
+
 в папке ядра.
 
 ## Использование ядра Juka
 
-**Примечание**: Меню *Новый* в блокноте должно показывать опцию для ноутбука Джука.
+**Notebook**: The _New_ menu in the notebook should show an option for an Juka notebook.
 
 **Консольные фронтэнды**: Чтобы использовать их в консольных фронтах, добавьте `--kernel juka` в их аргументы командной строки.
 
 ### Что делать, если новая версия Juka пришла?
+
 Если выйдет новая версия Juka, вам не нужно обновлять или обновлять juka_kernel (если мы не делаем больших изменений в ядро). Все, что вам нужно сделать, это заменить файлы в Juka PATH. Вот и все! Это упрощает обновление Juka без необходимости удаления и переустановки ядра
 
 ## Технические детали
+
 Ядро Juka написано на Python и служит мостом между Юпитером и Джукой. Он не компилирует и не запускает код Juka. просто служит протоколом обмена сообщениями.
 
 Если вы хотите внести свой вклад в Juka_kernel, смотрите https://github.com/juka/juka_kernel
