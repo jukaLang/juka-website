@@ -13,7 +13,7 @@ https://docs.microsoft.com/ru/visualstudio/gamedev/unity/unity-scripting-upgrade
 Чтобы использовать Juka, создайте многострочную строку в движке (с помощью `) и затем запустите следующее
 
 ```jsx
-новый JukaCompiler.Compiler().Go(sourceAsString,false);
+new JukaCompiler.Compiler().Go(sourceAsString, false);
 ```
 
 ## Пример
