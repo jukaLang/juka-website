@@ -10,7 +10,6 @@ Cuando ejecutes Juka por primera vez en Macintosh, puedes obtener el siguiente e
 
 ![paso1](/img/macintosh/cannotbeopened.png)
 
-
 ## Solución
 
 Doble clic en Juka
@@ -27,7 +26,6 @@ NOTA: puede que necesites hacer clic en el "bloqueo" para hacer cambios
 
 ![paso2](/img/macintosh/openanyway.png)
 
-
 Ahora deberías poder ejecutar Juka y ver la siguiente pantalla:
 
 ![paso3](/img/macintosh/final.png)
@@ -35,6 +33,7 @@ Ahora deberías poder ejecutar Juka y ver la siguiente pantalla:
 ## Alteración alternativa
 
 Suponiendo que Juka está almacenado en el escritorio
+
 ```jsx
 cd ~/Desktop
 cd Juka_MacOS
@@ -50,6 +49,5 @@ Una vez que hayas terminado de usar Juka, ejecuta el siguiente comando:
 ```jsx
 sudo spctl --master-enable
 ```
+
 Esto volverá a habilitar el "gatekeeper".
-
-
