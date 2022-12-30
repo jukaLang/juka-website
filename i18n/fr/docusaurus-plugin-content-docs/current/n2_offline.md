@@ -10,9 +10,11 @@ Il y a deux façons d'accéder à Juka en mode hors connexion: par PDF et par le
 ## Site Web/Juka PWA mis en cache
 
 ### Si vous êtes sur un appareil mobile:
+
 Cliquez sur "ajouter ceci à la page d'accueil". Cela créera automatiquement une application PWA accessible même sans internet.
 
 ### Si vous êtes sur un bureau (Windows, Macintosh, Linux,ChromeOS) :
+
 Trouvez le champ URL du navigateur et regardez la section à droite. Cliquez sur "Install Juka Programming Language Website". Ceci installera une application de navigateur qui peut être exécutée hors ligne (sans internet).
 
 ## PDF
@@ -22,4 +24,3 @@ La documentation de Juka peut être téléchargée en allant à la page "Téléc
 Vous pouvez également télécharger directement depuis :
 
 https://github.com/jukaLang/juka-website/releases/download/JukaLang/jukadocs.pdf
-
