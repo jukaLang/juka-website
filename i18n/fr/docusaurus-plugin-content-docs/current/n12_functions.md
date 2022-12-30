@@ -6,20 +6,21 @@ slug: /fonctions
 # Fonctions
 
 ## Exécution des fonctions
+
 Chaque script doit avoir une fonction principale. Les scripts peuvent être exécutés en appelant la fonction au sein de la fonction principale
 
 # Exemples d'utilisation
 
 ```jsx
-func x() = { 
-    printLine("Hello"); 
+func x() = {
+    printLine("Hello");
 }
 func main() ={
     x();
 }
 ```
 
-Toutes les fonctions sont définies avec la fonction mot. Les fonctions peuvent contenir des valeurs alphanumériques (y compris _) et les fonctions ne peuvent pas commencer par des valeurs numériques. Les fonctions sont simplement définies :
+Toutes les fonctions sont définies avec la fonction mot. Functions can contain alphanumeric values (including \_) and functions cannot start with numeric value. Les fonctions sont simplement définies :
 
 ```jsx
 func foo() = {
