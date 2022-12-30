@@ -6,15 +6,15 @@ slug: /class类
 # 班级
 
 ## 什么是类？
+
 类是在特定对象内组织方法和变量的方法
 
 ## 如何定义类
 
 ```jsx
-class yourClassName = 
+class yourClassName =
 {
     ...
-}
 }
 ```
 
