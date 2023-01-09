@@ -34,4 +34,4 @@ _A:_ You can write the code using any text editor. Si te gusta Jupyter, puedes i
 
 ## P: Quiero alojar a Juka compilador online... ¿Cómo puedo hacerlo?
 
-_A:_ There are many ways to host Juka Compiler online. Una de las formas es usar Microsoft Azure Server (ver la documentación de Azure Funtion.) Una de las formas es usar Microsoft Azure Server (ver la documentación de Azure Funtion.) Si no quieres usar Azure, puedes descargar JukaApi.
+_A:_ There are many ways to host Juka Compiler online. Una de las formas es usar Microsoft Azure Server (ver la documentación de Azure Funtion.) Una de las formas es usar Microsoft Azure Server (ver la documentación de Azure Funtion.) Si no quieres usar Azure, puedes descargar JukaApi. Una de las formas es usar Microsoft Azure Server (ver la documentación de Azure Funtion.) Si no quieres usar Azure, puedes descargar JukaApi.
