@@ -5,10 +5,12 @@ slug: /conditions
 
 # Conditions
 
-## What is a condition 
+## What is a condition
+
 A condition is a block of code that only runs if a certain requirment is met
 
 ## Usage Example
+
 ```jsx
 func main()={
 
@@ -24,12 +26,13 @@ func main()={
     }
 }
 ```
+
 **OUTPUT:**
 
 `Correct! 4+1 = 5`
 
-
 ## While Loop
+
 While loops create a loop that run as many times as instructed.
 
 ```jsx
@@ -42,6 +45,7 @@ func foo() = {
     }
 }
 ```
+
 **OUTPUT:**
 
 ```
