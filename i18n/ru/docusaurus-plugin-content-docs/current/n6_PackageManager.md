@@ -67,7 +67,7 @@ jldn установить {git_repo_author} {git_repo} {branch} { FLAGS }
 
 ## Использование кусков
 
-_Возвращает к указанной версии ***JLDN***_
+_Возвращает к указанной версии ***JLDN****
 
 ```bash
 гребень {service} {version}
