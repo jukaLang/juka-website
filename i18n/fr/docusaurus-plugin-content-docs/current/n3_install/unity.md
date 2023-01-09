@@ -13,7 +13,7 @@ https://docs.microsoft.com/fr/visualstudio/gamedev/unity/unity-scripting-upgrade
 Pour utiliser Juka, créez une chaîne de caractères multi-lignes dans le moteur (à l'aide de `) puis exécutez ce qui suit
 
 ```jsx
-new JukaCompiler.Compiler().Go(sourceAsString,false);
+new JukaCompiler.Compiler().Go(sourceAsString, false);
 ```
 
 ## Exemple

@@ -10,7 +10,6 @@ Lorsque vous exécutez Juka pour la première fois sur Macintosh, vous pourriez 
 
 ![Etape 1](/img/macintosh/cannotbeopened.png)
 
-
 ## Solution
 
 Double-cliquez sur Juka
@@ -27,7 +26,6 @@ NOTE : vous pourriez avoir besoin de cliquer sur le "Verrouiller" pour effectuer
 
 ![Etape 2](/img/macintosh/openanyway.png)
 
-
 Vous devriez maintenant pouvoir exécuter Juka et voir l'écran suivant :
 
 ![Etape 3](/img/macintosh/final.png)
@@ -35,6 +33,7 @@ Vous devriez maintenant pouvoir exécuter Juka et voir l'écran suivant :
 ## Solution alternative
 
 En supposant que Juka soit stocké sur le bureau
+
 ```jsx
 cd ~/Desktop
 cd Juka_MacOS
@@ -50,6 +49,5 @@ Une fois que vous avez fini d'utiliser Juka, exécutez la commande suivante :
 ```jsx
 sudo spctl --master-enable
 ```
+
 Cela réactivera le "gardien".
-
-

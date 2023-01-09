@@ -6,9 +6,11 @@ slug: /condiciones
 # Condiciones
 
 ## Qué es una condición
+
 Una condición es un bloque de código que sólo se ejecuta si se cumple un cierto requisito
 
 ## Ejemplo de uso
+
 ```jsx
 func main()={
 
@@ -30,12 +32,13 @@ func main()={
     }
 }
 ```
+
 **OUTPUT:**
 
 `¡Correcto! ¡Correcto! 4+1 = 5`
 
-
 ## Mientras bucle
+
 Los bucles mientras crean un bucle que se ejecuta tantas veces como se ha indicado.
 
 ```jsx
@@ -48,6 +51,7 @@ func foo() = {
     }
 }
 ```
+
 **OUTPUT:**
 
 ```

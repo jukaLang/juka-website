@@ -6,9 +6,11 @@ slug: /conditions/
 # Condition
 
 ## Qu'est-ce qu'une condition
+
 Une condition est un bloc de code qui ne s'exécute que si une certaine requête est remplie
 
 ## Exemple d'utilisation
+
 ```jsx
 func main()={
 
@@ -26,12 +28,13 @@ func main()={
     }
 }
 ```
+
 **SORTIE :**
 
 `Corrige ! 4+1 = 5`
 
-
 ## Boucle Tant que
+
 Les boucles « while » créent une boucle qui s'exécute autant de fois que souhaité.
 
 ```jsx
@@ -44,6 +47,7 @@ func foo() = {
     }
 }
 ```
+
 **SORTIE :**
 
 ```

@@ -44,8 +44,8 @@
   "Run Juka inside a Web Browser!": {
     "message": "Exécutez Juka à l'intérieur d'un navigateur Web!"
   },
-  "Run Juka inside a Web Browser! Visit https://wasm.jukalang.com and install the App. On Mobile, it's simply adding the website to your home screen!": {
-    "message": "Exécutez Juka à l'intérieur d'un navigateur Web! Visitez https://wasm.jukalang.com et installez l'application. Sur Mobile, il suffit d'ajouter le site à votre écran d'accueil !"
+  "Run Juka inside a Web Browser! Visit https://ide.jukalang.com and install the App. On Mobile, it's simply adding the website to your home screen!": {
+    "message": "Run Juka inside a Web Browser! Visit https://ide.jukalang.com and install the App. On Mobile, it's simply adding the website to your home screen!"
   },
   "Easy to Use Package Manager": {
     "message": "Gestionnaire de paquets facile à utiliser"
@@ -120,10 +120,6 @@
     "message": "précaution",
     "description": "The default label used for the Caution admonition (:::caution)"
   },
-  "theme.BackToTopButton.buttonAriaLabel": {
-    "message": "Retourner vers le haut",
-    "description": "The ARIA label for the back to top button"
-  },
   "theme.blog.archive.title": {
     "message": "Archive",
     "description": "The page & hero title of the blog archive page"
@@ -131,6 +127,10 @@
   "theme.blog.archive.description": {
     "message": "Archive",
     "description": "The page & hero description of the blog archive page"
+  },
+  "theme.BackToTopButton.buttonAriaLabel": {
+    "message": "Retourner vers le haut",
+    "description": "The ARIA label for the back to top button"
   },
   "theme.blog.paginator.navAriaLabel": {
     "message": "Navigation des pages de la liste des blogs",

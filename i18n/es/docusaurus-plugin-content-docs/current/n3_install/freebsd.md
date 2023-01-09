@@ -2,10 +2,10 @@
 sidebar_position: 4
 ---
 
-
 # BSD
 
 Ejecuta el siguiente comando para iniciar el editor de Juka:
+
 ```jsx
 ./juka
 ```

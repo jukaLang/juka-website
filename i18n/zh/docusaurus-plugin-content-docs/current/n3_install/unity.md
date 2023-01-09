@@ -13,7 +13,7 @@ https://docs.microsoft.com/en-us/visualstudio/gamedev/unity/unity-scripting-upgr
 要使用 Juka，在引擎中创建一个多行字符串 (使用 `) 然后运行下面的字符串
 
 ```jsx
-新 JukaCompiler.Compiler().Go(sourceAsString,false);
+new JukaCompiler.Compiler().Go(sourceAsString, false);
 ```
 
 ## 示例

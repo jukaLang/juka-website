@@ -6,9 +6,11 @@ slug: /konditionen
 # Bedingungen
 
 ## Was ist eine Bedingung
+
 Eine Bedingung ist ein Code-Blöck, der nur ausgeführt wird, wenn eine bestimmte Anforderung erfüllt wird
 
 ## Verwendungsbeispiel
+
 ```jsx
 func main()={
 
@@ -26,12 +28,13 @@ func main()={
     }
 }
 ```
+
 **AUTPUT:**
 
 `Richtig! 4+1 = 5`
 
-
 ## Während Schleife
+
 Während Schleifen erstellen Sie eine Schleife, die so oft wie angewiesen ausgeführt wird.
 
 ```jsx
@@ -44,6 +47,7 @@ func foo() = {
     }
 }
 ```
+
 **AUTPUT:**
 
 ```

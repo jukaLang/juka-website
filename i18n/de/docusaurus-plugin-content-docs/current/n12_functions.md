@@ -6,20 +6,21 @@ slug: /funktionen
 # Funktionen
 
 ## Funktionen ausführen
+
 Jedes Skript sollte eine Hauptfunktion haben. Skripte können durch Aufruf der Funktion innerhalb der Hauptfunktion ausgeführt werden
 
 # Nutzungsbeispiele
 
 ```jsx
-func x() = { 
-    printLine("Hello"); 
+func x() = {
+    printLine("Hello");
 }
 func main() ={
     x();
 }
 ```
 
-Alle Funktionen sind mit der Wortfunktion definiert. Funktionen können alphanumerische Werte (einschließlich _) enthalten und Funktionen können nicht mit numerischen Werten beginnen. Funktionen sind einfach definiert:
+Alle Funktionen sind mit der Wortfunktion definiert. Functions can contain alphanumeric values (including \_) and functions cannot start with numeric value. Funktionen sind einfach definiert:
 
 ```jsx
 func foo() = {

@@ -4,6 +4,7 @@ slug: /скачать
 ---
 
 # Загрузка Juka
+
 Juka может быть загружена с https://jukalang.com/download
 
 Если вам нужно скачать другую версию Juka, вы можете скачать последние файлы с https://github.com/jukaLang/juka/releases

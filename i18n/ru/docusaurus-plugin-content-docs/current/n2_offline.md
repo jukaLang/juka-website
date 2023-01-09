@@ -10,9 +10,11 @@ slug: /offline
 ## Кэшированный сайт/Juka PWA
 
 ### Если вы находитесь на мобильном устройстве:
+
 Нажмите на "add this to homepage". Это автоматически создаст приложение PWA, к которому можно получить доступ даже без интернета.
 
 ### Если вы находитесь на рабочем столе (Windows, Macintosh, Linux,ChromeOS):
+
 Найдите поле URL браузера и посмотрите в правом разделе. Нажмите на "Install Juka Programming Language Website". Это установит браузерное приложение, которое может быть запущено в автономном режиме (без Интернета).
 
 ## PDF
@@ -22,4 +24,3 @@ slug: /offline
 Вы также можете скачать непосредственно от:
 
 https://github.com/jukaLang/juka-website/releases/download/JukaLang/jukadocs.pdf
-

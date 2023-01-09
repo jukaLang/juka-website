@@ -23,6 +23,7 @@ func main() = {
 In diesem Beispiel ist x auf 0 gesetzt. Das **während** Anweisung überprüft und sieht, dass x kleiner als 2 sein muss und wahr ist. Das **während die** Schleife läuft. Der Wert von x wird um 1 erhöht. Dies ist eine Juka-Methode, Werte zu steigern. Die **während** Schleife läuft nur zweimal.
 
 ## Pause
+
 Du darfst eine Endlosschleife ausführen. Sie sollten jedoch eine Break-Anweisung haben, um die Schleife zu beenden
 
 Ein einfaches Beispiel für Break:

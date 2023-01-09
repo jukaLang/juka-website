@@ -6,14 +6,15 @@ slug: /clases
 # Clases
 
 ## ¿Qué es una clase?
+
 Una clase es una forma de organizar métodos y variables dentro de un objeto determinado
 
 ## Cómo definir una clase
 
 ```jsx
-class yourClassName = 
+class yourClassName =
 {
-...
+    ...
 }
 ```
 

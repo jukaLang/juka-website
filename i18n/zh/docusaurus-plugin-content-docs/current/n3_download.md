@@ -4,6 +4,7 @@ slug: /下载
 ---
 
 # 正在下载 Juka
+
 Juka 可以从 https://jukalang.com/download下载
 
 如果你需要下载其他版本的 Juka,那么你可以从 https://github.com/jukaLang/juka/releases 下载最新的二进制文件
