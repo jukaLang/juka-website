@@ -21,13 +21,13 @@ Para más información visite, https://www.nuget.org/packages/JukaCompiler
 Para compilar el código usando una cadena predefinida, agregue lo siguiente al código C#:
 
 ```jsx
-new JukaCompiler.Compiler().Go(sourceAsString, false);
+new JukaCompiler. Compiler().Go(sourceAsString, false);
 ```
 
 Si necesita compilar el código usando un archivo, puede pasar un archivo y ejecutar el siguiente código:
 
 ```jsx
-new JukaCompiler.Compiler().Go(sourceAsString, true);
+new JukaCompiler. Compiler().Go(sourceAsString, true);
 ```
 
 La salida se devolverá como una cadena.

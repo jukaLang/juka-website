@@ -20,7 +20,7 @@ func main() ={
 }
 ```
 
-Alle Funktionen sind mit der Wortfunktion definiert. Functions can contain alphanumeric values (including \_) and functions cannot start with numeric value. Funktionen sind einfach definiert:
+Alle Funktionen sind mit der Wortfunktion definiert. Funktionen sind einfach definiert: Functions can contain alphanumeric values (including \_) and functions cannot start with numeric value.
 
 ```jsx
 func foo() = {
