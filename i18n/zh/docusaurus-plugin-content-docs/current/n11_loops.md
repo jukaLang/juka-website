@@ -20,7 +20,7 @@ func main() =
 }
 ```
 
-在此示例 x 被设置为 0。 The **while** statement checks and sees that x must be less than 2 and returns true. The **while** loop runs. x值增加1。 The **while** loop runs. x值增加1。 这是一种不断提高价值的朱卡方式。 The **while** loop only runs twice.
+在此示例 x 被设置为 0。 The **while** statement checks and sees that x must be less than 2 and returns true. The **while** loop runs. x值增加1。 The **while** loop runs. x值增加1。 x值增加1。 这是一种不断提高价值的朱卡方式。 The **while** loop only runs twice.
 
 ## 断开
 
