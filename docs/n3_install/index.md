@@ -4,4 +4,5 @@ slug: /install
 ---
 
 # Installing and Running Juka (Console)
+
 Juka can be ran on many platforms including Windows, MacOS, Linux, FreeBSD, Web Browsers, etc.
