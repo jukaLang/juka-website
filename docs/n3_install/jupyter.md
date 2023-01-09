@@ -22,9 +22,11 @@ at https://stackoverflow.com/questions/44272416/how-to-add-a-folder-to-path-envi
 On Linux/Unix/MacOS (bash):
 Assuming that we stored Juka in /usr/bin/share/Juka,
 we run the following command:
+
 ```jsx
 $ export path = "/usr/bin/share/Juka:$PATH"
 ```
+
 This will add Juka to PATH
 
 NOTE: You might need to restart the terminal. It's recommended
@@ -34,26 +36,31 @@ Next, you will need to install jupyter. Please follow the steps
 outlined at https://jupyter.org/install if you haven't done so.
 
 Next, you can either install Juka_kernel from PyPi,
-by running 
+by running
+
 ```jsx
 pip install juka_kernel
 ```
+
 or install it directly from the source by downloading from:
 https://github.com/jukaLang/juka_kernel
 and running:
+
 ```jsx
-python -m juka_kernel.install 
+python -m juka_kernel.install
 ```
+
 in the kernel folder.
 
 ## Using the Juka kernel
 
-**Notebook**: The *New* menu in the notebook should show an option for an Juka notebook.
+**Notebook**: The _New_ menu in the notebook should show an option for an Juka notebook.
 
-**Console frontends**: To use it with the console frontends, add ``--kernel juka`` to
+**Console frontends**: To use it with the console frontends, add `--kernel juka` to
 their command line arguments.
 
 ### What if a new version of Juka Comes out?
+
 If a new version of Juka comes out, you do not need to
 update or upgrade the juka_kernel (unless we make big changes
 to the kernel). All you need to do is replace the files in
@@ -61,6 +68,7 @@ Juka PATH. That's it! This makes it easy to upgrade Juka
 without having to uninstall and re-install kernel
 
 ## Technical Details
+
 Juka Kernel is written in Python and serves as a bridge between
 Jupyter and Juka. It does not compile or run the Juka code. It
 just serves as a messaging protocol.
