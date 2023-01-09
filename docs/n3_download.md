@@ -4,6 +4,7 @@ slug: /download
 ---
 
 # Downloading Juka
+
 Juka can be downloaded from https://jukalang.com/download
 
 If you need to download other version of Juka, then you can download the latest binaries from https://github.com/jukaLang/juka/releases
