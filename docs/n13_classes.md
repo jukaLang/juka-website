@@ -6,12 +6,13 @@ slug: /classes
 # Classes
 
 ## What is a class?
+
 A class is a way of organizing methods and variables within a certain object
 
 ## How to define a class
 
 ```jsx
-class yourClassName = 
+class yourClassName =
 {
 	...
 }
@@ -33,7 +34,7 @@ func main() = {
 }
 ```
 
-**OUTPUT:** 
+**OUTPUT:**
 
 ```
 8
