@@ -30,8 +30,8 @@ _A:_ See the "Introduction" and "Writing your first application" section of the 
 
 ## 问：你有一个IDE或一个文本编辑器，我可以在那里写代码吗？
 
-_A:_ You can write the code using any text editor. 如果你喜欢Jupyter，你可以安装Juka kernel ，请在Jupyter运行Juka 如果你喜欢Jupyter，你可以安装Juka kernel ，请在Jupyter运行Juka
+_A:_ You can write the code using any text editor. 如果你喜欢Jupyter，你可以安装Juka kernel ，请在Jupyter运行Juka 如果你喜欢Jupyter，你可以安装Juka kernel ，请在Jupyter运行Juka 如果你喜欢Jupyter，你可以安装Juka kernel ，请在Jupyter运行Juka
 
 ## 问：我想在线主机Juka编译器... 我怎样才能做？ 我怎样才能做？
 
-_A:_ There are many ways to host Juka Compiler online. 其中一个方式是使用 Microsoft Azure Server (见Azure Function 文档) 其中一个方式是使用 Microsoft Azure Server (见Azure Function 文档) 如果 您不想使用 Azure，您可以下载 JukaApi。 其中一个方式是使用 Microsoft Azure Server (见Azure Function 文档) 其中一个方式是使用 Microsoft Azure Server (见Azure Function 文档) 如果 您不想使用 Azure，您可以下载 JukaApi。
+_A:_ There are many ways to host Juka Compiler online. 其中一个方式是使用 Microsoft Azure Server (见Azure Function 文档) 其中一个方式是使用 Microsoft Azure Server (见Azure Function 文档) 如果 您不想使用 Azure，您可以下载 JukaApi。 其中一个方式是使用 Microsoft Azure Server (见Azure Function 文档) 其中一个方式是使用 Microsoft Azure Server (见Azure Function 文档) 如果 您不想使用 Azure，您可以下载 JukaApi。 其中一个方式是使用 Microsoft Azure Server (见Azure Function 文档) 如果 您不想使用 Azure，您可以下载 JukaApi。
