@@ -18,6 +18,7 @@ class yourClassName =
 }
 }
 }
+}
 ```
 
 ## Nutzungsbeispiele
