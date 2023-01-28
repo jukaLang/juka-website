@@ -30,7 +30,7 @@ _A:_ See the "Introduction" and "Writing your first application" section of the 
 
 ## 问：你有一个IDE或一个文本编辑器，我可以在那里写代码吗？
 
-_A:_ You can write the code using any text editor. 如果你喜欢Jupyter，你可以安装Juka kernel ，请在Jupyter运行Juka 如果你喜欢Jupyter，你可以安装Juka kernel ，请在Jupyter运行Juka 如果你喜欢Jupyter，你可以安装Juka kernel ，请在Jupyter运行Juka 如果你喜欢Jupyter，你可以安装Juka kernel ，请在Jupyter运行Juka 如果你喜欢Jupyter，你可以安装Juka kernel ，请在Jupyter运行Juka
+_A:_ You can write the code using any text editor. 如果你喜欢Jupyter，你可以安装Juka kernel ，请在Jupyter运行Juka 如果你喜欢Jupyter，你可以安装Juka kernel ，请在Jupyter运行Juka 如果你喜欢Jupyter，你可以安装Juka kernel ，请在Jupyter运行Juka 如果你喜欢Jupyter，你可以安装Juka kernel ，请在Jupyter运行Juka 如果你喜欢Jupyter，你可以安装Juka kernel ，请在Jupyter运行Juka 如果你喜欢Jupyter，你可以安装Juka kernel ，请在Jupyter运行Juka
 
 ## 问：我想在线主机Juka编译器... 我怎样才能做？ 我怎样才能做？
 
