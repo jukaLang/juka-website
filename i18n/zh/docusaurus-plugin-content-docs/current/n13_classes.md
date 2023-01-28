@@ -19,6 +19,7 @@ class yourClassName =
 }
 }
 }
+}
 ```
 
 ## 用法示例
