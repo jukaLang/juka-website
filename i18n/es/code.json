@@ -120,6 +120,10 @@
     "message": "precaución",
     "description": "The default label used for the Caution admonition (:::caution)"
   },
+  "theme.BackToTopButton.buttonAriaLabel": {
+    "message": "Desplazar hacia arriba",
+    "description": "The ARIA label for the back to top button"
+  },
   "theme.blog.archive.title": {
     "message": "Archivar",
     "description": "The page & hero title of the blog archive page"
@@ -127,10 +131,6 @@
   "theme.blog.archive.description": {
     "message": "Archivar",
     "description": "The page & hero description of the blog archive page"
-  },
-  "theme.BackToTopButton.buttonAriaLabel": {
-    "message": "Desplazar hacia arriba",
-    "description": "The ARIA label for the back to top button"
   },
   "theme.blog.paginator.navAriaLabel": {
     "message": "Navegación de la lista de blogs",
@@ -179,10 +179,6 @@
   "theme.colorToggle.ariaLabel.mode.light": {
     "message": "modo de luz",
     "description": "The name for the light color mode"
-  },
-  "theme.docs.breadcrumbs.home": {
-    "message": "Página de inicio",
-    "description": "The ARIA label for the home page in the breadcrumbs"
   },
   "theme.docs.breadcrumbs.navAriaLabel": {
     "message": "migas de pan",
@@ -236,7 +232,7 @@
     "description": "The link label to edit the current page"
   },
   "theme.common.headingLinkTitle": {
-    "message": "Enlace directo al encabezado",
+    "message": "Direct link to {heading}",
     "description": "Title for link to heading"
   },
   "theme.lastUpdated.atDate": {
@@ -287,6 +283,10 @@
     "message": "Cambiar la categoría de barra lateral colapsable '{label}'",
     "description": "The ARIA label to toggle the collapsible sidebar category"
   },
+  "theme.NavBar.navAriaLabel": {
+    "message": "Main",
+    "description": "The ARIA label for the main navigation"
+  },
   "theme.navbar.mobileLanguageDropdown.label": {
     "message": "Idiomas",
     "description": "The label for the mobile language switcher dropdown"
@@ -307,6 +307,10 @@
     "message": "Lectura de un minuto|{readingTime} lectura mínima",
     "description": "Pluralized label for \"{readingTime} min read\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
+  "theme.docs.breadcrumbs.home": {
+    "message": "Página de inicio",
+    "description": "The ARIA label for the home page in the breadcrumbs"
+  },
   "theme.docs.sidebar.collapseButtonTitle": {
     "message": "Colapsar barra lateral",
     "description": "The title attribute for collapse button of doc sidebar"
@@ -314,6 +318,10 @@
   "theme.docs.sidebar.collapseButtonAriaLabel": {
     "message": "Colapsar barra lateral",
     "description": "The title attribute for collapse button of doc sidebar"
+  },
+  "theme.docs.sidebar.navAriaLabel": {
+    "message": "Docs sidebar",
+    "description": "The ARIA label for the sidebar navigation"
   },
   "theme.docs.sidebar.closeSidebarButtonAriaLabel": {
     "message": "Cerrar barra de navegación",
