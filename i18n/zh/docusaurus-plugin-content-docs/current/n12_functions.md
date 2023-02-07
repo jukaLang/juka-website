@@ -20,7 +20,7 @@ func main() ={
 }
 ```
 
-所有函数都用词函数定义。 Functions can contain alphanumeric values (including \_) and functions cannot start with numeric value. 职能的定义简单： 职能的定义简单： 职能的定义简单： 职能的定义简单： 职能的定义简单： 职能的定义简单：
+所有函数都用词函数定义。 Functions can contain alphanumeric values (including \_) and functions cannot start with numeric value. 职能的定义简单： 职能的定义简单： 职能的定义简单： 职能的定义简单： 职能的定义简单： 职能的定义简单： 职能的定义简单：
 
 ```jsx
 func foo() =
