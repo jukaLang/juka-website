@@ -20,6 +20,7 @@ class yourClassName =
 }
 }
 }
+}
 ```
 
 ## Nutzungsbeispiele
