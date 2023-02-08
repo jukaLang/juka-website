@@ -6,7 +6,7 @@ sidebar_position: 8
 
 ### 本地运行
 
-Juka can run locally without Azure Web server if you prefer to test Juka before uploading to your server. 为了做到这一点，执行以下步骤： 为了做到这一点，执行以下步骤： 为了做到这一点，执行以下步骤： 为了做到这一点，执行以下步骤： 为了做到这一点，执行以下步骤： 为了做到这一点，执行以下步骤： 为了做到这一点，执行以下步骤：
+Juka can run locally without Azure Web server if you prefer to test Juka before uploading to your server. 为了做到这一点，执行以下步骤： 为了做到这一点，执行以下步骤： 为了做到这一点，执行以下步骤： 为了做到这一点，执行以下步骤： 为了做到这一点，执行以下步骤： 为了做到这一点，执行以下步骤： 为了做到这一点，执行以下步骤： 为了做到这一点，执行以下步骤：
 
 - 在 Windows Visual Studio 2022 中打开 Juka.sln
 - 点击"启动AzureJukaFunction"按钮，在本地运行 Azure 仿真器。
