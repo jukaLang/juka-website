@@ -4,6 +4,6 @@ sidebar_position: 1
 
 # Попробуйте онлайн редактор
 
-Посетите https://jukalang.com/tryonline
+Visit https://ide.jukalang.com
 
 ## Скоро появится больше информации

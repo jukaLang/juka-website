@@ -4,6 +4,6 @@ sidebar_position: 1
 
 # Prueba el editor en línea
 
-Visita https://jukalang.com/tryonline
+Visit https://ide.jukalang.com
 
 ## Más información próximamente

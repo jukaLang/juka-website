@@ -10,7 +10,7 @@ _A:_ Juka is compatible with Windows, Linux, FreeBSD, RaspberryPi, and Macintosh
 
 ## В: Могу ли я попробовать Juka без загрузки?
 
-_A:_ Yes! Пожалуйста, попробуйте juka на https://jukalang.com/tryonline.
+_A:_ Yes! Please try juka at https://ide.jukalang.com.
 
 ## В: Для чего используется Juka?
 
