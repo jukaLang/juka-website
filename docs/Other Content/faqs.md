@@ -12,7 +12,7 @@ We also plan to support mobile platforms such as Android and iOS/iPadOS.
 
 ## Q: Can I try Juka without downloading?
 
-_A:_ Yes! Please try juka at https://jukalang.com/tryonline.
+_A:_ Yes! Please try juka at https://ide.jukalang.com.
 
 ## Q: What is Juka used for?
 

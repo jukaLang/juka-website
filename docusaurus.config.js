@@ -162,7 +162,7 @@ const config = {
             position: 'left'
           },
           {
-            to: 'tryonline',
+            to: 'https://ide.jukalang.com/',
             label: 'Try Online',
             position: 'right'
           },
@@ -199,7 +199,7 @@ const config = {
               },
               {
                 label: 'Try Online',
-                to: '/tryonline',
+                to: 'https://ide.jukalang.com',
               },
               {
                 label: 'Get Certificate',

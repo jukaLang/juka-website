@@ -87,7 +87,7 @@ function HomepageHeader() {
         <CodeExamples/>
 
           <div className={styles.idebtns}>
-              <a className={styles.index_runcode} href={"/tryonline"+isTabName}>Run Code</a>
+              <a className={styles.index_runcode} href={"https://ide.jukalang.com/"+isTabName}>Run Code</a>
               <a className={styles.index_download} href="/download">Download Juka <TryDetectDownload/></a>
           </div><br/>
           <h2>

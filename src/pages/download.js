@@ -295,9 +295,8 @@ function DownloadHeader() {
                 <>
                     <b>Online Versions:</b><br/>
                     <br/>
-                    Try Online: <a href="/tryonline" >Online Editor</a><br/>
                     API: <a rel="noopener noreferrer" href={"https://api.jukalang.com"} target={"_blank"}>https://api.jukalang.com</a><br/>
-                    ide (Executes on your hardware): <a rel="noopener noreferrer" href={"https://ide.jukalang.com"} target={"_blank"}>https://ide.jukalang.com</a><br/>
+                    Web IDE (Can run locally): <a rel="noopener noreferrer" href={"https://ide.jukalang.com"} target={"_blank"}>https://ide.jukalang.com</a><br/>
                 </>
             ),
         },
