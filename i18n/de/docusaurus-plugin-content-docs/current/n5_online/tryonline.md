@@ -4,6 +4,6 @@ sidebar_position: 1
 
 # Online-Editor testen
 
-Besuche https://jukalang.com/tryonline
+Visit https://ide.jukalang.com
 
 ## Weitere Informationen kommen bald
