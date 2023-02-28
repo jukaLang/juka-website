@@ -25,7 +25,7 @@
   },
   "link.item.label.Try Online": {
     "message": "Essayer en ligne",
-    "description": "The label of footer link with label=Try Online linking to /tryonline"
+    "description": "The label of footer link with label=Try Online linking to https://ide.jukalang.com"
   },
   "link.item.label.Get Certificate": {
     "message": "Obtenir un certificat",
@@ -72,7 +72,7 @@
     "description": "The label of footer link with label=GitHub Source linking to https://github.com/jukaLang/juka"
   },
   "copyright": {
-    "message": "Copyright © 2023 Juka Programming Language <br/> (Last updated on 1/28/2023, 11:32:24 AM EST)",
+    "message": "Copyright © 2023 Juka Programming Language <br/> (Last updated on 2/28/2023, 1:27:57 PM EST)",
     "description": "The footer copyright"
   }
 }
