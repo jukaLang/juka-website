@@ -1,10 +1,4 @@
 {
-  "Get Started with Juka": {
-    "message": "Erste Schritte mit Juka"
-  },
-  "Follow us for news and updates!": {
-    "message": "Folgen Sie uns für Neuigkeiten und Updates!"
-  },
   "Portable": {
     "message": "Tragbar"
   },
@@ -80,13 +74,15 @@
   "Social Media": {
     "message": "Soziale Medien"
   },
+  "Get Started with Juka": {
+    "message": "Erste Schritte mit Juka"
+  },
+  "Follow us for news and updates!": {
+    "message": "Folgen Sie uns für Neuigkeiten und Updates!"
+  },
   "theme.ErrorPageContent.title": {
     "message": "Diese Seite ist abgestürzt.",
     "description": "The title of the fallback page when the page crashed"
-  },
-  "theme.ErrorPageContent.tryAgain": {
-    "message": "Erneut versuchen",
-    "description": "The label of the button to try again when the page crashed"
   },
   "theme.NotFound.title": {
     "message": "Seite nicht gefunden",
@@ -124,6 +120,14 @@
     "message": "Zurück nach oben scrollen",
     "description": "The ARIA label for the back to top button"
   },
+  "theme.blog.archive.title": {
+    "message": "Archivieren",
+    "description": "The page & hero title of the blog archive page"
+  },
+  "theme.blog.archive.description": {
+    "message": "Archivieren",
+    "description": "The page & hero description of the blog archive page"
+  },
   "theme.blog.paginator.navAriaLabel": {
     "message": "Navigation der Blog-Liste",
     "description": "The ARIA label for the blog pagination"
@@ -135,14 +139,6 @@
   "theme.blog.paginator.olderEntries": {
     "message": "Ältere Einträge",
     "description": "The label used to navigate to the older blog posts page (next page)"
-  },
-  "theme.blog.archive.title": {
-    "message": "Archivieren",
-    "description": "The page & hero title of the blog archive page"
-  },
-  "theme.blog.archive.description": {
-    "message": "Archivieren",
-    "description": "The page & hero description of the blog archive page"
   },
   "theme.blog.post.paginator.navAriaLabel": {
     "message": "Blog-Beitragsseiten-Navigation",
@@ -156,18 +152,6 @@
     "message": "Älterer Beitrag",
     "description": "The blog post button label to navigate to the older/next post"
   },
-  "theme.colorToggle.ariaLabel": {
-    "message": "Zwischen Dunkel- und Lichtmodus wechseln (derzeit {mode})",
-    "description": "The ARIA label for the navbar color mode toggle"
-  },
-  "theme.colorToggle.ariaLabel.mode.dark": {
-    "message": "dunkler Modus",
-    "description": "The name for the dark color mode"
-  },
-  "theme.colorToggle.ariaLabel.mode.light": {
-    "message": "lichtmodus",
-    "description": "The name for the light color mode"
-  },
   "theme.blog.post.plurals": {
     "message": "Ein Beitrag|{count} Beiträge",
     "description": "Pluralized label for \"{count} posts\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
@@ -180,13 +164,25 @@
     "message": "Alle Tags anzeigen",
     "description": "The label of the link targeting the tag list page"
   },
-  "theme.docs.DocCard.categoryDescription": {
-    "message": "{count} Elemente",
-    "description": "The default description for a category card in the generated index about how many items this category includes"
+  "theme.colorToggle.ariaLabel": {
+    "message": "Zwischen Dunkel- und Lichtmodus wechseln (derzeit {mode})",
+    "description": "The ARIA label for the navbar color mode toggle"
+  },
+  "theme.colorToggle.ariaLabel.mode.dark": {
+    "message": "dunkler Modus",
+    "description": "The name for the dark color mode"
+  },
+  "theme.colorToggle.ariaLabel.mode.light": {
+    "message": "lichtmodus",
+    "description": "The name for the light color mode"
   },
   "theme.docs.breadcrumbs.navAriaLabel": {
     "message": "Breadcrumbs",
     "description": "The ARIA label for the breadcrumbs"
+  },
+  "theme.docs.DocCard.categoryDescription": {
+    "message": "{count} Elemente",
+    "description": "The default description for a category card in the generated index about how many items this category includes"
   },
   "theme.docs.paginator.navAriaLabel": {
     "message": "Navigation der Docs-Seiten",
@@ -346,6 +342,38 @@
   "theme.SearchBar.seeAll": {
     "message": "Alle {count} Ergebnisse ansehen"
   },
+  "theme.SearchPage.documentsFound.plurals": {
+    "message": "Ein Dokument gefunden|{count} Dokumente gefunden",
+    "description": "Pluralized label for \"{count} documents found\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.SearchPage.existingResultsTitle": {
+    "message": "Suchergebnisse für \"{query}\"",
+    "description": "The search page title for non-empty query"
+  },
+  "theme.SearchPage.emptyResultsTitle": {
+    "message": "Die Dokumentation durchsuchen",
+    "description": "The search page title for empty query"
+  },
+  "theme.SearchPage.inputPlaceholder": {
+    "message": "Suche hier eingeben",
+    "description": "The placeholder for search page input"
+  },
+  "theme.SearchPage.inputLabel": {
+    "message": "Suchen",
+    "description": "The ARIA label for search page input"
+  },
+  "theme.SearchPage.algoliaLabel": {
+    "message": "Suche nach Algolia",
+    "description": "The ARIA label for Algolia mention"
+  },
+  "theme.SearchPage.noResultsText": {
+    "message": "Es wurden keine Ergebnisse gefunden",
+    "description": "The paragraph for empty search result"
+  },
+  "theme.SearchPage.fetchingNewResults": {
+    "message": "Lade neue Ergebnisse...",
+    "description": "The paragraph for fetching new search results"
+  },
   "theme.SearchBar.label": {
     "message": "Suchen",
     "description": "The ARIA label and placeholder for search button"
@@ -442,38 +470,6 @@
     "message": "Dokumente durchsuchen",
     "description": "The placeholder of the input of the DocSearch pop-up modal"
   },
-  "theme.SearchPage.documentsFound.plurals": {
-    "message": "Ein Dokument gefunden|{count} Dokumente gefunden",
-    "description": "Pluralized label for \"{count} documents found\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
-  },
-  "theme.SearchPage.existingResultsTitle": {
-    "message": "Suchergebnisse für \"{query}\"",
-    "description": "The search page title for non-empty query"
-  },
-  "theme.SearchPage.emptyResultsTitle": {
-    "message": "Die Dokumentation durchsuchen",
-    "description": "The search page title for empty query"
-  },
-  "theme.SearchPage.inputPlaceholder": {
-    "message": "Suche hier eingeben",
-    "description": "The placeholder for search page input"
-  },
-  "theme.SearchPage.inputLabel": {
-    "message": "Suchen",
-    "description": "The ARIA label for search page input"
-  },
-  "theme.SearchPage.algoliaLabel": {
-    "message": "Suche nach Algolia",
-    "description": "The ARIA label for Algolia mention"
-  },
-  "theme.SearchPage.noResultsText": {
-    "message": "Es wurden keine Ergebnisse gefunden",
-    "description": "The paragraph for empty search result"
-  },
-  "theme.SearchPage.fetchingNewResults": {
-    "message": "Lade neue Ergebnisse...",
-    "description": "The paragraph for fetching new search results"
-  },
   "theme.PwaReloadPopup.info": {
     "message": "Neue Version verfügbar",
     "description": "The text for PWA reload popup"
@@ -485,6 +481,10 @@
   "theme.PwaReloadPopup.closeButtonAriaLabel": {
     "message": "Schließen",
     "description": "The ARIA label for close button of PWA reload popup"
+  },
+  "theme.ErrorPageContent.tryAgain": {
+    "message": "Erneut versuchen",
+    "description": "The label of the button to try again rendering when the React error boundary captures an error"
   },
   "theme.common.skipToMainContent": {
     "message": "Zum Hauptinhalt springen",
