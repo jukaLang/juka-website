@@ -21,7 +21,7 @@ function DownloadHeader() {
         }
     }
 
-    const [version, setVersion] = useState("0.0.294");
+    const [version, setVersion] = useState("0.0.348");
     const [changelog, setChangelog] = useState("");
     setV();
 
