@@ -6,32 +6,32 @@ sidebar_position: 998
 
 ## P: ¿Juka funciona en Linux?
 
-_A:_ Juka is compatible with Windows, Linux, FreeBSD, RaspberryPi, and Macintosh. Juka puede correr en la nube a través de la función Juka Azure. También tenemos previsto soportar plataformas móviles como Android e iOS/iPadOS.
+**A:** Sí, Juka es compatible con Windows, Linux, FreeBSD, RaspberryPi, y Macintosh. También puede correr en la nube a través de la función Juka Azure. También tenemos previsto soportar plataformas móviles como Android e iOS/iPadOS.
 
 ## P: ¿Puedo probar Juka sin descargar?
 
-_A:_ Yes! Please try juka at https://ide.jukalang.com.
+**A:** Sí, puedes probar Juka online en [https://ide.jukalang.com](https://ide.jukalang.com).
 
 ## P: ¿Para qué sirve Juka?
 
-_A:_ Juka Programming Language's philosophy is code once, run everywhere. Su propósito es correr en cualquier plataforma.
+**A:** Juka es un lenguaje de programación de uso general que puede ser usado para crear una variedad de aplicaciones, incluyendo aplicaciones web, aplicaciones de escritorio y aplicaciones móviles. También es una buena opción para la creación rápida de prototipos y scripting.
 
-## Q: Could this language help me in \_?
+## P: ¿Podría este idioma ayudarme en _?
 
-_A:_ It might. El idioma está todavía en fase inicial, pero estamos buscando miembros activos.
+**A:** Podría hacerlo. El idioma está todavía en fase inicial, pero estamos buscando miembros activos. Si usted tiene un proyecto específico en mente, por favor háganoslo saber y podemos ver si Juka es un buen ajuste.
 
 ## P: ¿Juka Copyrighted?
 
-_A:_ Juka is provided under modified AGPL GNU license. Ver https://jukalang.com/license
+**A:** Juka se proporciona bajo licencia AGPL GNU modificada. Vea [https://jukalang.com/license](https://jukalang.com/license) para más información.
 
 ## P: ¿Cómo empiezo a usar Juka?
 
-_A:_ See the "Introduction" and "Writing your first application" section of the documentation
+**A:** Hay varias maneras diferentes de empezar a usar Juka. Puede descargar el compilador Juka y ejecutarlo en su propio ordenador, o puede utilizar uno de los intérpretes de Juka en línea. Una vez que tenga un compilador o intérprete de Juka, puede comenzar a escribir el código de Juka.
 
 ## P: ¿Tiene un IDE o un editor de texto donde pueda escribir el código?
 
-_A:_ You can write the code using any text editor. Si te gusta Jupyter, puedes instalar Juka kernel, ver Ejecutar Juka en Jupyter
+**A:** Puedes escribir el código usando cualquier editor de texto. Si te gusta Jupyter, puedes instalar Juka kernel, ver [ejecutar Juka en Jupyter](https://jukalang.com/docs/run-in-jupyter/).
 
 ## P: Quiero alojar a Juka compilador online... ¿Cómo puedo hacerlo?
 
-_A:_ There are many ways to host Juka Compiler online. Una de las formas es usar Microsoft Azure Server (ver la documentación de Azure Funtion.) Una de las formas es usar Microsoft Azure Server (ver la documentación de Azure Funtion.) Si no quieres usar Azure, puedes descargar JukaApi. Una de las formas es usar Microsoft Azure Server (ver la documentación de Azure Funtion.) Si no quieres usar Azure, puedes descargar JukaApi.
+**A:** Hay muchas maneras de alojar Juka Compiler en línea. Una de las formas es usar Microsoft Azure Server (ver la documentación de [Azure Function](https://docs.microsoft.com/en-us/azure/azure-functions/functions-create-first)). Si no desea utilizar Azure, puede descargar JukaApi.

@@ -3,6 +3,10 @@
     "message": "下一个",
     "description": "The label for version current"
   },
+  "sidebar.tutorialSidebar.category.Fundamentals of Juka Programming Language": {
+    "message": "Juka 编程语言的基础",
+    "description": "The label for category Fundamentals of Juka Programming Language in sidebar tutorialSidebar"
+  },
   "sidebar.tutorialSidebar.category.Installing and Running Juka (Console)": {
     "message": "安装并运行Juka (控制台)",
     "description": "The label for category Installing and Running Juka (Console) in sidebar tutorialSidebar"

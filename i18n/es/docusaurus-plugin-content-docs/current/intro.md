@@ -5,15 +5,26 @@ slug: /
 
 # Introducción
 
-El principal objetivo de Juka es ser un lenguaje de programación universal que pueda funcionar en cualquier plataforma incluyendo dispositivos móviles.
+Juka es un lenguaje de programación universal portátil, fácil de usar que puede funcionar en cualquier plataforma, incluyendo dispositivos móviles, dispositivos IoT y la nube. Su filosofía es "código una vez, corre por todas partes".
 
-La filosofía de Juka es código una vez, corre por todas partes.
+## Ventajas de Juka
 
-![jukaRun](/img/latestjuka.png)
+* **Portabilidad:** Juka es un lenguaje autónomo, lo que significa que no necesita ser instalado en su ordenador.
+* **Universalidad:** Juka es un lenguaje de propósito general, lo que significa que puede ser utilizado para una amplia variedad de tareas.
+* **Compatible con la nube:** Juka es un idioma nativo en la nube, lo que significa que está diseñado para ser utilizado en la nube.
+* **Soporte de Jupyter:** Juka tiene soporte nativo para Jupyter Notebooks.
+* **Soporte para navegadores:** Juka puede ser ejecutado en un navegador web.
+* **Gestor de paquetes fácil de usar:** Juka tiene un gestor de paquetes fácil de usar.
+* **Soporte de la comunidad:** Juka tiene una creciente comunidad de usuarios y desarrolladores.
+* **Contribución a la fuente:** Juka es un proyecto impulsado por la comunidad.
 
-Únete a nuestra comunidad de Discord: https://discord.com/invite/MsKWsErzfp
+Si está buscando un potente y versátil lenguaje de programación, entonces Juka es una buena opción. Todavía está en desarrollo, pero tiene el potencial de ser un actor importante en el panorama del lenguaje de programación.
 
-**Dispositivo soportado:**
+![jukaRun](/img/latestjuka.gif)
+
+Únete a nuestra comunidad de Discord: https://discord.gg/MsKWsErzfp
+
+## Dispositivo soportado:
 
 - Windows (x86/x64)
 - ARM de Windows (ARM64)
@@ -24,29 +35,31 @@ La filosofía de Juka es código una vez, corre por todas partes.
 - Azure (Microsoft Azure Function)
 - HTTPS/API (Servidor JukaAPI)
 - Docker (JukaAPI)
-- Unity Game Engine ([via NuGet.org](https://www.nuget.org/packages/JukaCompiler))
-- [Colmena web (CDN/Navegador/Servidor HTML)](https://github.com/jukaLang/juka-webassembly)
-- ChromeOS\* (see Web Assembly)
+- Motor de juegos de unidad ([a través de NuGet.org](https://www.nuget.org/packages/JukaCompiler))
+- [Colmena web (CDN/Navegador/Servidor HTML/AndroidTV)](https://github.com/jukaLang/juka-webassembly)
+- ChromeOS\* (ver Colmena Web)
 - [Jupyter via juka-kernel](https://github.com/jukaLang/juka-kernel)
 - [Imagen de caja virtual (JukaVM)](https://github.com/jukaLang/jukaVM)
 - [App de Windows (Windows 10+)](https://github.com/jukaLang/JukaApp)
-- Android App (Can be sideloaded <https://jukalang.com/download>, but not in PlayStore yet)
-- Discord Bot
-- Telegram Bot
-- Amazon Fire (Can be sideloaded <https://jukalang.com/download>, but not in PlayStore yet)
+- App de Android (se puede cargar al lado <https://jukalang.com/download>, pero no en PlayStore todavía)
+- Discord Bot (Trabajando, pero actualmente no está alojado)
+- Telegram Bot (Trabajando, pero no está actualmente alojado)
+- Amazon Fire (HD) (Se puede cargar al lado <https://jukalang.com/download>, pero no en Amazon AppStore todavía)
 
-\***\*Coming Soon:\*\***
+## Próximamente:
 
-- Ethereum Network
-- Android App (PlayStore version)
-- iOS App (iPhone/iPad AppStore version)
+- Red Ethereum
+- App de Android (versión de Google Play)
+- iOS App (versión iPhone/iPad AppStore)
 - Tizen (Samsung)
-- MacOS App (AppStore version)
-- TempleOS Send us a message or tweet at us to let us know what other systems you want to see!
+- Versión de la App de MacOS)
+- TempleOS
 
-**Soporte futuro potencial:**
+¡Envíenos un mensaje o un Tweet a nosotros para que sepamos qué otros sistemas desea ver!
 
-- AndroidTV App (PlayStore version)
+## Soporte futuro potencial:
+
+- App de AndroidTV (versión de Google Play)
 - Servicio Web de Amazon (Soporte Nativo)
 - Google Cloud (Soporte Nativo)
 - Arduino

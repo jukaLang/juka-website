@@ -1,27 +1,69 @@
 {
-  "Portable": {
-    "message": "Tragbar"
+  "Portable and Small in Size": {
+    "message": "Tragbar und klein in Größe"
   },
-  "Juka doesn't need to be installed! That means you can run Juka in environments where you don't have admin privileges or in environments where you don't have access to a hard drive. Juka is completely standalone and doesn't require any other application or any other dependency to be installed. Run it on your Flash/Thumb Drive!": {
-    "message": "Juka muss nicht installiert werden! Das bedeutet, dass Sie Juka in Umgebungen ausführen können, in denen Sie keine Administratorrechte haben, oder in Umgebungen, in denen Sie keinen Zugriff auf eine Festplatte haben. Juka ist völlig eigenständig und erfordert keine andere Anwendung oder andere Abhängigkeiten zu installieren. Führen Sie es auf Ihrem Flash/Thumb-Laufwerk aus!"
+  "Juka is a portable programming language that you can run anywhere. It doesn't need to be installed, so you can use it even if you don't have admin privileges or access to a hard drive. Just put Juka on your flash drive and you're good to go! Juka is a small, portable programming language that only takes up ~30MB of space. This means you can easily carry it around on a thumb drive or other portable storage device. In fact, you can even store multiple versions of Juka on the same drive, so you always have the latest version available.": {
+    "message": "Juka ist eine tragbare Programmiersprache, die Sie überall laufen können. Es muss nicht installiert werden, daher können Sie es auch verwenden, wenn Sie keine Administratorrechte oder keinen Zugriff auf eine Festplatte haben. Legen Sie Juka einfach auf Ihr Flash-Laufwerk und Sie sind gut zu gehen! Juka ist eine kleine, portable Programmiersprache, die nur ~30MB Platz belegt. Das bedeutet, dass Sie ihn leicht auf einem Daumenlaufwerk oder einem anderen tragbaren Speichermedium transportieren können. Tatsächlich können Sie sogar mehrere Versionen von Juka auf dem gleichen Laufwerk speichern, so dass Sie immer die neueste Version zur Verfügung haben."
   },
-  "Small in Size": {
-    "message": "Klein in Größe"
+  "You can use Juka on any computer, even if it doesn't have Juka installed.": {
+    "message": "Sie können Juka auf jedem Computer verwenden, auch wenn Juka nicht installiert ist."
   },
-  "Juka is fairly small in size ~ 30 mb (depending on the OS). This means that you can put Juka on your Thumb/Flash Drive. In fact, why not put all versions of Juka on your Thumb/Flash Drive? It won't take much space anyways.": {
-    "message": "Juka ist ziemlich klein in der Größe ~ 30 MB (abhängig vom Betriebssystem). Warum sollten Sie nicht alle Versionen von Juka auf Ihr Miniatur/Flash Laufwerk setzen?"
+  "You can easily share Juka with others.": {
+    "message": "Sie können Juka ganz einfach mit anderen teilen."
+  },
+  "You can keep your Juka code organized and portable.": {
+    "message": "Sie können Ihren Juka Code organisiert und portabel halten."
   },
   "Works on \"All\" Operating Systems": {
     "message": "Funktioniert mit \"Alle\" Betriebssystemen"
   },
-  "We are trying to support all systems including lesser known ones such as FreeBSD and TempleOS. We also support ARM processors and 32-bit systems such as Linux (x86). Why not install Juka on your Raspberry Pi or run it in ChromeOS Flex?": {
-    "message": "Wir versuchen, alle Systeme einschließlich weniger bekannter wie FreeBSD und TempleOS zu unterstützen. Wir unterstützen auch ARM-Prozessoren und 32-Bit-Systeme wie Linux (x86). Warum installieren Sie Juka nicht auf Ihrem Raspberry Pi oder starten Sie es in ChromeOS Flex?"
+  "We are constantly working to support as many systems as possible, including lesser known ones like FreeBSD and TempleOS. We also support ARM processors and 32-bit systems like Linux (x86). So why not give Juka a try on your Raspberry Pi or in ChromeOS Flex?": {
+    "message": "Wir arbeiten ständig daran, so viele Systeme wie möglich zu unterstützen, darunter weniger bekannte wie FreeBSD und TempleOS. Wir unterstützen auch ARM-Prozessoren und 32-Bit-Systeme wie Linux (x86). Also warum nicht Juka einen Versuch auf Ihrem Raspberry Pi oder in ChromeOS Flex?"
+  },
+  "You can use Juka on a variety of different systems.": {
+    "message": "Juka kann auf verschiedenen Systemen eingesetzt werden."
+  },
+  "Juka is a powerful and portable programming language.": {
+    "message": "Juka ist eine leistungsstarke und tragbare Programmiersprache."
+  },
+  "Juka is easy to learn and use.": {
+    "message": "Juka ist einfach zu erlernen und zu bedienen."
+  },
+  "Juka is a great way to learn about programming.": {
+    "message": "Juka ist ein großartiger Weg, um etwas über Programmierung zu lernen."
+  },
+  "You can even run Juka inside a Web Browser! Visit": {
+    "message": "Du kannst Juka sogar in einem Web-Browser ausführen! Besuche"
+  },
+  "and install the App. On Mobile, it's simply opening the website, and clicking \"add to your home screen!\"": {
+    "message": "und installieren Sie die App. Auf dem Smartphone ist es einfach die Website zu öffnen und klicken Sie auf \"Ihrem Home-Bildschirm hinzufügen!\""
   },
   "Universal": {
     "message": "Allgemein"
   },
-  "Juka can be used for all types of projects including server side coding, client side coding, native coding, web development, API development, data science, network security, and quantum computing. Our goal is to create a programming language that can run on any platform and we mean any! Including Linux x32, FreeBSD, Chromium, Discord, and Telegram.": {
-    "message": "Juka kann für alle Arten von Projekten verwendet werden, einschließlich Server-seitige Kodierung, Client-seitige Kodierung, native coding, web development, API development, data science, network security and quantum computing. Unser Ziel ist es, eine Programmiersprache zu erstellen, die auf jeder Plattform laufen kann und wir meinen jeden! Inklusive Linux x32, FreeBSD, Chromium, Discord und Telegram."
+  "Juka is a powerful and versatile programming language that can be used for a wide variety of projects.": {
+    "message": "Juka ist eine leistungsstarke und vielseitige Programmiersprache, die für eine Vielzahl von Projekten verwendet werden kann."
+  },
+  "Juka is a great choice for building web applications and websites. It's fast, efficient, and easy to use.": {
+    "message": "Juka ist eine gute Wahl zum Erstellen von Web-Anwendungen und Websites. Sie ist schnell, effizient und einfach zu bedienen."
+  },
+  "Juka is perfect for creating APIs that can be used by other applications. It's easy to create well-designed and secure APIs with Juka.": {
+    "message": "Juka ist perfekt für die Erstellung von APIs, die von anderen Anwendungen verwendet werden können. Es ist einfach zu schaffen, gut gestaltete und sichere APIs mit Juka."
+  },
+  "Juka is a powerful tool for data scientists. It's fast, efficient, and easy to use.": {
+    "message": "Juka ist ein leistungsstarkes Werkzeug für Datenwissenschaftler. Es ist schnell, effizient und einfach zu bedienen."
+  },
+  "We are aiming for Juka to be used to create secure networks and applications. It's fast, efficient, and easy to use.": {
+    "message": "Wir streben an, dass Juka verwendet wird, um sichere Netzwerke und Anwendungen zu erstellen. Es ist schnell, effizient und einfach zu bedienen."
+  },
+  "We are aiming for Juka to become a leading language for quantum computing. It's fast, efficient, and easy to use.": {
+    "message": "Wir streben an, dass Juka eine führende Sprache für Quantenrechner wird. Sie ist schnell, effizient und einfach zu bedienen."
+  },
+  "Juka can run on any platform, including Linux x32, FreeBSD, Chromium, Discord, and Telegram.": {
+    "message": "Juka kann auf jeder Plattform laufen, einschließlich Linux x32, FreeBSD, Chromium, Discord und Telegram."
+  },
+  "This makes it a great choice for developers who need to create applications that can run on a variety of platforms.": {
+    "message": "Dies macht es zu einer guten Wahl für Entwickler, die Anwendungen erstellen müssen, die auf einer Vielzahl von Plattformen laufen können."
   },
   "Cloud Friendly": {
     "message": "Cloud-freundlich"
@@ -35,41 +77,71 @@
   "NOTE: you need an active Microsoft Azure account to host.": {
     "message": "HINWEIS: Sie benötigen zum Hosten ein aktives Microsoft Azure-Konto."
   },
+  "You can use Juka to create applications that can be hosted anywhere.": {
+    "message": "Mit Juka können Sie Anwendungen erstellen, die überall gehostet werden können."
+  },
+  "JukaAPI is designed to scale to meet the needs of your application.": {
+    "message": "JukaAPI ist so konzipiert, dass sie den Anforderungen Ihrer Anwendung gerecht wird."
+  },
+  "JukaAPI can be used on Microsoft Azure using Azure Functions.": {
+    "message": "JukaAPI kann auf Microsoft Azure mit Azure Funktionen verwendet werden."
+  },
   "Jupyter Support": {
     "message": "Jupyter Unterstützung"
   },
-  "We know a lot of people love to use Jupyter Notebook/Lab. We've added an easy way to run Juka (kernel) in Jupyter. Do your data analysis in the software that you are used to!": {
-    "message": "Wir wissen, dass viele Leute es lieben, Jupyter Notebook/Labs zu verwenden. Wir haben eine einfache Möglichkeit hinzugefügt, Juka (Kernel) in Jupyter zu betreiben. Machen Sie Ihre Datenanalyse in der Software, an die Sie gewöhnt sind!"
-  },
-  "Run Juka inside a Web Browser!": {
-    "message": "Führe Juka in einem Web-Browser aus!"
-  },
-  "Run Juka inside a Web Browser! Visit https://ide.jukalang.com and install the App. On Mobile, it's simply adding the website to your home screen!": {
-    "message": "Run Juka inside a Web Browser! Visit https://ide.jukalang.com and install the App. On Mobile, it's simply adding the website to your home screen!"
+  "We know that many people love to use Jupyter Notebook and Lab. That's why we've added an easy way to run Juka code in Jupyter. Now you can do your data analysis in the software that you're used to, with the power of Juka. To get started, simply install the Juka kernel for Jupyter. Once the kernel is installed, you can create a new Jupyter notebook and select the \"Juka\" kernel. Now you can start writing Juka code in your Jupyter notebook. The Juka kernel will compile and execute your code, and you can see the results in the notebook. We hope you enjoy using Juka in Jupyter": {
+    "message": "Wir wissen, dass viele Leute gerne Jupyter Notebook und Lab benutzen, deshalb haben wir einen einfachen Weg hinzugefügt, Juka Code in Jupyter zu betreiben. Jetzt können Sie Ihre Datenanalyse in der Software, an die Sie gewöhnt sind, mit der Macht von Juka. Um loszulegen, installieren Sie einfach den Juka Kernel für Jupyter. Sobald der Kernel installiert ist, können Sie ein neues Jupyter Notebook erstellen und den \"Juka\" Kernel auswählen. Jetzt können Sie mit dem Schreiben von Juka Code in Ihrem Jupyter Notebook beginnen. Der Juka-Kernel wird Ihren Code kompilieren und ausführen, und Sie können die Ergebnisse im Notebook sehen. Wir wünschen Ihnen viel Spaß bei der Verwendung von Juka in Jupyter"
   },
   "Easy to Use Package Manager": {
     "message": "Einfach zu bedienender Package-Manager"
   },
-  "All of the packages are hosted on GitHub. That's right! We made it simple to install and contribute to the package development. Our hope is that by hosting all packages on Github, security issues in the packages can be fixed quickly by the community. The packages contain a simple config file, making it simple for anyone to develop Juka packages.": {
-    "message": "Alle Pakete werden auf GitHub gehostet. Das stimmt! Wir haben es einfach gemacht zu installieren und zur Paketentwicklung beizutragen. Unsere Hoffnung ist, dass durch das Hosting aller Pakete auf Github Sicherheitsprobleme in den Paketen von der Community schnell behoben werden können. Die Pakete enthalten eine einfache Konfigurationsdatei, die es jedem einfach macht, Juka-Pakete zu entwickeln."
+  "All of the packages are hosted on GitHub, making it easy to install and contribute to their development. We hope that by hosting all packages on GitHub, security issues can be fixed quickly by the community. The packages contain a simple config file, making it easy for anyone to develop Juka packages.": {
+    "message": "Alle Pakete werden auf GitHub gehostet, was es einfach macht, zu installieren und zu ihrer Entwicklung beizutragen. Wir hoffen, dass durch das Hosting aller Pakete auf GitHub Sicherheitsprobleme von der Community schnell behoben werden können. Die Pakete enthalten eine einfache Konfigurationsdatei, die es jedem leicht macht, Juka-Pakete zu entwickeln."
   },
-  "Our Community": {
-    "message": "Unsere Community"
+  "if you are interested in developing Juka packages, we encourage you to check out the GitHub repository.": {
+    "message": "wenn Sie an der Entwicklung von Juka-Paketen interessiert sind, empfehlen wir Ihnen, sich das GitHub Repository anzusehen."
   },
-  "Join our ever growing Juka community": {
-    "message": "Trete unserer ständig wachsenden Juka-Community bei"
+  "Join the Juka community!": {
+    "message": "Trete der Juka Community bei!"
   },
-  "We use \"Discord\" for managing the community as it provides an easy way to stay connected. In order to join the community, you should click our invitation link and register a Discord account. If you already have an account, just join the \"JukaLang\" group. It's public and anyone can join!": {
-    "message": "Wir verwenden \"Discord\" um die Community zu verwalten, da sie eine einfache Möglichkeit bietet, die Verbindung zu behalten. Um der Community beizutreten, solltest du auf unseren Einladungslink klicken und einen Discord-Account registrieren. Wenn du bereits einen Account hast, trete einfach der Gruppe \"JukaLang\" bei. Es ist öffentlich und jeder kann beitreten!"
+  "We are a growing community of Juka users who are passionate about learning and using this new language. We use Discord to stay connected and share resources, and we welcome anyone to join us.": {
+    "message": "Wir sind eine wachsende Gemeinschaft von Juka-Benutzern, die sich für das Erlernen und Benutzen dieser neuen Sprache einsetzen. Wir verwenden Discord, um mit Discord in Verbindung zu bleiben und Ressourcen zu teilen, und wir begrüßen jeden, der sich uns anschließen kann."
+  },
+  "To join the community, please click on the following link and create a Discord account. Once you have created an account, you can join the JukaLang group by clicking on the \"Join\" button.": {
+    "message": "Um der Community beizutreten, klicke auf den folgenden Link und erstelle einen Discord Account. Sobald Sie ein Konto erstellt haben, können Sie der JukaLang Gruppe beitreten, indem Sie auf die Schaltfläche \"Anmelden\" klicken."
+  },
+  "We look forward to seeing you in the community!": {
+    "message": "Wir freuen uns auf Ihren Besuch in der Gemeinschaft!"
   },
   "Contribute to the Source": {
     "message": "Zur Quelle beitragen"
   },
-  "Juka is built by the community, for the community. Please consider contributing to the Juka GitHub repository at": {
-    "message": "Juka wurde von der Community für die Community gebaut. Bitte denke daran, zum Juka GitHub Repository beizutragen auf"
+  "Juka is a community-driven project. We encourage everyone to contribute to the Juka GitHub repository.": {
+    "message": "Juka ist ein Community-basiertes Projekt. Wir ermutigen alle, zum Juka GitHub Repository beizutragen."
   },
-  "When you create new features or modify the existing ones, please follow the guidelines specified in the project documentation.": {
-    "message": "Wenn Sie neue Funktionen erstellen oder die vorhandenen verändern, folgen Sie bitte den in der Projektdokumentation angegebenen Richtlinien."
+  "There are many ways to contribute to Juka, including:": {
+    "message": "Es gibt viele Möglichkeiten, Juka zu helfen, einschließlich:"
+  },
+  "Reporting bugs": {
+    "message": "Fehler melden"
+  },
+  "Fixing bugs": {
+    "message": "Fehler beheben"
+  },
+  "Adding new features": {
+    "message": "Neue Funktionen hinzufügen"
+  },
+  "Writing documentation": {
+    "message": "Dokumentation schreiben"
+  },
+  "Translating documentation": {
+    "message": "Übersetzung der Dokumentation"
+  },
+  "Spreading the word about Juka": {
+    "message": "Verbreiten des Wortes über Juka"
+  },
+  "Please consider contributing to the Juka GitHub repository at": {
+    "message": "Bitte erwägen Sie einen Beitrag zum Juka GitHub Repository unter"
   },
   "Social Media": {
     "message": "Soziale Medien"
@@ -228,7 +300,7 @@
     "description": "The link label to edit the current page"
   },
   "theme.common.headingLinkTitle": {
-    "message": "Direct link to {heading}",
+    "message": "Direkter Link zu {heading}",
     "description": "Title for link to heading"
   },
   "theme.lastUpdated.atDate": {
@@ -280,7 +352,7 @@
     "description": "The ARIA label to toggle the collapsible sidebar category"
   },
   "theme.NavBar.navAriaLabel": {
-    "message": "Main",
+    "message": "Haupt",
     "description": "The ARIA label for the main navigation"
   },
   "theme.navbar.mobileLanguageDropdown.label": {

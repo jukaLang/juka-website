@@ -2,32 +2,31 @@
 sidebar_position: 1
 ---
 
-# Einführung
+# Einführung in die Entwicklung
 
-Vielen Dank, dass Sie sich die Zeit genommen haben, um zum Juka-Projekt beizutragen. Wir brauchen die Hilfe und wir schätzen jede Hilfe, die wir bekommen können.
+Vielen Dank, dass Sie sich die Zeit genommen haben, zum Juka-Projekt beizutragen. Wir sind immer auf der Suche nach Hilfe, und wir freuen uns über jede Unterstützung, die Sie leisten können.
 
 ## Mitwirken
 
-Erstelle einen neuen Zweig, arbeite daran, und erstelle ein Pull-Request-Request; sobald du fertig bist an der Funktion.
+Es gibt einige Möglichkeiten, wie Sie zum Juka-Projekt beitragen können:
 
-## Fehler gefunden?
+* **Fehler melden:** Wenn Sie einen Fehler im Juka-Code finden, melden Sie ihn bitte auf dem [Juka Issue-Tracker](https://github.com/jukaLang/juka/issues).
+* **Mitwirkender Code:** Wenn du Code zum Juka-Projekt beitragen möchtest bitte fork das Projektarchiv auf GitHub und sende eine Pull-Anfrage.
+* **Schreibe Dokumentation:** Die Juka-Dokumentation ist immer in Entwicklung und wir würden uns freuen, wenn Sie uns helfen würden. Bitte bearbeiten Sie die Dokumentation auf GitHub.
+* **Verbreiten Sie das Wort:** Der beste Weg, dem Juka-Projekt zu helfen, ist das Wort zu verbreiten. Erzählen Sie Ihren Freunden und Kollegen von Juka und helfen Sie uns, das Wort herauszuholen.
 
-Fehlerkorrekturen sind immer willkommen und werden ermutigt. Du kannst sie als Ticket-Tab auf https://github.com/jukaLang posten
+## Coding style
 
-## Styling
-
-Juka ist auf .NET aufgebaut. Bitte folgen Sie dem Coding auf https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/inside-a-program/coding-convention
-
-## Dokumentation
-
-Jedem steht es frei, die Dokumentation zu reparieren. Die Dokumentation ist einer der schwierigeren Teile des Projektes. Es ist schwer, es zu schreiben, und es ist noch schwieriger zu warten. Wenn du dabei helfen kannst, wird es sehr geschätzt.
+Juka ist auf .NET aufgebaut, daher folgen Sie bitte den Codierungskonventionen in den [.NET Coding-Konventionen](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/inside-a-program/coding-conventions).
 
 ## Testen
 
-Die meisten Tests werden automatisiert. Es gibt jedoch keinen Ersatz für einen Menschen. Das Testen ist schwieriger als das Kodieren. Das Schreiben eines Tests für Juka ist immer willkommen. Stellen Sie sicher, dass Sie sich beim Schreiben eines Tests auf Kantenfälle konzentrieren.
+Das Testen ist ein wichtiger Bestandteil des Juka-Entwicklungsprozesses. Wir empfehlen Ihnen, Tests für Ihren Code zu schreiben. Bitte konzentrieren Sie sich beim Schreiben von Tests auf Kantenfälle.
 
 ## Auf GitHub senden
 
-Halten Sie den Code sauber indem Sie K.I.S.S. Prinzip. Prinzip. Wenn Sie eine große Änderung vornehmen wollen, fork das Projekt, aktualisiere es und sobald Sie die Korrektur vollständig implementiert haben, senden Sie eine Pull-Requests an das Hauptprojekt.
+Wenn du Code bei GitHub einreichst, halte bitte den Code sauber und leicht zu lesen. Folgen Sie dem KISS-Prinzip (Keep It Simple, Stupid). Wenn Sie eine wichtige Änderung vornehmen möchten, fork Sie das Projekt, aktualisieren Sie es und sobald Sie die Korrektur vollständig implementiert haben, senden Sie eine Pull-Requests an das Hauptprojekt.
 
-Klicke als Nächstes um deine Reise zu beginnen und uns bei der Entwicklung von Juka zu helfen
+## Vielen Dank!
+
+Vielen Dank für Ihr Interesse am Juka-Projekt. Wir freuen uns über Ihre Hilfe, Juka so gut wie möglich zu machen.
