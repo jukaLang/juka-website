@@ -5,21 +5,21 @@ slug: /en-ligne
 
 # En cours d'exécution en ligne
 
-There are three ways to run Juka without installing anything (and using a 3rd party system):
+Il y a trois façons d'exécuter Juka sans rien installer (et d'utiliser un système de tiers) :
 
 * **IDE**
 
-The fully featured web-based online IDE. You can either run it [online](https://ide.jukalang.com) through a third party system (or host your own version by installing the app)
+L'IDE en ligne entièrement en vedette. Vous pouvez soit l'exécuter [en ligne](https://ide.jukalang.com) via un système tiers (ou héberger votre propre version en installant l'application)
 * **Lite IDE**
 
-The Juka Try Online is a web-based IDE that allows you to write, compile, and run Juka code without installing anything. To use the Juka Try Online, simply visit the [Juka website](https://jukalang.com/tryonline) and start coding.
+Le Juka Try Online est un IDE basé sur le Web qui vous permet d'écrire, de compiler et d'exécuter du code Juka sans rien installer. Pour utiliser Juka Essai en ligne, il vous suffit de visiter le site [Juka](https://jukalang.com/tryonline) et de commencer à coder.
 
 * **API**
 
-The Juka API is a RESTful API that allows you to run Juka code on a remote server. To use the Juka API, you will need to create an account and obtain an API key. Once you have an API key, you can use it to run Juka code by making HTTP requests to the Juka API endpoints.
+L'API Juka est une API RESTful qui vous permet d'exécuter du code Juka sur un serveur distant. Pour utiliser l'API Juka, vous devrez créer un compte et obtenir une clé API. Une fois que vous avez une clé d'API, vous pouvez l'utiliser pour exécuter du code Juka en faisant des requêtes HTTP vers les points de terminaison de l'API Juka.
 
 
-## References
+## Références
 
 * [Juka IDE](https://ide.jukalang.com)
 * * [Juka LiteIDE](https://lite.jukalang.com)
