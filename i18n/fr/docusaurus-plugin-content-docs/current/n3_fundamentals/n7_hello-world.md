@@ -5,23 +5,23 @@ slug: /hello-world
 
 # Écriture de votre première application
 
-Let's start by creating a "Hello World" application.
+Commençons par créer une application "Hello World".
 
-1. Create an empty file and save it as `HelloWorld.juk`.
+1. Créez un fichier vide et enregistrez-le sous le nom `HelloWorld.juk`.
 2. Dans ce fichier, copiez et collez le code suivant :
 
 ```jsx
-func main() =  {
+func main() = {
   printLine("Hello World");
 }
 ```
 
-3. Once done, save the file and run the following command:
+3. Une fois terminé, enregistrez le fichier et exécutez la commande suivante :
 ```jsx
 HelloWorld.juk
 ```
 
-This will compile and run your application. If everything went well, you should see the following output:
+Cela compilera et exécutera votre application. Si tout s'est bien passé, vous devriez voir la sortie suivante :
 
 ```jsx
 Bonjour le monde
