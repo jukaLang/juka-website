@@ -5,12 +5,12 @@ slug: /offline
 
 # Documentación sin conexión
 
-**There are two ways to access Juka documentation offline:**
+**Hay dos maneras de acceder a la documentación de Juka fuera de línea:**
 
-* **PDF:** You can download the Juka documentation in PDF format by going to the [Downloads](https://github.com/jukaLang/juka-website/releases/download/JukaLang/jukadocs.pdf) page.
-* **Cached Juka website (Juka PWA):** You can also create a cached version of the Juka website that can be accessed offline. To do this, follow these steps:
+* **PDF:** Puede descargar la documentación de Juka en formato PDF yendo a la página [Descargas](https://github.com/jukaLang/juka-website/releases/download/JukaLang/jukadocs.pdf).
+* **Sitio web en caché de Juka (Juka PWA):** También puede crear una versión en caché del sitio web de Juka que se puede acceder sin conexión. Para hacer esto, siga estos pasos:
 
-    1. On a mobile device, click on the "add this to homepage" button. This will automatically create a PWA app that can be accessed even without the internet.
-    2. On a desktop computer, find the browser URL field and look at the right section. Click on the "Install Juka Programming Language Website" button. Esto instalará una aplicación de navegador que puede ejecutarse sin conexión (sin internet).
+    1. En un dispositivo móvil, haga clic en el botón "añadir esto a la página de inicio". Esto creará automáticamente una aplicación PWA a la que se puede acceder incluso sin Internet.
+    2. En un equipo de escritorio, encuentre el campo URL del navegador y mire la sección derecha. Haga clic en el botón "Instalar página web de idioma de programación Juka". Esto instalará una aplicación de navegador que puede ejecutarse sin conexión (sin internet).
 
-Once you have created a cached version of the Juka website, you can access it offline by opening the PWA app or the browser app.
+Una vez que haya creado una versión en caché de la página web de Juka, puede acceder a ella sin conexión abriendo la aplicación PWA o la aplicación del navegador.
