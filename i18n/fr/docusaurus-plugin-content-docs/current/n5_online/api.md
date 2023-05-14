@@ -4,20 +4,20 @@ sidebar_position: 2
 
 # Juka API
 
-The Juka API is a powerful tool for developers who want to use the Juka programming language in their applications. With the Juka API, you can:
+L'API Juka est un outil puissant pour les développeurs qui veulent utiliser le langage de programmation Juka dans leurs applications. Avec l'API Juka, vous pouvez:
 
-* Run Juka code on a remote server.
-* Integrate Juka code with your existing applications.
-* Build custom Juka applications.
+* Exécutez le code Juka sur un serveur distant.
+* Intégrez le code Juka à vos applications existantes.
+* Construire des applications personnalisées de Juka.
 
-The Juka API is still under development, but it is already available for use. To learn more about the Juka API, visit the [Juka website](https://jukalang.com/api/).
+L'API Juka est encore en cours de développement, mais elle est déjà disponible pour l'utilisation. Pour en savoir plus sur l'API Juka, visitez le site [Juka](https://jukalang.com/api/).
 
 ### Bientôt disponible
 
-We are currently working on adding new features to the Juka API, such as:
+Nous travaillons actuellement à ajouter de nouvelles fonctionnalités à l'API Juka, telles que:
 
 * Prise en charge de plus de fonctionnalités de Juka, telles que des fonctions, des classes et des objets.
 * La possibilité de déboguer le code Juka.
-* The ability to use the Juka API in a variety of programming languages.
+* La possibilité d'utiliser l'API Juka dans une variété de langages de programmation.
 
-Nous partagerons bientôt plus d'informations sur ces fonctionnalités. In the meantime, you can learn more about the Juka API on our discord channel.
+Nous partagerons bientôt plus d'informations sur ces fonctionnalités. En attendant, vous pouvez en savoir plus sur l'API Juka sur notre canal discord.
