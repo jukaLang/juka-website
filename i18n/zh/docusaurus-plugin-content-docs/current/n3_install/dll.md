@@ -21,13 +21,13 @@ Juka 可以添加到任何 C# 项目为 .dll。 You can download the latest vers
 要使用预定义字符串编译代码， 在 C# 代码中添加以下内容：
 
 ```jsx
-new JukaCompiler.Compiler().Go(sourceAsString, false);
+new JukaCompiler.Compiler().go(sourceAsString, false)；
 ```
 
 如果您需要使用文件编译代码， 您可以传递文件并运行以下代码：
 
 ```jsx
-new JukaCompiler.Compiler().Go(sourceAsString, true);
+new JukaCompiler.Compiler().go(sourceAsString, true)；
 ```
 
 输出将作为字符串返回.
