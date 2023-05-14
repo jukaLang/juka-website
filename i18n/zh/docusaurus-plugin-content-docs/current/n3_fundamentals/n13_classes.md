@@ -35,7 +35,7 @@ var <name>;
 `name` 是属性的名称， `输入` 是属性的类型。
 
 ## 方法
-方法使用 `真空` 关键字来定义. 定义方法的语法如下：
+方法使用 `真空` 关键字来定义. 定义方法的语法如下： 定义方法的语法如下：
 
 ```jsx
 func <name>(<parameters>) = {
@@ -73,8 +73,7 @@ myObject.add(2, 6)；
 下面的代码定义了一个名为 `MathClass` 的类并创建了该类的对象：
 
 ```jsx
-第 MathClass 类。
-var num1：int；
+第 MathClass 类。 var num1：int；
 var num2：int；
 
 func add() 请返回
