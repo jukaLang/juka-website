@@ -21,13 +21,13 @@ public class Program {
     public static void Main(string[] args) {
         string jukaCode = "func main() { printLine("Hola Mundo") }";
         // Compilar el código Juka.
-        var compiledCode = new JukaCompiler.Compiler().Go(jukaCode, false);
+        var compiledCode = new JukaCompiler. Compiler().Go(jukaCode, false);
 
         // Ejecuta el código compilado.
         var result = compiledCode.Execute();
 
         // Imprimir el resultado.
-        Console.WriteLine(resultado);
+        Console. WriteLine(resultado);
     }
 }
 ```
@@ -44,13 +44,13 @@ public class Program {
     public static void Main(string[] args) {
         string jukaCodePath = @"my_code. uka";
         // Compilar el código Juka.
-        var compiledCode = new JukaCompiler.Compiler().Go(jukaCodePath, false);
+        var compiledCode = new JukaCompiler. Compiler().Go(jukaCodePath, false);
 
         // Ejecuta el código compilado.
         var result = compiledCode.Execute();
 
         // Imprimir el resultado.
-        Console.WriteLine(resultado);
+        Console. WriteLine(resultado);
     }
 }
 ```
