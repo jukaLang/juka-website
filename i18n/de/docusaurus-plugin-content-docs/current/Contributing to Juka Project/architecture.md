@@ -4,33 +4,43 @@ sidebar_position: 2
 
 # Architektur
 
-## Ordnerstruktur:
+## Ordnerstruktur
 
-### ./Beispiele
-- Bietet Ihnen Beispiele, um mit der Verwendung von Juka zu beginnen
+Die Juka-Codebase ist in den folgenden Ordnern organisiert:
 
-### ./src/JukaCompiler
-- Der Kern der Sprache. Der Code kompiliert sich in .NET . ll Bibliothek, die in jedem C# Projekt verwendet werden kann, einschließlich Xamarin/MAUI zum Erstellen von iOS/Android Apps, Es wird hauptsächlich verwendet, um plattformübergreifende Apps für Mac/OS, Windows-Apps und Windows-Desktop-Anwendungen zu erstellen.
+* **./examples** - Dieser Ordner enthält Beispiele für Juka-Code.
+* **./src/JukaCompiler** - Dieser Ordner enthält den Kern des Juka Compilers.
+* **./src/JukaAzureFunction** - Dieser Ordner enthält den Code zum Ausführen von Juka Azure Funktionen auf dem Microsoft Azure Cloud Server.
+* **./src/JukaNetwork** - Dieser Ordner enthält den Code für das Juka-Netzwerk, ein Blockchain-Netzwerk zum Speichern und Verwalten von Paketen.
+* **./src/JukaUnitTest** - Dieser Ordner enthält Einheitstests für den Juka-Compiler.
+* **./src/Juka** - Dieser Ordner enthält den Code für die Juka GUI (demnächst erhältlich).
 
-### ./src/JukaAzureFunktion
-- Azure Funktion Laufzeitcode. Zum Ausführen der Juka Azure Funktion auf dem Microsoft Azure Cloud Server
+## Anforderungen an Visual Studio/Entwicklung
 
-### ./src/JukaNetwork
-- Implementiert als Blockchain-Netzwerk zum Speichern und Verwalten von Paketen. Wird als dezentralisierter Paketmanager verwendet.
+Um Juka zu entwickeln und zu betreiben, benötigst du Folgendes:
 
-### ./src/JukaUnitTest
-- Einheitstests zum Testen von JukaCompiler
+* Die neueste Version von Visual Studio.
+* Die folgenden Visual Studio Pakete:
+  * Azure Entwicklung
+  * .NET Desktop-Entwicklung
 
-### ./src/Juka
-- Enthält GUI (Kommt bald)
+## Laufzeit
 
-### Anforderungen an Visual Studio/Entwicklung
-##### Stellen Sie sicher, dass Sie die neueste Visual Studio installiert haben
+Juka benutzt das folgende Schema, um den Code auszuführen:
 
-Die folgenden Visual Studio-Pakete, die benötigt werden, um Juka zu starten und zu entwickeln:
-
-- Azure Entwicklung
-- .NET Desktop-Entwicklung
-
-### Juka benutzt das folgende Schema, um den Code auszuführen:
 ![Layout](/img/Runtime.png)
+
+Der Juka Compiler kompiliert Juka Code in eine .NET .dll Bibliothek. Diese Bibliothek kann dann in jedem C# Projekt verwendet werden, einschließlich Xamarin/MAUI zum Erstellen von iOS/Android Apps, und wird hauptsächlich dazu verwendet, plattformübergreifende Apps für Mac/OS, Windows-Apps und Windows-Desktop-Anwendungen zu erstellen.
+
+Der Juka Azure Function Runtime Code wird verwendet, um Juka Azure Funktionen auf dem Azure Cloud Server von Microsoft auszuführen.
+
+Das Juka-Netzwerk ist ein Blockchain-Netzwerk zum Speichern und Verwalten von Paketen. Es wird als dezentraler Paketmanager verwendet.
+
+Die Juka Unit-Tests werden verwendet, um den Juka Compiler zu testen.
+
+Die Juka GUI ist eine grafische Benutzeroberfläche für Juka, die derzeit entwickelt wird.
+
+## Notizen
+
+* Das Juka-Projekt befindet sich noch in der Entwicklung, so dass einige Funktionen möglicherweise noch nicht verfügbar sind.
+* Wenn Sie Fragen oder Feedback haben, zögern Sie nicht uns zu kontaktieren.
