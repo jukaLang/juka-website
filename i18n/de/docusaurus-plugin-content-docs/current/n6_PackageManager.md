@@ -3,13 +3,13 @@ sidebar_position: 6
 slug: /packagemanager
 ---
 
-# Package Manager (DEPRECATED in FAVOR OF DEFAULT)
+# Paketmanager (DEPRECATED in FAVOR VON DEFAULT)
 
 <h1>📖 Inhaltsverzeichnis</h1>
 
 - [**Was ist JLDN?**](#about)
 - - [**Was ist der Zweck?**](#used-for)
-- - [**How does our decentralized network work?**](#how-our-decentralized-network-works)
+- - [**Wie funktioniert unser dezentralisiertes Netzwerk?**](#how-our-decentralized-network-works)
 - [**Was ist eine `manifest.yaml` Datei?**](#manifest-file)
 - - [**Manifest-Dateiformat**](#manifest-format)
 - [**Warum werden installierte Bibliotheken verschlüsselt?**](#encryption)
@@ -21,9 +21,9 @@ slug: /packagemanager
 
 ## Verwendet für
 
-**JLDN** ist ein Paketmanager, der von der Juka Language Organisation erstellt und gepflegt wurde. Es erlaubt Benutzern Bibliotheken zu erstellen, zu publizieren und zu verwenden. _For example_ if you were creating a web server, instead of recreating the whole https protocal you can install a juka library that gives you a solid framework.
+**JLDN** ist ein Paketmanager, der von der Juka Language Organisation erstellt und gepflegt wurde. Es erlaubt Benutzern Bibliotheken zu erstellen, zu publizieren und zu verwenden. _Zum Beispiel_ wenn Sie einen Webserver erstellt haben anstatt den ganzen https-Prototypen neu zu erstellen, können Sie eine Juka-Bibliothek installieren, die Ihnen ein solides Framework gibt.
 
-## How our decentralized network works
+## Wie unser dezentralisiertes Netzwerk funktioniert
 
 Unser dezentralisiertes Netzwerk ist die Art und Weise, wie JLDN Paketdaten erhält. Dies schließt den Inhalt der Bibliotheken ein. Wir ziehen die Daten direkt aus github heraus, was es einfacher macht und schneller Pakete zu erhalten.
 
