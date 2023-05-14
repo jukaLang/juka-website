@@ -16,13 +16,13 @@ Vous pouvez définir une chaîne de caractères en utilisant une citation : **"*
 Par exemple,
 
 ```jsx
-var animal = "cat";
+var animal = "chat";
 ```
 
 sera une chaîne, tant que
 
 ```jsx
-cat;
+chat;
 ```
 
 est un objet
