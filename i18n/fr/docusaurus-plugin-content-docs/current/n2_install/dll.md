@@ -5,57 +5,57 @@ sidebar_position: 30
 # Juka dans un projet C
 
 
-Juka can be added to any C# project as a NuGet package. To do this, open the Package Manager Console and run the following command:
+Juka peut être ajouté à n'importe quel projet C# en tant que paquet Nuget. Pour cela, ouvrez la console du gestionnaire de paquets et exécutez la commande suivante :
 
 ```jsx
 Install-Pack JukaCompiler
 ```
 
-Once the package is installed, you can use it to compile Juka code from within your C# project. To do this, add the following code to your project:
+Une fois le paquet installé, vous pouvez l'utiliser pour compiler du code Juka depuis votre projet C#. Pour cela, ajoutez le code suivant à votre projet :
 
 ```jsx
-//C# File
-using JukaCompiler;
+//C# Fichier
+à l'aide de JukaCompiler;
 
 public class Program {
     public static void Main(string[] args) {
         string jukaCode = "func main() { printLine("Hello World") }";
-        // Compile the Juka code.
+        // Compiler le code Juka.
         var compiledCode = new JukaCompiler.Compiler().Go(jukaCode, false);
 
-        // Execute the compiled code.
+        // Exécute le code compilé.
         var result = compiledCode.Execute();
 
-        // Print the result.
-        Console.WriteLine(result);
+        // Affiche le résultat.
+        Console.WriteLine(résultat);
     }
 }
 ```
-This code will compile the Juka code and print the message "Hello World" to the console
+Ce code compilera le code Juka et affichera le message "Hello World" dans la console
 
-## Using a file
-If you need to compile the code from a file, you can do so by passing the path to the file to the Go method. For example, the following code will compile the Juka code in the file my_code.juka:
+## Utiliser un fichier
+Si vous avez besoin de compiler le code à partir d'un fichier, vous pouvez le faire en passant le chemin vers le fichier à la méthode Go. Par exemple, le code suivant compilera le code Juka dans le fichier my_code.juka:
 
 ```jsx
-//C# File
-using JukaCompiler;
+//C# Fichier
+à l'aide de JukaCompiler;
 
 public class Program {
     public static void Main(string[] args) {
-        string jukaCodePath = @"my_code.juka";
-        // Compile the Juka code.
+        string jukaCodePath = @"my_code. uka";
+        // Compiler le code Juka.
         var compiledCode = new JukaCompiler.Compiler().Go(jukaCodePath, false);
 
-        // Execute the compiled code.
+        // Exécute le code compilé.
         var result = compiledCode.Execute();
 
-        // Print the result.
-        Console.WriteLine(result);
+        // Affiche le résultat.
+        Console.WriteLine(résultat);
     }
 }
 ```
 
-## Output
-The output of the Go method is a string. This string contains the compiled Juka code. You can use this string to execute the compiled code or to save it to a file.
+## Sortie
+La sortie de la méthode Go est une chaîne de caractères. Cette chaîne contient le code Juka compilé. Vous pouvez utiliser cette chaîne pour exécuter le code compilé ou l'enregistrer dans un fichier.
 
 Pour plus d'informations, visitez https://www.nuget.org/packages/JukaCompiler
