@@ -42,7 +42,7 @@ dans le dossier du noyau.
 
 ## Utiliser le noyau Juka
 
-**Notebook**: The _New_ menu in the notebook should show an option for an Juka notebook.
+**Bloc-notes**: Le menu _Nouveau_ du bloc-notes devrait afficher une option pour un bloc-notes Juka.
 
 **Console frontends**: Pour l'utiliser avec les interfaces console, ajoutez `--kernel juka` à leurs arguments de ligne de commande.
 
