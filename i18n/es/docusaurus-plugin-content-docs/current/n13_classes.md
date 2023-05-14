@@ -14,7 +14,7 @@ Una clase es una forma de organizar métodos y variables dentro de un objeto det
 ```jsx
 class yourClassName =
 {
-    ...
+...
 }
 ```
 
