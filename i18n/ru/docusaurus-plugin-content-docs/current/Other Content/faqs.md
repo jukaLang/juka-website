@@ -6,32 +6,32 @@ sidebar_position: 998
 
 ## В: Работает ли Juka над Linux?
 
-_A:_ Juka is compatible with Windows, Linux, FreeBSD, RaspberryPi, and Macintosh. Juka может работать в облаке через функцию Juka Azure. Мы также планируем поддерживать мобильные платформы, такие как Android и iOS/iPadOS.
+**A:** Да, Juka совместима с Windows, Linux, FreeBSD, RaspberryPi и Macintosh. Он также может работать в облаке через функцию Juka Azure. Мы также планируем поддерживать мобильные платформы, такие как Android и iOS/iPadOS.
 
 ## В: Могу ли я попробовать Juka без загрузки?
 
-_A:_ Yes! Please try juka at https://ide.jukalang.com.
+**О:** Да, вы можете попробовать Juka онлайн на [https://ide.jukalang.com](https://ide.jukalang.com).
 
 ## В: Для чего используется Juka?
 
-_A:_ Juka Programming Language's philosophy is code once, run everywhere. Его цель - запустить на любой платформе.
+**A:** Juka - это язык программирования общего назначения, который может быть использован для создания различных приложений, включая веб-приложения, настольные приложения и мобильные приложения. Это также хороший выбор для быстрого прототипирования и написания скриптов.
 
-## Q: Could this language help me in \_?
+## В: Могут ли эти языки помочь мне в _?
 
-_A:_ It might. Язык все еще находится на ранней стадии, но мы ищем активных членов.
+**А:** Это может произойти. Язык все еще находится на ранней стадии, но мы ищем активных членов. Если у вас есть конкретный проект, пожалуйста, дайте нам знать, и мы можем видеть, является ли Джука хорошим решением.
 
 ## Вопрос: Является Juka авторским?
 
-_A:_ Juka is provided under modified AGPL GNU license. См. https://jukalang.com/license
+**A:** Juka предоставляется в соответствии с измененной лицензией AGPL GNU. См. [https://jukalang.com/license](https://jukalang.com/license) для получения дополнительной информации.
 
 ## В: Как начать использовать Juka?
 
-_A:_ See the "Introduction" and "Writing your first application" section of the documentation
+**A:** Есть несколько различных способов использования Джуки. Вы можете скачать Juka компилятор и запустить его на своем компьютере, или использовать один из онлайн Juka переводчиков. После того, как у вас есть компилятор или переводчик Джука, вы можете начать писать код Джуки.
 
 ## В: У вас есть IDE или текстовый редактор, где я могу написать код?
 
-_A:_ You can write the code using any text editor. Если вам нравится Юпитер, вы можете установить ядро Juka, смотрите запуск Juka в Юпитере
+**A:** Вы можете написать код с помощью любого текстового редактора. Если вам нравится Юпитер, вы можете установить ядро Juka, см. [запустить Juka в Юпитере](https://jukalang.com/docs/run-in-jupyter/).
 
 ## В: Я хочу разместить компилятор Juka онлайн... Как это сделать?
 
-_A:_ There are many ways to host Juka Compiler online. Одним из способов является использование Microsoft Azure Server (см. документацию по функциям Azure.) Одним из способов является использование Microsoft Azure Server (см. документацию по функциям Azure.) , вы не хотите использовать Azure, вы можете скачать JukaApi. Одним из способов является использование Microsoft Azure Server (см. документацию по функциям Azure.) , вы не хотите использовать Azure, вы можете скачать JukaApi.
+**О:** Есть много способов разместить компилятор Juka онлайн. Одним из способов является использование Microsoft Azure Server (см. [Azure Function Function](https://docs.microsoft.com/en-us/azure/azure-functions/functions-create-first)). Если вы не хотите использовать Azure, вы можете скачать JukaApi.
