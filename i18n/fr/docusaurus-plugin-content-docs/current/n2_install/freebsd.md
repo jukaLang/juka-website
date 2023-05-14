@@ -4,31 +4,31 @@ sidebar_position: 4
 
 # FreeBSD
 
-To install Juka on FreeBSD, run the following command:
+Pour installer Juka sur FreeBSD, exécutez la commande suivante :
 
 ```jsx
 pkg install juka
 ```
 
-or download it directly from https://jukalang.com/download
+ou téléchargez-le directement sur https://jukalang.com/download
 
-Once Juka is installed, you can start the editor by running the following command:
+Une fois que Juka est installé, vous pouvez démarrer l'éditeur en exécutant la commande suivante :
 
 ```jsx
 ./juka
 ```
 
 
-To run Juka code from a file, run the following command, substituting the name of your file for `my_file.juk`:
+Pour exécuter le code Juka depuis un fichier, exécutez la commande suivante, en remplaçant le nom de votre fichier par `my_file.juk`:
 
 ```jsx
-./juka my_file.juk
+./juka mon_fichier.juk
 ```
 
-For example, to run the code in the file `hello_world.juk`, you would run the following command:
+Par exemple, pour exécuter le code dans le fichier `hello_world.juk`, vous exécuteriez la commande suivante :
 
 ```jsx
-./juka hello_world.juk
+format@@0 ./juka hello_world.juk
 ```
 
-This will compile and execute the Juka code in the file, and print the output to the console.
+Cela compilera et exécutera le code Juka dans le fichier, et affichera la sortie sur la console.
