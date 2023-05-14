@@ -3,13 +3,13 @@ sidebar_position: 6
 slug: /软件包管理器
 ---
 
-# Package Manager (DEPRECATED in FAVOR OF DEFAULT)
+# 软件包管理器 (默认值)
 
 <h1>📖 表格内容</h1>
 
 - [**什么是JLDN？**](#about)
 - - [**目的是什么？ **](#used-for)
-- - [**How does our decentralized network work?**](#how-our-decentralized-network-works)
+- - [**我们分散的网络如何工作？**](#how-our-decentralized-network-works)
 - [**什么是 `manifest.yaml` 文件？**](#manifest-file)
 - - [**清单文件格式**](#manifest-format)
 - [**为什么安装了库加密？**](#encryption)
@@ -21,9 +21,9 @@ slug: /软件包管理器
 
 ## 已使用
 
-**JLDN** 是由 Juka 语言组织创建和维护的包管理器。 它允许用户创建、发布和使用库。 _For example_ if you were creating a web server, instead of recreating the whole https protocal you can install a juka library that gives you a solid framework.
+**JLDN** 是由 Juka 语言组织创建和维护的包管理器。 它允许用户创建、发布和使用库。 _例如，_ 如果您正在创建一个 web 服务器， 您可以安装一个juka库，为您提供一个固有的框架，而不是重新创建整个https 的同级单体。
 
-## How our decentralized network works
+## 我们分散的网络如何工作
 
 我们分散的网络是JLDN 如何能够接收软件包数据。 这包括图书馆内容。 我们从 github 直接拉取数据，使它更容易，更快地接收包。
 
