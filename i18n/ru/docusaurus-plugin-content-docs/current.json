@@ -3,6 +3,10 @@
     "message": "Следующий",
     "description": "The label for version current"
   },
+  "sidebar.tutorialSidebar.category.Fundamentals of Juka Programming Language": {
+    "message": "Основы языка программирования Juka",
+    "description": "The label for category Fundamentals of Juka Programming Language in sidebar tutorialSidebar"
+  },
   "sidebar.tutorialSidebar.category.Installing and Running Juka (Console)": {
     "message": "Установка и запуск Juka (Console)",
     "description": "The label for category Installing and Running Juka (Console) in sidebar tutorialSidebar"
