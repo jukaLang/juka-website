@@ -42,8 +42,7 @@ mit JukaCompiler;
 
 public class Program {
     public static void Main(string[] args) {
-        string jukaCodePath = @"my_code. uka";
-        // Juka Code kompilieren.
+        string jukaCodePath = @"my_code.
         var compiledCode = new JukaCompiler.Compiler().Go(jukaCodePath, false);
 
         // Den kompilierten Code ausführen.
