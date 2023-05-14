@@ -4,21 +4,21 @@ sidebar_position: 1
 
 # Juka Android App
 
-The Juka Android App is a powerful tool for learning and using the Juka programming language. With the Juka Android App, you can:
+L'application Android Juka est un outil puissant pour apprendre et utiliser le langage de programmation Juka. Avec l'application Android Juka, vous pouvez:
 
-* Write, compile, and run Juka code on your Android device.
-* Learn Juka with interactive tutorials and exercises.
-* Get help with Juka syntax and semantics.
-* Share your Juka code with others.
+* Écrivez, compilez et exécutez le code Juka sur votre appareil Android.
+* Apprenez Juka avec des tutoriels et des exercices interactifs.
+* Obtenez de l'aide avec la syntaxe et la sémantique de Juka.
+* Partagez votre code Juka avec les autres.
 
-The Juka Android App is available for free on the Google Play Store. To download the app, simply open the Google Play Store app on your Android device and search for "Juka".
+L’application Android Juka est disponible gratuitement sur le Google Play Store. Pour télécharger l'application, ouvrez simplement l'application Google Play Store sur votre appareil Android et recherchez "Juka".
 
 ### Plus d'informations à venir
 
-We are currently working on adding new features to the Juka Android App, such as:
+Nous travaillons actuellement à ajouter de nouvelles fonctionnalités à l'application Android Juka, telles que:
 
-* Support for more Juka features, such as functions, classes, and objects.
-* The ability to debug Juka code.
-* The ability to run Juka code on a remote server.
+* Prise en charge de plus de fonctionnalités de Juka, telles que des fonctions, des classes et des objets.
+* La possibilité de déboguer le code Juka.
+* La possibilité d'exécuter du code Juka sur un serveur distant.
 
-We will be sharing more information about these features soon. In the meantime, you can learn more about the Juka Android App on our discord channel.
+Nous partagerons bientôt plus d'informations sur ces fonctionnalités. En attendant, vous pouvez en savoir plus sur l'application Android Juka sur notre canal discord.
