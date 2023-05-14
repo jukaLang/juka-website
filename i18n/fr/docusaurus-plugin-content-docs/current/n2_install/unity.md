@@ -4,10 +4,10 @@ sidebar_position: 6
 
 # Unité 3D
 
-Juka can be used in Unity 3D by following these steps:
+Juka peut être utilisé dans Unity 3D en suivant ces étapes:
 
-1. Install the JukaCompiler NuGet package.
-2. Create a multi-line string in the engine (using `) and then run the following:
+1. Installez le package JukaCompiler NuGet .
+2. Créez une chaîne de caractères multi-lignes dans le moteur (en utilisant `) puis exécutez ce qui suit :
 
 ```jsx
 new JukaCompiler.Compiler().Go(sourceAsString, false);
@@ -15,7 +15,7 @@ new JukaCompiler.Compiler().Go(sourceAsString, false);
 
 ## Exemple
 
-The following code will print "Hello World" to the console:
+Le code suivant affichera "Hello World" sur la console :
 
 ```jsx
 string juka = `
