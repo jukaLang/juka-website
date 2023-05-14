@@ -8,26 +8,32 @@ function DonateHeader() {
         <header className={styles.Header}>
             <section>
                 <div className="container">
-            <h1>If you like Juka, Consider Donating!</h1>
-            <h2>Why Donate?</h2>
-            <p>Juka is provided completely free to everyone. <br/>We do not have any ads on our site or in our programs. Therefore, we do not generate any revenue.<br/>
-                Also, we do not get paid by any organization to provide this service. <br/> Our developers are 100% volunteers. We've spent a combined 1000s of hours
-                developing this language. If you find Juka useful, please consider donating.</p>
-            <h2>Where Would My Money Go To?</h2>
-            <p>It would go towards upkeep of essential servers, domain registration, and domain hosting. As we do not generate any revenue, we have to pay for services out of our own pocket.</p>
-            <h2>Donate Cryptocurrency</h2>
-            <h3><strong>Bitcoin Address: </strong>3MqJ2pwcuqh2W5mUPZUcKMVzxgTKcjD8ET</h3><img height="256" src={"/img/bitcoin.png"} /><br/><br/>
-            <h3><strong>Ethereum (Ethereum Network) Address: </strong>0xB56F6aff7a84935E5AF9D93b6d7db0e4F4F26B39</h3><img height="256" src={"/img/ethereum.png"} />
+                    <h1>Help us keep Juka free and open source!</h1>
+                    <h2>Why Donate?</h2>
+                    <p>Juka is a free programming language that is developed and maintained by volunteers. We do not have any ads on our site or in our programs, and we do not receive any funding from any organizations. All of the costs associated with Juka, such as server upkeep, domain registration, and domain hosting, are paid for out of the pockets of the developers.</p>
+                    <p>If you find Juka to be a useful tool, please consider donating to help us cover our costs and continue development. Any amount is appreciated.</p>
+                    <h2>Where Will My Money Go?</h2>
+                    <p>Your donation will go towards the following:</p>
+                    <ul>
+                        <li>Server upkeep</li>
+                        <li>Domain registration</li>
+                        <li>Domain hosting</li>
+                        <li>Development costs</li>
+                    </ul>
+                    <h2>Donate Cryptocurrency</h2>
+                    <h3><strong>Bitcoin Address: </strong>3MqJ2pwcuqh2W5mUPZUcKMVzxgTKcjD8ET</h3><img height="256" src={"/img/bitcoin.png"} /><br/><br/>
+                    <h3><strong>Ethereum (Ethereum Network) Address: </strong>0xB56F6aff7a84935E5AF9D93b6d7db0e4F4F26B39</h3><img height="256" src={"/img/ethereum.png"} />
 
 
-            <br/>
-            <br/>
-            <h2>Special Thanks</h2>
-            <p>We would like to give special thanks to the following companies:<br/>
-                <strong>JetBrains</strong> <a target="_blank" href={"https://www.jetbrains.com/"}>(link)</a> for supplying us awesome editor software! <br/>
-                <strong>Bugsnag</strong> <a target="_blank" href={"https://www.bugsnag.com/"}>(link)</a> for helping us track bugs.
+                    <br/>
+                    <br/>
+                    <h2>Special Thanks</h2>
+                     <p>We would like to give special thanks to the following companies for their support: <br/><br/>
+                        <strong>JetBrains</strong> <a target="_blank" href={"https://www.jetbrains.com/"}>(link)</a> for supplying us awesome editor software! <br/>
+                        <strong>Bugsnag</strong> <a target="_blank" href={"https://www.bugsnag.com/"}>(link)</a> for helping us track bugs.
 
-            </p>
+                    </p>
+                    <p>Thank you for your support!</p>
                 </div>
             </section>
         </header>

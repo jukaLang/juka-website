@@ -6,15 +6,15 @@ import Translate, {translate} from '@docusaurus/Translate';
 const QuestionList = [
     {
         question: "Can Juka run on Raspberry Pi?",
-        answer: "Yes! Juka can run on Raspberry Pi and almost any other system!"
+        answer: "Yes! Juka can run on Raspberry Pi and almost any other system"
     },
     {
         question: "I want to help with Juka. How can I do that?",
-        answer: "Visit us at <a target=_blank href=\"https://discord.gg/MsKWsErzfp\">https://discord.gg/MsKWsErzfp</a> and we will find a role for you. Even non-technical people can help!"
+        answer: "There are many ways to help with Juka! You can: Join the Juka community on Discord and participate in discussions and help answer questions. Report bugs or suggest features on the Juka GitHub repository. Contribute code or documentation to the Juka project. Spread the word about Juka and help others learn about it. Visit us at <a target=_blank href=\"https://discord.gg/MsKWsErzfp\">https://discord.gg/MsKWsErzfp</a> and we will find a role for you. Even non-technical people can help!"
     },
     {
         question: "Can I try Juka without installing anything?",
-        answer: "Visit <a target=_blank href=\"https://ide.jukalang.com\">https://ide.jukalang.com</a> to run a web-based app"
+        answer: "Yes! You can try Juka online at the following link: <a target=_blank href=\"https://ide.jukalang.com\">https://ide.jukalang.com</a> This web-based app allows you to write and run Juka code without having to install anything on your computer."
     },
 ];
 

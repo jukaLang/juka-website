@@ -2,36 +2,31 @@
 sidebar_position: 1
 ---
 
-# Introduction
+# Introduction to Development
 
-Thank you so much for taking your time to contribute to the Juka project.
-We are in need of the help, and we appreciate any help we can get.
+Thank you for taking the time to contribute to the Juka project. We are always looking for help, and we appreciate any assistance that you can provide.
 
 ## Contributing
 
-Create a new branch, work on it, and create a pull request once you are done working on the feature.
+There are a few ways that you can contribute to the Juka project:
 
-## Found a bug?
+* **Report bugs:** If you find a bug in the Juka code, please report it on the [Juka issue tracker](https://github.com/jukaLang/juka/issues).
+* **Contribute code:** If you would like to contribute code to the Juka project, please fork the repository on GitHub and submit a pull request.
+* **Write documentation:** The Juka documentation is always under development, and we would love to have your help. Please feel free to edit the documentation on GitHub.
+* **Spread the word:** The best way to help the Juka project is to spread the word. Tell your friends and colleagues about Juka, and help us get the word out.
 
-Bug fixes are always welcomed and are encouraged.
-You can post them as issues tab on https://github.com/jukaLang
+## Coding style
 
-## Styling
-
-Juka is built on top of .NET. Please follow the coding outlined at https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/inside-a-program/coding-conventions
-
-## Documentation
-
-Anybody is free to fix the documentation. The Documentation is one of the harder part of the project. It's hard to write it, and it's even harder to maintain. If you can help with that,
-it will be greatly appreciated.
+Juka is built on top of .NET, so please follow the coding conventions outlined in the [.NET coding conventions](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/inside-a-program/coding-conventions).
 
 ## Testing
 
-Most of the testing will be automated. However, there is no substitute for a human being. The testing is harder than coding. Writing a test for Juka is always welcomed.
-Make sure to focus on edge cases when you write a test.
+Testing is an important part of the Juka development process. We encourage you to write tests for your code. Please focus on edge cases when you write tests.
 
 ## Submitting to GitHub
 
-Keep the code clean by following K.I.S.S. principle. If you want to make a major change, just fork the project, update it, and once you've fully implemented the fix, submit a pull request to the main project.
+When submitting code to GitHub, please keep the code clean and easy to read. Follow the KISS principle (Keep It Simple, Stupid). If you want to make a major change, please fork the project, update it, and once you've fully implemented the fix, submit a pull request to the main project.
 
-Click next to begin your journey in helping us develop Juka
+## Thank you!
+
+Thank you for your interest in the Juka project. We appreciate your help in making Juka the best it can be.

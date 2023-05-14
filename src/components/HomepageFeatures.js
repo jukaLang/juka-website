@@ -2,26 +2,25 @@ import React from 'react';
 import clsx from 'clsx';
 import styles from './HomepageFeatures.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFloppyDisk, faCode, faUserFriends,faCoffee, faCloud, faNetworkWired,faComputer,faLaptopCode,faBoxOpen} from '@fortawesome/free-solid-svg-icons'
-import {faPython,faChrome} from '@fortawesome/free-brands-svg-icons'
+import { faFloppyDisk, faCode, faUserFriends,faCoffee, faCloud, faNetworkWired,faComputer,faBoxOpen} from '@fortawesome/free-solid-svg-icons'
+import {faPython} from '@fortawesome/free-brands-svg-icons'
 import Translate, {translate} from '@docusaurus/Translate';
 
 const FeatureList = [
     {
-        title: translate({message:'Portable'}),
-        faIcon: {faLaptopCode}.faLaptopCode,
-        description: (
-            <>
-                <Translate>Juka doesn't need to be installed! That means you can run Juka in environments where you don't have admin privileges or in environments where you don't have access to a hard drive. Juka is completely standalone and doesn't require any other application or any other dependency to be installed. Run it on your Flash/Thumb Drive!</Translate>
-            </>
-        ),
-    },
-    {
-        title: translate({message:'Small in Size'}),
+        title: translate({message:'Portable and Small in Size'}),
         faIcon: {faFloppyDisk}.faFloppyDisk,
         description: (
             <>
-                <Translate>Juka is fairly small in size ~ 30 mb (depending on the OS). This means that you can put Juka on your Thumb/Flash Drive. In fact, why not put all versions of Juka on your Thumb/Flash Drive? It won't take much space anyways.</Translate>
+                <Translate>Juka is a portable programming language that you can run anywhere. It doesn't need to be installed, so you can use it even if you don't have admin privileges or access to a hard drive. Just put Juka on your flash drive and you're good to go! Juka is a small, portable programming language that only takes up ~30MB of space. This means you can easily carry it around on a thumb drive or other portable storage device. In fact, you can even store multiple versions of Juka on the same drive, so you always have the latest version available.</Translate>
+                    <br/><br/>
+                    Here are some of the benefits of using Juka on a thumb drive:
+                    <br/>
+                    <ul>
+                        <li><Translate>You can use Juka on any computer, even if it doesn't have Juka installed.</Translate></li>
+                        <li><Translate>You can easily share Juka with others.</Translate></li>
+                        <li><Translate>You can keep your Juka code organized and portable.</Translate></li>
+                    </ul>
             </>
         ),
     },
@@ -30,7 +29,17 @@ const FeatureList = [
         faIcon: {faNetworkWired}.faNetworkWired,
         description: (
             <>
-                <Translate>We are trying to support all systems including lesser known ones such as FreeBSD and TempleOS. We also support ARM processors and 32-bit systems such as Linux (x86). Why not install Juka on your Raspberry Pi or run it in ChromeOS Flex? </Translate>
+                <Translate>We are constantly working to support as many systems as possible, including lesser known ones like FreeBSD and TempleOS. We also support ARM processors and 32-bit systems like Linux (x86). So why not give Juka a try on your Raspberry Pi or in ChromeOS Flex?</Translate>
+                <br/><br/>
+                Here are some of the benefits of using Juka on a Raspberry Pi or in ChromeOS Flex:
+                <br/>
+                <ul>
+                    <li><Translate>You can use Juka on a variety of different systems.</Translate></li>
+                    <li><Translate>Juka is a powerful and portable programming language.</Translate></li>
+                    <li><Translate>Juka is easy to learn and use.</Translate></li>
+                    <li><Translate>Juka is a great way to learn about programming.</Translate></li>
+                </ul>
+                <Translate>You can even run Juka inside a Web Browser! Visit </Translate><a href={"https://ide.jukalang.com"}>https://ide.jukalang.com</a><Translate> and install the App. On Mobile, it's simply opening the website, and clicking "add to your home screen!"</Translate>
             </>
         ),
     },
@@ -39,9 +48,20 @@ const FeatureList = [
         faIcon: {faComputer}.faComputer,
         description: (
             <>
-                <Translate>Juka can be used for all types of projects including server side coding, client side coding,
-                    native coding, web development, API development, data science, network security, and quantum computing. Our goal is to create a programming language that can run on any platform and we mean any! Including Linux x32, FreeBSD, Chromium, Discord, and Telegram.
-                </Translate>
+                <strong><Translate>Juka is a powerful and versatile programming language that can be used for a wide variety of projects.</Translate></strong>
+                <br/><br/>
+                Here are just a few examples of what you can do with Juka:
+                <br/>
+                <ul>
+                    <li><strong>Web development: </strong><Translate>Juka is a great choice for building web applications and websites. It's fast, efficient, and easy to use.</Translate></li>
+                    <li><strong>API development: </strong><Translate>Juka is perfect for creating APIs that can be used by other applications. It's easy to create well-designed and secure APIs with Juka.</Translate></li>
+                    <li><strong>Data science: </strong><Translate>Juka is a powerful tool for data scientists. It's fast, efficient, and easy to use.</Translate></li>
+                    <li><strong>Network security: </strong><Translate>We are aiming for Juka to be used to create secure networks and applications. It's fast, efficient, and easy to use.</Translate></li>
+                    <li><strong>Quantum computing: </strong><Translate>We are aiming for Juka to become a leading language for quantum computing. It's fast, efficient, and easy to use.</Translate></li>
+                </ul>
+                <Translate>Juka can run on any platform, including Linux x32, FreeBSD, Chromium, Discord, and Telegram.</Translate><br/>
+                <Translate>This makes it a great choice for developers who need to create applications that can run on a variety of platforms.</Translate><br/>
+
             </>
         ),
     },
@@ -53,6 +73,14 @@ const FeatureList = [
                 <Translate>We created JukaAPI so that you can run it on any cloud server. This will allow one to use REST API to run code.
                     Feel free to test it at </Translate><a target="_blank" href="https://api.jukalang.com">https://api.jukalang.com</a>.<br/><br/>
                     <Translate>You can also run Juka on Microsoft's Azure Server by using Juka's Azure serverless function. Compile the code quickly, or let the others run the code. Download latest Azure Function from </Translate> <a href="/download">https://jukalang.com/download</a>. <br/> <Translate>NOTE: you need an active Microsoft Azure account to host.</Translate>
+                <br/><br/>
+                Here are just a few examples of what you can do with Juka:
+                <br/>
+                <ul>
+                    <li><strong>Portability: </strong><Translate>You can use Juka to create applications that can be hosted anywhere.</Translate></li>
+                    <li><strong>Scalability: </strong><Translate>JukaAPI is designed to scale to meet the needs of your application.</Translate></li>
+                    <li><strong>Reliability: </strong><Translate>JukaAPI can be used on Microsoft Azure using Azure Functions.</Translate></li>
+                </ul>
             </>
         ),
     },
@@ -61,16 +89,19 @@ const FeatureList = [
         faIcon: {faPython}.faPython,
         description: (
             <>
-                <Translate>We know a lot of people love to use Jupyter Notebook/Lab. We've added an easy way to run Juka (kernel) in Jupyter. Do your data analysis in the software that you are used to! </Translate>
-            </>
-        ),
-    },
-    {
-        title: translate({message:'Run Juka inside a Web Browser!'}),
-        faIcon: {faChrome}.faChrome,
-        description: (
-            <>
-                <Translate>Run Juka inside a Web Browser! Visit https://ide.jukalang.com and install the App. On Mobile, it's simply adding the website to your home screen!</Translate>
+                <Translate>We know that many people love to use Jupyter Notebook and Lab. That's why we've added an easy way to run Juka code in Jupyter.
+
+                    Now you can do your data analysis in the software that you're used to, with the power of Juka.
+
+                    To get started, simply install the Juka kernel for Jupyter.
+
+                    Once the kernel is installed, you can create a new Jupyter notebook and select the "Juka" kernel.
+
+                    Now you can start writing Juka code in your Jupyter notebook.
+
+                    The Juka kernel will compile and execute your code, and you can see the results in the notebook.
+
+                    We hope you enjoy using Juka in Jupyter</Translate>
             </>
         ),
     },
@@ -79,18 +110,26 @@ const FeatureList = [
         faIcon: {faBoxOpen}.faBoxOpen,
         description: (
             <>
-                <Translate>All of the packages are hosted on GitHub. That's right! We made it simple to install and contribute to the package development.
-                Our hope is that by hosting all packages on Github, security issues in the packages can be fixed quickly by the community. The packages
-                contain a simple config file, making it simple for anyone to develop Juka packages. </Translate>
+                <Translate>All of the packages are hosted on GitHub, making it easy to install and contribute to their development.
+                    We hope that by hosting all packages on GitHub, security issues can be fixed quickly by the community. The packages contain a simple config file, making it easy for anyone to develop Juka packages.
+                </Translate>
+                <br/>
+                <Translate>if you are interested in developing Juka packages, we encourage you to check out the GitHub repository.</Translate>
             </>
         ),
     },
     {
-        title: translate({message:'Our Community'}),
+        title: translate({message:'Join the Juka community!'}),
         faIcon: {faUserFriends}.faUserFriends,
         description: (
             <>
-                <Translate>Join our ever growing Juka community</Translate> (<a target="_blank" href="https://discord.gg/MsKWsErzfp">link</a>). <Translate>We use "Discord" for managing the community as it provides an easy way to stay connected. In order to join the community, you should click our invitation link and register a Discord account. If you already have an account, just join the "JukaLang" group. It's public and anyone can join!</Translate>
+                <Translate>We are a growing community of Juka users who are passionate about learning and using this new language. We use Discord to stay connected and share resources, and we welcome anyone to join us.</Translate>
+                <br/>
+                <Translate>To join the community, please click on the following link and create a Discord account. Once you have created an account, you can join the JukaLang group by clicking on the "Join" button.</Translate>
+                <br/>
+                <a href={"https://discord.gg/MsKWsErzfp"}>https://discord.gg/MsKWsErzfp</a><br/><br/>
+                <Translate>We look forward to seeing you in the community!</Translate>
+
             </>
         ),
     },
@@ -99,7 +138,22 @@ const FeatureList = [
         faIcon: {faCode}.faCode,
         description: (
             <>
-                <Translate>Juka is built by the community, for the community. Please consider contributing to the Juka GitHub repository at</Translate> <a target="_blank" href="https://github.com/jukaLang">https://github.com/jukaLang</a> <Translate>When you create new features or modify the existing ones, please follow the guidelines specified in the project documentation.</Translate>
+                <Translate>Juka is a community-driven project. We encourage everyone to contribute to the Juka GitHub repository.</Translate>
+                    <br/>
+                <Translate>There are many ways to contribute to Juka, including:</Translate>
+                    <br/>
+                    <ul>
+                        <li><Translate>Reporting bugs</Translate></li>
+                        <li><Translate>Fixing bugs</Translate></li>
+                        <li><Translate>Adding new features</Translate></li>
+                        <li><Translate>Writing documentation</Translate></li>
+                        <li><Translate>Translating documentation</Translate></li>
+                        <li><Translate>Spreading the word about Juka</Translate></li>
+                    </ul>
+
+
+
+                    <Translate>Please consider contributing to the Juka GitHub repository at</Translate> <a target="_blank" href="https://github.com/jukaLang">https://github.com/jukaLang</a>
             </>
         ),
     },

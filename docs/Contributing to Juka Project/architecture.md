@@ -4,34 +4,43 @@ sidebar_position: 2
 
 # Architecture
 
-## Folder Structure:
+## Folder Structure
 
-### ./examples
-- Provides you examples to get you started on using Juka
+The Juka codebase is organized into the following folders:
 
-### ./src/JukaCompiler
-- The core of the language. The code compiles into .NET .dll library that can be used in any C# projects including Xamarin/MAUI for building iOS/Android Apps,
-  It is mainly used to build cross-platform apps for Mac/OS, Windows Apps, and Windows desktop applications.
+* **./examples** - This folder contains examples of Juka code.
+* **./src/JukaCompiler** - This folder contains the core of the Juka compiler.
+* **./src/JukaAzureFunction** - This folder contains the code for running Juka Azure functions on Microsoft's Azure Cloud Server.
+* **./src/JukaNetwork** - This folder contains the code for the Juka network, which is a blockchain network for storing and managing packages.
+* **./src/JukaUnitTest** - This folder contains unit tests for the Juka compiler.
+* **./src/Juka** - This folder contains the code for the Juka GUI (coming soon).
 
-### ./src/JukaAzureFunction
-- Azure Function runtime code. Used to run Juka Azure function on Microsoft's Azure Cloud Server
+## Visual Studio/Development Requirements
 
-### ./src/JukaNetwork
-- Implemented as a blockchain network for storing and managing packages. Used as a decentralized package manager.
+To develop and run Juka, you will need the following:
 
-### ./src/JukaUnitTest
-- Unit tests to test JukaCompiler
+* The latest version of Visual Studio.
+* The following Visual Studio packages:
+  * Azure development
+  * .NET desktop development
 
-### ./src/Juka
-- Contains GUI (coming soon)
+## Runtime
 
-### Visual Studio/Development Requirements
-##### Make sure you have the latest Visual Studio installed
+Juka uses the following scheme to run the code:
 
-The following Visual Studio packages required to run and develop Juka:
-
-- Azure development
-- .NET desktop development
-
-### Juka uses the following scheme to run the code:
 ![Layout](/img/Runtime.png)
+
+The Juka compiler compiles Juka code into a .NET .dll library. This library can then be used in any C# project, including Xamarin/MAUI for building iOS/Android Apps, and it is mainly used to build cross-platform apps for Mac/OS, Windows Apps, and Windows desktop applications.
+
+The Juka Azure Function runtime code is used to run Juka Azure functions on Microsoft's Azure Cloud Server.
+
+The Juka network is a blockchain network for storing and managing packages. It is used as a decentralized package manager.
+
+The Juka unit tests are used to test the Juka compiler.
+
+The Juka GUI is a graphical user interface for Juka that is currently under development.
+
+## Notes
+
+* The Juka project is still under development, so some features may not be available yet.
+* If you have any questions or feedback, please feel free to contact us.
