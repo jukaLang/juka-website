@@ -4,50 +4,52 @@ sidebar_position: 50
 
 # Dépannage de Macintosh
 
-Parce que nous ne signons pas actuellement le paquet de langage de programmation Juka, vous pourriez avoir une erreur lorsque vous exécutez Juka pour la première fois sur Macintosh.
+## Message d'erreur
 
-Lorsque vous exécutez Juka pour la première fois sur Macintosh, vous pourriez avoir l'erreur suivante:
+Lorsque vous exécutez Juka pour la première fois sur Macintosh, vous pouvez obtenir le message d'erreur suivant :
+
 
 ![Etape 1](/img/macintosh/cannotbeopened.png)
 
+Ne peut pas être ouvert car il provient d'un développeur non identifié.
+
 ## Solution
 
-Double-cliquez sur Juka
+Pour résoudre ce problème, suivez ces étapes :
 
-Si elle tente d'ouvrir l'application dans l'éditeur de texte, ouvrez alors un terminal dans le même dossier et exécutez ./Juka
+Double-cliquez sur l'application Juka.
+1. Si elle tente d'ouvrir l'application dans l'éditeur de texte, ouvrez un terminal dans le même dossier et exécutez ./Juka.
+2. Cliquez sur l'icône Apple dans le coin supérieur gauche de votre écran et allez dans Préférences Système.
+3. Cliquez sur Sécurité & Confidentialité.
+4. Cliquez sur l'onglet Général.
+5. Cliquez sur le bouton Ouvrir quand même à côté de l'application Juka. ![Etape 2](/img/macintosh/openanyway.png)
 
-Cliquez sur l'icône "Apple" dans le coin supérieur gauche et allez à "Sécurité et préférences".
-
-Vous recevrez un message indiquant que Juka provient d'un développeur non identifié.
-
-Cliquez sur "Ouvrir"
-
-NOTE : vous pourriez avoir besoin de cliquer sur le "Verrouiller" pour effectuer des modifications
-
-![Etape 2](/img/macintosh/openanyway.png)
-
-Vous devriez maintenant pouvoir exécuter Juka et voir l'écran suivant :
+6. Vous devriez maintenant pouvoir exécuter Juka.
 
 ![Etape 3](/img/macintosh/final.png)
 
+
 ## Solution alternative
 
-En supposant que Juka soit stocké sur le bureau
+Vous pouvez utiliser les solutions suivantes :
+
+En supposant que Juka soit stocké sur votre bureau, ouvrez une fenêtre Terminal et accédez au répertoire Juka. Exécutez les commandes suivantes :
 
 ```jsx
-cd ~/Desktop
-cd Juka_MacOS
 chmod +x ./Juka
-sudo spctl --master-disable
-./Juka
+sudo spctl --master-disable ./Juka
 ```
 
-Cela désactivera l'application "gatekeeper" qui vous permettra d'exécuter Juka même si l'application venait du développeur "non identifié".
-
-Une fois que vous avez fini d'utiliser Juka, exécutez la commande suivante :
+3. Cela désactivera Gatekeeper pour la session en cours, vous permettant d'exécuter Juka.
+4. Une fois que vous avez terminé d'utiliser Juka, exécutez la commande suivante pour réactiver le Gatekeeper :
 
 ```jsx
 sudo spctl --master-enable
 ```
 
 Cela réactivera le "gardien".
+
+**Notes**
+- Juka n'est actuellement pas signé par Apple, donc vous pouvez rencontrer ce message d'erreur lorsque vous le lancez pour la première fois.
+- Nous travaillons à faire signer Juka par Apple, donc ce message d'erreur ne devrait pas être un problème à l'avenir.
+- Si vous avez d'autres questions, n'hésitez pas à nous contacter.
