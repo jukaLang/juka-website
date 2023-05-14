@@ -29,8 +29,7 @@ public class Program v.
         // 打印结果。
         Console.WriteLine(结果);
     }
- } 
-
+ }
 ```
 此代码将编译Juka代码并将消息“Hello World”打印到控制台
 
@@ -53,8 +52,7 @@ public class Program v.
         // 打印结果。
         Console.WriteLine(结果);
     }
- } 
-
+ }
 ```
 
 ## 产出
