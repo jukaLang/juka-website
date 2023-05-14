@@ -4,6 +4,10 @@ sidebar_position: 3
 
 # 访客模式
 
-Juka 是使用访客模式构建的。
+访客模式是一种软件设计模式，允许单一操作应用于对象结构的元素，而不改变结构本身。 它是将算法与其运作的对象结构区分开来的一种方法。
 
-查看维基百科详情： https://en.wikipedia.org/wiki/Visitor_pattern。
+Juka 是使用访客模式构建的。 这意味着Juka代码可以独立于它正在应用的特定对象结构的方式编写。 这使得Juka代码更易于重复使用，更容易维护。
+
+欲了解更多关于访客模式的信息，请查看维基百科文章：
+
+* [访客模式](https://en.wikipedia.org/wiki/Visitor_pattern)
