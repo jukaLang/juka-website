@@ -16,7 +16,7 @@ Sie können String definieren, indem Sie das Zitat verwenden: **"** Ihre Zeichen
 Zum Beispiel
 
 ```jsx
-var animal = "cat";
+var animal = "Katze";
 ```
 
 wird ein String sein, während
