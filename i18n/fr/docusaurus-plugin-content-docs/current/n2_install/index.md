@@ -5,7 +5,7 @@ slug: /installer
 
 # Installation et exécution de Juka (Console)
 
-Juka can be run on many platforms, including:
+Juka peut être exécuté sur de nombreuses plateformes, y compris :
 
 * Fenêtres
 * macOS
@@ -15,17 +15,17 @@ Juka can be run on many platforms, including:
 
 ## Installing Juka
 
-To install Juka, follow these steps:
+Pour installer Juka, suivez ces étapes:
 
-1. Go to the [Juka website](https://jukalang.com/).
-2. Click the **Download** button.
-3. Select the platform you want to install Juka on.
-4. Follow the instructions on the screen to install Juka.
+1. Rendez-vous sur le site [Juka](https://jukalang.com/).
+2. Cliquez sur le bouton **Télécharger**.
+3. Sélectionnez la plate-forme sur laquelle vous voulez installer Juka.
+4. Suivez les instructions à l'écran pour installer Juka.
 
-## Running Juka
+## Exécution de Juka
 
-Once Juka is installed, you can run it by following these steps:
+Une fois que Juka est installé, vous pouvez l'exécuter en suivant ces étapes :
 
-1. Open a terminal window.
-2. Navigate to the directory where Juka is installed.
-3. Type the following command and press Enter:
+1. Ouvrir une fenêtre de terminal.
+2. Naviguez vers le répertoire où Juka est installé.
+3. Tapez la commande suivante et appuyez sur Entrée :
