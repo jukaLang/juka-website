@@ -8,46 +8,46 @@ slug: /variables
 
 ## ¿Qué es una variable?
 
-A variable is a named location in memory that can be used to store a value. Variables can be used to store any type of data, including numbers, strings, objects, and arrays.
+Una variable es una ubicación con nombre en la memoria que puede ser usada para almacenar un valor. Las variables se pueden utilizar para almacenar cualquier tipo de datos, incluyendo números, cadenas, objetos y arrays.
 
 ## Definición de variables
 
-Variables are defined using the `var` keyword. The syntax for defining a variable is as follows:
+Las variables se definen usando la palabra clave `var`. La sintaxis para definir una variable es la siguiente:
 
 ```jsx
 var <name> = <value>;
 ```
 
-For example, the following code defines a variable named `x` and sets it to the value 3:
+Por ejemplo, el siguiente código define una variable llamada `x` y la establece en el valor 3:
 ```jsx
 var x = 3;
 ```
 
-## Reassigning Variables
-The value of a variable can be changed by reassigning it. To reassign a variable, simply use the var keyword again, followed by the new value. For example, the following code reassigns the value of the variable x to 4:
+## Razando variables
+El valor de una variable se puede cambiar reasignándola. Para reasignar una variable, simplemente utilice la palabra clave de var de nuevo, seguido por el nuevo valor. Por ejemplo, el siguiente código reasigna el valor de la variable x a 4:
 ```jsx
 var x = 3;
 x = 4;
 ```
 
-## Deleting Variables
-Variables can be deleted using the delete keyword. The syntax for deleting a variable is as follows:
+## Borrando variables
+Las variables pueden ser eliminadas usando la palabra clave de eliminación. La sintaxis para eliminar una variable es la siguiente:
 ```jsx
-delete <name>;
+borrar <name>;
 ```
 
-For example, the following code deletes the variable `x`:
+Por ejemplo, el siguiente código elimina la variable `x`:
 
 ```jsx
-delete x;
+borrar x;
 ```
 
-## Common Errors
+## Errores comunes
 
-There are a few common errors that can be made when working with variables. One common error is forgetting to declare a variable. If a variable is not declared, it will not be accessible in the program. Another common error is assigning a value to a variable that is not the correct type. For example, the following code will generate an error because the value "3" is a string, but the variable x is an integer:
+Existen algunos errores comunes que se pueden cometer al trabajar con variables. Un error común es olvidar declarar una variable. Si una variable no es declarada, no será accesible en el programa. Otro error común es asignar un valor a una variable que no es el tipo correcto. Por ejemplo, el siguiente código generará un error porque el valor "3" es una cadena, pero la variable x es un entero:
 
 ```jsx
 var x = "3";
 ```
 
-Finally, it is important to remember that variables are scoped. This means that a variable can only be accessed from the scope where it is declared. If you try to access a variable from outside of its scope, you will get an error.
+Por último, es importante recordar que las variables son ampliadas. Esto significa que sólo se puede acceder a una variable desde el ámbito en el que se declara. Si intenta acceder a una variable desde fuera de su ámbito obtendrá un error.
