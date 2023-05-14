@@ -27,7 +27,7 @@ new JukaCompiler.Compiler().Go(sourceAsString, false);
 Если вам нужно скомпилировать код с помощью файла, вы можете передать в файл и запустить следующий код:
 
 ```jsx
-new JukaCompiler.Compiler().Go(sourceAsString, true);
+новый JukaCompiler.Compiler().Go(sourceAsString, true);
 ```
 
 Вывод будет возвращен в виде строки.
