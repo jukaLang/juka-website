@@ -9,7 +9,7 @@ slug: /软件包管理器
 
 - [**什么是JLDN？**](#about)
 - - [**目的是什么？ **](#used-for)
-- - [**我们分散的网络如何工作？**](#how-our-decentralized-network-works)
+- - [**我们分散的网络如何工作？ **](#how-our-decentralized-network-works)
 - [**什么是 `manifest.yaml` 文件？**](#manifest-file)
 - - [**清单文件格式**](#manifest-format)
 - [**为什么安装了库加密？**](#encryption)
