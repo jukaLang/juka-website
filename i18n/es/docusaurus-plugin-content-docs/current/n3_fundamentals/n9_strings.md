@@ -7,11 +7,11 @@ slug: /strings
 
 ## ¿Qué es una cadena?
 
-A string is a sequence of characters. In programming, strings are often used to represent text.
+Una cadena es una secuencia de caracteres. En la programación, las cadenas a menudo se utilizan para representar texto.
 
 ## Definir cadenas
 
-Strings are defined using quotation marks. For example, the following code defines a string named `animal` and sets it to the value "cat":
+Las cadenas se definen usando comillas. Por ejemplo, el siguiente código define una cadena llamada `animal` y la establece en el valor "cat":
 
 ```jsx
 var animal = "gato";
@@ -19,7 +19,7 @@ var animal = "gato";
 
 ## Combinar cadenas con un número
 
-Whenever you add a string to a number (or vice versa), the end result will be a string. Los números se convierten implícitamente en cadenas. For example, the following code will print the string "123abc":
+Cada vez que añadas una cadena a un número (o viceversa), el resultado final será una cadena. Los números se convierten implícitamente en cadenas. Por ejemplo, el siguiente código imprimirá la cadena "123abc":
 
 ```jsx
 print("123" + "abc");

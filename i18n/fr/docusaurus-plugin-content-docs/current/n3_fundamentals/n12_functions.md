@@ -5,13 +5,13 @@ slug: /fonctions
 
 # Fonctions
 
-## What is a function?
+## Qu'est-ce qu'une fonction ?
 
-A function is a block of code that can be reused multiple times. Functions are defined using the `func` keyword.
+Une fonction est un bloc de code qui peut être réutilisé plusieurs fois. Les fonctions sont définies en utilisant le mot-clé `func`.
 
-## Syntax
+## Syntaxe
 
-The syntax for defining a function is as follows:
+La syntaxe pour définir une fonction est la suivante:
 
 ```jsx
 func <name>(<parameters>) {
@@ -19,31 +19,31 @@ func <name>(<parameters>) {
 }
 ```
 
-For example, the following code defines a function named foo that takes no parameters and returns nothing:
+Par exemple, le code suivant définit une fonction nommée foo qui ne prend aucun paramètre et ne retourne rien:
 
 ```jsx
 func foo() = {
-    printLine("Hello, world!");
+    printLine("Bonjour, monde!");
 }
 ```
 
-## Calling a function
+## Appel d'une fonction
 
-A function can be called by using its name followed by a pair of parentheses. For example, the following code calls the foo function:
+Une fonction peut être appelée en utilisant son nom suivi d'une paire de parenthèses. Par exemple, le code suivant appelle la fonction foo :
 ```jsx
 foo()
 ```
 
-## Parameters
-A function can take parameters, which are variables that are passed to the function when it is called. The parameters are declared in the parentheses after the function name. For example, the following code defines a function named bar that takes two parameters, x and y:
+## Paramètres
+Une fonction peut prendre des paramètres, qui sont des variables qui sont passées à la fonction quand elle est appelée. Les paramètres sont déclarés entre parenthèses après le nom de la fonction. Par exemple, le code suivant définit une fonction nommée bar qui prend deux paramètres, x et y:
 
 ```jsx
 func bar(x, y) = {
-    printLine("The sum of x and y is" + x + y);
+    printLine("La somme de x et y est" + x + y);
 }
 ```
 
-A function can return a value. The value is declared after the parameters in the parentheses. For example, the following code defines a function named baz that returns the sum of two numbers:
+Une fonction peut retourner une valeur. La valeur est déclarée après les paramètres entre parenthèses. Par exemple, le code suivant définit une fonction nommée baz qui retourne la somme de deux nombres :
 
 ```jsx
 func baz(x, y) = {
@@ -51,13 +51,13 @@ func baz(x, y) = {
 }
 ```
 
-## Main function
+## Fonction principale
 
-Every Juka program must have a main function. The main function is the entry point for the program. The main function is defined like any other function, but it does not have a name. For example, the following code defines a main function:
+Chaque programme Juka doit avoir une fonction principale. La fonction principale est le point d'entrée du programme. La fonction principale est définie comme n'importe quelle autre fonction, mais elle n'a pas de nom. Par exemple, le code suivant définit une fonction principale :
 
 ```jsx
 func main()={
-printLine("Hello, world!");
+printLine("Bonjour, monde !");
 }
 ```
 

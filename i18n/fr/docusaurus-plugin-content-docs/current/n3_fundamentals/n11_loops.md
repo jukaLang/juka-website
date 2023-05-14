@@ -7,16 +7,16 @@ slug: /boucles
 
 ## Boucle Tant que
 
-A while loop is a control flow statement that allows code to be executed repeatedly based on a Boolean condition. The syntax of a while loop is as follows:
+Une boucle while est une commande de flux qui permet l'exécution répétée du code sur la base d'une condition booléenne. La syntaxe d'une boucle while est la suivante:
 
 ```jsx
-while <condition>
+tandis que <condition>
 {
 <statements>
 }
 ```
 
-For example, the following code will print the numbers from 1 to 5:
+Par exemple, le code suivant imprimera les nombres de 1 à 5 :
 
 ```jsx
 func foo() = {
@@ -31,13 +31,13 @@ func foo() = {
 
 ## Pause
 
-The break statement can be used to exit a loop. The syntax of the break statement is as follows:
+L'instruction break peut être utilisée pour quitter une boucle. La syntaxe de la commande break est la suivante:
 
 ```jsx
-break;
+casse ;
 ```
 
-For example, the following code will print the numbers from 1 to 5, but it will exit the loop when the value of x reaches 3:
+Par exemple, le code suivant imprimera les nombres de 1 à 5, mais il quittera la boucle lorsque la valeur de x atteint 3 :
 
 ```jsx
 func main() = {

@@ -7,11 +7,11 @@ slug: /chaines de caractères
 
 ## Qu'est-ce qu'une chaîne?
 
-A string is a sequence of characters. In programming, strings are often used to represent text.
+Une chaîne de caractères est une séquence de caractères. En programmation, les chaînes de caractères sont souvent utilisées pour représenter du texte.
 
 ## Définition des chaînes
 
-Strings are defined using quotation marks. For example, the following code defines a string named `animal` and sets it to the value "cat":
+Les chaînes sont définies à l'aide de guillemets. Par exemple, le code suivant définit une chaîne nommée `animal` et la définit à la valeur "chat":
 
 ```jsx
 var animal = "chat";
@@ -19,7 +19,7 @@ var animal = "chat";
 
 ## Combinaison de chaînes avec un nombre
 
-Whenever you add a string to a number (or vice versa), the end result will be a string. Les nombres sont implicitement convertis en chaînes. For example, the following code will print the string "123abc":
+Chaque fois que vous ajoutez une chaîne de caractères à un nombre (ou vice versa), le résultat final sera une chaîne. Les nombres sont implicitement convertis en chaînes. Par exemple, le code suivant affichera la chaîne "123abc":
 
 ```jsx
 print("123" + "abc");

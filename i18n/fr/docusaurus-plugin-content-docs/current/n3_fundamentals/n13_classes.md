@@ -7,11 +7,11 @@ slug: /classes
 
 ## Qu'est-ce qu'une classe?
 
-A class is a blueprint for creating objects. It defines the properties and methods that objects of that class will have.
+Une classe est un plan pour créer des objets. Il définit les propriétés et méthodes que les objets de cette classe auront.
 
 ## Comment définir une classe
 
-To define a class, use the `class` keyword. The syntax for defining a class is as follows:
+Pour définir une classe, utilisez le mot-clé `classe`. La syntaxe pour définir une classe est la suivante:
 
 ```jsx
 class <name> = {
@@ -19,58 +19,58 @@ class <name> = {
 }
 ```
 
-Where `name` is the name of the class, and `members` are the properties and methods of the class.
+Là où `nom` est le nom de la classe, et `membres` sont les propriétés et méthodes de la classe.
 
-## Members
+## Membres
 
-The members of a class can be properties or methods. Properties are variables that are associated with an object. Methods are functions that are associated with an object.
+Les membres d'une classe peuvent être des propriétés ou des méthodes. Les propriétés sont des variables qui sont associées à un objet. Les méthodes sont des fonctions qui sont associées à un objet.
 
-## Properties
-Properties are defined using the var keyword. The syntax for defining a property is as follows:
+## Propriétés
+Les propriétés sont définies en utilisant le mot clé var. La syntaxe pour définir une propriété est la suivante:
 
 ```jsx
 var <name>;
 ```
 
-Where `name` is the name of the property, and `type` is the type of the property.
+Là où `name` est le nom de la propriété, et `type` est le type de la propriété.
 
-## Methods
-Methods are defined using the `func` keyword. The syntax for defining a method is as follows:
+## Méthodes
+Les méthodes sont définies en utilisant le mot-clé `func`. La syntaxe pour définir une méthode est la suivante:
 
 ```jsx
 func <name>(<parameters>) = {
 <statements>
 }
 ```
-Where `name` is the name of the method, `parameters` are the parameters of the method, and `statements` are the statements in the method body.
+Où `nom` est le nom de la méthode, `paramètres` sont les paramètres de la méthode, et les instructions `` sont les instructions dans le corps de la méthode.
 
-## Creating objects
+## Création d'objets
 
 
-To create an object, use the new keyword. The syntax for creating an object is as follows:
-
-```jsx
-var <object_name> = new <class_name>();
-```
-
-Where `object_name` is the name of the object, and `class_name` is the name of the class.
-
-## Accessing properties and methods
-
-The properties and methods of an object can be accessed using the dot notation. For example, to access the property name of the object myObject, you would use the following code:
+Pour créer un objet, utilisez le nouveau mot clé. La syntaxe pour créer un objet est la suivante:
 
 ```jsx
-myObject.name;
+var <object_name> = nouveau <class_name>();
 ```
 
-To call the method `add` of the object `myObject`, you would use the following code:
+Où `object_name` est le nom de l'objet, et `class_name` est le nom de la classe.
+
+## Accès aux propriétés et aux méthodes
+
+Les propriétés et méthodes d'un objet peuvent être accédées en utilisant la notation par point. Par exemple, pour accéder au nom de la propriété de l'objet myObject, vous utiliseriez le code suivant :
+
+```jsx
+myObject.name ;
+```
+
+Pour appeler la méthode `ajouter` de l'objet `myObject`, vous utiliseriez le code suivant :
 
 ```jsx
 myObject.add(2, 6);
 ```
 
 ## Exemple
-The following code defines a class named `MathClass` and creates an object of that class:
+Le code suivant définit une classe nommée `MathClass` et crée un objet de cette classe :
 
 ```jsx
 class MathClass {
@@ -78,7 +78,7 @@ var num1: int;
 var num2: int;
 
 func add() {
-return this.num1 + this.num2;
+return this.num1 + ceci. um2;
 }
 }
 
@@ -88,4 +88,4 @@ mathClass.num2 = 6;
 print(mathClass.add());
 ```
 
-This code will print the value 8.
+Ce code affichera la valeur 8.

@@ -5,13 +5,13 @@ slug: /conditions/
 
 # Condition
 
-## What is a condition?
+## Qu'est-ce qu'une condition?
 
-A condition is a statement that can be evaluated to be true or false. Conditions are used to control the flow of execution of a program.
+Une condition est une déclaration qui peut être évaluée comme vraie ou fausse. Les conditions sont utilisées pour contrôler le flux d'exécution d'un programme.
 
-## Syntax
+## Syntaxe
 
-The syntax for a condition is as follows:
+La syntaxe pour une condition est la suivante:
 
 ```jsx
 if <condition>
@@ -24,7 +24,7 @@ else
 }
 ```
 
-For example, the following code will print "Correct!" if the value of the variable sum is equal to 5, and "Incorrect!" otherwise:
+Par exemple, le code suivant affichera "Correct!" si la valeur de la somme de la variable est égale à 5, et "Incorrecte!", sinon:
 
 
 ```jsx
@@ -32,13 +32,15 @@ func main()={
 
     var sum = 4+1;
 
-    if (sum == 5)
+    if (somme == 5)
     {
         printLine("Correct! 4+1 = 5")
     }
     else
     {
         printLine("Incorrect !")
+    }
+}
     }
 }
     }

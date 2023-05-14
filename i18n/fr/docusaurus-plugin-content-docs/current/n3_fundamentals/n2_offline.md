@@ -5,12 +5,12 @@ slug: /offline
 
 # Documentation hors ligne
 
-**There are two ways to access Juka documentation offline:**
+**Il y a deux façons d'accéder à la documentation de Juka hors ligne :**
 
-* **PDF:** You can download the Juka documentation in PDF format by going to the [Downloads](https://github.com/jukaLang/juka-website/releases/download/JukaLang/jukadocs.pdf) page.
-* **Cached Juka website (Juka PWA):** You can also create a cached version of the Juka website that can be accessed offline. To do this, follow these steps:
+* **PDF :** Vous pouvez télécharger la documentation de Juka au format PDF en allant à la page [Téléchargements](https://github.com/jukaLang/juka-website/releases/download/JukaLang/jukadocs.pdf).
+* **Site web de Juka en cache (Juka PWA):** Vous pouvez également créer une version mise en cache du site de Juka qui peut être consultée hors ligne. Pour cela, suivez ces étapes:
 
-    1. On a mobile device, click on the "add this to homepage" button. This will automatically create a PWA app that can be accessed even without the internet.
-    2. On a desktop computer, find the browser URL field and look at the right section. Click on the "Install Juka Programming Language Website" button. Ceci installera une application de navigateur qui peut être exécutée hors ligne (sans internet).
+    1. Sur un appareil mobile, cliquez sur le bouton "ajouter à la page d'accueil". Cela créera automatiquement une application PWA accessible même sans internet.
+    2. Sur un ordinateur de bureau, trouvez le champ URL du navigateur et regardez la section à droite. Cliquez sur le bouton "Install Juka Programming Language Website". Ceci installera une application de navigateur qui peut être exécutée hors ligne (sans internet).
 
-Once you have created a cached version of the Juka website, you can access it offline by opening the PWA app or the browser app.
+Une fois que vous avez créé une version mise en cache du site Juka, vous pouvez y accéder hors ligne en ouvrant l'application PWA ou l'application du navigateur.

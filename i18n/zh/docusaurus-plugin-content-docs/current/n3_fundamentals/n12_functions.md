@@ -24,7 +24,6 @@ func <name>(<parameters>) {
 ```jsx
 func foo() =
     printLine("Hello, world!");
-
 ```
 
 ## 调用函数

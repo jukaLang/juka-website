@@ -5,19 +5,19 @@ slug: /descargar
 
 # Descargando Juka
 
-**There are two ways to download Juka:**
+**Hay dos maneras de descargar Juka:**
 
-* **From the official website:** You can download the latest version of Juka from the [official website](https://jukalang.com/download).
-* **From GitHub:** You can also download the latest binaries from the [GitHub repository](https://github.com/jukaLang/juka/releases).
+* **Desde el sitio web oficial:** Puede descargar la última versión de Juka desde el [sitio web oficial](https://jukalang.com/download).
+* **Desde GitHub:** También puede descargar los últimos binarios del repositorio [de GitHub](https://github.com/jukaLang/juka/releases).
 
-**Which version should you download?**
+**¿Qué versión debería descargar?**
 
-There are typically three versions of Juka available for each desktop operating system:
+Normalmente hay tres versiones de Juka disponibles para cada sistema operativo de escritorio:
 
-* **JukaApp:** An app version of Juka with a graphical user interface (GUI). Proporciona la forma más sencilla de ejecutar Juka.
-* **Juka:** This is the main console application. If you are a more experienced user, it is recommended that you download this version.
-* **JukaAPI:** A server to serve the Juka REST API. This is typically used for server-side development.
+* **JukaApp:** Una versión de la aplicación de Juka con una interfaz gráfica de usuario (GUI). Proporciona la forma más sencilla de ejecutar Juka.
+* **Juka:** Esta es la aplicación principal de consola. Si eres un usuario más experimentado, te recomendamos que descargues esta versión.
+* **JukaAPI:** Un servidor para servir la API Juka REST. Esto se utiliza típicamente para el desarrollo del lado del servidor.
 
-**Are the files self-contained?**
+**¿Los archivos son autocontenidos?**
 
-Yes, the files are self-contained. This means that you do not need to download any other files or install any other programs to run Juka.
+Sí, los archivos son autosuficientes. Esto significa que no necesita descargar ningún otro archivo o instalar ningún otro programa para ejecutar Juka.

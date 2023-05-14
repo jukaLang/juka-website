@@ -4,9 +4,9 @@ sidebar_position: 997
 
 # Mirores del sitio
 
-If the official Juka website, https://jukalang.com, is broken or is slow, try using one of our other mirrors:
+Si el sitio web oficial de Juka, https://jukalang.com, está roto o es lento, intenta usar uno de nuestros otros espejos:
 
 * **Mirror 1:** https://jukalang.onrender.com/
 * **Mirror 2:** https://juka.netlify.app
 
-We are constantly working to improve the performance of our website, but sometimes there may be issues that are beyond our control. If you experience any problems, please try using one of our mirrors.
+Estamos trabajando constantemente para mejorar el rendimiento de nuestro sitio web, pero a veces puede haber problemas que están fuera de nuestro control. Si experimenta algún problema, por favor intente usar uno de nuestros espejos.

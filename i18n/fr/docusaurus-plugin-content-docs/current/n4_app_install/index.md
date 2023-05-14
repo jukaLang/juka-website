@@ -5,16 +5,16 @@ slug: /appinstall
 
 # Installing Juka App
 
-The Juka app is a powerful tool for learning and using the Juka programming language. With the Juka app, you can:
+L'application Juka est un outil puissant pour apprendre et utiliser le langage de programmation Juka. Avec l'application Juka, vous pouvez:
 
-* Write, compile, and run Juka code on your mobile device.
+* Écrivez, compilez et exécutez le code Juka sur votre appareil mobile.
 * Apprenez Juka avec des tutoriels et des exercices interactifs.
 * Obtenez de l'aide avec la syntaxe et la sémantique de Juka.
 * Partagez votre code Juka avec les autres.
 
-The Juka app is available for free on the following mobile platforms:
+L'application Juka est disponible gratuitement sur les plateformes mobiles suivantes :
 
 * Android
 * iOS
-* Amazon Fire
+* Feu d'Amazon
 * Fenêtres

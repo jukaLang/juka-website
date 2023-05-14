@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Installation et exécution de Juka (Console)
 
-Juka can be run on many platforms, including:
+Juka peut être exécuté sur de nombreuses plateformes, y compris :
 
 * Fenêtres
 * macOS
@@ -12,38 +12,38 @@ Juka can be run on many platforms, including:
 
 ## Installing Juka
 
-To install Juka, follow these steps:
+Pour installer Juka, suivez ces étapes:
 
-1. Go to the [Juka website](https://jukalang.com/).
-2. Click the **Download** button.
-3. Select the platform you want to install Juka on.
-4. Follow the instructions on the screen to install Juka.
+1. Rendez-vous sur le site [Juka](https://jukalang.com/).
+2. Cliquez sur le bouton **Télécharger**.
+3. Sélectionnez la plate-forme sur laquelle vous voulez installer Juka.
+4. Suivez les instructions à l'écran pour installer Juka.
 
-## Running Juka
+## Exécution de Juka
 
-Once Juka is installed, you can run it by following these steps:
+Une fois que Juka est installé, vous pouvez l'exécuter en suivant ces étapes :
 
-1. Open a terminal window.
-2. Navigate to the directory where Juka is installed.
-3. Type the following command and press Enter:
+1. Ouvrir une fenêtre de terminal.
+2. Naviguez vers le répertoire où Juka est installé.
+3. Tapez la commande suivante et appuyez sur Entrée :
 
 
 ```jsx
 ./juka
 ```
 
-This will start the Juka interpreter. You can then type Juka code and press Enter to execute it.
+Cela va commencer l'interprète Juka. Vous pouvez ensuite taper le code Juka et appuyer sur Entrée pour l'exécuter.
 
-To run Juka code from a file, open a terminal window and navigate to the directory where the file is located. Then, type the following command and press Enter:
+Pour exécuter le code Juka à partir d'un fichier, ouvrez une fenêtre de terminal et accédez au répertoire où se trouve le fichier. Ensuite, tapez la commande suivante et appuyez sur Entrée :
 
 ```jsx
 ./juka <filename>
 ```
 
-For example, to run the code in the file `hello_world.juk`, you would type the following command:
+Par exemple, pour exécuter le code dans le fichier `hello_world.juk`, vous devez taper la commande suivante :
 
 ```jsx
-./juka hello_world.juk
+format@@0 ./juka hello_world.juk
 ```
 
-This will execute the Juka code in the file, and print the output to the console.
+Cela exécutera le code Juka dans le fichier, et affichera la sortie dans la console.

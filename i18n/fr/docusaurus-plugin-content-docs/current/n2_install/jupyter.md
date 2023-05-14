@@ -4,15 +4,15 @@ sidebar_position: 5
 
 # Juka à Jupyter
 
-Juka is a new programming language that is designed to be used for data science and analytics. It is similar to Python, but it is more powerful and efficient.
+Juka est un nouveau langage de programmation qui est conçu pour être utilisé pour la science et l'analyse des données. Il est similaire à Python, mais il est plus puissant et efficace.
 
-Jupyter is a popular interactive environment for developing and running code. It can be used with many different programming languages, including Python, R, and Julia.
+Jupyter est un environnement interactif populaire pour le développement et l'exécution de code. Il peut être utilisé avec de nombreux langages de programmation, y compris Python, R, et Julia.
 
-The Juka team has created a Juka kernel for Jupyter. This kernel allows you to run Juka code in Jupyter notebooks.
+L'équipe Juka a créé un noyau Juka pour Jupyter. Ce noyau vous permet d'exécuter du code Juka dans les cahiers Jupyter.
 
-To use the Juka kernel, you will need to install Juka and Jupyter. You can find instructions for installing Juka on the [Juka website](https://jukalang.com/download). You can find instructions for installing Jupyter on the [Jupyter website](https://jupyter.org/install).
+Pour utiliser le noyau Juka, vous devez installer Juka et Jupyter. Vous pouvez trouver les instructions d'installation de Juka sur le site [Juka](https://jukalang.com/download). Vous pouvez trouver les instructions d'installation de Jupyter sur le site [Jupyter](https://jupyter.org/install).
 
-Once, downloaded add Juka to path.
+Une fois, téléchargez ajouter Juka au chemin.
 
 Sous Windows, il est recommandé de suivre les étapes, décrites à https://stackoverflow.com/questions/44272416/how-to-add-a-folder-to-path-environment-variable-in-windows-10-with-screensho
 
@@ -24,9 +24,9 @@ $ export path = "/usr/bin/share/Juka:$PATH"
 
 Cela va ajouter Juka à PATH
 
-Once you have installed Juka and Jupyter, you need to install Juka kernel:
+Une fois que vous avez installé Juka et Jupyter, vous devez installer le noyau Juka :
 
-### Using PIP
+### Utiliser PIP
 ```jsx
 pip install juka_kernel
 ```
@@ -40,22 +40,22 @@ python -m juka_kernel.install
 
 dans le dossier du noyau.
 
-## Next Steps
+## Étapes suivantes
 
-You can start using the Juka kernel in Jupyter notebooks. To do this, open a Jupyter notebook and select "New" from the menu. In the "Notebook" dropdown menu, select "Juka".
+Vous pouvez commencer à utiliser le noyau Juka dans les blocs-notes Jupyter. Pour cela, ouvrez un bloc-notes Jupyter et sélectionnez « Nouveau » dans le menu. Dans le menu déroulant "Carnet", sélectionnez "Juka".
 
-You can now start writing Juka code in your Jupyter notebook. To run your code, select "Run" from the menu.
+Vous pouvez maintenant commencer à écrire du code Juka dans votre bloc-notes Jupyter. Pour exécuter votre code, sélectionnez "Exécuter" dans le menu.
 
-The Juka kernel will compile and run your code. The output of your code will be displayed in the notebook.
+Le noyau Juka compilera et exécutera votre code. La sortie de votre code sera affichée dans le bloc-notes.
 
-The Juka kernel is a powerful tool that allows you to use Juka in Jupyter notebooks. This makes it easy to develop and debug Juka code.
+Le noyau Juka est un outil puissant qui vous permet d'utiliser Juka dans les blocs-notes Jupyter. Cela facilite le développement et le débogage du code Juka.
 
 ## Détails techniques
 
-The Juka kernel is written in Python and uses the [Jupyter protocol](https://jupyter.org/protocol). The kernel does not compile or run the Juka code. It just serves as a messaging protocol between Jupyter and Juka.
+Le noyau Juka est écrit en Python et utilise le protocole [Jupyter](https://jupyter.org/protocol). Le noyau ne compile pas ou n'exécute pas le code Juka. Il sert simplement de protocole de messagerie entre Jupyter et Juka.
 
-The Juka kernel is open source and is available on [GitHub](https://github.com/juka/juka_kernel).
+Le noyau Juka est open source et est disponible sur [GitHub](https://github.com/juka/juka_kernel).
 
 ## Contribuer
 
-If you would like to contribute to the Juka kernel, please see the [contribution guidelines](https://github.com/juka/juka_kernel/blob/master/CONTRIBUTING.md).
+Si vous souhaitez contribuer au noyau Juka, veuillez consulter les [directives de contribution](https://github.com/juka/juka_kernel/blob/master/CONTRIBUTING.md).
