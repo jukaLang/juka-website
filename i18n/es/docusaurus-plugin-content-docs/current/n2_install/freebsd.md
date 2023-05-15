@@ -17,7 +17,7 @@ Una vez que Juka esté instalado, puede iniciar el editor ejecutando el siguient
 ```jsx
 ./juka
 ```
-
+![freebsd](/img/freebsd.png)
 
 Para ejecutar el código Juka desde un archivo, ejecuta el siguiente comando, sustituyendo el nombre de tu archivo por `my_file.juk`:
 
