@@ -1,44 +1,44 @@
 ---
 sidebar_position: 2
-slug: /encrypted
+slug: /加密
 ---
 
-# Encryption
-Juka can encrypt and decrypt files. It can also run encrypted Juka script files.
+# 加密
+Juka 可以加密和解密文件。 它也可以运行加密的 Juka 脚本文件。
 
-To encrypt a file "HelloWorld.juk", run the following in Console:
+要加密一个文件“HelloWorld.juk”，请在控制台中运行以下内容：
 
 ```jsx
-./juka --encrypt HelloWorld.juk
+./juka --crypt HelloWorld.juk
 ```
 
-This will create two files:
-- HelloWorld.juk.encrypt
+这将创建两个文件：
+- HelloWorld.juk.crypt
 - HelloWorld.juk.key
 
-They HelloWorld.juk.encrypt contains the encrypted file. The HelloWorld.juk.key contains AES key for use to decrypt the file.
+HelloWorld.juk.crypt包含加密文件。 HelloWorld.juk.key 包含 AES密钥解密文件。
 
 
-To decrypt the file back to "HelloWorld.juk" run the following command:
+要解密文件回到"HelloWorld.juk"，请运行以下命令：
 
 ```jsx
 ./juka --decrypt HelloWorld.juk
 ```
 
-This will take "HelloWorld.juk.encrypt" and "HelloWorld.juk.key" and decrypt the file. NOTE: You can encrypt/decrypt any file (not just Juka scripts)
+这将需要 "HelloWorld.juk.encrypt" 和 "HelloWorld.juk.key" 并解密文件。 注意：您可以加密/解密任何文件(不仅是 juka 脚本)
 
-To run the encrypted files without having to decrypt, run the following:
+要运行加密文件而无需解密，请运行以下内容：
 
 ```jsx
-./juka --encrypted HelloWorld.juk
+./juka --crypted HelloWorld.juk
 ```
 
-This will use the following files:
-- HelloWorld.juk.encrypt
+这将使用以下文件：
+- HelloWorld.juk.crypt
 - HelloWorld.juk.key
 
-decrypt them in memory and execute them in Juka.
+将它们解密为内存并在Juka执行它们。
 
 
-![encrypted](/img/encrypted.png)
+![已加密](/img/encrypted.png)
 
