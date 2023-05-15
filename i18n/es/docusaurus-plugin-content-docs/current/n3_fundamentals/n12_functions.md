@@ -27,6 +27,7 @@ func foo() = {
 }
 }
 }
+}
 ```
 
 ## Llamando a una función
@@ -60,6 +61,7 @@ Cada programa de Juka debe tener una función principal. La función principal e
 ```jsx
 func main()={
 printLine("Hola, mundo!");
+}
 }
 }
 }
