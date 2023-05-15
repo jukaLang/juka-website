@@ -4,7 +4,7 @@ slug: /加密
 ---
 
 # 加密
-Juka 可以加密和解密文件。 它也可以运行加密的 Juka 脚本文件。
+Juka 可以加密和解密文件。 Juka can encrypt and decrypt files. It can also run encrypted Juka script files.
 
 要加密一个文件“HelloWorld.juk”，请在控制台中运行以下内容：
 
@@ -16,7 +16,7 @@ Juka 可以加密和解密文件。 它也可以运行加密的 Juka 脚本文�
 - HelloWorld.juk.crypt
 - HelloWorld.juk.key
 
-HelloWorld.juk.crypt包含加密文件。 HelloWorld.juk.key 包含 AES密钥解密文件。
+HelloWorld.juk.crypt包含加密文件。 They HelloWorld.juk.encrypt contains the encrypted file. The HelloWorld.juk.key contains AES key for use to decrypt the file.
 
 
 要解密文件回到"HelloWorld.juk"，请运行以下命令：
@@ -25,7 +25,7 @@ HelloWorld.juk.crypt包含加密文件。 HelloWorld.juk.key 包含 AES密钥解
 ./juka --decrypt HelloWorld.juk
 ```
 
-这将需要 "HelloWorld.juk.encrypt" 和 "HelloWorld.juk.key" 并解密文件。 注意：您可以加密/解密任何文件(不仅是 juka 脚本)
+This will take "HelloWorld.juk.encrypt" and "HelloWorld.juk.key" and decrypt the file. NOTE: You can encrypt/decrypt any file (not just Juka scripts) 注意：您可以加密/解密任何文件(不仅是 juka 脚本)
 
 要运行加密文件而无需解密，请运行以下内容：
 

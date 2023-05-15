@@ -11,7 +11,7 @@ Eine Klasse ist eine Blaupause zum Erstellen von Objekten. Es definiert die Eige
 
 ## Wie man eine Klasse definiert
 
-Um eine Klasse zu definieren, verwenden Sie das `Klasse` Schlüsselwort. Die Syntax für die Definition einer Klasse lautet wie folgt:
+To define a class, use the class keyword. Die Syntax für die Definition einer Klasse lautet wie folgt:
 
 ```jsx
 class <name> = {
@@ -19,7 +19,7 @@ class <name> = {
 }
 ```
 
-Wo `Name` der Name der Klasse ist, und `Mitglieder` sind die Eigenschaften und Methoden der Klasse.
+Where name is the name of the class, and members are the properties and methods of the class.
 
 ## Mitglieder
 
@@ -32,17 +32,17 @@ Eigenschaften werden mit dem var Schlüsselwort definiert. Die Syntax für die D
     var <name>;
 ```
 
-Wo `Name` der Name der Eigenschaft ist und `Typ` der Typ der Eigenschaft.
+Where name is the name of the property, and type is the type of the property.
 
 ## Methoden
-Methoden werden mit dem `func` Schlüsselwort definiert. Die Syntax für die Definition einer Methode lautet wie folgt:
+Methods are defined using the func keyword. Die Syntax für die Definition einer Methode lautet wie folgt:
 
 ```jsx
 func <name>(<parameters>) = {
 <statements>
 }
 ```
-Wo `Name` der Name der Methode ist, `Parameter` sind die Parameter der Methode, und `Anweisungen` sind die Anweisungen im Methodenkörper.
+Where name is the name of the method, parameters are the parameters of the method, and statements are the statements in the method body.
 
 ## Erstelle Objekte
 
@@ -52,8 +52,7 @@ Um ein Objekt zu erstellen, verwenden Sie das neue Schlüsselwort. Die Syntax zu
 ```jsx
 var <object_name> = neu <class_name>();
 ```
-
-Wo `object_name` der Name des Objekts ist und `class_name` der Name der Klasse.
+Where object_name`is the name of the object, and class_name is the name of the class.
 
 ## Zugriff auf Eigenschaften und Methoden
 
@@ -62,30 +61,28 @@ Auf die Eigenschaften und Methoden eines Objekts kann mit Hilfe der Punktnotatio
 ```jsx
 myObject.name;
 ```
-
-Um die Methode `aufzurufen, fügen Sie` des Objekts `myObject`hinzu, verwenden Sie den folgenden Code:
+To call the method add`of the object myObject, you would use the following code:
 
 ```jsx
 myObject.add(2, 6);
 ```
 
 ## Beispiel
-Der folgende Code definiert eine Klasse namens `MathClass` und erstellt ein Objekt dieser Klasse:
+The following code defines a class named MathClass and creates an object of that class:
 
 ```jsx
-Klasse MathClass {
-var num1: int;
-var num2: int;
+class MathClass {
+    var num1: int
+    var num2: int
 
-func add() {
-return this.num1 + this. um2;
+    func add() = {
+        return this.num1 + this.num2
+    }
 }
-}
-
-var mathClass = new MathClass();
-mathClass.num1 = 2;
-mathClass.num2 = 6;
-print(mathClass.add());
+var mathClass = new MathClass()
+mathClass.num1 = 2
+mathClass.num2 = 6
+print(mathClass.add())
 ```
 
 Dieser Code gibt den Wert 8 aus.

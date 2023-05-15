@@ -26,6 +26,7 @@ func foo() = {
     printLine("Hello, world!");
 }
 }
+}
 ```
 
 ## Вызов функции
@@ -59,6 +60,7 @@ func baz(x, y) = {
 ```jsx
 func main()={
 printLine("Hello, world!");
+}
 }
 }
 ```

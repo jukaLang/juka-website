@@ -11,7 +11,7 @@ slug: /class类
 
 ## 如何定义类
 
-要定义一个类，请使用 `类` 关键字。 定义类的语法如下：
+To define a class, use the class keyword. 定义类的语法如下：
 
 ```jsx
 class <name> = {
@@ -19,7 +19,7 @@ class <name> = {
 }
 ```
 
-`name` 是类名称， `成员` 是类的属性和方法。
+Where name is the name of the class, and members are the properties and methods of the class.
 
 ## 成员
 
@@ -32,17 +32,17 @@ class <name> = {
     var <name>;
 ```
 
-`name` 是属性的名称， `输入` 是属性的类型。
+Where name is the name of the property, and type is the type of the property.
 
 ## 方法
-方法使用 `真空` 关键字来定义. 方法使用 `真空` 关键字来定义. 定义方法的语法如下： 定义方法的语法如下： 定义方法的语法如下：
+Methods are defined using the func keyword. 方法使用 `真空` 关键字来定义. 定义方法的语法如下： 定义方法的语法如下： 定义方法的语法如下：
 
 ```jsx
 func <name>(<parameters>) = {
 <statements>
 }
 ```
-`name` 是方法的名称。 `参数` 是方法的参数， 和 `语句` 是方法正文中的语句。
+Where name is the name of the method, parameters are the parameters of the method, and statements are the statements in the method body.
 
 ## 创建对象
 
@@ -52,8 +52,7 @@ func <name>(<parameters>) = {
 ```jsx
 var <object_name> = 新的 <class_name>();
 ```
-
-`object_name` 是对象的名称, `class_name` 是类的名称。
+Where object_name`is the name of the object, and class_name is the name of the class.
 
 ## 访问属性和方法
 
@@ -62,29 +61,28 @@ var <object_name> = 新的 <class_name>();
 ```jsx
 myObject.name;
 ```
-
-要调用方法 `添加对象 <code>myObject`的</code> ，您将使用以下代码：
+To call the method add`of the object myObject, you would use the following code:
 
 ```jsx
 myObject.add(2, 6)；
 ```
 
 ## 示例
-下面的代码定义了一个名为 `MathClass` 的类并创建了该类的对象：
+The following code defines a class named MathClass and creates an object of that class:
 
 ```jsx
-第 MathClass 类。 var num1：int；
-var num2：int；
+class MathClass {
+    var num1: int
+    var num2: int
 
-func add() 请返回
-返回 this.num1 + um2;
+    func add() = {
+        return this.num1 + this.num2
+    }
 }
-}
-
-var mathClass = new MathClass();
-mathClass.num1 = 2;
-mathClass.num2 = 6;
-print(mathClass.add();
+var mathClass = new MathClass()
+mathClass.num1 = 2
+mathClass.num2 = 6
+print(mathClass.add())
 ```
 
 此代码将打印值8。
