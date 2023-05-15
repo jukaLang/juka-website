@@ -15,7 +15,7 @@ Pour définir une classe, utilisez le mot-clé `classe`. La syntaxe pour défini
 
 ```jsx
 class <name> = {
-<members>
+    <members>
 }
 ```
 
@@ -29,7 +29,7 @@ Les membres d'une classe peuvent être des propriétés ou des méthodes. Les pr
 Les propriétés sont définies en utilisant le mot clé var. La syntaxe pour définir une propriété est la suivante:
 
 ```jsx
-var <name>;
+    var <name>
 ```
 
 Là où `name` est le nom de la propriété, et `type` est le type de la propriété.
@@ -39,7 +39,7 @@ Les méthodes sont définies en utilisant le mot-clé `func`. La syntaxe pour d�
 
 ```jsx
 func <name>(<parameters>) = {
-<statements>
+    <statements>
 }
 ```
 Où `nom` est le nom de la méthode, `paramètres` sont les paramètres de la méthode, et les instructions `` sont les instructions dans le corps de la méthode.
@@ -60,13 +60,13 @@ Où `object_name` est le nom de l'objet, et `class_name` est le nom de la classe
 Les propriétés et méthodes d'un objet peuvent être accédées en utilisant la notation par point. Par exemple, pour accéder au nom de la propriété de l'objet myObject, vous utiliseriez le code suivant :
 
 ```jsx
-myObject.name ;
+myObject.name
 ```
 
 Pour appeler la méthode `ajouter` de l'objet `myObject`, vous utiliseriez le code suivant :
 
 ```jsx
-myObject.add(2, 6);
+myObject.add(2, 6)
 ```
 
 ## Exemple
@@ -74,18 +74,18 @@ Le code suivant définit une classe nommée `MathClass` et crée un objet de cet
 
 ```jsx
 class MathClass {
-var num1: int;
-var num2: int;
+    var num1: int
+    var num2: int
 
-func add() {
-return this.num1 + ceci. um2;
-}
+    func add() {
+        return this.num1 + this.num2
+    }
 }
 
-var mathClass = new MathClass();
-mathClass.num1 = 2;
-mathClass.num2 = 6;
-print(mathClass.add());
+var mathClass = new MathClass()
+mathClass.num1 = 2
+mathClass.num2 = 6
+print(mathClass.add())
 ```
 
 Ce code affichera la valeur 8.
