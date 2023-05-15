@@ -13,7 +13,7 @@ sidebar_position: 50
 
 无法打开，因为它来自一个身份不明的开发者。
 
-## 工作
+## Workaround
 
 为了解决这个问题，遵循以下步骤：
 
@@ -26,10 +26,8 @@ sidebar_position: 50
 
 6. 您现在应该能够运行Juka。
 
-![步骤3](/img/macintosh/final.png)
 
-
-## 替代工作
+## Alternative Workaround
 
 您可以使用以下工作区：
 
