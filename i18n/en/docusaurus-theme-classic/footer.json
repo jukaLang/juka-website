@@ -72,7 +72,7 @@
     "description": "The label of footer link with label=GitHub Source linking to https://github.com/jukaLang/juka"
   },
   "copyright": {
-    "message": "Copyright © 2023 Juka Programming Language <br/> (Last updated on 5/15/2023, 5:36:39 PM EST)",
+    "message": "Copyright © 2023 Juka Programming Language <br/> (Last updated on 5/15/2023, 6:59:37 PM EST)",
     "description": "The footer copyright"
   }
 }

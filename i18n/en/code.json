@@ -411,6 +411,9 @@
     "message": "Expand sidebar",
     "description": "The ARIA label and title attribute for expand button of doc sidebar"
   },
+  "theme.SearchBar.seeAll": {
+    "message": "See all {count} results"
+  },
   "theme.SearchPage.documentsFound.plurals": {
     "message": "One document found|{count} documents found",
     "description": "Pluralized label for \"{count} documents found\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
@@ -442,9 +445,6 @@
   "theme.SearchPage.fetchingNewResults": {
     "message": "Fetching new results...",
     "description": "The paragraph for fetching new search results"
-  },
-  "theme.SearchBar.seeAll": {
-    "message": "See all {count} results"
   },
   "theme.SearchBar.label": {
     "message": "Search",
