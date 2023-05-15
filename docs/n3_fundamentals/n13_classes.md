@@ -57,7 +57,8 @@ Where `object_name` is the name of the object, and `class_name` is the name of t
 
 ## Accessing properties and methods
 
-The properties and methods of an object can be accessed using the dot notation. For example, to access the property name of the object myObject, you would use the following code:
+The properties and methods of an object can be accessed using the dot notation. 
+For example, to access the property name of the object myObject, you would use the following code:
 
 ```jsx
 myObject.name
