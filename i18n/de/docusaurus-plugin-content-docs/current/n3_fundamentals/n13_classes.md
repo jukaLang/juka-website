@@ -15,7 +15,7 @@ Um eine Klasse zu definieren, verwenden Sie das `Klasse` Schlüsselwort. Die Syn
 
 ```jsx
 class <name> = {
-<members>
+    <members>
 }
 ```
 
@@ -29,7 +29,7 @@ Die Mitglieder einer Klasse können Eigenschaften oder Methoden sein. Eigenschaf
 Eigenschaften werden mit dem var Schlüsselwort definiert. Die Syntax für die Definition einer Eigenschaft lautet wie folgt:
 
 ```jsx
-var <name>;
+    var <name>
 ```
 
 Wo `Name` der Name der Eigenschaft ist und `Typ` der Typ der Eigenschaft.
@@ -39,7 +39,7 @@ Methoden werden mit dem `func` Schlüsselwort definiert. Die Syntax für die Def
 
 ```jsx
 func <name>(<parameters>) = {
-<statements>
+    <statements>
 }
 ```
 Wo `Name` der Name der Methode ist, `Parameter` sind die Parameter der Methode, und `Anweisungen` sind die Anweisungen im Methodenkörper.
@@ -60,32 +60,32 @@ Wo `object_name` der Name des Objekts ist und `class_name` der Name der Klasse.
 Auf die Eigenschaften und Methoden eines Objekts kann mit Hilfe der Punktnotation zugegriffen werden. Zum Beispiel, um auf den Eigenschaftsnamen des Objekts myObject, würden Sie den folgenden Code verwenden:
 
 ```jsx
-myObject.name;
+myObject.name
 ```
 
 Um die Methode `aufzurufen, fügen Sie` des Objekts `myObject`hinzu, verwenden Sie den folgenden Code:
 
 ```jsx
-myObject.add(2, 6);
+myObject.add(2, 6)
 ```
 
 ## Beispiel
 Der folgende Code definiert eine Klasse namens `MathClass` und erstellt ein Objekt dieser Klasse:
 
 ```jsx
-Klasse MathClass {
-var num1: int;
-var num2: int;
+class MathClass {
+    var num1: int
+    var num2: int
 
-func add() {
-return this.num1 + this. um2;
-}
+    func add() {
+        return this.num1 + this.num2
+    }
 }
 
-var mathClass = new MathClass();
-mathClass.num1 = 2;
-mathClass.num2 = 6;
-print(mathClass.add());
+var mathClass = new MathClass()
+mathClass.num1 = 2
+mathClass.num2 = 6
+print(mathClass.add())
 ```
 
 Dieser Code gibt den Wert 8 aus.
