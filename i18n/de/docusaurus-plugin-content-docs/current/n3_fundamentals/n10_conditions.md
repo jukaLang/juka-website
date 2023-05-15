@@ -30,11 +30,11 @@ Zum Beispiel druckt der folgende Code "Richtig!", wenn der Wert der Variablensum
 ```jsx
 func main()={
 
-    var sum = 4+1;
+    var sum = 4+1
 
     if (sum == 5)
     {
-        printLine("Richtig! 4+1 = 5")
+        printLine("Correct! 4+1 = 5")
     }
     sonst
     {
