@@ -3,7 +3,7 @@ sidebar_position: 2
 slug: /chiffré
 ---
 
-# Encryption
+# Chiffrement
 Juka peut chiffrer et déchiffrer des fichiers. Il peut également exécuter des fichiers de scripts Juka chiffrés.
 
 Pour chiffrer un fichier "HelloWorld.juk", exécutez ce qui suit dans la console :
