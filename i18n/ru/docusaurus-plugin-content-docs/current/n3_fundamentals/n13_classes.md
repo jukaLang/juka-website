@@ -11,7 +11,7 @@ slug: /классы
 
 ## Как определить класс
 
-To define a class, use the class keyword. Для определения класса используется следующий синтаксис:
+Для определения класса используется следующий синтаксис: To define a class, use the class keyword.
 
 ```jsx
 class <name> = {
@@ -52,6 +52,7 @@ Where name is the name of the method, parameters are the parameters of the metho
 ```jsx
 var <object_name> = new <class_name>();
 ```
+
 Where object_name`is the name of the object, and class_name is the name of the class.
 
 ## Доступ к свойствам и методам
@@ -61,6 +62,7 @@ Where object_name`is the name of the object, and class_name is the name of the c
 ```jsx
 myObject.name;
 ```
+
 To call the method add`of the object myObject, you would use the following code:
 
 ```jsx
