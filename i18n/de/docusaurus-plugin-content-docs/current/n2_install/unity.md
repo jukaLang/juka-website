@@ -20,8 +20,8 @@ Der folgende Code wird "Hallo World" auf die Konsole drucken:
 ```jsx
 string juka = `
 func main() = {
-printLine("Hallo World");
+printLine("Hello World")
 }
 `
-var Ausgabe neuer JukaCompiler.Compiler().Go(juka,false);
+var output new JukaCompiler.Compiler().Go(juka,false);
 ```
