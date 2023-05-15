@@ -15,7 +15,7 @@ Die Syntax für die Definition einer Funktion lautet wie folgt:
 
 ```jsx
 func <name>(<parameters>) {
-<statements>
+    <statements>
 }
 ```
 
@@ -23,7 +23,7 @@ Zum Beispiel definiert der folgende Code eine Funktion namens foo, die keine Par
 
 ```jsx
 func foo() = {
-    printLine("Hallo, world!");
+    printLine("Hello, world!")
 }
 ```
 
@@ -39,7 +39,7 @@ Eine Funktion kann Parameter verwenden, die Variablen sind, die an die Funktion 
 
 ```jsx
 func bar(x, y) = {
-    printLine("Die Summe von x und y ist" + x + y);
+    printLine("The sum of x and y is" + x + y)
 }
 ```
 
@@ -47,7 +47,7 @@ Eine Funktion kann einen Wert zurückgeben. Der Wert wird nach den Parametern in
 
 ```jsx
 func baz(x, y) = {
-    return x + y;
+    return x + y
 }
 ```
 
@@ -57,7 +57,7 @@ Jedes Juka-Programm muss eine Hauptfunktion haben. Die Hauptfunktion ist der Ein
 
 ```jsx
 func main()={
-printLine("Hallo, world!");
+    printLine("Hello, world!")
 }
 ```
 
