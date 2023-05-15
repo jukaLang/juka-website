@@ -9,7 +9,7 @@ slug: /condiciones
 
 Una condición es una sentencia que puede ser evaluada para ser verdadera o falsa. Las condiciones se utilizan para controlar el flujo de ejecución de un programa.
 
-## Syntax
+## Síntesis
 
 La sintaxis para una condición es la siguiente:
 
@@ -34,7 +34,7 @@ if sum == 5{
 }
 else
 {
-    "Incorrect!"
+    "¡Incorrecto!"
 }
 ```
 
