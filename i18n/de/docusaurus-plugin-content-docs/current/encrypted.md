@@ -1,44 +1,44 @@
 ---
 sidebar_position: 2
-slug: /encrypted
+slug: /verschlüsselt
 ---
 
-# Encryption
-Juka can encrypt and decrypt files. It can also run encrypted Juka script files.
+# Verschlüsselung
+Juka kann Dateien verschlüsseln und entschlüsseln. Es kann auch verschlüsselte Juka-Skriptdateien ausführen.
 
-To encrypt a file "HelloWorld.juk", run the following in Console:
+Um eine Datei "HelloWorld.juk" zu verschlüsseln, führen Sie folgendes in Konsole aus:
 
 ```jsx
 ./juka --encrypt HelloWorld.juk
 ```
 
-This will create two files:
+Dies wird zwei Dateien erstellen:
 - HelloWorld.juk.encrypt
 - HelloWorld.juk.key
 
-They HelloWorld.juk.encrypt contains the encrypted file. The HelloWorld.juk.key contains AES key for use to decrypt the file.
+Sie HelloWorld.juk.encrypt enthält die verschlüsselte Datei. Der HelloWorld.juk.key enthält AES-Schlüssel zur Entschlüsselung der Datei.
 
 
-To decrypt the file back to "HelloWorld.juk" run the following command:
-
-```jsx
-./juka --decrypt HelloWorld.juk
-```
-
-This will take "HelloWorld.juk.encrypt" and "HelloWorld.juk.key" and decrypt the file. NOTE: You can encrypt/decrypt any file (not just Juka scripts)
-
-To run the encrypted files without having to decrypt, run the following:
+Um die Datei zurück zu "HelloWorld.juk" zu entschlüsseln, führen Sie folgenden Befehl aus:
 
 ```jsx
-./juka --encrypted HelloWorld.juk
+./Juka --HelloWorld.juk entschlüsseln
 ```
 
-This will use the following files:
+Dies wird die Datei "HelloWorld.juk.encrypt" und "HelloWorld.juk.key" entschlüsseln. HINWEIS: Sie können jede Datei (nicht nur Juka-Skripte) verschlüsseln/entschlüsseln
+
+Um die verschlüsselten Dateien ohne entschlüsseln zu müssen, führen Sie Folgendes aus:
+
+```jsx
+./juka --verschlüsselte HelloWorld.juk
+```
+
+Dies wird folgende Dateien verwenden:
 - HelloWorld.juk.encrypt
 - HelloWorld.juk.key
 
-decrypt them in memory and execute them in Juka.
+Entschlüssele sie im Gedächtnis und führe sie in Juka aus.
 
 
-![encrypted](/img/encrypted.png)
+![verschlüsselt](/img/encrypted.png)
 
