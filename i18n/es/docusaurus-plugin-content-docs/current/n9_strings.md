@@ -16,13 +16,13 @@ Puede definir cadena usando comilla: **"** Su cadena aquí **"**
 Por ejemplo,
 
 ```jsx
-var animal = "cat";
+var animal = "gato";
 ```
 
 será una cadena, mientras
 
 ```jsx
-cat;
+gato;
 ```
 
 es un objeto

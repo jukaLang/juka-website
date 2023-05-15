@@ -42,7 +42,7 @@ en la carpeta del núcleo.
 
 ## Usando el kernel de Juka
 
-**Notebook**: The _New_ menu in the notebook should show an option for an Juka notebook.
+**Cuaderno**: El menú _Nuevo_ en el cuaderno debe mostrar una opción para un cuaderno Juka.
 
 **frontends de la consola**: Para usarlo con la interfaz de la consola, agregue `--kernel juka` a sus argumentos de línea de comandos.
 

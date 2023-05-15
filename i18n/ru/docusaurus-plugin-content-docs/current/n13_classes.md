@@ -12,9 +12,9 @@ slug: /классы
 ## Как определить класс
 
 ```jsx
-class yourClassName =
+класс yourClassName =
 {
-    ...
+...
 }
 ```
 

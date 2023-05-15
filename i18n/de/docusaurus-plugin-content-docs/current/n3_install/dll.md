@@ -21,13 +21,13 @@ Für weitere Informationen besuchen Sie https://www.nuget.org/packages/JukaCompi
 Um den Code mit einem vordefinierten String zu kompilieren, fügen Sie folgendes zum C# Code hinzu:
 
 ```jsx
-new JukaCompiler.Compiler().Go(sourceAsString, false);
+neuer JukaCompiler.Compiler().Go(sourceAsString, false);
 ```
 
 Wenn Sie den Code mit einer Datei kompilieren müssen, können Sie eine Datei übergeben und folgenden Code ausführen:
 
 ```jsx
-new JukaCompiler.Compiler().Go(sourceAsString, true);
+neu JukaCompiler.Compiler().Go(sourceAsString, true);
 ```
 
 Die Ausgabe wird als String zurückgegeben.

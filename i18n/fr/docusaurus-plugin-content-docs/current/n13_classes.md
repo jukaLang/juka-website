@@ -14,7 +14,7 @@ Une classe est un moyen d'organiser des méthodes et des variables dans un objet
 ```jsx
 class yourClassName =
 {
-    ...
+...
 }
 ```
 

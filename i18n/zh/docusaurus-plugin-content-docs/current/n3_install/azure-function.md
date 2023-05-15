@@ -21,8 +21,8 @@ Juka can run locally without Azure Web server if you prefer to test Juka before 
 Juka 可以在 Juka Azure 函数服务器上通过以下格式发送原始请求信息来运行代码：
 
 ```json
-{
-  "code": "func main() = { printLine(\"Hello World\"} }"
+主席:
+  "code": "func main() = PristLine(\"Hello World\"}"
 }
 ```
 

@@ -42,7 +42,7 @@ im Kernel-Ordner.
 
 ## Verwendung des Juka-Kernels
 
-**Notebook**: The _New_ menu in the notebook should show an option for an Juka notebook.
+**Notebook**: Das _neue_ Menü im Notebook sollte eine Option für ein Juka Notebook anzeigen.
 
 **Konsolenfrontends**: Um es mit den Konsolenfrontends zu verwenden, fügen Sie `--kernel juka` zu ihre Kommandozeilenargumente hinzu.
 

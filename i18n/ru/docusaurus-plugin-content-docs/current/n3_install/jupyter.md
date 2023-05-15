@@ -42,7 +42,7 @@ python -m juka_kernel.install
 
 ## Использование ядра Juka
 
-**Notebook**: The _New_ menu in the notebook should show an option for an Juka notebook.
+**Примечание**: Меню _Новый_ в блокноте должно показывать опцию для ноутбука Джука.
 
 **Консольные фронтэнды**: Чтобы использовать их в консольных фронтах, добавьте `--kernel juka` в их аргументы командной строки.
 
