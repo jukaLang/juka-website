@@ -25,6 +25,7 @@ func <name>(<parameters>) {
 func foo() =
     printLine("Hello, world!");
 }
+}
 ```
 
 ## 调用函数
@@ -58,6 +59,7 @@ func baz(x, y) = 然后
 ```jsx
 func main()=ow.
 printLine("Hello, world!");
+}
 }
 }
 ```
