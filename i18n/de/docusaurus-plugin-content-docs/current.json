@@ -1,0 +1,30 @@
+{
+  "version.label": {
+    "message": "Nächste",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.Fundamentals of Juka Programming Language": {
+    "message": "Grundlagen der Juka-Programmiersprache",
+    "description": "The label for category Fundamentals of Juka Programming Language in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Installing and Running Juka (Console)": {
+    "message": "Installation und Ausführung von Juka (Konsole)",
+    "description": "The label for category Installing and Running Juka (Console) in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Installing Juka App": {
+    "message": "Installing Juka App",
+    "description": "The label for category Installing Juka App in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Running Online": {
+    "message": "Läuft online",
+    "description": "The label for category Running Online in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Contributing to Juka Project": {
+    "message": "Beitrag zum Juka-Projekt",
+    "description": "The label for category Contributing to Juka Project in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Other Content": {
+    "message": "Anderer Inhalt",
+    "description": "The label for category Other Content in sidebar tutorialSidebar"
+  }
+}
