@@ -1,0 +1,569 @@
+{
+  "Portable and Small in Size": {
+    "message": "便携式和小型大小"
+  },
+  "Juka is a portable programming language that you can run anywhere. It doesn't need to be installed, so you can use it even if you don't have admin privileges or access to a hard drive. Just put Juka on your flash drive and you're good to go! Juka is a small, portable programming language that only takes up ~30MB of space. This means you can easily carry it around on a thumb drive or other portable storage device. In fact, you can even store multiple versions of Juka on the same drive, so you always have the latest version available.": {
+    "message": "Juka 是一种便携式编程语言，您可以在任何地方运行。 它不需要安装，所以即使您没有管理员权限或访问硬盘驱动器也可以使用它。 只要把Juka放在你的闪光驱动器上，你就好走了！ Juka是一种小型便携式编程语言，只能使用 ~30MB 的空间。 这意味着你可以轻松地将其携带到一个缩略图驱动器或其他便携式存储设备。 事实上，您甚至可以在同一个驱动器上存储多个版本的 Juka ，因此您总是有可用的最新版本。"
+  },
+  "You can use Juka on any computer, even if it doesn't have Juka installed.": {
+    "message": "您可以在任何电脑上使用 Juka，即使它没有安装 Juka。"
+  },
+  "You can easily share Juka with others.": {
+    "message": "您可以轻松地与他人分享Juka。"
+  },
+  "You can keep your Juka code organized and portable.": {
+    "message": "您可以保持您的 Juka 代码的组织和可移植。"
+  },
+  "Works on \"All\" Operating Systems": {
+    "message": "在“全部”操作系统上工作"
+  },
+  "We are constantly working to support as many systems as possible, including lesser known ones like FreeBSD and TempleOS. We also support ARM processors and 32-bit systems like Linux (x86). So why not give Juka a try on your Raspberry Pi or in ChromeOS Flex?": {
+    "message": "我们一直在努力支持尽可能多的系统，包括FreeBSD和TempleOS等较不为人知的系统。 我们还支持ARM处理器和32位系统，例如Linux(十六)。 因此，为什么不让Juka尝试你的树莓派或ChromeOS Flex？"
+  },
+  "You can use Juka on a variety of different systems.": {
+    "message": "您可以在各种不同的系统上使用 Juka。"
+  },
+  "Juka is a powerful and portable programming language.": {
+    "message": "胡卡语是一种强大和便携式的编程语言。"
+  },
+  "Juka is easy to learn and use.": {
+    "message": "胡卡人容易学习和使用。"
+  },
+  "Juka is a great way to learn about programming.": {
+    "message": "Juka是学习编程的一个很好的方法。"
+  },
+  "You can even run Juka inside a Web Browser! Visit": {
+    "message": "您甚至可以在 Web 浏览器中运行 Juka ！访问"
+  },
+  "and install the App. On Mobile, it's simply opening the website, and clicking \"add to your home screen!\"": {
+    "message": "然后安装应用程序。在手机上，它只是打开网站，然后点击“添加到您的主屏幕！”"
+  },
+  "Universal": {
+    "message": "通用的"
+  },
+  "Juka is a powerful and versatile programming language that can be used for a wide variety of projects.": {
+    "message": "胡卡语是一种强大和多才多艺的编程语言，可用于各种各样的项目。"
+  },
+  "Juka is a great choice for building web applications and websites. It's fast, efficient, and easy to use.": {
+    "message": "Juka 是构建网页应用程序和网站的一个巨大选择。它快速、高效、易于使用。"
+  },
+  "Juka is perfect for creating APIs that can be used by other applications. It's easy to create well-designed and secure APIs with Juka.": {
+    "message": "Juka 是创建可以被其他应用程序使用的 API 的完美无缺。使用 Juka 创建精心设计和安全的 API 非常容易。"
+  },
+  "Juka is a powerful tool for data scientists. It's fast, efficient, and easy to use.": {
+    "message": "Juka是数据科学家的一个强有力的工具。它快速、高效、易于使用。"
+  },
+  "We are aiming for Juka to be used to create secure networks and applications. It's fast, efficient, and easy to use.": {
+    "message": "我们的目标是用Juka来创建安全的网络和应用程序。它快速、高效和易于使用。"
+  },
+  "We are aiming for Juka to become a leading language for quantum computing. It's fast, efficient, and easy to use.": {
+    "message": "我们的目标是使Juka成为计算量的主要语言。它快速、高效和易于使用。"
+  },
+  "Juka can run on any platform, including Linux x32, FreeBSD, Chromium, Discord, and Telegram.": {
+    "message": "Juka可以在任何平台上运行，包括Linux x32、FreeBSD、Chromium、Discord和Telegram。"
+  },
+  "This makes it a great choice for developers who need to create applications that can run on a variety of platforms.": {
+    "message": "这使得需要创建可以在各种平台上运行的应用程序的开发者有很大的选择。"
+  },
+  "Cloud Friendly": {
+    "message": "云端友好模式"
+  },
+  "We created JukaAPI so that you can run it on any cloud server. This will allow one to use REST API to run code. Feel free to test it at": {
+    "message": "我们创建了 JukaAPI ，以便您可以在任何云端服务器上运行它。 这将允许一个人使用 REST API 来运行代码。请随意测试它"
+  },
+  "You can also run Juka on Microsoft's Azure Server by using Juka's Azure serverless function. Compile the code quickly, or let the others run the code. Download latest Azure Function from": {
+    "message": "您也可以使用 Juka's Azure serverless 功能在 Microsoft Azure 服务器上运行 Juka。 快速编译代码，或让其他人运行代码。从 Azure 下载最新功能"
+  },
+  "NOTE: you need an active Microsoft Azure account to host.": {
+    "message": "注意：您需要一个活动的 Microsoft Azure 帐户才能进行主机操作。"
+  },
+  "You can use Juka to create applications that can be hosted anywhere.": {
+    "message": "您可以使用 Juka 创建任何地方都可以托管的应用程序。"
+  },
+  "JukaAPI is designed to scale to meet the needs of your application.": {
+    "message": "JukaAPI 旨在缩放以满足您应用程序的需要。"
+  },
+  "JukaAPI can be used on Microsoft Azure using Azure Functions.": {
+    "message": "JukaAPI 可以使用 Azure 函数用于Microsoft Azure"
+  },
+  "Jupyter Support": {
+    "message": "Jupyter 支持"
+  },
+  "We know that many people love to use Jupyter Notebook and Lab. That's why we've added an easy way to run Juka code in Jupyter. Now you can do your data analysis in the software that you're used to, with the power of Juka. To get started, simply install the Juka kernel for Jupyter. Once the kernel is installed, you can create a new Jupyter notebook and select the \"Juka\" kernel. Now you can start writing Juka code in your Jupyter notebook. The Juka kernel will compile and execute your code, and you can see the results in the notebook. We hope you enjoy using Juka in Jupyter": {
+    "message": "我们知道很多人都喜欢使用Jupyter Notebook 和 Lab。这就是为什么我们增加了一条简单的方式在Jupyter运行Juka代码的原因。 现在你可以用Juka的力量在你使用的软件中进行数据分析。 要开始，简单地为朱拜特安装Juka内核。 内核安装后，您可以创建一个新的 Jupyter 笔记本，并选择\"Juka\" 内核。 现在你可以开始在你的Jupyter 笔记本中写入Juka代码。 Juka 内核将编译和执行您的代码，您可以在笔记本中看到结果。 我们希望你在朱拜特喜欢使用 Juka"
+  },
+  "Easy to Use Package Manager": {
+    "message": "轻松使用软件包管理器"
+  },
+  "All of the packages are hosted on GitHub, making it easy to install and contribute to their development. We hope that by hosting all packages on GitHub, security issues can be fixed quickly by the community. The packages contain a simple config file, making it easy for anyone to develop Juka packages.": {
+    "message": "所有软件包都保存在GitHub 上，使其易于安装并促进其开发。 我们希望，通过在GitHub 上托管所有一揽子计划，安全问题能够迅速得到社区的解决。 软件包包含一个简单的配置文件，让任何人都能轻松地开发 Juka 软件包。"
+  },
+  "if you are interested in developing Juka packages, we encourage you to check out the GitHub repository.": {
+    "message": "如果您有兴趣开发Juka软件包，我们鼓励您查看GitHub 版本库。"
+  },
+  "Join the Juka community!": {
+    "message": "加入Juka社区！"
+  },
+  "We are a growing community of Juka users who are passionate about learning and using this new language. We use Discord to stay connected and share resources, and we welcome anyone to join us.": {
+    "message": "我们是一个日益增长的Juka用户社区，他们热衷于学习和使用这种新语言。 我们使用 Discord 保持连接并分享资源，我们欢迎任何人加入我们。"
+  },
+  "To join the community, please click on the following link and create a Discord account. Once you have created an account, you can join the JukaLang group by clicking on the \"Join\" button.": {
+    "message": "要加入社群，请点击下面的链接并创建一个 Discord 帐户。 一旦您创建了一个帐户，您可以通过点击\"加入\"按钮加入JukaLang小组。"
+  },
+  "We look forward to seeing you in the community!": {
+    "message": "我们期待着在社区中看到你！"
+  },
+  "Contribute to the Source": {
+    "message": "为源作贡献"
+  },
+  "Juka is a community-driven project. We encourage everyone to contribute to the Juka GitHub repository.": {
+    "message": "Juka是一个社区驱动的项目，我们鼓励每个人为Juka GitHub 仓库作出贡献。"
+  },
+  "There are many ways to contribute to Juka, including:": {
+    "message": "为胡卡会议做出贡献的方式很多，包括："
+  },
+  "Reporting bugs": {
+    "message": "报告错误"
+  },
+  "Fixing bugs": {
+    "message": "修复bugs"
+  },
+  "Adding new features": {
+    "message": "添加新功能"
+  },
+  "Writing documentation": {
+    "message": "撰写文档"
+  },
+  "Translating documentation": {
+    "message": "翻译文档"
+  },
+  "Spreading the word about Juka": {
+    "message": "传播关于Juka的词"
+  },
+  "Please consider contributing to the Juka GitHub repository at": {
+    "message": "请考虑为Juka GitHub 存储库做贡献"
+  },
+  "Social Media": {
+    "message": "社交媒体"
+  },
+  "Get Started with Juka": {
+    "message": "开始使用 Juka"
+  },
+  "Follow us for news and updates!": {
+    "message": "关注我们以获取新闻和更新！"
+  },
+  "theme.ErrorPageContent.title": {
+    "message": "此页面已崩溃。",
+    "description": "The title of the fallback page when the page crashed"
+  },
+  "theme.NotFound.title": {
+    "message": "找不到页面",
+    "description": "The title of the 404 page"
+  },
+  "theme.NotFound.p1": {
+    "message": "我们找不到你想要的东西。",
+    "description": "The first paragraph of the 404 page"
+  },
+  "theme.NotFound.p2": {
+    "message": "请联系链接到原始URL的站点所有者并让他们知道他们的链接已经损坏。",
+    "description": "The 2nd paragraph of the 404 page"
+  },
+  "theme.admonition.note": {
+    "message": "备注",
+    "description": "The default label used for the Note admonition (:::note)"
+  },
+  "theme.admonition.tip": {
+    "message": "tip",
+    "description": "The default label used for the Tip admonition (:::tip)"
+  },
+  "theme.admonition.danger": {
+    "message": "危险",
+    "description": "The default label used for the Danger admonition (:::danger)"
+  },
+  "theme.admonition.info": {
+    "message": "信息",
+    "description": "The default label used for the Info admonition (:::info)"
+  },
+  "theme.admonition.caution": {
+    "message": "警告",
+    "description": "The default label used for the Caution admonition (:::caution)"
+  },
+  "theme.BackToTopButton.buttonAriaLabel": {
+    "message": "回滚到顶部",
+    "description": "The ARIA label for the back to top button"
+  },
+  "theme.blog.archive.title": {
+    "message": "存档",
+    "description": "The page & hero title of the blog archive page"
+  },
+  "theme.blog.archive.description": {
+    "message": "存档",
+    "description": "The page & hero description of the blog archive page"
+  },
+  "theme.blog.paginator.navAriaLabel": {
+    "message": "博客列表页面导航",
+    "description": "The ARIA label for the blog pagination"
+  },
+  "theme.blog.paginator.newerEntries": {
+    "message": "更新的条目",
+    "description": "The label used to navigate to the newer blog posts page (previous page)"
+  },
+  "theme.blog.paginator.olderEntries": {
+    "message": "较早的条目",
+    "description": "The label used to navigate to the older blog posts page (next page)"
+  },
+  "theme.blog.post.paginator.navAriaLabel": {
+    "message": "博客文章页面导航",
+    "description": "The ARIA label for the blog posts pagination"
+  },
+  "theme.blog.post.paginator.newerPost": {
+    "message": "更新的帖子",
+    "description": "The blog post button label to navigate to the newer/previous post"
+  },
+  "theme.blog.post.paginator.olderPost": {
+    "message": "较早的帖子",
+    "description": "The blog post button label to navigate to the older/next post"
+  },
+  "theme.blog.post.plurals": {
+    "message": "一个帖子 |{count}",
+    "description": "Pluralized label for \"{count} posts\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.blog.tagTitle": {
+    "message": "{nPosts} 已标记为 \"{tagName}\"",
+    "description": "The title of the page for a blog tag"
+  },
+  "theme.tags.tagsPageLink": {
+    "message": "查看所有标签",
+    "description": "The label of the link targeting the tag list page"
+  },
+  "theme.colorToggle.ariaLabel": {
+    "message": "在暗色和亮色模式之间切换(当前为 {mode})",
+    "description": "The ARIA label for the navbar color mode toggle"
+  },
+  "theme.colorToggle.ariaLabel.mode.dark": {
+    "message": "暗色模式",
+    "description": "The name for the dark color mode"
+  },
+  "theme.colorToggle.ariaLabel.mode.light": {
+    "message": "亮色模式",
+    "description": "The name for the light color mode"
+  },
+  "theme.docs.breadcrumbs.navAriaLabel": {
+    "message": "面包屑导航",
+    "description": "The ARIA label for the breadcrumbs"
+  },
+  "theme.docs.DocCard.categoryDescription": {
+    "message": "{count} 项",
+    "description": "The default description for a category card in the generated index about how many items this category includes"
+  },
+  "theme.docs.paginator.navAriaLabel": {
+    "message": "文档页面导航",
+    "description": "The ARIA label for the docs pagination"
+  },
+  "theme.docs.paginator.previous": {
+    "message": "上一个",
+    "description": "The label used to navigate to the previous doc"
+  },
+  "theme.docs.paginator.next": {
+    "message": "下一个",
+    "description": "The label used to navigate to the next doc"
+  },
+  "theme.docs.tagDocListPageTitle.nDocsTagged": {
+    "message": "已标记一个doc |{count} 个文档已标记",
+    "description": "Pluralized label for \"{count} docs tagged\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.docs.tagDocListPageTitle": {
+    "message": "{nDocsTagged} 与 \"{tagName}\"",
+    "description": "The title of the page for a docs tag"
+  },
+  "theme.docs.versionBadge.label": {
+    "message": "版本: {versionLabel}"
+  },
+  "theme.docs.versions.unreleasedVersionLabel": {
+    "message": "这是 {siteTitle} {versionLabel} 版本的未发布文档。",
+    "description": "The label used to tell the user that he's browsing an unreleased doc version"
+  },
+  "theme.docs.versions.unmaintainedVersionLabel": {
+    "message": "这是 {siteTitle} {versionLabel}的文档，不再活跃。",
+    "description": "The label used to tell the user that he's browsing an unmaintained doc version"
+  },
+  "theme.docs.versions.latestVersionSuggestionLabel": {
+    "message": "关于最新文档，请参阅 {latestVersionLink} ({versionLabel})。",
+    "description": "The label used to tell the user to check the latest version"
+  },
+  "theme.docs.versions.latestVersionLinkLabel": {
+    "message": "最新版本",
+    "description": "The label used for the latest version suggestion link label"
+  },
+  "theme.common.editThisPage": {
+    "message": "编辑此页面",
+    "description": "The link label to edit the current page"
+  },
+  "theme.common.headingLinkTitle": {
+    "message": "直接链接到 {heading}",
+    "description": "Title for link to heading"
+  },
+  "theme.lastUpdated.atDate": {
+    "message": " 在 {date}",
+    "description": "The words used to describe on which date a page has been last updated"
+  },
+  "theme.lastUpdated.byUser": {
+    "message": " 由 {user}",
+    "description": "The words used to describe by who the page has been last updated"
+  },
+  "theme.lastUpdated.lastUpdatedAtBy": {
+    "message": "上次更新{atDate}{byUser}",
+    "description": "The sentence used to display when a page has been last updated, and by who"
+  },
+  "theme.navbar.mobileVersionsDropdown.label": {
+    "message": "版本",
+    "description": "The label for the navbar versions dropdown on mobile view"
+  },
+  "theme.tags.tagsListLabel": {
+    "message": "标签：",
+    "description": "The label alongside a tag list"
+  },
+  "theme.AnnouncementBar.closeButtonAriaLabel": {
+    "message": "关闭",
+    "description": "The ARIA label for close button of announcement bar"
+  },
+  "theme.blog.sidebar.navAriaLabel": {
+    "message": "博客最近帖子导航",
+    "description": "The ARIA label for recent posts in the blog sidebar"
+  },
+  "theme.CodeBlock.copied": {
+    "message": "已复制",
+    "description": "The copied button label on code blocks"
+  },
+  "theme.CodeBlock.copyButtonAriaLabel": {
+    "message": "复制代码到剪贴板",
+    "description": "The ARIA label for copy code blocks button"
+  },
+  "theme.CodeBlock.copy": {
+    "message": "复制",
+    "description": "The copy button label on code blocks"
+  },
+  "theme.CodeBlock.wordWrapToggle": {
+    "message": "切换单词换行",
+    "description": "The title attribute for toggle word wrapping button of code block lines"
+  },
+  "theme.DocSidebarItem.toggleCollapsedCategoryAriaLabel": {
+    "message": "切换可折叠侧边栏类别{label}'",
+    "description": "The ARIA label to toggle the collapsible sidebar category"
+  },
+  "theme.NavBar.navAriaLabel": {
+    "message": "主要的",
+    "description": "The ARIA label for the main navigation"
+  },
+  "theme.navbar.mobileLanguageDropdown.label": {
+    "message": "语文",
+    "description": "The label for the mobile language switcher dropdown"
+  },
+  "theme.TOCCollapsible.toggleButtonLabel": {
+    "message": "在本页",
+    "description": "The label used by the button on the collapsible TOC component"
+  },
+  "theme.blog.post.readMore": {
+    "message": "阅读更多",
+    "description": "The label used in blog post item excerpts to link to full blog posts"
+  },
+  "theme.blog.post.readMoreLabel": {
+    "message": "阅读更多关于 {title}",
+    "description": "The ARIA label for the link to full blog posts from excerpts"
+  },
+  "theme.blog.post.readingTime.plurals": {
+    "message": "一分钟读取|{readingTime} 分钟",
+    "description": "Pluralized label for \"{readingTime} min read\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.docs.breadcrumbs.home": {
+    "message": "主页",
+    "description": "The ARIA label for the home page in the breadcrumbs"
+  },
+  "theme.docs.sidebar.collapseButtonTitle": {
+    "message": "折叠侧边栏",
+    "description": "The title attribute for collapse button of doc sidebar"
+  },
+  "theme.docs.sidebar.collapseButtonAriaLabel": {
+    "message": "折叠侧边栏",
+    "description": "The title attribute for collapse button of doc sidebar"
+  },
+  "theme.docs.sidebar.navAriaLabel": {
+    "message": "Docs sidebar",
+    "description": "The ARIA label for the sidebar navigation"
+  },
+  "theme.docs.sidebar.closeSidebarButtonAriaLabel": {
+    "message": "关闭导航栏",
+    "description": "The ARIA label for close button of mobile sidebar"
+  },
+  "theme.navbar.mobileSidebarSecondaryMenu.backButtonLabel": {
+    "message": "format@@0 返回主菜单",
+    "description": "The label of the back button to return to main menu, inside the mobile navbar sidebar secondary menu (notably used to display the docs sidebar)"
+  },
+  "theme.docs.sidebar.toggleSidebarButtonAriaLabel": {
+    "message": "切换导航栏",
+    "description": "The ARIA label for hamburger menu button of mobile navigation"
+  },
+  "theme.docs.sidebar.expandButtonTitle": {
+    "message": "Expand sidebar",
+    "description": "The ARIA label and title attribute for expand button of doc sidebar"
+  },
+  "theme.docs.sidebar.expandButtonAriaLabel": {
+    "message": "Expand sidebar",
+    "description": "The ARIA label and title attribute for expand button of doc sidebar"
+  },
+  "theme.SearchBar.seeAll": {
+    "message": "查看所有 {count} 结果"
+  },
+  "theme.SearchPage.documentsFound.plurals": {
+    "message": "找到一个文档 |{count} 文档",
+    "description": "Pluralized label for \"{count} documents found\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.SearchPage.existingResultsTitle": {
+    "message": "搜索结果 \"{query}\"",
+    "description": "The search page title for non-empty query"
+  },
+  "theme.SearchPage.emptyResultsTitle": {
+    "message": "搜索文档",
+    "description": "The search page title for empty query"
+  },
+  "theme.SearchPage.inputPlaceholder": {
+    "message": "在此输入您的搜索",
+    "description": "The placeholder for search page input"
+  },
+  "theme.SearchPage.inputLabel": {
+    "message": "搜索",
+    "description": "The ARIA label for search page input"
+  },
+  "theme.SearchPage.algoliaLabel": {
+    "message": "按Algolia搜索",
+    "description": "The ARIA label for Algolia mention"
+  },
+  "theme.SearchPage.noResultsText": {
+    "message": "没有找到结果",
+    "description": "The paragraph for empty search result"
+  },
+  "theme.SearchPage.fetchingNewResults": {
+    "message": "正在获取新结果...",
+    "description": "The paragraph for fetching new search results"
+  },
+  "theme.SearchBar.label": {
+    "message": "搜索",
+    "description": "The ARIA label and placeholder for search button"
+  },
+  "theme.SearchModal.searchBox.resetButtonTitle": {
+    "message": "清除查询",
+    "description": "The label and ARIA label for search box reset button"
+  },
+  "theme.SearchModal.searchBox.cancelButtonText": {
+    "message": "取消",
+    "description": "The label and ARIA label for search box cancel button"
+  },
+  "theme.SearchModal.startScreen.recentSearchesTitle": {
+    "message": "最近的",
+    "description": "The title for recent searches"
+  },
+  "theme.SearchModal.startScreen.noRecentSearchesText": {
+    "message": "没有最近的搜索",
+    "description": "The text when no recent searches"
+  },
+  "theme.SearchModal.startScreen.saveRecentSearchButtonTitle": {
+    "message": "保存此搜索",
+    "description": "The label for save recent search button"
+  },
+  "theme.SearchModal.startScreen.removeRecentSearchButtonTitle": {
+    "message": "从历史记录中删除此搜索",
+    "description": "The label for remove recent search button"
+  },
+  "theme.SearchModal.startScreen.favoriteSearchesTitle": {
+    "message": "收藏夹",
+    "description": "The title for favorite searches"
+  },
+  "theme.SearchModal.startScreen.removeFavoriteSearchButtonTitle": {
+    "message": "从收藏夹中删除此搜索",
+    "description": "The label for remove favorite search button"
+  },
+  "theme.SearchModal.errorScreen.titleText": {
+    "message": "无法获取结果",
+    "description": "The title for error screen of search modal"
+  },
+  "theme.SearchModal.errorScreen.helpText": {
+    "message": "您可能想要检查您的网络连接。",
+    "description": "The help text for error screen of search modal"
+  },
+  "theme.SearchModal.footer.selectText": {
+    "message": "选择",
+    "description": "The explanatory text of the action for the enter key"
+  },
+  "theme.SearchModal.footer.selectKeyAriaLabel": {
+    "message": "输入密钥",
+    "description": "The ARIA label for the Enter key button that makes the selection"
+  },
+  "theme.SearchModal.footer.navigateText": {
+    "message": "导航",
+    "description": "The explanatory text of the action for the Arrow up and Arrow down key"
+  },
+  "theme.SearchModal.footer.navigateUpKeyAriaLabel": {
+    "message": "向上箭头",
+    "description": "The ARIA label for the Arrow up key button that makes the navigation"
+  },
+  "theme.SearchModal.footer.navigateDownKeyAriaLabel": {
+    "message": "向下箭头",
+    "description": "The ARIA label for the Arrow down key button that makes the navigation"
+  },
+  "theme.SearchModal.footer.closeText": {
+    "message": "关闭",
+    "description": "The explanatory text of the action for Escape key"
+  },
+  "theme.SearchModal.footer.closeKeyAriaLabel": {
+    "message": "转义密钥",
+    "description": "The ARIA label for the Escape key button that close the modal"
+  },
+  "theme.SearchModal.footer.searchByText": {
+    "message": "搜索者",
+    "description": "The text explain that the search is making by Algolia"
+  },
+  "theme.SearchModal.noResultsScreen.noResultsText": {
+    "message": "没有结果",
+    "description": "The text explains that there are no results for the following search"
+  },
+  "theme.SearchModal.noResultsScreen.suggestedQueryText": {
+    "message": "尝试搜索",
+    "description": "The text for the suggested query when no results are found for the following search"
+  },
+  "theme.SearchModal.noResultsScreen.reportMissingResultsText": {
+    "message": "相信这个查询应该返回结果吗？",
+    "description": "The text for the question where the user thinks there are missing results"
+  },
+  "theme.SearchModal.noResultsScreen.reportMissingResultsLinkText": {
+    "message": "让我们知道吧。",
+    "description": "The text for the link to report missing results"
+  },
+  "theme.SearchModal.placeholder": {
+    "message": "搜索文档",
+    "description": "The placeholder of the input of the DocSearch pop-up modal"
+  },
+  "theme.PwaReloadPopup.info": {
+    "message": "新版本可用",
+    "description": "The text for PWA reload popup"
+  },
+  "theme.PwaReloadPopup.refreshButtonText": {
+    "message": "刷新",
+    "description": "The text for PWA reload button"
+  },
+  "theme.PwaReloadPopup.closeButtonAriaLabel": {
+    "message": "关闭",
+    "description": "The ARIA label for close button of PWA reload popup"
+  },
+  "theme.ErrorPageContent.tryAgain": {
+    "message": "再试一次",
+    "description": "The label of the button to try again rendering when the React error boundary captures an error"
+  },
+  "theme.common.skipToMainContent": {
+    "message": "跳转到主要内容",
+    "description": "The skip to content label used for accessibility, allowing to rapidly navigate to main content with keyboard tab/enter navigation"
+  },
+  "theme.tags.tagsPageTitle": {
+    "message": "标签",
+    "description": "The title of the tag list page"
+  }
+}

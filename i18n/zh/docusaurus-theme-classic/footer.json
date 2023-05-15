@@ -1,34 +1,34 @@
 {
   "link.title.Tutorials": {
-    "message": "Tutorials",
+    "message": "教程",
     "description": "The title of the footer links column with title=Tutorials in the footer"
   },
   "link.title.Community": {
-    "message": "Community",
+    "message": "社区",
     "description": "The title of the footer links column with title=Community in the footer"
   },
   "link.title.More": {
-    "message": "More",
+    "message": "更多",
     "description": "The title of the footer links column with title=More in the footer"
   },
   "link.item.label.Documentation": {
-    "message": "Documentation",
+    "message": "文件",
     "description": "The label of footer link with label=Documentation linking to /docs"
   },
   "link.item.label.Learn": {
-    "message": "Learn",
+    "message": "学习",
     "description": "The label of footer link with label=Learn linking to /learn"
   },
   "link.item.label.Download Juka": {
-    "message": "Download Juka",
+    "message": "下载 Juka",
     "description": "The label of footer link with label=Download Juka linking to /download"
   },
   "link.item.label.Try Online": {
-    "message": "Try Online",
+    "message": "尝试在线",
     "description": "The label of footer link with label=Try Online linking to https://ide.jukalang.com"
   },
   "link.item.label.Get Certificate": {
-    "message": "Get Certificate",
+    "message": "获取证书",
     "description": "The label of footer link with label=Get Certificate linking to /quiz"
   },
   "link.item.label.Discord": {
@@ -36,7 +36,7 @@
     "description": "The label of footer link with label=Discord linking to https://discord.gg/MsKWsErzfp"
   },
   "link.item.label.Twitter": {
-    "message": "Twitter",
+    "message": "推特",
     "description": "The label of footer link with label=Twitter linking to https://twitter.com/jukaLang"
   },
   "link.item.label.Facebook": {
@@ -52,19 +52,19 @@
     "description": "The label of footer link with label=Instagram linking to https://www.instagram.com/jukalanguage/"
   },
   "link.item.label.Donate": {
-    "message": "Donate",
+    "message": "捐助",
     "description": "The label of footer link with label=Donate linking to /donate"
   },
   "link.item.label.Privacy": {
-    "message": "Privacy",
+    "message": "隐私",
     "description": "The label of footer link with label=Privacy linking to /privacy"
   },
   "link.item.label.License": {
-    "message": "License",
+    "message": "许可协议",
     "description": "The label of footer link with label=License linking to /license"
   },
   "link.item.label.Contact Us": {
-    "message": "Contact Us",
+    "message": "联系我们",
     "description": "The label of footer link with label=Contact Us linking to /contact"
   },
   "link.item.label.GitHub Source": {
@@ -72,7 +72,7 @@
     "description": "The label of footer link with label=GitHub Source linking to https://github.com/jukaLang/juka"
   },
   "copyright": {
-    "message": "Copyright © 2023 Juka Programming Language <br/> (Last updated on 5/15/2023, 6:59:37 PM EST)",
+    "message": "Copyright © 2023 Juka Programming Language <br/> (Last updated on 5/15/2023, 7:43:30 PM EST)",
     "description": "The footer copyright"
   }
 }
