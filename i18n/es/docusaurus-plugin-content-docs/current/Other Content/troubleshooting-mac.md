@@ -26,8 +26,6 @@ Haga doble clic en la aplicación Juka.
 
 6. Ahora deberías poder ejecutar Juka.
 
-![paso3](/img/macintosh/final.png)
-
 
 ## Alteración alternativa
 
