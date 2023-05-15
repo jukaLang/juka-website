@@ -20,7 +20,7 @@ new JukaCompiler.Compiler().Go(sourceAsString, false);
 ```jsx
 string juka = `
 func main() = {
-printLine("Hello World");
+printLine("Hello World")
 }
 `
 var output new JukaCompiler.Compiler().Go(juka,false);
