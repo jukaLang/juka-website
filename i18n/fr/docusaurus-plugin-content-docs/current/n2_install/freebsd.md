@@ -25,7 +25,7 @@ Par exemple, pour exécuter le code dans le fichier `hello_world.juk`, vous exé
 ./juka mon_fichier.juk
 ```
 
-For example, to run the code in the file `hello_world.juk`, you would run the following command:
+Par exemple, pour exécuter le code dans le fichier `hello_world.juk`, vous exécuteriez la commande suivante :
 
 ```jsx
 format@@0 ./juka hello_world.juk
