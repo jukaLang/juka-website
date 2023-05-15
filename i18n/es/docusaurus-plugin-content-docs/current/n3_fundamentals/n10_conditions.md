@@ -28,48 +28,13 @@ Por ejemplo, el siguiente código imprimirá "¡Correcto!" si el valor de la sum
 
 
 ```jsx
-func main()={
-
-    var sum = 4+1;
-
-    if (suma == 5)
-    {
-        printLine("¡Correcto! 4+1 = 5")
-    }
-    else
-    {
-        printLine("¡Incorrecto!")
-    }
-} 4+1 = 5")
-    }
-    else
-    {
-        printLine("¡Incorrecto!")
-    }
-} 4+1 = 5")
-    }
-    else
-    {
-        printLine("¡Incorrecto!")
-    }
-} 4+1 = 5")
-    }
-    else
-    {
-        printLine("¡Incorrecto!")
-    }
-} 4+1 = 5")
-    }
-    else
-    {
-        printLine("¡Incorrecto!")
-    }
-} 4+1 = 5")
-    }
-    else
-    {
-        printLine("¡Incorrecto!")
-    }
+sum = 4+1
+if sum == 5{
+    "Correct! 4+1 = 5"
+}
+else
+{
+    "Incorrect!"
 }
 ```
 
