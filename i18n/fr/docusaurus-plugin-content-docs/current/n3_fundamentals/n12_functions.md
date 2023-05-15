@@ -25,6 +25,7 @@ Par exemple, le code suivant définit une fonction nommée foo qui ne prend aucu
 func foo() = {
     printLine("Bonjour, monde!");
 }
+}
 ```
 
 ## Appel d'une fonction
@@ -58,6 +59,7 @@ Chaque programme Juka doit avoir une fonction principale. La fonction principale
 ```jsx
 func main()={
 printLine("Bonjour, monde !");
+}
 }
 ```
 
