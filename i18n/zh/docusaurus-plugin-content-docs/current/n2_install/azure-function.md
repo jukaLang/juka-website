@@ -2,7 +2,7 @@
 sidebar_position: 8
 ---
 
-# Azure Function
+# 方位函数
 
 ## 本地运行 Juka
 
