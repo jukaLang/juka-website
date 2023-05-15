@@ -26,8 +26,6 @@ sidebar_position: 50
 
 6. Теперь вы можете запускать Juka.
 
-![Шаг 3](/img/macintosh/final.png)
-
 
 ## Альтернативный обход
 
