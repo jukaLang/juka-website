@@ -10,4 +10,4 @@ slug: /clases
 Una clase es un plano para crear objetos. Define las propiedades y métodos que tendrán los objetos de esa clase.
 
 
-## Coming Soon
+## Próximamente
