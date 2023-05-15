@@ -11,8 +11,8 @@ Commençons par créer une application "Hello World".
 2. Dans ce fichier, copiez et collez le code suivant :
 
 ```jsx
-func main() = {
-  printLine("Hello World");
+func main() =  {
+  printLine("Hello World")
 }
 ```
 
