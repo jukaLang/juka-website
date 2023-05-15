@@ -20,12 +20,12 @@ Zum Beispiel druckt der folgende Code die Zahlen von 1 bis 5:
 
 ```jsx
 func foo() = {
-    var x = 1;
+    var x = 1
 
     while(x <= 5){
-    printLine(x);
-    x = x + 1;
-}
+        printLine(x)
+        x = x + 1
+    }
 }
 ```
 
@@ -34,18 +34,18 @@ func foo() = {
 Die break -Anweisung kann zum Beenden einer Schleife verwendet werden. Die Syntax der Break-Anweisung lautet wie folgt:
 
 ```jsx
-bruch;
+break
 ```
 
 Zum Beispiel druckt der folgende Code die Zahlen von 1 bis 5 aber es wird die Schleife verlassen, wenn der Wert von x 3 erreicht:
 
 ```jsx
 func main() = {
-    var x = 0;
+    var x = 0
     while( 1){
     x = x + 1;
         if (x > 2) {
-            break;
+            break
         }
     }
 }
