@@ -22,5 +22,5 @@ La API Juka es una API RESTful que te permite ejecutar el código Juka en un ser
 ## Referencias
 
 * [Juka IDE](https://ide.jukalang.com)
-* * [Juka LiteIDE](https://lite.jukalang.com)
+* [Juka LiteIDE](https://lite.jukalang.com)
 * [Juka API](https://api.jukalang.com)
