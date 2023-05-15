@@ -15,6 +15,3 @@ Die Syntax von Juka ähnelt der von anderen Programmiersprachen wie Java und C#.
 * **Anweisungen** werden verwendet, um den Ausführungsfluss zu steuern. Sie können verwendet werden, um Variablen, Aufruffunktionen und Entscheidungen zuzuweisen.
 * **Funktionen** sind wiederverwendbare Codeblöcke. Sie können aus anderen Funktionen oder aus dem Hauptprogramm aufgerufen werden.
 
-## Variablen
-
-Variablen werden verwendet, um Werte zu speichern. Sie werden mit dem `var` Schlüsselwort deklariert. Zum Beispiel deklariert der folgende Code eine Variable namens `my_variable` und weist ihr den Wert 10 zu:
