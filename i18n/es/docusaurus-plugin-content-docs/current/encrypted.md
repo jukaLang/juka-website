@@ -1,44 +1,44 @@
 ---
 sidebar_position: 2
-slug: /encrypted
+slug: /encriptado
 ---
 
-# Encryption
-Juka can encrypt and decrypt files. It can also run encrypted Juka script files.
+# Encriptación
+Juka puede cifrar y descifrar archivos. También puede ejecutar archivos de scripts Juka cifrados.
 
-To encrypt a file "HelloWorld.juk", run the following in Console:
+Para cifrar un archivo "HelloWorld.juk", ejecute lo siguiente en Console:
 
 ```jsx
 ./juka --encrypt HelloWorld.juk
 ```
 
-This will create two files:
+Esto creará dos archivos:
 - HelloWorld.juk.encrypt
 - HelloWorld.juk.key
 
-They HelloWorld.juk.encrypt contains the encrypted file. The HelloWorld.juk.key contains AES key for use to decrypt the file.
+Ellos HelloWorld.juk.encrypt contiene el archivo cifrado. HelloWorld.juk.key contiene la clave AES para descifrar el archivo.
 
 
-To decrypt the file back to "HelloWorld.juk" run the following command:
+Para descifrar el archivo de vuelta a "HelloWorld.juk" ejecuta el siguiente comando:
 
 ```jsx
-./juka --decrypt HelloWorld.juk
+./juka --descifrar HelloWorld.juk
 ```
 
-This will take "HelloWorld.juk.encrypt" and "HelloWorld.juk.key" and decrypt the file. NOTE: You can encrypt/decrypt any file (not just Juka scripts)
+Esto tomará "HelloWorld.juk.encrypt" y "HelloWorld.juk.key" y descifrará el archivo. NOTA: Puede cifrar/descifrar cualquier archivo (no sólo scripts de Juka)
 
-To run the encrypted files without having to decrypt, run the following:
+Para ejecutar los archivos cifrados sin tener que descifrar, ejecuta lo siguiente:
 
 ```jsx
 ./juka --encrypted HelloWorld.juk
 ```
 
-This will use the following files:
+Esto usará los siguientes archivos:
 - HelloWorld.juk.encrypt
 - HelloWorld.juk.key
 
-decrypt them in memory and execute them in Juka.
+descifrarlos en memoria y ejecutarlos en Juka.
 
 
-![encrypted](/img/encrypted.png)
+![cifrado](/img/encrypted.png)
 
