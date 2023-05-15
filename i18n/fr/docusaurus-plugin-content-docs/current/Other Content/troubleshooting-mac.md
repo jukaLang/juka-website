@@ -26,8 +26,6 @@ Double-cliquez sur l'application Juka.
 
 6. Vous devriez maintenant pouvoir exécuter Juka.
 
-![Etape 3](/img/macintosh/final.png)
-
 
 ## Solution alternative
 
