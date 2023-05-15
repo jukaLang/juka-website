@@ -17,7 +17,7 @@ pkg install juka
 ```jsx
 ./juka
 ```
-
+![freebsd](/img/freebsd.png)
 
 若要从文件运行Juka代码，请运行以下命令，以 `my_file.juk` 替代您的文件名：
 
