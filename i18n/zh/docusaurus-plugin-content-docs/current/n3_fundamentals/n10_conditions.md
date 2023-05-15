@@ -29,31 +29,13 @@ slug: /条件
 
 
 ```jsx
-func main()=□
+func main()={
 
-    var sum = 4+1;
+    var sum = 4+1
 
-    (sum== 5)
-    让
-        printLine("正确! 4+1 = 5")
-    }
-    else
+    if (sum == 5)
     {
-        printLine("Incorrect!")
-    }
-} 4+1 = 5")
-    }
-    else
-    {
-        printLine("Incorrect!")
-    }
-} 4+1 = 5")
-    }
-    else
-    {
-        printLine("Incorrect!")
-    }
-} 4+1 = 5")
+        printLine("Correct! 4+1 = 5")
     }
     else
     {
