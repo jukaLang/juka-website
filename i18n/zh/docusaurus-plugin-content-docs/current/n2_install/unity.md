@@ -19,9 +19,9 @@ new JukaCompiler.Compiler().go(sourceAsString, false)；
 
 ```jsx
 string juka = `
-func main() = own
-printLine("Hello World");
+func main() = {
+printLine("Hello World")
 }
-
+`
 var output new JukaCompiler.Compiler().Go(juka,false);
 ```
