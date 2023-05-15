@@ -20,7 +20,7 @@ Le code suivant affichera "Hello World" sur la console :
 ```jsx
 string juka = `
 func main() = {
-printLine("Hello World");
+printLine("Hello World")
 }
 `
 var output new JukaCompiler.Compiler().Go(juka,false);
