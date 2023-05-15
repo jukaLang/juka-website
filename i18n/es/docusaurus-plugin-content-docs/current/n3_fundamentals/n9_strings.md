@@ -3,7 +3,7 @@ sidebar_position: 9
 slug: /strings
 ---
 
-# Cadenas
+# Strings
 
 ## ¿Qué es una cadena?
 
