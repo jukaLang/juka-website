@@ -19,7 +19,7 @@ Juka Try Online - это виртуальный IDE, который позвол
 Juka API - это RESTful API, который позволяет запускать Juka код на удаленном сервере. Чтобы использовать Juka API, вам нужно создать учетную запись и получить API ключ. Как только у вас есть API ключ, вы можете использовать его для запуска Juka кода, делая HTTP-запросы к точкам Juka API.
 
 
-## References
+## Справочная литература
 
 * [Juka IDE](https://ide.jukalang.com)
 * [Juka LiteIDE](https://lite.jukalang.com)
