@@ -30,9 +30,9 @@ Par exemple, le code suivant affichera "Correct!" si la valeur de la somme de la
 ```jsx
 func main()={
 
-    var sum = 4+1;
+    var sum = 4+1
 
-    if (somme == 5)
+    if (sum == 5)
     {
         printLine("Correct! 4+1 = 5")
     }
