@@ -33,7 +33,7 @@ x = 4;
 ## Suppression des variables
 Les variables peuvent être supprimées en utilisant le mot clé de suppression. La syntaxe pour supprimer une variable est la suivante:
 ```jsx
-<name> = null
+<name> = nul
 ```
 
 Par exemple, le code suivant supprime la variable `x`:
