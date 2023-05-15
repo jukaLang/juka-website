@@ -30,11 +30,11 @@ else
 ```jsx
 func main()={
 
-    var sum = 4+1;
+    var sum = 4+1
 
     if (sum == 5)
     {
-        printLine("Правильно! 4+1 = 5")
+        printLine("Correct! 4+1 = 5")
     }
     else
     {
