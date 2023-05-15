@@ -15,7 +15,7 @@ slug: /классы
 
 ```jsx
 class <name> = {
-<members>
+    <members>
 }
 ```
 
@@ -29,7 +29,7 @@ class <name> = {
 Свойства определяются с помощью ключевого слова var. Для определения объекта используется следующий синтаксис:
 
 ```jsx
-вар <name>;
+    var <name>
 ```
 
 Где `имя` это имя свойства, а `тип` - тип свойства.
@@ -39,7 +39,7 @@ class <name> = {
 
 ```jsx
 func <name>(<parameters>) = {
-<statements>
+    <statements>
 }
 ```
 Где `имя` является именем метода, `параметры` являются параметрами метода, и `операторы` - это операторы в теле метода.
@@ -60,32 +60,32 @@ var <object_name> = new <class_name>();
 Свойства и методы объекта могут быть доступны с помощью точечной нотации. Например, для доступа к имени свойства объекта myObject, используйте следующий код:
 
 ```jsx
-myObject.name;
+myObject.name
 ```
 
 Чтобы вызвать метод `добавьте` объекта `myObject`, вы должны использовать следующий код:
 
 ```jsx
-myObject.add(2, 6);
+myObject.add(2, 6)
 ```
 
 ## Пример
 Следующий код определяет класс с именем `MathClass` и создает объект этого класса:
 
 ```jsx
-класс MathClass {
-var num1: int;
-var num2: int;
+class MathClass {
+    var num1: int
+    var num2: int
 
-func add() {
-return this.num1 + this. um2;
-}
+    func add() {
+        return this.num1 + this.num2
+    }
 }
 
-var mathClass = new MathClass();
-mathClass.num1 = 2;
-mathClass.num2 = 6;
-print(mathClass.add());
+var mathClass = new MathClass()
+mathClass.num1 = 2
+mathClass.num2 = 6
+print(mathClass.add())
 ```
 
 Этот код будет печатать значение 8.
