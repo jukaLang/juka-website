@@ -2,7 +2,7 @@
 sidebar_position: 5
 ---
 
-# Juka in Jupyter
+# 朱皮特文
 
 胡卡语是一种新的编程语言，用于数据科学和分析。 它类似于Python，但它更强大和更有效。
 
