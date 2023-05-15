@@ -6,7 +6,7 @@ sidebar_position: 1
 
 Juka peut être exécuté sur de nombreuses plateformes, y compris :
 
-* Fenêtres
+* Windows
 * macOS
 * Linux
 
