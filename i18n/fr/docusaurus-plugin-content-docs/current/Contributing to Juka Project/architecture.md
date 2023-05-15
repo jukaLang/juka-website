@@ -28,7 +28,7 @@ Pour développer et gérer Juka, vous aurez besoin des éléments suivants :
 
 Juka utilise le schéma suivant pour exécuter le code:
 
-![Mise en page](/img/Runtime.png)
+![Layout](/img/Runtime.png)
 
 Le compilateur Juka compile du code Juka dans une bibliothèque .NET .dll. Cette bibliothèque peut ensuite être utilisée dans n'importe quel projet C#, y compris Xamarin/MAUI pour construire des applications iOS/Android, et il est principalement utilisé pour construire des applications multi-plateformes pour Mac/OS, Windows Apps et Windows Desktop.
 
