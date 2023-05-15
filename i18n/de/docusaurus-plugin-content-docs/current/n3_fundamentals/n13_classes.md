@@ -29,7 +29,7 @@ Die Mitglieder einer Klasse können Eigenschaften oder Methoden sein. Eigenschaf
 Eigenschaften werden mit dem var Schlüsselwort definiert. Die Syntax für die Definition einer Eigenschaft lautet wie folgt:
 
 ```jsx
-var <name>;
+    var <name>;
 ```
 
 Wo `Name` der Name der Eigenschaft ist und `Typ` der Typ der Eigenschaft.
