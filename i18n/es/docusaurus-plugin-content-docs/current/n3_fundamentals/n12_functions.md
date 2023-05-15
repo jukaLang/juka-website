@@ -9,13 +9,13 @@ slug: /funciones
 
 Una función es un bloque de código que puede ser reutilizado varias veces. Las funciones se definen usando la palabra clave `func`.
 
-## Síntesis
+## Syntax
 
 La sintaxis para definir una función es la siguiente:
 
 ```jsx
 func <name>(<parameters>) {
-<statements>
+    <statements>
 }
 ```
 
@@ -23,7 +23,7 @@ Por ejemplo, el siguiente código define una función llamada foo que no toma pa
 
 ```jsx
 func foo() = {
-    printLine("Hola, mundo!");
+    printLine("Hello, world!")
 }
 ```
 
@@ -39,7 +39,7 @@ Una función puede tomar parámetros, que son variables que se pasan a la funci�
 
 ```jsx
 func bar(x, y) = {
-    printLine("La suma de x e y es" + x + y);
+    printLine("The sum of x and y is" + x + y)
 }
 ```
 
@@ -47,7 +47,7 @@ Una función puede devolver un valor. El valor se declara después de los parám
 
 ```jsx
 func baz(x, y) = {
-    return x + y;
+    return x + y
 }
 ```
 
@@ -57,7 +57,7 @@ Cada programa de Juka debe tener una función principal. La función principal e
 
 ```jsx
 func main()={
-printLine("Hola, mundo!");
+    printLine("Hello, world!")
 }
 ```
 
