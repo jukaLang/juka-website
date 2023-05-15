@@ -56,6 +56,6 @@ python -m juka_kernel.install
 
 Ядро Juka является открытым исходным кодом и доступно на [GitHub](https://github.com/juka/juka_kernel).
 
-## Вклад
+## Contributing
 
 Если вы хотите внести свой вклад в ядро Juka, см. [руководство по вкладу](https://github.com/juka/juka_kernel/blob/master/CONTRIBUTING.md).
