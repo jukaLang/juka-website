@@ -27,8 +27,6 @@ Double-click on the Juka app.
 
 6. You should now be able to run Juka.
 
-![step3](/img/macintosh/final.png)
-
 
 ## Alternative Workaround
 

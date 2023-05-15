@@ -19,9 +19,7 @@ The following code will print "Hello World" to the console:
 
 ```jsx
 string juka = `
-func main() = {
-printLine("Hello World")
-}
+"Hello World"
 `
 var output new JukaCompiler.Compiler().Go(juka,false);
 ```

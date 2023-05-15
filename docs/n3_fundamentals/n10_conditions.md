@@ -28,18 +28,13 @@ For example, the following code will print "Correct!" if the value of the variab
 
 
 ```jsx
-func main()={
-
-    var sum = 4+1
-
-    if (sum == 5)
-    {
-        printLine("Correct! 4+1 = 5")
-    }
-    else
-    {
-        printLine("Incorrect!")
-    }
+sum = 4+1
+if sum == 5{
+    "Correct! 4+1 = 5"
+}
+else
+{
+    "Incorrect!"
 }
 ```
 

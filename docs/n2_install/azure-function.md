@@ -16,7 +16,7 @@ To run Juka locally, follow these steps:
 
 ```json
 {
-  "code": "func main() { printLine(\"Hello World\") }"
+  "code": "\"Hello World\""
 }
 ```
 
@@ -32,7 +32,7 @@ To run Juka on Azure, follow these steps:
 
 ```json
 {
-  "code": "func main() { printLine(\"Hello World\") }"
+  "code": "\"Hello World\""
 }
 ```
 

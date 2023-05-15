@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Juka Programming Language',
-  tagline: 'Code once, Run everywhere',
+  tagline: 'Easy Multithreading, Runs on Web3 and Web2, Inspired by Python',
   url: 'https://jukalang.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
