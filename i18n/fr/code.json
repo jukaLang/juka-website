@@ -1,0 +1,569 @@
+{
+  "Portable and Small in Size": {
+    "message": "Portable et Petite Taille"
+  },
+  "Juka is a portable programming language that you can run anywhere. It doesn't need to be installed, so you can use it even if you don't have admin privileges or access to a hard drive. Just put Juka on your flash drive and you're good to go! Juka is a small, portable programming language that only takes up ~30MB of space. This means you can easily carry it around on a thumb drive or other portable storage device. In fact, you can even store multiple versions of Juka on the same drive, so you always have the latest version available.": {
+    "message": "Juka est un langage de programmation portable que vous pouvez utiliser partout. Il n'a pas besoin d'être installé, vous pouvez donc l'utiliser même si vous n'avez pas les droits d'administration ou l'accès à un disque dur. Il suffit de mettre Juka sur votre lecteur flash et vous êtes prêt à partir! Juka est un petit langage de programmation portable qui n'occupe que 30 Mo d'espace. Cela signifie que vous pouvez facilement le transporter sur un lecteur de pouce ou sur un autre périphérique de stockage portable. En fait, vous pouvez même stocker plusieurs versions de Juka sur le même lecteur, de sorte que vous avez toujours la dernière version disponible."
+  },
+  "You can use Juka on any computer, even if it doesn't have Juka installed.": {
+    "message": "Vous pouvez utiliser Juka sur n'importe quel ordinateur, même si Juka n'est pas installé."
+  },
+  "You can easily share Juka with others.": {
+    "message": "Vous pouvez facilement partager Juka avec les autres."
+  },
+  "You can keep your Juka code organized and portable.": {
+    "message": "Vous pouvez garder votre code Juka organisé et portable."
+  },
+  "Works on \"All\" Operating Systems": {
+    "message": "Fonctionne sur tous les systèmes d'exploitation"
+  },
+  "We are constantly working to support as many systems as possible, including lesser known ones like FreeBSD and TempleOS. We also support ARM processors and 32-bit systems like Linux (x86). So why not give Juka a try on your Raspberry Pi or in ChromeOS Flex?": {
+    "message": "Nous travaillons constamment pour prendre en charge autant de systèmes que possible, y compris ceux moins connus comme FreeBSD et TempleOS. Nous prenons également en charge les processeurs ARM et les systèmes 32 bits comme Linux (x86). Alors pourquoi ne pas donner à Juka un essai sur ton Raspberry Pi ou dans ChromeOS Flex?"
+  },
+  "You can use Juka on a variety of different systems.": {
+    "message": "Vous pouvez utiliser Juka sur une variété de systèmes."
+  },
+  "Juka is a powerful and portable programming language.": {
+    "message": "Juka est un langage de programmation puissant et portable."
+  },
+  "Juka is easy to learn and use.": {
+    "message": "Juka est facile à apprendre et à utiliser."
+  },
+  "Juka is a great way to learn about programming.": {
+    "message": "Juka est un excellent moyen d'apprendre sur la programmation."
+  },
+  "You can even run Juka inside a Web Browser! Visit": {
+    "message": "Vous pouvez même exécuter Juka à l'intérieur d'un navigateur Web! Visitez"
+  },
+  "and install the App. On Mobile, it's simply opening the website, and clicking \"add to your home screen!\"": {
+    "message": "et installez l'App. Sur Mobile, il suffit d'ouvrir le site web et de cliquer sur \"ajouter à votre écran d'accueil!\""
+  },
+  "Universal": {
+    "message": "Universel"
+  },
+  "Juka is a powerful and versatile programming language that can be used for a wide variety of projects.": {
+    "message": "Juka est un langage de programmation puissant et polyvalent qui peut être utilisé pour une grande variété de projets."
+  },
+  "Juka is a great choice for building web applications and websites. It's fast, efficient, and easy to use.": {
+    "message": "Juka est un excellent choix pour la création d'applications web et de sites web."
+  },
+  "Juka is perfect for creating APIs that can be used by other applications. It's easy to create well-designed and secure APIs with Juka.": {
+    "message": "Juka est parfait pour créer des API qui peuvent être utilisées par d'autres applications. Il est facile de créer des API bien conçues et sécurisées avec Juka."
+  },
+  "Juka is a powerful tool for data scientists. It's fast, efficient, and easy to use.": {
+    "message": "Juka est un outil puissant pour les informaticiens. Il est rapide, efficace et facile à utiliser."
+  },
+  "We are aiming for Juka to be used to create secure networks and applications. It's fast, efficient, and easy to use.": {
+    "message": "Nous visons à ce que Juka soit utilisé pour créer des réseaux et des applications sécurisés. Il est rapide, efficace et facile à utiliser."
+  },
+  "We are aiming for Juka to become a leading language for quantum computing. It's fast, efficient, and easy to use.": {
+    "message": "Nous visons à ce que Juka devienne un langage de pointe pour l'informatique quantique."
+  },
+  "Juka can run on any platform, including Linux x32, FreeBSD, Chromium, Discord, and Telegram.": {
+    "message": "Juka peut fonctionner sur n'importe quelle plate-forme, y compris Linux x32, FreeBSD, Chromium, Discord, et Telegram."
+  },
+  "This makes it a great choice for developers who need to create applications that can run on a variety of platforms.": {
+    "message": "Cela en fait un excellent choix pour les développeurs qui ont besoin de créer des applications qui peuvent fonctionner sur une variété de plates-formes."
+  },
+  "Cloud Friendly": {
+    "message": "Aimé dans le Cloud"
+  },
+  "We created JukaAPI so that you can run it on any cloud server. This will allow one to use REST API to run code. Feel free to test it at": {
+    "message": "Nous avons créé JukaAPI pour que vous puissiez l'exécuter sur n'importe quel serveur cloud. Cela permettra d'utiliser l'API REST pour exécuter du code. N'hésitez pas à le tester à"
+  },
+  "You can also run Juka on Microsoft's Azure Server by using Juka's Azure serverless function. Compile the code quickly, or let the others run the code. Download latest Azure Function from": {
+    "message": "Vous pouvez également exécuter Juka sur le serveur Azure de Microsoft en utilisant la fonction sans serveur Juka Azure. Compiler le code rapidement, ou laisser les autres exécuter le code. Téléchargez la dernière fonction Azure depuis"
+  },
+  "NOTE: you need an active Microsoft Azure account to host.": {
+    "message": "REMARQUE : vous avez besoin d'un compte Microsoft Azure actif pour héberger."
+  },
+  "You can use Juka to create applications that can be hosted anywhere.": {
+    "message": "Vous pouvez utiliser Juka pour créer des applications qui peuvent être hébergées n'importe où."
+  },
+  "JukaAPI is designed to scale to meet the needs of your application.": {
+    "message": "JukaAPI est conçu pour répondre aux besoins de votre application."
+  },
+  "JukaAPI can be used on Microsoft Azure using Azure Functions.": {
+    "message": "JukaAPI peut être utilisé sur Microsoft Azure en utilisant les fonctions Azure."
+  },
+  "Jupyter Support": {
+    "message": "Support Jupyter"
+  },
+  "We know that many people love to use Jupyter Notebook and Lab. That's why we've added an easy way to run Juka code in Jupyter. Now you can do your data analysis in the software that you're used to, with the power of Juka. To get started, simply install the Juka kernel for Jupyter. Once the kernel is installed, you can create a new Jupyter notebook and select the \"Juka\" kernel. Now you can start writing Juka code in your Jupyter notebook. The Juka kernel will compile and execute your code, and you can see the results in the notebook. We hope you enjoy using Juka in Jupyter": {
+    "message": "Nous savons que beaucoup de gens aiment utiliser Jupyter Notebook et Lab. C'est pourquoi nous avons ajouté un moyen facile d'exécuter du code Juka dans Jupyter. Maintenant vous pouvez faire votre analyse de données dans le logiciel auquel vous êtes habitué, avec la puissance de Juka. Pour commencer, installez simplement le noyau Juka pour Jupyter. Une fois le noyau installé, vous pouvez créer un nouveau bloc-notes Jupyter et sélectionner le noyau \"Juka\". Maintenant, vous pouvez commencer à écrire du code Juka dans votre bloc-notes Jupyter. Le noyau Juka compilera et exécutera votre code, et vous pourrez voir les résultats dans le bloc-notes. Nous espérons que vous apprécierez l'utilisation de Juka à Jupyter"
+  },
+  "Easy to Use Package Manager": {
+    "message": "Gestionnaire de paquets facile à utiliser"
+  },
+  "All of the packages are hosted on GitHub, making it easy to install and contribute to their development. We hope that by hosting all packages on GitHub, security issues can be fixed quickly by the community. The packages contain a simple config file, making it easy for anyone to develop Juka packages.": {
+    "message": "Tous les paquets sont hébergés sur GitHub, ce qui facilite l'installation et la contribution à leur développement. Nous espérons qu'en hébergeant tous les paquets sur GitHub, les problèmes de sécurité pourront être résolus rapidement par la communauté. Les paquets contiennent un simple fichier de configuration, ce qui facilite le développement des paquets Juka."
+  },
+  "if you are interested in developing Juka packages, we encourage you to check out the GitHub repository.": {
+    "message": "si vous êtes intéressé par le développement de paquets Juka, nous vous encourageons à consulter le dépôt GitHub."
+  },
+  "Join the Juka community!": {
+    "message": "Rejoignez la communauté Juka !"
+  },
+  "We are a growing community of Juka users who are passionate about learning and using this new language. We use Discord to stay connected and share resources, and we welcome anyone to join us.": {
+    "message": "Nous sommes une communauté grandissante d'utilisateurs de Juka passionnés d'apprendre et d'utiliser cette nouvelle langue. Nous utilisons Discord pour rester connecté et partager des ressources, et nous accueillons tout le monde pour nous rejoindre."
+  },
+  "To join the community, please click on the following link and create a Discord account. Once you have created an account, you can join the JukaLang group by clicking on the \"Join\" button.": {
+    "message": "Pour rejoindre la communauté, veuillez cliquer sur le lien suivant et créer un compte Discord. Une fois que vous avez créé un compte, vous pouvez rejoindre le groupe JukaLang en cliquant sur le bouton \"Rejoindre\"."
+  },
+  "We look forward to seeing you in the community!": {
+    "message": "Nous avons hâte de vous voir dans la communauté!"
+  },
+  "Contribute to the Source": {
+    "message": "Contribuer à la Source"
+  },
+  "Juka is a community-driven project. We encourage everyone to contribute to the Juka GitHub repository.": {
+    "message": "Juka est un projet axé sur la communauté. Nous encourageons tout le monde à contribuer au dépôt GitHub de Juka."
+  },
+  "There are many ways to contribute to Juka, including:": {
+    "message": "Il y a plusieurs façons de contribuer à Juka, y compris :"
+  },
+  "Reporting bugs": {
+    "message": "Signaler des bugs"
+  },
+  "Fixing bugs": {
+    "message": "Correction de bugs"
+  },
+  "Adding new features": {
+    "message": "Ajout de nouvelles fonctionnalités"
+  },
+  "Writing documentation": {
+    "message": "Documentation d'écriture"
+  },
+  "Translating documentation": {
+    "message": "Documentation de traduction"
+  },
+  "Spreading the word about Juka": {
+    "message": "En train de projeter le mot sur Juka"
+  },
+  "Please consider contributing to the Juka GitHub repository at": {
+    "message": "Veuillez envisager de contribuer au dépôt GitHub de Juka à"
+  },
+  "Social Media": {
+    "message": "Réseaux sociaux"
+  },
+  "Get Started with Juka": {
+    "message": "Commencer avec Juka"
+  },
+  "Follow us for news and updates!": {
+    "message": "Suivez-nous pour les nouvelles et les mises à jour !"
+  },
+  "theme.ErrorPageContent.title": {
+    "message": "Cette page a planté.",
+    "description": "The title of the fallback page when the page crashed"
+  },
+  "theme.NotFound.title": {
+    "message": "Page introuvable",
+    "description": "The title of the 404 page"
+  },
+  "theme.NotFound.p1": {
+    "message": "Nous n'avons pas trouvé ce que vous cherchiez.",
+    "description": "The first paragraph of the 404 page"
+  },
+  "theme.NotFound.p2": {
+    "message": "Veuillez contacter le propriétaire du site qui vous a lié à l'URL d'origine et leur faire savoir que leur lien est cassé.",
+    "description": "The 2nd paragraph of the 404 page"
+  },
+  "theme.admonition.note": {
+    "message": "note",
+    "description": "The default label used for the Note admonition (:::note)"
+  },
+  "theme.admonition.tip": {
+    "message": "tip",
+    "description": "The default label used for the Tip admonition (:::tip)"
+  },
+  "theme.admonition.danger": {
+    "message": "Le danger",
+    "description": "The default label used for the Danger admonition (:::danger)"
+  },
+  "theme.admonition.info": {
+    "message": "Infos",
+    "description": "The default label used for the Info admonition (:::info)"
+  },
+  "theme.admonition.caution": {
+    "message": "précaution",
+    "description": "The default label used for the Caution admonition (:::caution)"
+  },
+  "theme.BackToTopButton.buttonAriaLabel": {
+    "message": "Retourner vers le haut",
+    "description": "The ARIA label for the back to top button"
+  },
+  "theme.blog.archive.title": {
+    "message": "Archive",
+    "description": "The page & hero title of the blog archive page"
+  },
+  "theme.blog.archive.description": {
+    "message": "Archive",
+    "description": "The page & hero description of the blog archive page"
+  },
+  "theme.blog.paginator.navAriaLabel": {
+    "message": "Navigation des pages de la liste des blogs",
+    "description": "The ARIA label for the blog pagination"
+  },
+  "theme.blog.paginator.newerEntries": {
+    "message": "Nouvelles entrées",
+    "description": "The label used to navigate to the newer blog posts page (previous page)"
+  },
+  "theme.blog.paginator.olderEntries": {
+    "message": "Anciennes entrées",
+    "description": "The label used to navigate to the older blog posts page (next page)"
+  },
+  "theme.blog.post.paginator.navAriaLabel": {
+    "message": "Navigation de la page de publication du blog",
+    "description": "The ARIA label for the blog posts pagination"
+  },
+  "theme.blog.post.paginator.newerPost": {
+    "message": "Nouvelle publication",
+    "description": "The blog post button label to navigate to the newer/previous post"
+  },
+  "theme.blog.post.paginator.olderPost": {
+    "message": "Ancien message",
+    "description": "The blog post button label to navigate to the older/next post"
+  },
+  "theme.blog.post.plurals": {
+    "message": "Un message |{count} messages",
+    "description": "Pluralized label for \"{count} posts\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.blog.tagTitle": {
+    "message": "{nPosts} taggé avec \"{tagName}\"",
+    "description": "The title of the page for a blog tag"
+  },
+  "theme.tags.tagsPageLink": {
+    "message": "Voir tous les tags",
+    "description": "The label of the link targeting the tag list page"
+  },
+  "theme.colorToggle.ariaLabel": {
+    "message": "Basculer entre le mode sombre et le mode clair (actuellement {mode})",
+    "description": "The ARIA label for the navbar color mode toggle"
+  },
+  "theme.colorToggle.ariaLabel.mode.dark": {
+    "message": "mode sombre",
+    "description": "The name for the dark color mode"
+  },
+  "theme.colorToggle.ariaLabel.mode.light": {
+    "message": "mode lumière",
+    "description": "The name for the light color mode"
+  },
+  "theme.docs.breadcrumbs.navAriaLabel": {
+    "message": "Fil d'Ariane",
+    "description": "The ARIA label for the breadcrumbs"
+  },
+  "theme.docs.DocCard.categoryDescription": {
+    "message": "{count} éléments",
+    "description": "The default description for a category card in the generated index about how many items this category includes"
+  },
+  "theme.docs.paginator.navAriaLabel": {
+    "message": "Navigation des pages de documentation",
+    "description": "The ARIA label for the docs pagination"
+  },
+  "theme.docs.paginator.previous": {
+    "message": "Précédent",
+    "description": "The label used to navigate to the previous doc"
+  },
+  "theme.docs.paginator.next": {
+    "message": "Suivant",
+    "description": "The label used to navigate to the next doc"
+  },
+  "theme.docs.tagDocListPageTitle.nDocsTagged": {
+    "message": "Un doc taggé |{count} docs taggés",
+    "description": "Pluralized label for \"{count} docs tagged\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.docs.tagDocListPageTitle": {
+    "message": "{nDocsTagged} avec \"{tagName}\"",
+    "description": "The title of the page for a docs tag"
+  },
+  "theme.docs.versionBadge.label": {
+    "message": "Version : {versionLabel}"
+  },
+  "theme.docs.versions.unreleasedVersionLabel": {
+    "message": "Ceci est une documentation non publiée pour la version de {siteTitle} {versionLabel}.",
+    "description": "The label used to tell the user that he's browsing an unreleased doc version"
+  },
+  "theme.docs.versions.unmaintainedVersionLabel": {
+    "message": "Il s'agit de la documentation pour {siteTitle} {versionLabel}, qui n'est plus activement maintenue.",
+    "description": "The label used to tell the user that he's browsing an unmaintained doc version"
+  },
+  "theme.docs.versions.latestVersionSuggestionLabel": {
+    "message": "Pour une documentation à jour, consultez la {latestVersionLink} ({versionLabel}).",
+    "description": "The label used to tell the user to check the latest version"
+  },
+  "theme.docs.versions.latestVersionLinkLabel": {
+    "message": "dernière version",
+    "description": "The label used for the latest version suggestion link label"
+  },
+  "theme.common.editThisPage": {
+    "message": "Modifier cette page",
+    "description": "The link label to edit the current page"
+  },
+  "theme.common.headingLinkTitle": {
+    "message": "Lien direct vers {heading}",
+    "description": "Title for link to heading"
+  },
+  "theme.lastUpdated.atDate": {
+    "message": " le {date}",
+    "description": "The words used to describe on which date a page has been last updated"
+  },
+  "theme.lastUpdated.byUser": {
+    "message": " par {user}",
+    "description": "The words used to describe by who the page has been last updated"
+  },
+  "theme.lastUpdated.lastUpdatedAtBy": {
+    "message": "Dernière mise à jour{atDate}{byUser}",
+    "description": "The sentence used to display when a page has been last updated, and by who"
+  },
+  "theme.navbar.mobileVersionsDropdown.label": {
+    "message": "Versions",
+    "description": "The label for the navbar versions dropdown on mobile view"
+  },
+  "theme.tags.tagsListLabel": {
+    "message": "Tags :",
+    "description": "The label alongside a tag list"
+  },
+  "theme.AnnouncementBar.closeButtonAriaLabel": {
+    "message": "Fermer",
+    "description": "The ARIA label for close button of announcement bar"
+  },
+  "theme.blog.sidebar.navAriaLabel": {
+    "message": "Navigation des articles récents dans le blog",
+    "description": "The ARIA label for recent posts in the blog sidebar"
+  },
+  "theme.CodeBlock.copied": {
+    "message": "Copié",
+    "description": "The copied button label on code blocks"
+  },
+  "theme.CodeBlock.copyButtonAriaLabel": {
+    "message": "Copier le code dans le presse-papiers",
+    "description": "The ARIA label for copy code blocks button"
+  },
+  "theme.CodeBlock.copy": {
+    "message": "Copie",
+    "description": "The copy button label on code blocks"
+  },
+  "theme.CodeBlock.wordWrapToggle": {
+    "message": "Afficher/Masquer les mots",
+    "description": "The title attribute for toggle word wrapping button of code block lines"
+  },
+  "theme.DocSidebarItem.toggleCollapsedCategoryAriaLabel": {
+    "message": "Activer/désactiver la catégorie de barre latérale pliable '{label}'",
+    "description": "The ARIA label to toggle the collapsible sidebar category"
+  },
+  "theme.NavBar.navAriaLabel": {
+    "message": "Principal",
+    "description": "The ARIA label for the main navigation"
+  },
+  "theme.navbar.mobileLanguageDropdown.label": {
+    "message": "Langues",
+    "description": "The label for the mobile language switcher dropdown"
+  },
+  "theme.TOCCollapsible.toggleButtonLabel": {
+    "message": "Sur cette page",
+    "description": "The label used by the button on the collapsible TOC component"
+  },
+  "theme.blog.post.readMore": {
+    "message": "En savoir plus",
+    "description": "The label used in blog post item excerpts to link to full blog posts"
+  },
+  "theme.blog.post.readMoreLabel": {
+    "message": "En savoir plus sur {title}",
+    "description": "The ARIA label for the link to full blog posts from excerpts"
+  },
+  "theme.blog.post.readingTime.plurals": {
+    "message": "Lecture d'une minute |{readingTime} min de lecture",
+    "description": "Pluralized label for \"{readingTime} min read\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.docs.breadcrumbs.home": {
+    "message": "Page d'accueil",
+    "description": "The ARIA label for the home page in the breadcrumbs"
+  },
+  "theme.docs.sidebar.collapseButtonTitle": {
+    "message": "Réduire la barre latérale",
+    "description": "The title attribute for collapse button of doc sidebar"
+  },
+  "theme.docs.sidebar.collapseButtonAriaLabel": {
+    "message": "Réduire la barre latérale",
+    "description": "The title attribute for collapse button of doc sidebar"
+  },
+  "theme.docs.sidebar.navAriaLabel": {
+    "message": "Docs sidebar",
+    "description": "The ARIA label for the sidebar navigation"
+  },
+  "theme.docs.sidebar.closeSidebarButtonAriaLabel": {
+    "message": "Fermer la barre de navigation",
+    "description": "The ARIA label for close button of mobile sidebar"
+  },
+  "theme.navbar.mobileSidebarSecondaryMenu.backButtonLabel": {
+    "message": "<unk> Retour au menu principal",
+    "description": "The label of the back button to return to main menu, inside the mobile navbar sidebar secondary menu (notably used to display the docs sidebar)"
+  },
+  "theme.docs.sidebar.toggleSidebarButtonAriaLabel": {
+    "message": "Basculer la barre de navigation",
+    "description": "The ARIA label for hamburger menu button of mobile navigation"
+  },
+  "theme.docs.sidebar.expandButtonTitle": {
+    "message": "Expand sidebar",
+    "description": "The ARIA label and title attribute for expand button of doc sidebar"
+  },
+  "theme.docs.sidebar.expandButtonAriaLabel": {
+    "message": "Expand sidebar",
+    "description": "The ARIA label and title attribute for expand button of doc sidebar"
+  },
+  "theme.SearchBar.seeAll": {
+    "message": "Voir tous les {count} résultats"
+  },
+  "theme.SearchPage.documentsFound.plurals": {
+    "message": "Un document trouvé |{count} documents trouvés",
+    "description": "Pluralized label for \"{count} documents found\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.SearchPage.existingResultsTitle": {
+    "message": "Résultats de recherche pour \"{query}\"",
+    "description": "The search page title for non-empty query"
+  },
+  "theme.SearchPage.emptyResultsTitle": {
+    "message": "Rechercher dans la documentation",
+    "description": "The search page title for empty query"
+  },
+  "theme.SearchPage.inputPlaceholder": {
+    "message": "Tapez votre recherche ici",
+    "description": "The placeholder for search page input"
+  },
+  "theme.SearchPage.inputLabel": {
+    "message": "Chercher",
+    "description": "The ARIA label for search page input"
+  },
+  "theme.SearchPage.algoliaLabel": {
+    "message": "Recherche par Algolia",
+    "description": "The ARIA label for Algolia mention"
+  },
+  "theme.SearchPage.noResultsText": {
+    "message": "Aucun résultat n'a été trouvé",
+    "description": "The paragraph for empty search result"
+  },
+  "theme.SearchPage.fetchingNewResults": {
+    "message": "Récupération des nouveaux résultats...",
+    "description": "The paragraph for fetching new search results"
+  },
+  "theme.SearchBar.label": {
+    "message": "Chercher",
+    "description": "The ARIA label and placeholder for search button"
+  },
+  "theme.SearchModal.searchBox.resetButtonTitle": {
+    "message": "Effacer la requête",
+    "description": "The label and ARIA label for search box reset button"
+  },
+  "theme.SearchModal.searchBox.cancelButtonText": {
+    "message": "Abandonner",
+    "description": "The label and ARIA label for search box cancel button"
+  },
+  "theme.SearchModal.startScreen.recentSearchesTitle": {
+    "message": "Récentes",
+    "description": "The title for recent searches"
+  },
+  "theme.SearchModal.startScreen.noRecentSearchesText": {
+    "message": "Aucune recherche récente",
+    "description": "The text when no recent searches"
+  },
+  "theme.SearchModal.startScreen.saveRecentSearchButtonTitle": {
+    "message": "Enregistrer cette recherche",
+    "description": "The label for save recent search button"
+  },
+  "theme.SearchModal.startScreen.removeRecentSearchButtonTitle": {
+    "message": "Supprimer cette recherche de l'historique",
+    "description": "The label for remove recent search button"
+  },
+  "theme.SearchModal.startScreen.favoriteSearchesTitle": {
+    "message": "Favoris",
+    "description": "The title for favorite searches"
+  },
+  "theme.SearchModal.startScreen.removeFavoriteSearchButtonTitle": {
+    "message": "Retirer cette recherche des favoris",
+    "description": "The label for remove favorite search button"
+  },
+  "theme.SearchModal.errorScreen.titleText": {
+    "message": "Impossible de récupérer les résultats",
+    "description": "The title for error screen of search modal"
+  },
+  "theme.SearchModal.errorScreen.helpText": {
+    "message": "Vous pouvez vérifier votre connexion réseau.",
+    "description": "The help text for error screen of search modal"
+  },
+  "theme.SearchModal.footer.selectText": {
+    "message": "pour sélectionner",
+    "description": "The explanatory text of the action for the enter key"
+  },
+  "theme.SearchModal.footer.selectKeyAriaLabel": {
+    "message": "Saisir la clé",
+    "description": "The ARIA label for the Enter key button that makes the selection"
+  },
+  "theme.SearchModal.footer.navigateText": {
+    "message": "pour naviguer",
+    "description": "The explanatory text of the action for the Arrow up and Arrow down key"
+  },
+  "theme.SearchModal.footer.navigateUpKeyAriaLabel": {
+    "message": "Flèche vers le haut",
+    "description": "The ARIA label for the Arrow up key button that makes the navigation"
+  },
+  "theme.SearchModal.footer.navigateDownKeyAriaLabel": {
+    "message": "Flèche vers le bas",
+    "description": "The ARIA label for the Arrow down key button that makes the navigation"
+  },
+  "theme.SearchModal.footer.closeText": {
+    "message": "fermer",
+    "description": "The explanatory text of the action for Escape key"
+  },
+  "theme.SearchModal.footer.closeKeyAriaLabel": {
+    "message": "Touche d'échappement",
+    "description": "The ARIA label for the Escape key button that close the modal"
+  },
+  "theme.SearchModal.footer.searchByText": {
+    "message": "Rechercher par",
+    "description": "The text explain that the search is making by Algolia"
+  },
+  "theme.SearchModal.noResultsScreen.noResultsText": {
+    "message": "Aucun résultat pour",
+    "description": "The text explains that there are no results for the following search"
+  },
+  "theme.SearchModal.noResultsScreen.suggestedQueryText": {
+    "message": "Essayez de rechercher",
+    "description": "The text for the suggested query when no results are found for the following search"
+  },
+  "theme.SearchModal.noResultsScreen.reportMissingResultsText": {
+    "message": "Croyez-vous que cette requête devrait retourner des résultats?",
+    "description": "The text for the question where the user thinks there are missing results"
+  },
+  "theme.SearchModal.noResultsScreen.reportMissingResultsLinkText": {
+    "message": "Faites-le nous savoir.",
+    "description": "The text for the link to report missing results"
+  },
+  "theme.SearchModal.placeholder": {
+    "message": "Rechercher dans la documentation",
+    "description": "The placeholder of the input of the DocSearch pop-up modal"
+  },
+  "theme.PwaReloadPopup.info": {
+    "message": "Nouvelle version disponible",
+    "description": "The text for PWA reload popup"
+  },
+  "theme.PwaReloadPopup.refreshButtonText": {
+    "message": "Rafraîchir",
+    "description": "The text for PWA reload button"
+  },
+  "theme.PwaReloadPopup.closeButtonAriaLabel": {
+    "message": "Fermer",
+    "description": "The ARIA label for close button of PWA reload popup"
+  },
+  "theme.ErrorPageContent.tryAgain": {
+    "message": "Réessayez",
+    "description": "The label of the button to try again rendering when the React error boundary captures an error"
+  },
+  "theme.common.skipToMainContent": {
+    "message": "Passer au contenu principal",
+    "description": "The skip to content label used for accessibility, allowing to rapidly navigate to main content with keyboard tab/enter navigation"
+  },
+  "theme.tags.tagsPageTitle": {
+    "message": "Tags",
+    "description": "The title of the tag list page"
+  }
+}
