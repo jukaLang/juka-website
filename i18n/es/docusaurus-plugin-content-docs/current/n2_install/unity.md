@@ -20,8 +20,8 @@ El siguiente código imprimirá "Hola Mundo" en la consola:
 ```jsx
 string juka = `
 func main() = {
-printLine("Hola Mundo");
+printLine("Hello World")
 }
-
-var output new JukaCompiler. Compiler().Go(juka,false);
+`
+var output new JukaCompiler.Compiler().Go(juka,false);
 ```
