@@ -7,7 +7,7 @@ slug: /instalar
 
 Juka se puede ejecutar en muchas plataformas, incluyendo:
 
-* Windows
+* Ventanas
 * macOS
 * Linux
 * BSD
