@@ -26,8 +26,6 @@ sidebar_position: 50
 
 6. 您现在应该能够运行Juka。
 
-![步骤3](/img/macintosh/final.png)
-
 
 ## 替代工作
 
