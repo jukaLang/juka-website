@@ -29,7 +29,7 @@ Los miembros de una clase pueden ser propiedades o métodos. Las propiedades son
 Las propiedades se definen usando la palabra clave de la variable. La sintaxis para definir una propiedad es la siguiente:
 
 ```jsx
-var <name>;
+    var <name>;
 ```
 
 Donde `nombre` es el nombre de la propiedad, y `tipo` es el tipo de propiedad.
