@@ -46,7 +46,7 @@ Rejoignez notre communauté Discord : https://discord.gg/MsKWsErzfp
 - Bot Telegram (Travail, mais n'est pas actuellement hébergé)
 - Amazon Fire (HD) (Can be sideloaded <https://jukalang.com/download>, mais pas encore dans l'AppStore d'Amazon)
 
-## Bientôt disponible:
+## Coming Soon:
 
 - Réseau Ethereum
 - Application Android (version Google Play)
