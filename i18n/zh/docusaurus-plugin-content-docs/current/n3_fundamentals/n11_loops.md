@@ -20,13 +20,13 @@ slug: /循环
 例如，下列代码将打印数字从1到5：
 
 ```jsx
-func foo() = Power
-    var x = 1;
+func foo() = {
+    var x = 1
 
-    whilex <= 5)}
-    printLine(x)；
-    x = x + 1;
-}
+    while(x <= 5){
+        printLine(x)
+        x = x + 1
+    }
 }
 ```
 
@@ -35,17 +35,18 @@ func foo() = Power
 休息声明可以用来退出循环。 课间休息声明的语法如下：
 
 ```jsx
-2. 间歇；
+break
 ```
 
 例如，下列代码将打印数字从1到5； 但是当x值达到3时，它会退出循环：
 
 ```jsx
-func main() = 。 var x = 0；
-    while( 1)□
+func main() = {
+    var x = 0
+    while( 1){
     x = x + 1;
-        if (fx > 2) 电子邮件：
-            break;
+        if (x > 2) {
+            break
         }
     }
 }
