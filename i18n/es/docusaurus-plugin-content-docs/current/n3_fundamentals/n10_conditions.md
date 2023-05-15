@@ -52,6 +52,12 @@ func main()={
     {
         printLine("¡Incorrecto!")
     }
+} 4+1 = 5")
+    }
+    else
+    {
+        printLine("¡Incorrecto!")
+    }
 }
 ```
 

@@ -22,5 +22,5 @@ Juka API - это RESTful API, который позволяет запуска�
 ## Справочная литература
 
 * [Juka IDE](https://ide.jukalang.com)
-* * [Juka LiteIDE](https://lite.jukalang.com)
+* [Juka LiteIDE](https://lite.jukalang.com)
 * [Juka API](https://api.jukalang.com)

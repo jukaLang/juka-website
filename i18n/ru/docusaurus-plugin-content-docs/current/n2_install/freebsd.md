@@ -17,7 +17,7 @@ pkg install juka
 ```jsx
 ./juka
 ```
-
+![freebsd](/img/freebsd.png)
 
 Чтобы запустить Juka код из файла, запустите следующую команду, заменив имя вашего файла на `my_file.juk`:
 

@@ -17,9 +17,9 @@ Une fois que Juka est installé, vous pouvez démarrer l'éditeur en exécutant 
 ```jsx
 ./juka
 ```
+![freebsd](/img/freebsd.png)
 
-
-Pour exécuter le code Juka depuis un fichier, exécutez la commande suivante, en remplaçant le nom de votre fichier par `my_file.juk`:
+Par exemple, pour exécuter le code dans le fichier `hello_world.juk`, vous exécuteriez la commande suivante :
 
 ```jsx
 ./juka mon_fichier.juk

@@ -15,6 +15,3 @@ La sintaxis de Juka es similar a la de otros lenguajes de programación, como Ja
 * **Las sentencias** se utilizan para controlar el flujo de ejecución. Pueden ser usados para asignar valores a variables, llamar a funciones y tomar decisiones.
 * **Funciones** son bloques reutilizables de código. Se pueden llamar desde otras funciones o desde el programa principal.
 
-## Variables
-
-Las variables se utilizan para almacenar valores. Se declaran usando la palabra clave `var`. Por ejemplo, el siguiente código declara una variable llamada `my_variable` y le asigna el valor 10:

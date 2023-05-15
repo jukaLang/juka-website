@@ -15,6 +15,3 @@ La syntaxe de Juka est similaire à celle d'autres langages de programmation, te
 * **Les instructions** sont utilisées pour piloter le flux d'exécution. Ils peuvent être utilisés pour assigner des valeurs à des variables, appeler des fonctions et prendre des décisions.
 * **Les fonctions** sont des blocs de code réutilisables. Ils peuvent être appelés depuis d'autres fonctions ou depuis le programme principal.
 
-## Variables
-
-Les variables sont utilisées pour stocker des valeurs. Ils sont déclarés en utilisant le mot clé `var`. Par exemple, le code suivant déclare une variable nommée `my_variable` et l'assigne la valeur 10 :
