@@ -7,7 +7,7 @@ slug: /fundamental
 
 Juka es un lenguaje de programación de propósito general diseñado para ser simple, eficiente y expresivo. Es un lenguaje estáticamente escrito, lo que significa que los tipos de variables y expresiones se comprueban en tiempo de compilación. Juka es también un lenguaje compilado, lo que significa que se convierte en código de máquina antes de ser ejecutado.
 
-## Syntax
+## Síntesis
 
 La sintaxis de Juka es similar a la de otros lenguajes de programación, como Java y C#. Los bloques básicos de construcción del código Juka son expresiones, sentencias y funciones.
 
