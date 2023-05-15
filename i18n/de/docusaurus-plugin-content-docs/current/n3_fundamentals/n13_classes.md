@@ -11,7 +11,7 @@ Eine Klasse ist eine Blaupause zum Erstellen von Objekten. Es definiert die Eige
 
 ## Wie man eine Klasse definiert
 
-Die Syntax für die Definition einer Klasse lautet wie folgt: To define a class, use the class keyword.
+Die Syntax für die Definition einer Klasse lautet wie folgt: Die Syntax für die Definition einer Klasse lautet wie folgt: To define a class, use the class keyword.
 
 ```jsx
 class <name> = {
@@ -35,7 +35,7 @@ Eigenschaften werden mit dem var Schlüsselwort definiert. Die Syntax für die D
 Where name is the name of the property, and type is the type of the property.
 
 ## Methoden
-Die Syntax für die Definition einer Methode lautet wie folgt: Methods are defined using the func keyword.
+Die Syntax für die Definition einer Methode lautet wie folgt: Methods are defined using the func keyword. Methods are defined using the func keyword.
 
 ```jsx
 func <name>(<parameters>) = {
