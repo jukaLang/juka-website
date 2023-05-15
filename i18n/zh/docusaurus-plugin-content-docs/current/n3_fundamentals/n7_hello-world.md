@@ -11,8 +11,9 @@ slug: /hello-world
 2. 在该文件中，复制并粘贴以下代码：
 
 ```jsx
-func main() =
-  printLine("Hello World");
+func main() =  {
+  printLine("Hello World")
+}
 ```
 
 3. 完成后，保存文件并运行以下命令：
