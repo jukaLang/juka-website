@@ -17,4 +17,4 @@ La aplicación Juka está disponible de forma gratuita en las siguientes platafo
 * Android
 * iOS
 * Fuego de Amazon
-* Ventanas
+* Windows
