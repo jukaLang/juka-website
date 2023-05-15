@@ -20,12 +20,12 @@ Por ejemplo, el siguiente código imprimirá los números de 1 a 5:
 
 ```jsx
 func foo() = {
-    var x = 1;
+    var x = 1
 
-    while e(x <= 5){
-    printLine(x);
-    x = x + 1;
-}
+    while(x <= 5){
+        printLine(x)
+        x = x + 1
+    }
 }
 ```
 
@@ -34,18 +34,18 @@ func foo() = {
 El comando break puede ser usado para salir de un bucle. La sintaxis del comando break es la siguiente:
 
 ```jsx
-romper;
+break
 ```
 
 Por ejemplo, el siguiente código imprimirá los números de 1 a 5, pero saldrá del bucle cuando el valor de x alcance 3:
 
 ```jsx
 func main() = {
-    var x = 0;
-    while (1){
+    var x = 0
+    while( 1){
     x = x + 1;
         if (x > 2) {
-            break;
+            break
         }
     }
 }
