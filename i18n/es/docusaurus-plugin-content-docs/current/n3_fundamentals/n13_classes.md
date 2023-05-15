@@ -11,7 +11,7 @@ Una clase es un plano para crear objetos. Define las propiedades y métodos que 
 
 ## Cómo definir una clase
 
-To define a class, use the class keyword. La sintaxis para definir una clase es la siguiente:
+La sintaxis para definir una clase es la siguiente: To define a class, use the class keyword.
 
 ```jsx
 class <name> = {
@@ -52,6 +52,7 @@ Para crear un objeto, utilice la nueva palabra clave. La sintaxis para crear un 
 ```jsx
 var <object_name> = new <class_name>();
 ```
+
 Where object_name`is the name of the object, and class_name is the name of the class.
 
 ## Accediendo a propiedades y métodos
@@ -61,6 +62,7 @@ Las propiedades y métodos de un objeto pueden ser accedidos usando la notación
 ```jsx
 myObject.name;
 ```
+
 To call the method add`of the object myObject, you would use the following code:
 
 ```jsx

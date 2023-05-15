@@ -11,15 +11,15 @@ slug: /class类
 
 ## 如何定义类
 
-To define a class, use the class keyword. 定义类的语法如下：
+要定义一个类，请使用 `类` 关键字。 定义类的语法如下：
 
 ```jsx
 class <name> = {
-<members>
+    <members>
 }
 ```
 
-Where name is the name of the class, and members are the properties and methods of the class.
+`name` 是类名称， `成员` 是类的属性和方法。
 
 ## 成员
 
@@ -29,20 +29,20 @@ Where name is the name of the class, and members are the properties and methods 
 属性使用var关键字来定义。 定义属性的语法如下：
 
 ```jsx
-    var <name>;
+    var <name>
 ```
 
-Where name is the name of the property, and type is the type of the property.
+`name` 是属性的名称， `输入` 是属性的类型。
 
 ## 方法
-Methods are defined using the func keyword. 方法使用 `真空` 关键字来定义. 定义方法的语法如下： 定义方法的语法如下： 定义方法的语法如下：
+方法使用 `真空` 关键字来定义. 定义方法的语法如下：
 
 ```jsx
 func <name>(<parameters>) = {
-<statements>
+    <statements>
 }
 ```
-Where name is the name of the method, parameters are the parameters of the method, and statements are the statements in the method body.
+`name` 是方法的名称。 `参数` 是方法的参数， 和 `语句` 是方法正文中的语句。
 
 ## 创建对象
 
@@ -52,34 +52,37 @@ Where name is the name of the method, parameters are the parameters of the metho
 ```jsx
 var <object_name> = 新的 <class_name>();
 ```
-Where object_name`is the name of the object, and class_name is the name of the class.
+
+`object_name` 是对象的名称, `class_name` 是类的名称。
 
 ## 访问属性和方法
 
 一个对象的属性和方法可以使用点符号访问。 例如，要访问对象myObject的属性名称，您将使用以下代码：
 
 ```jsx
-myObject.name;
+myObject.name
 ```
-To call the method add`of the object myObject, you would use the following code:
+
+要调用方法 `添加对象 <code>myObject`的</code> ，您将使用以下代码：
 
 ```jsx
-myObject.add(2, 6)；
+myObject.add(2, 6)
 ```
 
 ## 示例
-The following code defines a class named MathClass and creates an object of that class:
+下面的代码定义了一个名为 `MathClass` 的类并创建了该类的对象：
 
 ```jsx
-class MathClass {
+类别MathClass v.
     var num1: int
     var num2: int
 
-    func add() = {
-        return this.num1 + this.num2
+    func add() v.
+        返回 this um1 + 这个。 um2
     }
 }
-var mathClass = new MathClass()
+
+var mathClass = new MatthClass()
 mathClass.num1 = 2
 mathClass.num2 = 6
 print(mathClass.add())
