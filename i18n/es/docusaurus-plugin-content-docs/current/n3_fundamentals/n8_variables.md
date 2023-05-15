@@ -15,31 +15,31 @@ Una variable es una ubicación con nombre en la memoria que puede ser usada para
 Las variables se definen usando la palabra clave `var`. La sintaxis para definir una variable es la siguiente:
 
 ```jsx
-var <name> = <value>;
+var <name> = <value>
 ```
 
 Por ejemplo, el siguiente código define una variable llamada `x` y la establece en el valor 3:
 ```jsx
-var x = 3;
+var x = 3
 ```
 
 ## Razando variables
 El valor de una variable se puede cambiar reasignándola. Para reasignar una variable, simplemente utilice la palabra clave de var de nuevo, seguido por el nuevo valor. Por ejemplo, el siguiente código reasigna el valor de la variable x a 4:
 ```jsx
-var x = 3;
-x = 4;
+var x = 3
+x = 4
 ```
 
 ## Borrando variables
 Las variables pueden ser eliminadas usando la palabra clave de eliminación. La sintaxis para eliminar una variable es la siguiente:
 ```jsx
-borrar <name>;
+delete <name>
 ```
 
 Por ejemplo, el siguiente código elimina la variable `x`:
 
 ```jsx
-borrar x;
+delete x
 ```
 
 ## Errores comunes
@@ -47,7 +47,7 @@ borrar x;
 Existen algunos errores comunes que se pueden cometer al trabajar con variables. Un error común es olvidar declarar una variable. Si una variable no es declarada, no será accesible en el programa. Otro error común es asignar un valor a una variable que no es el tipo correcto. Por ejemplo, el siguiente código generará un error porque el valor "3" es una cadena, pero la variable x es un entero:
 
 ```jsx
-var x = "3";
+var x = "3"
 ```
 
 Por último, es importante recordar que las variables son ampliadas. Esto significa que sólo se puede acceder a una variable desde el ámbito en el que se declara. Si intenta acceder a una variable desde fuera de su ámbito obtendrá un error.
