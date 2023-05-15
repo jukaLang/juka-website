@@ -25,6 +25,7 @@ Zum Beispiel definiert der folgende Code eine Funktion namens foo, die keine Par
 func foo() = {
     printLine("Hallo, world!");
 }
+}
 ```
 
 ## Funktion aufrufen
@@ -58,6 +59,7 @@ Jedes Juka-Programm muss eine Hauptfunktion haben. Die Hauptfunktion ist der Ein
 ```jsx
 func main()={
 printLine("Hallo, world!");
+}
 }
 ```
 
