@@ -29,7 +29,7 @@ Les membres d'une classe peuvent être des propriétés ou des méthodes. Les pr
 Les propriétés sont définies en utilisant le mot clé var. La syntaxe pour définir une propriété est la suivante:
 
 ```jsx
-var <name>;
+    var <name>;
 ```
 
 Là où `name` est le nom de la propriété, et `type` est le type de la propriété.
