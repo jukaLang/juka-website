@@ -12,7 +12,7 @@ L'API Juka est un outil puissant pour les développeurs qui veulent utiliser le 
 
 L'API Juka est encore en cours de développement, mais elle est déjà disponible pour l'utilisation. Pour en savoir plus sur l'API Juka, visitez le site [Juka](https://jukalang.com/api/).
 
-### Coming Soon
+### Bientôt disponible
 
 Nous travaillons actuellement à ajouter de nouvelles fonctionnalités à l'API Juka, telles que:
 
