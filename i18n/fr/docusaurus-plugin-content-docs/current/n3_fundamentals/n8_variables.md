@@ -33,21 +33,19 @@ x = 4;
 ## Suppression des variables
 Les variables peuvent être supprimées en utilisant le mot clé de suppression. La syntaxe pour supprimer une variable est la suivante:
 ```jsx
-supprimer <name>;
+<name> = nul
 ```
 
 Par exemple, le code suivant supprime la variable `x`:
 
 ```jsx
-supprimer x;
+x = null
 ```
 
 ## Erreurs courantes
 
-Il y a quelques erreurs courantes qui peuvent être commises lorsque vous travaillez avec des variables. Une erreur courante est d'oublier de déclarer une variable. Si une variable n'est pas déclarée, elle ne sera pas accessible dans le programme. Une autre erreur courante est d'assigner une valeur à une variable qui n'est pas le bon type. Par exemple, le code suivant va générer une erreur parce que la valeur "3" est une chaîne, mais la variable x est un entier :
+Il y a quelques erreurs courantes qui peuvent être commises lorsque vous travaillez avec des variables. Une autre erreur courante est d'assigner une valeur à une variable qui n'est pas le bon type. Par exemple, le code suivant va générer une erreur parce que la valeur "3" est une chaîne, mais la variable x est un entier :
 
 ```jsx
 var x = "3";
 ```
-
-Enfin, il est important de se rappeler que les variables ont une portée. Cela signifie qu'une variable ne peut être accédée qu'à partir de la portée où elle est déclarée. Si vous essayez d'accéder à une variable en dehors de son champ d'application, vous obtiendrez une erreur.

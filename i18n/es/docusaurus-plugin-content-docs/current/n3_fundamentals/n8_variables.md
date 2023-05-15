@@ -33,21 +33,19 @@ x = 4;
 ## Borrando variables
 Las variables pueden ser eliminadas usando la palabra clave de eliminación. La sintaxis para eliminar una variable es la siguiente:
 ```jsx
-borrar <name>;
+<name> = nulo
 ```
 
 Por ejemplo, el siguiente código elimina la variable `x`:
 
 ```jsx
-borrar x;
+x = nulo
 ```
 
 ## Errores comunes
 
-Existen algunos errores comunes que se pueden cometer al trabajar con variables. Un error común es olvidar declarar una variable. Si una variable no es declarada, no será accesible en el programa. Otro error común es asignar un valor a una variable que no es el tipo correcto. Por ejemplo, el siguiente código generará un error porque el valor "3" es una cadena, pero la variable x es un entero:
+Existen algunos errores comunes que se pueden cometer al trabajar con variables. Otro error común es asignar un valor a una variable que no es el tipo correcto. Por ejemplo, el siguiente código generará un error porque el valor "3" es una cadena, pero la variable x es un entero:
 
 ```jsx
 var x = "3";
 ```
-
-Por último, es importante recordar que las variables son ampliadas. Esto significa que sólo se puede acceder a una variable desde el ámbito en el que se declara. Si intenta acceder a una variable desde fuera de su ámbito obtendrá un error.

@@ -33,21 +33,19 @@ x = 4;
 ## Lösche Variablen
 Variablen können mit dem Löschen des Schlüsselwortes gelöscht werden. Die Syntax zum Löschen einer Variable lautet wie folgt:
 ```jsx
-löschen <name>;
+<name> = Null
 ```
 
 Zum Beispiel löscht der folgende Code die Variable `x`:
 
 ```jsx
-löschen x;
+x = Null
 ```
 
 ## Häufige Fehler
 
-Es gibt einige häufige Fehler, die bei der Arbeit mit Variablen gemacht werden können. Ein häufiger Fehler ist das Vergessen eine Variable zu deklarieren. Wird eine Variable nicht deklariert, ist sie im Programm nicht verfügbar. Ein weiterer häufiger Fehler ist die Zuweisung eines Wertes an eine Variable, die nicht der richtige Typ ist. Zum Beispiel wird der folgende Code einen Fehler erzeugen, da der Wert "3" ein String ist, aber die Variable x ist eine Ganzzahl:
+Es gibt einige häufige Fehler, die bei der Arbeit mit Variablen gemacht werden können. Ein weiterer häufiger Fehler ist die Zuweisung eines Wertes an eine Variable, die nicht der richtige Typ ist. Zum Beispiel wird der folgende Code einen Fehler erzeugen, da der Wert "3" ein String ist, aber die Variable x ist eine Ganzzahl:
 
 ```jsx
 var x = "3";
 ```
-
-Schließlich ist es wichtig zu bedenken, dass Variablen umgangen werden. Dies bedeutet, dass auf eine Variable nur dann zugegriffen werden kann, wenn sie deklariert wird. Wenn Sie versuchen, auf eine Variable außerhalb ihres Anwendungsbereichs zuzugreifen, erhalten Sie einen Fehler.
