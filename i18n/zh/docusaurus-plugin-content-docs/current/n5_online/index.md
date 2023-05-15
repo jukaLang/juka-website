@@ -22,5 +22,5 @@ Juka API 是一个RESTful API，允许您在远程服务器上运行 Juka 代码
 ## 参考
 
 * [Juka IDE](https://ide.jukalang.com)
-* * [Juka LiteIDE](https://lite.jukalang.com)
+* [Juka LiteIDE](https://lite.jukalang.com)
 * [Juka API](https://api.jukalang.com)
