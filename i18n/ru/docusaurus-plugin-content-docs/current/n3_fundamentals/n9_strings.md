@@ -3,7 +3,7 @@ sidebar_position: 9
 slug: /строк
 ---
 
-# Strings
+# Строки
 
 ## Что такое строка?
 
