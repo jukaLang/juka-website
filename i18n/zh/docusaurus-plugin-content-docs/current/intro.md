@@ -48,7 +48,7 @@ Juka是一种易于使用的通用编程语言，可以在任何平台上运行�
 
 ## 即将到来：
 
-- Ethereum Network
+- 以太坊网络
 - Android App (Google Play 版本)
 - iOS 应用程序 (iPhone/iPad AppStore 版本)
 - Tizen (Samsung)
