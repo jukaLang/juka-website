@@ -33,13 +33,13 @@ x = 4;
 ## Borrando variables
 Las variables pueden ser eliminadas usando la palabra clave de eliminación. La sintaxis para eliminar una variable es la siguiente:
 ```jsx
-<name> = null
+<name> = nulo
 ```
 
 Por ejemplo, el siguiente código elimina la variable `x`:
 
 ```jsx
-x = null
+x = nulo
 ```
 
 ## Errores comunes
