@@ -11,7 +11,7 @@ Une classe est un plan pour créer des objets. Il définit les propriétés et m
 
 ## Comment définir une classe
 
-La syntaxe pour définir une classe est la suivante: To define a class, use the class keyword.
+La syntaxe pour définir une classe est la suivante: La syntaxe pour définir une classe est la suivante: To define a class, use the class keyword.
 
 ```jsx
 class <name> = {
