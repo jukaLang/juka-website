@@ -5,7 +5,7 @@ slug: /boucles
 
 # Boucles
 
-## While Loop
+## Boucle Tant que
 
 Une boucle while est une commande de flux qui permet l'exécution répétée du code sur la base d'une condition booléenne. La syntaxe d'une boucle while est la suivante:
 
