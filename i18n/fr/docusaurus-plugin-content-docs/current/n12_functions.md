@@ -20,7 +20,7 @@ func main() ={
 }
 ```
 
-Toutes les fonctions sont définies avec la fonction mot. Les fonctions peuvent contenir des valeurs alphanumériques (y compris \_) et les fonctions ne peuvent pas commencer par des valeurs numériques. Les fonctions sont simplement définies :
+Toutes les fonctions sont définies avec la fonction mot. Les fonctions sont simplement définies : Les fonctions peuvent contenir des valeurs alphanumériques (y compris \_) et les fonctions ne peuvent pas commencer par des valeurs numériques.
 
 ```jsx
 func foo() = {
