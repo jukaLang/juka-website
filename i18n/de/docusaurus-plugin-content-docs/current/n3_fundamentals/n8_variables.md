@@ -33,13 +33,13 @@ x = 4;
 ## Lösche Variablen
 Variablen können mit dem Löschen des Schlüsselwortes gelöscht werden. Die Syntax zum Löschen einer Variable lautet wie folgt:
 ```jsx
-<name> = null
+<name> = Null
 ```
 
 Zum Beispiel löscht der folgende Code die Variable `x`:
 
 ```jsx
-x = null
+x = Null
 ```
 
 ## Häufige Fehler
