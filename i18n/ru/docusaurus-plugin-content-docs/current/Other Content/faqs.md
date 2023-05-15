@@ -2,7 +2,7 @@
 sidebar_position: 998
 ---
 
-# FAQs
+# ЧАВО
 
 ## В: Работает ли Juka над Linux?
 
