@@ -28,6 +28,7 @@ func foo() = {
 }
 }
 }
+}
 ```
 
 ## Funktion aufrufen
@@ -61,6 +62,7 @@ Jedes Juka-Programm muss eine Hauptfunktion haben. Die Hauptfunktion ist der Ein
 ```jsx
 func main()={
 printLine("Hallo, world!");
+}
 }
 }
 }
