@@ -11,7 +11,7 @@ slug: /классы
 
 ## Как определить класс
 
-Для определения класса используется следующий синтаксис: To define a class, use the class keyword.
+Для определения класса используется следующий синтаксис: To define a class, use the class keyword. To define a class, use the class keyword.
 
 ```jsx
 class <name> = {
