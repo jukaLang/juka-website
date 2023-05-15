@@ -15,7 +15,7 @@ slug: /функции
 
 ```jsx
 func <name>(<parameters>) {
-<statements>
+    <statements>
 }
 ```
 
@@ -23,7 +23,7 @@ func <name>(<parameters>) {
 
 ```jsx
 func foo() = {
-    printLine("Hello, world!");
+    printLine("Hello, world!")
 }
 ```
 
@@ -39,7 +39,7 @@ foo()
 
 ```jsx
 func bar(x, y) = {
-    printLine("Сумма x and y is" + x + y);
+    printLine("The sum of x and y is" + x + y)
 }
 ```
 
@@ -47,7 +47,7 @@ func bar(x, y) = {
 
 ```jsx
 func baz(x, y) = {
-    return x + y;
+    return x + y
 }
 ```
 
@@ -57,7 +57,7 @@ func baz(x, y) = {
 
 ```jsx
 func main()={
-printLine("Hello, world!");
+    printLine("Hello, world!")
 }
 ```
 
