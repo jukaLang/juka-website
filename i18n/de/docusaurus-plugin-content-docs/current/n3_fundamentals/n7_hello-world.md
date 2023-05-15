@@ -11,8 +11,8 @@ Beginnen wir mit der Erstellung einer "Hallo World"-Anwendung.
 2. Kopiere und füge folgenden Code in diese Datei ein:
 
 ```jsx
-func main() = {
-  printLine("Hallo World");
+func main() =  {
+  printLine("Hello World")
 }
 ```
 
