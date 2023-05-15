@@ -1,0 +1,78 @@
+{
+  "link.title.Tutorials": {
+    "message": "Уроки",
+    "description": "The title of the footer links column with title=Tutorials in the footer"
+  },
+  "link.title.Community": {
+    "message": "Сообщество",
+    "description": "The title of the footer links column with title=Community in the footer"
+  },
+  "link.title.More": {
+    "message": "Ещё",
+    "description": "The title of the footer links column with title=More in the footer"
+  },
+  "link.item.label.Documentation": {
+    "message": "Документация",
+    "description": "The label of footer link with label=Documentation linking to /docs"
+  },
+  "link.item.label.Learn": {
+    "message": "Учить",
+    "description": "The label of footer link with label=Learn linking to /learn"
+  },
+  "link.item.label.Download Juka": {
+    "message": "Скачать Juka",
+    "description": "The label of footer link with label=Download Juka linking to /download"
+  },
+  "link.item.label.Try Online": {
+    "message": "Попробуйте онлайн",
+    "description": "The label of footer link with label=Try Online linking to https://ide.jukalang.com"
+  },
+  "link.item.label.Get Certificate": {
+    "message": "Получить сертификат",
+    "description": "The label of footer link with label=Get Certificate linking to /quiz"
+  },
+  "link.item.label.Discord": {
+    "message": "Discord",
+    "description": "The label of footer link with label=Discord linking to https://discord.gg/MsKWsErzfp"
+  },
+  "link.item.label.Twitter": {
+    "message": "Твиттер",
+    "description": "The label of footer link with label=Twitter linking to https://twitter.com/jukaLang"
+  },
+  "link.item.label.Facebook": {
+    "message": "Facebook",
+    "description": "The label of footer link with label=Facebook linking to https://www.facebook.com/jukalang/"
+  },
+  "link.item.label.YouTube": {
+    "message": "YouTube",
+    "description": "The label of footer link with label=YouTube linking to https://www.youtube.com/@jukalang"
+  },
+  "link.item.label.Instagram": {
+    "message": "Инстаграмма",
+    "description": "The label of footer link with label=Instagram linking to https://www.instagram.com/jukalanguage/"
+  },
+  "link.item.label.Donate": {
+    "message": "Пожертвовать",
+    "description": "The label of footer link with label=Donate linking to /donate"
+  },
+  "link.item.label.Privacy": {
+    "message": "Приватность",
+    "description": "The label of footer link with label=Privacy linking to /privacy"
+  },
+  "link.item.label.License": {
+    "message": "Лицензия",
+    "description": "The label of footer link with label=License linking to /license"
+  },
+  "link.item.label.Contact Us": {
+    "message": "Свяжитесь с нами",
+    "description": "The label of footer link with label=Contact Us linking to /contact"
+  },
+  "link.item.label.GitHub Source": {
+    "message": "GitHub Source",
+    "description": "The label of footer link with label=GitHub Source linking to https://github.com/jukaLang/juka"
+  },
+  "copyright": {
+    "message": "Copyright © 2023 Juka Programming Language <br/> (Last updated on 5/15/2023, 7:43:30 PM EST)",
+    "description": "The footer copyright"
+  }
+}
