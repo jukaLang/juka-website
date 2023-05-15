@@ -11,7 +11,7 @@ slug: /классы
 
 ## Как определить класс
 
-Чтобы определить класс, используйте ключевое слово класса ``. Для определения класса используется следующий синтаксис:
+To define a class, use the class keyword. Для определения класса используется следующий синтаксис:
 
 ```jsx
 class <name> = {
@@ -19,7 +19,7 @@ class <name> = {
 }
 ```
 
-Где `имя` это имя класса, и `участники` являются свойствами и методами класса.
+Where name is the name of the class, and members are the properties and methods of the class.
 
 ## Члены Комитета
 
@@ -32,17 +32,17 @@ class <name> = {
     вар <name>
 ```
 
-Где `имя` это имя свойства, а `тип` - тип свойства.
+Where name is the name of the property, and type is the type of the property.
 
 ## Методы
-Методы определены с использованием ключевого слова `func`. Для определения метода используется следующий синтаксис:
+Methods are defined using the func keyword. Для определения метода используется следующий синтаксис:
 
 ```jsx
 func <name>(<parameters>) = {
 <statements>
 }
 ```
-Где `имя` является именем метода, `параметры` являются параметрами метода, и `операторы` - это операторы в теле метода.
+Where name is the name of the method, parameters are the parameters of the method, and statements are the statements in the method body.
 
 ## Создание объектов
 
@@ -52,8 +52,7 @@ func <name>(<parameters>) = {
 ```jsx
 var <object_name> = new <class_name>();
 ```
-
-Где `object_name` это имя объекта, а `class_name` это имя класса.
+Where object_name`is the name of the object, and class_name is the name of the class.
 
 ## Доступ к свойствам и методам
 
@@ -62,30 +61,28 @@ var <object_name> = new <class_name>();
 ```jsx
 myObject.name;
 ```
-
-Чтобы вызвать метод `добавьте` объекта `myObject`, вы должны использовать следующий код:
+To call the method add`of the object myObject, you would use the following code:
 
 ```jsx
 myObject.add(2, 6);
 ```
 
 ## Пример
-Следующий код определяет класс с именем `MathClass` и создает объект этого класса:
+The following code defines a class named MathClass and creates an object of that class:
 
 ```jsx
-класс MathClass {
-var num1: int;
-var num2: int;
+class MathClass {
+    var num1: int
+    var num2: int
 
-func add() {
-return this.num1 + this. um2;
+    func add() = {
+        return this.num1 + this.num2
+    }
 }
-}
-
-var mathClass = new MathClass();
-mathClass.num1 = 2;
-mathClass.num2 = 6;
-print(mathClass.add());
+var mathClass = new MathClass()
+mathClass.num1 = 2
+mathClass.num2 = 6
+print(mathClass.add())
 ```
 
 Этот код будет печатать значение 8.
