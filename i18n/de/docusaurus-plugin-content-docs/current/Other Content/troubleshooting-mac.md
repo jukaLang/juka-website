@@ -26,8 +26,6 @@ Doppelklicken Sie auf die Juka App.
 
 6. Du solltest jetzt in der Lage sein, Juka zu betreiben.
 
-![stufen3](/img/macintosh/final.png)
-
 
 ## Alternativer Workaround
 
