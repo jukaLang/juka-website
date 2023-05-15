@@ -11,7 +11,7 @@ export default function CodeExamples() {
 
                 <CodeBlock className={`language-jsx ${styles.maincodeblock}`}  showLineNumbers>{`func main() = {
     // Print Hello World
-    var y = "Hello World";
+    var y = "Hello World"
     printLine(y);
 }
 `}</CodeBlock>
@@ -20,14 +20,14 @@ export default function CodeExamples() {
             <TabItem value="ie" label="If/Else">
 
                 <CodeBlock className={`language-jsx ${styles.maincodeblock}`}  showLineNumbers>{`func main() = {
-    var x = false;
+    var x = false
     if ( x == true)
     {
-        print("x");
+        print("x")
     }
     else
     {
-        print("y");
+        print("y")
     }
 }
 `}</CodeBlock>
@@ -36,9 +36,9 @@ export default function CodeExamples() {
             <TabItem value="arr" label="Arrays">
 
                 <CodeBlock className={`language-jsx ${styles.maincodeblock}`}  showLineNumbers>{`func main() = {
-    var x = array[3];
-    //x[1] = ""test"";
-    print(x[0]); 
+    var x = array[3]
+    //x[1] = ""test""
+    print(x[0])
 }
 `}</CodeBlock>
 
@@ -46,11 +46,11 @@ export default function CodeExamples() {
             <TabItem value="fd" label="Function Declaration">
 
                 <CodeBlock className={`language-jsx ${styles.maincodeblock}`}  showLineNumbers>{`func x() = {
-    printLine("function x is called");
+    printLine("function x is called")
 }
 func main() = {
-    x();
-    x();
+    x()
+    x()
 }
 `}</CodeBlock>
 
@@ -58,9 +58,9 @@ func main() = {
             <TabItem value="fl" label="For Loop">
 
                 <CodeBlock className={`language-jsx ${styles.maincodeblock}`}  showLineNumbers>{`func main() = {
-    for(var i = 0; i<3; i++;)
+    for(var i = 0; i<3; i++)
     {
-        print(i);
+        print(i)
     }
 }
 `}</CodeBlock>

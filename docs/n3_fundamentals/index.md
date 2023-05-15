@@ -15,6 +15,3 @@ The syntax of Juka is similar to that of other programming languages, such as Ja
 * **Statements** are used to control the flow of execution. They can be used to assign values to variables, call functions, and make decisions.
 * **Functions** are reusable blocks of code. They can be called from other functions or from the main program.
 
-## Variables
-
-Variables are used to store values. They are declared using the `var` keyword. For example, the following code declares a variable named `my_variable` and assigns it the value 10:

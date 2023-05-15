@@ -30,7 +30,7 @@ For example, the following code will print "Correct!" if the value of the variab
 ```jsx
 func main()={
 
-    var sum = 4+1;
+    var sum = 4+1
 
     if (sum == 5)
     {

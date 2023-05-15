@@ -12,7 +12,7 @@ Let's start by creating a "Hello World" application.
 
 ```jsx
 func main() =  {
-  printLine("Hello World");
+  printLine("Hello World")
 }
 ```
 

@@ -15,7 +15,7 @@ To define a class, use the `class` keyword. The syntax for defining a class is a
 
 ```jsx
 class <name> = {
-<members>
+    <members>
 }
 ```
 
@@ -29,7 +29,7 @@ The members of a class can be properties or methods. Properties are variables th
 Properties are defined using the var keyword. The syntax for defining a property is as follows:
 
 ```jsx
-var <name>;
+    var <name>
 ```
 
 Where `name` is the name of the property, and `type` is the type of the property.
@@ -39,7 +39,7 @@ Methods are defined using the `func` keyword. The syntax for defining a method i
 
 ```jsx
 func <name>(<parameters>) = {
-<statements>
+    <statements>
 }
 ```
 Where `name` is the name of the method, `parameters` are the parameters of the method, and `statements` are the statements in the method body.
@@ -60,13 +60,13 @@ Where `object_name` is the name of the object, and `class_name` is the name of t
 The properties and methods of an object can be accessed using the dot notation. For example, to access the property name of the object myObject, you would use the following code:
 
 ```jsx
-myObject.name;
+myObject.name
 ```
 
 To call the method `add` of the object `myObject`, you would use the following code:
 
 ```jsx
-myObject.add(2, 6);
+myObject.add(2, 6)
 ```
 
 ## Example
@@ -74,18 +74,18 @@ The following code defines a class named `MathClass` and creates an object of th
 
 ```jsx
 class MathClass {
-var num1: int;
-var num2: int;
-
-func add() {
-return this.num1 + this.num2;
+    var num1: int
+    var num2: int
+    
+    func add() {
+        return this.num1 + this.num2
+    }
 }
-}
 
-var mathClass = new MathClass();
-mathClass.num1 = 2;
-mathClass.num2 = 6;
-print(mathClass.add());
+var mathClass = new MathClass()
+mathClass.num1 = 2
+mathClass.num2 = 6
+print(mathClass.add())
 ```
 
 This code will print the value 8.

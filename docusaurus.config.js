@@ -128,6 +128,11 @@ const config = {
         indexName: 'jukalang',
         contextualSearch: true,
       },
+      "colorMode": {
+        "defaultMode": "light",
+        "disableSwitch": false,
+        "respectPrefersColorScheme": true
+      },
       image: 'img/juka.png',
       metadata: [{name: 'keywords', content: 'juka,programming,language,future, runeverywhere, buildonce'},{name: 'twitter:card', content: 'A new programming language! Build once, run everywhere. Visit our official page at https://jukaLang.com Got a question? Connect with us via Discord or Twitter'}],
       announcementBar: {

@@ -22,5 +22,5 @@ The Juka API is a RESTful API that allows you to run Juka code on a remote serve
 ## References
 
 * [Juka IDE](https://ide.jukalang.com)
-* * [Juka LiteIDE](https://lite.jukalang.com)
+* [Juka LiteIDE](https://lite.jukalang.com)
 * [Juka API](https://api.jukalang.com)
