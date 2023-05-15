@@ -13,7 +13,7 @@ sidebar_position: 50
 
 无法打开，因为它来自一个身份不明的开发者。
 
-## Workaround
+## 工作
 
 为了解决这个问题，遵循以下步骤：
 
@@ -27,7 +27,7 @@ sidebar_position: 50
 6. 您现在应该能够运行Juka。
 
 
-## Alternative Workaround
+## 替代工作
 
 您可以使用以下工作区：
 
