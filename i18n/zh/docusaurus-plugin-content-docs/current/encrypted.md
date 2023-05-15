@@ -25,7 +25,7 @@ HelloWorld.juk.crypt包含加密文件。 They HelloWorld.juk.encrypt contains t
 ./juka --decrypt HelloWorld.juk
 ```
 
-This will take "HelloWorld.juk.encrypt" and "HelloWorld.juk.key" and decrypt the file. NOTE: You can encrypt/decrypt any file (not just Juka scripts) 注意：您可以加密/解密任何文件(不仅是 juka 脚本) 注意：您可以加密/解密任何文件(不仅是 juka 脚本)
+This will take "HelloWorld.juk.encrypt" and "HelloWorld.juk.key" and decrypt the file. NOTE: You can encrypt/decrypt any file (not just Juka scripts) 注意：您可以加密/解密任何文件(不仅是 juka 脚本) 注意：您可以加密/解密任何文件(不仅是 juka 脚本) 注意：您可以加密/解密任何文件(不仅是 juka 脚本)
 
 要运行加密文件而无需解密，请运行以下内容：
 
