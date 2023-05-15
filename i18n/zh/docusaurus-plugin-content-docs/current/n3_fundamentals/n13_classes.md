@@ -15,7 +15,7 @@ slug: /class类
 
 ```jsx
 class <name> = {
-<members>
+    <members>
 }
 ```
 
@@ -29,7 +29,7 @@ class <name> = {
 属性使用var关键字来定义。 定义属性的语法如下：
 
 ```jsx
-var <name>;
+    var <name>
 ```
 
 `name` 是属性的名称， `输入` 是属性的类型。
@@ -39,7 +39,7 @@ var <name>;
 
 ```jsx
 func <name>(<parameters>) = {
-<statements>
+    <statements>
 }
 ```
 `name` 是方法的名称。 `参数` 是方法的参数， 和 `语句` 是方法正文中的语句。
@@ -60,31 +60,32 @@ var <object_name> = 新的 <class_name>();
 一个对象的属性和方法可以使用点符号访问。 例如，要访问对象myObject的属性名称，您将使用以下代码：
 
 ```jsx
-myObject.name;
+myObject.name
 ```
 
 要调用方法 `添加对象 <code>myObject`的</code> ，您将使用以下代码：
 
 ```jsx
-myObject.add(2, 6)；
+myObject.add(2, 6)
 ```
 
 ## 示例
 下面的代码定义了一个名为 `MathClass` 的类并创建了该类的对象：
 
 ```jsx
-第 MathClass 类。 var num1：int；
-var num2：int；
+class MathClass {
+    var num1: int
+    var num2: int
 
-func add() 请返回
-返回 this.num1 + um2;
-}
+    func add() {
+        return this.num1 + this.num2
+    }
 }
 
-var mathClass = new MathClass();
-mathClass.num1 = 2;
-mathClass.num2 = 6;
-print(mathClass.add();
+var mathClass = new MathClass()
+mathClass.num1 = 2
+mathClass.num2 = 6
+print(mathClass.add())
 ```
 
 此代码将打印值8。
