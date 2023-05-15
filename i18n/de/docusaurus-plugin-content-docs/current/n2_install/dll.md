@@ -58,3 +58,4 @@ public class Program {
 Die Ausgabe der Go-Methode ist ein String. Diese Zeichenkette enthält den kompilierten Juka-Code. Sie können diesen String verwenden, um den kompilierten Code auszuführen oder ihn in einer Datei zu speichern.
 
 Für weitere Informationen besuchen Sie https://www.nuget.org/packages/JukaCompiler
+ 
