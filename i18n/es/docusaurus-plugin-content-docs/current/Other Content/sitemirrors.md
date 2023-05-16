@@ -6,7 +6,6 @@ sidebar_position: 997
 
 If the official Juka web is broken or is slow, try using one of our other mirrors:
 
-* **Official:** https://jukalang.com/
 * **Mirror 1:** https://jukalang.onrender.com/
 * **Mirror 2:** https://juka.netlify.app
 
