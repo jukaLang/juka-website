@@ -22,7 +22,7 @@ Use the following services to test your changes for Juka website before creating
 
 # Juka Programming Language
 
-Juka Programming Language website is built on top of [Docusaurus 2](https://docusaurus.io/).
+Juka Programming Language website is built on top of [Docusaurus 3](https://docusaurus.io/).
 Feel free to contribute to our website!
 Please edit "docs/*.md" files.
 Any help is appreciated!
@@ -31,7 +31,7 @@ Any help is appreciated!
 
 #### Requirements
 ```jsx
-Node.js version 16.14+
+Node.js version 18+
 ```
 
 You might need to install dependencies by running npm install in the home directory

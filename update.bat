@@ -1,2 +1,2 @@
-npx npm-check-updates -u -x @mdx-js/react,react-dom,react,prism-react-renderer
+npx npm-check-updates -u
 npm install 

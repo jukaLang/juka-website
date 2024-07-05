@@ -31,7 +31,7 @@ Join our Discord Community: https://discord.gg/MsKWsErzfp
 - Linux (x86/x64) (CentOS, Debian, Fedora, Ubuntu, TinyCore, and almost any other type of Linux)
 - Linux ARM (ARM64 and ARM32) (Linux Distributions that run ARM e.g. Raspberry Pi Model 2+)
 - MacOS (macOS 10.12+)
-- FreeBSD/UNIX (FreeBSD 11+)
+- FreeBSD/UNIX (FreeBSD 11+ x64 (no demand for Arm64?))
 - Azure (Microsoft Azure Function)
 - HTTPS/API (JukaAPI server)
 - Docker (JukaAPI)
@@ -41,10 +41,10 @@ Join our Discord Community: https://discord.gg/MsKWsErzfp
 - [Jupyter via juka-kernel](https://github.com/jukaLang/juka-kernel)
 - [Virtual Box Image (JukaVM)](https://github.com/jukaLang/jukaVM)
 - [Windows App (Windows 10+)](https://github.com/jukaLang/JukaApp)
-- Android App (Can be sideloaded <https://jukalang.com/download>, but not in PlayStore yet)
+- Android App (Can be sideloaded [https://jukalang.com/download](https://jukalang.com/download), but not in PlayStore yet)
 - Discord Bot  (Working, but is not currently hosted)
 - Telegram Bot  (Working, but is not currently hosted)
-- Amazon Fire (HD) (Can be sideloaded <https://jukalang.com/download>, but not in Amazon AppStore yet)
+- Amazon Fire (HD) (Can be sideloaded [https://jukalang.com/download](https://jukalang.com/download), but not in Amazon AppStore yet)
 
 ## Coming Soon:
 
