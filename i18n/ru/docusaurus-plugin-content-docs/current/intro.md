@@ -31,7 +31,7 @@ Juka - портативный, легкий в использовании, ун�
 - Linux (x86/x64) (CentOS, Debian, Fedora, Ubuntu, TinyCore, и почти любой другой тип Linux)
 - Linux ARM (ARM64 и ARM32) (Linux дистрибутивы, запускающие ARM, например Raspberry Pi Model 2+)
 - MacOS (macOS 10.12+)
-- FreeBSD/UNIX (FreeBSD 11+)
+- FreeBSD/UNIX (FreeBSD 11+ x64 (no demand for Arm64?))
 - Azure (Microsoft Azure Function)
 - HTTPS/API (JukaAPI сервер)
 - Докер (JukaAPI)
@@ -41,10 +41,10 @@ Juka - портативный, легкий в использовании, ун�
 - [Jupyter via juka-kernel](https://github.com/jukaLang/juka-kernel)
 - [Виртуальное изображение Box (JukaVM)](https://github.com/jukaLang/jukaVM)
 - [Приложение Windows (Windows 10+)](https://github.com/jukaLang/JukaApp)
-- Android приложение (Can be sideloaded <https://jukalang.com/download>, но еще не в PlayStore)
+- Android App (Can be sideloaded [https://jukalang.com/download](https://jukalang.com/download), but not in PlayStore yet)
 - Discord бот (работает, но в данный момент не хостинг)
 - Telegram Bot (Работает, но в настоящее время не хостинг)
-- Amazon Fire (HD) (Can be sideloaded <https://jukalang.com/download>, но не в Amazon AppStore)
+- Amazon Fire (HD) (Can be sideloaded [https://jukalang.com/download](https://jukalang.com/download), but not in Amazon AppStore yet)
 
 ## Скоро:
 
