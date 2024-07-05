@@ -1,0 +1,585 @@
+{
+  "Portable and Small in Size": {
+    "message": "Портативный и маленький по размеру"
+  },
+  "Juka is a portable programming language that you can run anywhere. It doesn't need to be installed, so you can use it even if you don't have admin privileges or access to a hard drive. Just put Juka on your flash drive and you're good to go! Juka is a small, portable programming language that only takes up ~30MB of space. This means you can easily carry it around on a thumb drive or other portable storage device. In fact, you can even store multiple versions of Juka on the same drive, so you always have the latest version available.": {
+    "message": "Juka - это портативный язык программирования, который вы можете использовать где угодно. Он не требует установки, так что вы можете использовать его, даже если у вас нет прав администратора или доступа к жесткому диску. Просто положите Juka на ваш флэш-накопитель и вы хорошо себя посещаете! Juka - это небольшой, портативный язык программирования, который занимает всего ~30 МБ. Это означает, что вы можете легко переносить его на большой накопитель или другое портативное накопитель. На самом деле вы можете даже хранить несколько версий Juka на одном диске, так что у вас всегда есть последняя версия."
+  },
+  "You can use Juka on any computer, even if it doesn't have Juka installed.": {
+    "message": "Вы можете использовать Juka на любом компьютере, даже если он не установлен Juka."
+  },
+  "You can easily share Juka with others.": {
+    "message": "Вы можете легко поделиться Juka с другими."
+  },
+  "You can keep your Juka code organized and portable.": {
+    "message": "Вы можете сохранить ваш код Juka организованным и портативным."
+  },
+  "Works on \"All\" Operating Systems": {
+    "message": "Работает на \"Всех\" операционных системах"
+  },
+  "We are constantly working to support as many systems as possible, including lesser known ones like FreeBSD and TempleOS. We also support ARM processors and 32-bit systems like Linux (x86). So why not give Juka a try on your Raspberry Pi or in ChromeOS Flex?": {
+    "message": "Мы постоянно работаем над поддержкой как можно большего количества систем, в том числе менее известных как FreeBSD и TempleOS. Мы также поддерживаем процессоры ARM и 32-разрядные системы, такие как Linux (x86). Так почему же не дать Juka попробовать на ваш Raspberry Pi или в ChromeOS Flex?"
+  },
+  "You can use Juka on a variety of different systems.": {
+    "message": "Вы можете использовать Juka на различных системах."
+  },
+  "Juka is a powerful and portable programming language.": {
+    "message": "Juka - это мощный и портативный язык программирования."
+  },
+  "Juka is easy to learn and use.": {
+    "message": "Джука проста в обучении и использовании."
+  },
+  "Juka is a great way to learn about programming.": {
+    "message": "Джука - отличный способ узнать о программировании."
+  },
+  "You can even run Juka inside a Web Browser! Visit": {
+    "message": "Вы даже можете запустить Juka в веб-браузере! Посетите"
+  },
+  "and install the App. On Mobile, it's simply opening the website, and clicking \"add to your home screen!\"": {
+    "message": "и установить приложение. На мобильном устройстве он просто открывает веб-сайт и нажимает кнопку \"Добавить на домашний экран!\""
+  },
+  "Universal": {
+    "message": "Универсальный"
+  },
+  "Juka is a powerful and versatile programming language that can be used for a wide variety of projects.": {
+    "message": "Juka - мощный и универсальный язык программирования, который может быть использован для широкого спектра проектов."
+  },
+  "Juka is a great choice for building web applications and websites. It's fast, efficient, and easy to use.": {
+    "message": "Джука - отличный выбор для создания веб-приложений и веб-сайтов."
+  },
+  "Juka is perfect for creating APIs that can be used by other applications. It's easy to create well-designed and secure APIs with Juka.": {
+    "message": "Juka идеально подходит для создания API, которые могут быть использованы другими приложениями. Легко создать хорошо разработанные и безопасные API с помощью Juka."
+  },
+  "Juka is a powerful tool for data scientists. It's fast, efficient, and easy to use.": {
+    "message": "Juka - мощный инструмент для ученых в области данных. Он быстрый, эффективный и лёгкий в использовании."
+  },
+  "We are aiming for Juka to be used to create secure networks and applications. It's fast, efficient, and easy to use.": {
+    "message": "Мы стремимся к тому, чтобы Juka использовалась для создания безопасных сетей и приложений."
+  },
+  "We are aiming for Juka to become a leading language for quantum computing. It's fast, efficient, and easy to use.": {
+    "message": "Мы стремимся к тому, чтобы Джука стала ведущим языком для квантовых вычислений."
+  },
+  "Juka can run on any platform, including Linux x32, FreeBSD, Chromium, Discord, and Telegram.": {
+    "message": "Juka может работать на любой платформе, включая Linux x32, FreeBSD, Chromium, Discord и Telegram."
+  },
+  "This makes it a great choice for developers who need to create applications that can run on a variety of platforms.": {
+    "message": "Это делает его отличным выбором для разработчиков, которым необходимо создавать приложения, которые могут запускаться на различных платформах."
+  },
+  "Cloud Friendly": {
+    "message": "Дружелюбие облака"
+  },
+  "We created JukaAPI so that you can run it on any cloud server. This will allow one to use REST API to run code. Feel free to test it at": {
+    "message": "Мы создали JukaAPI для запуска его на любом облачном сервере. Это позволит использовать REST API для запуска кода. Не стесняйтесь проверить его на"
+  },
+  "You can also run Juka on Microsoft's Azure Server by using Juka's Azure serverless function. Compile the code quickly, or let the others run the code. Download latest Azure Function from": {
+    "message": "Вы также можете запустить Juka на Azure Server от Microsoft, используя безсерверную функцию Juka's Azure. Скомпилируйте код быстро, или позвольте другим запускать код. Скачать последнюю функцию Azure из"
+  },
+  "NOTE: you need an active Microsoft Azure account to host.": {
+    "message": "ПРИМЕЧАНИЕ: вам нужна активная учетная запись Microsoft Azure для хоста."
+  },
+  "You can use Juka to create applications that can be hosted anywhere.": {
+    "message": "Вы можете использовать Juka для создания приложений, которые могут быть размещены в любом месте."
+  },
+  "JukaAPI is designed to scale to meet the needs of your application.": {
+    "message": "JukaAPI разработан для масштабирования для удовлетворения потребностей вашего приложения."
+  },
+  "JukaAPI can be used on Microsoft Azure using Azure Functions.": {
+    "message": "JukaAPI можно использовать в Microsoft Azure с помощью функций Azure."
+  },
+  "Jupyter Support": {
+    "message": "Поддержка Юпитера"
+  },
+  "We know that many people love to use Jupyter Notebook and Lab. That's why we've added an easy way to run Juka code in Jupyter. Now you can do your data analysis in the software that you're used to, with the power of Juka. To get started, simply install the Juka kernel for Jupyter. Once the kernel is installed, you can create a new Jupyter notebook and select the \"Juka\" kernel. Now you can start writing Juka code in your Jupyter notebook. The Juka kernel will compile and execute your code, and you can see the results in the notebook. We hope you enjoy using Juka in Jupyter": {
+    "message": "Мы знаем, что многие люди любят использовать Jupyter Notebook и Lab, поэтому мы добавили простой способ запуска Juka кода в Jupyter. Теперь вы можете выполнять анализ данных в программном обеспечении, которое вы привыкли, с мощью Juka. Для начала просто установите ядро Juka для Jupyter. После установки ядра вы можете создать новый ноутбук Jupyter и выбрать ядро \"Juka\". Теперь вы можете начать писать Juka код в вашем ноутбуке. Ядро Juka компилирует и выполнит ваш код, и вы можете увидеть результаты в ноутбуке. Мы надеемся, что вам понравится использовать Juka в Юпитере"
+  },
+  "Easy to Use Package Manager": {
+    "message": "Простой в использовании менеджер пакетов"
+  },
+  "All of the packages are hosted on GitHub, making it easy to install and contribute to their development. We hope that by hosting all packages on GitHub, security issues can be fixed quickly by the community. The packages contain a simple config file, making it easy for anyone to develop Juka packages.": {
+    "message": "Все пакеты размещены на GitHub, что облегчает установку и способствует их разработке. Мы надеемся, что благодаря размещению всех пакетов на GitHub, сообщество сможет быстро исправить проблемы безопасности. Пакеты содержат простой конфигурационный файл, что облегчает разработку пакетов Juka."
+  },
+  "if you are interested in developing Juka packages, we encourage you to check out the GitHub repository.": {
+    "message": "если вы заинтересованы в разработке пакетов Juka, мы рекомендуем вам проверить репозиторий GitHub."
+  },
+  "Join the Juka community!": {
+    "message": "Присоединяйтесь к сообществу джука!"
+  },
+  "We are a growing community of Juka users who are passionate about learning and using this new language. We use Discord to stay connected and share resources, and we welcome anyone to join us.": {
+    "message": "Мы все больше и больше пользователей Juka, которые любят учиться и использовать этот новый язык. Мы используем Discord, чтобы оставаться на связи и делиться ресурсами, и мы приглашаем всех присоединиться к нам."
+  },
+  "To join the community, please click on the following link and create a Discord account. Once you have created an account, you can join the JukaLang group by clicking on the \"Join\" button.": {
+    "message": "Чтобы присоединиться к сообществу, пожалуйста, нажмите на следующую ссылку и создайте учётную запись Discord. После создания учетной записи вы можете присоединиться к группе JukaLang, нажав на кнопку \"Присоединиться\"."
+  },
+  "We look forward to seeing you in the community!": {
+    "message": "Мы с нетерпением ждем вас в сообществе!"
+  },
+  "Contribute to the Source": {
+    "message": "Внести свой вклад в источник"
+  },
+  "Juka is a community-driven project. We encourage everyone to contribute to the Juka GitHub repository.": {
+    "message": "Джука - проект, управляемый сообществом. Мы призываем всех вносить свой вклад в хранилище Juka GitHub."
+  },
+  "There are many ways to contribute to Juka, including:": {
+    "message": "Существует много способов внести свой вклад в Джуку, включая:"
+  },
+  "Reporting bugs": {
+    "message": "Сообщить об ошибках"
+  },
+  "Fixing bugs": {
+    "message": "Исправление ошибок"
+  },
+  "Adding new features": {
+    "message": "Добавление новых возможностей"
+  },
+  "Writing documentation": {
+    "message": "Запись документации"
+  },
+  "Translating documentation": {
+    "message": "Перевод документации"
+  },
+  "Spreading the word about Juka": {
+    "message": "Распространяет слова о Juka"
+  },
+  "Please consider contributing to the Juka GitHub repository at": {
+    "message": "Пожалуйста, подумайте о внесении вклада в Juka GitHub репозиторий на"
+  },
+  "Social Media": {
+    "message": "Социальные сети"
+  },
+  "Get Started with Juka": {
+    "message": "Начните с Juka"
+  },
+  "Follow us for news and updates!": {
+    "message": "Следите за новостями и обновлениями!"
+  },
+  "theme.ErrorPageContent.title": {
+    "message": "Эта страница прервана.",
+    "description": "The title of the fallback page when the page crashed"
+  },
+  "theme.blog.archive.title": {
+    "message": "Архивировать",
+    "description": "The page & hero title of the blog archive page"
+  },
+  "theme.blog.archive.description": {
+    "message": "Архивировать",
+    "description": "The page & hero description of the blog archive page"
+  },
+  "theme.BackToTopButton.buttonAriaLabel": {
+    "message": "Вернуться к началу",
+    "description": "The ARIA label for the back to top button"
+  },
+  "theme.blog.paginator.navAriaLabel": {
+    "message": "Навигация по списку блогов",
+    "description": "The ARIA label for the blog pagination"
+  },
+  "theme.blog.paginator.newerEntries": {
+    "message": "Новые записи",
+    "description": "The label used to navigate to the newer blog posts page (previous page)"
+  },
+  "theme.blog.paginator.olderEntries": {
+    "message": "Старые записи",
+    "description": "The label used to navigate to the older blog posts page (next page)"
+  },
+  "theme.blog.post.paginator.navAriaLabel": {
+    "message": "Навигация страницы блога",
+    "description": "The ARIA label for the blog posts pagination"
+  },
+  "theme.blog.post.paginator.newerPost": {
+    "message": "Новый пост",
+    "description": "The blog post button label to navigate to the newer/previous post"
+  },
+  "theme.blog.post.paginator.olderPost": {
+    "message": "Старый пост",
+    "description": "The blog post button label to navigate to the older/next post"
+  },
+  "theme.blog.post.plurals": {
+    "message": "Одно сообщение|{count} сообщений",
+    "description": "Pluralized label for \"{count} posts\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.blog.tagTitle": {
+    "message": "{nPosts} с тегом \"{tagName}\"",
+    "description": "The title of the page for a blog tag"
+  },
+  "theme.tags.tagsPageLink": {
+    "message": "Все теги",
+    "description": "The label of the link targeting the tag list page"
+  },
+  "theme.colorToggle.ariaLabel": {
+    "message": "Переключение между темным и светлым режимом (сейчас {mode})",
+    "description": "The ARIA label for the navbar color mode toggle"
+  },
+  "theme.colorToggle.ariaLabel.mode.dark": {
+    "message": "темный режим",
+    "description": "The name for the dark color mode"
+  },
+  "theme.colorToggle.ariaLabel.mode.light": {
+    "message": "легкий режим",
+    "description": "The name for the light color mode"
+  },
+  "theme.docs.breadcrumbs.navAriaLabel": {
+    "message": "Навигационные крошки",
+    "description": "The ARIA label for the breadcrumbs"
+  },
+  "theme.docs.DocCard.categoryDescription.plurals": {
+    "message": "1 item|{count} items",
+    "description": "The default description for a category card in the generated index about how many items this category includes"
+  },
+  "theme.docs.paginator.navAriaLabel": {
+    "message": "Навигация страниц документов",
+    "description": "The ARIA label for the docs pagination"
+  },
+  "theme.docs.paginator.previous": {
+    "message": "Предыдущий",
+    "description": "The label used to navigate to the previous doc"
+  },
+  "theme.docs.paginator.next": {
+    "message": "Следующий",
+    "description": "The label used to navigate to the next doc"
+  },
+  "theme.docs.tagDocListPageTitle.nDocsTagged": {
+    "message": "Один doc с тегом|{count} документов с тегом",
+    "description": "Pluralized label for \"{count} docs tagged\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.docs.tagDocListPageTitle": {
+    "message": "{nDocsTagged} с \"{tagName}\"",
+    "description": "The title of the page for a docs tag"
+  },
+  "theme.docs.versionBadge.label": {
+    "message": "Версия: {versionLabel}"
+  },
+  "theme.docs.versions.unreleasedVersionLabel": {
+    "message": "Это невыпущенная документация для версии {siteTitle} {versionLabel}.",
+    "description": "The label used to tell the user that he's browsing an unreleased doc version"
+  },
+  "theme.docs.versions.unmaintainedVersionLabel": {
+    "message": "Это документация для {siteTitle} {versionLabel}, которая больше не поддерживается.",
+    "description": "The label used to tell the user that he's browsing an unmaintained doc version"
+  },
+  "theme.docs.versions.latestVersionSuggestionLabel": {
+    "message": "Для получения актуальной документации обратитесь к {latestVersionLink} ({versionLabel}).",
+    "description": "The label used to tell the user to check the latest version"
+  },
+  "theme.docs.versions.latestVersionLinkLabel": {
+    "message": "последняя версия",
+    "description": "The label used for the latest version suggestion link label"
+  },
+  "theme.common.editThisPage": {
+    "message": "Редактировать эту страницу",
+    "description": "The link label to edit the current page"
+  },
+  "theme.common.headingLinkTitle": {
+    "message": "Прямая ссылка на {heading}",
+    "description": "Title for link to heading"
+  },
+  "theme.lastUpdated.atDate": {
+    "message": " на {date}",
+    "description": "The words used to describe on which date a page has been last updated"
+  },
+  "theme.lastUpdated.byUser": {
+    "message": " от {user}",
+    "description": "The words used to describe by who the page has been last updated"
+  },
+  "theme.lastUpdated.lastUpdatedAtBy": {
+    "message": "Последнее обновление{atDate}{byUser}",
+    "description": "The sentence used to display when a page has been last updated, and by who"
+  },
+  "theme.navbar.mobileVersionsDropdown.label": {
+    "message": "Версии",
+    "description": "The label for the navbar versions dropdown on mobile view"
+  },
+  "theme.NotFound.title": {
+    "message": "Страница не найдена",
+    "description": "The title of the 404 page"
+  },
+  "theme.tags.tagsListLabel": {
+    "message": "Теги:",
+    "description": "The label alongside a tag list"
+  },
+  "theme.admonition.caution": {
+    "message": "осторожность",
+    "description": "The default label used for the Caution admonition (:::caution)"
+  },
+  "theme.admonition.danger": {
+    "message": "опасность",
+    "description": "The default label used for the Danger admonition (:::danger)"
+  },
+  "theme.admonition.info": {
+    "message": "инфо",
+    "description": "The default label used for the Info admonition (:::info)"
+  },
+  "theme.admonition.note": {
+    "message": "заметка",
+    "description": "The default label used for the Note admonition (:::note)"
+  },
+  "theme.admonition.tip": {
+    "message": "tip",
+    "description": "The default label used for the Tip admonition (:::tip)"
+  },
+  "theme.admonition.warning": {
+    "message": "warning",
+    "description": "The default label used for the Warning admonition (:::warning)"
+  },
+  "theme.AnnouncementBar.closeButtonAriaLabel": {
+    "message": "Закрыть",
+    "description": "The ARIA label for close button of announcement bar"
+  },
+  "theme.blog.sidebar.navAriaLabel": {
+    "message": "Блог последних сообщений навигации",
+    "description": "The ARIA label for recent posts in the blog sidebar"
+  },
+  "theme.CodeBlock.copied": {
+    "message": "Скопировано",
+    "description": "The copied button label on code blocks"
+  },
+  "theme.CodeBlock.copyButtonAriaLabel": {
+    "message": "Копировать код в буфер обмена",
+    "description": "The ARIA label for copy code blocks button"
+  },
+  "theme.CodeBlock.copy": {
+    "message": "Копировать",
+    "description": "The copy button label on code blocks"
+  },
+  "theme.CodeBlock.wordWrapToggle": {
+    "message": "Переключить перенос слов",
+    "description": "The title attribute for toggle word wrapping button of code block lines"
+  },
+  "theme.DocSidebarItem.expandCategoryAriaLabel": {
+    "message": "Expand sidebar category '{label}'",
+    "description": "The ARIA label to expand the sidebar category"
+  },
+  "theme.DocSidebarItem.collapseCategoryAriaLabel": {
+    "message": "Collapse sidebar category '{label}'",
+    "description": "The ARIA label to collapse the sidebar category"
+  },
+  "theme.NavBar.navAriaLabel": {
+    "message": "Главный",
+    "description": "The ARIA label for the main navigation"
+  },
+  "theme.navbar.mobileLanguageDropdown.label": {
+    "message": "Языки",
+    "description": "The label for the mobile language switcher dropdown"
+  },
+  "theme.NotFound.p1": {
+    "message": "Мы не смогли найти то, что вы искали.",
+    "description": "The first paragraph of the 404 page"
+  },
+  "theme.NotFound.p2": {
+    "message": "Пожалуйста, свяжитесь с владельцем сайта, который связал вас с оригинальным URL и сообщите, что их ссылка повреждена.",
+    "description": "The 2nd paragraph of the 404 page"
+  },
+  "theme.TOCCollapsible.toggleButtonLabel": {
+    "message": "На этой странице",
+    "description": "The label used by the button on the collapsible TOC component"
+  },
+  "theme.blog.post.readMore": {
+    "message": "Читать далее",
+    "description": "The label used in blog post item excerpts to link to full blog posts"
+  },
+  "theme.blog.post.readMoreLabel": {
+    "message": "Подробнее о {title}",
+    "description": "The ARIA label for the link to full blog posts from excerpts"
+  },
+  "theme.blog.post.readingTime.plurals": {
+    "message": "Один мин чтения|{readingTime} мин прочитано",
+    "description": "Pluralized label for \"{readingTime} min read\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.docs.breadcrumbs.home": {
+    "message": "Главная страница",
+    "description": "The ARIA label for the home page in the breadcrumbs"
+  },
+  "theme.docs.sidebar.collapseButtonTitle": {
+    "message": "Свернуть боковую панель",
+    "description": "The title attribute for collapse button of doc sidebar"
+  },
+  "theme.docs.sidebar.collapseButtonAriaLabel": {
+    "message": "Свернуть боковую панель",
+    "description": "The title attribute for collapse button of doc sidebar"
+  },
+  "theme.docs.sidebar.navAriaLabel": {
+    "message": "Docs sidebar",
+    "description": "The ARIA label for the sidebar navigation"
+  },
+  "theme.docs.sidebar.closeSidebarButtonAriaLabel": {
+    "message": "Закрыть панель навигации",
+    "description": "The ARIA label for close button of mobile sidebar"
+  },
+  "theme.navbar.mobileSidebarSecondaryMenu.backButtonLabel": {
+    "message": "<unk> Назад в главное меню",
+    "description": "The label of the back button to return to main menu, inside the mobile navbar sidebar secondary menu (notably used to display the docs sidebar)"
+  },
+  "theme.docs.sidebar.toggleSidebarButtonAriaLabel": {
+    "message": "Переключить панель навигации",
+    "description": "The ARIA label for hamburger menu button of mobile navigation"
+  },
+  "theme.docs.sidebar.expandButtonTitle": {
+    "message": "Expand sidebar",
+    "description": "The ARIA label and title attribute for expand button of doc sidebar"
+  },
+  "theme.docs.sidebar.expandButtonAriaLabel": {
+    "message": "Expand sidebar",
+    "description": "The ARIA label and title attribute for expand button of doc sidebar"
+  },
+  "theme.SearchBar.seeAll": {
+    "message": "Посмотреть все {count} результаты"
+  },
+  "theme.SearchBar.label": {
+    "message": "Искать",
+    "description": "The ARIA label and placeholder for search button"
+  },
+  "theme.SearchModal.searchBox.resetButtonTitle": {
+    "message": "Очистить запрос",
+    "description": "The label and ARIA label for search box reset button"
+  },
+  "theme.SearchModal.searchBox.cancelButtonText": {
+    "message": "Отмена",
+    "description": "The label and ARIA label for search box cancel button"
+  },
+  "theme.SearchModal.startScreen.recentSearchesTitle": {
+    "message": "Недавние",
+    "description": "The title for recent searches"
+  },
+  "theme.SearchModal.startScreen.noRecentSearchesText": {
+    "message": "Нет недавних поисков",
+    "description": "The text when no recent searches"
+  },
+  "theme.SearchModal.startScreen.saveRecentSearchButtonTitle": {
+    "message": "Сохранить этот поиск",
+    "description": "The label for save recent search button"
+  },
+  "theme.SearchModal.startScreen.removeRecentSearchButtonTitle": {
+    "message": "Удалить этот поиск из истории",
+    "description": "The label for remove recent search button"
+  },
+  "theme.SearchModal.startScreen.favoriteSearchesTitle": {
+    "message": "Избранное",
+    "description": "The title for favorite searches"
+  },
+  "theme.SearchModal.startScreen.removeFavoriteSearchButtonTitle": {
+    "message": "Удалить этот поиск из избранного",
+    "description": "The label for remove favorite search button"
+  },
+  "theme.SearchModal.errorScreen.titleText": {
+    "message": "Не удалось получить результаты",
+    "description": "The title for error screen of search modal"
+  },
+  "theme.SearchModal.errorScreen.helpText": {
+    "message": "Проверьте сетевое подключение.",
+    "description": "The help text for error screen of search modal"
+  },
+  "theme.SearchModal.footer.selectText": {
+    "message": "выбрать",
+    "description": "The explanatory text of the action for the enter key"
+  },
+  "theme.SearchModal.footer.selectKeyAriaLabel": {
+    "message": "Введите ключ",
+    "description": "The ARIA label for the Enter key button that makes the selection"
+  },
+  "theme.SearchModal.footer.navigateText": {
+    "message": "для навигации",
+    "description": "The explanatory text of the action for the Arrow up and Arrow down key"
+  },
+  "theme.SearchModal.footer.navigateUpKeyAriaLabel": {
+    "message": "Стрелка вверх",
+    "description": "The ARIA label for the Arrow up key button that makes the navigation"
+  },
+  "theme.SearchModal.footer.navigateDownKeyAriaLabel": {
+    "message": "Стрелка вниз",
+    "description": "The ARIA label for the Arrow down key button that makes the navigation"
+  },
+  "theme.SearchModal.footer.closeText": {
+    "message": "закрыть",
+    "description": "The explanatory text of the action for Escape key"
+  },
+  "theme.SearchModal.footer.closeKeyAriaLabel": {
+    "message": "Кнопка Escape",
+    "description": "The ARIA label for the Escape key button that close the modal"
+  },
+  "theme.SearchModal.footer.searchByText": {
+    "message": "Поиск по",
+    "description": "The text explain that the search is making by Algolia"
+  },
+  "theme.SearchModal.noResultsScreen.noResultsText": {
+    "message": "Нет результатов для",
+    "description": "The text explains that there are no results for the following search"
+  },
+  "theme.SearchModal.noResultsScreen.suggestedQueryText": {
+    "message": "Попробуйте поискать",
+    "description": "The text for the suggested query when no results are found for the following search"
+  },
+  "theme.SearchModal.noResultsScreen.reportMissingResultsText": {
+    "message": "Поверьте, этот запрос должен возвращать результаты?",
+    "description": "The text for the question where the user thinks there are missing results"
+  },
+  "theme.SearchModal.noResultsScreen.reportMissingResultsLinkText": {
+    "message": "Дайте нам знать.",
+    "description": "The text for the link to report missing results"
+  },
+  "theme.SearchModal.placeholder": {
+    "message": "Поиск документации",
+    "description": "The placeholder of the input of the DocSearch pop-up modal"
+  },
+  "theme.SearchPage.documentsFound.plurals": {
+    "message": "Найдено один документ | Найдено{count} документов",
+    "description": "Pluralized label for \"{count} documents found\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.SearchPage.existingResultsTitle": {
+    "message": "Результаты поиска для \"{query}\"",
+    "description": "The search page title for non-empty query"
+  },
+  "theme.SearchPage.emptyResultsTitle": {
+    "message": "Поиск документации",
+    "description": "The search page title for empty query"
+  },
+  "theme.SearchPage.inputPlaceholder": {
+    "message": "Введите ваш поиск здесь",
+    "description": "The placeholder for search page input"
+  },
+  "theme.SearchPage.inputLabel": {
+    "message": "Искать",
+    "description": "The ARIA label for search page input"
+  },
+  "theme.SearchPage.algoliaLabel": {
+    "message": "Поиск по Algolia",
+    "description": "The ARIA label for Algolia mention"
+  },
+  "theme.SearchPage.noResultsText": {
+    "message": "Ничего не найдено",
+    "description": "The paragraph for empty search result"
+  },
+  "theme.SearchPage.fetchingNewResults": {
+    "message": "Получение новых результатов...",
+    "description": "The paragraph for fetching new search results"
+  },
+  "theme.PwaReloadPopup.info": {
+    "message": "Доступна новая версия",
+    "description": "The text for PWA reload popup"
+  },
+  "theme.PwaReloadPopup.refreshButtonText": {
+    "message": "Обновить",
+    "description": "The text for PWA reload button"
+  },
+  "theme.PwaReloadPopup.closeButtonAriaLabel": {
+    "message": "Закрыть",
+    "description": "The ARIA label for close button of PWA reload popup"
+  },
+  "theme.ErrorPageContent.tryAgain": {
+    "message": "Попробовать еще раз",
+    "description": "The label of the button to try again rendering when the React error boundary captures an error"
+  },
+  "theme.common.skipToMainContent": {
+    "message": "Перейти к основному контенту",
+    "description": "The skip to content label used for accessibility, allowing to rapidly navigate to main content with keyboard tab/enter navigation"
+  },
+  "theme.tags.tagsPageTitle": {
+    "message": "Теги",
+    "description": "The title of the tag list page"
+  },
+  "theme.unlistedContent.title": {
+    "message": "Unlisted page",
+    "description": "The unlisted content banner title"
+  },
+  "theme.unlistedContent.message": {
+    "message": "This page is unlisted. Search engines will not index it, and only users having a direct link can access it.",
+    "description": "The unlisted content banner message"
+  }
+}
