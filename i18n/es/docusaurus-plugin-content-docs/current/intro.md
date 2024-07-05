@@ -31,7 +31,7 @@ Si está buscando un potente y versátil lenguaje de programación, entonces Juk
 - Linux (x86/x64) (CentOS, Debian, Fedora, Ubuntu, TinyCore, y casi cualquier otro tipo de Linux)
 - Linux ARM (ARM64 y ARM32) (Linux Distributions that run ARM e.g. Raspberry Pi Modelo 2+)
 - MacOS (macOS 10.12+)
-- FreeBSD/UNIX (FreeBSD 11+)
+- FreeBSD/UNIX (FreeBSD 11+ x64 (no demand for Arm64?))
 - Azure (Microsoft Azure Function)
 - HTTPS/API (Servidor JukaAPI)
 - Docker (JukaAPI)
@@ -41,10 +41,10 @@ Si está buscando un potente y versátil lenguaje de programación, entonces Juk
 - [Jupyter via juka-kernel](https://github.com/jukaLang/juka-kernel)
 - [Imagen de caja virtual (JukaVM)](https://github.com/jukaLang/jukaVM)
 - [App de Windows (Windows 10+)](https://github.com/jukaLang/JukaApp)
-- App de Android (se puede cargar al lado <https://jukalang.com/download>, pero no en PlayStore todavía)
+- Android App (Can be sideloaded [https://jukalang.com/download](https://jukalang.com/download), but not in PlayStore yet)
 - Discord Bot (Trabajando, pero actualmente no está alojado)
 - Telegram Bot (Trabajando, pero no está actualmente alojado)
-- Amazon Fire (HD) (Se puede cargar al lado <https://jukalang.com/download>, pero no en Amazon AppStore todavía)
+- Amazon Fire (HD) (Can be sideloaded [https://jukalang.com/download](https://jukalang.com/download), but not in Amazon AppStore yet)
 
 ## Próximamente:
 
