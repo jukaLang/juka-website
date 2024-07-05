@@ -31,7 +31,7 @@ Juka是一种易于使用的通用编程语言，可以在任何平台上运行�
 - Linux (x86/x64)(CentOS, Debian, Fedora, Ubuntu, TinyCore, 和几乎任何其他类型的 Linux)
 - Linux ARM (ARM64 和 ARM32) (Linux Distributions which 运行 ARM ，例如 Raspberry Pi Model 2+)
 - MacOS (macOS 10.12+)
-- FreeBSD/UNIX (FreeBSD 11+)
+- FreeBSD/UNIX (FreeBSD 11+ x64 (no demand for Arm64?))
 - Azure (Microsoft Azure Function)
 - HTTPS/API (JukaAPI 服务器)
 - Docker (JukaAPI)
@@ -41,10 +41,10 @@ Juka是一种易于使用的通用编程语言，可以在任何平台上运行�
 - [Jupyter via juka-kernel](https://github.com/jukaLang/juka-kernel)
 - [虚拟框图像 (JukaVM)](https://github.com/jukaLang/jukaVM)
 - [Windows App (Windows 10+)](https://github.com/jukaLang/JukaApp)
-- Android App (Can be sidloaded <https://jukalang.com/download>, 但尚未在 PlayStore 中
+- Android App (Can be sideloaded [https://jukalang.com/download](https://jukalang.com/download), but not in PlayStore yet)
 - Discord Bot(正常工作，但目前没有主机)
 - Telegram Bot (正常工作，但目前没有主机)
-- Amazon Fire (HD) (Can be sideoaded <https://jukalang.com/download>, 但尚未在 Amazon AppStore 中
+- Amazon Fire (HD) (Can be sideloaded [https://jukalang.com/download](https://jukalang.com/download), but not in Amazon AppStore yet)
 
 ## 即将到来：
 
