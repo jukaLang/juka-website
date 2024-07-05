@@ -41,7 +41,7 @@ Juka - портативный, легкий в использовании, ун�
 - [Jupyter via juka-kernel](https://github.com/jukaLang/juka-kernel)
 - [Виртуальное изображение Box (JukaVM)](https://github.com/jukaLang/jukaVM)
 - [Приложение Windows (Windows 10+)](https://github.com/jukaLang/JukaApp)
-- Android App (Can be sideloaded [https://jukalang.com/download](https://jukalang.com/download), but not in PlayStore yet)
+- Android приложение (Can be sideloaded [https://jukalang.com/download](https://jukalang.com/download), но еще не в PlayStore)
 - Discord бот (работает, но в данный момент не хостинг)
 - Telegram Bot (Работает, но в настоящее время не хостинг)
 - Amazon Fire (HD) (Can be sideloaded [https://jukalang.com/download](https://jukalang.com/download), but not in Amazon AppStore yet)
