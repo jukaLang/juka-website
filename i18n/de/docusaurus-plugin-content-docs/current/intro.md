@@ -41,7 +41,7 @@ Trete unserer Discord Community bei: https://discord.gg/MsKWsErzfp
 - [Jupyter via juka-kernel](https://github.com/jukaLang/juka-kernel)
 - [Virtuelles Box Bild (JukaVM)](https://github.com/jukaLang/jukaVM)
 - [Windows-App (Windows 10+)](https://github.com/jukaLang/JukaApp)
-- Android App (Can be sideloaded [https://jukalang.com/download](https://jukalang.com/download), but not in PlayStore yet)
+- Android-App (Can an der Seite [https://jukalang.com/download](https://jukalang.com/download), aber noch nicht im PlayStore)
 - Discord Bot (Arbeiten, aber momentan nicht gehostet)
 - Telegram Bot (funktionierend, wird aber momentan nicht gehostet)
 - Amazon Fire (HD) (Can be sideloaded [https://jukalang.com/download](https://jukalang.com/download), but not in Amazon AppStore yet)

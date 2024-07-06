@@ -41,7 +41,7 @@ Juka是一种易于使用的通用编程语言，可以在任何平台上运行�
 - [Jupyter via juka-kernel](https://github.com/jukaLang/juka-kernel)
 - [虚拟框图像 (JukaVM)](https://github.com/jukaLang/jukaVM)
 - [Windows App (Windows 10+)](https://github.com/jukaLang/JukaApp)
-- Android App (Can be sideloaded [https://jukalang.com/download](https://jukalang.com/download), but not in PlayStore yet)
+- Android App (Can be sidloaded [https://jukalang.com/download](https://jukalang.com/download), 但尚未在 PlayStore 中
 - Discord Bot(正常工作，但目前没有主机)
 - Telegram Bot (正常工作，但目前没有主机)
 - Amazon Fire (HD) (Can be sideloaded [https://jukalang.com/download](https://jukalang.com/download), but not in Amazon AppStore yet)
