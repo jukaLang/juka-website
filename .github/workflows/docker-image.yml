@@ -20,7 +20,7 @@ jobs:
     - name: Set up Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v3
       with:
-        node-version: '16.x'
+        node-version: '20.x'
 
     - name: Get Yarn cache dir
       id: yarn-cache
@@ -38,9 +38,9 @@ jobs:
 
     - name: Install Prince
       run: |
-        curl https://www.princexml.com/download/prince-14.2-linux-generic-x86_64.tar.gz -O
-        tar zxf prince-14.2-linux-generic-x86_64.tar.gz
-        cd prince-14.2-linux-generic-x86_64
+        curl https://www.princexml.com/download/prince-15.3-linux-generic-x86_64.tar.gz -O
+        tar zxf prince-15.3-linux-generic-x86_64.tar.gz
+        cd prince-15.3-linux-generic-x86_64
         yes "" | sudo ./install.sh
 
     - name: Build PDF
