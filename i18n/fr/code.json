@@ -1,4 +1,10 @@
 {
+  "Get Started with Juka": {
+    "message": "Commencer avec Juka"
+  },
+  "Follow us for news and updates!": {
+    "message": "Suivez-nous pour les nouvelles et les mises à jour !"
+  },
   "Portable and Small in Size": {
     "message": "Portable et Petite Taille"
   },
@@ -146,12 +152,6 @@
   "Social Media": {
     "message": "Réseaux sociaux"
   },
-  "Get Started with Juka": {
-    "message": "Commencer avec Juka"
-  },
-  "Follow us for news and updates!": {
-    "message": "Suivez-nous pour les nouvelles et les mises à jour !"
-  },
   "theme.ErrorPageContent.title": {
     "message": "Cette page a planté.",
     "description": "The title of the fallback page when the page crashed"
@@ -173,11 +173,11 @@
     "description": "The ARIA label for the blog pagination"
   },
   "theme.blog.paginator.newerEntries": {
-    "message": "Nouvelles entrées",
+    "message": "Newer entries",
     "description": "The label used to navigate to the newer blog posts page (previous page)"
   },
   "theme.blog.paginator.olderEntries": {
-    "message": "Anciennes entrées",
+    "message": "Older entries",
     "description": "The label used to navigate to the older blog posts page (next page)"
   },
   "theme.blog.post.paginator.navAriaLabel": {
@@ -185,23 +185,15 @@
     "description": "The ARIA label for the blog posts pagination"
   },
   "theme.blog.post.paginator.newerPost": {
-    "message": "Nouvelle publication",
+    "message": "Newer post",
     "description": "The blog post button label to navigate to the newer/previous post"
   },
   "theme.blog.post.paginator.olderPost": {
-    "message": "Ancien message",
+    "message": "Older post",
     "description": "The blog post button label to navigate to the older/next post"
   },
-  "theme.blog.post.plurals": {
-    "message": "Un message |{count} messages",
-    "description": "Pluralized label for \"{count} posts\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
-  },
-  "theme.blog.tagTitle": {
-    "message": "{nPosts} taggé avec \"{tagName}\"",
-    "description": "The title of the page for a blog tag"
-  },
   "theme.tags.tagsPageLink": {
-    "message": "Voir tous les tags",
+    "message": "View all tags",
     "description": "The label of the link targeting the tag list page"
   },
   "theme.colorToggle.ariaLabel": {
@@ -295,6 +287,10 @@
     "message": "Tags :",
     "description": "The label alongside a tag list"
   },
+  "theme.AnnouncementBar.closeButtonAriaLabel": {
+    "message": "Fermer",
+    "description": "The ARIA label for close button of announcement bar"
+  },
   "theme.admonition.caution": {
     "message": "précaution",
     "description": "The default label used for the Caution admonition (:::caution)"
@@ -318,10 +314,6 @@
   "theme.admonition.warning": {
     "message": "warning",
     "description": "The default label used for the Warning admonition (:::warning)"
-  },
-  "theme.AnnouncementBar.closeButtonAriaLabel": {
-    "message": "Fermer",
-    "description": "The ARIA label for close button of announcement bar"
   },
   "theme.blog.sidebar.navAriaLabel": {
     "message": "Navigation des articles récents dans le blog",
@@ -372,7 +364,7 @@
     "description": "The label used by the button on the collapsible TOC component"
   },
   "theme.blog.post.readMore": {
-    "message": "En savoir plus",
+    "message": "Read more",
     "description": "The label used in blog post item excerpts to link to full blog posts"
   },
   "theme.blog.post.readMoreLabel": {
@@ -550,17 +542,41 @@
     "message": "Récupération des nouveaux résultats...",
     "description": "The paragraph for fetching new search results"
   },
-  "theme.PwaReloadPopup.info": {
-    "message": "Nouvelle version disponible",
-    "description": "The text for PWA reload popup"
+  "theme.blog.post.plurals": {
+    "message": "Un message |{count} messages",
+    "description": "Pluralized label for \"{count} posts\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
-  "theme.PwaReloadPopup.refreshButtonText": {
-    "message": "Rafraîchir",
-    "description": "The text for PWA reload button"
+  "theme.blog.tagTitle": {
+    "message": "{nPosts} taggé avec \"{tagName}\"",
+    "description": "The title of the page for a blog tag"
   },
-  "theme.PwaReloadPopup.closeButtonAriaLabel": {
-    "message": "Fermer",
-    "description": "The ARIA label for close button of PWA reload popup"
+  "theme.blog.author.pageTitle": {
+    "message": "{authorName} - {nPosts}",
+    "description": "The title of the page for a blog author"
+  },
+  "theme.blog.authorsList.pageTitle": {
+    "message": "Authors",
+    "description": "The title of the authors page"
+  },
+  "theme.blog.authorsList.viewAll": {
+    "message": "View all authors",
+    "description": "The label of the link targeting the blog authors page"
+  },
+  "theme.contentVisibility.unlistedBanner.title": {
+    "message": "Unlisted page",
+    "description": "The unlisted content banner title"
+  },
+  "theme.contentVisibility.unlistedBanner.message": {
+    "message": "This page is unlisted. Search engines will not index it, and only users having a direct link can access it.",
+    "description": "The unlisted content banner message"
+  },
+  "theme.contentVisibility.draftBanner.title": {
+    "message": "Draft page",
+    "description": "The draft content banner title"
+  },
+  "theme.contentVisibility.draftBanner.message": {
+    "message": "This page is a draft. It will only be visible in dev and be excluded from the production build.",
+    "description": "The draft content banner message"
   },
   "theme.ErrorPageContent.tryAgain": {
     "message": "Réessayez",
@@ -573,13 +589,5 @@
   "theme.tags.tagsPageTitle": {
     "message": "Tags",
     "description": "The title of the tag list page"
-  },
-  "theme.unlistedContent.title": {
-    "message": "Unlisted page",
-    "description": "The unlisted content banner title"
-  },
-  "theme.unlistedContent.message": {
-    "message": "This page is unlisted. Search engines will not index it, and only users having a direct link can access it.",
-    "description": "The unlisted content banner message"
   }
 }
