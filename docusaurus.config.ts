@@ -261,6 +261,10 @@ const config = {
                 label: 'GitHub Source',
                 href: 'https://github.com/jukaLang/juka',
               },
+              {
+                label: 'Operating System Juka',
+                href: 'https://os.jukalang.com/',
+              },
             ],
           },
         ],
