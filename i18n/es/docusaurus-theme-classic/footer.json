@@ -71,8 +71,12 @@
     "message": "GitHub Source",
     "description": "The label of footer link with label=GitHub Source linking to https://github.com/jukaLang/juka"
   },
+  "link.item.label.Operating System Juka": {
+    "message": "Operating System Juka",
+    "description": "The label of footer link with label=Operating System Juka linking to https://os.jukalang.com/"
+  },
   "copyright": {
-    "message": "Copyright © 2024 Juka Programming Language <br/> (Last updated on 8/13/2024, 1:02:59 PM EST)",
+    "message": "Copyright © 2025 Juka Programming Language <br/> (Last updated on 3/8/2025, 2:57:10 AM EST)",
     "description": "The footer copyright"
   }
 }
