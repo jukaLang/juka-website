@@ -1,10 +1,4 @@
 {
-  "Get Started with Juka": {
-    "message": "Comienza con Juka"
-  },
-  "Follow us for news and updates!": {
-    "message": "¡Síguenos para noticias y actualizaciones!"
-  },
   "Portable and Small in Size": {
     "message": "Portable y pequeño en tamaño"
   },
@@ -152,9 +146,19 @@
   "Social Media": {
     "message": "Redes Sociales"
   },
+  "Get Started with Juka": {
+    "message": "Comienza con Juka"
+  },
+  "Follow us for news and updates!": {
+    "message": "¡Síguenos para noticias y actualizaciones!"
+  },
   "theme.ErrorPageContent.title": {
     "message": "Esta página ha fallado.",
     "description": "The title of the fallback page when the page crashed"
+  },
+  "theme.BackToTopButton.buttonAriaLabel": {
+    "message": "Desplazar hacia arriba",
+    "description": "The ARIA label for the back to top button"
   },
   "theme.blog.archive.title": {
     "message": "Archivar",
@@ -163,10 +167,6 @@
   "theme.blog.archive.description": {
     "message": "Archivar",
     "description": "The page & hero description of the blog archive page"
-  },
-  "theme.BackToTopButton.buttonAriaLabel": {
-    "message": "Desplazar hacia arriba",
-    "description": "The ARIA label for the back to top button"
   },
   "theme.blog.paginator.navAriaLabel": {
     "message": "Navegación de la lista de blogs",
@@ -287,10 +287,6 @@
     "message": "Etiquetas:",
     "description": "The label alongside a tag list"
   },
-  "theme.AnnouncementBar.closeButtonAriaLabel": {
-    "message": "Cerrar",
-    "description": "The ARIA label for close button of announcement bar"
-  },
   "theme.admonition.caution": {
     "message": "precaución",
     "description": "The default label used for the Caution admonition (:::caution)"
@@ -314,6 +310,10 @@
   "theme.admonition.warning": {
     "message": "warning",
     "description": "The default label used for the Warning admonition (:::warning)"
+  },
+  "theme.AnnouncementBar.closeButtonAriaLabel": {
+    "message": "Cerrar",
+    "description": "The ARIA label for close button of announcement bar"
   },
   "theme.blog.sidebar.navAriaLabel": {
     "message": "Navegación de mensajes recientes del blog",
@@ -414,6 +414,38 @@
   "theme.SearchBar.seeAll": {
     "message": "Ver los {count} resultados"
   },
+  "theme.SearchPage.documentsFound.plurals": {
+    "message": "Un documento encontrado|{count} documentos encontrados",
+    "description": "Pluralized label for \"{count} documents found\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.SearchPage.existingResultsTitle": {
+    "message": "Resultados de búsqueda para \"{query}\"",
+    "description": "The search page title for non-empty query"
+  },
+  "theme.SearchPage.emptyResultsTitle": {
+    "message": "Buscar en la documentación",
+    "description": "The search page title for empty query"
+  },
+  "theme.SearchPage.inputPlaceholder": {
+    "message": "Escribe tu búsqueda aquí",
+    "description": "The placeholder for search page input"
+  },
+  "theme.SearchPage.inputLabel": {
+    "message": "Buscar",
+    "description": "The ARIA label for search page input"
+  },
+  "theme.SearchPage.algoliaLabel": {
+    "message": "Búsqueda por Algolia",
+    "description": "The ARIA label for Algolia mention"
+  },
+  "theme.SearchPage.noResultsText": {
+    "message": "No se encontraron resultados",
+    "description": "The paragraph for empty search result"
+  },
+  "theme.SearchPage.fetchingNewResults": {
+    "message": "Obteniendo nuevos resultados...",
+    "description": "The paragraph for fetching new search results"
+  },
   "theme.SearchBar.label": {
     "message": "Buscar",
     "description": "The ARIA label and placeholder for search button"
@@ -510,38 +542,6 @@
     "message": "Buscar documentos",
     "description": "The placeholder of the input of the DocSearch pop-up modal"
   },
-  "theme.SearchPage.documentsFound.plurals": {
-    "message": "Un documento encontrado|{count} documentos encontrados",
-    "description": "Pluralized label for \"{count} documents found\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
-  },
-  "theme.SearchPage.existingResultsTitle": {
-    "message": "Resultados de búsqueda para \"{query}\"",
-    "description": "The search page title for non-empty query"
-  },
-  "theme.SearchPage.emptyResultsTitle": {
-    "message": "Buscar en la documentación",
-    "description": "The search page title for empty query"
-  },
-  "theme.SearchPage.inputPlaceholder": {
-    "message": "Escribe tu búsqueda aquí",
-    "description": "The placeholder for search page input"
-  },
-  "theme.SearchPage.inputLabel": {
-    "message": "Buscar",
-    "description": "The ARIA label for search page input"
-  },
-  "theme.SearchPage.algoliaLabel": {
-    "message": "Búsqueda por Algolia",
-    "description": "The ARIA label for Algolia mention"
-  },
-  "theme.SearchPage.noResultsText": {
-    "message": "No se encontraron resultados",
-    "description": "The paragraph for empty search result"
-  },
-  "theme.SearchPage.fetchingNewResults": {
-    "message": "Obteniendo nuevos resultados...",
-    "description": "The paragraph for fetching new search results"
-  },
   "theme.blog.post.plurals": {
     "message": "Una publicación|{count} publicaciones",
     "description": "Pluralized label for \"{count} posts\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
@@ -561,6 +561,10 @@
   "theme.blog.authorsList.viewAll": {
     "message": "View all authors",
     "description": "The label of the link targeting the blog authors page"
+  },
+  "theme.blog.author.noPosts": {
+    "message": "This author has not written any posts yet.",
+    "description": "The text for authors with 0 blog post"
   },
   "theme.contentVisibility.unlistedBanner.title": {
     "message": "Unlisted page",
