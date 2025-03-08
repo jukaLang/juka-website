@@ -1,10 +1,4 @@
 {
-  "Get Started with Juka": {
-    "message": "开始使用 Juka"
-  },
-  "Follow us for news and updates!": {
-    "message": "关注我们以获取新闻和更新！"
-  },
   "Portable and Small in Size": {
     "message": "便携式和小型大小"
   },
@@ -152,9 +146,19 @@
   "Social Media": {
     "message": "社交媒体"
   },
+  "Get Started with Juka": {
+    "message": "开始使用 Juka"
+  },
+  "Follow us for news and updates!": {
+    "message": "关注我们以获取新闻和更新！"
+  },
   "theme.ErrorPageContent.title": {
     "message": "此页面已崩溃。",
     "description": "The title of the fallback page when the page crashed"
+  },
+  "theme.BackToTopButton.buttonAriaLabel": {
+    "message": "回滚到顶部",
+    "description": "The ARIA label for the back to top button"
   },
   "theme.blog.archive.title": {
     "message": "存档",
@@ -163,10 +167,6 @@
   "theme.blog.archive.description": {
     "message": "存档",
     "description": "The page & hero description of the blog archive page"
-  },
-  "theme.BackToTopButton.buttonAriaLabel": {
-    "message": "回滚到顶部",
-    "description": "The ARIA label for the back to top button"
   },
   "theme.blog.paginator.navAriaLabel": {
     "message": "博客列表页面导航",
@@ -287,10 +287,6 @@
     "message": "标签：",
     "description": "The label alongside a tag list"
   },
-  "theme.AnnouncementBar.closeButtonAriaLabel": {
-    "message": "关闭",
-    "description": "The ARIA label for close button of announcement bar"
-  },
   "theme.admonition.caution": {
     "message": "警告",
     "description": "The default label used for the Caution admonition (:::caution)"
@@ -314,6 +310,10 @@
   "theme.admonition.warning": {
     "message": "warning",
     "description": "The default label used for the Warning admonition (:::warning)"
+  },
+  "theme.AnnouncementBar.closeButtonAriaLabel": {
+    "message": "关闭",
+    "description": "The ARIA label for close button of announcement bar"
   },
   "theme.blog.sidebar.navAriaLabel": {
     "message": "博客最近帖子导航",
@@ -414,6 +414,38 @@
   "theme.SearchBar.seeAll": {
     "message": "查看所有 {count} 结果"
   },
+  "theme.SearchPage.documentsFound.plurals": {
+    "message": "找到一个文档 |{count} 文档",
+    "description": "Pluralized label for \"{count} documents found\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.SearchPage.existingResultsTitle": {
+    "message": "搜索结果 \"{query}\"",
+    "description": "The search page title for non-empty query"
+  },
+  "theme.SearchPage.emptyResultsTitle": {
+    "message": "搜索文档",
+    "description": "The search page title for empty query"
+  },
+  "theme.SearchPage.inputPlaceholder": {
+    "message": "在此输入您的搜索",
+    "description": "The placeholder for search page input"
+  },
+  "theme.SearchPage.inputLabel": {
+    "message": "搜索",
+    "description": "The ARIA label for search page input"
+  },
+  "theme.SearchPage.algoliaLabel": {
+    "message": "按Algolia搜索",
+    "description": "The ARIA label for Algolia mention"
+  },
+  "theme.SearchPage.noResultsText": {
+    "message": "没有找到结果",
+    "description": "The paragraph for empty search result"
+  },
+  "theme.SearchPage.fetchingNewResults": {
+    "message": "正在获取新结果...",
+    "description": "The paragraph for fetching new search results"
+  },
   "theme.SearchBar.label": {
     "message": "搜索",
     "description": "The ARIA label and placeholder for search button"
@@ -510,38 +542,6 @@
     "message": "搜索文档",
     "description": "The placeholder of the input of the DocSearch pop-up modal"
   },
-  "theme.SearchPage.documentsFound.plurals": {
-    "message": "找到一个文档 |{count} 文档",
-    "description": "Pluralized label for \"{count} documents found\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
-  },
-  "theme.SearchPage.existingResultsTitle": {
-    "message": "搜索结果 \"{query}\"",
-    "description": "The search page title for non-empty query"
-  },
-  "theme.SearchPage.emptyResultsTitle": {
-    "message": "搜索文档",
-    "description": "The search page title for empty query"
-  },
-  "theme.SearchPage.inputPlaceholder": {
-    "message": "在此输入您的搜索",
-    "description": "The placeholder for search page input"
-  },
-  "theme.SearchPage.inputLabel": {
-    "message": "搜索",
-    "description": "The ARIA label for search page input"
-  },
-  "theme.SearchPage.algoliaLabel": {
-    "message": "按Algolia搜索",
-    "description": "The ARIA label for Algolia mention"
-  },
-  "theme.SearchPage.noResultsText": {
-    "message": "没有找到结果",
-    "description": "The paragraph for empty search result"
-  },
-  "theme.SearchPage.fetchingNewResults": {
-    "message": "正在获取新结果...",
-    "description": "The paragraph for fetching new search results"
-  },
   "theme.blog.post.plurals": {
     "message": "一个帖子 |{count}",
     "description": "Pluralized label for \"{count} posts\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
@@ -561,6 +561,10 @@
   "theme.blog.authorsList.viewAll": {
     "message": "View all authors",
     "description": "The label of the link targeting the blog authors page"
+  },
+  "theme.blog.author.noPosts": {
+    "message": "This author has not written any posts yet.",
+    "description": "The text for authors with 0 blog post"
   },
   "theme.contentVisibility.unlistedBanner.title": {
     "message": "Unlisted page",
