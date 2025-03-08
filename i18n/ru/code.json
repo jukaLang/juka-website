@@ -1,10 +1,4 @@
 {
-  "Get Started with Juka": {
-    "message": "Начните с Juka"
-  },
-  "Follow us for news and updates!": {
-    "message": "Следите за новостями и обновлениями!"
-  },
   "Portable and Small in Size": {
     "message": "Портативный и маленький по размеру"
   },
@@ -152,9 +146,19 @@
   "Social Media": {
     "message": "Социальные сети"
   },
+  "Get Started with Juka": {
+    "message": "Начните с Juka"
+  },
+  "Follow us for news and updates!": {
+    "message": "Следите за новостями и обновлениями!"
+  },
   "theme.ErrorPageContent.title": {
     "message": "Эта страница прервана.",
     "description": "The title of the fallback page when the page crashed"
+  },
+  "theme.BackToTopButton.buttonAriaLabel": {
+    "message": "Вернуться к началу",
+    "description": "The ARIA label for the back to top button"
   },
   "theme.blog.archive.title": {
     "message": "Архивировать",
@@ -163,10 +167,6 @@
   "theme.blog.archive.description": {
     "message": "Архивировать",
     "description": "The page & hero description of the blog archive page"
-  },
-  "theme.BackToTopButton.buttonAriaLabel": {
-    "message": "Вернуться к началу",
-    "description": "The ARIA label for the back to top button"
   },
   "theme.blog.paginator.navAriaLabel": {
     "message": "Навигация по списку блогов",
@@ -287,10 +287,6 @@
     "message": "Теги:",
     "description": "The label alongside a tag list"
   },
-  "theme.AnnouncementBar.closeButtonAriaLabel": {
-    "message": "Закрыть",
-    "description": "The ARIA label for close button of announcement bar"
-  },
   "theme.admonition.caution": {
     "message": "осторожность",
     "description": "The default label used for the Caution admonition (:::caution)"
@@ -314,6 +310,10 @@
   "theme.admonition.warning": {
     "message": "warning",
     "description": "The default label used for the Warning admonition (:::warning)"
+  },
+  "theme.AnnouncementBar.closeButtonAriaLabel": {
+    "message": "Закрыть",
+    "description": "The ARIA label for close button of announcement bar"
   },
   "theme.blog.sidebar.navAriaLabel": {
     "message": "Блог последних сообщений навигации",
@@ -414,6 +414,38 @@
   "theme.SearchBar.seeAll": {
     "message": "Посмотреть все {count} результаты"
   },
+  "theme.SearchPage.documentsFound.plurals": {
+    "message": "Найдено один документ | Найдено{count} документов",
+    "description": "Pluralized label for \"{count} documents found\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.SearchPage.existingResultsTitle": {
+    "message": "Результаты поиска для \"{query}\"",
+    "description": "The search page title for non-empty query"
+  },
+  "theme.SearchPage.emptyResultsTitle": {
+    "message": "Поиск документации",
+    "description": "The search page title for empty query"
+  },
+  "theme.SearchPage.inputPlaceholder": {
+    "message": "Введите ваш поиск здесь",
+    "description": "The placeholder for search page input"
+  },
+  "theme.SearchPage.inputLabel": {
+    "message": "Искать",
+    "description": "The ARIA label for search page input"
+  },
+  "theme.SearchPage.algoliaLabel": {
+    "message": "Поиск по Algolia",
+    "description": "The ARIA label for Algolia mention"
+  },
+  "theme.SearchPage.noResultsText": {
+    "message": "Ничего не найдено",
+    "description": "The paragraph for empty search result"
+  },
+  "theme.SearchPage.fetchingNewResults": {
+    "message": "Получение новых результатов...",
+    "description": "The paragraph for fetching new search results"
+  },
   "theme.SearchBar.label": {
     "message": "Искать",
     "description": "The ARIA label and placeholder for search button"
@@ -510,38 +542,6 @@
     "message": "Поиск документации",
     "description": "The placeholder of the input of the DocSearch pop-up modal"
   },
-  "theme.SearchPage.documentsFound.plurals": {
-    "message": "Найдено один документ | Найдено{count} документов",
-    "description": "Pluralized label for \"{count} documents found\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
-  },
-  "theme.SearchPage.existingResultsTitle": {
-    "message": "Результаты поиска для \"{query}\"",
-    "description": "The search page title for non-empty query"
-  },
-  "theme.SearchPage.emptyResultsTitle": {
-    "message": "Поиск документации",
-    "description": "The search page title for empty query"
-  },
-  "theme.SearchPage.inputPlaceholder": {
-    "message": "Введите ваш поиск здесь",
-    "description": "The placeholder for search page input"
-  },
-  "theme.SearchPage.inputLabel": {
-    "message": "Искать",
-    "description": "The ARIA label for search page input"
-  },
-  "theme.SearchPage.algoliaLabel": {
-    "message": "Поиск по Algolia",
-    "description": "The ARIA label for Algolia mention"
-  },
-  "theme.SearchPage.noResultsText": {
-    "message": "Ничего не найдено",
-    "description": "The paragraph for empty search result"
-  },
-  "theme.SearchPage.fetchingNewResults": {
-    "message": "Получение новых результатов...",
-    "description": "The paragraph for fetching new search results"
-  },
   "theme.blog.post.plurals": {
     "message": "Одно сообщение|{count} сообщений",
     "description": "Pluralized label for \"{count} posts\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
@@ -561,6 +561,10 @@
   "theme.blog.authorsList.viewAll": {
     "message": "View all authors",
     "description": "The label of the link targeting the blog authors page"
+  },
+  "theme.blog.author.noPosts": {
+    "message": "This author has not written any posts yet.",
+    "description": "The text for authors with 0 blog post"
   },
   "theme.contentVisibility.unlistedBanner.title": {
     "message": "Unlisted page",
