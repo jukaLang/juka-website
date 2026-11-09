@@ -1,0 +1,297 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Everything JukaHub does: features for TrimUI handhelds</title>
+  <meta name="description" content="YouTube, podcasts, IPTV and music; a Games Library with box art, LAN play and PS4/PS5 Remote Play; save snapshots, recovery, FTP/SFTP, a phone companion, 25 themes, accessibility, signed packages and a Toolbox.">
+  <link rel="canonical" href="https://jukalang.com/features/">
+  <meta name="theme-color" content="#070b14">
+  <meta name="color-scheme" content="dark">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="JukaHub">
+  <meta property="og:url" content="https://jukalang.com/features/">
+  <meta property="og:title" content="Everything JukaHub does">
+  <meta property="og:description" content="Watch, play, keep, connect, make it yours and extend: one controller-first app for TrimUI handhelds.">
+  <meta property="og:image" content="https://jukalang.com/assets/img/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="../favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="../favicon.png" sizes="48x48" type="image/png">
+  <link rel="apple-touch-icon" href="../apple-touch-icon.png">
+  <link rel="manifest" href="../site.webmanifest">
+  <link rel="preload" href="../assets/fonts/Inter.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="../assets/css/site.css">
+  <script src="../assets/js/site.js" defer></script>
+</head>
+<body>
+<svg class="sprite" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+<symbol id="i-media" viewBox="0 0 24 24"><rect x="2.5" y="4" width="19" height="16" rx="3.5"/><path d="M10 8.75v6.5L15.5 12Z" fill="currentColor"/></symbol>
+<symbol id="i-play" viewBox="0 0 24 24"><path d="M8 4.5v15L20 12Z" fill="currentColor"/></symbol>
+<symbol id="i-gamepad" viewBox="0 0 24 24"><path d="M6.5 6h11c2.5 0 3.9 1.9 4.3 4.3l.7 4.8c.3 2-.9 3.4-2.5 3.4-1.1 0-1.9-.6-2.4-1.6l-.8-1.6c-.3-.5-.8-.8-1.4-.8H8.6c-.6 0-1.1.3-1.4.8l-.8 1.6c-.5 1-1.3 1.6-2.4 1.6-1.6 0-2.8-1.4-2.5-3.4l.7-4.8C2.6 7.9 4 6 6.5 6Z"/><path d="M6.5 9v4M4.5 11h4"/><circle cx="15.75" cy="10" r="1.15" fill="currentColor" stroke="none"/><circle cx="17.75" cy="12.25" r="1.15" fill="currentColor" stroke="none"/></symbol>
+<symbol id="i-chat" viewBox="0 0 24 24"><path d="M7.5 18 3.5 21V7a3 3 0 0 1 3-3h11a3 3 0 0 1 3 3v8a3 3 0 0 1-3 3Z"/></symbol>
+<symbol id="i-star" viewBox="0 0 24 24"><path d="M12 3.14l2.88 5.83 6.44.94-4.66 4.54 1.1 6.41L12 17.84l-5.76 3.02 1.1-6.41-4.66-4.54 6.44-.94Z" fill="currentColor"/></symbol>
+<symbol id="i-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9.5"/><path d="M12 2.5c-5.33 5.33-5.33 13.67 0 19M12 2.5c5.33 5.33 5.33 13.67 0 19M2.5 12h19"/></symbol>
+<symbol id="i-package" viewBox="0 0 24 24"><path d="M12 2.8l8.5 4.6v9.2L12 21.2l-8.5-4.6V7.4ZM3.8 7.6 12 12l8.2-4.4M12 12v9M7.75 5.1l8.5 4.6"/></symbol>
+<symbol id="i-settings" viewBox="0 0 24 24"><path d="M9.56 5.12 10.01 2.2A10 10 0 0 1 13.99 2.2L14.44 5.12A7.3 7.3 0 0 1 16.74 6.45L19.49 5.37A10 10 0 0 1 21.48 8.83L19.18 10.67A7.3 7.3 0 0 1 19.18 13.33L21.48 15.17A10 10 0 0 1 19.49 18.63L16.74 17.55A7.3 7.3 0 0 1 14.44 18.88L13.99 21.8A10 10 0 0 1 10.01 21.8L9.56 18.88A7.3 7.3 0 0 1 7.26 17.55L4.51 18.63A10 10 0 0 1 2.52 15.17L4.82 13.33A7.3 7.3 0 0 1 4.82 10.67L2.52 8.83A10 10 0 0 1 4.51 5.37L7.26 6.45A7.3 7.3 0 0 1 9.56 5.12Z"/><circle cx="12" cy="12" r="3"/></symbol>
+<symbol id="i-apps" viewBox="0 0 24 24"><path d="M5.25 4h3.25a1.25 1.25 0 0 1 1.25 1.25V8.5A1.25 1.25 0 0 1 8.5 9.75H5.25A1.25 1.25 0 0 1 4 8.5V5.25A1.25 1.25 0 0 1 5.25 4Z" fill="currentColor"/><path d="M15.5 4h3.25A1.25 1.25 0 0 1 20 5.25V8.5a1.25 1.25 0 0 1-1.25 1.25H15.5a1.25 1.25 0 0 1-1.25-1.25V5.25A1.25 1.25 0 0 1 15.5 4Z" fill="currentColor"/><path d="M5.25 14.25h3.25a1.25 1.25 0 0 1 1.25 1.25v3.25A1.25 1.25 0 0 1 8.5 20H5.25A1.25 1.25 0 0 1 4 18.75V15.5a1.25 1.25 0 0 1 1.25-1.25Z" fill="currentColor"/><path d="M15.5 14.25h3.25A1.25 1.25 0 0 1 20 15.5v3.25A1.25 1.25 0 0 1 18.75 20H15.5a1.25 1.25 0 0 1-1.25-1.25V15.5a1.25 1.25 0 0 1 1.25-1.25Z" fill="currentColor"/></symbol>
+<symbol id="i-folder" viewBox="0 0 24 24"><path d="M3 6.5a2 2 0 0 1 2-2h4.2a1.5 1.5 0 0 1 1.2.6L12 7h7a2 2 0 0 1 2 2v8.5a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2Z"/></symbol>
+<symbol id="i-power" viewBox="0 0 24 24"><path d="M12 3v8M6.54 6.24a8.5 8.5 0 1 0 10.92 0"/></symbol>
+<symbol id="i-wifi" viewBox="0 0 24 24"><path d="M8.71 15.43a4.5 4.5 0 0 1 6.58 0M5.42 12.36a9 9 0 0 1 13.16 0M2.13 9.29a13.5 13.5 0 0 1 19.74 0"/><circle cx="12" cy="18.75" r="1.4" fill="currentColor" stroke="none"/></symbol>
+<symbol id="i-palette" viewBox="0 0 24 24"><path d="M12 3a9 9 0 0 0 0 18c1.1 0 1.8-.8 1.8-1.8 0-.5-.2-.9-.5-1.3-.3-.3-.5-.8-.5-1.2 0-1 .8-1.7 1.8-1.7h1.9a4.5 4.5 0 0 0 4.5-4.5C21 6.5 17 3 12 3Z"/><circle cx="7.5" cy="11.5" r="1.3" fill="currentColor" stroke="none"/><circle cx="9.5" cy="7.5" r="1.3" fill="currentColor" stroke="none"/><circle cx="14" cy="6.75" r="1.3" fill="currentColor" stroke="none"/><circle cx="17" cy="10" r="1.3" fill="currentColor" stroke="none"/></symbol>
+<symbol id="i-download" viewBox="0 0 24 24"><path d="M12 4v11M7.5 10.5 12 15l4.5-4.5M4 15.5V18a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2.5"/></symbol>
+<symbol id="i-external" viewBox="0 0 24 24"><path d="M13.5 3.5h7v7M20.5 3.5 11 13M17.5 13.5V18a2.5 2.5 0 0 1-2.5 2.5H6A2.5 2.5 0 0 1 3.5 18V9A2.5 2.5 0 0 1 6 6.5h4.5"/></symbol>
+<symbol id="i-chevron-right" viewBox="0 0 24 24"><path d="M9 5.5l6.5 6.5L9 18.5"/></symbol>
+<symbol id="i-chevron-down" viewBox="0 0 24 24"><path d="M5.5 9l6.5 6.5L18.5 9"/></symbol>
+<symbol id="i-check-circle" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M8 12.4l2.8 2.8 5.4-5.6"/></symbol>
+<symbol id="i-keyboard" viewBox="0 0 24 24"><rect x="2" y="5.5" width="20" height="13" rx="2.5"/><circle cx="6.75" cy="9.5" r="1.05" fill="currentColor" stroke="none"/><circle cx="10.25" cy="9.5" r="1.05" fill="currentColor" stroke="none"/><circle cx="13.75" cy="9.5" r="1.05" fill="currentColor" stroke="none"/><circle cx="17.25" cy="9.5" r="1.05" fill="currentColor" stroke="none"/><path d="M7.5 14.5h9"/></symbol>
+<symbol id="i-monitor" viewBox="0 0 24 24"><rect x="2.5" y="3.5" width="19" height="13" rx="2.5"/><path d="M12 16.5v4M8 20.5h8"/></symbol>
+<symbol id="i-network" viewBox="0 0 24 24"><rect x="9" y="2.5" width="6" height="5" rx="1.25"/><rect x="3" y="16.5" width="6" height="5" rx="1.25"/><rect x="15" y="16.5" width="6" height="5" rx="1.25"/><path d="M12 7.5V12M6 16.5V14a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v2.5"/></symbol>
+<symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 6.5V12l3.5 2"/></symbol>
+<symbol id="i-handheld" viewBox="0 0 24 24"><rect x="1.5" y="6" width="21" height="12" rx="4"/><path d="M8.25 8.5h7.5A1.25 1.25 0 0 1 17 9.75v4.5a1.25 1.25 0 0 1-1.25 1.25h-7.5A1.25 1.25 0 0 1 7 14.25v-4.5A1.25 1.25 0 0 1 8.25 8.5Z" fill="currentColor" stroke="none"/><circle cx="4.6" cy="12" r="1.35" fill="currentColor" stroke="none"/><circle cx="18.9" cy="10.9" r="1" fill="currentColor" stroke="none"/><circle cx="19.9" cy="13.1" r="1" fill="currentColor" stroke="none"/></symbol>
+<symbol id="i-help" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M9.31 9.03a2.75 2.75 0 1 1 4.38 2.74c-.9.75-1.69 1.13-1.69 2.23"/><circle cx="12" cy="17" r="1.15" fill="currentColor" stroke="none"/></symbol>
+<symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 6.5h16M4 12h16M4 17.5h16"/></symbol>
+<symbol id="i-close" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></symbol>
+<symbol id="i-refresh" viewBox="0 0 24 24"><path d="M3.5 12a8.5 8.5 0 0 1 14.5-6M18 2v4h-4M20.5 12a8.5 8.5 0 0 1-14.5 6M6 22v-4h4"/></symbol>
+<symbol id="i-disk" viewBox="0 0 24 24"><path d="M3 14l2.4-7.4A2.25 2.25 0 0 1 7.55 5h8.9a2.25 2.25 0 0 1 2.15 1.6L21 14"/><rect x="3" y="14" width="18" height="6" rx="2"/><circle cx="7" cy="17" r="1" fill="currentColor" stroke="none"/><circle cx="10.5" cy="17" r="1" fill="currentColor" stroke="none"/></symbol>
+<symbol id="i-braces" viewBox="0 0 24 24"><path d="M9 3.5H8A2.5 2.5 0 0 0 5.5 6v3.5A2.5 2.5 0 0 1 3 12a2.5 2.5 0 0 1 2.5 2.5V18A2.5 2.5 0 0 0 8 20.5h1M15 3.5h1A2.5 2.5 0 0 1 18.5 6v3.5A2.5 2.5 0 0 0 21 12a2.5 2.5 0 0 0-2.5 2.5V18a2.5 2.5 0 0 1-2.5 2.5h-1"/></symbol>
+<symbol id="i-sliders" viewBox="0 0 24 24"><path d="M4 6h8.25M16.75 6H20M4 12h2.25M10.75 12H20M4 18h9.75M18.25 18H20"/><circle cx="14.5" cy="6" r="2.25"/><circle cx="8.5" cy="12" r="2.25"/><circle cx="16" cy="18" r="2.25"/></symbol>
+<symbol id="i-tv" viewBox="0 0 24 24"><rect x="2.5" y="7" width="19" height="13" rx="2.5"/><path d="M8 3l4 4 4-4"/></symbol>
+<symbol id="i-bolt" viewBox="0 0 24 24"><path d="M13.5 2.5 4.5 13.5h7l-1 8 9-11h-7Z"/></symbol>
+<symbol id="i-layers" viewBox="0 0 24 24"><path d="M12 2.5l9 4.75-9 4.75-9-4.75ZM3 11.75l9 4.75 9-4.75M3 16.25 12 21l9-4.75"/></symbol>
+<symbol id="i-user" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4.25"/><path d="M4.5 20.5v-.75a6.25 6.25 0 0 1 6.25-6.25h2.5a6.25 6.25 0 0 1 6.25 6.25v.75"/></symbol>
+<symbol id="i-share" viewBox="0 0 24 24"><circle cx="18" cy="5" r="2.75"/><circle cx="6" cy="12" r="2.75"/><circle cx="18" cy="19" r="2.75"/><path d="M8.59 10.49l6.82-3.98M8.59 13.51l6.82 3.98"/></symbol>
+<symbol id="i-terminal" viewBox="0 0 24 24"><rect x="2.5" y="4" width="19" height="16" rx="2.5"/><path d="M7 9.5l3 3-3 3M12.5 15.5H17"/></symbol>
+<symbol id="i-cloud-down" viewBox="0 0 24 24"><path d="M7.5 17.5h-.75A4.25 4.25 0 0 1 6 9.07 6 6 0 0 1 17.92 8.05 4.75 4.75 0 0 1 17.25 17.5h-.75"/><path d="M12 11.5v9.5M8.75 17.75 12 21l3.25-3.25"/></symbol>
+<symbol id="i-search" viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.1 15.1 20 20"/></symbol>
+<symbol id="i-arrows-v" viewBox="0 0 24 24"><path d="M12 3.5v17M8 7.5l4-4 4 4M8 16.5l4 4 4-4"/></symbol>
+<symbol id="i-file-code" viewBox="0 0 24 24"><path d="M14 3H7a2.5 2.5 0 0 0-2.5 2.5v13A2.5 2.5 0 0 0 7 21h10a2.5 2.5 0 0 0 2.5-2.5V8.5zM14 3v4a1.5 1.5 0 0 0 1.5 1.5h4"/><path d="M10 12.5l-2 2 2 2M14 12.5l2 2-2 2"/></symbol>
+<symbol id="i-eye" viewBox="0 0 24 24"><path d="M2.5 12C4.6 7.7 8 5.5 12 5.5s7.4 2.2 9.5 6.5c-2.1 4.3-5.5 6.5-9.5 6.5S4.6 16.3 2.5 12Z"/><circle cx="12" cy="12" r="3"/></symbol>
+<symbol id="h-play" viewBox="0 0 24 24"><path d="M6 4.5v15l13-7.5z" fill="currentColor" stroke="none"/></symbol>
+<symbol id="h-media" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="13" rx="2.5"/><path d="M8 21h8M12 17v4"/><path d="M10.5 8.2v5.1l4.2-2.55z" fill="currentColor" stroke="none"/></symbol>
+<symbol id="h-files" viewBox="0 0 24 24"><path d="M3 7.5A2.5 2.5 0 0 1 5.5 5h3.2l1.6 2H18.5A2.5 2.5 0 0 1 21 9.5v7A2.5 2.5 0 0 1 18.5 19h-13A2.5 2.5 0 0 1 3 16.5z"/></symbol>
+<symbol id="h-packages" viewBox="0 0 24 24"><path d="M12 3.2 20 7v10l-8 3.8L4 17V7z"/><path d="M4 7l8 3.8L20 7M12 10.8V20.8"/></symbol>
+<symbol id="h-apps" viewBox="0 0 24 24"><rect x="4" y="4" width="7" height="7" rx="1.6"/><rect x="13" y="4" width="7" height="7" rx="1.6"/><rect x="4" y="13" width="7" height="7" rx="1.6"/><rect x="13" y="13" width="7" height="7" rx="1.6"/></symbol>
+<symbol id="h-star" viewBox="0 0 24 24"><path d="M12 3.6l2.6 5.3 5.9.85-4.25 4.1 1 5.85L12 16.9l-5.25 2.8 1-5.85L3.5 9.75l5.9-.85z"/></symbol>
+<symbol id="h-browser" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><path d="M3.5 12h17M12 3.5c2.2 2.4 3.3 5.4 3.3 8.5s-1.1 6.1-3.3 8.5c-2.2-2.4-3.3-5.4-3.3-8.5S9.8 5.9 12 3.5z"/></symbol>
+<symbol id="h-chat" viewBox="0 0 24 24"><path d="M20 12.2c0 3.7-3.6 6.7-8 6.7-.9 0-1.8-.1-2.6-.4L4 20.5l1.3-3.6C4 15.6 3.5 14 3.5 12.2c0-3.7 3.6-6.7 8.5-6.7s8 3 8 6.7z"/></symbol>
+<symbol id="h-tools" viewBox="0 0 24 24"><path d="M14.7 6.3a4 4 0 0 1 5 5L9.5 21.5l-4-4z"/><path d="M6.8 3.5l3.9 3.9-2.1 2.1L4.7 5.6a3 3 0 0 0 0 4.2l-.9.9a4.2 4.2 0 0 1 3-7.2z"/></symbol>
+<symbol id="h-emulator" viewBox="0 0 24 24"><path d="M7.5 8.5h9a4.5 4.5 0 0 1 4.4 3.6l.7 4A3 3 0 0 1 18.7 19c-1 0-1.9-.5-2.4-1.3L15.2 16H8.8l-1.1 1.7A2.9 2.9 0 0 1 5.3 19a3 3 0 0 1-2.9-3l.7-4A4.5 4.5 0 0 1 7.5 8.5z"/><path d="M7 11.5v3M5.5 13h3M15.5 12.5h.01M17.5 14h.01"/></symbol>
+<symbol id="h-settings" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .34 1.87l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.7 1.7 0 0 0-1.87-.34 1.7 1.7 0 0 0-1.03 1.56V21a2 2 0 1 1-4 0v-.09A1.7 1.7 0 0 0 8.9 19.3a1.7 1.7 0 0 0-1.87.34l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06A1.7 1.7 0 0 0 4.6 15 1.7 1.7 0 0 0 3 14H3a2 2 0 1 1 0-4h.09A1.7 1.7 0 0 0 4.6 9a1.7 1.7 0 0 0-.34-1.87l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06A1.7 1.7 0 0 0 9 4.6 1.7 1.7 0 0 0 10 3.09V3a2 2 0 1 1 4 0v.09a1.7 1.7 0 0 0 1.03 1.51 1.7 1.7 0 0 0 1.87-.34l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06A1.7 1.7 0 0 0 19.4 9v.09a1.7 1.7 0 0 0 1.51 1.03H21a2 2 0 1 1 0 4h-.09a1.7 1.7 0 0 0-1.51 1.03z"/></symbol>
+<symbol id="h-power" viewBox="0 0 24 24"><path d="M12 3v9"/><path d="M6.6 6.6a8 8 0 1 0 10.8 0"/></symbol>
+<symbol id="h-qr" viewBox="0 0 24 24"><rect x="4" y="4" width="6" height="6" rx="1.4"/><rect x="14" y="4" width="6" height="6" rx="1.4"/><rect x="4" y="14" width="6" height="6" rx="1.4"/><path d="M14 14h2.5v2.5H14zM19.5 19.5H17M14 19.5h.01M19.5 14v.01"/></symbol>
+<symbol id="h-bell" viewBox="0 0 24 24"><path d="M18 8.5a6 6 0 1 0-12 0c0 6.5-2.5 8.5-2.5 8.5h17S18 15 18 8.5"/><path d="M13.7 20.5a2 2 0 0 1-3.4 0"/></symbol>
+<symbol id="h-dpad" viewBox="0 0 24 24"><path d="M9.2 3h5.6v6.2H21v5.6h-6.2V21H9.2v-6.2H3V9.2h6.2z" fill="currentColor" stroke="none"/></symbol>
+<symbol id="b-github" viewBox="0 0 24 24"><path fill="currentColor" stroke="none" d="M12 .3a12 12 0 0 0-3.8 23.38c.6.12.83-.26.83-.57L9 21.07c-3.34.72-4.04-1.61-4.04-1.61-.55-1.39-1.34-1.76-1.34-1.76-1.08-.74.09-.73.09-.73 1.2.09 1.84 1.24 1.84 1.24 1.07 1.83 2.8 1.3 3.49 1 .1-.78.42-1.31.76-1.61-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.14-.3-.54-1.52.1-3.18 0 0 1-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.28-1.55 3.29-1.23 3.29-1.23.64 1.66.24 2.88.12 3.18a4.65 4.65 0 0 1 1.23 3.22c0 4.61-2.8 5.63-5.48 5.92.42.36.81 1.1.81 2.22l-.01 3.29c0 .32.21.69.82.57A12 12 0 0 0 12 .3"/></symbol>
+<symbol id="b-discord" viewBox="0 0 24 24"><path fill="currentColor" stroke="none" d="M20.32 4.37a19.8 19.8 0 0 0-4.89-1.52.07.07 0 0 0-.08.04c-.21.38-.44.86-.61 1.25a18.27 18.27 0 0 0-5.49 0 12.64 12.64 0 0 0-.62-1.25.08.08 0 0 0-.08-.04 19.74 19.74 0 0 0-4.88 1.52.07.07 0 0 0-.03.03C.53 9.05-.32 13.58.1 18.06a.08.08 0 0 0 .03.06 19.9 19.9 0 0 0 5.99 3.03.08.08 0 0 0 .08-.03c.46-.63.87-1.3 1.23-1.99a.08.08 0 0 0-.04-.11 13.1 13.1 0 0 1-1.87-.89.08.08 0 0 1-.01-.13l.37-.29a.07.07 0 0 1 .08-.01c3.93 1.79 8.18 1.79 12.06 0a.07.07 0 0 1 .08.01l.37.29a.08.08 0 0 1-.01.13c-.6.35-1.22.65-1.87.89a.08.08 0 0 0-.04.11c.36.7.77 1.36 1.22 1.99a.08.08 0 0 0 .09.03 19.84 19.84 0 0 0 6-3.03.08.08 0 0 0 .03-.06c.5-5.18-.84-9.67-3.55-13.66a.06.06 0 0 0-.03-.03ZM8.02 15.33c-1.18 0-2.16-1.08-2.16-2.42 0-1.33.96-2.42 2.16-2.42 1.21 0 2.18 1.1 2.16 2.42 0 1.34-.96 2.42-2.16 2.42Zm7.97 0c-1.18 0-2.16-1.08-2.16-2.42 0-1.33.96-2.42 2.16-2.42 1.21 0 2.18 1.1 2.16 2.42 0 1.34-.95 2.42-2.16 2.42Z"/></symbol>
+</svg>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="topbar">
+  <div class="topbar__inner">
+    <a class="brand" href="../" aria-label="JukaHub home">
+      <img src="../assets/img/jukahub-mark.svg" alt="" width="30" height="30">
+      <span class="brand__name">JukaHub</span>
+      <span class="brand__ver">v0.4.0</span>
+    </a>
+    <button class="menu-toggle" type="button" aria-controls="nav" aria-expanded="false" aria-label="Menu">
+      <svg class="ico ico--menu" aria-hidden="true"><use href="#i-menu"/></svg>
+      <svg class="ico ico--close" aria-hidden="true"><use href="#i-close"/></svg>
+    </button>
+    <nav aria-label="Main">
+      <ul class="nav" id="nav">
+        <li><a href="./" aria-current="page">Features</a></li>
+        <li><a href="../install/">Install</a></li>
+        <li><a href="https://generate.jukalang.com/">Web builder <svg class="ico" aria-hidden="true"><use href="#i-external"/></svg></a></li>
+        <li><a href="https://github.com/jukaLang/JukaHubV2/tree/main/docs">Docs <svg class="ico" aria-hidden="true"><use href="#i-external"/></svg></a></li>
+        <li><a href="../#community">Community</a></li>
+      </ul>
+    </nav>
+    <div class="topbar__actions">
+      <a class="icon-link" href="https://github.com/jukaLang/JukaHubV2" aria-label="JukaHub on GitHub"><svg class="ico" aria-hidden="true"><use href="#b-github"/></svg></a>
+      <a class="btn btn--primary btn--sm" href="../install/">Download</a>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+  <header class="pagehead">
+    <div class="wrap">
+      <h1 class="pagehead__title">Everything JukaHub does</h1>
+      <p class="pagehead__lead">One controller-first app on top of the stock firmware, for watching, playing, keeping your saves safe and reaching your other devices. Here it is, grouped the way Home groups it.</p>
+      <div class="pagehead__cta">
+        <a class="btn btn--primary" href="../install/"><span class="k" aria-hidden="true">A</span>Install JukaHub</a>
+        <a class="btn btn--glass" href="https://github.com/jukaLang/JukaHubV2/tree/main/docs">Read the docs</a>
+      </div>
+    </div>
+  </header>
+
+  <div class="wrap doc">
+    <nav class="toc" aria-label="On this page">
+      <p>On this page</p>
+      <ol>
+        <li><a href="#watch">Watch</a></li>
+        <li><a href="#play">Play</a></li>
+        <li><a href="#keep">Keep</a></li>
+        <li><a href="#connect">Connect</a></li>
+        <li><a href="#yours">Make it yours</a></li>
+        <li><a href="#extend">Extend</a></li>
+        <li><a href="#security">Security</a></li>
+      </ol>
+    </nav>
+
+    <div class="doc__body">
+      <section class="doc__section" id="watch">
+        <span class="pillar-icon"><svg class="ico" aria-hidden="true"><use href="#i-tv"/></svg></span>
+        <h2>Watch</h2>
+        <p>Everything you watch and listen to, with the D-pad you already have.</p>
+        <ul class="feature-list">
+          <li><svg class="ico" aria-hidden="true"><use href="#i-media"/></svg><span><b>Tube</b>YouTube search and trending. A video plays at the resolution you set, <span class="k">B</span> puts it aside without losing your place, and you can save it to Favorites.</span></li>
+          <li><svg class="ico" aria-hidden="true"><use href="#i-play"/></svg><span><b>Shorts, podcasts and Live TV</b>Vertical videos one after another, a podcast library with subscriptions, and channels from your IPTV playlists.</span></li>
+          <li><svg class="ico" aria-hidden="true"><use href="#i-tv"/></svg><span><b>Video player</b>Your own videos from the card, with subtitles.</span></li>
+          <li><svg class="ico" aria-hidden="true"><use href="#i-sliders"/></svg><span><b>Music</b>Open any audio file and the player takes its folder: shuffle that visits each track once, repeat, a play-next queue, favourites that survive a restart, 0.75× to 2× speed, a sleep timer, synced <code>.lrc</code> lyrics and a full-screen spectrum. Playback continues while you browse. <a class="link" href="https://github.com/jukaLang/JukaHubV2/blob/main/docs/MUSIC_PLAYER.md">Music player</a></span></li>
+          <li><svg class="ico" aria-hidden="true"><use href="#i-cloud-down"/></svg><span><b>Offline music</b>Start → Tools → Downloads saves a link as an m4a on the card, with a queue, live progress, pause and resume and per-row retry. Saved tracks play with Wi-Fi off.</span></li>
+          <li><svg class="ico" aria-hidden="true"><use href="#i-file-code"/></svg><span><b>Books and photos</b>An EPUB and PDF reader, and an image viewer for PNG, JPG, BMP and WebP: Left and Right browse the folder, Up and Down zoom.</span></li>
+          <li><svg class="ico" aria-hidden="true"><use href="#i-globe"/></svg><span><b>Browser</b>A text web browser built for the D-pad, with a session that survives a relaunch and a Forget button that clears it. <a class="link" href="https://github.com/jukaLang/JukaHubV2/blob/main/docs/BROWSER.md">Browser</a></span></li>
+        </ul>
+      </section>
+
+      <section class="doc__section" id="play">
+        <span class="pillar-icon"><svg class="ico" aria-hidden="true"><use href="#i-gamepad"/></svg></span>
+        <h2>Play</h2>
+        <p>Your ROM library as a library, plus the things nobody expects a handheld launcher to do.</p>
+        <ul class="feature-list">
+          <li><svg class="ico" aria-hidden="true"><use href="#i-apps"/></svg><span><b>Games Library</b>Emulators → Games Library browses <code>Roms</code> console by console, shows the box art for each title, and launches it with the emulator that owns its system. Drop a short clip in <code>data/game-snaps</code> and it plays while the focus rests on that game. <a class="link" href="https://github.com/jukaLang/JukaHubV2/blob/main/docs/GAME_LIBRARY.md">Games Library</a></span></li>
+          <li><svg class="ico" aria-hidden="true"><use href="#i-play"/></svg><span><b>Continue</b>Every launch is recorded, so the Continue card at the top of Home resumes the last game in one press; RetroArch games pick up from their automatic save state. Play time and RetroAchievements progress are tracked per game.</span></li>
+          <li><svg class="ico" aria-hidden="true"><use href="#i-wifi"/></svg><span><b>LAN Play</b><span class="k">X</span> on a game hosts it or joins another handheld on the same Wi-Fi with RetroArch netplay, so link-cable titles play without a cable. It passes its settings on the command line, so your RetroArch config is left alone.</span></li>
+          <li><svg class="ico" aria-hidden="true"><use href="#i-monitor"/></svg><span><b>PS4 and PS5 Remote Play</b>JukaHub's own client: it scans the LAN, pairs with the console's Link Device PIN (a PS5 also needs your PSN account ID once), remembers consoles and quality, and streams through its chiaki-stream helper. <a class="link" href="https://github.com/jukaLang/JukaHubV2/blob/main/docs/REMOTE_PLAY.md">Remote Play</a></span></li>
+          <li><svg class="ico" aria-hidden="true"><use href="#i-package"/></svg><span><b>PortMaster ports</b>Install PortMaster from the Emulators screen and launch the ports it manages without leaving JukaHub. <a class="link" href="https://github.com/jukaLang/JukaHubV2/blob/main/docs/PORTMASTER.md">PortMaster</a></span></li>
+          <li><svg class="ico" aria-hidden="true"><use href="#i-bolt"/></svg><span><b>Smart Pro Compatibility</b>Per-game community reports, an honest hardware tier when nobody has reported a title yet, one-press boost plans for N64, Dreamcast and PSP, and a manager for several libretro core builds. <a class="link" href="https://github.com/jukaLang/JukaHubV2/blob/main/docs/COMPATIBILITY.md">Compatibility</a></span></li>
+          <li><svg class="ico" aria-hidden="true"><use href="#i-terminal"/></svg><span><b>Game Profiles and Windows apps</b>Windows games through Box64 and Wine, native binaries and scripts, and basic <code>.exe</code> programs through Wine, with Direct3D through DXVK when it is installed. <a class="link" href="https://github.com/jukaLang/JukaHubV2/blob/main/docs/WINDOWS_APPS.md">Windows apps</a></span></li>
+          <li><svg class="ico" aria-hidden="true"><use href="#i-disk"/></svg><span><b>Disc helpers</b>Tools → Disc helpers fills in the cue sheets and multi-disc playlists that PlayStation and Sega CD rips need, without touching an existing file.</span></li>
+        </ul>
+      </section>
+
+      <section class="doc__section" id="keep">
+        <span class="pillar-icon"><svg class="ico" aria-hidden="true"><use href="#i-layers"/></svg></span>
+        <h2>Keep</h2>
+        <p>Progress lives in folders on a removable card. JukaHub treats that seriously.</p>
+        <ul class="feature-list">
+          <li><svg class="ico" aria-hidden="true"><use href="#i-layers"/></svg><span><b>Save Manager</b>Snapshots every emulator save folder (RetroArch, PPSSPP, DraStic, Flycast), restores one after taking a safety snapshot first, prepares the folders for Syncthing and exports a phone resume bundle. Snapshots are plain files with a checksum each, so they work without JukaHub. <a class="link" href="https://github.com/jukaLang/JukaHubV2/blob/main/docs/SAVE_MANAGER.md">Save Manager</a></span></li>
+          <li><svg class="ico" aria-hidden="true"><use href="#i-refresh"/></svg><span><b>Recovery</b>Safe mode on <span class="k">L</span> + <span class="k">R</span> + <span class="k">Start</span>, a recovery card with the previous version and your last good settings, and a low-battery save and suspend. <a class="link" href="https://github.com/jukaLang/JukaHubV2/blob/main/docs/RECOVERY.md">Recovery</a></span></li>
+          <li><svg class="ico" aria-hidden="true"><use href="#i-check-circle"/></svg><span><b>Card and battery health</b>SD-card health checks and battery health, so a failing card or cell is not a surprise.</span></li>
+          <li><svg class="ico" aria-hidden="true"><use href="#i-star"/></svg><span><b>Curation Hub</b>An essentials checklist for a new card, shareable theme and text-size profiles tuned per panel, and compatibility votes for games and PortMaster titles. It works offline. <a class="link" href="https://github.com/jukaLang/JukaHubV2/blob/main/docs/CURATION.md">Curation Hub</a></span></li>
+          <li><svg class="ico" aria-hidden="true"><use href="#i-sliders"/></svg><span><b>Settings that stay</b>Your settings live in <code>jukauser.json</code> and survive every update. Power tools keeps snapshots of it with a diff and rollback.</span></li>
+        </ul>
+      </section>
+
+      <section class="doc__section" id="connect">
+        <span class="pillar-icon"><svg class="ico" aria-hidden="true"><use href="#i-wifi"/></svg></span>
+        <h2>Connect</h2>
+        <p>The handheld, your phone, your PC and the rest of the house, on the same Wi-Fi.</p>
+        <ul class="feature-list">
+          <li><svg class="ico" aria-hidden="true"><use href="#i-wifi"/></svg><span><b>Wi-Fi</b>A real network picker: scan, join with the on-screen keyboard, reconnect saved networks without retyping the password, disconnect and forget. <a class="link" href="https://github.com/jukaLang/JukaHubV2/blob/main/docs/WIFI.md">Wi-Fi</a></span></li>
+          <li><svg class="ico" aria-hidden="true"><use href="#i-share"/></svg><span><b>Watch Party</b>Host on one handheld and join from the others on the same Wi-Fi with a five-character code. Anyone in the room can queue a link or play, pause and seek for everyone.</span></li>
+          <li><svg class="ico" aria-hidden="true"><use href="#i-keyboard"/></svg><span><b>Phone companion</b>Scan a QR and your phone types into the focused field, works as a remote, and sends links and files to the handheld. <a class="link" href="../install/#phone">How it works</a></span></li>
+          <li><svg class="ico" aria-hidden="true"><use href="#i-monitor"/></svg><span><b>Remote Cast</b>The handheld's screen, live in any browser on your Wi-Fi at up to ten frames a second, for up to six viewers. It is off until you turn it on and guarded by a PIN.</span></li>
+          <li><svg class="ico" aria-hidden="true"><use href="#i-folder"/></svg><span><b>FTP and SFTP</b>Drop games, BIOS files and media from a PC. SFTP is encrypted, both use a password made for each start, and both switch themselves off when nobody uses them. <a class="link" href="../install/#copy-files">Copy files from a PC</a></span></li>
+          <li><svg class="ico" aria-hidden="true"><use href="#i-network"/></svg><span><b>Smart home</b>Drive Home Assistant entities, mirror every toggle to MQTT, and see Pi-hole, your router and Tailscale, with a tunnel connect and disconnect. <a class="link" href="https://github.com/jukaLang/JukaHubV2/blob/main/docs/SMART_HOME.md">Smart home</a></span></li>
+          <li><svg class="ico" aria-hidden="true"><use href="#i-chat"/></svg><span><b>Chat</b>The community Discord channel on the handheld: read, reply and share links.</span></li>
+        </ul>
+      </section>
+
+      <section class="doc__section" id="yours">
+        <span class="pillar-icon"><svg class="ico" aria-hidden="true"><use href="#i-palette"/></svg></span>
+        <h2>Make it yours</h2>
+        <p>Every screen is data, so how it looks is up to you.</p>
+        <ul class="feature-list">
+          <li><svg class="ico" aria-hidden="true"><use href="#i-palette"/></svg><span><b>25 themes</b>From Dark, Light and High Contrast to Anime, Cute, Fallout and Matrix.</span></li>
+          <li><svg class="ico" aria-hidden="true"><use href="#i-bolt"/></svg><span><b>Smart Widgets</b>Battery saver drops to the slowest cadence, stops motion and switches to the OLED theme below 20% until the handheld is charged. Add a time-of-day theme, or start at login (off by default).</span></li>
+          <li><svg class="ico" aria-hidden="true"><use href="#i-eye"/></svg><span><b>Accessibility</b>Text from 85% to 145%, a high-contrast palette, three colour-blind-safe palettes, a system-wide A/B and X/Y remap and a one-handed chord, all in one panel. <a class="link" href="https://github.com/jukaLang/JukaHubV2/blob/main/docs/ACCESSIBILITY.md">Accessibility</a></span></li>
+          <li><svg class="ico" aria-hidden="true"><use href="#i-clock"/></svg><span><b>Dock and ambient</b>While it charges or sits idle: a large clock, today's weather, what is playing and a slideshow from your Photos folder. <span class="k">Y</span> arms a sleep timer and <span class="k">X</span> blanks the screen while audio keeps playing. <a class="link" href="https://github.com/jukaLang/JukaHubV2/blob/main/docs/AMBIENT.md">Dock and ambient</a></span></li>
+          <li><svg class="ico" aria-hidden="true"><use href="#i-braces"/></svg><span><b>The web builder</b>Lay out your own screens in the browser, push them to the handheld over Wi-Fi, export <code>jukaconfig.json</code>, or share a design as a single link. <a class="link" href="https://generate.jukalang.com/">Open the builder</a></span></li>
+        </ul>
+      </section>
+
+      <section class="doc__section" id="extend">
+        <span class="pillar-icon"><svg class="ico" aria-hidden="true"><use href="#i-package"/></svg></span>
+        <h2>Extend</h2>
+        <p>Add to the card without a PC, and always with a way back.</p>
+        <ul class="feature-list">
+          <li><svg class="ico" aria-hidden="true"><use href="#i-package"/></svg><span><b>Patch</b>The package manager. Packages come from an Ed25519-signed repository and install as journaled transactions with a backup first; history, rollback, and verify and repair are one row away. <a class="link" href="https://github.com/jukaLang/JukaHubV2/blob/main/docs/PACKAGES.md">Packages</a></span></li>
+          <li><svg class="ico" aria-hidden="true"><use href="#i-file-code"/></svg><span><b>Plugins</b>Scripts with a manifest and a documented execution contract. <a class="link" href="https://github.com/jukaLang/JukaHubV2/blob/main/docs/PLUGINS.md">Plugins</a></span></li>
+          <li><svg class="ico" aria-hidden="true"><use href="#i-terminal"/></svg><span><b>Toolbox</b><code>rclone</code>, <code>jq</code>, <code>ripgrep</code>, <code>fd</code>, <code>pandoc</code> and <code>age</code>, installed on demand from each project's own releases and run with visible output. The network scanners <code>naabu</code>, <code>httpx</code> and <code>dnsx</code> ask once before their first run. <a class="link" href="https://github.com/jukaLang/JukaHubV2/blob/main/docs/TOOLBOX.md">Toolbox</a></span></li>
+          <li><svg class="ico" aria-hidden="true"><use href="#i-sliders"/></svg><span><b>Power tools</b>A port scan, ping and traceroute, DNS and Wi-Fi checks, a hex, JSON and log viewer, saved script buttons, rsync and Syncthing checks, and a read/write benchmark.</span></li>
+          <li><svg class="ico" aria-hidden="true"><use href="#i-braces"/></svg><span><b>Configuration</b>Every screen is <code>jukaconfig.json</code>: elements, bounds, triggers and theme tokens, read by the same player on the handheld and on a PC. <a class="link" href="https://github.com/jukaLang/JukaHubV2/blob/main/docs/CONFIGURATION.md">Configuration reference</a></span></li>
+        </ul>
+      </section>
+
+      <section class="doc__section" id="security">
+        <span class="pillar-icon"><svg class="ico" aria-hidden="true"><use href="#i-check-circle"/></svg></span>
+        <h2>Security</h2>
+        <p>Tools → Security &amp; trust shows all of this live on the device, without a PC.</p>
+        <ul class="feature-list">
+          <li><svg class="ico" aria-hidden="true"><use href="#i-check-circle"/></svg><span><b>Checked updates, signed packages</b>Every update is checked against the SHA-256 digest GitHub publishes before it is unpacked, and against an Ed25519 signature when the release carries one. Patch installs only from an Ed25519-signed repository index, with each archive checked against it. HTTPS alone is never treated as proof.</span></li>
+          <li><svg class="ico" aria-hidden="true"><use href="#i-check-circle"/></svg><span><b>Encrypted secrets</b>API keys and tokens in the config are AES-256-GCM with a fresh nonce per value. Set your own key with <code>JUKAHUB_CRYPTO_KEY</code>: the built-in default is the same on every install, and Security &amp; trust says when it is still in use.</span></li>
+          <li><svg class="ico" aria-hidden="true"><use href="#i-check-circle"/></svg><span><b>Downloads from an allowlist</b>Helper tools resolve only from repositories listed in the code, through a size-capped downloader, and run directly, never through a shell.</span></li>
+          <li><svg class="ico" aria-hidden="true"><use href="#i-check-circle"/></svg><span><b>Servers you can see</b>FTP and SFTP start only when you press their row, and the posture view names whatever is listening.</span></li>
+          <li><svg class="ico" aria-hidden="true"><use href="#i-check-circle"/></svg><span><b>No telemetry unless you ask</b>One boot and crash ping, off by default, limited to build and device facts. <a class="link" href="../privacy/">Privacy</a></span></li>
+        </ul>
+        <p class="doc__cta"><a class="link" href="https://github.com/jukaLang/JukaHubV2/blob/main/SECURITY.md">The threat model and the honest limits</a></p>
+      </section>
+    </div>
+  </div>
+</main>
+
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer__grid">
+      <div class="footer__brand">
+        <img src="../assets/img/jukahub-logo.svg" alt="JukaHub" width="56" height="56">
+        <p>A media and gaming shell for TrimUI handhelds, from the Juka project.</p>
+      </div>
+      <div>
+        <h2>JukaHub</h2>
+        <ul>
+          <li><a href="./">Features</a></li>
+          <li><a href="../install/">Install guide</a></li>
+          <li><a href="https://generate.jukalang.com/">Web builder</a></li>
+          <li><a href="https://github.com/jukaLang/JukaHubV2/releases">Releases</a></li>
+          <li><a href="https://github.com/jukaLang/JukaHubV2/blob/main/CHANGELOG.md">Changelog</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Help</h2>
+        <ul>
+          <li><a href="https://github.com/jukaLang/JukaHubV2/tree/main/docs">Documentation</a></li>
+          <li><a href="https://github.com/jukaLang/JukaHubV2/blob/main/docs/CONTROLS.md">Controls</a></li>
+          <li><a href="../install/#troubleshooting">Troubleshooting</a></li>
+          <li><a href="https://discord.gg/R9qgJjh5jG">Discord</a></li>
+          <li><a href="https://github.com/jukaLang/JukaHubV2/issues">Report a bug</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Juka</h2>
+        <ul>
+          <li><a href="https://github.com/jukaLang/Juka">Juka language</a></li>
+          <li><a href="https://ide.jukalang.com/">Try Juka online</a></li>
+          <li><a href="https://os.jukalang.com/">JukaOS</a></li>
+          <li><a href="https://github.com/jukaLang">All projects</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>About</h2>
+        <ul>
+          <li><a href="https://github.com/jukaLang/JukaHubV2/blob/main/LICENSE">License (AGPL-3.0)</a></li>
+          <li><a href="../privacy/">Privacy</a></li>
+          <li><a href="https://github.com/jukaLang/JukaHubV2/blob/main/SECURITY.md">Security</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__legal">
+      <p>JukaHub is free software under the GNU Affero General Public License v3, and it includes no games, BIOS files or firmware. TrimUI, PlayStation, PS4, PS5, YouTube, Discord, Nintendo, Sega, Windows and other names are trademarks of their owners; JukaHub is not affiliated with or endorsed by them.</p>
+      <p>This site sets no cookies and runs no analytics.</p>
+    </div>
+  </div>
+</footer>
+</body>
+</html>

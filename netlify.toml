@@ -1,0 +1,15 @@
+# Netlify configuration for jukalang.com.
+#
+# The site is plain HTML, CSS and JavaScript in public/: there is nothing to
+# install or build. The command below only exists to override any build
+# command still set in the Netlify UI from the old Docusaurus site (settings in
+# this file win over the UI), which would otherwise fail on a missing
+# package.json.
+#
+# Response headers (CSP, caching) live in public/_headers and redirects for the
+# old Docusaurus URLs in public/_redirects, so they also apply when public/ is
+# dragged into Netlify Drop by hand.
+
+[build]
+  publish = "public"
+  command = "echo 'jukalang.com is static: publishing public/ as is'"

@@ -1,0 +1,360 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Install JukaHub on a TrimUI Smart Pro or Brick</title>
+  <meta name="description" content="Install JukaHub in five steps: download JukaHub-Trimui.zip, extract it into Apps/JukaHub on the SD card, and open it from the Apps menu. First run, controls, copying files, updates and troubleshooting.">
+  <link rel="canonical" href="https://jukalang.com/install/">
+  <meta name="theme-color" content="#070b14">
+  <meta name="color-scheme" content="dark">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="JukaHub">
+  <meta property="og:url" content="https://jukalang.com/install/">
+  <meta property="og:title" content="Install JukaHub on a TrimUI handheld">
+  <meta property="og:description" content="Five steps, no firmware swap: one folder on the SD card.">
+  <meta property="og:image" content="https://jukalang.com/assets/img/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="../favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="../favicon.png" sizes="48x48" type="image/png">
+  <link rel="apple-touch-icon" href="../apple-touch-icon.png">
+  <link rel="manifest" href="../site.webmanifest">
+  <link rel="preload" href="../assets/fonts/Inter.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="../assets/css/site.css">
+  <script src="../assets/js/site.js" defer></script>
+</head>
+<body>
+<svg class="sprite" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+<symbol id="i-media" viewBox="0 0 24 24"><rect x="2.5" y="4" width="19" height="16" rx="3.5"/><path d="M10 8.75v6.5L15.5 12Z" fill="currentColor"/></symbol>
+<symbol id="i-play" viewBox="0 0 24 24"><path d="M8 4.5v15L20 12Z" fill="currentColor"/></symbol>
+<symbol id="i-gamepad" viewBox="0 0 24 24"><path d="M6.5 6h11c2.5 0 3.9 1.9 4.3 4.3l.7 4.8c.3 2-.9 3.4-2.5 3.4-1.1 0-1.9-.6-2.4-1.6l-.8-1.6c-.3-.5-.8-.8-1.4-.8H8.6c-.6 0-1.1.3-1.4.8l-.8 1.6c-.5 1-1.3 1.6-2.4 1.6-1.6 0-2.8-1.4-2.5-3.4l.7-4.8C2.6 7.9 4 6 6.5 6Z"/><path d="M6.5 9v4M4.5 11h4"/><circle cx="15.75" cy="10" r="1.15" fill="currentColor" stroke="none"/><circle cx="17.75" cy="12.25" r="1.15" fill="currentColor" stroke="none"/></symbol>
+<symbol id="i-chat" viewBox="0 0 24 24"><path d="M7.5 18 3.5 21V7a3 3 0 0 1 3-3h11a3 3 0 0 1 3 3v8a3 3 0 0 1-3 3Z"/></symbol>
+<symbol id="i-star" viewBox="0 0 24 24"><path d="M12 3.14l2.88 5.83 6.44.94-4.66 4.54 1.1 6.41L12 17.84l-5.76 3.02 1.1-6.41-4.66-4.54 6.44-.94Z" fill="currentColor"/></symbol>
+<symbol id="i-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9.5"/><path d="M12 2.5c-5.33 5.33-5.33 13.67 0 19M12 2.5c5.33 5.33 5.33 13.67 0 19M2.5 12h19"/></symbol>
+<symbol id="i-package" viewBox="0 0 24 24"><path d="M12 2.8l8.5 4.6v9.2L12 21.2l-8.5-4.6V7.4ZM3.8 7.6 12 12l8.2-4.4M12 12v9M7.75 5.1l8.5 4.6"/></symbol>
+<symbol id="i-settings" viewBox="0 0 24 24"><path d="M9.56 5.12 10.01 2.2A10 10 0 0 1 13.99 2.2L14.44 5.12A7.3 7.3 0 0 1 16.74 6.45L19.49 5.37A10 10 0 0 1 21.48 8.83L19.18 10.67A7.3 7.3 0 0 1 19.18 13.33L21.48 15.17A10 10 0 0 1 19.49 18.63L16.74 17.55A7.3 7.3 0 0 1 14.44 18.88L13.99 21.8A10 10 0 0 1 10.01 21.8L9.56 18.88A7.3 7.3 0 0 1 7.26 17.55L4.51 18.63A10 10 0 0 1 2.52 15.17L4.82 13.33A7.3 7.3 0 0 1 4.82 10.67L2.52 8.83A10 10 0 0 1 4.51 5.37L7.26 6.45A7.3 7.3 0 0 1 9.56 5.12Z"/><circle cx="12" cy="12" r="3"/></symbol>
+<symbol id="i-apps" viewBox="0 0 24 24"><path d="M5.25 4h3.25a1.25 1.25 0 0 1 1.25 1.25V8.5A1.25 1.25 0 0 1 8.5 9.75H5.25A1.25 1.25 0 0 1 4 8.5V5.25A1.25 1.25 0 0 1 5.25 4Z" fill="currentColor"/><path d="M15.5 4h3.25A1.25 1.25 0 0 1 20 5.25V8.5a1.25 1.25 0 0 1-1.25 1.25H15.5a1.25 1.25 0 0 1-1.25-1.25V5.25A1.25 1.25 0 0 1 15.5 4Z" fill="currentColor"/><path d="M5.25 14.25h3.25a1.25 1.25 0 0 1 1.25 1.25v3.25A1.25 1.25 0 0 1 8.5 20H5.25A1.25 1.25 0 0 1 4 18.75V15.5a1.25 1.25 0 0 1 1.25-1.25Z" fill="currentColor"/><path d="M15.5 14.25h3.25A1.25 1.25 0 0 1 20 15.5v3.25A1.25 1.25 0 0 1 18.75 20H15.5a1.25 1.25 0 0 1-1.25-1.25V15.5a1.25 1.25 0 0 1 1.25-1.25Z" fill="currentColor"/></symbol>
+<symbol id="i-folder" viewBox="0 0 24 24"><path d="M3 6.5a2 2 0 0 1 2-2h4.2a1.5 1.5 0 0 1 1.2.6L12 7h7a2 2 0 0 1 2 2v8.5a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2Z"/></symbol>
+<symbol id="i-power" viewBox="0 0 24 24"><path d="M12 3v8M6.54 6.24a8.5 8.5 0 1 0 10.92 0"/></symbol>
+<symbol id="i-wifi" viewBox="0 0 24 24"><path d="M8.71 15.43a4.5 4.5 0 0 1 6.58 0M5.42 12.36a9 9 0 0 1 13.16 0M2.13 9.29a13.5 13.5 0 0 1 19.74 0"/><circle cx="12" cy="18.75" r="1.4" fill="currentColor" stroke="none"/></symbol>
+<symbol id="i-palette" viewBox="0 0 24 24"><path d="M12 3a9 9 0 0 0 0 18c1.1 0 1.8-.8 1.8-1.8 0-.5-.2-.9-.5-1.3-.3-.3-.5-.8-.5-1.2 0-1 .8-1.7 1.8-1.7h1.9a4.5 4.5 0 0 0 4.5-4.5C21 6.5 17 3 12 3Z"/><circle cx="7.5" cy="11.5" r="1.3" fill="currentColor" stroke="none"/><circle cx="9.5" cy="7.5" r="1.3" fill="currentColor" stroke="none"/><circle cx="14" cy="6.75" r="1.3" fill="currentColor" stroke="none"/><circle cx="17" cy="10" r="1.3" fill="currentColor" stroke="none"/></symbol>
+<symbol id="i-download" viewBox="0 0 24 24"><path d="M12 4v11M7.5 10.5 12 15l4.5-4.5M4 15.5V18a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2.5"/></symbol>
+<symbol id="i-external" viewBox="0 0 24 24"><path d="M13.5 3.5h7v7M20.5 3.5 11 13M17.5 13.5V18a2.5 2.5 0 0 1-2.5 2.5H6A2.5 2.5 0 0 1 3.5 18V9A2.5 2.5 0 0 1 6 6.5h4.5"/></symbol>
+<symbol id="i-chevron-right" viewBox="0 0 24 24"><path d="M9 5.5l6.5 6.5L9 18.5"/></symbol>
+<symbol id="i-chevron-down" viewBox="0 0 24 24"><path d="M5.5 9l6.5 6.5L18.5 9"/></symbol>
+<symbol id="i-check-circle" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M8 12.4l2.8 2.8 5.4-5.6"/></symbol>
+<symbol id="i-keyboard" viewBox="0 0 24 24"><rect x="2" y="5.5" width="20" height="13" rx="2.5"/><circle cx="6.75" cy="9.5" r="1.05" fill="currentColor" stroke="none"/><circle cx="10.25" cy="9.5" r="1.05" fill="currentColor" stroke="none"/><circle cx="13.75" cy="9.5" r="1.05" fill="currentColor" stroke="none"/><circle cx="17.25" cy="9.5" r="1.05" fill="currentColor" stroke="none"/><path d="M7.5 14.5h9"/></symbol>
+<symbol id="i-monitor" viewBox="0 0 24 24"><rect x="2.5" y="3.5" width="19" height="13" rx="2.5"/><path d="M12 16.5v4M8 20.5h8"/></symbol>
+<symbol id="i-network" viewBox="0 0 24 24"><rect x="9" y="2.5" width="6" height="5" rx="1.25"/><rect x="3" y="16.5" width="6" height="5" rx="1.25"/><rect x="15" y="16.5" width="6" height="5" rx="1.25"/><path d="M12 7.5V12M6 16.5V14a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v2.5"/></symbol>
+<symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 6.5V12l3.5 2"/></symbol>
+<symbol id="i-handheld" viewBox="0 0 24 24"><rect x="1.5" y="6" width="21" height="12" rx="4"/><path d="M8.25 8.5h7.5A1.25 1.25 0 0 1 17 9.75v4.5a1.25 1.25 0 0 1-1.25 1.25h-7.5A1.25 1.25 0 0 1 7 14.25v-4.5A1.25 1.25 0 0 1 8.25 8.5Z" fill="currentColor" stroke="none"/><circle cx="4.6" cy="12" r="1.35" fill="currentColor" stroke="none"/><circle cx="18.9" cy="10.9" r="1" fill="currentColor" stroke="none"/><circle cx="19.9" cy="13.1" r="1" fill="currentColor" stroke="none"/></symbol>
+<symbol id="i-help" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M9.31 9.03a2.75 2.75 0 1 1 4.38 2.74c-.9.75-1.69 1.13-1.69 2.23"/><circle cx="12" cy="17" r="1.15" fill="currentColor" stroke="none"/></symbol>
+<symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 6.5h16M4 12h16M4 17.5h16"/></symbol>
+<symbol id="i-close" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></symbol>
+<symbol id="i-refresh" viewBox="0 0 24 24"><path d="M3.5 12a8.5 8.5 0 0 1 14.5-6M18 2v4h-4M20.5 12a8.5 8.5 0 0 1-14.5 6M6 22v-4h4"/></symbol>
+<symbol id="i-disk" viewBox="0 0 24 24"><path d="M3 14l2.4-7.4A2.25 2.25 0 0 1 7.55 5h8.9a2.25 2.25 0 0 1 2.15 1.6L21 14"/><rect x="3" y="14" width="18" height="6" rx="2"/><circle cx="7" cy="17" r="1" fill="currentColor" stroke="none"/><circle cx="10.5" cy="17" r="1" fill="currentColor" stroke="none"/></symbol>
+<symbol id="i-braces" viewBox="0 0 24 24"><path d="M9 3.5H8A2.5 2.5 0 0 0 5.5 6v3.5A2.5 2.5 0 0 1 3 12a2.5 2.5 0 0 1 2.5 2.5V18A2.5 2.5 0 0 0 8 20.5h1M15 3.5h1A2.5 2.5 0 0 1 18.5 6v3.5A2.5 2.5 0 0 0 21 12a2.5 2.5 0 0 0-2.5 2.5V18a2.5 2.5 0 0 1-2.5 2.5h-1"/></symbol>
+<symbol id="i-sliders" viewBox="0 0 24 24"><path d="M4 6h8.25M16.75 6H20M4 12h2.25M10.75 12H20M4 18h9.75M18.25 18H20"/><circle cx="14.5" cy="6" r="2.25"/><circle cx="8.5" cy="12" r="2.25"/><circle cx="16" cy="18" r="2.25"/></symbol>
+<symbol id="i-tv" viewBox="0 0 24 24"><rect x="2.5" y="7" width="19" height="13" rx="2.5"/><path d="M8 3l4 4 4-4"/></symbol>
+<symbol id="i-bolt" viewBox="0 0 24 24"><path d="M13.5 2.5 4.5 13.5h7l-1 8 9-11h-7Z"/></symbol>
+<symbol id="i-layers" viewBox="0 0 24 24"><path d="M12 2.5l9 4.75-9 4.75-9-4.75ZM3 11.75l9 4.75 9-4.75M3 16.25 12 21l9-4.75"/></symbol>
+<symbol id="i-user" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4.25"/><path d="M4.5 20.5v-.75a6.25 6.25 0 0 1 6.25-6.25h2.5a6.25 6.25 0 0 1 6.25 6.25v.75"/></symbol>
+<symbol id="i-share" viewBox="0 0 24 24"><circle cx="18" cy="5" r="2.75"/><circle cx="6" cy="12" r="2.75"/><circle cx="18" cy="19" r="2.75"/><path d="M8.59 10.49l6.82-3.98M8.59 13.51l6.82 3.98"/></symbol>
+<symbol id="i-terminal" viewBox="0 0 24 24"><rect x="2.5" y="4" width="19" height="16" rx="2.5"/><path d="M7 9.5l3 3-3 3M12.5 15.5H17"/></symbol>
+<symbol id="i-cloud-down" viewBox="0 0 24 24"><path d="M7.5 17.5h-.75A4.25 4.25 0 0 1 6 9.07 6 6 0 0 1 17.92 8.05 4.75 4.75 0 0 1 17.25 17.5h-.75"/><path d="M12 11.5v9.5M8.75 17.75 12 21l3.25-3.25"/></symbol>
+<symbol id="i-search" viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.1 15.1 20 20"/></symbol>
+<symbol id="i-arrows-v" viewBox="0 0 24 24"><path d="M12 3.5v17M8 7.5l4-4 4 4M8 16.5l4 4 4-4"/></symbol>
+<symbol id="i-file-code" viewBox="0 0 24 24"><path d="M14 3H7a2.5 2.5 0 0 0-2.5 2.5v13A2.5 2.5 0 0 0 7 21h10a2.5 2.5 0 0 0 2.5-2.5V8.5zM14 3v4a1.5 1.5 0 0 0 1.5 1.5h4"/><path d="M10 12.5l-2 2 2 2M14 12.5l2 2-2 2"/></symbol>
+<symbol id="i-eye" viewBox="0 0 24 24"><path d="M2.5 12C4.6 7.7 8 5.5 12 5.5s7.4 2.2 9.5 6.5c-2.1 4.3-5.5 6.5-9.5 6.5S4.6 16.3 2.5 12Z"/><circle cx="12" cy="12" r="3"/></symbol>
+<symbol id="h-play" viewBox="0 0 24 24"><path d="M6 4.5v15l13-7.5z" fill="currentColor" stroke="none"/></symbol>
+<symbol id="h-media" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="13" rx="2.5"/><path d="M8 21h8M12 17v4"/><path d="M10.5 8.2v5.1l4.2-2.55z" fill="currentColor" stroke="none"/></symbol>
+<symbol id="h-files" viewBox="0 0 24 24"><path d="M3 7.5A2.5 2.5 0 0 1 5.5 5h3.2l1.6 2H18.5A2.5 2.5 0 0 1 21 9.5v7A2.5 2.5 0 0 1 18.5 19h-13A2.5 2.5 0 0 1 3 16.5z"/></symbol>
+<symbol id="h-packages" viewBox="0 0 24 24"><path d="M12 3.2 20 7v10l-8 3.8L4 17V7z"/><path d="M4 7l8 3.8L20 7M12 10.8V20.8"/></symbol>
+<symbol id="h-apps" viewBox="0 0 24 24"><rect x="4" y="4" width="7" height="7" rx="1.6"/><rect x="13" y="4" width="7" height="7" rx="1.6"/><rect x="4" y="13" width="7" height="7" rx="1.6"/><rect x="13" y="13" width="7" height="7" rx="1.6"/></symbol>
+<symbol id="h-star" viewBox="0 0 24 24"><path d="M12 3.6l2.6 5.3 5.9.85-4.25 4.1 1 5.85L12 16.9l-5.25 2.8 1-5.85L3.5 9.75l5.9-.85z"/></symbol>
+<symbol id="h-browser" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><path d="M3.5 12h17M12 3.5c2.2 2.4 3.3 5.4 3.3 8.5s-1.1 6.1-3.3 8.5c-2.2-2.4-3.3-5.4-3.3-8.5S9.8 5.9 12 3.5z"/></symbol>
+<symbol id="h-chat" viewBox="0 0 24 24"><path d="M20 12.2c0 3.7-3.6 6.7-8 6.7-.9 0-1.8-.1-2.6-.4L4 20.5l1.3-3.6C4 15.6 3.5 14 3.5 12.2c0-3.7 3.6-6.7 8.5-6.7s8 3 8 6.7z"/></symbol>
+<symbol id="h-tools" viewBox="0 0 24 24"><path d="M14.7 6.3a4 4 0 0 1 5 5L9.5 21.5l-4-4z"/><path d="M6.8 3.5l3.9 3.9-2.1 2.1L4.7 5.6a3 3 0 0 0 0 4.2l-.9.9a4.2 4.2 0 0 1 3-7.2z"/></symbol>
+<symbol id="h-emulator" viewBox="0 0 24 24"><path d="M7.5 8.5h9a4.5 4.5 0 0 1 4.4 3.6l.7 4A3 3 0 0 1 18.7 19c-1 0-1.9-.5-2.4-1.3L15.2 16H8.8l-1.1 1.7A2.9 2.9 0 0 1 5.3 19a3 3 0 0 1-2.9-3l.7-4A4.5 4.5 0 0 1 7.5 8.5z"/><path d="M7 11.5v3M5.5 13h3M15.5 12.5h.01M17.5 14h.01"/></symbol>
+<symbol id="h-settings" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .34 1.87l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.7 1.7 0 0 0-1.87-.34 1.7 1.7 0 0 0-1.03 1.56V21a2 2 0 1 1-4 0v-.09A1.7 1.7 0 0 0 8.9 19.3a1.7 1.7 0 0 0-1.87.34l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06A1.7 1.7 0 0 0 4.6 15 1.7 1.7 0 0 0 3 14H3a2 2 0 1 1 0-4h.09A1.7 1.7 0 0 0 4.6 9a1.7 1.7 0 0 0-.34-1.87l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06A1.7 1.7 0 0 0 9 4.6 1.7 1.7 0 0 0 10 3.09V3a2 2 0 1 1 4 0v.09a1.7 1.7 0 0 0 1.03 1.51 1.7 1.7 0 0 0 1.87-.34l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06A1.7 1.7 0 0 0 19.4 9v.09a1.7 1.7 0 0 0 1.51 1.03H21a2 2 0 1 1 0 4h-.09a1.7 1.7 0 0 0-1.51 1.03z"/></symbol>
+<symbol id="h-power" viewBox="0 0 24 24"><path d="M12 3v9"/><path d="M6.6 6.6a8 8 0 1 0 10.8 0"/></symbol>
+<symbol id="h-qr" viewBox="0 0 24 24"><rect x="4" y="4" width="6" height="6" rx="1.4"/><rect x="14" y="4" width="6" height="6" rx="1.4"/><rect x="4" y="14" width="6" height="6" rx="1.4"/><path d="M14 14h2.5v2.5H14zM19.5 19.5H17M14 19.5h.01M19.5 14v.01"/></symbol>
+<symbol id="h-bell" viewBox="0 0 24 24"><path d="M18 8.5a6 6 0 1 0-12 0c0 6.5-2.5 8.5-2.5 8.5h17S18 15 18 8.5"/><path d="M13.7 20.5a2 2 0 0 1-3.4 0"/></symbol>
+<symbol id="h-dpad" viewBox="0 0 24 24"><path d="M9.2 3h5.6v6.2H21v5.6h-6.2V21H9.2v-6.2H3V9.2h6.2z" fill="currentColor" stroke="none"/></symbol>
+<symbol id="b-github" viewBox="0 0 24 24"><path fill="currentColor" stroke="none" d="M12 .3a12 12 0 0 0-3.8 23.38c.6.12.83-.26.83-.57L9 21.07c-3.34.72-4.04-1.61-4.04-1.61-.55-1.39-1.34-1.76-1.34-1.76-1.08-.74.09-.73.09-.73 1.2.09 1.84 1.24 1.84 1.24 1.07 1.83 2.8 1.3 3.49 1 .1-.78.42-1.31.76-1.61-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.14-.3-.54-1.52.1-3.18 0 0 1-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.28-1.55 3.29-1.23 3.29-1.23.64 1.66.24 2.88.12 3.18a4.65 4.65 0 0 1 1.23 3.22c0 4.61-2.8 5.63-5.48 5.92.42.36.81 1.1.81 2.22l-.01 3.29c0 .32.21.69.82.57A12 12 0 0 0 12 .3"/></symbol>
+<symbol id="b-discord" viewBox="0 0 24 24"><path fill="currentColor" stroke="none" d="M20.32 4.37a19.8 19.8 0 0 0-4.89-1.52.07.07 0 0 0-.08.04c-.21.38-.44.86-.61 1.25a18.27 18.27 0 0 0-5.49 0 12.64 12.64 0 0 0-.62-1.25.08.08 0 0 0-.08-.04 19.74 19.74 0 0 0-4.88 1.52.07.07 0 0 0-.03.03C.53 9.05-.32 13.58.1 18.06a.08.08 0 0 0 .03.06 19.9 19.9 0 0 0 5.99 3.03.08.08 0 0 0 .08-.03c.46-.63.87-1.3 1.23-1.99a.08.08 0 0 0-.04-.11 13.1 13.1 0 0 1-1.87-.89.08.08 0 0 1-.01-.13l.37-.29a.07.07 0 0 1 .08-.01c3.93 1.79 8.18 1.79 12.06 0a.07.07 0 0 1 .08.01l.37.29a.08.08 0 0 1-.01.13c-.6.35-1.22.65-1.87.89a.08.08 0 0 0-.04.11c.36.7.77 1.36 1.22 1.99a.08.08 0 0 0 .09.03 19.84 19.84 0 0 0 6-3.03.08.08 0 0 0 .03-.06c.5-5.18-.84-9.67-3.55-13.66a.06.06 0 0 0-.03-.03ZM8.02 15.33c-1.18 0-2.16-1.08-2.16-2.42 0-1.33.96-2.42 2.16-2.42 1.21 0 2.18 1.1 2.16 2.42 0 1.34-.96 2.42-2.16 2.42Zm7.97 0c-1.18 0-2.16-1.08-2.16-2.42 0-1.33.96-2.42 2.16-2.42 1.21 0 2.18 1.1 2.16 2.42 0 1.34-.95 2.42-2.16 2.42Z"/></symbol>
+</svg>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="topbar">
+  <div class="topbar__inner">
+    <a class="brand" href="../" aria-label="JukaHub home">
+      <img src="../assets/img/jukahub-mark.svg" alt="" width="30" height="30">
+      <span class="brand__name">JukaHub</span>
+      <span class="brand__ver">v0.4.0</span>
+    </a>
+    <button class="menu-toggle" type="button" aria-controls="nav" aria-expanded="false" aria-label="Menu">
+      <svg class="ico ico--menu" aria-hidden="true"><use href="#i-menu"/></svg>
+      <svg class="ico ico--close" aria-hidden="true"><use href="#i-close"/></svg>
+    </button>
+    <nav aria-label="Main">
+      <ul class="nav" id="nav">
+        <li><a href="../features/">Features</a></li>
+        <li><a href="./" aria-current="page">Install</a></li>
+        <li><a href="https://generate.jukalang.com/">Web builder <svg class="ico" aria-hidden="true"><use href="#i-external"/></svg></a></li>
+        <li><a href="https://github.com/jukaLang/JukaHubV2/tree/main/docs">Docs <svg class="ico" aria-hidden="true"><use href="#i-external"/></svg></a></li>
+        <li><a href="../#community">Community</a></li>
+      </ul>
+    </nav>
+    <div class="topbar__actions">
+      <a class="icon-link" href="https://github.com/jukaLang/JukaHubV2" aria-label="JukaHub on GitHub"><svg class="ico" aria-hidden="true"><use href="#b-github"/></svg></a>
+      <a class="btn btn--primary btn--sm" href="https://github.com/jukaLang/JukaHubV2/releases/latest/download/JukaHub-Trimui.zip">Download</a>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+  <header class="pagehead">
+    <div class="wrap">
+      <h1 class="pagehead__title">Install JukaHub</h1>
+      <p class="pagehead__lead">Five steps, no firmware swap, on the stock OS or on CrossMix. You need the handheld, its SD card and Wi-Fi. Ten minutes from now it is a media and gaming console.</p>
+      <div class="pagehead__cta">
+        <a class="btn btn--primary" href="https://github.com/jukaLang/JukaHubV2/releases/latest/download/JukaHub-Trimui.zip"><span class="k" aria-hidden="true">A</span>Download for TrimUI</a>
+        <a class="btn btn--glass" href="https://github.com/jukaLang/JukaHubV2/releases/latest/download/JukaHub-Windows.zip">Download for Windows</a>
+      </div>
+      <p class="hero__meta"><span data-release-date>Version 0.4.0.</span></p>
+    </div>
+  </header>
+
+  <div class="wrap doc">
+    <nav class="toc" aria-label="On this page">
+      <p>On this page</p>
+      <ol>
+        <li><a href="#download">Download</a></li>
+        <li><a href="#steps">Install</a></li>
+        <li><a href="#first-run">First run</a></li>
+        <li><a href="#controls">Controls</a></li>
+        <li><a href="#copy-files">Copy files from a PC</a></li>
+        <li><a href="#phone">Phone as a keyboard</a></li>
+        <li><a href="#updating">Updating</a></li>
+        <li><a href="#devices">Other devices</a></li>
+        <li><a href="#troubleshooting">Something wrong?</a></li>
+        <li><a href="#uninstall">Uninstall</a></li>
+      </ol>
+    </nav>
+
+    <div class="doc__body">
+      <section class="doc__section" id="download">
+        <h2>Download</h2>
+        <p>Every release carries two archives. Pick the one for where JukaHub will run; both always point at the newest published build.</p>
+        <div class="dl">
+          <div class="dl__rows">
+            <div class="dl__row">
+              <span><span class="dl__file">JukaHub-Trimui.zip</span><span class="dl__for">TrimUI Smart Pro, Smart Pro S, Brick, Brick Pro and Hammer</span></span>
+              <a class="btn btn--primary btn--sm" href="https://github.com/jukaLang/JukaHubV2/releases/latest/download/JukaHub-Trimui.zip" aria-label="Download JukaHub-Trimui.zip"><svg class="ico" aria-hidden="true"><use href="#i-download"/></svg>Download</a>
+            </div>
+            <div class="dl__row">
+              <span><span class="dl__file">JukaHub-Windows.zip</span><span class="dl__for">A Windows build for trying JukaHub on a PC</span></span>
+              <a class="btn btn--glass btn--sm" href="https://github.com/jukaLang/JukaHubV2/releases/latest/download/JukaHub-Windows.zip" aria-label="Download JukaHub-Windows.zip"><svg class="ico" aria-hidden="true"><use href="#i-download"/></svg>Download</a>
+            </div>
+          </div>
+          <p class="dl__release" data-release-line></p>
+          <div class="dl__links">
+            <a class="link" href="https://github.com/jukaLang/JukaHubV2/releases">Release notes and older builds</a>
+            <a class="link" href="https://github.com/jukaLang/JukaHubV2/blob/main/CHANGELOG.md">Changelog</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="doc__section" id="steps">
+        <h2>Install on the SD card</h2>
+        <ol class="steps">
+          <li><span class="steps__text">Download <b>JukaHub-Trimui.zip</b> from the latest release.</span></li>
+          <li><span class="steps__text">Turn the handheld off and put its SD card in your computer.</span></li>
+          <li><span class="steps__text">Extract the zip. Inside is one folder, <b>JukaHub-Trimui</b>.</span></li>
+          <li><span class="steps__text">Rename that folder to <b>JukaHub</b> and copy it into the card's <b>Apps</b> folder, so that <code>launch.sh</code> ends up at <code>Apps/JukaHub/launch.sh</code>.</span></li>
+          <li><span class="steps__text">Put the card back, power on, and open <b>Apps</b>, then <b>JukaHub</b>.</span></li>
+        </ol>
+        <p>When you are done, the folder looks like this. That is the whole installation:</p>
+<pre class="codeblock">SDCARD/Apps/JukaHub/
+├── JukaHub            the application
+├── launch.sh
+├── config.json        the Apps-menu entry
+├── jukaconfig.json    the interface
+├── JukaPlayer.png     the icon in the Apps menu
+├── Inter-Regular.ttf
+├── background.jpg
+├── SECURITY.md        read by Tools → Security &amp; trust
+└── release-info.json  which build this is</pre>
+        <p>There is nothing else to set up. The firmware already ships SDL2, so there are no extra libraries, and no Python or build tools are needed on the device.</p>
+        <p class="note">If JukaHub does not appear in <b>Apps</b>, reboot: the stock launcher only scans <code>Apps</code> at startup. Also check that the folder is exactly <code>Apps/JukaHub</code> and that <code>launch.sh</code> is directly inside it, not in a <code>JukaHub-Trimui</code> folder one level down.</p>
+      </section>
+
+      <section class="doc__section" id="first-run">
+        <h2>First run</h2>
+        <p>The first start fetches two helpers, <code>yt-dlp</code> and <code>ffmpeg</code>, which needs Wi-Fi and takes a minute or two, once. Later starts are instant.</p>
+        <p>Home is a grid of tiles: <b>Continue</b>, <b>Media</b>, <b>Files</b>, <b>Packages</b>, <b>Apps</b>, <b>Favorites</b>, <b>Browser</b>, <b>Chat</b>, <b>Tools</b>, <b>Emulator</b> and <b>Settings</b>, with <b>Exit</b> in the footer. The PS4 and PS5 pills and the phone-pairing QR sit under the top bar on the right; the weather, the clock and the notification bell are in the bar itself.</p>
+        <p>Turn Wi-Fi on in Quick Settings, then join a network from <b>Quick Settings → Wi-Fi Networks</b> before using YouTube or the weather. Your settings are stored in <code>Apps/JukaHub/jukauser.json</code> and survive updates.</p>
+        <p class="doc__cta"><a class="link" href="https://github.com/jukaLang/JukaHubV2/blob/main/docs/TOUR.md">Take the ten-minute tour</a></p>
+      </section>
+
+      <section class="doc__section" id="controls">
+        <h2>Controls</h2>
+        <p>Every screen is reachable with the D-pad and the four face buttons. On a PC without a controller, JukaHub shows keyboard keys in its hints instead.</p>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr><th scope="col">Button</th><th scope="col">What it does</th><th scope="col">Keyboard</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>D-pad or left stick</td><td>Move the selection</td><td>Arrow keys</td></tr>
+              <tr><td><span class="k">A</span></td><td>Open or confirm</td><td>Enter or Space</td></tr>
+              <tr><td><span class="k">B</span></td><td>Back</td><td>Esc</td></tr>
+              <tr><td><span class="k">X</span></td><td>Secondary action: delete, toggle or search, depending on the screen</td><td>X</td></tr>
+              <tr><td><span class="k">Y</span></td><td>Tertiary action: new, save, or submit in the chat keyboard</td><td>Y</td></tr>
+              <tr><td><span class="k">L1</span> <span class="k">R1</span></td><td>Previous or next page of a list, or a 10 second skip in the player</td><td>Page Up, Page Down; Shift+← / → in the player</td></tr>
+              <tr><td><span class="k">L2</span> <span class="k">R2</span></td><td>A bigger jump: first or last row, or the previous or next section on Home</td><td>Home, End; Q, E on Home</td></tr>
+              <tr><td><span class="k">Start</span></td><td>The Start menu: every scene, game and tool</td><td>F10</td></tr>
+              <tr><td><span class="k">Select</span> + <span class="k">Start</span>, held</td><td>Quit JukaHub and return to the stock launcher, from any screen</td><td>Alt+F4 on a PC</td></tr>
+              <tr><td><span class="k">L</span> + <span class="k">R</span> + <span class="k">Start</span> while starting</td><td>Safe mode and the recovery card</td><td>Ctrl+Alt+R</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p>On a keyboard, <b>F1</b> opens the controls for the screen you are on. On the Brick and Hammer, the two small keys under the screen open that card (F1) and Quick Settings (F2).</p>
+        <p class="doc__cta"><a class="link" href="https://github.com/jukaLang/JukaHubV2/blob/main/docs/CONTROLS.md">Every button, screen by screen</a></p>
+      </section>
+
+      <section class="doc__section" id="copy-files">
+        <h2>Copy files from a PC</h2>
+        <ol class="steps">
+          <li><span class="steps__text">Connect the handheld to the same Wi-Fi as your PC.</span></li>
+          <li><span class="steps__text">Open <b>Tools</b> and note the <b>IP address</b>. Press <span class="k">A</span> to copy it.</span></li>
+          <li><span class="steps__text">Start the <b>FTP server</b> in <b>Tools → Network tools</b>. The panel shows the address, such as <code>ftp://192.168.1.42:2121</code>, the user name <code>juka</code> and a password made up for this start.</span></li>
+          <li><span class="steps__text">On your PC, paste that address into Explorer or Finder (or any FTP client), sign in, and drop files into <code>Roms</code>, <code>BIOS</code>, <code>Saves</code> or your media folders.</span></li>
+        </ol>
+        <p>The rest of the card, including the apps, emulator scripts and system files, is not shared. FTP is not encrypted, so on a network you do not trust use <b>Tools → SSH / SFTP</b> instead: it speaks SFTP only, with a random password for every start, and works with WinSCP, FileZilla, Cyberduck, Finder or the <code>sftp</code> command. Both servers switch themselves off after 15 idle minutes or when the handheld changes network.</p>
+      </section>
+
+      <section class="doc__section" id="phone">
+        <h2>Use your phone as a keyboard</h2>
+        <p>Typing a search on a D-pad is slow. <b>Tools → Phone companion</b> shows a QR code; scan it with your phone camera (phone and handheld on the same Wi-Fi) and the phone opens a small page with:</p>
+        <ul>
+          <li><b>Type:</b> a text box whose contents appear in whichever field has focus.</li>
+          <li><b>Remote:</b> D-pad, A, B, X, Y, Start, Back and the shoulder buttons.</li>
+          <li><b>Send a link:</b> paste a YouTube, video or stream link and it starts playing on the handheld.</li>
+          <li><b>Send a file:</b> uploads land in the <code>PhoneDrop</code> folder, ready for the file browser or the player.</li>
+        </ul>
+        <p>The QR carries a fresh six-digit PIN, so nothing has to be typed on the device. <span class="k">Y</span> issues a new PIN on the spot, which also invalidates every link already shared.</p>
+      </section>
+
+      <section class="doc__section" id="updating">
+        <h2>Updating</h2>
+        <p>JukaHub updates itself. When a newer release exists, a download icon appears in the Home header. Select it and press <span class="k">A</span>: JukaHub downloads the archive for your platform, checks it against the SHA-256 digest GitHub publishes and, when the release ships a signed <code>release.json</code>, verifies its Ed25519 signature. Then it replaces the app files and restarts.</p>
+        <p>Your <code>jukauser.json</code> settings, favorites and media are untouched, and an interrupted update is rolled back at the next launch. After the restart, <b>What's new</b> opens once with that release's notes. To turn automatic checks off, set <code>JUKAHUB_NO_AUTOUPDATE=1</code>, or update by hand by extracting a new release over <code>Apps/JukaHub</code>.</p>
+      </section>
+
+      <section class="doc__section" id="devices">
+        <h2>Other devices</h2>
+        <p>The same package runs on the whole TrimUI line. JukaHub detects the panel and picks its canvas by itself:</p>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr><th scope="col">Device</th><th scope="col">Screen</th><th scope="col">Canvas</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>Smart Pro, Smart Pro S</td><td>1280 × 720</td><td>1280 × 720</td></tr>
+              <tr><td>Brick, Brick Pro, Hammer</td><td>1024 × 768 (4:3)</td><td>960 × 720, scaled to the panel</td></tr>
+              <tr><td>Windows</td><td>A window on your PC</td><td>For trying JukaHub before you copy it to a card</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="doc__section" id="troubleshooting">
+        <h2>Something wrong?</h2>
+        <p>The logs are on the SD card, so you can read them on a PC without SSH.</p>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr><th scope="col">Problem</th><th scope="col">What to do</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>Not in the Apps menu</td><td>Reboot. Check the folder is <code>Apps/JukaHub</code> and contains <code>launch.sh</code>.</td></tr>
+              <tr><td>Black screen, or it closes at once</td><td>Send <code>Apps/JukaHub/errors.txt</code> (the launcher's log) and the newest <code>crash-*.txt</code> next to it. On Windows they are in <code>%LOCALAPPDATA%\JukaHub\logs</code>.</td></tr>
+              <tr><td>A plugin, a setting or an update broke startup</td><td>Hold <span class="k">L</span> + <span class="k">R</span> + <span class="k">Start</span> while JukaHub starts for safe mode and a recovery card: the previous version, your last good settings, or a reset. Three failed starts in a row open it by themselves.</td></tr>
+              <tr><td>The screen blinks between the stock menu and JukaHub after an update</td><td>The launcher on the card is older than the app. Update once more, or copy <code>launch.sh</code> from the release archive over <code>Apps/JukaHub/launch.sh</code>, then reboot.</td></tr>
+              <tr><td>YouTube search fails</td><td>Check Wi-Fi, then open <b>Logs</b> from the Start menu.</td></tr>
+              <tr><td>Video stutters</td><td>Settings → playback resolution: try 480 or 360.</td></tr>
+              <tr><td>Text shows as boxes</td><td><code>Inter-Regular.ttf</code> is missing from <code>Apps/JukaHub</code>.</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p>Still stuck? <b>Tools → Community &amp; support → Report a bug</b> opens a GitHub issue with redacted diagnostics already filled in, or ask on <a class="link" href="https://discord.gg/R9qgJjh5jG">Discord</a>.</p>
+      </section>
+
+      <section class="doc__section" id="uninstall">
+        <h2>Uninstall</h2>
+        <p>Delete the <code>Apps/JukaHub</code> folder. JukaHub keeps its settings and data inside it, so a few things are worth doing first:</p>
+        <ul>
+          <li><b>Keep your snapshots and downloads.</b> Save Manager snapshots are in <code>Apps/JukaHub/data/save-manager</code>, and saved music and videos in <code>data/downloads</code>. Copy them out if you want them.</li>
+          <li><b>Turn off Start at login</b> if you switched it on: it adds <code>System/starts/jukahub-autostart.sh</code> outside the app folder.</li>
+          <li><b>Know what stays with your games.</b> Save-state resume turns on RetroArch's auto-save and auto-load (the original setting is kept as <code>retroarch.cfg.jukahub-backup</code>), and cue sheets or playlists made by Disc helpers stay next to your ROMs. Both keep working without JukaHub.</li>
+        </ul>
+      </section>
+    </div>
+  </div>
+</main>
+
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer__grid">
+      <div class="footer__brand">
+        <img src="../assets/img/jukahub-logo.svg" alt="JukaHub" width="56" height="56">
+        <p>A media and gaming shell for TrimUI handhelds, from the Juka project.</p>
+      </div>
+      <div>
+        <h2>JukaHub</h2>
+        <ul>
+          <li><a href="../features/">Features</a></li>
+          <li><a href="./">Install guide</a></li>
+          <li><a href="https://generate.jukalang.com/">Web builder</a></li>
+          <li><a href="https://github.com/jukaLang/JukaHubV2/releases">Releases</a></li>
+          <li><a href="https://github.com/jukaLang/JukaHubV2/blob/main/CHANGELOG.md">Changelog</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Help</h2>
+        <ul>
+          <li><a href="https://github.com/jukaLang/JukaHubV2/tree/main/docs">Documentation</a></li>
+          <li><a href="https://github.com/jukaLang/JukaHubV2/blob/main/docs/CONTROLS.md">Controls</a></li>
+          <li><a href="#troubleshooting">Troubleshooting</a></li>
+          <li><a href="https://discord.gg/R9qgJjh5jG">Discord</a></li>
+          <li><a href="https://github.com/jukaLang/JukaHubV2/issues">Report a bug</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Juka</h2>
+        <ul>
+          <li><a href="https://github.com/jukaLang/Juka">Juka language</a></li>
+          <li><a href="https://ide.jukalang.com/">Try Juka online</a></li>
+          <li><a href="https://os.jukalang.com/">JukaOS</a></li>
+          <li><a href="https://github.com/jukaLang">All projects</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>About</h2>
+        <ul>
+          <li><a href="https://github.com/jukaLang/JukaHubV2/blob/main/LICENSE">License (AGPL-3.0)</a></li>
+          <li><a href="../privacy/">Privacy</a></li>
+          <li><a href="https://github.com/jukaLang/JukaHubV2/blob/main/SECURITY.md">Security</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__legal">
+      <p>JukaHub is free software under the GNU Affero General Public License v3, and it includes no games, BIOS files or firmware. TrimUI, PlayStation, PS4, PS5, YouTube, Discord, Nintendo, Sega, Windows and other names are trademarks of their owners; JukaHub is not affiliated with or endorsed by them.</p>
+      <p>This site sets no cookies and runs no analytics.</p>
+    </div>
+  </div>
+</footer>
+</body>
+</html>

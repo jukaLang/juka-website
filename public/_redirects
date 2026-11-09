@@ -1,0 +1,60 @@
+# Redirects for jukalang.com (Netlify reads this file).
+#
+# Until November 2026 jukalang.com was a Docusaurus site for the Juka
+# programming language, in six languages. Its pages are gone; these rules send
+# old links somewhere useful instead of to a 404. The language itself lives at
+# github.com/jukaLang/Juka.
+
+# Pages that have a direct successor here
+/download             /install/                                                    301
+/download/            /install/                                                    301
+/community            /#community                                                  301
+/community/           /#community                                                  301
+/contact              /#community                                                  301
+/contact/             /#community                                                  301
+/tools                /features/                                                   301
+/tools/               /features/                                                   301
+/donate               /                                                            301
+/donate/              /                                                            301
+/changelog            https://github.com/jukaLang/JukaHubV2/blob/main/CHANGELOG.md 301
+/changelog/           https://github.com/jukaLang/JukaHubV2/blob/main/CHANGELOG.md 301
+/license              https://github.com/jukaLang/JukaHubV2/blob/main/LICENSE      301
+/license/             https://github.com/jukaLang/JukaHubV2/blob/main/LICENSE      301
+
+# The Juka language's documentation, guide, examples and quiz
+/docs                 https://github.com/jukaLang/Juka                             301
+/docs/*               https://github.com/jukaLang/Juka                             301
+/learn                https://github.com/jukaLang/Juka                             301
+/learn/               https://github.com/jukaLang/Juka                             301
+/examples             https://github.com/jukaLang/Juka                             301
+/examples/            https://github.com/jukaLang/Juka                             301
+/quiz                 https://github.com/jukaLang/Juka                             301
+/quiz/                https://github.com/jukaLang/Juka                             301
+/blog                 /                                                            301
+/blog/*               /                                                            301
+
+# The translated copies of the old site. Each registered its own service
+# worker; serve the clean-up worker at those paths (200 = rewrite: browsers
+# refuse a redirected service-worker update), before the catch-alls below.
+/ru/sw.js             /sw.js                                                       200
+/zh/sw.js             /sw.js                                                       200
+/es/sw.js             /sw.js                                                       200
+/fr/sw.js             /sw.js                                                       200
+/de/sw.js             /sw.js                                                       200
+/ru                   /                                                            301
+/zh                   /                                                            301
+/es                   /                                                            301
+/fr                   /                                                            301
+/de                   /                                                            301
+/ru/*                 /:splat                                                      301
+/zh/*                 /:splat                                                      301
+/es/*                 /:splat                                                      301
+/fr/*                 /:splat                                                      301
+/de/*                 /:splat                                                      301
+
+# Old image and manifest paths that other sites may still embed
+/img/juka.png         /assets/img/icon-512.png                                     301
+/img/juka_app.png     /apple-touch-icon.png                                        301
+/img/logo.svg         /assets/img/jukahub-logo.svg                                 301
+/img/favicon.png      /favicon.png                                                 301
+/manifest.json        /site.webmanifest                                            301

@@ -1,0 +1,13 @@
+# Editors and operating systems
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+
+# Python helpers in tools/
+__pycache__/
+*.pyc
+
+# Local backups (the pre-2026-11 Docusaurus site was zipped next to this file)
+/old-site-backup-*.zip

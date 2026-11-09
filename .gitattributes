@@ -1,0 +1,7 @@
+# Auto-detect text files and normalise line endings to LF in the repository.
+* text=auto
+
+*.png  binary
+*.jpg  binary
+*.woff2 binary
+*.zip  binary

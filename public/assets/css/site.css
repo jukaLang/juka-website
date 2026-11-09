@@ -211,6 +211,17 @@ code {
   white-space: nowrap;
 }
 
+/* Code inside a block keeps the block's own lines and look. */
+pre code {
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: none;
+  color: inherit;
+  font-size: inherit;
+  white-space: inherit;
+}
+
 hr {
   border: 0;
   border-top: 1px solid var(--line);
@@ -273,7 +284,7 @@ hr {
 }
 
 .section {
-  padding-block: clamp(80px, 11vw, 150px);
+  padding-block: clamp(72px, 8.4vw, 118px);
 }
 
 .section--tight {
@@ -299,6 +310,14 @@ hr {
   line-height: 1.55;
   color: var(--ink-2);
   max-width: 62ch;
+}
+
+.section__title + .section__lead {
+  margin-top: 20px;
+}
+
+.section__head .section__lead {
+  margin-top: 0;
 }
 
 .prose a,
@@ -457,6 +476,20 @@ hr {
   border-radius: 10px;
 }
 
+/* The menu button comes right after the brand in the markup, so on a narrow
+   screen Tab reaches it and then the menu it opens; it is drawn last. */
+.topbar__inner > nav {
+  order: 1;
+}
+
+.topbar__actions {
+  order: 2;
+}
+
+.topbar__inner > .menu-toggle {
+  order: 3;
+}
+
 .brand img {
   width: 30px;
   height: 30px;
@@ -574,12 +607,12 @@ hr {
 
 /* ── Hero ───────────────────────────────────────────────────────────────── */
 .hero {
-  padding-top: clamp(40px, 6.5vw, 84px);
+  padding-top: clamp(32px, 4.4vw, 60px);
   padding-bottom: clamp(48px, 6vw, 80px);
 }
 
 .hero__title {
-  font-size: clamp(42px, 6.3vw, 84px);
+  font-size: clamp(42px, 5.6vw, 78px);
   font-weight: 650;
   line-height: 0.98;
   letter-spacing: -0.04em;
@@ -591,7 +624,7 @@ hr {
   grid-template-columns: minmax(0, 7fr) minmax(0, 5fr);
   gap: 28px clamp(32px, 5vw, 72px);
   align-items: end;
-  margin-top: clamp(24px, 3vw, 36px);
+  margin-top: clamp(20px, 2.3vw, 30px);
 }
 
 .hero__lead {
@@ -615,7 +648,7 @@ hr {
 
 /* ── Stage: the live device ─────────────────────────────────────────────── */
 .stage {
-  margin-top: clamp(40px, 5vw, 64px);
+  margin-top: clamp(32px, 3.4vw, 48px);
 }
 
 .stage__device {
@@ -633,8 +666,10 @@ hr {
   margin-top: clamp(28px, 3.4vw, 44px);
 }
 
+/* Room for the longest caption, so the page below does not jump as the ring
+   moves (more lines on a phone). */
 .caption {
-  min-height: 3.2em;
+  min-height: 4.8em;
   max-width: 64ch;
   font-size: 16.5px;
   line-height: 1.6;
@@ -684,9 +719,10 @@ hr {
    rings round the sticks lit in Home's two bloom colours. Everything is placed
    in percentages of the body so it scales as one object. */
 .device {
-  /* As wide as the column allows, but short enough that the whole handheld
-     fits under the headline on a laptop screen. */
-  --dw: min(1180px, 100cqw, max(720px, calc((100svh - 470px) * 2.25)));
+  /* As wide as the column allows, and short enough to fit under the headline
+     on a tall screen, but never so small that the panels inside become
+     unreadable (940 px leaves a 560 px screen). */
+  --dw: min(1180px, 100cqw, max(940px, calc((100svh - 470px) * 2.25)));
   position: relative;
   width: var(--dw);
   aspect-ratio: 2.25 / 1;
@@ -1503,7 +1539,7 @@ hr {
 
 .ui-t small {
   margin-top: calc(3 * var(--u));
-  font-size: calc(15.5 * var(--u));
+  font-size: calc(14.5 * var(--u));
   line-height: 1.3;
   color: rgba(232, 238, 246, 0.62);
 }
@@ -1647,16 +1683,18 @@ hr {
   transform: scale(0.98);
 }
 
-/* Overlay layer: a panel over the dimmed Home, in Home's own navy. */
+/* Overlay layer: a panel over the dimmed Home, in Home's own navy. Its type
+   is set an eighth larger than the device's own, so the rows stay readable
+   on a laptop-sized miniature. */
 .ui-layer {
   position: absolute;
   inset: 0;
   z-index: 20;
   display: grid;
   place-items: center;
-  padding: calc(40 * var(--u));
+  padding: calc(28 * var(--u));
   background: rgba(7, 11, 18, 0.74);
-  font-size: calc(16 * var(--u));
+  font-size: calc(18 * var(--u));
   animation: ui-fade 160ms ease-out;
 }
 
@@ -1674,7 +1712,7 @@ hr {
   position: absolute;
   left: 50%;
   top: calc(66 * var(--u));
-  z-index: 30;
+  z-index: 48;
   max-width: 82%;
   padding: calc(12 * var(--u)) calc(22 * var(--u));
   transform: translateX(-50%);
@@ -1937,7 +1975,7 @@ hr {
 }
 
 .srow__a--muted {
-  color: rgba(232, 238, 246, 0.5);
+  color: rgba(232, 238, 246, 0.6);
 }
 
 .srow.is-f {
@@ -2053,6 +2091,8 @@ hr {
 .sdcard {
   position: relative;
   isolation: isolate;
+  width: 100%;
+  min-width: 0;
   max-width: 470px;
   margin-inline: auto;
   padding: 30px 30px 34px;
@@ -2222,6 +2262,7 @@ hr {
 /* Watch: the Continue card's blurred thumbnail, play disc and progress. */
 .tile--watch {
   min-height: 100%;
+  padding-top: 112px;
   justify-content: flex-end;
   background: transparent;
   border-color: rgba(255, 255, 255, 0.07);
@@ -2280,6 +2321,7 @@ hr {
 
 .tile__progress {
   position: relative;
+  display: block;
   height: 6px;
   margin-top: 22px;
   border-radius: 999px;
@@ -2662,27 +2704,32 @@ hr {
   overflow: visible;
 }
 
+/* Hairlines stay one pixel wide whatever the drawing is scaled to. */
+.canvas__svg rect {
+  vector-effect: non-scaling-stroke;
+}
+
 .canvas__frame {
   fill: rgba(255, 255, 255, 0.025);
-  stroke: rgba(255, 255, 255, 0.16);
-  stroke-width: 2;
+  stroke: rgba(255, 255, 255, 0.18);
+  stroke-width: 1;
 }
 
 .canvas__box {
   fill: rgba(255, 255, 255, 0.045);
-  stroke: rgba(255, 255, 255, 0.12);
-  stroke-width: 2;
+  stroke: rgba(255, 255, 255, 0.13);
+  stroke-width: 1;
 }
 
 .canvas__box--accent {
   fill: rgba(34, 211, 238, 0.1);
-  stroke: rgba(34, 211, 238, 0.4);
+  stroke: rgba(34, 211, 238, 0.45);
 }
 
 .canvas__box--focus {
   fill: rgba(34, 211, 238, 0.07);
   stroke: var(--cyan);
-  stroke-width: 6;
+  stroke-width: 2.5;
 }
 
 .canvas__bar {
@@ -2709,13 +2756,13 @@ hr {
 /* ── Builder: the file and the tile it draws ────────────────────────────── */
 .builder {
   display: grid;
-  grid-template-columns: minmax(0, 5fr) minmax(0, 7fr);
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
   gap: clamp(40px, 6vw, 88px);
   align-items: center;
 }
 
 .builder__text p + p {
-  margin-top: 16px;
+  margin-top: 18px;
 }
 
 .builder__text p {
@@ -3178,18 +3225,21 @@ hr {
 .doc__section > .table-wrap,
 .doc__section > .note,
 .doc__section > pre,
-.doc__section > .feature-list,
+.doc__section > .dl,
 .doc__section > .doc__cta {
   margin-top: 18px;
 }
 
-.doc__section p,
-.doc__section li {
+.doc__section > p,
+.doc__section > ul > li,
+.doc__section > ol > li {
   color: var(--ink-2);
 }
 
-.doc__section ul,
-.doc__section ol:not(.steps) {
+/* Plain lists only: the feature list and the numbered steps keep their own
+   layout. */
+.doc__section > ul:not(.feature-list),
+.doc__section > ol:not(.steps) {
   display: grid;
   gap: 10px;
   padding-left: 1.3em;
@@ -3261,7 +3311,7 @@ td:first-child {
 .feature-list {
   display: grid;
   gap: 2px;
-  padding: 0 !important;
+  padding: 0;
   list-style: none;
 }
 
@@ -3333,8 +3383,14 @@ td:first-child {
   color: inherit;
 }
 
-.lost .srow:hover {
+/* Rows are real links here: the device's focus look follows the pointer and
+   the keyboard instead of sitting on one row. */
+.lost .srow:hover,
+.lost .srow:focus-visible {
   background: rgba(255, 255, 255, 0.08);
+  outline: max(2px, 0.1875em) solid var(--cyan);
+  outline-offset: 0.1875em;
+  box-shadow: 0 0 1.75em rgba(34, 211, 238, 0.28);
 }
 
 /* ── Responsive ─────────────────────────────────────────────────────────── */
@@ -3478,6 +3534,10 @@ td:first-child {
     border-radius: 12px;
   }
 
+  .caption {
+    min-height: 7.2em;
+  }
+
   .device__bezel::after {
     inset: 6px;
   }
@@ -3488,6 +3548,15 @@ td:first-child {
 
   .tile {
     min-height: 0;
+  }
+
+  .tile--watch {
+    min-height: 320px;
+  }
+
+  .tile--play {
+    flex-direction: column;
+    align-items: flex-start;
   }
 
   .tile--band {
@@ -3550,7 +3619,11 @@ td:first-child {
   }
 
   .tree {
-    font-size: 12.5px;
+    font-size: 13px;
+  }
+
+  .tree .tree__note {
+    display: none;
   }
 }
 
@@ -3593,9 +3666,20 @@ td:first-child {
     border: 1px solid CanvasText;
   }
 
+  /* A transparent outline is painted in a system colour here, so the resting
+     rings go and only real focus draws one. */
+  .tile,
+  .linkrow {
+    outline-style: none;
+  }
+
+  .tile:focus-visible,
+  .linkrow:focus-visible,
+  .screen:focus-visible,
   .ui .is-f,
   .srow.is-f {
-    outline-color: Highlight;
+    outline: 3px solid Highlight;
+    outline-offset: 3px;
   }
 }
 

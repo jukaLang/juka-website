@@ -1,0 +1,32 @@
+# Response headers for jukalang.com (Netlify reads this file).
+#
+# The pages have no inline scripts or styles and load nothing from a third
+# party: fonts, icons and scripts are all served from this origin. The one
+# outside request is the browser asking GitHub's public API for the date of
+# the latest JukaHub release (assets/js/site.js), hence connect-src.
+/*
+  Content-Security-Policy: default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'self' https://api.github.com; manifest-src 'self'; worker-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'; frame-ancestors 'none'; upgrade-insecure-requests
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: DENY
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: camera=(), microphone=(), geolocation=(), payment=(), usb=()
+  Cross-Origin-Opener-Policy: same-origin
+
+# The font file never changes under the same name; cache it for a year.
+/assets/fonts/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# The old site's service workers must always be re-checked so they can remove
+# themselves (see sw.js; the locale paths are rewrites to it in _redirects).
+/sw.js
+  Cache-Control: no-cache
+/ru/sw.js
+  Cache-Control: no-cache
+/zh/sw.js
+  Cache-Control: no-cache
+/es/sw.js
+  Cache-Control: no-cache
+/fr/sw.js
+  Cache-Control: no-cache
+/de/sw.js
+  Cache-Control: no-cache
