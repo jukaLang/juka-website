@@ -501,13 +501,6 @@ hr {
   letter-spacing: -0.015em;
 }
 
-.brand__ver {
-  font-size: 12.5px;
-  color: var(--ink-3);
-  font-feature-settings: "tnum";
-  transform: translateY(1px);
-}
-
 .nav {
   display: flex;
   align-items: center;
@@ -707,10 +700,61 @@ hr {
   display: none;
 }
 
+.stage__side {
+  display: grid;
+  justify-items: end;
+  gap: 14px;
+}
+
+/* Which Home the preview shows. Only useful with the script running. */
+.layout-switch {
+  display: none;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;
+}
+
+.js .layout-switch {
+  display: inline-flex;
+}
+
+.layout-switch__label {
+  margin-right: 6px;
+  color: var(--ink-3);
+}
+
+.layout-switch__btn {
+  padding: 6px 14px;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.04);
+  color: var(--ink-2);
+  font: 600 14px/1.2 var(--font);
+  cursor: pointer;
+  transition: background-color var(--t-fast) var(--ease), border-color var(--t-fast) var(--ease), color var(--t-fast) var(--ease);
+}
+
+.layout-switch__btn:hover {
+  border-color: rgba(255, 255, 255, 0.3);
+  color: var(--ink);
+}
+
+.layout-switch__btn[aria-pressed="true"] {
+  color: var(--ink);
+  background: rgba(34, 211, 238, 0.18);
+  border-color: var(--cyan-line);
+}
+
 .howto[data-input="key"] [data-mode="key"],
 .howto[data-input="pad"] [data-mode="pad"],
 .howto[data-input="touch"] [data-mode="touch"] {
   display: inline-flex;
+}
+
+/* Hints that belong to one Home only. */
+.howto[data-layout="tabs"] .howto__item[data-only="standard"],
+.howto[data-layout="standard"] .howto__item[data-only="tabs"] {
+  display: none;
 }
 
 /* ── The handheld ───────────────────────────────────────────────────────── */
@@ -1072,9 +1116,6 @@ hr {
   --u: calc(100cqw / 1280);
   position: absolute;
   inset: 0;
-  display: flex;
-  flex-direction: column;
-  padding: 0 calc(32 * var(--u));
   color: var(--ink);
   font-size: calc(16 * var(--u));
   line-height: 1.25;
@@ -1103,6 +1144,20 @@ hr {
   stroke-width: 2;
   stroke-linecap: round;
   stroke-linejoin: round;
+}
+
+/* The two Homes the preview can show: Tabs (the default) and Standard. */
+.ui-home {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 0 calc(32 * var(--u));
+}
+
+.ui[data-layout="tabs"] .ui-home--std,
+.ui[data-layout="standard"] .ui-home--tabs {
+  display: none;
 }
 
 /* Status bar */
@@ -1228,8 +1283,8 @@ hr {
 /* Header */
 .ui-head {
   flex: none;
-  height: calc(72 * var(--u));
-  margin-top: calc(16 * var(--u));
+  height: calc(84 * var(--u));
+  margin-top: calc(4 * var(--u));
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -1237,16 +1292,40 @@ hr {
 }
 
 .ui-greet {
-  font-size: calc(33 * var(--u));
+  font-size: calc(31 * var(--u));
   line-height: 1.22;
   font-weight: 600;
   letter-spacing: -0.015em;
 }
 
-.ui-subline {
-  margin-top: calc(2 * var(--u));
-  font-size: calc(17 * var(--u));
+.ui-search {
+  width: calc(446 * var(--u));
+  height: calc(38 * var(--u));
+  margin-top: calc(8 * var(--u));
+  display: flex;
+  align-items: center;
+  gap: calc(10 * var(--u));
+  padding: 0 calc(8 * var(--u)) 0 calc(14 * var(--u));
+  border-radius: 999px;
+  font-size: calc(15.5 * var(--u));
   color: rgba(232, 238, 246, 0.6);
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+}
+
+.ui-search svg {
+  width: calc(18 * var(--u));
+  height: calc(18 * var(--u));
+  flex: none;
+  color: rgba(232, 238, 246, 0.85);
+}
+
+.ui-search > span:first-of-type {
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
 .ui-hr {
@@ -1662,6 +1741,254 @@ hr {
   height: 1em;
 }
 
+/* ── The Tabs Home (JukaHubV2 player/hometabs_draw.go) ─────────────────── */
+/* The strip sits in the middle of the top bar on a band that fades out at
+   both ends; the active tab is a cyan pill. The page below is the body box
+   the device draws into: 40 px in from each side, 24 px under the bar, down
+   to the footer band. device.js lays its tiles out with the device's own
+   arithmetic (homeTabsLayout); without script they fall back to rows. */
+.ui-home--tabs .ui-status {
+  position: relative;
+}
+
+.ui-strip {
+  position: absolute;
+  left: 50%;
+  top: calc(10 * var(--u));
+  height: calc(36 * var(--u));
+  display: flex;
+  gap: calc(4 * var(--u));
+  transform: translateX(-50%);
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.07) calc(48 * var(--u)), rgba(255, 255, 255, 0.07) calc(100% - 48 * var(--u)), transparent);
+  border-radius: 999px;
+}
+
+.ui-tab {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 calc(16 * var(--u));
+  border-radius: 999px;
+  border: 1px solid transparent;
+  font-size: calc(15 * var(--u));
+  font-weight: 560;
+  color: rgba(232, 238, 246, 0.6);
+  white-space: nowrap;
+  cursor: pointer;
+  transition: background-color var(--t-fast) ease-out, color var(--t-fast) ease-out;
+}
+
+.ui-tab.is-on {
+  color: var(--ink);
+  background: rgba(34, 211, 238, 0.27);
+  border-color: rgba(34, 211, 238, 0.59);
+}
+
+/* The strip takes focus as a whole, and the ring goes round its active tab. */
+.ui .ui-strip.is-f {
+  outline: none;
+  transform: translateX(-50%);
+  box-shadow: none;
+}
+
+.ui-strip.is-f .ui-tab.is-on {
+  outline: max(1px, calc(3 * var(--u))) solid var(--cyan);
+  outline-offset: max(1px, calc(3 * var(--u)));
+  box-shadow: 0 0 calc(24 * var(--u)) rgba(34, 211, 238, 0.45);
+}
+
+.ui-sr__ico {
+  width: calc(18 * var(--u));
+  height: calc(18 * var(--u));
+}
+
+.ui-page {
+  position: relative;
+  flex: none;
+  height: calc(568 * var(--u));
+  margin: calc(24 * var(--u)) calc(8 * var(--u)) 0;
+}
+
+.ui-page.is-scroll {
+  clip-path: inset(calc(-14 * var(--u)) calc(-24 * var(--u)));
+}
+
+.ui-grid {
+  position: absolute;
+  inset: 0;
+  translate: calc(var(--sx, 0) * var(--u)) calc(var(--sy, 0) * var(--u));
+  transition: translate 220ms var(--ease);
+}
+
+.ui-grid.is-instant {
+  transition: none;
+}
+
+/* A new tab slides in from the side you travel to. */
+.ui-grid.is-in-right {
+  animation: ui-tab-in-right 220ms var(--ease);
+}
+
+.ui-grid.is-in-left {
+  animation: ui-tab-in-left 220ms var(--ease);
+}
+
+@keyframes ui-tab-in-right {
+  from { transform: translateX(calc(48 * var(--u))); opacity: 0; }
+  to { transform: none; opacity: 1; }
+}
+
+@keyframes ui-tab-in-left {
+  from { transform: translateX(calc(-48 * var(--u))); opacity: 0; }
+  to { transform: none; opacity: 1; }
+}
+
+/* No script: the Recent page as the device lays it out, a hero and rows. */
+.ui-grid--row:not(.is-laid) {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-rows: repeat(2, calc(236 * var(--u)));
+  grid-template-columns: calc(354 * var(--u));
+  grid-auto-columns: calc(236 * var(--u));
+  gap: calc(16 * var(--u));
+  padding-top: calc(40 * var(--u));
+}
+
+.ui-grid--row:not(.is-laid) .ui-tt--hero {
+  grid-row: span 2;
+}
+
+.ui-tt {
+  --w: 236;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: calc(10 * var(--u));
+  padding: calc(16 * var(--u));
+  border-radius: calc(20 * var(--u));
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  text-align: center;
+  overflow: hidden;
+  isolation: isolate;
+  cursor: pointer;
+  transition:
+    transform var(--t-fast) ease-out,
+    outline-color var(--t-fast) ease-out,
+    box-shadow var(--t-fast) ease-out;
+}
+
+.ui-grid.is-laid .ui-tt {
+  position: absolute;
+  left: calc(var(--x) * var(--u));
+  top: calc(var(--y) * var(--u));
+  width: calc(var(--w) * var(--u));
+  height: calc(var(--h) * var(--u));
+}
+
+.ui .ui-tt__glyph {
+  width: calc(var(--w) * 0.3 * var(--u));
+  height: calc(var(--w) * 0.3 * var(--u));
+  flex: none;
+  stroke-width: 1.6;
+}
+
+.ui-tt__text {
+  max-width: 100%;
+  min-width: 0;
+}
+
+.ui-tt b,
+.ui-tt small {
+  display: block;
+  max-width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.ui-tt b {
+  font-size: calc(21 * var(--u));
+  line-height: 1.2;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+.ui-tt small {
+  margin-top: calc(2 * var(--u));
+  font-size: calc(14.5 * var(--u));
+  line-height: 1.3;
+  color: rgba(232, 238, 246, 0.62);
+}
+
+.ui-tt.is-dim {
+  color: rgba(232, 238, 246, 0.5);
+}
+
+/* A tile with a cover: the picture fills it, the name sits bottom left over
+   a scrim (continueScrim on the device). */
+.ui-tt--art {
+  align-items: flex-start;
+  justify-content: flex-end;
+  text-align: left;
+  border-color: rgba(255, 255, 255, 0.12);
+}
+
+.ui-tt__art {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+}
+
+.ui-tt__art::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, transparent 42%, rgba(0, 0, 0, 0.72) 82%);
+}
+
+.ui-tt--art .ui-tt__text {
+  position: relative;
+}
+
+.ui-tt--hero b {
+  font-size: calc(27 * var(--u));
+  white-space: normal;
+}
+
+.ui-tt__badge {
+  position: absolute;
+  top: calc(8 * var(--u));
+  right: calc(8 * var(--u));
+  padding: calc(2 * var(--u)) calc(8 * var(--u));
+  border-radius: 999px;
+  font-size: calc(13 * var(--u));
+  font-weight: 700;
+  color: var(--cyan-ink);
+  background: rgba(34, 211, 238, 0.88);
+}
+
+/* Stand-in covers: Home's two blooms, tinted per system. No box art ships
+   with the site. */
+.ui-art--continue {
+  background:
+    radial-gradient(60% 70% at 30% 30%, rgba(34, 211, 238, 0.55), transparent 65%),
+    radial-gradient(50% 60% at 75% 25%, rgba(124, 58, 237, 0.6), transparent 62%),
+    linear-gradient(150deg, #0b2a3a, #15244a 55%, #08101c);
+}
+
+.ui-art--gb { background: radial-gradient(70% 60% at 50% 30%, #9bbc0f, transparent 70%), linear-gradient(160deg, #306230, #0f380f); }
+.ui-art--gba { background: radial-gradient(70% 60% at 40% 30%, #a78bfa, transparent 70%), linear-gradient(160deg, #4c1d95, #1e1b4b); }
+.ui-art--nes { background: radial-gradient(70% 60% at 60% 30%, #f87171, transparent 70%), linear-gradient(160deg, #7f1d1d, #1c1917); }
+.ui-art--snes { background: radial-gradient(70% 60% at 50% 30%, #c4b5fd, transparent 70%), linear-gradient(160deg, #5b5f97, #1f2440); }
+.ui-art--ps1 { background: radial-gradient(70% 60% at 50% 30%, #94a3b8, transparent 70%), linear-gradient(160deg, #334155, #0f172a); }
+.ui-art--md { background: radial-gradient(70% 60% at 50% 30%, #60a5fa, transparent 70%), linear-gradient(160deg, #1e3a8a, #0b1020); }
+.ui-art--nds { background: radial-gradient(70% 60% at 50% 30%, #cbd5e1, transparent 70%), linear-gradient(160deg, #475569, #111827); }
+.ui-art--p8 { background: radial-gradient(70% 60% at 50% 30%, #ff77a8, transparent 70%), linear-gradient(160deg, #7e2553, #1d2b53); }
+.ui-art--pc { background: radial-gradient(70% 60% at 50% 30%, #34d399, transparent 70%), linear-gradient(160deg, #065f46, #0b1320); }
+
 /* Focus: the only interactive style. Hover paints it too. */
 .ui [data-f] {
   cursor: pointer;
@@ -1672,8 +1999,8 @@ hr {
 }
 
 .ui .is-f {
-  outline: max(2px, calc(3 * var(--u))) solid var(--cyan);
-  outline-offset: max(2px, calc(4 * var(--u)));
+  outline: max(1px, calc(3 * var(--u))) solid var(--cyan);
+  outline-offset: max(1px, calc(4 * var(--u)));
   transform: scale(1.03);
   box-shadow: 0 0 calc(32 * var(--u)) rgba(34, 211, 238, 0.45);
   z-index: 5;
@@ -2049,6 +2376,37 @@ hr {
   font-size: clamp(9.5px, 0.62vw + 3.4px, 12px);
 }
 
+/* ── At a glance ────────────────────────────────────────────────────────── */
+.stats {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 24px;
+  margin: 0;
+  padding: 28px 0;
+  list-style: none;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+
+.stats b {
+  display: block;
+  font-size: clamp(34px, 3.6vw, 46px);
+  font-weight: 650;
+  line-height: 1;
+  letter-spacing: -0.03em;
+  font-feature-settings: "tnum";
+  color: var(--ink);
+}
+
+.stats span {
+  display: block;
+  margin-top: 10px;
+  font-size: 14.5px;
+  line-height: 1.45;
+  color: var(--ink-3);
+  max-width: 24ch;
+}
+
 /* ── One folder (SD card) ───────────────────────────────────────────────── */
 .split {
   display: grid;
@@ -2080,7 +2438,7 @@ hr {
   color: var(--cyan);
 }
 
-.points b {
+.points li > span > b:first-child {
   display: block;
   margin-bottom: 2px;
 }
@@ -2189,6 +2547,14 @@ hr {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 16px;
+}
+
+.board__row--wide {
+  grid-column: 1 / -1;
+}
+
+.board__row--wide .tile {
+  min-height: 200px;
 }
 
 .tile {
@@ -2525,7 +2891,7 @@ hr {
   max-width: 56ch;
 }
 
-.trust__list b {
+.trust__list li > b:first-child {
   display: block;
   margin-bottom: 3px;
 }
@@ -2692,7 +3058,7 @@ hr {
 /* Two canvases, drawn to scale. */
 .canvases {
   display: grid;
-  grid-template-columns: 1280fr 1024fr;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: clamp(20px, 3vw, 40px);
   align-items: end;
   margin-top: clamp(64px, 8vw, 104px);
@@ -2737,6 +3103,12 @@ hr {
   stroke: none;
 }
 
+.canvas__bar--accent {
+  fill: rgba(34, 211, 238, 0.08);
+  stroke: rgba(34, 211, 238, 0.35);
+  stroke-width: 1;
+}
+
 .canvas__cap {
   margin-top: 16px;
   font-size: 15px;
@@ -2747,7 +3119,7 @@ hr {
   font-feature-settings: "tnum";
 }
 
-.canvas__cap span {
+.canvas__cap > span {
   display: block;
   font-size: 14px;
   color: var(--ink-3);
@@ -3334,7 +3706,7 @@ td:first-child {
   color: var(--cyan);
 }
 
-.feature-list b {
+.feature-list li > span > b:first-child {
   display: block;
   margin-bottom: 3px;
   font-size: 17.5px;
@@ -3360,6 +3732,22 @@ td:first-child {
 .pillar-icon .ico {
   width: 26px;
   height: 26px;
+}
+
+/* "Preview": built and shipped, still being confirmed on every handheld. */
+.tag {
+  display: inline-block;
+  margin: 0 2px;
+  padding: 0 8px;
+  border-radius: 999px;
+  border: 1px solid rgba(192, 132, 252, 0.42);
+  background: rgba(192, 132, 252, 0.14);
+  color: #ead8ff;
+  font: 650 11px/1.75 var(--font);
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  vertical-align: 0.12em;
+  white-space: nowrap;
 }
 
 /* ── 404 ────────────────────────────────────────────────────────────────── */
@@ -3458,8 +3846,16 @@ td:first-child {
     grid-template-columns: minmax(0, 1fr);
   }
 
+  .stage__side {
+    justify-items: start;
+  }
+
   .howto {
     justify-content: flex-start;
+  }
+
+  .stats {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
   .board {
@@ -3546,12 +3942,20 @@ td:first-child {
     grid-template-columns: minmax(0, 1fr);
   }
 
+  .stats {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .tile {
     min-height: 0;
   }
 
   .tile--watch {
     min-height: 320px;
+  }
+
+  .board__row--wide .tile {
+    min-height: 0;
   }
 
   .tile--play {
@@ -3595,10 +3999,6 @@ td:first-child {
 
 @media (max-width: 520px) {
   .topbar__actions .btn {
-    display: none;
-  }
-
-  .brand__ver {
     display: none;
   }
 

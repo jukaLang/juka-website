@@ -19,9 +19,9 @@ and the icons are JukaHub's own (`builder-icons.js` and the Home mockup).
 ```text
 netlify.toml              publish = "public", no build
 public/
-├── index.html            home: the live device, features, install, FAQ
-├── install/index.html    the install guide
-├── features/index.html   everything JukaHub does, by pillar
+├── index.html            home: the live device (Tabs and Standard), features, install, FAQ
+├── install/index.html    the install guide, JukaHub OS, controls, troubleshooting
+├── features/index.html   everything JukaHub does, area by area
 ├── privacy/index.html
 ├── 404.html              Netlify serves it for any missing path
 ├── _headers              CSP and caching (Netlify)
@@ -64,16 +64,27 @@ with it.
 
 - **Copy** is plain HTML in the four pages. Every page repeats the same top bar,
   footer and icon sprite (the `<svg class="sprite">` block after `<body>`), so
-  change those in all of them.
-- **A new release:** the download buttons point at
-  `releases/latest/download/JukaHub-Trimui.zip` and `JukaHub-Windows.zip`, so
-  they never need editing, and the latest build date is fetched from GitHub's
-  API at run time. When the app's version number changes, search the pages for
-  `0.4.0` (the top bar, the hero, the download card and the device's status
-  bar in `index.html`, the JSON-LD block, and `device.js`).
-- **The live device:** `assets/js/device.js` holds the focus graph, the caption
-  for each tile and the panels that **A** opens, as plain data at the top of
-  the file. Keep the panel rows to five so they fit the 720-pixel canvas.
+  change those in all of them (see *Shared parts* below).
+- **A new release:** nothing to edit. The download buttons point at
+  `releases/latest/download/JukaHub-Trimui.zip`, `JukaHub-OS-Trimui.zip` and
+  `JukaHub-Windows.zip`, and the date of the latest build is fetched from
+  GitHub's API at run time (the hero, the download card and the date beside
+  the JukaHub title on the live device). JukaHub's builds are dated rather
+  than numbered, so the pages carry no version number; keep it that way.
+- **Features:** the copy follows JukaHubV2's `README.md`, `CHANGELOG.md` and
+  `docs/`. A sentence followed by a **Preview** tag (`span.tag`, with hidden
+  brackets so a screen reader says "(Preview)") describes something that is
+  shipped but still being confirmed on hardware (the docs say "not yet tried
+  on hardware"); drop the tag once the docs do.
+- **The live device:** `assets/js/device.js` shows both Homes. The Tabs Home
+  (the default) is the `TABS` list at the top: each tab's view and items, and
+  the panel or toast each item opens; tiles are laid out with the device's own
+  arithmetic (`homeTabsLayout` in `player/hometabs_draw.go`). The Standard
+  Home is the focus graph and `CAPTIONS` below it. Panels are the `PANELS`
+  map; keep their rows to five so they fit the 720-pixel canvas.
+- **Shared parts:** `index.html` holds the master copy of the icon sprite,
+  the top bar and the footer; the other pages repeat them with relative
+  links.
 - **Icons** are `<symbol>` elements in each page's sprite; `i-*` come from the
   web builder's set, `h-*` from the Home mockup, `b-*` are the GitHub and
   Discord marks.
