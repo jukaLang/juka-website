@@ -104,6 +104,8 @@
 <symbol id="i-pointer" viewBox="0 0 24 24"><path d="M5.5 3.5v15l4.1-3.9 2.8 6 2.6-1.2-2.7-5.9H18Z"/></symbol>
 <symbol id="i-chart" viewBox="0 0 24 24"><path d="M4 4v14.5A1.5 1.5 0 0 0 5.5 20H20M8 15l3.5-4 3 2.5 5-5.5"/></symbol>
 <symbol id="i-sliders-v" viewBox="0 0 24 24"><path d="M6 4v8.25M6 16.75V20M12 4v2.25M12 10.75V20M18 4v9.75M18 18.25V20"/><circle cx="6" cy="14.5" r="2.25"/><circle cx="12" cy="8.5" r="2.25"/><circle cx="18" cy="16" r="2.25"/></symbol>
+<symbol id="i-users" viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.75"/><path d="M2.5 20v-.5A5.5 5.5 0 0 1 8 14h2a5.5 5.5 0 0 1 5.5 5.5v.5"/><path d="M15.25 4.4a3.75 3.75 0 0 1 0 7.2M17.75 14.3a5.5 5.5 0 0 1 3.75 5.2v.5"/></symbol>
+<symbol id="i-target" viewBox="0 0 24 24"><circle cx="12" cy="12" r="7.5"/><circle cx="12" cy="12" r="2.25"/><path d="M12 2v4.5M12 17.5V22M2 12h4.5M17.5 12H22"/></symbol>
 </svg>
 <a class="skip-link" href="#main">Skip to content</a>
 
@@ -259,16 +261,18 @@
               <tr><td><span class="k">Start</span></td><td>The Start menu: every scene, game, tool and device action</td><td>F10</td></tr>
               <tr><td><span class="k">Select</span> on Home</td><td>Quick Settings: Wi-Fi, Bluetooth, volume, brightness, lights and more. Elsewhere Select goes back</td><td>Ctrl+Q</td></tr>
               <tr><td><span class="k">Menu</span></td><td>The voice orb: say what to open, or ask Juka. Held, a screenshot</td><td>F4</td></tr>
-              <tr><td><span class="k">Select</span> + <span class="k">L2</span>, held in a game</td><td>The in-game menu: save slots, Ask Juka, Quit to JukaHub</td><td></td></tr>
+              <tr><td><span class="k">Select</span> + <span class="k">L2</span>, held in a game</td><td>The in-game menu: save slots, quick settings, Ask Juka, Quit to JukaHub</td><td></td></tr>
               <tr><td><span class="k">Select</span> + <span class="k">R2</span>, held in a game</td><td>The game assistant: the game pauses and Juka listens</td><td></td></tr>
               <tr><td><span class="k">Select</span> + <span class="k">R1</span> in a game</td><td>A screenshot of the game</td><td></td></tr>
+              <tr><td><span class="k">Menu</span> + <span class="k">Select</span> in a game</td><td>In a RetroArch game, save and quit; the next start carries on from there <span class="tag"><span class="visually-hidden">(</span>Preview<span class="visually-hidden">)</span></span></td><td></td></tr>
               <tr><td><span class="k">Select</span> + <span class="k">L1</span>, held</td><td>Mouse mode on or off</td><td>F6</td></tr>
               <tr><td><span class="k">Select</span> + <span class="k">Start</span>, held</td><td>Quit JukaHub and return to the stock launcher, from any screen</td><td>Alt+F4 on a PC</td></tr>
+              <tr><td><span class="k">L1</span> + <span class="k">R1</span>, held</td><td>After three seconds, Narration on or off: JukaHub reads out what is focused <span class="tag"><span class="visually-hidden">(</span>Preview<span class="visually-hidden">)</span></span></td><td>Ctrl+Alt+Z</td></tr>
               <tr><td><span class="k">L</span> + <span class="k">R</span> + <span class="k">Start</span> while starting</td><td>Safe mode and the recovery card</td><td>Ctrl+Alt+R</td></tr>
             </tbody>
           </table>
         </div>
-        <p>On a keyboard, <b>F1</b> opens the controls for the screen you are on, and Settings → About has the whole controls page offline. On the Brick and Hammer, the two small keys under the screen open that card (F1) and Quick Settings (F2).</p>
+        <p>On a keyboard, <b>F1</b> opens the controls for the screen you are on, and Settings → About has the whole controls page offline. On the Brick and Hammer, the two small keys under the screen open that card (F1) and Quick Settings (F2), and Settings → Controls can give them other jobs; in a RetroArch game on a Brick or Hammer, hold F1 to rewind (where the system has Rewind) and press F2 to fast-forward. On the Smart Pro S, the Home key on top goes Home. <span class="tag"><span class="visually-hidden">(</span>Preview<span class="visually-hidden">)</span></span></p>
         <p class="doc__cta"><a class="link" href="https://github.com/jukaLang/JukaHubV2/blob/main/docs/CONTROLS.md">Every button, screen by screen</a></p>
       </section>
 
@@ -281,7 +285,8 @@
           <li><span class="steps__text">On your PC, paste that address into Explorer or Finder (or any FTP client), sign in, and drop files into <code>Roms</code>, <code>BIOS</code>, <code>Saves</code> or your media folders.</span></li>
         </ol>
         <p>The rest of the card, including the apps, emulator scripts and system files, is not shared. FTP is not encrypted, so on a network you do not trust use <b>Tools → SSH / SFTP</b> instead: it speaks SFTP only, with a random password for every start, and works with WinSCP, FileZilla, Cyberduck or the <code>sftp</code> command. Both servers switch themselves off after 15 idle minutes or when the handheld changes network.</p>
-        <p>Two more ways need no server at all. From any browser on your Wi-Fi, the phone companion's <b>Files</b> card browses the shared folders and drops games, covers and music where they belong. Over a USB cable, the handheld can show its SD card to your computer as a media device (MTP), with nothing to install; that is new and still being confirmed on each model. <a class="link" href="https://github.com/jukaLang/JukaHubV2/blob/main/docs/USB_FILE_TRANSFER.md">USB file transfer</a></p>
+        <p>For the card as a drive in Explorer or Finder, start <b>Tools → Network tools → SMB share</b> instead. Its sheet shows the address, such as <code>\\192.168.1.42\JukaHub</code> on Windows or <code>smb://192.168.1.42/JukaHub</code> on a Mac, with the user <code>jukahub</code> and a password it keeps, so your computer can remember it. It shares the whole card and can be made read-only. <span class="tag"><span class="visually-hidden">(</span>Preview<span class="visually-hidden">)</span></span> <a class="link" href="https://github.com/jukaLang/JukaHubV2/blob/main/docs/SMB_SHARE.md">SMB share</a></p>
+        <p>Two more ways need no server at all. From any browser on your Wi-Fi, the phone companion's <b>Files</b> card browses the shared folders and drops games, covers and music where they belong. Over a USB cable, the handheld can show its SD card to your computer as a media device (MTP), with nothing to install, or lend it as a plain USB drive with <b>Settings → Network → USB storage mode</b> on the Smart Pro, Brick and Hammer; both are new and still being confirmed on each model. <a class="link" href="https://github.com/jukaLang/JukaHubV2/blob/main/docs/USB_FILE_TRANSFER.md">USB file transfer</a></p>
       </section>
 
       <section class="doc__section" id="phone">
@@ -293,7 +298,7 @@
           <li><b>Remote:</b> D-pad, A, B, X, Y, Start, Back and the shoulder buttons.</li>
           <li><b>Send a link:</b> paste a YouTube, video or stream link and it starts playing on the handheld.</li>
           <li><b>Send to the handheld:</b> games go to their console's folder in <code>Roms</code>, a picture named after a game becomes its cover, music and videos go to the media folders, known BIOS files to <code>BIOS</code>, and anything else to <code>PhoneDrop</code>.</li>
-          <li><b>Files:</b> browse the shared folders, upload and download, and make or rename folders.</li>
+          <li><b>Files:</b> browse the shared folders, upload and download, make or rename folders, and send a whole folder, which lands where its contents belong.</li>
           <li><b>Keys and accounts:</b> paste a Groq API key, a PSN account ID for Remote Play, a RomM token, a mail account or a calendar link instead of typing it on the handheld. The page never shows them back.</li>
         </ul>
         <p>The QR carries a fresh six-digit PIN, so nothing has to be typed on the device. <span class="k">Y</span> issues a new PIN on the spot, which also invalidates every link already shared.</p>
@@ -303,7 +308,7 @@
         <h2>Updating</h2>
         <p>JukaHub updates itself. When a newer release exists, a download icon appears in the Home header. Select it and press <span class="k">A</span>: JukaHub downloads the archive for your platform, checks it against the SHA-256 digest GitHub publishes and, when the release ships a signed <code>release.json</code>, verifies its Ed25519 signature. Then it replaces the app files and restarts in place.</p>
         <p>If now is not a good moment, the update can wait for the next start, or for 15 untouched minutes on the charger; it never starts over a game or a playing video. <span class="tag"><span class="visually-hidden">(</span>Preview<span class="visually-hidden">)</span></span> <b>Settings → About → Update channel</b> chooses Stable, tested releases only and the default, or Beta for the newest builds.</p>
-        <p>Your <code>jukauser.json</code> settings, favorites and media are untouched, and an interrupted update is rolled back at the next launch. After the restart, <b>What's new</b> opens once with that release's notes. To turn automatic checks off, set <code>JUKAHUB_NO_AUTOUPDATE=1</code>, or update by hand by extracting a new release over <code>Apps/JukaHub</code>.</p>
+        <p>Your <code>jukauser.json</code> settings, favorites and media are untouched, and an interrupted update is rolled back at the next launch. An update that hangs, crashes or stops answering the buttons in its first starts is put back by itself within two minutes, with a card that says what happened. <span class="tag"><span class="visually-hidden">(</span>Preview<span class="visually-hidden">)</span></span> After the restart, <b>What's new</b> opens once with that release's notes. To turn automatic checks off, set <code>JUKAHUB_NO_AUTOUPDATE=1</code>, or update by hand by extracting a new release over <code>Apps/JukaHub</code>.</p>
       </section>
 
       <section class="doc__section" id="devices">
@@ -315,14 +320,15 @@
               <tr><th scope="col">Device</th><th scope="col">Screen</th><th scope="col">Notes</th></tr>
             </thead>
             <tbody>
-              <tr><td>Smart Pro</td><td>1280 × 720</td><td>Offline voice and the wake word; RGB stick lights; Travel lock on the FN switch</td></tr>
-              <tr><td>Smart Pro S</td><td>1280 × 720</td><td>Eight-core chip with its own drivers; fan control; USB host mode on the USB-C socket</td></tr>
-              <tr><td>Brick, Hammer</td><td>1024 × 768 (4:3)</td><td>A 960 × 720 canvas scaled to the panel</td></tr>
-              <tr><td>Brick Pro</td><td>1024 × 768 (4:3)</td><td>The same 4:3 layout</td></tr>
+              <tr><td>Smart Pro</td><td>1280 × 720</td><td>Offline voice and the wake word; RGB stick lights; the FN switch as Travel lock, Mute, Lights off or Airplane mode; Xbox games in hakuX</td></tr>
+              <tr><td>Smart Pro S</td><td>1280 × 720</td><td>Eight-core chip with its own drivers; fan control; USB host mode on the USB-C socket; the Home key; GameCube and Wii</td></tr>
+              <tr><td>Brick, Hammer</td><td>1024 × 768 (4:3)</td><td>A 960 × 720 canvas scaled to the panel; the F1 and F2 keys</td></tr>
+              <tr><td>Brick Pro</td><td>1024 × 768 (4:3)</td><td>The same 4:3 layout; TV mode when a TV is plugged into the USB-C port</td></tr>
               <tr><td>Windows</td><td>A window on your PC</td><td>For trying JukaHub before you copy it to a card</td></tr>
             </tbody>
           </table>
         </div>
+        <p>The newest of these notes (the FN switch's new jobs, hakuX, the Home key, GameCube and Wii, and TV mode) are still being confirmed on hardware. <span class="tag"><span class="visually-hidden">(</span>Preview<span class="visually-hidden">)</span></span></p>
         <p class="doc__cta"><a class="link" href="https://github.com/jukaLang/JukaHubV2/blob/main/docs/DEVICES.md">What JukaHub expects on each model</a></p>
       </section>
 
@@ -330,21 +336,22 @@
         <h2>Something wrong?</h2>
         <p>The logs are on the SD card, so you can read them on a PC without SSH.</p>
         <div class="table-wrap">
-          <table>
+          <table class="table--prose">
             <thead>
               <tr><th scope="col">Problem</th><th scope="col">What to do</th></tr>
             </thead>
             <tbody>
               <tr><td>Not in the Apps menu</td><td>Reboot. Check the folder is <code>Apps/JukaHub</code> and contains <code>launch.sh</code>.</td></tr>
               <tr><td>Black screen, or it closes at once</td><td>Send <code>Apps/JukaHub/errors.txt</code> (the launcher's log) and the newest <code>crash-*.txt</code> next to it. On Windows they are in <code>%LOCALAPPDATA%\JukaHub\logs</code>.</td></tr>
-              <tr><td>A plugin, a setting or an update broke startup</td><td>Hold <span class="k">L</span> + <span class="k">R</span> + <span class="k">Start</span> while JukaHub starts for safe mode and a recovery card: the previous version, your last good settings, or a reset. Three failed starts in a row open it by themselves.</td></tr>
+              <tr><td>A plugin, a setting or an update broke startup</td><td>Hold <span class="k">L</span> + <span class="k">R</span> + <span class="k">Start</span> while JukaHub starts for safe mode and a recovery card: the previous version, your last good settings, or a reset. Three failed starts in a row open it by themselves, and an update that will not start is put back by itself. <span class="tag"><span class="visually-hidden">(</span>Preview<span class="visually-hidden">)</span></span></td></tr>
               <tr><td>The screen blinks between the stock menu and JukaHub after an update</td><td>The launcher on the card is older than the app. Update once more, or copy <code>launch.sh</code> from the release archive over <code>Apps/JukaHub/launch.sh</code>, then reboot.</td></tr>
               <tr><td>The stock menu glitches after you leave JukaHub</td><td>Send <code>errors.txt</code> and <code>autostart.log</code> from <code>Apps/JukaHub</code>, and say whether you left with JukaHub's Exit or the firmware's MENU + POWER.</td></tr>
-              <tr><td>A game will not start</td><td>Open the game's options with <span class="k">Start</span> and run the diagnosis, or ask Juka "why won't my last game start?": both check the game file, the emulator, the BIOS and the last log.</td></tr>
+              <tr><td>A game will not start</td><td>The card that opens says what is missing (a BIOS, a disc file, a core) and where it goes, and <span class="k">A</span> fixes what it can. <span class="tag"><span class="visually-hidden">(</span>Preview<span class="visually-hidden">)</span></span> You can also open the game's options with <span class="k">Start</span> and run the diagnosis, or ask Juka "why won't my last game start?": both check the game file, the emulator, the BIOS and the last log.</td></tr>
               <tr><td>YouTube search fails</td><td>Check Wi-Fi, then open <b>Logs</b> from the Start menu.</td></tr>
               <tr><td>A video goes black, then says it is downloading</td><td>It would not stream, so JukaHub downloads it and plays it from the card; <span class="k">B</span> cancels.</td></tr>
               <tr><td>Video stutters</td><td>Settings → playback resolution: try 480 or 360.</td></tr>
               <tr><td>Text shows as boxes</td><td><code>Inter-Regular.ttf</code> is missing from <code>Apps/JukaHub</code>.</td></tr>
+              <tr><td>Files go missing or the card acts up</td><td><b>Tools → System → Card check</b> reads every file, lists the ones the card can no longer read, can test for a fake card, and saves the repair steps for a computer in <code>card-check.txt</code>. <span class="tag"><span class="visually-hidden">(</span>Preview<span class="visually-hidden">)</span></span></td></tr>
             </tbody>
           </table>
         </div>
@@ -411,7 +418,7 @@
       </div>
     </div>
     <div class="footer__legal">
-      <p>JukaHub is free software under the GNU Affero General Public License v3, and it includes no games, BIOS files or firmware. TrimUI, PlayStation, PS4, PS5, Xbox, Steam, Minecraft, GeForce NOW, YouTube, Discord, Nintendo, Sega, Windows and other names are trademarks of their owners; JukaHub is not affiliated with or endorsed by them.</p>
+      <p>JukaHub is free software under the GNU Affero General Public License v3, and it includes no games, BIOS files or firmware. TrimUI, PlayStation, PS4, PS5, Xbox, Steam, Minecraft, GeForce NOW, YouTube, Discord, Nintendo, Sega, Windows, Java, Tailscale and other names are trademarks of their owners; JukaHub is not affiliated with or endorsed by them.</p>
       <p>This site sets no cookies and runs no analytics.</p>
     </div>
   </div>

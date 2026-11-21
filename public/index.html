@@ -39,7 +39,7 @@
     "applicationCategory": "MultimediaApplication",
     "operatingSystem": "TrimUI Smart Pro, Smart Pro S, Brick, Brick Pro and Hammer; Windows",
     "description": "A controller-first media and gaming shell for TrimUI handhelds: YouTube, a ROM library with covers and save-resume, PS4, PS5, Xbox and PC streaming, netplay and a voice assistant, installed as one folder on the SD card or run as the handheld's OS.",
-    "featureList": ["YouTube, Shorts, Live TV and podcasts", "ROM library with covers, save slots and netplay", "PS4 and PS5 Remote Play", "Xbox and PC streaming (Moonlight)", "Offline voice assistant", "Save snapshots and cloud save sync", "Phone companion and Screen Share", "Over 50 themes and seven languages", "JukaHub OS"],
+    "featureList": ["YouTube, Shorts, Live TV and podcasts", "ROM library with covers, save slots and netplay", "PS4 and PS5 Remote Play", "Xbox and PC streaming (Moonlight)", "Offline voice assistant", "PlayStation 2, GameCube and Wii (preview)", "Party Mode and four-player netplay", "Save snapshots, checked saves and cloud save sync", "Phone companion, Screen Share and Controller Mode", "Over 50 themes and seven languages", "JukaHub OS"],
     "url": "https://jukalang.com/",
     "downloadUrl": "https://github.com/jukaLang/JukaHubV2/releases/latest",
     "image": "https://jukalang.com/assets/img/og.jpg",
@@ -136,6 +136,8 @@
 <symbol id="i-pointer" viewBox="0 0 24 24"><path d="M5.5 3.5v15l4.1-3.9 2.8 6 2.6-1.2-2.7-5.9H18Z"/></symbol>
 <symbol id="i-chart" viewBox="0 0 24 24"><path d="M4 4v14.5A1.5 1.5 0 0 0 5.5 20H20M8 15l3.5-4 3 2.5 5-5.5"/></symbol>
 <symbol id="i-sliders-v" viewBox="0 0 24 24"><path d="M6 4v8.25M6 16.75V20M12 4v2.25M12 10.75V20M18 4v9.75M18 18.25V20"/><circle cx="6" cy="14.5" r="2.25"/><circle cx="12" cy="8.5" r="2.25"/><circle cx="18" cy="16" r="2.25"/></symbol>
+<symbol id="i-users" viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.75"/><path d="M2.5 20v-.5A5.5 5.5 0 0 1 8 14h2a5.5 5.5 0 0 1 5.5 5.5v.5"/><path d="M15.25 4.4a3.75 3.75 0 0 1 0 7.2M17.75 14.3a5.5 5.5 0 0 1 3.75 5.2v.5"/></symbol>
+<symbol id="i-target" viewBox="0 0 24 24"><circle cx="12" cy="12" r="7.5"/><circle cx="12" cy="12" r="2.25"/><path d="M12 2v4.5M12 17.5V22M2 12h4.5M17.5 12H22"/></symbol>
 </svg>
 <a class="skip-link" href="#main">Skip to content</a>
 
@@ -478,7 +480,7 @@
           </span>
           <span>
             <span class="tile__name">Watch and listen</span>
-            <span class="tile__text">YouTube with Continue watching, Shorts, Live TV and podcasts, downloads for offline, a music player with synced lyrics and audiobook chapters, books and photos, and background music while you browse.</span>
+            <span class="tile__text">YouTube with Continue watching, Shorts, Live TV and podcasts, downloads for offline, a music player with synced lyrics, internet radio and game soundtracks, books and photos, and background music while you browse.</span>
             <span class="tile__progress" aria-hidden="true"></span>
           </span>
         </a>
@@ -487,7 +489,7 @@
             <span class="tile__badge"><svg class="ico" aria-hidden="true"><use href="#i-gamepad"/></svg></span>
             <span>
               <span class="tile__name">Play</span>
-              <span class="tile__text">Every console on the card with its covers, the right emulator for each game, save slots in an in-game menu, netplay, RetroAchievements and 391 trophies.</span>
+              <span class="tile__text">Every console on the card with its covers, PlayStation 2, GameCube and Wii now among them, the right emulator for each game, a check before every start, save slots in an in-game menu, Party Mode, RetroAchievements and 391 trophies.</span>
             </span>
             <svg class="ico tile__mark" aria-hidden="true"><use href="#i-gamepad"/></svg>
           </a>
@@ -510,7 +512,7 @@
               <span class="tile__badge"><svg class="ico" aria-hidden="true"><use href="#i-layers"/></svg></span>
               <span>
                 <span class="tile__name">Keep</span>
-                <span class="tile__text">Save snapshots, cloud save sync, RomM and a way back when something breaks.</span>
+                <span class="tile__text">Every save checked, snapshots, cloud sync, a guided move to a new card and a way back when something breaks.</span>
               </span>
             </a>
           </div>
@@ -520,21 +522,21 @@
             <span class="tile__badge"><svg class="ico" aria-hidden="true"><use href="#i-wifi"/></svg></span>
             <span>
               <span class="tile__name">Connect</span>
-              <span class="tile__text">Wi-Fi and Bluetooth that behave like a phone's, a hotspot, a WireGuard VPN, your phone as a keyboard, and the screen on a TV.</span>
+              <span class="tile__text">Wi-Fi and Bluetooth that behave like a phone's, Tailscale and a VPN, the card as a network drive, your phone as a keyboard, and the handheld as a controller.</span>
             </span>
           </a>
           <a class="tile" href="features/#yours">
             <span class="tile__badge"><svg class="ico" aria-hidden="true"><use href="#i-palette"/></svg></span>
             <span>
               <span class="tile__name">Make it yours</span>
-              <span class="tile__text">Over 50 themes, console-style homes, liquid glass, animated wallpapers, seven languages and a full accessibility section.</span>
+              <span class="tile__text">Over 50 themes and colours of your own, console-style homes, liquid glass, seven languages and a full accessibility section with narration.</span>
             </span>
           </a>
           <a class="tile" href="features/#device">
             <span class="tile__badge"><svg class="ico" aria-hidden="true"><use href="#i-cpu"/></svg></span>
             <span>
               <span class="tile__name">Your handheld, tuned</span>
-              <span class="tile__text">Automatic CPU speed, stick lights, a startup lock, sleep that lasts and a lock for the power button in a bag.</span>
+              <span class="tile__text">Automatic CPU speed, TV mode on the Brick Pro, stick lights, battery warnings you set, and a lock for the power button in a bag.</span>
             </span>
           </a>
         </div>
@@ -542,9 +544,9 @@
           <span class="tile__badge"><svg class="ico" aria-hidden="true"><use href="#i-package"/></svg></span>
           <span class="tile__body">
             <span class="tile__name">Run more</span>
-            <span class="tile__text">PortMaster's whole catalogue as a store, signed packages with rollback, plugins, Ubuntu programs through apt, and early support for Android and Windows apps.</span>
+            <span class="tile__text">PortMaster's whole catalogue, installed without PortMaster's app, an App Center, signed packages with rollback, Java, a real terminal, Ubuntu programs through apt, and early support for Android and Windows apps.</span>
           </span>
-          <span class="tile__tools" aria-hidden="true"><code>apt</code><code>PortMaster</code><code>APK</code><code>Wine</code><code>rclone</code><code>plugins</code></span>
+          <span class="tile__tools" aria-hidden="true"><code>apt</code><code>PortMaster</code><code>Java</code><code>APK</code><code>Wine</code><code>htop</code></span>
         </a>
       </div>
       <a class="more" href="features/">See everything JukaHub does <svg class="ico" aria-hidden="true"><use href="#i-chevron-right"/></svg></a>
@@ -586,7 +588,7 @@
           <div class="spot__text">
             <h3 class="spot__title">Juka, the assistant that knows your handheld</h3>
             <p>Press <span class="k">Menu</span> anywhere and a glowing orb listens. Say "open YouTube", "volume 50" or "take a screenshot", name a game or a setting, or just ask a question. On the Smart Pro your speech is recognised on the device, with no account; a free Groq key makes Juka faster and lets it answer out loud.</p>
-            <p>In a game, hold <span class="k">Select</span> + <span class="k">R2</span> and ask about the game you are playing. In Chat, Juka AI can look at the handheld before it answers "why won't my last game start?", and changes nothing until you say OK on screen. <span class="tag"><span class="visually-hidden">(</span>Preview<span class="visually-hidden">)</span></span></p>
+            <p>In a game, hold <span class="k">Select</span> + <span class="k">R2</span> and ask about the game you are playing. In Chat, Juka AI can look at the handheld before it answers "why won't my last game start?", and changes nothing until you say OK on screen. In a RetroArch game, Translate screen shows a game's text in your language. <span class="tag"><span class="visually-hidden">(</span>Preview<span class="visually-hidden">)</span></span></p>
           </div>
           <div class="screenlet" role="img" aria-label="Things to say to Juka: open YouTube, volume 50, take a screenshot, why won't my last game start, and Hey Juka, what's this?">
             <div class="sheet">
@@ -607,7 +609,8 @@
           <div class="spot__text">
             <h3 class="spot__title">A game library that sorts itself out</h3>
             <p>Covers find themselves, and a homebrew or hack that has none gets one from two minutes of its own gameplay. When a console has several emulators, <b>Which emulator?</b> lists them with the one recommended for your handheld first, and <b>Get more cores</b> fetches the ones worth having in one press.</p>
-            <p>Hold <span class="k">Select</span> + <span class="k">L2</span> in any game for the in-game menu: six save slots with pictures, Ask Juka and Quit to JukaHub. <span class="k">Start</span> on a game renames it, chooses its cover or deletes it with everything named after it.</p>
+            <p>Before a game starts, Game Ready checks the file, the emulator and the BIOS, and a game that cannot start says exactly what is missing and where it goes, instead of showing a black screen. The shelves reach further than a handheld usually goes: PlayStation 2 on every TrimUI model, GameCube and Wii on the Smart Pro S, and J2ME, Godot, CHIP-8 and WASM-4 games. <span class="tag"><span class="visually-hidden">(</span>Preview<span class="visually-hidden">)</span></span></p>
+            <p>Hold <span class="k">Select</span> + <span class="k">L2</span> in any game for the in-game menu: six save slots with pictures, quick settings, Ask Juka and Quit to JukaHub. <span class="k">Start</span> on a game renames it, chooses its cover or deletes it with everything named after it.</p>
           </div>
           <div class="screenlet" role="img" aria-label="Which emulator? for a Game Boy Advance game: mGBA recommended, gpSP, the standalone emulator, and Get more cores.">
             <div class="sheet">
@@ -627,7 +630,7 @@
         <article class="spot spot--flip">
           <div class="spot__text">
             <h3 class="spot__title">Link-cable games over Wi-Fi, and online</h3>
-            <p>Press <span class="k">X</span> on a game for Netplay. A JukaHub hosting on your Wi-Fi shows up live on every other one, and <span class="k">A</span> joins it with your own copy of the ROM: no cable and no typed address, and link-cable games play together where the emulator core supports it.</p>
+            <p>Press <span class="k">X</span> on a game for Netplay. A JukaHub hosting on your Wi-Fi shows up live on every other one, and <span class="k">A</span> joins it with your own copy of the ROM: no cable and no typed address. Nintendo 64, Dreamcast and arcade games take up to four players, and Game Boy games trade and battle through a link cable that runs over Wi-Fi, Pokémon Red on one handheld and Blue on the other. <span class="tag"><span class="visually-hidden">(</span>Preview<span class="visually-hidden">)</span></span></p>
             <p>Host online through one of libretro's public relays to play a friend on another network, with no port forwarding. No router at all? Tools → Hotspot makes the handheld a network of its own. <span class="tag"><span class="visually-hidden">(</span>Preview<span class="visually-hidden">)</span></span></p>
           </div>
           <div class="screenlet" role="img" aria-label="The Netplay panel for a Game Boy Advance game: host on this network, host online through the New York relay, a room another handheld is hosting, and join by address.">
@@ -647,9 +650,32 @@
 
         <article class="spot">
           <div class="spot__text">
+            <h3 class="spot__title">Party Mode: your library becomes a game show</h3>
+            <p>Tools → Party Mode turns the handheld into the host of Guess the Game. Friends scan its QR code and play from their phone's browser, with no app, no account and no internet. A cover from your own library zooms out in five steps, from 500 points down to 100, and whoever buzzes first picks among four titles.</p>
+            <p>The handheld shows the round, the cover and the scoreboard, then a podium with confetti. Up to 12 people can play, the handheld can take a seat itself, and with the hotspot on a party needs nothing but the handheld and the phones. <span class="tag"><span class="visually-hidden">(</span>Preview<span class="visually-hidden">)</span></span></p>
+            <p class="spot__how">Tools → Party Mode, or search Home for "party".</p>
+          </div>
+          <div class="screenlet" role="img" aria-label="The Party Mode lobby: start the game with three players joined, ten rounds, a seat on the handheld, and a QR code for phones.">
+            <div class="sheet">
+              <span class="sheet__title">Party Mode</span>
+              <span class="sheet__sub">Guess the Game · 212 games with box art</span>
+              <ul class="sheet__rows">
+                <li class="srow is-f"><span><span class="srow__t">Start game</span><span class="srow__s">Sam, Alex and Priya have joined</span></span><span class="srow__a srow__a--accent">Start</span></li>
+                <li class="srow"><span><span class="srow__t">Rounds</span><span class="srow__s">5, 10, 15 or 20 · Left and Right to change</span></span><span class="srow__a">10</span></li>
+                <li class="srow"><span><span class="srow__t">Play on this handheld</span><span class="srow__s">A seat for whoever holds it</span></span><span class="srow__a">Join</span></li>
+                <li class="srow"><span><span class="srow__t">Phones join here</span><span class="srow__s">Scan the code on the same Wi-Fi: no app, no account</span></span><span class="srow__a">QR</span></li>
+              </ul>
+              <div class="sheet__hints"><span class="sheet__hint"><span class="hk">A</span>Select</span><span class="sheet__hint"><span class="hk">Y</span>Play here</span><span class="sheet__hint"><span class="hk">B</span>Leave</span></div>
+            </div>
+          </div>
+        </article>
+
+        <article class="spot spot--flip">
+          <div class="spot__text">
             <h3 class="spot__title">Saves that never die</h3>
             <p>The Save Manager copies every emulator save folder it finds (RetroArch, PPSSPP, DraStic, Flycast) into a snapshot, and Save guard does it quietly at every start when something changed. Restoring takes a snapshot of your current saves first, so even a restore can be undone.</p>
             <p>Snapshots are plain folders with a checksum for every file, so they work without JukaHub. Save sync carries a game's saves to Google Drive or a WebDAV cloud of your own around each session, and RomM and Syncthing are there too.</p>
+            <p>Every save of a library game is now read back after it is written, and the game's page shows the last good one: "Saved 4 min ago", or, honestly, "Not saved since it closed unexpectedly". A low battery wakes a sleeping game to save it before the power runs out. <span class="tag"><span class="visually-hidden">(</span>Preview<span class="visually-hidden">)</span></span></p>
           </div>
           <div class="screenlet" role="img" aria-label="The Save Manager panel: snapshot now, two earlier snapshots ready to restore, cloud save sync and Syncthing setup.">
             <div class="sheet">
@@ -697,7 +723,7 @@
         <div class="extras__item">
           <svg class="ico" aria-hidden="true"><use href="#i-chat"/></svg>
           <h3>Chat and voice</h3>
-          <p>The community Discord on the handheld, voice clips, voice channels with friends, and a Juka AI tab.</p>
+          <p>The community Discord on the handheld, voice clips, a voice room you join in one press with no sign-up, and a Juka AI tab. <span class="tag"><span class="visually-hidden">(</span>Preview<span class="visually-hidden">)</span></span></p>
         </div>
         <div class="extras__item">
           <svg class="ico" aria-hidden="true"><use href="#i-music"/></svg>
@@ -727,7 +753,27 @@
         <div class="extras__item">
           <svg class="ico" aria-hidden="true"><use href="#i-terminal"/></svg>
           <h3>A terminal you can drive</h3>
-          <p>The Command Deck fills in common commands with pickers instead of typing, and apt installs Ubuntu programs onto the card. <span class="tag"><span class="visually-hidden">(</span>Preview<span class="visually-hidden">)</span></span></p>
+          <p>A real terminal runs ssh, and htop or vim from apt, full screen; the Command Deck fills in common commands with pickers instead of typing. <span class="tag"><span class="visually-hidden">(</span>Preview<span class="visually-hidden">)</span></span></p>
+        </div>
+        <div class="extras__item">
+          <svg class="ico" aria-hidden="true"><use href="#i-plug"/></svg>
+          <h3>Controller Mode</h3>
+          <p>The handheld becomes a controller for a PC or a phone, over USB, Wi-Fi or Bluetooth, and a tap on Menu brings JukaHub back. <span class="tag"><span class="visually-hidden">(</span>Preview<span class="visually-hidden">)</span></span></p>
+        </div>
+        <div class="extras__item">
+          <svg class="ico" aria-hidden="true"><use href="#i-monitor"/></svg>
+          <h3>TV mode</h3>
+          <p>Plug a Brick Pro into a TV: the text grows, a controller becomes player 1 in RetroArch games, and the built-in screen can go dark. <span class="tag"><span class="visually-hidden">(</span>Preview<span class="visually-hidden">)</span></span></p>
+        </div>
+        <div class="extras__item">
+          <svg class="ico" aria-hidden="true"><use href="#i-users"/></svg>
+          <h3>Profiles and Kid mode</h3>
+          <p>Everyone keeps their own RetroArch saves and Continue list, Guest plays without touching them, and Kid mode shows only the games marked for kids. <span class="tag"><span class="visually-hidden">(</span>Preview<span class="visually-hidden">)</span></span></p>
+        </div>
+        <div class="extras__item">
+          <svg class="ico" aria-hidden="true"><use href="#i-apps"/></svg>
+          <h3>Everyday apps</h3>
+          <p>Tasks with reminders, Voice Memos, Paint for pixel art, a stopwatch that keeps running in games, and Solitaire. <span class="tag"><span class="visually-hidden">(</span>Preview<span class="visually-hidden">)</span></span></p>
         </div>
       </div>
     </div>
@@ -738,12 +784,12 @@
     <div class="wrap trust">
       <div>
         <h2 class="section__title" id="trust-title">Safe to try, easy to undo</h2>
-        <p class="section__lead">Updates arrive as an icon in the header and install with one press. Before anything is unpacked, JukaHub checks the archive against the digest GitHub publishes and, when the release is signed, its Ed25519 signature. If a new build misbehaves at startup, the previous one comes back by itself.</p>
+        <p class="section__lead">Updates arrive as an icon in the header and install with one press. Before anything is unpacked, JukaHub checks the archive against the digest GitHub publishes and, when the release is signed, its Ed25519 signature. If a new build misbehaves at startup, the previous one comes back by itself, now also when it hangs or stops answering the buttons. <span class="tag"><span class="visually-hidden">(</span>Preview<span class="visually-hidden">)</span></span></p>
         <ul class="trust__list">
           <li><b>Safe mode is one chord away.</b>Hold <span class="k">L</span> + <span class="k">R</span> + <span class="k">Start</span> while JukaHub starts for a recovery card: the previous version, your last good settings, or a reset. Three failed starts in a row open it by themselves.</li>
           <li><b>A lock of your own.</b>A startup lock asks for a button code, a password or your voice at power-on, and stores only a salted hash of it.</li>
           <li><b>Nothing about you is uploaded unless you ask.</b>Anonymous diagnostics are off by default. Turned on, they carry the build, device model and platform, with no install ID, account, file name, setting or usage history.</li>
-          <li><b>File servers start when you start them.</b>FTP and SFTP run only after you press their row, use a password made up for that start, and switch themselves off after 15 idle minutes.</li>
+          <li><b>Servers start when you start them.</b>FTP, SFTP, the SMB and WebDAV shares, VNC and Telnet run only after you start them, and each needs a password or a one-time address. They switch themselves off after 15 idle minutes, and VNC, Telnet and the SMB share answer only on your home network and your tailnet.</li>
         </ul>
       </div>
       <div class="screenlet" role="img" aria-label="The Security and trust page in Tools: config secrets encrypted, your own encryption key, tool downloads allowlisted, packages verified, file servers off, telemetry off.">
@@ -755,7 +801,7 @@
             <li class="srow"><span><span class="srow__t">Encryption key</span><span class="srow__s">Your own, from JUKAHUB_CRYPTO_KEY</span></span><span class="srow__a srow__a--ok">Custom</span></li>
             <li class="srow"><span><span class="srow__t">Tool downloads</span><span class="srow__s">Only from repositories listed in the app</span></span><span class="srow__a srow__a--ok">Allowlisted</span></li>
             <li class="srow"><span><span class="srow__t">Packages &amp; patches</span><span class="srow__s">Patch installs only from a signed index</span></span><span class="srow__a srow__a--ok">OK</span></li>
-            <li class="srow"><span><span class="srow__t">File servers</span><span class="srow__s">FTP and SFTP are not running</span></span><span class="srow__a srow__a--muted">Off</span></li>
+            <li class="srow"><span><span class="srow__t">Servers</span><span class="srow__s">FTP, SFTP, SMB, VNC and Telnet are not running</span></span><span class="srow__a srow__a--muted">Off</span></li>
             <li class="srow"><span><span class="srow__t">Telemetry</span><span class="srow__s">Nothing is sent until you turn it on</span></span><span class="srow__a srow__a--muted">Off</span></li>
           </ul>
           <div class="sheet__hints"><span class="sheet__hint"><span class="hk"><svg viewBox="0 0 24 24" class="ico" aria-hidden="true"><use href="#h-dpad"/></svg></span>Scroll</span><span class="sheet__hint"><span class="hk">B</span>Close</span></div>
@@ -949,12 +995,20 @@
           <p class="faq__a">The TrimUI Smart Pro and Smart Pro S at 1280 × 720, and the Brick, Brick Pro and Hammer at 1024 × 768. JukaHub detects the model and picks its layout and drivers by itself. A Windows build is there for trying it on a PC.</p>
         </details>
         <details>
+          <summary>Does it play PlayStation 2, GameCube or Wii?<svg class="ico" aria-hidden="true"><use href="#i-chevron-down"/></svg></summary>
+          <p class="faq__a">Yes, as a preview. PlayStation 2 games play in the ARMSX2 core on every TrimUI model: the first start downloads the core and the files it needs and copies your PS2 BIOS into place, and lighter games are the ones to try first. GameCube and Wii play in Dolphin on the Smart Pro S; the Smart Pro and Brick can try anyway from Settings → Games &amp; emulators, but most games are too heavy for them. Both are still being confirmed on hardware. As with every console, the games and BIOS files are yours to bring.</p>
+        </details>
+        <details>
           <summary>Does it need the internet?<svg class="ico" aria-hidden="true"><use href="#i-chevron-down"/></svg></summary>
           <p class="faq__a">Only for what lives online: videos and streams, the weather, updates, cloud saves and the like. Your games, saved music and videos, books and photos all work with Wi-Fi off, and on the Smart Pro so do voice commands, once the offline speech package has downloaded by itself.</p>
         </details>
         <details>
+          <summary>Can several people share one handheld?<svg class="ico" aria-hidden="true"><use href="#i-chevron-down"/></svg></summary>
+          <p class="faq__a">Yes. Settings → General → Profiles gives up to seven more people their own RetroArch saves, Continue list, play time, trophies and look (standalone emulators such as PPSSPP share one set of saves and say so), and Guest plays without touching anyone's progress. Kid mode shows only the games marked for kids, and Kiosk mode keeps the handheld to playing; a parent code, or the Konami code if you set none, leaves either one. These are new and still being confirmed on hardware.</p>
+        </details>
+        <details>
           <summary>Can it play Android, Windows or Steam games?<svg class="ico" aria-hidden="true"><use href="#i-chevron-down"/></svg></summary>
-          <p class="faq__a">Some, and JukaHub is honest about which. The APK Store checks each APK and adds the native ones worth trying to Games through AndroidRT; most Android apps are Java and cannot run. Windows Apps runs small, older programs through Box64 and Wine. Steam games play on the handheld when PortMaster has a port of them, and the rest stream from your PC through Moonlight. These are the newest parts of JukaHub and are still being proven on hardware.</p>
+          <p class="faq__a">Some, and JukaHub is honest about which. The APK Store checks each APK and adds the native ones worth trying to Games through AndroidRT; most Android apps are Java and cannot run. Windows Apps runs small, older programs through Box64 and Wine. Steam games play on the handheld when PortMaster has a port of them, and the rest stream from your PC through Moonlight. Java programs run from Files once Tools → Java has installed one, and old Java phone games have a J2ME shelf. These are the newest parts of JukaHub and are still being proven on hardware.</p>
         </details>
         <details>
           <summary>How do I uninstall it?<svg class="ico" aria-hidden="true"><use href="#i-chevron-down"/></svg></summary>
@@ -970,7 +1024,7 @@
         </details>
         <details>
           <summary>What if an update breaks something?<svg class="ico" aria-hidden="true"><use href="#i-chevron-down"/></svg></summary>
-          <p class="faq__a">An interrupted update is rolled back at the next launch, and three failed starts in a row open safe mode by themselves. You can also hold <span class="k">L</span> + <span class="k">R</span> + <span class="k">Start</span> while it starts for safe mode and a recovery card, or stay on the Stable update channel, which only offers tested releases.</p>
+          <p class="faq__a">An interrupted update is rolled back at the next launch, three failed starts in a row open safe mode by themselves, and an update that hangs or stops answering the buttons in its first starts is put back by itself within two minutes (that last part is new and still being confirmed on hardware). You can also hold <span class="k">L</span> + <span class="k">R</span> + <span class="k">Start</span> while it starts for safe mode and a recovery card, or stay on the Stable update channel, which only offers tested releases.</p>
         </details>
         <details>
           <summary>Where do I get help?<svg class="ico" aria-hidden="true"><use href="#i-chevron-down"/></svg></summary>
@@ -1028,7 +1082,7 @@
       </div>
     </div>
     <div class="footer__legal">
-      <p>JukaHub is free software under the GNU Affero General Public License v3, and it includes no games, BIOS files or firmware. TrimUI, PlayStation, PS4, PS5, Xbox, Steam, Minecraft, GeForce NOW, YouTube, Discord, Nintendo, Sega, Windows and other names are trademarks of their owners; JukaHub is not affiliated with or endorsed by them.</p>
+      <p>JukaHub is free software under the GNU Affero General Public License v3, and it includes no games, BIOS files or firmware. TrimUI, PlayStation, PS4, PS5, Xbox, Steam, Minecraft, GeForce NOW, YouTube, Discord, Nintendo, Sega, Windows, Java, Tailscale and other names are trademarks of their owners; JukaHub is not affiliated with or endorsed by them.</p>
       <p>This site sets no cookies and runs no analytics.</p>
     </div>
   </div>

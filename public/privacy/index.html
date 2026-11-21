@@ -102,6 +102,8 @@
 <symbol id="i-pointer" viewBox="0 0 24 24"><path d="M5.5 3.5v15l4.1-3.9 2.8 6 2.6-1.2-2.7-5.9H18Z"/></symbol>
 <symbol id="i-chart" viewBox="0 0 24 24"><path d="M4 4v14.5A1.5 1.5 0 0 0 5.5 20H20M8 15l3.5-4 3 2.5 5-5.5"/></symbol>
 <symbol id="i-sliders-v" viewBox="0 0 24 24"><path d="M6 4v8.25M6 16.75V20M12 4v2.25M12 10.75V20M18 4v9.75M18 18.25V20"/><circle cx="6" cy="14.5" r="2.25"/><circle cx="12" cy="8.5" r="2.25"/><circle cx="18" cy="16" r="2.25"/></symbol>
+<symbol id="i-users" viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.75"/><path d="M2.5 20v-.5A5.5 5.5 0 0 1 8 14h2a5.5 5.5 0 0 1 5.5 5.5v.5"/><path d="M15.25 4.4a3.75 3.75 0 0 1 0 7.2M17.75 14.3a5.5 5.5 0 0 1 3.75 5.2v.5"/></symbol>
+<symbol id="i-target" viewBox="0 0 24 24"><circle cx="12" cy="12" r="7.5"/><circle cx="12" cy="12" r="2.25"/><path d="M12 2v4.5M12 17.5V22M2 12h4.5M17.5 12H22"/></symbol>
 </svg>
 <a class="skip-link" href="#main">Skip to content</a>
 
@@ -136,7 +138,7 @@
   <header class="pagehead">
     <div class="wrap">
       <h1 class="pagehead__title">Privacy</h1>
-      <p class="pagehead__lead">JukaHub sends nothing about you unless you turn it on, and this website does not follow you around either. Last updated November 18, 2026.</p>
+      <p class="pagehead__lead">JukaHub sends nothing about you unless you turn it on, and this website does not follow you around either. Last updated November 20, 2026.</p>
     </div>
   </header>
 
@@ -159,7 +161,8 @@
         <p>Anonymous diagnostics are <b>off by default</b>. The switch is under <b>Tools → Community &amp; support</b>, and the app sends no diagnostics unless you turn them on.</p>
         <p>When it is on, about every ten launches the app files a public informational GitHub issue with the build and version, the device model, the platform, the OS and architecture, the CPU core count, the size of its configuration and whether safe mode is on. There is no install ID, account, file name, log, setting or usage history in it.</p>
         <p><b>Report a bug</b> shows you the whole report, with its diagnostics already redacted, and sends nothing until you press Submit. It becomes a public GitHub issue filed by the report service's own account, not under your name.</p>
-        <p>Your settings, saves and media stay on the SD card. API keys, tokens and mail passwords in the configuration are encrypted with AES-256-GCM (set your own key with <code>JUKAHUB_CRYPTO_KEY</code>, because the built-in default is the same on every install), and the logs hide the secrets kept in your settings. The FTP and SFTP servers and Screen Share do not run until you start them. A startup lock, if you set one, is stored only as a salted hash. To remove JukaHub completely, delete <code>Apps/JukaHub</code>.</p>
+        <p>Your settings, saves and media stay on the SD card. API keys, tokens and mail and network-drive passwords in the configuration are encrypted with AES-256-GCM (set your own key with <code>JUKAHUB_CRYPTO_KEY</code>, because the built-in default is the same on every install), and the logs hide the secrets kept in your settings. The FTP and SFTP servers, the SMB and WebDAV shares, VNC, Telnet and Screen Share do not run until you start them, and VNC, Telnet and the SMB share answer only on your home network and your tailnet. FTP, VNC and Telnet are not encrypted, and Telnet gives a full shell, so use SFTP or SSH on a network you do not trust. Party Mode's page is served on your Wi-Fi only while its screen is open, and phones send it only the name typed in, buzzes and answers. Controller Mode's DSU link has no password, so anyone on the same network can read the pad while it runs. A startup lock, if you set one, is stored only as a salted hash. To remove JukaHub completely, delete <code>Apps/JukaHub</code>.</p>
+        <p><b>Tested on this device</b> and <b>Device check</b> keep their results on the card. A Device check report has dates but no times of day, and no network names, addresses or Bluetooth device names. Nothing from either is sent anywhere: <b>Export results</b> writes a file to the card that you can share by hand. Logs downloaded through the phone companion mask passwords, Wi-Fi and account names, e-mail and network addresses.</p>
       </section>
 
       <section class="doc__section" id="online">
@@ -169,8 +172,10 @@
           <li><b>Updates:</b> at launch JukaHub asks GitHub whether a newer release exists. Set <code>JUKAHUB_NO_AUTOUPDATE=1</code> to turn that off.</li>
           <li><b>Videos, podcasts and streams:</b> YouTube, Shorts, Podcasts and Live TV fetch from the sites you open.</li>
           <li><b>Weather:</b> to show the forecast for your area, JukaHub looks up your approximate location from your public IP address (with ipwho.is, ipapi.co or ipinfo.io) and asks Open-Meteo for the forecast. Settings can turn the weather off.</li>
-          <li><b>Covers:</b> box art is looked up in public cover indexes by the game's name. A cover made from gameplay is made on the handheld and stays there.</li>
-          <li><b>Helpers and tools:</b> <code>yt-dlp</code>, <code>ffmpeg</code>, the offline speech package, the Remote Play helpers and the Toolbox are downloaded from release pages on an allowlist kept in the app, when they are needed.</li>
+          <li><b>Covers:</b> box art is looked up in public cover indexes by the game's name, and in the LaunchBox Games Database for games those lack. If you sign in to ScreenScraper, a game's checksum goes there to find its cover and details. A cover made from gameplay is made on the handheld and stays there.</li>
+          <li><b>Radio:</b> the Radio shelf searches the free Radio Browser directory, and the idle screen's radio, used only when the card has no music, reads public station lists such as one kept on GitHub. A station you play streams from its own server.</li>
+          <li><b>Helpers and tools:</b> <code>yt-dlp</code>, <code>ffmpeg</code>, the offline speech package, the Remote Play helpers and the Toolbox are downloaded from release pages on an allowlist kept in the app, when they are needed. Emulator cores (from libretro's buildbot or JukaHub's own builds on GitHub), PortMaster and its ports, Java and Tailscale come from those servers when you install or update them. Syncthing, when you set it up, can reach your other devices through Syncthing's public relays.</li>
+          <li><b>Tailscale:</b> once you switch it on and sign in, the handheld stays in touch with Tailscale's service, and the devices on your tailnet can reach it, including programs that otherwise listen only on the handheld itself. It does not upload its logs to Tailscale, and it is off until you turn it on.</li>
           <li><b>Netplay online:</b> hosting online announces the room in RetroArch's public lobby, where anyone with the same game and core can see it. Netplay on your Wi-Fi never does.</li>
         </ul>
       </section>
@@ -183,6 +188,8 @@
           <li><b>With a Groq key</b>, a voice clip and a short list of names on the handheld (screens, apps and game titles, so they come back spelled right) go to Groq to be turned into words. A question to Juka goes there too, with the conversation so far.</li>
           <li><b>Asking about the screen</b> sends a picture of JukaHub's screen with the question. It is never saved and is dropped once the answer is done.</li>
           <li><b>Juka AI with device tools</b> sends the results of the checks it ran, such as file names, log lines or setting values, after scrubbing stored keys, tokens and passwords; the status and network checks also leave out the Wi-Fi network's name and the device's address. Log lines and file lists can still name games, folders and networks. Turn off <b>Juka can use device tools</b> to send only what you type.</li>
+          <li><b>Translate games</b>, once you turn it on and use it, sends a picture of the game screen to Groq with your key, or to the translation service you set. Nothing is stored.</li>
+          <li><b>Narration</b> speaks with the offline voice on the handheld (or Windows' own voice on a PC), never an online one.</li>
         </ul>
       </section>
 
@@ -193,8 +200,9 @@
           <li><b>PlayStation, Xbox and your PC:</b> Remote Play pairs with your console on your network; a PS5 needs your PSN account ID, which Sony's sign-in or your phone can fill in. X1 signs in inside GreenOvercast, and PC streaming pairs with your PC by PIN.</li>
           <li><b>Steam:</b> you sign in by scanning a code with the Steam app; JukaHub never sees your password.</li>
           <li><b>Save sync, RomM and mail:</b> Google Drive, WebDAV, your RomM server and your mail and calendar accounts are reached only when you set them up, with tokens or app passwords added from your phone.</li>
-          <li><b>Chat:</b> the community channel is a Discord server, read and written through Discord.</li>
-          <li><b>RetroAchievements:</b> your progress goes to RetroAchievements with the account RetroArch uses.</li>
+          <li><b>Chat:</b> the community channel is a Discord server, read and written through Discord. The <b>Voice</b> tab joins a room on a public Mumble server run by GameMania (<code>mumble.gamemania.org</code>): your voice and your Chat name go to that server and the people in the room, and nothing connects until you join. The rooms are open: anyone on that server can see the channel list and walk into the JukaHub room. The server's owner runs it and JukaHub records nothing; like any Mumble app, each handheld shows the server a certificate it made for itself.</li>
+          <li><b>RetroAchievements:</b> your progress goes to RetroAchievements with the account RetroArch uses. <b>Sign in for games</b> types RetroArch's login on the handheld, and JukaHub never keeps your password. With <b>Offline achievements</b> (on by default), JukaHub keeps RetroArch's login token, your games' achievement lists and the unlocks still waiting to be sent on the card, and sends those unlocks when the handheld is back online.</li>
+          <li><b>Network drives:</b> the NAS or PC shares you add are reached directly at the address you give, with their passwords stored encrypted.</li>
         </ul>
       </section>
 
@@ -260,7 +268,7 @@
       </div>
     </div>
     <div class="footer__legal">
-      <p>JukaHub is free software under the GNU Affero General Public License v3, and it includes no games, BIOS files or firmware. TrimUI, PlayStation, PS4, PS5, Xbox, Steam, Minecraft, GeForce NOW, YouTube, Discord, Nintendo, Sega, Windows and other names are trademarks of their owners; JukaHub is not affiliated with or endorsed by them.</p>
+      <p>JukaHub is free software under the GNU Affero General Public License v3, and it includes no games, BIOS files or firmware. TrimUI, PlayStation, PS4, PS5, Xbox, Steam, Minecraft, GeForce NOW, YouTube, Discord, Nintendo, Sega, Windows, Java, Tailscale and other names are trademarks of their owners; JukaHub is not affiliated with or endorsed by them.</p>
       <p>This site sets no cookies and runs no analytics.</p>
     </div>
   </div>

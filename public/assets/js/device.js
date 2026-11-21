@@ -221,8 +221,8 @@
     apps: ['Apps', 'Every other app on the card with its own icon, Steam, Windows Apps, and the built-ins: JukaLand, Weather and the Browser.'],
     favorites: ['Favorites', 'Videos and links you saved, one press away.'],
     browser: ['Browser', 'A web browser built for the D-pad that blocks ads and trackers and plays YouTube links in Media.'],
-    chat: ['Chat', 'The community Discord channel on the handheld, voice clips and voice channels, and a Juka AI tab. The badge counts unread messages.'],
-    tools: ['Tools', 'The IP address, FTP and SFTP, the phone companion, Screen Share, Save sync, the Toolbox and the Security & trust page.'],
+    chat: ['Chat', 'The community Discord channel on the handheld, voice clips, a Voice tab that joins the community voice room in one press, and a Juka AI tab. The badge counts unread messages.'],
+    tools: ['Tools', 'The IP address, FTP and SFTP, the phone companion, Screen Share, Save sync, Party Mode, Controller Mode, everyday apps, the Toolbox and the Security & trust page.'],
     files: ['Files', 'A file manager for the card: open photos, music, videos and books, extract archives, and move files between two consoles.'],
     settings: ['Settings', 'Display, over 50 themes, the Home layout, Voice & AI, JukaHub OS and seven languages.'],
     search: ['Search', 'Y from anywhere on Home: apps, games, settings rows, files and the web, typed, said or sent from your phone.'],
@@ -335,6 +335,7 @@
       ['retro_rin', 'Netplay found my Brick by itself, no IP typed', '2m'],
       ['pixelpilot', 'Is PS5 pairing fine on hotel Wi-Fi?', '9m'],
       ['Juka AI', 'Ask about the handheld; it can look before it answers', 'Open', 'accent'],
+      ['Voice', 'The community voice room: one press, nothing to sign up for', 'Join'],
       ['Reply', 'Type here, from your phone, or hold the mic for a clip', ''],
     ],
   };

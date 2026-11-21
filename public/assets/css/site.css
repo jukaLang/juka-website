@@ -3668,6 +3668,12 @@ td:first-child {
   white-space: nowrap;
 }
 
+/* Tables whose first column is a sentence (troubleshooting) wrap it. */
+.table--prose td:first-child {
+  width: 34%;
+  white-space: normal;
+}
+
 .codeblock {
   padding: 18px 22px;
   border-radius: 16px;
